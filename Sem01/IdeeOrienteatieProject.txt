@@ -1,0 +1,21 @@
+FME script dat data van .shp, .gpkg, .exl -> naar .gpkg omvormt zodat er daarna verder mee gewerkt kan worden in in gdal/ogr maken
+
+Homelab maken, gedeelde kalender voor mij en mijn vriendin, back up voor school data en aansturen voor IoT dingen
+
+Projectnam een prototype voor het meten van gezondheidsparameters
+Huidplooibereking software, vul in wat je nodig hebt voor huidplooi meting, cm omvang van bepaalde spiergroepen, gewicht en dit wordt opgeslagen naar een database.
+Arduino weegschaal maken, dit vervolgens uitbreiden. Wwegschaal moet analoog en digtaal werken
+
+PR.Smart Urban Energy: ICT inzetten voor duurzame steden in Nederland
+Kan ik dit ook combineren met aridino door zelf data op te halen?
+
+Probleem: in een overzicht informatie krijgen, zowel per verschillende tijdseenheden als realtime, over mijn energie, gas, water verbruik en opwekking. En de combinatie daarvan met energie prijzen, dynamisch contract. Wellicht later ook uitbeiden naar een iot platform dat zlef bedenkt wanneer het de was moet aanzetten etc
+innovatie vraag"Hoe kan ik een monitoringssysteem bouwen dat het energie- en gasverbruik, wellicht ook water, in huis inzichtelijk maakt, zodat ik beslissingen kan nemen over het optimaal gebruiken van apparaten en het maximaliseren van duurzaam opgewekte energie?"
+
+palantir europees alternatief
+
+amerikaanse software in europa na maken
+
+fysio / coach software om input data te krijgen bij het squatten. hoe zet je druk, hoe zet draai je je benen. Mensen knieblesuures, hoort niet, gemaakt om te lopen/rennen/ probleem verkeerde houding maar zoveel variable waar het fout kan gaan. daarvoor exxtra censoren om coach te helpen met vinden van het probleem / de problemen
+
+samenhorigheid. website dat goud  tov huizenprijs tov modaal inkomen etc bijhoudt. zodat generaties beter kunnen vergelijken hoe zwaar nu iets was
