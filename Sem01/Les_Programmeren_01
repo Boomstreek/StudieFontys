@@ -1,0 +1,35 @@
+flowchart
+ruit is input gebruik / vraag gebruiker
+vierkant is processing computer
+
+		// Stap 1: Computer bedenkt een willekeurig getal tussen 0 en 20
+		Random random = new Random();
+		int geheimGetal = random.Next(0, 21); // 0 t/m 20
+ 
+		int gok = -1;
+ 
+		// Zolang de gok niet juist is, blijft het spel doorgaan
+		while (gok != geheimGetal)
+		{
+			Console.WriteLine("Kies een getal tussen 0 en 20:");
+ 
+			// Leest de gok van de speler
+			string invoer = Console.ReadLine();
+ 
+			// Controleer of invoer een geldig getal is
+			if (int.TryParse(invoer, out gok))
+			{
+				if (gok == geheimGetal)
+				{
+					Console.WriteLine("Gewonnen!!!");
+				}
+				else
+				{
+					Console.WriteLine("FOUT!!");
+				}
+			}
+			else
+			{
+				Console.WriteLine("Dat is geen geldig getal. Probeer opnieuw!");
+			}
+		}
