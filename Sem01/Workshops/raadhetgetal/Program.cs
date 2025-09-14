@@ -8,50 +8,46 @@ class Program
         Random random = new Random();
         int geheimGetal = random.Next(0, 1001);  // 0 t/m 1000
 
-        int gok = -1;
-        int pogingen = 0; 
+        int pogingen = 0;
+        const int maxPogingen = 10;
+        bool geraden = false;
 
         Console.WriteLine("Welkom bij Raad Het Getal!");
-        Console.WriteLine("Probeer het juiste getal te raden tussen 0 en 1000.\n");
+        Console.WriteLine("Probeer het juiste getal te raden tussen 0 en 1000.");
+        Console.WriteLine($"Maximaal aantal pogingen is {maxPogingen}.\n");
 
-        // Zolang de gok niet juist is, blijft het spel doorgaan
-        while (gok != geheimGetal)
+        while (!geraden && pogingen < maxPogingen)
         {
             Console.Write("Kies een getal tussen 0 en 1000: ");
-
-            // Leest de gok van de speler
             string invoer = Console.ReadLine() ?? "";
 
-            // Controleer of invoer een geldig getal is
-            if (int.TryParse(invoer, out gok))
+            if (int.TryParse(invoer, out int gok))
             {
-                // Controleer of het getal binnen bereik is
-                if (gok < 0 || gok > 1000)
-                {
-                    Console.WriteLine("Getal buiten bereik! Probeer opnieuw.\n");
-                    continue;
-                }
-
                 if (gok == geheimGetal)
                 {
-                    Console.WriteLine("🎉 Gewonnen!!! Het juiste getal was " + geheimGetal);
-                    Console.WriteLine($"Aantal pogingen: {pogingen}");
+                    Console.WriteLine($"Victory! Je hebt het getal geraden in {pogingen} pogingen.");
+                    geraden = true;
                 }
-                else if (gok > geheimGetal)
+                else if (gok < geheimGetal)
                 {
-                    Console.WriteLine("FOUT! Gok lager ↓\n");
                     pogingen++;
+                    Console.WriteLine($"Hoger! Pogingen: {pogingen}");
                 }
                 else
                 {
-                    Console.WriteLine("FOUT! Gok hoger ↑\n");
                     pogingen++;
+                    Console.WriteLine($"Lager! Pogingen: {pogingen}");
                 }
             }
             else
             {
-                Console.WriteLine("Dat is geen geldig getal. Probeer opnieuw!\n");
+                Console.WriteLine("Geen geldig getal, probeer opnieuw.");
             }
+        }
+
+        if (!geraden)
+        {
+            Console.WriteLine($"Te veel pogingen! Het geheime getal was {geheimGetal}.");
         }
 
         Console.WriteLine("Druk op een toets om af te sluiten...");

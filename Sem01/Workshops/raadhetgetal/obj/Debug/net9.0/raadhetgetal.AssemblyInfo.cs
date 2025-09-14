@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("raadhetgetal")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e38c21a5124b382f98ddd5098c8c6f201b71b4c9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2e447e15557d736a5bd88b9c68a0b9bf82d583f5")]
 [assembly: System.Reflection.AssemblyProductAttribute("raadhetgetal")]
 [assembly: System.Reflection.AssemblyTitleAttribute("raadhetgetal")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
