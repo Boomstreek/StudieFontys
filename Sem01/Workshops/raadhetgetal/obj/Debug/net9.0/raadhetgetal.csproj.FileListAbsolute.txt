@@ -1,0 +1,15 @@
+/home/Bram/Documents/Studie/Sem01/Workshops/raadhetgetal/bin/Debug/net9.0/raadhetgetal
+/home/Bram/Documents/Studie/Sem01/Workshops/raadhetgetal/bin/Debug/net9.0/raadhetgetal.deps.json
+/home/Bram/Documents/Studie/Sem01/Workshops/raadhetgetal/bin/Debug/net9.0/raadhetgetal.runtimeconfig.json
+/home/Bram/Documents/Studie/Sem01/Workshops/raadhetgetal/bin/Debug/net9.0/raadhetgetal.dll
+/home/Bram/Documents/Studie/Sem01/Workshops/raadhetgetal/bin/Debug/net9.0/raadhetgetal.pdb
+/home/Bram/Documents/Studie/Sem01/Workshops/raadhetgetal/obj/Debug/net9.0/raadhetgetal.GeneratedMSBuildEditorConfig.editorconfig
+/home/Bram/Documents/Studie/Sem01/Workshops/raadhetgetal/obj/Debug/net9.0/raadhetgetal.AssemblyInfoInputs.cache
+/home/Bram/Documents/Studie/Sem01/Workshops/raadhetgetal/obj/Debug/net9.0/raadhetgetal.AssemblyInfo.cs
+/home/Bram/Documents/Studie/Sem01/Workshops/raadhetgetal/obj/Debug/net9.0/raadhetgetal.csproj.CoreCompileInputs.cache
+/home/Bram/Documents/Studie/Sem01/Workshops/raadhetgetal/obj/Debug/net9.0/raadhetgetal.sourcelink.json
+/home/Bram/Documents/Studie/Sem01/Workshops/raadhetgetal/obj/Debug/net9.0/raadhetgetal.dll
+/home/Bram/Documents/Studie/Sem01/Workshops/raadhetgetal/obj/Debug/net9.0/refint/raadhetgetal.dll
+/home/Bram/Documents/Studie/Sem01/Workshops/raadhetgetal/obj/Debug/net9.0/raadhetgetal.pdb
+/home/Bram/Documents/Studie/Sem01/Workshops/raadhetgetal/obj/Debug/net9.0/raadhetgetal.genruntimeconfig.cache
+/home/Bram/Documents/Studie/Sem01/Workshops/raadhetgetal/obj/Debug/net9.0/ref/raadhetgetal.dll

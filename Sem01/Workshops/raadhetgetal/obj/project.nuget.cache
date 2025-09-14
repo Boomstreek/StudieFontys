@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "M4O81WF6e7E=",
+  "success": true,
+  "projectFilePath": "/home/Bram/Documents/Studie/Sem01/Workshops/raadhetgetal/raadhetgetal.csproj",
+  "expectedPackageFiles": [
+    "/home/Bram/.nuget/packages/microsoft.aspnetcore.app.ref/9.0.8/microsoft.aspnetcore.app.ref.9.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}
