@@ -1,0 +1,408 @@
+Skip to content
+Chat history
+
+You said:
+
+Ik moet een document schrijven dat mijn leerdoelen aantoont. De 5 Topics binnen mijn studie moet je behandelen als je daar iets mee doet. De 5 topics zijn Technologies, Buisness & Intelegence, Programeren, Media design en infrastructuur. 
+
+Ik doe een HBO opleidinging ICT aan het fontys
+
+Ik heb een project waarmee ik een meetsysteem maak dat ondersteuning biedt bij het powerliften. Zodat een powerlift coach beter kan zien wat de pupil doet en ook kan valideren of die het beter doet na aanwijzingen.
+
+Stel vragen voor verduidelijking.
+ChatGPT said:
+Helder! Om ervoor te zorgen dat je document echt goed aansluit op je opleiding en jouw project, heb ik een paar vragen om te verduidelijken:
+
+Over je project (powerlift meetsysteem):
+
+Welke technologieën gebruik je concreet (bijv. sensoren, AI, data-analyse, apps, hardware)?
+
+Wat is precies het doel voor de powerlift coach: alleen meten en tonen, of ook adviseren/automatisch analyseren?
+
+Werk je alleen of in een team, en wat is jouw persoonlijke bijdrage?
+
+Over de vijf topics:
+
+Technologies:
+
+Welke technologische keuzes heb je gemaakt en waarom (bijv. hardware/software, frameworks, protocollen)?
+
+Business & Intelligence:
+
+Voor wie ontwikkel je dit systeem precies (coach, sportschool, atleet zelf) en wat is de waarde voor hen?
+
+Heb je nagedacht over hoe dit product in de praktijk geïmplementeerd of verkocht kan worden?
+
+Programmeren:
+
+Welke programmeertalen of frameworks gebruik je en welke onderdelen programmeer je zelf?
+
+Welke uitdaging vond je het grootst bij programmeren tot nu toe?
+
+Media design:
+
+Hoe ga je de resultaten van de metingen presenteren (grafieken, video-overlay, app-UI)?
+
+Hoe zorg je dat een coach snel en duidelijk kan zien wat er belangrijk is?
+
+Infrastructuur:
+
+Waar draait het systeem (lokaal, in de cloud, op een server, op een laptop/telefoon)?
+
+Hoe zorg je dat data veilig en betrouwbaar verwerkt wordt?
+
+Tot slot:
+13. Zijn je leerdoelen vooral technisch (meer leren programmeren/sensoren gebruiken), of ook breder (zoals samenwerken, onderzoeken, presenteren)?
+14. Wil je dat ik straks een raamwerk/structuur voor je document voorstel op basis van de 5 topics, of eerst helpen met het formuleren van jouw leerdoelen per topic?
+
+Wil je dat ik een lijst maak met voorbeeld-leerdoelen per topic, zodat je ze kunt aanpassen naar je eigen project?
+
+You said:
+1. Sensoren, arduine, data analyse. welke precies ik ga gebruiken dat weet ik nog niet. Dat moet uit een onderzoek komen.
+
+2. Powerlift coach kan hierdoor subtieler zien wat de client doet. dus bijvoorbeeld het worden druk sensoren waar de client op staat zodat de coach ziet hoe de client de druk van het gewicht door zijn/haar voeten gaat.
+3. alleen
+
+ok voor alle vragen, verwijs ik na de analuse die ik heb gemaakt hierodner.
+
+Analyse- en Adviesdocument: Prototype voor het meten van gezondheidsparameters
+
+Table of Contents
+1. Projectbeschrijving	3
+2. Analyse / Specificatie	5
+2.1 Scope	5
+2.2 Doelgroep / Gebruikers	5
+2.3 Functieanalyse (MoSCow)	5
+2.4 Beperkingen en voorkeuren	6
+2.5 Use case / scenario	7
+2.6 Openstaande vragen / keuzes	7
+3. Methoden	9
+3.1 Welke sensoren zijn geschikt?	9
+3.2 Welke microcontroller/software-setup geeft de geschikte realtime feedback?	10
+3.3 Welke analysevormen zijn nuttig voor professionals?	10
+3.4 Schematische weergave	11
+4. Advies en Planning	13
+Bijlage 1 – Conceptvragenlijst Expertinterviews	15
+Blok 1 – Sensoren (opgesplitst naar experts)	15
+1. Expertinterview met powerliftcoach	15
+2. Expertinterview met sensor- of hardware-expert	15
+3. Literatuurstudie	16
+Blok 2 – Microcontroller & Software	16
+Blok 3 – Analyse & Gebruik	16
+Afsluitende vragen	17
+
+1. Projectbeschrijving
+Projectnaam: Bewegingsanalyse Powerliften
+Introductie:
+Hersenen, waarmee we kunnen nadenken, en onze beweegbare duimen, waarmee we objecten manipuleren, worden vaak gezien als onze belangrijkste evolutionaire voordelen. Toch bezit de mens nog meer bijzondere eigenschappen.
+Een goed voorbeeld hiervan is de Man vs. Horse Marathon in Llanwrtyd Wells, Wales. Deze jaarlijkse wedstrijd, waarin hardlopers het opnemen tegen ruiters te paard over zo’n 35 kilometer, werd voor het eerst georganiseerd in 1980 na een discussie in een pub over de vraag of een mens een paard zou kunnen verslaan op lange afstand. Over het algemeen winnen de paarden door hun snelheid, maar in 2004, 2007, 2022, 2023 en 2025 won de mens. Wat deze dagen gemeen hadden, waren (zeer) warme weersomstandigheden.
+De verklaring ligt in onze uitzonderlijke thermoregulatie. Mensen kunnen zweten over het gehele lichaam, waardoor warmte efficiënt wordt afgevoerd. In combinatie met ons enorme uithoudingsvermogen maakt dit ons tot zeer sterke duursporters. Volgens de ‘persistence hunting’-hypothese (verwijzing toevoegen?) zijn we evolutionair gevormd om langere afstanden vol te houden: misschien niet de snelsten, maar wel de meest volhardende.
+Probleem:
+Veel mensen, waaronder ikzelf, ervaren beperkingen bij hardlopen, vaak door knieklachten. Powerlifting heeft mijn overtuiging veranderd: de oorzaak ligt vaak niet bij de knieën zelf, maar bij een gebrek aan mobiliteit of gebrekkige neuromusculaire aansturing in de heupen en/of voeten.
+Wanneer een beweging niet volledig kan worden uitgevoerd, compenseert het lichaam op manieren die op de lange termijn tot klachten leiden. Professionals zoals fysiotherapeuten of powerliftcoaches kunnen helpen, maar hebben geen directe toegang tot interne bewegingsinformatie. Men kan niet in het lichaam van hun client kijken. Dit project richt zich op het ontwikkelen van een systeem dat professionals helpt betere inzichten te krijgen in de bewegingen van hun cliënten.
+Doel:
+Ontwikkelen van een prototype meetsysteem dat professionals ondersteunt bij de analyse van bewegingen tijdens powerlifting en bij de evaluatie van eventuele aanpassingen of correcties.
+Hoofdvraag:
+Welk digitaal meetsysteem kan worden ontwikkeld dat inzicht biedt in de bewegingen die worden gemaakt tijdens powerlifting?
+2. Analyse / Specificatie
+2.1 Scope
+Het prototype wordt ontwikkeld in meerdere fases (runs):
+    1. Run 1 – Onderzoeksvragen: Onderzoeksvragen identificeren, requirements verzamelen.
+    2. Run 2 – Hardware prototyping: Testen van sensortechnologieën en realtime visualisatie.
+    3. Run 3 – Dataopslag: Lokale opslag van sensordata voor latere analyse en terug kijken van de opgeslagen data.
+    4. Run 4 – Analyse: Data-analyse toevoegen, bijvoorbeeld visualisatie van drukverdeling of bewegingspatronen.
+    5. Run 5 – Verdere uitbreidingen: Integratie met apps, webinterface of slimme software, afhankelijk van resterende tijd, budget en feedback uit eerdere runs.
+2.2 Doelgroep / Gebruikers
+    • Primair: Professionals zoals fysiotherapeuten en coaches die inzicht willen in hoe een cliënt beweegt.
+    • Secundair: Cliënten zelf, indien het systeem later intuïtief genoeg wordt.
+    • Gebruiksgemak is belangrijk, maar prioriteit ligt op functionerend prototype.
+2.3 Functieanalyse (MoSCow)
+
+Functie / Feature	MoSCoW-prioriteit	Toelichting / Run
+Vrije software	Must have	Open-source software
+Realtime uitlezen van sensordata	Must have	Kernfunctionaliteit voor feedback (Run 2)
+Draagbaarheid hardware	Must have	Belangrijk voor gebruik in sportschool (Run 1 & 2)
+Visualisatie van data	Must have	Voor interpretatie door professional (Run 2 & 3)
+Data lokaal opslaan	Must have	Nodig voor latere analyse (Run 3)
+Basisanalyse van data	Should have	Bijvoorbeeld drukverdeling, grafieken (Run 3)
+Detectie compensatiebewegingen	Should have	Ondersteunt advies (Run 3)
+Geavanceerde analyses	Could have	Heatmaps, alerts (Run 4)
+Intuïtieve interface voor cliënten	Could have	Mogelijk in toekomstige uitbreiding (Run 4)
+Integratie met apps/webinterface	Could have	Optioneel, gepland voor Run 5
+Cloudopslag sensordata	Won’t have	Buiten scope
+Realtime coaching AI	Won’t have	Buiten scope
+Volledige compatibiliteit alle sensortypes	Won’t have	Focus op specifieke sensoren
+Integratie met wearables	Won’t have	Te veel uitbreiding
+
+2.4 Beperkingen en voorkeuren
+Het project kent diverse beperkingen en ontwerpvoorkeuren die van invloed zijn op de technische uitwerking en keuzes voor hardware, software en functionaliteit:
+Beperkingen:
+    • Beperkte tijd: Dit is een eerste project; er is slechts beperkte tijd beschikbaar om het prototype te ontwikkelen. Hierdoor ligt de focus op kernfunctionaliteit en haalbare iteraties/runs.
+    • Beperkte ervaring met sensortechnologieën: Hoewel dit mijn eerste project van deze omvang is, beschik ik over beperkte ervaring met het ontwikkelen van sensorgebaseerde systemen. Dit kan het leerproces en de snelheid van ontwikkeling beïnvloeden.
+    • Beperkt projectbudget: De beschikbare middelen zijn beperkt, waardoor keuzes voor hardware en software zorgvuldig moeten worden gemaakt.
+    • Draagbaarheid: Het prototype moet redelijk makkelijk mee te nemen zijn: handzaam (“sjauwable”), maar niet zo zwaar dat er speciale hulpmiddelen nodig zijn (“forkliftenabled”). Dit stelt grenzen aan de omvang en het gewicht van de hardware en beïnvloedt de keuze van sensoren en schermen.
+    • Prototypekarakter: Het systeem wordt niet direct ontwikkeld als commercieel product, maar als proof-of-concept. Niet alle functies hoeven volledig uitontwikkeld te zijn.
+Voorkeuren / voordelen:
+    • Powerliftomgeving als voordeel: Dankzij mijn ervaring met powerliften en frequente aanwezigheid in de powerliftomgeving is er relevante voorkennis over bewegingen, houding en compensaties. Deze omgeving biedt een veilige en toegankelijke plek om het systeem te testen en snel feedback te krijgen van coaches en andere professionals.
+    • Voorkeur voor open-source software: Waar mogelijk wordt gekozen voor open-source software, tenzij andere beperkingen dit onmogelijk maken, bijvoorbeeld vanwege compatibiliteit of functionaliteit. 
+2.5 Use case / scenario
+    1. De professional plaatst sensoren op, rond, onder of boven de cliënt.
+    2. De cliënt voert specifieke bewegingen uit, zoals squats, deadlifts of bench presses.
+    3. De sensordata wordt realtime weergegeven op een scherm of tablet, zodat de professional direct feedback kan krijgen.
+    4. De data kan lokaal worden opgeslagen voor nadere analyse of vergelijking in de toekomst.
+    5. De professional gebruikt de verzamelde informatie om advies te geven, de techniek aan te passen of compensatiebewegingen te corrigeren.
+2.6 Openstaande vragen / keuzes
+    • Welke specifieke sensoren zijn geschikt? (Hoofdstuk 4, uitwerking methode)
+    • Welke microcontroller/software setup geeft de beste realtime feedback? (hoofdstuk 4, uitwerking methode)
+    • Welke analysevormen zijn nuttig voor professionals? (grafieken, heatmaps, alerts) (hoofdstuk 4, uitwerking methode)
+3. Methoden
+In dit hoofdstuk worden de onderzoeksmethoden beschreven die worden toegepast om de openstaande vragen uit hoofdstuk 2.6 te beantwoorden. Het doel is om systematisch te bepalen welke sensoren, microcontroller/software-setup en analysevormen geschikt zijn voor het prototype.
+Voor dit project wordt gebruikgemaakt van methoden zoals beschreven op ictresearchmethods.nl. Het gaat hierbij om een combinatie van Library methods (secundair onderzoek, zoals literatuurstudie) en Workshop research (co-design), waarbij experts en eindgebruikers actief worden betrokken in het ontwerpproces. Praktische veldtesten met cliënten vallen in deze fase nog buiten scope.
+3.1 Welke sensoren zijn geschikt?
+Om te bepalen welke sensoren bruikbaar zijn voor het meten van bewegingen tijdens krachttraining, wordt een combinatie van expertinput en literatuurstudie ingezet.
+Stappenplan:
+    1. Expertinterview met powerliftcoach
+        ◦ Doel: inzicht krijgen in welke bewegingen en informatie voor hem/haar het meest waardevol zijn bij het analyseren van cliënten.
+        ◦ Voorbeeldvragen:
+            ▪ Bij welke oefeningen mis je cruciale informatie over de beweging van cliënten?
+            ▪ Welke fouten of compensatiepatronen wil je sneller of duidelijker kunnen zien?
+            ▪ Wat zou je minimaal op een scherm willen terugzien tijdens of na een oefening?
+    2. Expertinterview met sensor- of hardware-expert
+        ◦ Doel: bepalen welke van de informatiebehoeften uit het coach-interview technisch meetbaar zijn en binnen de scope van dit project passen.
+        ◦ Voorbeeldvragen:
+            ▪ Welke sensortypen zijn geschikt om de genoemde bewegingen te meten?
+            ▪ Zijn er beperkingen qua draagbaarheid, gewicht of robuustheid waar rekening mee gehouden moet worden?
+            ▪ Welke sensoren zijn praktisch haalbaar binnen het beschikbare budget?
+    3. Literatuurstudie
+        ◦ Doel: vergelijking maken tussen verschillende sensortypen (bijv. krachtsensoren, druksensoren, IMU’s).
+        ◦ Focuspunten:
+            ▪ Belastbaarheid (kunnen ze voldoende kracht registreren zonder schade?)
+            ▪ Type input (dynamisch, statisch, combinatie)
+            ▪ Gebruikservaringen uit eerdere projecten (handleidingen, wetenschappelijke artikelen, online bronnen).
+3.2 Welke microcontroller/software-setup geeft de geschikte realtime feedback?
+De keuze voor de microcontroller en software is afhankelijk van de sensoren die geselecteerd worden. Om tot een geschikte setup te komen:
+    • Literatuurstudie
+        ◦ Onderzoeken welke microcontrollers en frameworks vaak worden gebruikt in combinatie met de geselecteerde sensoren.
+        ◦ Criteria: snelheid van dataverwerking, compatibiliteit, draagbaarheid, community-ondersteuning (open-source).
+    • Expertinterview met hardware-/software-experts
+        ◦ De voorlopige keuzes uit de literatuurstudie worden voorgelegd aan experts om praktische feedback te krijgen.
+        ◦ Doel: toetsen of de combinatie sensoren–microcontroller/software technisch haalbaar is en of er alternatieven zijn die beter aansluiten.
+3.3 Welke analysevormen zijn nuttig voor professionals?
+Om te bepalen welke vormen van data-analyse en visualisatie effectief zijn voor professionals, wordt co-design (workshop research) toegepast. Hierbij worden eindgebruikers actief betrokken in het ontwerpproces.
+Aanpak:
+    • Literatuurstudie
+        ◦ Onderzoeken van bestaande studies in de bewegingswetenschappen, fysiotherapie en krachttraining om een basis te leggen voor mogelijke analysetools.
+    • Co-design workshop met powerliftcoach
+        ◦ Samen met een coach wordt in een interactieve sessie verkend welke vormen van visualisatie (bijv. grafieken, heatmaps, alerts) het meest bruikbaar zijn.
+        ◦ Door het gezamenlijk schetsen of bespreken van mock-ups ontstaat direct inzicht in voorkeuren en gebruiksgemak.
+    • Resultaat:
+        ◦ Een selectie van 2–3 analysevormen die aansluiten op de praktijkbehoeften van professionals en die in het prototype verder kunnen worden uitgewerkt.
+3.4 Schematische weergave
+
+Openstaande vraag	Onderzoeksmethode(n)	Verwacht resultaat
+Welke sensoren zijn geschikt?	- Expertinterview met powerliftcoach
+- Expertinterview met sensor-/hardware-expert
+- Literatuurstudie (vergelijking eigenschappen sensoren)	Selectie van 1–2 sensortypen die technisch haalbaar en praktisch bruikbaar zijn voor het prototype.
+Welke microcontroller/software-setup geeft de beste realtime feedback?	- Literatuurstudie (technische opties en compatibiliteit)
+- Expertinterview met hardware-/software-experts	Keuze voor een microcontroller en softwareomgeving die realtime feedback kan geven en aansluit bij de geselecteerde sensoren.
+Welke analysevormen zijn nuttig voor professionals?	- Literatuurstudie (bewegingswetenschappen, fysiotherapie, krachttraining)
+- CO-Design
+- Expertreview met powerliftcoach	Lijst van 2–3 visualisatievormen (bijv. grafieken, heatmaps, alerts) die voor professionals het meest waardevol zijn.
+
+4. Advies en Planning
+Op basis van de analyses in hoofdstukken 2 en 3 kan het volgende voorlopig advies worden gegeven:
+    1. Sensortechnologie
+        ◦ Begin met 1–2 types sensoren die informatie kan verzamelen dat de expert nieuwe inzichten geeft maar die ook toepasbaarzijn voor een onervaren ontwikkelaar.
+        ◦ Focus op draagbaarheid en gebruiksgemak, zodat de professional het prototype eenvoudig kan toepassen in een sportschool- of trainingsomgeving.
+        ◦ Sensoren moeten robuust genoeg zijn voor dynamische krachttrainingen, maar hoeven niet direct commercieel geschikt te zijn.
+    2. Microcontroller en software
+        ◦ Gebruik een microcontroller/platform met goede ondersteuning voor real-time data-acquisitie en compatibiliteit met de gekozen sensoren (bijv. Arduino of ESP32).
+        ◦ Houd de software open-source en modulair, zodat functies later eenvoudig uitgebreid kunnen worden.
+        ◦ Voor visualisatie kan in eerste instantie een laptop of tablet worden gebruikt, zodat realtime feedback zichtbaar is voor de professional.
+    3. Analyse en visualisatie
+        ◦ Pas co-design (workshop research) toe met een coach/fysiotherapeut om 2–3 analysevormen te selecteren die bruikbaar zijn in de praktijk.
+        ◦ Mogelijke vormen: grafieken van bewegingshoek, heatmaps van drukverdeling, waarschuwingen bij compensatiebewegingen.
+        ◦ Begin eenvoudig en bouw stap voor stap uit naar complexere analyses.
+    4. Prototypefocus
+        ◦ Het primaire doel is een functionerend proof-of-concept.
+        ◦ Alle keuzes worden gemaakt met het oog op eerste bruikbare versie, niet op een commercieel product.
+        ◦ Feedback van experts en gebruikers zal richting geven aan toekomstige uitbreidingen.
+
+Planning
+Fase / Run	Activiteit	Tijdsbesteding
+Run 1	Onderzoeksvragen definiëren en literatuurstudie	4 weken
+Run 2	Hardware prototyping: sensoren selecteren, koppelen, realtime uitlezen	2 weken
+Run 3	Data-opslag: lokaal opslaan van sensordata	2 weken
+Run 4	Analyse & co-design workshop: selecteren van visualisatievormen	2 weken
+Run 5	Verdere uitbreidingen: integratie apps, smartware, extra functies	3–4 weken (optioneel)
+Totaal	Prototype ontwikkeling en eerste evaluatie minus optioneel	10 weken
+
+Bijlage 1 – Conceptvragenlijst Expertinterviews
+Deze vragenlijst dient als leidraad voor de expertinterviews in het kader van het project Bewegingsanalyse Powerliften. Afhankelijk van de expertise van de geïnterviewde (coach, fysiotherapeut, hardware-/software-expert) kan een selectie uit onderstaande vragen worden gemaakt.
+Blok 1 – Sensoren (opgesplitst naar experts)
+1. Expertinterview met powerliftcoach
+Doel: Inzicht krijgen in welke bewegingen en informatie voor de coach het meest waardevol zijn bij het analyseren van cliënten.
+Voorbeeldvragen:
+    1. Bij welke oefeningen mis je cruciale informatie over de beweging van cliënten?
+    2. Welke fouten of compensatiepatronen wil je sneller of duidelijker kunnen zien?
+    3. Wat zou je minimaal op een scherm willen terugzien tijdens of na een oefening?
+    4. Zijn er specifieke bewegingen of posities waarvan je denkt dat ze vaak verkeerd worden uitgevoerd?
+    5. Welke meetwaarden zouden jou helpen bij het corrigeren van techniek tijdens trainingen?
+2. Expertinterview met sensor- of hardware-expert
+Doel: Bepalen welke van de informatiebehoeften uit het coach-interview technisch meetbaar zijn en binnen de scope van dit project passen.
+Voorbeeldvragen:
+    1. Welke sensortypen zijn geschikt om de genoemde bewegingen te meten (bijv. krachtsensoren, druksensoren, IMU’s (Inertial Meusurement Unit))?
+    2. Zijn er beperkingen qua draagbaarheid, gewicht of robuustheid waar rekening mee gehouden moet worden?
+    3. Welke sensoren zijn praktisch haalbaar binnen een laag budget?
+    4. Zijn er sensoren die vaak falen in dynamische toepassingen zoals krachttraining?
+    5. Wat zijn de belangrijkste technische factoren om nauwkeurige realtime data te verkrijgen?
+3. Literatuurstudie
+Doel: Vergelijking maken tussen verschillende sensortypen en hun geschiktheid voor het prototype.
+Focuspunten:
+    • Belastbaarheid: kunnen sensoren voldoende kracht registreren zonder schade?
+    • Type input: dynamisch, statisch, of een combinatie?
+    • Gebruikservaringen uit eerdere projecten: handleidingen, wetenschappelijke artikelen, online bronnen.
+
+Blok 2 – Microcontroller & Software
+            ▪ Welke microcontrollers of ontwikkelplatformen (Arduino, ESP32, Raspberry Pi, etc.) zijn volgens u het meest geschikt voor realtime bewegingsfeedback?
+            ▪ Welke software-omgeving of programmeertaal (bijv. Python, C/C++, Matlab) sluit volgens u het beste aan bij sport- en bewegingsanalyse?
+            ▪ Welke valkuilen ziet u vaak bij de koppeling van sensoren met microcontrollers?
+            ▪ Wat zou u adviseren qua balans tussen “snel iets werkends hebben” en “duurzaam een schaalbaar systeem bouwen”?
+Blok 3 – Analyse & Gebruik
+            ▪ Welke vormen van feedback (grafieken, waarschuwingen, geluid, kleurcodes, heatmaps) vindt u voor coaches en fysiotherapeuten het meest bruikbaar?
+            ▪ Hoeveel detail in feedback is wenselijk tijdens een training? (real-time vs. achteraf analyse)
+            ▪ Welke fouten of bewegingen wilt u het liefst dat het systeem direct signaleert?
+            ▪ Wat zou volgens u de grootste meerwaarde zijn van een dergelijk systeem ten opzichte van huidige methoden?
+Afsluitende vragen
+            ▪ Als u zelf een prototype zou mogen ontwerpen: wat zou u er absoluut in stoppen, en wat zeker niet?
+            ▪ Kent u nog andere experts of praktijksituaties die nuttig zouden zijn om in dit onderzoek te betrekken?
+
+beantworod dit al je vragen? zo niet stel die vragen opnieuw. je mag ook niet vragen stellen
+ChatGPT said:
+Top, dank voor het delen van je analyse! Daarmee heb ik een goed beeld hoe je project in elkaar zit. Voor je document met leerdoelen (waarin je de 5 topics moet aantonen) kunnen we jouw analyse direct als basis gebruiken.
+
+Ik stel voor dat we het zo aanpakken:
+
+Per topic (Technologies, Business & Intelligence, Programmeren, Media design, Infrastructuur) koppel je jouw projectactiviteiten en leerdoelen.
+
+Je verwijst steeds naar onderdelen uit je analyse (die je al hebt gemaakt) als onderbouwing.
+
+Je maakt concreet wat jij wilt leren of aantonen binnen elk topic.
+
+Voorbeeldvragen die jij kunt beantwoorden in je document (per topic):
+1. Technologies
+
+Hoe heb je onderzocht welke sensoren het meest geschikt zijn (hoofdstuk 3.1)?
+
+Wat wil je leren over Arduino/ESP32 en het realtime uitlezen van data?
+
+Welke kennis over technologie wil je na dit project kunnen aantonen?
+
+2. Business & Intelligence
+
+Hoe bied je waarde aan een coach of fysiotherapeut (doelgroep in 2.2)?
+
+Hoe laat je zien dat het systeem nuttig is en daadwerkelijk inzicht geeft (bv. via expertinterviews of co-design workshops in 3.3)?
+
+Welke leerdoelen heb jij over het vertalen van een behoefte (coach) naar een werkend prototype?
+
+3. Programmeren
+
+Welke programmeertalen, libraries of frameworks gebruik je (Arduino IDE, Python voor analyse, etc.)?
+
+Welke leerdoelen heb je voor dataverwerking en visualisatie (hoofdstuk 2.3 en 3.2)?
+
+Hoe toets je of je code betrouwbaar genoeg is voor realtime gebruik?
+
+4. Media design
+
+Hoe ontwerp je de visualisatie zodat een coach snel ziet wat belangrijk is (hoofdstuk 3.3)?
+
+Hoe test je of jouw grafieken/heatmaps bruikbaar zijn?
+
+Wat wil je leren over het maken van een interface die niet alleen functioneel, maar ook intuïtief is?
+
+5. Infrastructuur
+
+Waar draait je prototype (Arduino → laptop/tablet → lokale opslag, zie 2.1 en 2.3)?
+
+Hoe borg je dat data betrouwbaar en veilig opgeslagen wordt?
+
+Wat wil je leren over koppelingen tussen hardware en software in een infrastructuur die in de praktijk schaalbaar zou zijn?
+
+👉 Mijn voorstel: ik maak een eerste opzet voor leerdoelen per topic, zodat jij ze kunt aanpassen naar je eigen stijl.
+
+Wil je dat ik meteen zo’n tabel met leerdoelen per topic (5 kolommen, 1 per onderwerp) voor je uitschrijf, gekoppeld aan je projectanalyse?
+
+You said:
+wil je een document maken zodat ik het in een .odt bestand kan plakken
+ChatGPT said:
+Natuurlijk! Hieronder staat een nette uitwerking die je zo kunt kopiëren en plakken in een .odt document. Ik heb het gestructureerd per topic, met steeds een korte toelichting + leerdoelen.
+
+Leerdoelen – Bewegingsanalyse Powerliften
+Dit document beschrijft de leerdoelen van het project Bewegingsanalyse Powerliften. De leerdoelen zijn gekoppeld aan de vijf verplichte onderwerpen: Technologies, Business & Intelligence, Programmeren, Media design en Infrastructuur. Per onderdeel wordt aangegeven wat onderzocht of ontwikkeld wordt, en wat ik daarbij wil leren of aantonen.
+
+1. Technologies
+Toelichting:
+In dit project onderzoek ik welke sensoren geschikt zijn voor het meten van bewegingen tijdens powerlifting (zie Analyse-document hoofdstuk 3.1). Ook kijk ik welke microcontrollers (Arduino, ESP32) en softwareomgevingen geschikt zijn voor realtime feedback.
+
+Leerdoelen:
+
+Ik kan geschikte sensoren selecteren en onderbouwen waarom deze passend zijn voor de context van powerlifting.
+
+Ik kan een werkende sensor-setup koppelen aan een microcontroller en realtime data uitlezen.
+
+Ik leer de technische mogelijkheden en beperkingen van verschillende sensortypen en microcontrollers kennen.
+
+2. Business & Intelligence
+Toelichting:
+De doelgroep van dit project bestaat uit coaches en fysiotherapeuten die baat hebben bij meer inzicht in de bewegingen van cliënten (zie Analyse-document 2.2 en 3.3). De toegevoegde waarde van het prototype ligt in bruikbare feedback die helpt bij het analyseren en corrigeren van techniek.
+
+Leerdoelen:
+
+Ik kan de informatiebehoefte van professionals vertalen naar concrete functionele eisen voor een prototype.
+
+Ik leer hoe ik waarde kan aantonen door middel van expertinterviews en co-design met professionals.
+
+Ik kan uitleggen hoe dit prototype aansluit bij de praktijk en welke inzichten het oplevert voor de eindgebruiker.
+
+3. Programmeren
+Toelichting:
+Het prototype vraagt om programmeerwerk om sensordata uit te lezen, te verwerken en te visualiseren (zie Analyse-document 2.3 en 3.2). Hiervoor gebruik ik microcontroller-programmering (Arduino IDE) en mogelijk aanvullende software voor data-analyse (bijvoorbeeld Python).
+
+Leerdoelen:
+
+Ik kan code schrijven om sensordata realtime te verwerken en uit te lezen.
+
+Ik leer algoritmes toepassen voor basisanalyse, zoals drukverdeling of bewegingspatronen.
+
+Ik kan een koppeling maken tussen hardware en software zodat de output bruikbaar is voor visualisatie.
+
+4. Media design
+Toelichting:
+De data moet op een begrijpelijke manier worden gepresenteerd aan de coach (zie Analyse-document 3.3). Mogelijke vormen zijn grafieken, heatmaps of waarschuwingen bij compensatiebewegingen.
+
+Leerdoelen:
+
+Ik kan een eenvoudige maar effectieve interface ontwerpen die aansluit bij de behoeften van een coach.
+
+Ik leer verschillende visualisatievormen vergelijken en de meest bruikbare selecteren.
+
+Ik kan mock-ups maken en deze toetsen bij een expert, om de gebruiksvriendelijkheid te verbeteren.
+
+5. Infrastructuur
+Toelichting:
+Het systeem bestaat uit sensoren, een microcontroller en een device (laptop of tablet) voor uitlezing en opslag (zie Analyse-document 2.1 en 2.3). De infrastructuur moet draagbaar en betrouwbaar zijn en data lokaal opslaan.
+
+Leerdoelen:
+
+Ik kan een eenvoudige infrastructuur ontwerpen waarin data van sensor tot visualisatie loopt.
+
+Ik leer hoe ik data betrouwbaar kan opslaan en toegankelijk kan maken voor analyse.
+
+Ik kan de randvoorwaarden en beperkingen van een proof-of-concept infrastructuur uitleggen.
+
+✍️ Dit document vormt de basis voor het aantonen van mijn leerdoelen binnen het project. De uitwerking van deze leerdoelen zal plaatsvinden tijdens de verschillende fasen (runs) van het prototype.
+
+Wil je dat ik dit ook meteen in een echte .odt file voor je genereer zodat je niet zelf hoeft te plakken?
+
