@@ -10,6 +10,14 @@ Loop, niet 38000 keer op schrijven update x, maar via loop x 38000 keer updaten 
 
 string invoer, toetsenbord input is altijd een string
 
-if ; else ; statement uitleg, is x waar of niet waar
+if ; else ; statement uitleg, is x waar of niet waar, eenmalig iets.
 
+While, meer dan eenmalig
 
+do while loep. do eerst iers en dan pas pas while doen. Dus niet eerst while en dan een fictieve do ingeven
+
+Variable hebben houdbaarheid, dat valt binnen de {} waar die wordt aangeroepen, in c#
+
+Boolean = true of false
+
+c# tutorial in one hour
