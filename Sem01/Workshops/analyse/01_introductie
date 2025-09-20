@@ -1,0 +1,25 @@
+Introductie les
+
+Stappen
+      Distalern             Combineren                    Presenteren
+Databron -> Inladen en bewerken -> Eindproduct -> Dashboard, Rapport, Presentatie
+
+Wij gaan ons vooral focussen om het laatste, presenteren.
+
+Wij gaan werken met SQL, R & Python
+
+Materiaal
+Werkboek:
+https://fontysict-dataanalysis.github.io/startsemester/
+https://www.datacamp.com/ (toegang aanvragen bij Kees Velthuijs)
+
+Prgrammeeromgeving
+Lokaal: R Studio geinstalleerd lokaal
+Online: rstudio.app.fhict.nl/ (inloggen met I<Studentnummer) (Geen @fhict.nl)
+
+Ga niet alles af van A-Z, bepaald waar je heen wilt gaan en werk daar naar toe
+
+Vraag uit les:
+Hoe presenteer ik open vragen, dus een losse textveld met user input, in een dashboard? Antwoord: Eerst zelf catogoriezeren
+
+Als je een dashboard maakt, test deze eerst met testdata. Bijvoorbeeld of een piechart waarin je als test data 50% man en 50% vrouw stop, ook echt de piecharct 50%/50% maakt.

@@ -6,7 +6,7 @@ class Program
     {
         // Stap 1: Computer bedenkt een willekeurig getal tussen 0 en 1000
         Random random = new Random();
-        int geheimGetal = random.Next(0, 1001);  // 0 t/m 1000
+        int geheimGetal = random.Next(0, 1001); // 0 t/m 1000
 
         int pogingen = 0;
         const int maxPogingen = 10;
@@ -25,7 +25,8 @@ class Program
             {
                 if (gok == geheimGetal)
                 {
-                    Console.WriteLine($"Victory! Je hebt het getal geraden in {pogingen} pogingen.");
+                    Console.WriteLine(
+                        $"Victory! Je hebt het getal geraden in {pogingen} pogingen.");
                     geraden = true;
                 }
                 else if (gok < geheimGetal)
@@ -47,11 +48,11 @@ class Program
 
         if (!geraden)
         {
-            Console.WriteLine($"Te veel pogingen! Het geheime getal was {geheimGetal}.");
+            Console.WriteLine(
+                $"Te veel pogingen! Het geheime getal was {geheimGetal}.");
         }
 
         Console.WriteLine("Druk op een toets om af te sluiten...");
         Console.ReadKey();
     }
 }
-
