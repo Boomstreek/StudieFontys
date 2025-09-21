@@ -1,0 +1,382 @@
+Ik ben bezig met het voorbereiden van een interview. In het analyse en advies document staat de opzet van deze interviwuws, maar ik zet deze nu aan te passen vanwege wat ik heb geleerd en de input van de powerlift coach, expert interview 1.
+
+Expertinterview met sensor- of hardware-expert
+Doel: Bepalen welke van de informatiebehoeften uit het coach-interview technisch meetbaar zijn en binnen de scope van dit project passen.
+Constraints:
+1. Ik ben een beginnende ontwikelaar, ik heb geen ervaring met sensortechniek. Het advies moet dus zoveel mogelijk aansluiten bij iets wat eenvoudig is
+2. De sensore moeten enige robuustheid hebben. Zeker als er kracht doorheen gaat, dan gaat het bij het powerliften direkt op veel gewicht. Bijvoorbeeld krachtsensoren waarop iemand staat moet 200 kilo per voet minimaal kunnen doorstaan. En dan nog kunnen echt sterke mensen er geen gebruik van maken.
+3. de sensoren moeten draagbaar, de gebruiker niet beperken in beweging en eenvoudig en goedkoop zijn om te vervangen.
+4. De voorkeur gaat uit naar open-hardware / open-software. Open source. 
+Vragen:
+    1. Welke sensortypen zijn geschikt om de corespanning te meten bij mensen?
+    2. Welke sensortypen zijn geschikt om de kracht te kunnen meten van een persoon die er met veel gewicht opstaat. Bijvoorbeeld 200kilo per voet.
+    3. Welke sensoren zijn praktisch haalbaar binnen een laag budget?
+    4. Zijn er sensoren die vaak falen in dynamische toepassingen zoals krachttraining?
+    5. Wat zijn de belangrijkste technische factoren om nauwkeurige realtime data te verkrijgen?
+In verband met tijdsdruk ga ik direct de vragen stellen over de microcontroller en software ook stellen
+    1. Welke microcontrollers of ontwikkelplatformen (Arduino, ESP32, Raspberry Pi, etc.) zijn volgens u het meest geschikt voor realtime bewegingsfeedback die de sensorinformatie meten uit de vorige vragen??
+    2. Welke software-omgeving of programmeertaal sluit volgens u het beste aan bij sport- en bewegingsanalyse en de microcontroller? Ik wil weten hoe wat ik qua software moet doen om ervoor te zorgen dat ik de hardware kan aansturen en deze dat kan opslaan en vervoglens een analyse op los laten.
+    3. Welke valkuilen ziet u vaak bij de koppeling van sensoren met microcontrollers?
+ChatGPT said:
+Thought for 10s
+
+Top — mooie update van je interviewopzet. Ik heb het volledig uitgewerkt: eerst korte toelichting / wat je aan de expert wilt toetsen, daarna per vraag (wat je kunt vragen, korte toelichting waarom, en wat je ongeveer aan antwoord / aandachtspunten kunt verwachten). Ook praktische aanbevolen hardware/onderdelen en software-stacks + veel voorkomende valkuilen. Ik houd rekening met jouw constraints (beginner, draagbaar, robuust, open-source voorkeur, low budget).
+
+Intro voor de expert (kort)
+
+“Doel van dit interview: bepalen welke informatiebehoeften uit het coach-interview technisch meetbaar én praktisch haalbaar zijn binnen ons prototype (beginner-vriendelijk, draagbaar, redelijk robuust, voorkeur voor open hardware/software). Ik laat u kort de belangrijkste randvoorwaarden horen en stel daarna gerichte vragen over sensoren, microcontrollers en implementatie.”
+
+Vragen voor de sensor-/hardware-expert — met toelichting en wat je ongeveer kunt verwachten
+1) Welke sensortypen zijn geschikt om de corespanning / core activation te meten bij mensen?
+
+Hoe te vragen: “Welke sensor(en) zou je aanraden om spanning/activatie in de romp/core te meten (niet medische EMG-meting nodig, maar praktische indicatoren voor houding/activation)?”
+
+Waarom: ‘Corespanning’ is geen directe fysieke maat zoals kg; je meet proxy’s: beweging, hoek, acceleratie, spieractivatie.
+
+Waarschijnlijk antwoord / aandachtspunten:
+
+IMU (3-axis accelerometer + 3-axis gyros, soms magnetometer) — goed voor houding, tilt/hoekveranderingen en dynamica van de romp. Indien goed gefuseerd (sensor fusion / kalibratie) kun je trunk-tilt en segmentrotaties afleiden.
+
+EMG (bijv. MyoWare of vergelijkbare open-hardware EMG-sensoren) — directer voor spieractivatie van rectus abdominis / erector spinae, maar: elektrodedruk, huidvoorbereiding en ruis maken dit lastiger.
+
+Inertiële sensoren in meerdere locaties — bijv. één IMU op borst/borstbeen en één op heup/ilium om relatieve houding te bepalen.
+
+Praktisch advies: Voor een beginnend prototype is IMU’s + algoritme (sensor fusion, quaternions) de beste start; EMG kan later toegevoegd worden voor meer directe spieractivatie maar vergt meer expertise en robustere montage.
+
+Wat jij nodig hebt te noteren in je rapport: IMU’s = laag budget, draagbaar, maar resultaten vereisen verwerking (kalibratie, drift-correctie).
+
+2) Welke sensortypen zijn geschikt om kracht te meten van een persoon die er met veel gewicht opstaat (bijv. ≥200 kg per voet)?
+
+Hoe te vragen: “Welke sensoren zijn geschikt voor het meten van grote verticale krachten — wat is betrouwbaar, robuust en betaalbaar?”
+
+Waarschijnlijk antwoord / aandachtspunten:
+
+Load cells (strain gauge) met geschikte capaciteit — commerciële 200–500 kg load cells bestaan; combineer met een goede 24-bit ADC (bijv. HX711) en mechanische bevestiging (plaat, distributie van last). Dit is de professionele weg.
+
+Multiple smaller load cells in een array (bv. 4 × 50–100 kg cellen) onder een plaat om belasting te verspreiden — goedkoper maar vereist mechanische montage en mogelijk non-lineair gedrag bij puntbelasting.
+
+Force plates (commerciële of DIY met meerdere load cells) — meest robuust voor voetbelasting en centre-of-pressure. Commercieel is duur, DIY met load cells + verende mechanica is haalbaar.
+
+FSR (force-sensing resistors) en goedkope flex sensors: niet aan te raden voor zware personen of dynamische zware belastingen — ze zijn goedkoop maar onbetrouwbaar, niet-lineair en slijten.
+
+Conclusie: Gebruik load cells met voldoende rating (min. net boven de maximale verwachte belasting per sensor) + 24-bit ADC + degelijke mechanische behuizing. Voor jouw constraint: koop één of twee 200–500 kg load cells of maak een plate met meerdere 100–200 kg cellen.
+
+3) Welke sensoren zijn praktisch haalbaar binnen een laag budget?
+
+Waarschijnlijk antwoord / opties:
+
+IMU modules (MPU-6050 / MPU-9250 / ICM-20948) — €5–€25 per module. Goed voor houding/acceleratie/hoek.
+
+HX711 + load cell(s) — HX711 module €2–€8; load cells variëren: 50kg ≈ €5–€15, 200kg ≈ €15–€40. Een HX711 + 200kg cell ≈ €20–€50 totaal.
+
+FSR of goedkope drukmatten — goedkoop (€5–€20) maar beperkte duurzaamheid/ nauwkeurigheid — wel bruikbaar voor proof-of-concept waar absolute nauwkeurigheid minder belangrijk is.
+
+EMG breakout (MyoWare of alternatieven) — €20–€60, maar montage en ruisprobleem maakt dit lastiger.
+
+Aanbeveling voor low-budget prototype: Combineer 1–2 IMU’s + een of twee goed gekozen load cells met HX711 (of meerdere 50–100 kg cellen als je mechanica regelt). Dit is relatief goedkoop en geeft bruikbare data.
+
+4) Zijn er sensoren die vaak falen in dynamische toepassingen zoals krachttraining?
+
+Typische zwakke schakels:
+
+Goedkope FSR’s: drift, slijtage, hysteresis bij hoge krachten en vaak onbetrouwbaar voor repeterende zware belastingen.
+
+Slecht gemonteerde load cells (slechte mechanische interface): scheef belasten, loszittende bevestiging of onvoldoende platen zorgt voor meetfouten en schade.
+
+IMU’s zonder goede beugeling / slecht geplakt: vibraties, losse montage en slip veroorzaken ruis en foutieve integratie (drift).
+
+EMG onjuist bevestigd: slechte elektroden-hechting, zweet, beweging artefacten.
+
+Praktisch: onderhoud, goede montage en beschermende behuizing zijn belangrijker dan de sensor zelf.
+
+5) Wat zijn de belangrijkste technische factoren om nauwkeurige realtime data te verkrijgen?
+
+Belangrijkste factoren:
+
+Sampling rate — Voor krachttraining: krachtsignalen kunnen snelle pieken hebben; voor veel toepassingen is ≥200–1000 Hz wenselijk voor krachtmeting (krachtplates vaak 1000 Hz). IMU bewegingen kunnen volstaan met 100–400 Hz afhankelijk van wat je wilt detecteren.
+
+ADC resolutie & kwaliteit — voor load cells is 24-bit ADC (bijv. HX711) gangbaar; let op ruis en offset.
+
+Synchronisatie en timestamps — synchroniseer sensoren (bij meerdere sensoren) nauwkeurig; hardware timestamps of goede tijdstempel-methode is essentieel.
+
+Antialiasing / filtering — analoge laagdoorlaatfilter vóór sampling en digitale filtering na sampling.
+
+Mechanische montage — koppel mechanica (plaat, lijm, bevestiging) goed zodat sensoren de last correct zien.
+
+Kalibratie — goede kalibratie (nul, lineariteitscheck met gewichten) en periodieke herkalibratie.
+
+Shielding / gronding — reduceer ruis door juiste aarding en kabelafscherming.
+
+Latency & buffer management — voor realtime feedback wil je eind-tot-eind latency <100 ms (idealiter <50 ms); streamer of lokale verwerking beïnvloedt dit.
+
+Praktische target: kies sampling rates en ADC die voldoende zijn voor de snelheden en krachten in powerlifting; document die trade-offs.
+
+Microcontroller & softwarevragen — met aanbevelingen en praktische tips
+A) Welke microcontrollers of ontwikkelplatformen zijn het meest geschikt voor realtime bewegingsfeedback?
+
+Aanbevelingen:
+
+ESP32 (ESP32-WROOM, enz.) — sterke kandidaat: goedkoop (€6–€12), Wi-Fi + BLE ingebouwd (handig voor realtime draadloze streaming), dual-core, genoeg I/O en performance voor IMU + 1–4 load cells (met externe ADC). Ondersteunt Arduino-compatibele code, ESP-IDF en MicroPython.
+
+Teensy (bv. Teensy 4.0 / 4.1) — uitstekende realtime prestaties en ADC-vriendelijk, zeer laag latency, veel interrupt-capability; iets duurder (€25–€50). Geweldig als je hoge sampling rates (≥1 kHz) wilt.
+
+Arduino Nano / Uno — goed voor zeer eenvoudige prototypes, maar beperkte CPU, RAM en geen ingebouwde Wi-Fi; niet ideaal voor meerdere hoge-snelheids sensoren of realtime streaming.
+
+Raspberry Pi (Zero W / 4) — meer rekenkracht en makkelijkere data-analyse (Python op-device), maar niet realtime (Linux niet hard realtime) en minder geschikt voor directe, hoge-precisie ADC zonder extra hardware. Kan fungeren als datalogger / server in combinatie met een MCU.
+
+Voor jouw constraints: ESP32 is een pragmatische keuze (beginnervriendelijk, goedkoop, draadloos). Als je latere behoefte hebt aan hoge-snelheid en lage latency, kijk naar Teensy.
+
+B) Welke software-omgeving of programmeertaal past het beste?
+
+Op de microcontroller:
+
+Arduino C/C++ (PlatformIO of Arduino IDE) — veel bibliotheken (IMU, HX711, Wi-Fi, BLE), eenvoudig voor beginners.
+
+ESP-IDF (C) of FreeRTOS — meer control en real-time scheduling voor ESP32 als je meer complexiteit wilt.
+
+MicroPython — sneller prototyping op ESP32, maar lagere prestatie bij zware sampling of complexe filters.
+
+Teensyduino (C/C++) voor Teensy: high performance.
+
+Voor data-opslag en analyse (pc/server):
+
+Python (numpy, scipy, pandas, matplotlib, jupyter) — standaard voor sport/biomechanica-analyses en visualisatie; veel libraries voor filters, FFT, machine learning.
+
+Realtime visualisatie: websockets of MQTT om data van ESP32 naar een browser (JS) of naar een Python process te streamen. Gebruik bv. socket.io of ws + een eenvoudige web-UI, of Dash/Plotly / Bokeh voor snelle dashboards.
+
+Praktische workflow: microcontroller verzamelt + stuurt via Wi-Fi/BLE of schrijft naar SD (CSV). Op PC ingestuurd naar Python-scripts voor opslag en analyse. Voor realtime feedback kun je eenvoudige onboard thresholds berekenen (bv. druk > X) en LED/buzzer sturen of via BLE naar smartphone.
+
+C) Welke valkuilen ziet u vaak bij de koppeling van sensoren met microcontrollers?
+
+Belangrijkste valkuilen:
+
+Ondeskundige mechanische bevestiging — sensoren worden verkeerd belast (scheef, niet-gecentreerd) → verkeerde data of kapotte sensor.
+
+Onvoldoende sampling / buffering — microcontroller kan de data niet op tijd uitlezen of versturen waardoor drop-outs.
+
+Ruis en slechte aarding — met name bij strain gauges en EMG; zorgt voor ruis en drift.
+
+Niet correcte kalibratie — geen of slechte nulstelling en lin. compensatie.
+
+Gedachte dat 'meer Hz altijd beter is' — hogere sample rates zonder goede anti-aliasing of opslagstrategie leiden tot ruis, opslagproblemen en veel data zonder toegevoegde waarde.
+
+Latency door draadloze stack — Wi-Fi/ble kan spikes/packets drop veroorzaken; plan lokale buffering of fallback naar SD.
+
+Verwachtingen versus realiteit — dataverwerking en algoritmes (sensor fusion, drift-correcties) vragen meer werk en wiskunde dan vaak gedacht; plan tijd voor dit werk.
+
+Voedingsproblemen — instabiele voeding veroorzaakt ruis; gebruik decoupling condensatoren en stabiele 3.3/5V rails.
+
+Mitigatie: simpele testsetups, goede kalibratie-procedures, logging van rauwe signalen en stap-voor-stap validatie.
+
+Concrete onderdelen (aanbeveling voor beginnende low-budget setup)
+
+IMU: MPU-9250 of ICM-20948 module — €5–€25.
+
+Load cell(s): 200 kg load cell (of 2×100 kg in array) + HX711 ADC breakout — 1 load cell + HX711 ≈ €20–€40; meerdere cellen + plaat voor force-plate style ≈ €50–€120.
+
+Microcontroller: ESP32 Devkit — €6–€12. (Voor hoge sampling: Teensy 4.1 ≈ €35–€50).
+
+Behuizing / mechanica: staal- of multiplexplaat om belasting te verspreiden, rubberen anti-slip laag, bouten en montagebeugels.
+
+EMG (optioneel): MyoWare sensor ≈ €25–€60 (let op veiligheid en montage).
+
+Opslag / streaming: microSD-adapter module of stream via Wi-Fi naar laptop / Pi.
+
+Software: Arduino IDE / PlatformIO, Python (Anaconda), Jupyter, libraries: numpy, scipy, pandas, matplotlib, IMU libraries (Madgwick/Complementary filter), HX711 libs.
+
+Praktische interview-probes (vragen die je direct kunt stellen om dieper te graven)
+
+“Als we 200 kg per voet willen meten: welke load cell rating zou u écht aanraden (per sensor), en hoe zou u mechanisch de belasting verdelen?”
+
+“Wat zou uw minimale sampling rate zijn voor krachtsignalen bij powerlifting (squat/bench/deadlift)?”
+
+“Welke combinatie van IMU + EMG/druk geeft volgens u de meest betrouwbare indicatie van corespanning zonder te veel complexiteit voor een beginner?”
+
+“Heeft u voorbeelden van open-source projecten of libraries die u zou aanraden (voor sensor fusion, HX711 integratie, of realtime plotting)?”
+
+“Welke test/kalibratieprocedure raadt u aan voor een load-cell gebaseerde plateau/force-plate prototype?”
+
+Snel checklist voor je prototypeplan (kort)
+
+Begin met 1 IMU op torso + 1 load cell onder één voet (of 2 cellen verdeeld) voor proof-of-concept.
+
+Gebruik ESP32 + HX711 (of Teensy indien performance nodig) en sla eerst lokaal op (SD) + stream zodra betrouwbaar.
+
+Kalibreer met bekende gewichten en test bij verschillende rates (langzame beweging vs. explosieve lift).
+
+Meet sample rates en latency; zorg voor antialiasing/filters.
+
+Test duurzaamheid: 1000+ lifts simuleren (of herhaalde belading) om mechanische zwakke plekken te vinden.
+
+Als je wilt, maak ik nu direct:
+
+A) Een korte, kant-en-klare interviewvragenlijst (NL) die je zo kunt uitprinten of in je ODT plakken (met de probes en toelichting per vraag), óf
+
+B) Een concrete parts-lijst met links/voorbeeldmodellen en ruwe prijsinschatting (zonder live web zoeken — ik kan hem baseren op algemene prijzen), óf
+
+C) Een eenvoudige systeem-architectuur diagram beschrijving (sensor → MCU → opslag/stream → analyse) met suggesties per laag.
+
+Welke van A/B/C wil je dat ik nu uitwerk en meteen aanlever? (Ik voer het direct uit in dit antwoord — ik kan niet werk asynchroon leveren later.)
+
+You said:
+A
+ChatGPT said:
+
+Perfect, Bram. Ik heb jouw bestaande vragenlijst in het document bekeken. Hieronder staat een kant-en-klare, aangepaste interviewvragenlijst voor de sensor-/hardware-expert. Je kunt dit zo overnemen in de bijlage van je ODT of als losse hand-out gebruiken. Ik heb de structuur en formulering strak gehouden, zonder lange toelichtingen, zodat het professioneel blijft en direct bruikbaar is tijdens het gesprek.
+
+Expertinterview met sensor- of hardware-expert
+
+Doel: Bepalen welke informatiebehoeften uit het coach-interview technisch meetbaar zijn en binnen de scope van dit project passen.
+
+Constraints:
+
+Beginner in sensortechniek, advies moet eenvoudig toepasbaar zijn.
+
+Sensoren moeten robuust zijn (kracht tot min. 200 kg per voet).
+
+Draagbaar, niet-beperkend voor de gebruiker en betaalbaar.
+
+Voorkeur voor open-hardware / open-software oplossingen.
+
+Vragen – Sensoren
+
+Welke sensortypen zijn geschikt om de spanning/activatie van de core te meten?
+
+Welke sensortypen zijn geschikt om krachten te meten bij belastingen van ±200 kg per voet?
+
+Welke sensoren zijn praktisch haalbaar binnen een laag budget?
+
+Zijn er sensoren die vaak falen in dynamische toepassingen zoals krachttraining?
+
+Wat zijn de belangrijkste technische factoren om nauwkeurige realtime data te verkrijgen?
+
+Vragen – Microcontroller & Software
+
+Welke microcontrollers of ontwikkelplatformen (Arduino, ESP32, Raspberry Pi, Teensy, etc.) zijn volgens u het meest geschikt voor realtime bewegingsfeedback?
+
+Welke software-omgeving of programmeertaal sluit volgens u het beste aan bij sport- en bewegingsanalyse met deze hardware?
+
+Welke valkuilen ziet u vaak bij de koppeling van sensoren met microcontrollers?
+
+Wil je dat ik dit meteen netjes integreer in je ODT-document (dus de bestaande vragenlijst in de bijlage overschrijven met deze aangepaste versie), of wil je het liever als losse tekst zodat je het zelf kunt plakken?
+
+You said:
+verschil microcontroller en ontwikkelignsplatoform
+ChatGPT said:
+
+Goede vraag 👌 – dat verschil is vaak verwarrend. Kort en duidelijk:
+
+Microcontroller
+
+Wat het is: Een kleine chip die je rechtstreeks programmeert om sensoren uit te lezen en actuatoren aan te sturen.
+
+Kenmerken:
+
+Heeft een processor, wat geheugen en I/O-pinnen.
+
+Draait meestal één programma tegelijk, vaak in C/C++.
+
+Voorbeelden van chips: ATmega328 (in Arduino Uno), ESP32-chip, STM32.
+
+Ontwikkelplatform
+
+Wat het is: De hele module + ecosysteem rond die microcontroller zodat je hem makkelijk kunt gebruiken.
+
+Bestaat uit:
+
+Een printplaat met de microcontroller erop.
+
+Voeding, USB-aansluiting, pinheaders.
+
+Vaak ook een softwareomgeving en bibliotheken.
+
+Voorbeelden:
+
+Arduino Uno / Nano → platform gebaseerd op de ATmega328.
+
+ESP32 DevKit → platform rond de ESP32 chip.
+
+Raspberry Pi Pico → platform rond de RP2040 microcontroller.
+
+Raspberry Pi 4 is géén microcontroller, maar een minicomputer (ontwikkelplatform, Linux-gebaseerd).
+
+Simpel verschil
+
+Microcontroller = de chip zelf.
+
+Ontwikkelplatform = de chip + bord + tools die het bruikbaar maken voor ontwikkelaars.
+
+Wil je dat ik dit verschil ook kort in je interviewvragenlijst zet, zodat de expert niet in de war raakt als jij beide termen gebruikt?
+
+You said:
+Expertinterview met sensor- of hardware-expert
+Doel: Bepalen welke informatiebehoeften uit het coach-interview technisch meetbaar zijn en binnen de scope van dit project passen.
+Constraints:
+    • Beginner in sensortechniek, advies moet eenvoudig toepasbaar zijn.
+    • Sensoren moeten robuust zijn (kracht tot min. 200 kg per voet).
+    • Draagbaar, niet-beperkend voor de gebruiker en betaalbaar.
+    • Voorkeur voor open-hardware / open-software oplossingen.
+Vragen – Sensoren
+    1. Welke sensortypen zijn geschikt om de spanning/activatie van de core te meten?
+    2. Welke sensortypen zijn geschikt om krachten te meten bij belastingen van ±200 kg per voet?
+    3. Welke sensoren zijn praktisch haalbaar binnen een laag budget?
+    4. Zijn er sensoren die vaak falen in dynamische toepassingen zoals krachttraining?
+    5. Wat zijn de belangrijkste technische factoren om nauwkeurige realtime data te verkrijgen?
+Vragen – Microcontroller & Software
+    6. Welke microcontrollers of ontwikkelplatformen (Arduino, ESP32, Raspberry Pi, Teensy, etc.) zijn volgens u het meest geschikt voor realtime bewegingsfeedback?
+    7. En letten om de constraints, welke microcontroller of ontwikkelingsplatform zou u dan adviseren?
+    8. Welke software-omgeving of programmeertaal sluit volgens u het beste aan bij sport- en bewegingsanalyse met deze hardware?
+    9. Welke valkuilen ziet u vaak bij de koppeling van sensoren met microcontrollers?
+
+dit heb ik nu pas dit an
+ChatGPT said:
+
+Mooi Bram, dit ziet er al strak en concreet uit 👍. Je hebt de doelstelling, constraints en vragenblokken helder geordend. Een paar kleine suggesties om het nóg duidelijker en consistenter te maken:
+
+Terminologie gelijk trekken: Je gebruikt nu zowel microcontroller als ontwikkelingsplatform. Misschien kort een voetnoot of verduidelijking opnemen:
+
+Microcontroller = de chip zelf (bijv. ESP32-chip).
+
+Ontwikkelplatform = bord + omgeving waarmee je de chip makkelijker gebruikt (bijv. ESP32 DevKit, Arduino Uno).
+→ Zo voorkom je dat de expert het anders interpreteert.
+
+Vraag 7 strakker formuleren:
+Nu: “En letten om de constraints, welke microcontroller of ontwikkelingsplatform zou u dan adviseren?”
+Voorstel: “Welke microcontroller of ontwikkelplatform zou u, rekening houdend met deze constraints, het meest adviseren voor een eerste prototype?”
+
+Vraagvolgorde check: Misschien eerst algemeen (vraag 6), daarna meteen toegespitst op jouw situatie (vraag 7). Dat klopt goed, maar zorg dat het verschil duidelijk is.
+
+Als ik jouw tekst herschrijf met deze verbeteringen, krijg je dit:
+
+Expertinterview met sensor- of hardware-expert
+Doel: Bepalen welke informatiebehoeften uit het coach-interview technisch meetbaar zijn en binnen de scope van dit project passen.
+
+Constraints:
+
+Beginner in sensortechniek, advies moet eenvoudig toepasbaar zijn.
+
+Sensoren moeten robuust zijn (kracht tot min. 200 kg per voet).
+
+Draagbaar, niet-beperkend voor de gebruiker en betaalbaar.
+
+Voorkeur voor open-hardware / open-software oplossingen.
+
+Vragen – Sensoren
+
+Welke sensortypen zijn geschikt om de spanning/activatie van de core te meten?
+
+Welke sensortypen zijn geschikt om krachten te meten bij belastingen van ±200 kg per voet?
+
+Welke sensoren zijn praktisch haalbaar binnen een laag budget?
+
+Zijn er sensoren die vaak falen in dynamische toepassingen zoals krachttraining?
+
+Wat zijn de belangrijkste technische factoren om nauwkeurige realtime data te verkrijgen?
+
+Vragen – Microcontroller & Software
+6. Welke microcontrollers of ontwikkelplatformen (Arduino, ESP32, Raspberry Pi, Teensy, etc.) zijn volgens u het meest geschikt voor realtime bewegingsfeedback?
+7. Welke microcontroller of ontwikkelplatform zou u, rekening houdend met de genoemde constraints, het meest adviseren voor een eerste prototype?
+8. Welke software-omgeving of programmeertaal sluit volgens u het beste aan bij sport- en bewegingsanalyse met deze hardware?
+9. Welke valkuilen ziet u vaak bij de koppeling van sensoren met microcontrollers?
+
+Wil je dat ik dit meteen netjes in de ODT vervang onder “Bijlage 1 – Conceptvragenlijst Expertinterviews”, zodat jouw document direct up-to-date is?

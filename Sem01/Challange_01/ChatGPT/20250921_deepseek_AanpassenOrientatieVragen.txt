@@ -1,0 +1,252 @@
+
+Leerdoelen voor Bewegingsanalyse Powerliften
+Leerdoelen – Bewegingsanalyse Powerliften
+Dit document beschrijft de leerdoelen van het project Bewegingsanalyse Powerliften. De leerdoelen zijn gekoppeld aan de vijf verplichte onderwerpen: Technologies, Business & Intelligence, Programmeren, Media design en Infrastructuur. Per onderdeel wordt aangegeven wat onderzocht of ontwikkeld wordt, en wat ik daarbij wil leren of aantonen.
+1. Technologies
+Toelichting:
+In dit project onderzoek ik welke sensoren geschikt zijn voor het meten van bewegingen tijdens powerlifting. Ook kijk ik welke microcontrollers (Bijvoorbeeld Arduino, ESP32) en softwareomgevingen geschikt zijn voor realtime feedback.
+Leerdoelen:
+    • Ik kan geschikte sensoren selecteren en onderbouwen waarom deze passend zijn voor de context van powerlifting.
+    • Ik kan een werkende sensor-setup koppelen aan een microcontroller en realtime data uitlezen.
+    • Ik leer de technische mogelijkheden en beperkingen van verschillende sensortypen en microcontrollers kennen.
+2. Business & Intelligence
+Toelichting:
+De doelgroep van dit project bestaat uit coaches en fysiotherapeuten die baat hebben bij meer inzicht in de bewegingen van cliënten. De toegevoegde waarde van het prototype ligt in bruikbare feedback die helpt bij het analyseren en corrigeren van techniek.
+Leerdoelen:
+    • Ik kan de informatiebehoefte van professionals vertalen naar concrete functionele eisen voor een prototype.
+    • Ik leer hoe ik waarde kan aantonen door middel van expertinterviews en co-design met professionals.
+    • Ik kan uitleggen hoe dit prototype aansluit bij de praktijk en welke inzichten het oplevert voor de eindgebruiker.
+3. Programmeren
+Toelichting:
+Het prototype vraagt om programmeerwerk om sensordata uit te lezen, te verwerken en te visualiseren . Hiervoor gebruik ik microcontroller-programmering (bijvoorbeeld Arduino IDE) en mogelijk aanvullende software voor data-analyse (bijvoorbeeld Python).
+Leerdoelen:
+    • Ik kan code schrijven om sensordata realtime te verwerken en uit te lezen.
+    • Ik leer algoritmes toepassen voor basisanalyse, zoals drukverdeling of bewegingspatronen.
+    • Ik kan een koppeling maken tussen hardware en software zodat de output bruikbaar is voor visualisatie.
+4. Media design (deze ga ik niet doen)
+Toelichting:
+De data moet op een begrijpelijke manier worden gepresenteerd aan de coach. Mogelijke vormen zijn grafieken, heatmaps of waarschuwingen bij compensatiebewegingen.
+Leerdoelen:
+    • Ik kan een eenvoudige maar effectieve interface ontwerpen die aansluit bij de behoeften van een coach.
+    • Ik leer verschillende visualisatievormen vergelijken en de meest bruikbare selecteren.
+    • Ik kan mock-ups maken en deze toetsen bij een expert, om de gebruiksvriendelijkheid te verbeteren.
+5. Infrastructuur (deze ga ik niet doen)
+Toelichting:
+Het systeem bestaat uit sensoren, een microcontroller en een device (laptop of tablet) voor uitlezing en opslag. De infrastructuur moet draagbaar en betrouwbaar zijn en data lokaal opslaan.
+Leerdoelen:
+    • Ik kan een eenvoudige infrastructuur ontwerpen waarin data van sensor tot visualisatie loopt.
+    • Ik leer hoe ik data betrouwbaar kan opslaan en toegankelijk kan maken voor analyse.
+    • Ik kan de randvoorwaarden en beperkingen van een proof-of-concept infrastructuur uitleggen.
+
+
+voor een studei moet ik gaan beschrijven wat ik per topic/vakdiscipline wil gaan leren. Dit is het document dat ik nu heb. Wat vind jij ervan? heb je er vragen over? En zijn de leerdoelen SMART genoeg / concreet genoeg?
+Dit is een uitstekend en zeer duidelijk document. Het is evident dat je goed hebt nagedacht over de opzet van je project en wat je ermee wilt bereiken. Je hebt een sterke basis om mee verder te gaan.
+
+Laten we je vragen één voor één behandelen.
+
+1. Wat vind ik ervan?
+Over het algemeen is dit een zeer goed opgezet document. De sterke punten zijn:
+
+Helder en Gestructureerd: Het is direct duidelijk wat het project inhoudt en wat je per onderdeel wilt doen.
+
+Goede Koppeling: Je koppelt elk leerdoel duidelijk terug aan de verplichte onderwerpen van je studie.
+
+Realistisch: De doelen zijn ambitieus maar haalbaar voor een project zoals dit.
+
+Gefocust: Je geeft duidelijk aan welke onderdelen je wel en niet gaat doen, wat helpt om de scope beheersbaar te houden.
+
+Het ziet eruit als een perfecte basis voor een projectplan.
+
+2. Heb ik er vragen over?
+Zeker, een paar verhelderende vragen kunnen helpen om de scope nog scherper te krijgen:
+
+Reikwijdte van "Beweging": Powerliften bestaat uit de squat, bench press en deadlift. Richt je je op één van deze oefeningen, of op alle drie? Dit heeft grote invloed op de keuze en plaatsing van sensoren.
+
+Type Sensoren: Heb je al een idee welke sensortypen je wilt onderzoeken (bijv. IMU's voor hoekmeting, druksensoren voor voetverdeling, potentiometers voor gewrichtshoeken)? Of is het type sensor juist het onderdeel van je onderzoek?
+
+Definitie van "Prototype": Wat is de beoogde eindvorm van je prototype? Is het een proof-of-concept met één sensor en een knipperend lampje, of een meer uitgewerkt systeem dat daadwerkelijk door een coach gebruikt kan worden voor een basisanalyse? Dit helpt bij het SMART maken van de doelen.
+
+Expertinterviews: Heb je al contact met coaches of fysiotherapeuten? Het plannen en afnemen van expertinterviews kost vaak meer tijd dan verwacht.
+
+3. Zijn de leerdoelen SMART genoeg / concreet genoeg?
+Kort antwoord: Ze zijn goed, maar kunnen nog specifieker en meetbaarder gemaakt worden. Op dit moment zijn het meer actiegerichte leerdoelen dan SMART-doelen. Dat is op zich niet slecht, maar SMART-doelen zijn sterker voor beoordeling.
+
+Uitgebreid antwoord:
+SMART staat voor: Specifiek, Meetbaar, Acceptabel, Realistisch, Tijdgebonden.
+
+Je doelen zijn al Acceptabel, Realistisch en Tijdgebonden (binnen de context van je project). Waar ruimte voor verbetering zit, is bij Specifiek en Meetbaar.
+
+Laten we een paar leerdoelen als voorbeeld nemen en ze SMART'er maken:
+
+Voorbeeld 1 - Origineel:
+
+"Ik kan geschikte sensoren selecteren en onderbouwen waarom deze passend zijn voor de context van powerlifting."
+
+Analyse: Goed, maar niet SMART. Hoe toon je aan dat je ze geselecteerd en onderbouwd hebt?
+
+SMART-versie:
+
+"Ik stel een vergelijkend overzicht op van minstens 3 verschillende sensortypen (bijv. IMU, druksensor, flexsensor) waarin ik voor elk type de voor- en nadelen beschrijf voor gebruik in een powerlift-beweging (squat). Op basis van deze analyse maak ik een gemotiveerde keuze voor één sensortype om in mijn prototype te verwerken."
+
+Voorbeeld 2 - Origineel:
+
+"Ik kan code schrijven om sensordata realtime te verwerken en uit te lezen."
+
+Analyse: Wat is "realtime"? Hoe toon je aan dat het gelukt is?
+
+SMART-versie:
+
+"Ik ontwikkel een software script (in Arduino/C++) dat de data van de gekozen sensor minimaal 20 keer per seconde (20Hz) uitleest en deze via de seriële monitor verstuurt. De werking hiervan demonstreer ik door een consistente datastroom te tonen tijdens een beweging."
+
+Voorbeeld 3 - Origineel:
+
+"Ik kan de informatiebehoefte van professionals vertalen naar concrete functionele eisen voor een prototype."
+
+Analyse: Zeer belangrijk doel, maar hoe capture je die behoefte?
+
+SMART-versie:
+
+"Op basis van minimaal 2 interviews met powerlift-coaches of fysiotherapeuten, stel ik een lijst met 5 functionele eisen op voor het prototype (bijv. 'het systeem moet de kniehoek tijdens de squat kunnen meten'). Deze eisen verwerk ik in een beknopt ontwerpdocument."
+
+Conclusie en Advies
+Je document is een 8/10. Het is duidelijk, ambitieus en dekt alle vereiste onderwerpen.
+
+Mijn advies is om, voordat je echt van start gaat, de leerdoelen zoals hierboven beschreven nog een laatste slag te geven en ze SMART(er) te maken. Dit heeft twee grote voordelen:
+
+Het geeft jou een duidelijker stappenplan en meetmomenten ("Hé, ik moet mijn interviews af hebben om die eisen op te stellen").
+
+Het maakt het voor je docent/beoordelaar ontzettend duidelijk wat je hebt gedaan en hoe je het hebt aangetoond, wat de beoordeling eenvoudiger en objectiever maakt.
+
+Al met al: een zeer sterke basis. Succes met dit leuke project
+
+2.1 Alle 3, ik zoek een oplossing dat bij alle 3 kan ondersteunen
+2.2 dit gaat komen uit een interview die ik ga houden met een sensor/hardware export. Is dus op dit moment nog niet bekent
+2.3 proof of concept met 1 of een paar sensoren en knippernd lampje
+2.4 Met de coaches wel maar de ander staat ingepland voor morgen. Analyse nog niet, maar die komt pas later aan bod, Eeerst zorgen dat ik weet welke sensoren ik nodig heb, welke hardwaren en vervolg werkend krijg en de data lokaal kunen opslaan
+
+Concilsie en advies
+1. dank je wel voor het adveis
+2. top, wil je dit voor mij maken>
+Absoluut! Geen probleem. Je antwoorden helpen enorm om het nog concreter te maken. Hieronder heb ik je originele leerdoelen herschreven naar SMART-doelen, gebaseerd op de extra informatie die je me gaf.
+
+De aanpassingen zijn:
+
+Specifieker: Gemaakt aan de hand van je antwoorden (bijv. "voor de squat, bench press en deadlift").
+
+Meetbaarder: Toegevoegd hoe je het resultaat toont (een document, een demo, een werkend script).
+
+Tijdgebonden: Impliceert dat dit binnen de looptijd van het project moet gebeuren.
+
+Verbeterde SMART Leerdoelen
+1. Technologies
+
+Origineel: Ik kan geschikte sensoren selecteren en onderbouwen waarom deze passend zijn voor de context van powerlifting.
+
+SMART: "Ik stel een onderbouwd selectiedocument op waarin ik voor minimaal 2 verschillende sensortypen (bijv. IMU, druksensor) analyseer of ze geschikt zijn voor het meten van bewegingen bij de squat, bench press en deadlift. Mijn keuze voor het eerste prototype onderbouw ik op basis van haalbaarheid, kostprijs en nauwkeurigheid."
+
+Origineel: Ik kan een werkende sensor-setup koppelen aan een microcontroller en realtime data uitlezen.
+
+SMART: "Ik demonstreer een werkende opstelling door één sensor succesvol te koppelen aan een microcontroller (bijv. ESP32) en live data (bijv. waarden die veranderen bij beweging) uit te lezen en te tonen op seriële monitor of via een eenvoudige LED-indicator."
+
+2. Business & Intelligence
+
+Origineel: Ik kan de informatiebehoefte van professionals vertalen naar concrete functionele eisen voor een prototype.
+
+SMART: "Na minimaal 2 interviews met powerlift-coaches, vertaal ik hun belangrijkste bevindingen naar een lijst van 5 concrete functionele eisen voor het prototype (bijv. "het systeem moet kunnen detecteren of de heup te vroeg stijgt bij de deadlift")."
+
+Origineel: Ik leer hoe ik waarde kan aantonen door middel van expertinterviews en co-design met professionals.
+
+SMART: "Ik pas het ontwerp van mijn prototype minstens één keer aan op basis van feedback die ik tijdens de interviews met coaches heb gekregen. Ik documenteer deze aanpassing en de reden ervan."
+
+3. Programmeren
+
+Origineel: Ik kan code schrijven om sensordata realtime te verwerken en uit te lezen.
+
+SMART: "Ik ontwikkel een Arduino script dat de data van de gekozen sensor continu uitleest (minimaal 10Hz) en de ruwe data consistent wegschrijft naar een lokaal CSV-bestand op een SD-kaart of via de seriële monitor naar een laptop verzendt."
+
+Origineel: Ik leer algoritmes toepassen voor basisanalyse, zoals drukverdeling of bewegingspatronen.
+
+SMART: "Ik implementeer één eenvoudig algoritme in code (bijv. het berekenen van een hoek uit versnellingsdata of het detecteren van het hoogste punt van een lift) en toon de output van dit algoritme aan via de seriële monitor (bijv. "Hoek: 45 graden")."
+
+4. Media design (deze ga ik niet doen)
+
+Je gaf aan dit niet te doen, dus dit kan blijven zoals het is, of je kunt het schrappen.
+
+5. Infrastructuur (deze ga ik niet doen)
+
+Idem.
+
+Conclusie
+Zo, dit zou een stuk sterker moeten zijn! Deze doelen zijn nu:
+
+Duidelijk voor jou: Je weet precies welke stappen je moet zetten.
+
+Duidelijk voor je docent: Het is heel eenvoudig om te beoordelen of je je doel hebt gehaald ("Laat maar zien dat je die 5 functionele eisen hebt opgesteld" / "Demo even dat de sensor data naar het CSV-bestand schrijft").
+
+Heel veel succes morgen met het interview en met je project. Het klinkt ontzettend leuk! 💪
+
+kan je her opshrijven dat ik het zo kan kopieren en plakken in mijn document
+Zeker, hieronder staat de herziene versie van je leerdoelen, geschreven in dezelfde stijl als jouw origineel en klaar om te kopiëren en plakken.
+
+Leerdoelen – Bewegingsanalyse Powerliften
+Dit document beschrijft de leerdoelen van het project Bewegingsanalyse Powerliften. De leerdoelen zijn gekoppeld aan de vijf verplichte onderwerpen: Technologies, Business & Intelligence, Programmeren, Media design en Infrastructuur. Per onderdeel wordt aangegeven wat onderzocht of ontwikkeld wordt, en wat ik daarbij wil leren of aantonen.
+
+1. Technologies
+Toelichting:
+In dit project onderzoek ik welke sensoren geschikt zijn voor het meten van bewegingen tijdens de squat, bench press en deadlift. Ook kijk ik welke microcontrollers (Bijvoorbeeld Arduino, ESP32) en softwareomgevingen geschikt zijn voor realtime feedback.
+
+Leerdoelen:
+
+Ik stel een onderbouwd selectiedocument op waarin ik voor minimaal twee verschillende sensortypen (bijv. IMU, druksensor) analyseer of ze geschikt zijn voor het meten van bewegingen bij de squat, bench press en deadlift. Mijn uiteindelijke keuze voor het prototype onderbouw ik op basis van haalbaarheid, kostprijs en nauwkeurigheid.
+
+Ik demonstreer een werkende opstelling door één sensor succesvol te koppelen aan een microcontroller (bijv. ESP32) en live data (bijv. waarden die veranderen bij beweging) uit te lezen en te tonen op de seriële monitor of via een eenvoudige LED-indicator.
+
+Ik leer de technische mogelijkheden en beperkingen van verschillende sensortypen en microcontrollers kennen door een praktische test met ten minste één sensor-microcontrollercombinatie uit te voeren.
+
+2. Business & Intelligence
+Toelichting:
+De doelgroep van dit project bestaat uit coaches en fysiotherapeuten die baat hebben bij meer inzicht in de bewegingen van cliënten. De toegevoegde waarde van het prototype ligt in bruikbare feedback die helpt bij het analyseren en corrigeren van techniek.
+
+Leerdoelen:
+
+Na minimaal twee interviews met powerlift-coaches, vertaal ik hun belangrijkste bevindingen naar een lijst van vijf concrete functionele eisen voor het prototype (bijv. "het systeem moet kunnen detecteren of de heup te vroeg stijgt bij de deadlift").
+
+Ik leer hoe ik waarde kan aantonen door middel van expertinterviews en co-design met professionals. Ik pas het ontwerp van mijn prototype minstens één keer aan op basis van feedback van een coach en documenteer deze aanpassing.
+
+Ik kan uitleggen hoe dit prototype, gebaseerd op de verzamelde functionele eisen, aansluit bij de praktijk en welke inzichten het de eindgebruiker kan opleveren.
+
+3. Programmeren
+Toelichting:
+Het prototype vraagt om programmeerwerk om sensordata uit te lezen, te verwerken en te visualiseren. Hiervoor gebruik ik microcontroller-programmering (Arduino IDE) en mogelijk aanvullende software voor data-analyse (bijvoorbeeld Python).
+
+Leerdoelen:
+
+Ik ontwikkel een Arduino script dat de data van de gekozen sensor continu uitleest (minimaal 10Hz) en de ruwe data consistent wegschrijft naar een lokaal CSV-bestand op een SD-kaart of via de seriële monitor naar een laptop verzendt.
+
+Ik implementeer één eenvoudig algoritme in code (bijv. het berekenen van een hoek uit versnellingsdata of het detecteren van het hoogste punt van een lift) en toon de output van dit algoritme aan via de seriële monitor (bijv. "Hoek: 45 graden").
+
+Ik kan een koppeling maken tussen de hardware en software zodat de output (ruwe data of resultaat van het algoritme) bruikbaar is voor verdere verwerking of visualisatie.
+
+4. Media design (deze ga ik niet doen)
+Toelichting:
+De data moet op een begrijpelijke manier worden gepresenteerd aan de coach. Mogelijke vormen zijn grafieken, heatmaps of waarschuwingen bij compensatiebewegingen.
+
+Leerdoelen:
+
+Ik kan een eenvoudige maar effectieve interface ontwerpen die aansluit bij de behoeften van een coach.
+
+Ik leer verschillende visualisatievormen vergelijken en de meest bruikbare selecteren.
+
+Ik kan mock-ups maken en deze toetsen bij een expert, om de gebruiksvriendelijkheid te verbeteren.
+
+5. Infrastructuur (deze ga ik niet doen)
+Toelichting:
+Het systeem bestaat uit sensoren, een microcontroller en een device (laptop of tablet) voor uitlezing en opslag. De infrastructuur moet draagbaar en betrouwbaar zijn en data lokaal opslaan.
+
+Leerdoelen:
+
+Ik kan een eenvoudige infrastructuur ontwerpen waarin data van sensor tot visualisatie loopt.
+
+Ik leer hoe ik data betrouwbaar kan opslaan en toegankelijk kan maken voor analyse.
+
+

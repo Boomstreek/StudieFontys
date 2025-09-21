@@ -1,0 +1,89 @@
+2.5 Use case / scenario
+    1. De professional plaatst sensoren op, rond, onder of boven de cliënt.
+    2. De cliënt voert specifieke bewegingen uit, zoals squats, deadlifts of bench presses.
+    3. De sensordata wordt realtime weergegeven op een scherm of tablet, zodat de professional direct feedback kan krijgen.
+    4. De data kan lokaal worden opgeslagen voor nadere analyse of vergelijking in de toekomst.
+    5. De professional gebruikt de verzamelde informatie om advies te geven, de techniek aan te passen of compensatiebewegingen te corrigeren.
+
+dit komt uit mijn analyses en advies.odt. Ik wil dit gaan vervangen dmv een pixar pitch. kan je mij hierbij helpen door de vragen te stellen?
+ChatGPT said:
+
+Top, ik snap wat je wilt! Een Pixar pitch werkt met een vaste structuur om een verhaal pakkend neer te zetten. Het gaat ongeveer zo:
+
+Once upon a time... (Situatie / beginpunt)
+
+Every day... (Normale gang van zaken / probleemcontext)
+
+Until one day... (De aanleiding / verandering)
+
+Because of that... (Gevolgen 1)
+
+Because of that... (Gevolgen 2)
+
+Until finally... (Oplossing / eindpunt)
+
+Voor jouw use case/scenario (2.5) kunnen we dit dus vertalen naar een pitch die de kern van je project vertelt.
+
+Om je goed te helpen heb ik een paar vragen voor je:
+
+Once upon a time: Hoe ziet de huidige situatie eruit bij coaches/fysiotherapeuten zonder jouw systeem? Wat missen ze nu?
+
+Every day: Wat gebeurt er standaard tijdens een training of analyse? Waar lopen ze steeds tegenaan?
+
+Until one day: Wat verandert er zodra jouw prototype er is? Wat is de ‘aanleiding’ of het kantelpunt?
+
+Because of that (1): Wat kan de professional ineens doen dat eerst niet kon?
+
+Because of that (2): Wat betekent dit voor de cliënt zelf (bijvoorbeeld techniek, blessurepreventie, prestaties)?
+
+Until finally: Wat is het einddoel of de ideale situatie als dit prototype werkt?
+
+Wil je dat ik alvast een eerste invuloefening maak voor je Pixar pitch (op basis van je huidige scenario 2.5), of wil je liever dat ik jou eerst door deze vragen heen laat antwoorden?
+
+You said:
+1. ze moeten het nu van hun ogen hebben, feedback van de client en hun ervaring. Ze voelen ook af en toe met hun vingers of je bepaalde spieren aanspant. Maar het liefst zou je veel meer willen zien, wat er allemaal in het lichaam gebeurt.
+
+2. Dat ze niet in het lichaam kunnen kijken en dat een beginner nog moet aanleren om te vertellen wat zijn/haar lichaam doet
+
+3. De coaches krijgen extra informatie over de beweegpatroon van hun client. Een extra data punt die zij kunnen interperteren
+
+4. wellicht aan de hand van dat wat we meten beter analysren wat er fout gaat of dat er iets fout gaat en met de zelf bedacht oplossing kan valideren of het zo beter gaat, slechter of even goed
+
+5. hopelijk minder blessures, sneller groeien qua techniek en dus ook sneller betere prestaties
+
+6. dat coach en de client beter inzicht krijgen in wat de client doet/ hoe de client beweegt
+
+
+ChatGPT said:
+
+Perfect, dank voor je antwoorden! Dan kunnen we daaruit een Pixar pitch formuleren die je huidige use case mooi vervangt. Op basis van jouw antwoorden kan het er zo uitzien:
+
+Pixar pitch – Bewegingsanalyse Powerlifting
+
+Once upon a time, coaches en fysiotherapeuten moesten zich volledig verlaten op hun ogen, de feedback van de cliënt en hun ervaring. Soms voelden ze met hun vingers of bepaalde spieren aanspanden, maar veel van wat er in het lichaam gebeurde, bleef verborgen.
+
+Every day, beginnende sporters moesten leren aangeven wat hun lichaam deed, terwijl de coach beperkt bleef tot visuele observatie en intuïtie. Hierdoor was het lastig om fouten in techniek volledig te herkennen of te corrigeren.
+
+Until one day, een prototype meetsysteem werd ontwikkeld dat realtime informatie gaf over het beweegpatroon van de cliënt, met extra datapunten die de coach kon interpreteren.
+
+Because of that, konden coaches beter analyseren wat er fout ging in een beweging en controleren of hun aanpassingen daadwerkelijk effect hadden.
+
+Because of that, namen blessures af, verbeterde de techniek sneller en konden cliënten sneller betere prestaties behalen.
+
+Until finally, kregen zowel coach als cliënt volledig inzicht in hoe de cliënt beweegt, waardoor training effectiever, veiliger en inzichtelijker werd.
+
+Als je wilt, kan ik hier ook een kortere, compactere versie van maken die echt één slide of één alinea beslaat, zodat je hem direct in je document kunt plakken als vervanging van 2.5.
+
+Wil je dat ik dat doe?
+
+You said:
+maak maar korter
+ChatGPT said:
+
+Top, hier is een compacte versie van je Pixar pitch voor 2.5:
+
+Pixar pitch – Bewegingsanalyse Powerlifting
+
+Coaches moesten het altijd doen met wat ze konden zien, voelen en horen van de cliënt, terwijl beginnende sporters vaak niet goed konden uitleggen wat hun lichaam deed. Met dit prototype krijgen coaches realtime inzicht in het beweegpatroon van de cliënt. Zo kunnen ze fouten beter herkennen, techniek sneller verbeteren en blessures voorkomen. Uiteindelijk krijgen coach en cliënt samen duidelijk zicht op hoe de cliënt beweegt, waardoor training effectiever en veiliger wordt.
+
+Als je wilt, kan ik hem ook nog pakkender in één zin formuleren zodat hij echt als een elevator pitch in je document past. Wil je dat?
