@@ -1,0 +1,199 @@
+# R voor data analyse
+
+## Workshop handleiding
+
+Hierbij de handleiding voor de workshop van vandaag. Hij is nog lang niet af, maar laten we in ieder geval beginnen!
+
+
+## Voorbereiding
+Laten we eerst de bibliotheken inladen met alle commando's die we dalijk gaan gebruiken
+```{r Inladen bibliotheken, message=FALSE, warning=FALSE, paged.print=FALSE}
+library(tidyr)
+library(tidyverse)
+library(ggplot2)  
+library(readxl)               # Voor het inlezen van data uit Excel
+library(lubridate)            # Voor het interpreteren van datums, tijden en periodes 
+library(RSQLite)              # Voor het opvragen van gegevens uit de datase
+```
+
+Daarna gaan we de data inladen. Zorg ervoor dat in het scherm rechtsonder het scherm "Files" zichtbaar is. 
+Ga naar canvas en download het bestand "Galgje.xlsx" en kom terug naar deze pagina.
+Klik in het venster rechtsonder op de knop met de tekst "upload".
+Gebruik de knop "browse", selecteer uit de map "Downloads" het bestand "Galgje.xlsx" en klik op "OK".
+
+```{r Inladen Excel bestand, message=FALSE, warning=FALSE, paged.print=FALSE}
+database <- DBI::dbConnect(RSQLite::SQLite(), ":memory:")
+copy_to(database, name="spel", df = read_excel('~/Galgje.xlsx'))
+```
+De data is ingeladen in een database. Als het goed is zie je rechtsboven in een schermpje met de naam "Environment" dat er een item "database" is.
+
+# Het SELECT statement
+
+Met SQL kun je gegevens uit een database ophalen. Daarbij wordt een vast template gebruikt. De meeste databases, MS SQL, MYSQL, Progress, Oracle, Postgres,  ondersteunen een vorm van SQL. Dat is handig, want zo kun je altijd zien wat er in een tabel zit.
+
+Laten we eerst kijken wat er in de tabel "spel" zit die we gevuld hebben met de data uit het Excel bestand "Galgje.xlsx".
+
+## De FROM clausule
+
+Achter FROM staat de tabel waar we alle gegevens uit halen. 
+
+Op dit moment bevat onze database maar 1 tabel: spel. Later zullen we dat uibreiden naar meer tabellen.
+
+```{sql connection=database}
+SELECT *
+FROM spel
+```
+
+## De SELECT clausule 
+
+Achter SELECT staan de namen van kolommen die je in de uitvoer wilt zien. Als je alle kolommen wilt zien gebruik je een sterretje. 
+
+Het gebruik van SELECT is een vorm van *kolomfiltering*. Door daar iets in te voeren, zijn niet alle kolommen zichbaar.
+
+Vervang het sterretje (*) na SELECT zo dat alleen de naam, klas en leeftijd van de spelers wordt getoond.
+```{sql connection=database}
+SELECT *
+FROM spel
+```
+
+Even speciale aandacht voor **COUNT(*)**. Daarmee kun je het aantal regels laten zien dat je geselecteerd hebt.
+```{sql connection=database}
+SELECT COUNT(*)
+FROM spel
+```
+
+De kolomnaam __COUNT(*)__ is niet mooi. Je kunt met het codewoord **'AS'** aangeven dat die aantal moet worden.
+```{sql connection=database}
+SELECT COUNT(*) AS Aantal
+FROM spel
+```
+
+De kolomnaam 'avi' is niet zo mooi. Selecteer de naam van de speler en voeg het avi niveau toe maar noem dat 'leesniveau; ,
+```{sql connection=database}
+SELECT COUNT(*) AS Aantal
+FROM spel
+```
+
+
+## De WHERE clausule 
+
+De WHERE clausule beperk je het aantal regels dat in het overzicht wordt weergegeven. Als je alle regels wilt zien, laat je de clausule helemaal weg.
+
+Dit is net als bij SELECT een vorm van filtering. Alleen is dit *regelfiltering*: de regels die niet voldoen aan de voorwaarde achter WHERE worden niet getoond.
+
+### Basis condities
+
+Verander de regel met WHERE zo dat je alleen gegevens ziet als de leeftijd 13 jaar is.
+```{sql connection=database}
+SELECT *
+FROM spel
+WHERE leeftijd
+```
+
+Pas de tekst aan zodat je alleen de naam en het AVI-leesniveau ziet spelers ziet die jonger zijn dan 7 jaar of precies 7 jaar.
+```{sql connection=database}
+SELECT *
+FROM spel
+WHERE leeftijd
+```
+
+### Filteren met BETWEEN ... AND 
+
+Met het codewoord BETWEEN kun je een bereik aangeven van leeftijden. 
+Kun jij aangeven dat je de gegevens wilt van spelers tussen 11 en 13?
+```{sql connection=database}
+SELECT *
+FROM spel
+WHERE leeftijd
+```
+
+Je kunt ook filteren op de klas. Alleen is dat geen nummer maar tekst. Tekst moet je tussen aanhalingstekens zetten.
+Kijk het onderstaande script selecteert alleen spelers uit groep 5
+```{sql connection=database}
+SELECT *
+FROM spel
+WHERE klas = "Groep 5"
+```
+
+Kun jij kun de spelers selecteren die in groep 4 tot 7 zitten?
+```{sql connection=database}
+SELECT *
+FROM spel
+WHERE  
+```
+
+### De LIKE clausule en wildcharts
+
+Met de selectie LIKE kun je op een stuk tekst selecteren. Met het de onderstaande script wordt alleen gezocht op spelers die in een klas van het voortgezet onderwijs zitten en niet in een groep op de basisschool.
+Dat doe je door te kijken naar alle regels waar de klas begint met 'klas'; wat eracher staat is niet belangrijk.
+```{sql connection=database}
+SELECT *
+FROM spel
+where klas LIKE 'Klas%'
+```
+
+Kun jij de spelers selecteren van leesniveau 'AVI M5' of 'AVI E5'?
+```{sql connection=database}
+SELECT *
+FROM spel
+WHERE 
+```
+ 
+Kun jij de namen van spelers opzoeken die 2 a's in hun naam hebben?
+Kijk of je dat kan uitbreiden naar 2 a's, maar niet achter elkaar. Gebruik daarvoor de wildchart '_'.
+```{sql connection=database}
+SELECT *
+FROM spel
+WHERE 
+```
+
+
+Kun jij het aantal spellen laten zien van een speler die 'Sara' heet?
+```{sql connection=database}
+SELECT
+FROM spel
+WHERE 
+```
+
+## GROUP BY clause
+
+Bij deze clausule vat je alle regels samen op basis van dezelfde naam, dezelfde klas of dezelfde leeftijd.
+Kijk maar naar het onderstaande scipt dat voor elke leeftijd het aantal spelers laat zien. 
+```{sql connection=database}
+SELECT leeftijd, COUNT(*)
+FROM spel
+GROUP BY leeftijd
+```
+
+In bijna alle gevallen herhaal je de kolommen achter GROUP BY in de SELECT. Daarachter staat de manier waarop je de gegevens uit de andere kolommen samenvat.
+Kijk maar hier waar per klas de leeftijd van de jongste en oudste leerling wordt weergegeven. Noem die kolommen ook **jongste** en **oudste**
+```{sql connection=database}
+SELECT 
+FROM spel
+GROUP BY 
+```
+
+# Weergeven in R
+
+## Data uit SQL naar R
+
+Door het toevoegen van de tekst __output.var__ in de kop van de chunk, kun je de uitvoer naar R meenemen.
+Onder de chunk staat dan niets meer, maar rechtsboven in de environment is het dataframe **frameLeeftijd** nu aangemaakt.
+```{sql connection=database, output.var="frameLeeftijd"}
+SELECT leeftijd, COUNT(*) as aantal
+FROM spel
+GROUP BY leeftijd
+```
+Klik maar op het dataframe, dan kun je de gegevens zien.
+
+## Weergeven in ggplot2
+
+Met ggplot kun je de gegevens weergeven. Maak gebruik van de site __https://www.data-to-viz.com/__ om een overzicht te krijgen van de manieren om data weer te geven. 
+
+Hieronder zie je hoe je een strokengrafiek kunt maken van de leeftijd een het aantal spelers.
+```{r}
+ggplot(frameLeeftijd, aes(x=leeftijd, y=aantal, fill=factor(leeftijd))) + 
+  geom_bar(stat = "identity")
+```
+
+

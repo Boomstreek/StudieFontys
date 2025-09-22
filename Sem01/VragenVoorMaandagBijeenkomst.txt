@@ -4,4 +4,6 @@ Overweldigt door de vakken en de opdrachten, adveis? denk zelf kiezen
 
 aangeven datacamp.com account
 
-Volgende stap is design, hoe ga ik daarmee verder? 
+Volgende stap is design, hoe ga ik daarmee verder?
+
+Hoe kan SQL tellen in een string? Zie .png vraag
