@@ -1,0 +1,4 @@
+De basis van SQL
+  - Veel dingen worden in mijn werk standaard ingevuld en hoef ik niet te weten. Leuk om te weten wat die standaard tekestsen doen.
+  - AS commando en GROUP BY commondo zijn nieuw voor mij
+  - 

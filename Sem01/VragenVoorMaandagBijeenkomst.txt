@@ -1,9 +1,22 @@
-Feedback opschrijven, in FeedPulse
+Hoe doe je de orientatie
+  - Moet je alle topics iets voor opstellen? of is 2 of 3 ook voldoende?
+
+Hoe doe je Proffesnionele Standaard
+  - Wie zijn je stakeholders, leg dat duidelijk vast
+  - Hoe werk je samen, hoe leg je dit vast?
+  - Trello bord met meetings, kanban
 
 Overweldigt door de vakken en de opdrachten, adveis? denk zelf kiezen
+  - Wat zou je leerdoelen?
 
 aangeven datacamp.com account
 
 Volgende stap is design, hoe ga ik daarmee verder?
+  - zelf opzet maken, dit kan je zelf
 
-Hoe kan SQL tellen in een string? Zie .png vraag
+Les Donderdag as:
+Hoe kan SQL tellen in een string? Zie .png vraag 
+
+
+Voor de volgende keer:
+  - Portfolie klaarmaken voor 1ste inlevermoment (dat is zondag as.)
