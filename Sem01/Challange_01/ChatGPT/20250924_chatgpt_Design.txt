@@ -1,0 +1,133 @@
+You said:
+Design
+
+Inleiding
+
+Uitwerking expert interview 1
+Advies: Hele lichaam, welke beweging maakt iemand, is die beweging effiecent, core spanning
+
+Uitwerking expert interview 2
+Op welke manier ga je het meten? Beste is om het te meten zoals het in het echt gaat
+
+Welke sensoren kies ik en waarom
+Een sensor kan op een aantal verschillende manieren meten. Mechnisch / kracht, Beweging / positie, Temperatuur, Magnetisch / elektrisch, Optisch/ visueel en Chemisch / biologisch.
+
+Mijn beperkingen zijn xx
+
+Dus dan ga ik voor zz
+
+Welke ontwikkelingsboard kies ik
+
+ik moet nu een document maken dat beschrijft wat mijn desgin is. mijn alayse en advies.odt heb je al hieronder de uitwerkingen van mijn interviews:
+
+interview 1: powerliftcoach:
+Expertinterview met powerliftcoach
+Doel: Inzicht krijgen in welke bewegingen en informatie voor de coach het meest waardevol zijn bij het analyseren van cliënten.
+Vragen:
+    1. Bij welke oefeningen mis je cruciale informatie over de beweging van cliënten?
+        ◦ Antwoord: Alle powerlift oefeningen, Benchpress, Deadlift & Squat.
+    2. Welke fouten of compensatiepatronen wil je sneller of duidelijker kunnen zien?
+        ◦ Antwoord: Alle oefeningen en beweegpatronen waaruit blessures kunnen ontstaan.
+    3. Wat zou je minimaal op een scherm willen terugzien tijdens of na een oefening?
+        ◦ Antwoord: Beweegpatroon
+    4. Zijn er specifieke bewegingen of posities waarvan je denkt dat ze vaak verkeerd worden uitgevoerd?
+        ◦ Antwoord: Core- en rugspanning, het behouden daarvan. Mobilitsatie, problemen die onstaan doordat mensen bepaalde mobiliteitsproblemen hebben.
+    5. Welke meetwaarden zouden jou helpen bij het corrigeren van techniek tijdens trainingen?
+        ◦ Antwoord: Achterkomt waar het lichaam energie verliest, het complete lichaam, hoe alle spiergroepen en botten bewegen, kunnen inzien.
+    6. Als u zelf een prototype zou mogen ontwerpen: wat zou u er absoluut in stoppen, en wat zeker niet?
+        ◦ Antwoord: Filmpje maken waarbij analyse plaatsvindt hoe je beweegt. Weten waar mensen in lihaam/gewrichten knikken/buigen en ook automatisch advies hoe dat lichaam dat wordt gemeten, wat daarvoor de optimale beweegpatroon is.
+        ◦ Antwoord vervolg: Het product kan analyseren over de gebruiker ervan optimale beweegpatronen heeft en zo niet, welke oefeningen moet deze persoon dan doen om dat te krijgen.
+    7. Kent u nog andere experts of praktijksituaties die nuttig zouden zijn om in dit onderzoek te betrekken?
+        ◦ Antwoord: Een gymastiek coach
+Omdat het interview niet helemaal verliep zoals gehoopt, de vragen waren te open en te vrij, waardoor de coach vooral een ideaalbeeld schetste – heb ik aansluitend nog een aanvullende vraag gesteld:
+
+Aanvullende vraag:
+Als ik iets heel simpels ga maken, dat maar één ding meet met beperkte techniek, wat zou u dan willen weten?
+            ▪ Antwoord: Corespanning, behoudt iemand de corespanning.
+
+Naast de input van de coach neem ik ook mijn eigen ervaring als powerlifter mee. In mijn beleving komt disbalans vaak tot uiting in de drukverdeling van het lichaam op de grond of bank. Bijvoorbeeld: via de rechtervoet gaat 45% van de kracht en via de linkervoet 55%.
+
+interview 2: Ssensorexpert:
+
+Hoofdcategorie	Concrete sensoren / toepassingen	Wat ze meten
+Mechanisch / kracht	Bandjes die uitzetten, rekstroken / stretch sensors, plakketjes op huid (spieractivatie), bloeddrukmeters, acupunctuur-voelers	Spieractivatie, kracht, druk, vervorming, uitzetting
+Beweging / positie	Accelerometers / gyroscopen / IMU, radarsensoren voor beweging in bed, sensorpack op lichaam, detectie van beweging bij ontbrekende ledematen	Versnelling, positie, hoek, beweging, hoogte
+Temperatuur	Warmtesensoren, thermische camera’s	Huidtemperatuur, lichaamswarmte
+Magnetisch / elektrisch	Elektrische geleiding van huid (GSR), EMG sensoren, fysio-apparatuur die elektrische pulsjes geeft	Spieractivatie, elektrische signalen, huidgeleiding
+Optisch / visueel	Camera / videobeeld, ultrasoon sensoren, radarmodule voor houding en beweging, beeldvormingssensoren	Afstand, beweging, positie, beeld, straling/licht
+Chemisch / biologisch	Acupunctuur-technologie (reactie via huid), sensoren voor zuurstof, bloedchemie, zweetanalyse	Chemische veranderingen, biofeedback, fysiologische reacties
+ChatGPT said:
+
+Top, ik heb je interviews en je Analyse en Advies.odt bekeken. Daarmee kun je nu een Design-document opbouwen dat laat zien hoe je van analyse → keuzes → ontwerp komt. Je hoeft niet alles opnieuw te schrijven, maar juist te structureren en koppelen. Ik stel dit raamwerk voor, met invulling op basis van jouw interviews en analyse:
+
+Design
+Inleiding
+
+Dit project richt zich op het ontwikkelen van een prototype dat professionals (zoals powerliftcoaches en fysiotherapeuten) ondersteunt bij het analyseren van bewegingen tijdens powerlifting. Het systeem moet inzicht geven in beweging, corespanning en compensatiepatronen. Dit document beschrijft het ontwerp dat voortkomt uit eerdere analyse en expertinterviews.
+
+Uitwerking Expertinterview 1 (Powerliftcoach)
+
+Belangrijkste behoefte: inzicht in het hele lichaam – hoe beweegt iemand, is de beweging efficiënt, en behoudt de sporter corespanning en rugspanning.
+
+Minimaal nuttige feedback: corespanning (simpel meetbaar prototype).
+
+Eigen observatie (Bram): disbalans komt vaak tot uiting in drukverdeling (bijv. links/rechts verschil in voeten of bankdruk).
+
+Advies uit interview:
+Focus op het meten van corespanning en drukverdeling als startpunt.
+
+Uitwerking Expertinterview 2 (Sensorexpert)
+
+De sensorexpert gaf een overzicht van hoofdcategorieën:
+
+Mechanisch/kracht → rekstroken, stretch sensors, drukverdeling
+
+Beweging/positie → IMU (accelerometer + gyroscoop)
+
+Magnetisch/elektrisch → EMG (spieractivatie)
+
+Optisch/visueel → camera’s of radarsensoren
+
+Advies uit interview: meten moet zoveel mogelijk lijken op hoe de beweging in het echt plaatsvindt. Kies sensoren die draagbaar, robuust en betaalbaar zijn.
+
+Welke sensoren kies ik en waarom
+
+Corespanning → EMG-sensor (spieractivatie) of stretch sensor (uitzetting band rond romp).
+
+Beweging/lichaamshouding → IMU’s (versnelling, rotatie, hoek).
+
+Drukverdeling → Druksensoren onder voeten of op bank.
+
+Redenering:
+
+Start eenvoudig met EMG of stretch sensor (corespanning) en eventueel druksensoren.
+
+IMU kan later worden toegevoegd om volledige bewegingsanalyse te doen.
+
+Beperkingen en voorkeuren
+
+Beperkt budget → goedkope, open-hardware sensoren (Arduino/ESP32 compatibel).
+
+Beperkte ervaring → eenvoudige setup met duidelijke documentatie en community.
+
+Prototypekarakter → niet commercieel, proof-of-concept.
+
+Draagbaarheid → systeem moet in sportschool makkelijk bruikbaar zijn.
+
+Keuze sensoren (conclusie)
+
+Run 1–2: stretch sensor (bandje) of EMG-kit voor corespanning + druksensoren voor verdeling.
+
+Run 3–4: uitbreiden met IMU’s voor bewegingsanalyse.
+
+Welke ontwikkelboard kies ik
+
+Arduino Uno R3 of ESP32
+
+Arduino: eenvoudig, veel tutorials, stabiel startpunt.
+
+ESP32: krachtiger, ingebouwde Bluetooth/WiFi → handig voor draadloze uitlezing.
+
+Advies: start met Arduino Uno R3 voor proof-of-concept (snelle leercurve), later overstappen naar ESP32 voor draadloze functionaliteit.
+
+Wil je dat ik dit meteen voor je omzet in een net design-document (Word/ODT) met hoofdstukken en tabellen, of wil je dat ik het eerst als strakke tekstversie hier in de chat voor je afrond?

@@ -1,0 +1,113 @@
+You said:
+Design
+Inleiding
+Dit project richt zich op het ontwikkelen van een prototype dat professionals (zoals powerliftcoaches en fysiotherapeuten) ondersteunt bij het analyseren van bewegingen tijdens powerlifting. Het systeem moet inzicht geven in beweging, corespanning en compensatiepatronen. Dit document beschrijft het ontwerp dat voortkomt uit eerdere analyse en expertinterviews.
+Uitwerking Expertinterview 1 (Powerliftcoach)
+    • Belangrijkste behoefte: inzicht in het hele lichaam, hoe beweegt iemand, is de beweging efficiënt en behoudt de sporter corespanning en rugspanning.
+    • Minimaal nuttige feedback: corespanning
+    • Eigen observatie: disbalans komt vaak tot uiting in drukverdeling (bijv. links/rechts verschil in voeten of bankdruk).
+Conclusie uit interview:
+Focus op het meten van corespanning en drukverdeling als startpunt.
+Uitwerking Expertinterview 2 (Sensorexpert)
+De sensorexpert gaf een overzicht van hoofdcategorieën:
+
+Hoofdcategorie	Concrete sensoren / toepassingen	Wat ze meten
+Mechanisch / kracht	Bandjes die uitzetten, rekstroken / stretch sensors, plakketjes op huid (spieractivatie), bloeddrukmeters, acupunctuur-voelers	Spieractivatie, kracht, druk, vervorming, uitzetting
+Beweging / positie	Accelerometers / gyroscopen / IMU, radarsensoren voor beweging in bed, sensorpack op lichaam, detectie van beweging bij ontbrekende ledematen	Versnelling, positie, hoek, beweging, hoogte
+Temperatuur	Warmtesensoren, thermische camera’s	Huidtemperatuur, lichaamswarmte
+Magnetisch / elektrisch	Elektrische geleiding van huid (GSR), EMG sensoren, fysio-apparatuur die elektrische pulsjes geeft	Spieractivatie, elektrische signalen, huidgeleiding
+Optisch / visueel	Camera / videobeeld, ultrasoon sensoren, radarmodule voor houding en beweging.	Afstand, beweging, positie, beeld, straling/licht
+Chemisch / biologisch	Acupunctuur-technologie (reactie via huid), sensoren voor zuurstof, bloedchemie, zweetanalyse	Chemische veranderingen, biofeedback, fysiologische reacties
+
+
+Advies uit interview: meten moet zoveel mogelijk lijken op hoe de beweging in het echt plaatsvindt.
+Conclusie uit interview: Maak eerst een matrix, staat hierboven, zodat op hoofdcategorie gekozen kan worden welke type sensor naar gekeken wordt. Denk na over wat je wilt meten, de persoon of de apperatuur.
+Beperkingen en voorkeuren
+    • Beperkt budget → goedkope, open-hardware sensoren (Arduino/ESP32 compatibel).
+    • Beperkte ervaring → eenvoudige setup met duidelijke documentatie en community.
+    • Prototypekarakter → niet commercieel, proof-of-concept.
+    • Draagbaarheid → systeem moet in sportschool makkelijk bruikbaar zijn.
+    • Toepasbaarheid → Moet de gebruiker niet in de weg zitten
+    • Open-source → Voorkeur voor open-source technologie
+Welke Hoofdcategorie sensor kies ik en waarom
+Dit vond ik een lastige stap om te zetten. EMG sensoren liggen het meest voor de hand, echter verlies je veel gebruikersgemak doordat je telkens van de sensoren moet opplakken en de kabels die eruitkomen kunnen valse singalen geven als er kracht op de singalen komt. Wellicht is dit de makkelijkste weg op core-spanning te meten, maar mijn gevoel zegt me dat ik een andere kant op moet.
+Ik denk dat het in de basis gaat om beweegpatronen, zijn de beweegpatronen symetrisch, schokkerig, raar en als je dat ziet, dan ga je pas kijken waarom. Waarom kan zijn omdat de core niet aangespannen is. Niet ik dit zo opschrijf snap ik mijn gevoel om weg te gaan bij EMG sensoren, de eerste stap is de totale beweging te analyseren.
+Om dat te doen lijkt het mij het handigste om dat via optisch/visueel dat te doen, want zo beoordeeld de coach dat ook. Zodra hij iets ziet gaat hij voelen of de spierspanning op bepaalde plekken klopt.
+Na nog wat meer nadenken, lijkt het mij het handigst om te gaan voor IMU’s. Deze uiteindelijk in schrijven te plaatsen die aan je aan de stang kan hangen. De platen kunnen daar draai, dus zwaartekracht werkt. Daardoor kan je de positie van de IMU’s vaststellen t.o.v. de barbell. Bijvorobeeld 3 cm onder de barbell. Past deze naadloos, zonder aanpassing van de barbell op de barbell. En in theorie kan je ze dan ook op een dumbell plaatsen.
+
+Door de beweging van de barbell (nog ergens teoveogen foto van een barbell) te analyseren kan je subtiele verschillen zien en waar de subtiele verschillen beginnen.
+Welke IMU sensor kies ik?
+De sensor moet goedkoop, maar betrouwbaar zijn. Scokbestendig zijn, deadliftn. En moet klein genoeg zijn om in een halterchrijf in te bouwen.
+
+verbter deze tekst
+ChatGPT said:
+
+Hier is een verbeterde, vloeiendere en professionelere versie van je tekst, waarbij de inhoud behouden blijft, maar zinnen zijn vereenvoudigd en de structuur iets strakker is gemaakt:
+
+Design
+Inleiding
+
+Dit project richt zich op het ontwikkelen van een prototype dat professionals, zoals powerliftcoaches en fysiotherapeuten, ondersteunt bij het analyseren van bewegingen tijdens powerlifting. Het systeem moet inzicht bieden in lichaamsbewegingen, corespanning en compensatiepatronen. Dit document beschrijft het ontwerp op basis van eerdere analyses en expertinterviews.
+
+Uitwerking Expertinterview 1 – Powerliftcoach
+
+Belangrijkste behoefte: inzicht in het hele lichaam; hoe beweegt iemand, is de beweging efficiënt en behoudt de sporter corespanning en rugspanning.
+
+Minimaal nuttige feedback: corespanning.
+
+Eigen observatie: disbalans uit zich vaak in verschillen in drukverdeling, bijvoorbeeld links/rechtsverschil bij de voeten of tijdens bankdruk.
+
+Conclusie: focus in eerste instantie op het meten van corespanning en drukverdeling.
+
+Uitwerking Expertinterview 2 – Sensorexpert
+
+De sensorexpert gaf een overzicht van sensorcategorieën:
+
+Hoofdcategorie	Concrete sensoren / toepassingen	Wat ze meten
+Mechanisch / kracht	Bandjes die uitzetten, rekstroken / stretch sensors, plakketjes op huid, bloeddrukmeters, acupunctuur-voelers	Spieractivatie, kracht, druk, vervorming, uitzetting
+Beweging / positie	Accelerometers / gyroscopen / IMU, radarsensoren, sensorpack op lichaam	Versnelling, positie, hoek, beweging, hoogte
+Temperatuur	Warmtesensoren, thermische camera’s	Huidtemperatuur, lichaamswarmte
+Magnetisch / elektrisch	GSR (huidgeleiding), EMG sensoren, fysio-apparatuur	Spieractivatie, elektrische signalen, huidgeleiding
+Optisch / visueel	Camera’s, ultrasoon sensoren, radarmodule	Afstand, beweging, positie, beeld, straling/licht
+Chemisch / biologisch	Acupunctuur-technologie, sensoren voor zuurstof, bloedchemie, zweetanalyse	Chemische veranderingen, biofeedback, fysiologische reacties
+
+Advies uit interview: meten moet zoveel mogelijk lijken op de werkelijke beweging.
+Conclusie: maak een matrix van sensoren per hoofdcategorie en bepaal wat je wilt meten: de persoon of de apparatuur.
+
+Beperkingen en voorkeuren
+
+Budget: beperkt → goedkope, open-hardware sensoren (Arduino/ESP32 compatibel).
+
+Ervaring: beperkt → eenvoudige setup met duidelijke documentatie en actieve community.
+
+Prototype: proof-of-concept, niet commercieel.
+
+Draagbaarheid: makkelijk bruikbaar in de sportschool.
+
+Toepasbaarheid: mag de gebruiker niet in de weg zitten.
+
+Open-source: voorkeur voor open-source technologie.
+
+Keuze hoofdcategorie sensor
+
+EMG-sensoren zijn voor corespanning voor de hand liggend, maar brengen praktische nadelen met zich mee: telkens opplakken, kabels die valse signalen kunnen geven onder belasting. Hoewel dit theoretisch de meest directe manier is om corespanning te meten, lijkt een andere aanpak handiger.
+
+Het primaire doel is eerst het analyseren van het beweegpatroon: is het symmetrisch, vloeiend of juist schokkerig? Pas daarna kan worden onderzocht waarom, bijvoorbeeld vanwege onvoldoende corespanning.
+
+Optisch/visuele sensoren lijken hier het meest geschikt, omdat coaches bewegingen ook visueel beoordelen. Een tweede stap kan dan gericht zijn op spierspanning.
+
+Na verdere overweging lijkt het gebruik van IMU’s (Inertial Measurement Units) het meest praktisch. Deze kunnen in de stang of halterschijf geplaatst worden, zodat de zwaartekracht gebruikt kan worden om de positie ten opzichte van de barbell vast te stellen. Bijvoorbeeld 3 cm onder de stang. Dit systeem zou naadloos passen zonder aanpassingen aan de halter en kan in theorie ook op dumbbells worden gebruikt. Door de beweging van de barbell te analyseren, kunnen subtiele afwijkingen en de oorsprong daarvan worden geïdentificeerd.
+
+Keuze van de IMU-sensor
+
+De sensor moet:
+
+Betrouwbaar en schokbestendig zijn (geschikt voor deadlifts).
+
+Klein genoeg zijn om in een halterplaat ingebouwd te worden.
+
+Betaalbaar zijn en compatibel met Arduino/ESP32.
+
+Als je wilt, kan ik ook een kortere, meer gestroomlijnde versie maken die geschikt is voor een formeel design document, zodat het nog professioneler oogt voor externe lezers.
+
+Wil je dat ik dat doe?
