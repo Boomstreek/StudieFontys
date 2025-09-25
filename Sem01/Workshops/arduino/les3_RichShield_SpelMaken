@@ -1,0 +1,47 @@
+Arduino Les 3
+
+Vorige keer delays voor button ingebouwt, maar dat wil je liever niet
+  - tijdens delay doet programme nisk nuttigs, wacht gewoon
+
+  Tinkercad, autocad waar je via computer kan schetsen met arduino onderdelen.
+
+  void setup() is de setup
+
+  void loop() hier komt de daadwerkelijk code. setup is dus alleen de voorbereiding hiervoor.
+
+  Functie, tijd sinds arduino aanstaat
+    - arduino millis gegoogled
+        - krijg je millis() docs
+        - unsigned is alleen positieve getallen. bijv. unsigned long is een 32 bit getal, int is 16 bit bij arduino. verschilt per chip
+
+millis is hudiige tijd en zet daar 1000ms bij
+
+bool buttonispressed -= false;
+
+const int LED_PIN< output = 8;
+const int BTN_PIN = 6;
+
+unsigned long
+
+hoe weet je waar welke code je moet neerzetten? Variable boven, wat in voud setup en wat in loop, is daar een ezelsbrugetje voor?
+
+setup is code die alleen aan het begint wilt runnen, loop is continu. Varable die in loop en setup wil gebruiken, moeten erbuiten staan
+
+static; de eerste keer dat compiler het tegen komt, dan voort die hem uit. 2de keer doet die het niet.
+
+arduino aangeven dat het input of output is
+serial .begin moet zelfde bitrate hebben
+
+input_pullup, als hij ingedrukt is die low en bij niet high, high is 5v
+
+hoe wordt millis() berekend? sinds applicatie aan staat
+
+milis() huidige tijd, toevoegen anders werk je in het verleden.
+
+hoe voeg je libray toe:
+tools manage librays
+anologe pin uitlezen
+
+Koop arduino in china, goedkoper. Let op dat het wel een compatible chip is Atmega86 of zo iets
+
+
