@@ -13,28 +13,43 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Leerdoelen/Leerdoelen Sem-01.md",
+                "file": "Aha momenten.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "Leerdoelen Sem-01"
+              "title": "Aha momenten"
+            }
+          },
+          {
+            "id": "8665e53893f87dae",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Vragen.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Vragen"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
-        "id": "b71f11d11a01d0ca",
+        "id": "4d8c1e94ad6de202",
         "type": "tabs",
         "children": [
           {
-            "id": "3bf64fb90cbb2744",
+            "id": "45214962b09a36a3",
             "type": "leaf",
             "state": {
               "type": "mindmap",
               "state": {},
               "icon": "dot-network",
-              "title": "Mind Map of Leerdoelen Sem-01"
+              "title": "Mind Map of Vragen"
             }
           }
         ]
@@ -184,11 +199,14 @@
       "bases:Create new base": false
     }
   },
-  "active": "a6e81a02deac8581",
+  "active": "8665e53893f87dae",
   "lastOpenFiles": [
     "Leerdoelen/Leerdoelen.md",
-    "Leerdoelen/Leerdoelen Sem-01.md",
+    "Aha momenten.md",
+    "analyse.md",
+    "Vragen.md",
     "Welcome.md",
+    "Leerdoelen/Leerdoelen Sem-01.md",
     "20250924_Leerdoelen.png",
     "Pasted image 20250924140631.png",
     "Leerdoelen",

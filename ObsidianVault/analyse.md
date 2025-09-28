@@ -1,0 +1,1 @@
+Uit een goede analyse kan je runs / deelvragen halen die functioneren als handvatten voor je project.
