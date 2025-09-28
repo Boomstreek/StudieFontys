@@ -16,6 +16,7 @@
 # Business & Analyse
 ## Hoe kan ik data visualiseren?
 ## Welke analyse kan ik loslaten op data
+### Hoe kies ik de juiste analyse?
 
 
 # Infrastructuur
@@ -26,3 +27,5 @@
 # Mediadesign
 ## Wat houdt dit topic in?
 ## Wat is de basiskennis die je moet weten?
+
+

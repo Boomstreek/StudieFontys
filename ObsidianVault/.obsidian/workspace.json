@@ -4,26 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "e97c24f2652016dd",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "e2f178b15d65ce39",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Welcome.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Welcome"
-            }
-          }
-        ]
-      },
-      {
         "id": "568a4d6eebd2b95e",
         "type": "tabs",
         "children": [
@@ -40,19 +20,24 @@
               "icon": "lucide-file",
               "title": "Leerdoelen Sem-01"
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "b71f11d11a01d0ca",
+        "type": "tabs",
+        "children": [
           {
-            "id": "aaff211c892dd29b",
+            "id": "3bf64fb90cbb2744",
             "type": "leaf",
             "state": {
               "type": "mindmap",
               "state": {},
               "icon": "dot-network",
-              "title": "Mind Map of Welcome"
+              "title": "Mind Map of Leerdoelen Sem-01"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -199,13 +184,13 @@
       "bases:Create new base": false
     }
   },
-  "active": "e2f178b15d65ce39",
+  "active": "a6e81a02deac8581",
   "lastOpenFiles": [
+    "Leerdoelen/Leerdoelen.md",
+    "Leerdoelen/Leerdoelen Sem-01.md",
+    "Welcome.md",
     "20250924_Leerdoelen.png",
     "Pasted image 20250924140631.png",
-    "Welcome.md",
-    "Leerdoelen/Leerdoelen Sem-01.md",
-    "Leerdoelen/Leerdoelen.md",
     "Leerdoelen",
     "New note.md"
   ]
