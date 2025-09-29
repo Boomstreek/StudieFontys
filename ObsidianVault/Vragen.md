@@ -2,4 +2,6 @@
 2. Leerdoelen goed visualiseren, bijvoorbeeld via Zettelkasten? Hoe pak ik dit aan?
 3. Technologies
 	1. 102 102 op dht11 3 pin, dat zijn weerstanden, 10000 ohm via google. maar waarom staan er 2 chipjes op. dus 2 chipjes met elk 102 erop.
-4. Blabla
+4. Bus & Data
+	1. Univariate vs histogram
+5. Programeren deel 3, staat niet online
