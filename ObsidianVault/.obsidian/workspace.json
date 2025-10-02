@@ -6,7 +6,7 @@
       {
         "id": "568a4d6eebd2b95e",
         "type": "tabs",
-        "dimension": 71.30102040816327,
+        "dimension": 55.10204081632652,
         "children": [
           {
             "id": "a6e81a02deac8581",
@@ -42,7 +42,7 @@
       {
         "id": "892b0592802e0c4f",
         "type": "tabs",
-        "dimension": 28.69897959183674,
+        "dimension": 44.89795918367347,
         "children": [
           {
             "id": "13747eea2b0ca3a3",
@@ -51,7 +51,7 @@
               "type": "mindmap",
               "state": {},
               "icon": "dot-network",
-              "title": "Mind Map of Leerdoelen Sem-01 v2"
+              "title": "Mind Map of Leerdoelen"
             }
           }
         ]
@@ -203,16 +203,18 @@
   },
   "active": "8665e53893f87dae",
   "lastOpenFiles": [
-    "Leerdoelen/Leerdoelen Sem-01.md",
-    "Leerdoelen/Leerdoelen Sem-01 v2.md",
     "Leerdoelen/Leerdoelen.md",
-    "Kernwaarden.md",
+    "Lessen Arduino probeersels.md",
     "Aha momenten.md",
+    "Leerdoelen/Leerdoelen Sem-01 v2.md",
+    "Feedback 29-09-2025.md",
+    "Kernwaarden.md",
+    "Reflectie project Sem01.md",
     "Vragen.md",
+    "Welcome.md",
+    "Leerdoelen/Leerdoelen Sem-01.md",
     "design.md",
     "analyse.md",
-    "Welcome.md",
-    "Feedback.md",
     "20250924_Leerdoelen.png",
     "Pasted image 20250924140631.png",
     "Leerdoelen",

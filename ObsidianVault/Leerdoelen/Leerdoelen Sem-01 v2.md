@@ -23,7 +23,7 @@ Op basis van mijn [[Kernwaarden]] ga ik mijn leerdoelen voor semester 01 opstell
 ## Verbinden
 ## Vertrouwen
 ### Durven fouten te maken als onderdeel van mijn leerproces
-#### [[Fouten Technologies Sem01]]
+#### [[Lessen Arduino probeersels]]
 ## Authenticiteit
 ### Project niet afraffelen voor het cijfer. 
 #### [[Reflectie project Sem01]]
