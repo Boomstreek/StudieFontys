@@ -1,5 +1,5 @@
 [[Leerdoelen Sem-01]]
-
+[[Kernwaarden]]
 ## Wat zijn mijn kernwaardes (Hier beginnen en de rest komt hieruit voor, Dus per topic mijn kernwaardes aan toevoegen en wat ik dan het semester wil leren)
 ### Vrijheid 
 #### Aanpasbaar

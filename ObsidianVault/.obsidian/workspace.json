@@ -27,29 +27,29 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Vragen.md",
+                "file": "Leerdoelen/Leerdoelen Sem-01 v2.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Vragen"
+              "title": "Leerdoelen Sem-01 v2"
             }
           }
         ],
         "currentTab": 1
       },
       {
-        "id": "4d8c1e94ad6de202",
+        "id": "892b0592802e0c4f",
         "type": "tabs",
         "children": [
           {
-            "id": "45214962b09a36a3",
+            "id": "13747eea2b0ca3a3",
             "type": "leaf",
             "state": {
               "type": "mindmap",
               "state": {},
               "icon": "dot-network",
-              "title": "Mind Map of Vragen"
+              "title": "Mind Map of Files"
             }
           }
         ]
@@ -199,16 +199,18 @@
       "bases:Create new base": false
     }
   },
-  "active": "8665e53893f87dae",
+  "active": "13747eea2b0ca3a3",
   "lastOpenFiles": [
+    "Leerdoelen/Leerdoelen Sem-01.md",
+    "Leerdoelen/Leerdoelen Sem-01 v2.md",
+    "Leerdoelen/Leerdoelen.md",
+    "Kernwaarden.md",
     "Aha momenten.md",
+    "Vragen.md",
     "design.md",
     "analyse.md",
-    "Leerdoelen/Leerdoelen.md",
-    "Leerdoelen/Leerdoelen Sem-01.md",
     "Welcome.md",
     "Feedback.md",
-    "Vragen.md",
     "20250924_Leerdoelen.png",
     "Pasted image 20250924140631.png",
     "Leerdoelen",
