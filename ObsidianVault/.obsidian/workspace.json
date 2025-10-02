@@ -6,6 +6,7 @@
       {
         "id": "568a4d6eebd2b95e",
         "type": "tabs",
+        "dimension": 71.30102040816327,
         "children": [
           {
             "id": "a6e81a02deac8581",
@@ -41,6 +42,7 @@
       {
         "id": "892b0592802e0c4f",
         "type": "tabs",
+        "dimension": 28.69897959183674,
         "children": [
           {
             "id": "13747eea2b0ca3a3",
@@ -49,7 +51,7 @@
               "type": "mindmap",
               "state": {},
               "icon": "dot-network",
-              "title": "Mind Map of Files"
+              "title": "Mind Map of Leerdoelen Sem-01 v2"
             }
           }
         ]
@@ -199,7 +201,7 @@
       "bases:Create new base": false
     }
   },
-  "active": "13747eea2b0ca3a3",
+  "active": "8665e53893f87dae",
   "lastOpenFiles": [
     "Leerdoelen/Leerdoelen Sem-01.md",
     "Leerdoelen/Leerdoelen Sem-01 v2.md",

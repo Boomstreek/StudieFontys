@@ -41,7 +41,7 @@ Op basis van mijn [[Kernwaarden]] ga ik mijn leerdoelen voor semester 01 opstell
 ## Vertrouwen
 ### Zelfstandig problemen aanpakken in code
 ### Vertrouwen dat ik de oplossing kan vinden door te oefenen en documentatie te lezen
-#### [[Reflectie Programmeren Sem01]][[Overzicht gebruikte documentaties Sem01]]
+#### [[Reflectie Programmeren Sem01]] [[Overzicht gebruikte documentaties Sem01]]
 ## Authenticiteit
 ### Kiezen voor open-source
 #### [[Reflectie project Sem01]]
@@ -69,7 +69,7 @@ Op basis van mijn [[Kernwaarden]] ga ik mijn leerdoelen voor semester 01 opstell
 ## Vertrouwen
 ## Authenticiteit
 ### Alhoewel ik creativiteit wel als een karakteronderdeel beschouw, heb ik toch afkeer van dit onderwerp. 
-#### Waarom?
+#### [[Reflectie UX-design]]
 ## Persoonlijke groei
 ### Basisvaardigheden opdoen in UX om samenwerking en communicatie te verbeteren met UX-designers
 #### [[Workshops UX-design Sem01]]
