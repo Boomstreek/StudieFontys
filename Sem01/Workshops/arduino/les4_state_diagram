@@ -1,0 +1,91 @@
+Les 4 State Diagram
+bounce liefst oplossen via condencator
+en als dat niet kan, dan via software
+
+Opnieuw beginnen, we gaan naar de tekentafel. draw.io
+  - blank diagram
+
+State diagram, wacht echt op bepaalde gebeurtenissen. Events willkeurig
+  - legt verschil uit tussen flow chart en statediagram
+
+  booleans geeft chaos en daardoor bugs, wordt een drama
+  - zie je wel veel in de praktijk
+  - dit nog eens nazoeken
+
+begin toestand, zwart cirkeltje
+Achter / in de tekst komt water gedaan moet wordne
+
+Rest van de diagram heeft waar het op wacht en wat het doet. 
+
+De acties gaat hij nu met [] doen, bijvoorbeeld [millis() > GreenOnTime] / (/ zijn de acties als de [] transitie plaats vindt) GreenLed(on)
+
+[milis90 > GreenOnTime && ButtonReleaser]/ 
+GreenLed(on);
+
+
+ButtonPressed/
+calculateReactieTime();
+greenLedOff();
+
+Dan wachten totdat knopje los laat
+
+ButtonReleaser/
+GreenOnTime = millis() + random(2000);
+
+invarianten? wat zijn dit opzoeken
+
+Moeilijk vershil qua denken , flowchart en state diagram
+
+VSCode vult beter aan,proffesioneler
+
+void setup()
+
+enum STATE
+
+{
+  WAIT_ON_GREEN_LED,
+  WAIT_ON_BTN_PRESSED,
+  WAIT_ON_BTN_RELEASED
+};
+
+void loop()
+
+static STATE currentState = WAIT_ON_GREEN_LED;
+
+switch (currentState) // slimmer if else statment
+{
+  case WAIT_ON_GREEN_LED:
+  if digitaleRead(BTN_PIN == LOW
+  {
+    currentState = WAIT BTN RELASEED
+  }
+    else if (millis() > greenOnTime)
+    {
+      digitalWrite(GREEN_LED_PIN, HIGH);
+      currentState = WAIT_ON_BTN_PRESSED;
+    }
+    break;
+  case WAIT_ON_BTN_PRESSED:
+      if (digitalRead(BTN_PIN) == LOW)
+      {
+          serial print
+          led uitzetten
+          currentState = WAIT_ON_BRN_RELEASED;
+      }
+    break; 
+  case WAIT_ON_BTN_RELEASED:
+      if digitalread btn pin == high // pull up , knop uit is high
+      {
+          greenontime = milis random
+          currentState + WAIT_ON_GREEN_LEDl
+      }
+    break;
+}
+
+Wat je heel vaak ziet, vaak denk je dat je het wel kan doen met een boolean, maar case werkt overzichtelijker
+
+communicatie tussen divces $bericht:argument:# bijv. Hiervoor toestanden, case, gebruikenplaatje helpt, diagram, met code te lezen
+  - geen booleans. Nu bij wijziging terug naar tekening , stae diagram, en dan weer nieuwe states maken
+
+--- hieronder de code van de les ---
+

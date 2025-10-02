@@ -6,7 +6,6 @@
       {
         "id": "568a4d6eebd2b95e",
         "type": "tabs",
-        "dimension": 55.10204081632652,
         "children": [
           {
             "id": "a6e81a02deac8581",
@@ -35,26 +34,37 @@
               "icon": "lucide-file",
               "title": "Leerdoelen Sem-01 v2"
             }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "892b0592802e0c4f",
-        "type": "tabs",
-        "dimension": 44.89795918367347,
-        "children": [
+          },
           {
-            "id": "13747eea2b0ca3a3",
+            "id": "b107ad790ccb321c",
             "type": "leaf",
             "state": {
-              "type": "mindmap",
-              "state": {},
-              "icon": "dot-network",
-              "title": "Mind Map of Leerdoelen"
+              "type": "markdown",
+              "state": {
+                "file": "Leerdoelen/Leerdoelen Sem-01 v2.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Leerdoelen Sem-01 v2"
+            }
+          },
+          {
+            "id": "608eaf02b3a16bb8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Workshops Technologies Sem01.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Workshops Technologies Sem01"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -201,12 +211,14 @@
       "bases:Create new base": false
     }
   },
-  "active": "8665e53893f87dae",
+  "active": "608eaf02b3a16bb8",
   "lastOpenFiles": [
+    "Workshops Technologies Sem01.md",
+    "Leerdoelen/Leerdoelen Sem-01 v2.md",
+    "Workshops",
     "Leerdoelen/Leerdoelen.md",
     "Lessen Arduino probeersels.md",
     "Aha momenten.md",
-    "Leerdoelen/Leerdoelen Sem-01 v2.md",
     "Feedback 29-09-2025.md",
     "Kernwaarden.md",
     "Reflectie project Sem01.md",

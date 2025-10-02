@@ -1,6 +1,4 @@
-#include <dht.h>
-
-dht DHT;
+#include <DHT.h> // nieuwe library
 
 const int DHT11_PIN = 7;
 
@@ -53,15 +51,15 @@ void loop() {
     Serial.print("Reactietijd: ");
     Serial.print(reactieTijd);
     Serial.println(" ms");
-
-  int chk = DHT.read11(DHT11_PIN); // weeet niet warom dit moet van documentatie. Lees in elk geval de sensor. Denk dat chk in de libray van DHT11 vandaan komt.
+/* oude library
+  float chk = DHT.read11(DHT11_PIN); // weeet niet warom dit moet van documentatie. Lees in elk geval de sensor. Denk dat chk in de libray van DHT11 vandaan komt.
   Serial.print("Temperature = ");
-  Serial.print(DHT.temperature);
+  Serial.print(DHT.readTemperature);
   Serial.println(" Celcius");
   Serial.print("Humidity = ");
-  Serial.print(DHT.humidity);
+  Serial.print(DHT.readHumidity);
   Serial.println(" %");
-
+*/
     digitalWrite(GREEN_LED, LOW);
     greenIsOn = false;
     greenStartDelay = millis() + random(10000, 50000);
