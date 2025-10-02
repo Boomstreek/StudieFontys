@@ -1,0 +1,45 @@
+Ga erna meet elkaar vergelijk, Goal description
+
+# Proffesionele Standaard
+## Uitwerking expert intervieuws
+## Documenten
+
+# Documenteer beter, ik heb meer geleerd dan dat ik heb vastgelegd
+## Expert intervieuw, ging niet zoals ik wauw maar uitkomst was beter
+### Beschrijf dit in een document en voeg dat toe
+## Waarom ben ik niet tevreden, en etc Reflecteren
+
+# Analyse en advies, splits het in 2 documenten
+
+# Begin het verhaal met je leerdoelen en werk van daaruit verder
+
+# Beschrijven design en Analyse & Advies, wat heb ik geleerd
+
+# Technologies
+## Waarom is arduino leuk
+### Begrijpen
+### nieuw
+### het lukt
+## Waarom is het niet leuk
+### uiteindelijk is het een middel van creëren
+
+# Orientatie ophangen aan wie ik ben
+## Docent moet weten, waarom ik voor de richting kies waarvoor ik kies
+## Workshops als onderbouwing
+## Reflectie, maak dit brandstof voor je porto
+## Wat zijn mijn kernwaarden die ik denk dat ik heb, wat zou ik dan vinden van de de verschillende topics, testen en dan terugkoppeling
+### dus technologies, praktisch creeren vindt ik leuk, dus dat maken ga ik leuk vinden. Of begrijpen, Tinker vindt ik leuk
+
+# Reddit fontys bestaat
+
+# Bekijk de leeruitkomsten nog eens
+## Zijn er dingen die je hebt gedaan als bewijs voor je leeruitkomsten
+
+# Github met mijn werk als backup gedeeld
+## Maar ze begrijpen het niet, maar daar heb ik niks mee gedaan
+
+# Helemaal te zien
+## Wat vindt ik moeilijk, daarom zit ik hier op school
+### Wat is mijn droom, daarom zit ik hier op school
+## Wat motiveert mij, waarom ga je aan
+

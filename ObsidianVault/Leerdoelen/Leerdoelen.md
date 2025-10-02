@@ -1,5 +1,16 @@
 [[Leerdoelen Sem-01]]
 
+## Wat zijn mijn kernwaardes (Hier beginnen en de rest komt hieruit voor, Dus per topic mijn kernwaardes aan toevoegen en wat ik dan het semester wil leren)
+### Vrijheid 
+#### Aanpasbaar
+#### Informatie delen
+#### IT als verlengstuk, niet als beperking
+#### Fouten maken en leren
+##### Workflow optimaliseren 
+### Controle
+#### Weten wat bepaalde processen doen
+#### Output gestuurd
+
 # Business & Analyse
 ## Hoe zorg ik ervoor dat de uitvoerende kant data goed registreert
 ### ETL
@@ -46,14 +57,3 @@
 # Mediadesign
 ## Wat houdt dit topic in?
 ## Wat zijn de algemene dingen die ik ervan kan leren, die handig zijn om te weten
-
-## Wat zijn mijn kernwaardes (Hier beginnen en de rest komt hieruit voor, Dus per topic mijn kernwaardes aan toevoegen en wat ik dan het semester wil leren)
-### Vrijheid
-#### Aanpasbaar
-#### Informatie delen
-#### IT als verlengstuk, niet als beperking
-#### Fouten maken en leren
-##### Workflow optimaliseren 
-### Controle
-#### Weten wat bepaalde processen doen
-#### Output gestuurd
