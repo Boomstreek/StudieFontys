@@ -1,0 +1,53 @@
+Basis:
+
+Variables
+conversions
+conditios (if statements)
+Loops
+Methodes (function)
+Collextions (array/list)
+
+Variables types:
+boolen
+double
+decimel
+date 
+int
+etc
+
+cammelcase, is kleine letter beginnen en elk niuwe woord hoofletter
+
+goede gewoonte is variable in het engels
+
+defensive programming, zorgen dat er geen fouten kan ontstaan (proberen in elk geval)
+
+while loop besproken
+
+for loop
+kan je while loop korter mee opschrijven
+
+while = wanneer je niet preceies weet hoevaak iets gedaan moet worden
+for = als je het aantal van te voren weet
+
+while = oneindig
+for = eindig
+
+tip: ga de loops oefenen
+
+Function / Methode
+Vaker iets doen, maar niet achter elkaar
+
+class = bak met function
+
+collections is hetzelfde als een varriable??
+
+
+array en for loop zijn met elkaar getrouwt
+
+list
+
+progrmameer kleine programma, galgje bijvoorbeeld
+string in array of list, is ook een array e i n d h o v e n
+
+Wat heb ik ervan geleerD:
+niet zo veel
