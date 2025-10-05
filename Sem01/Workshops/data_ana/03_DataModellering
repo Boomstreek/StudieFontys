@@ -1,0 +1,50 @@
+ER - EER diagrammen komen in sem 2
+
+ER diagram -> klassen voor programeren en de database (klassendiagram en databsediagram)
+
+Data modelering is het proces vcan het creeren van visuele weeergva van objecten en eigenschappen en welke relatie die hebben tot elkaar
+
+Data modelering zorgt dat de relatusen tussen object in alle situaties in stand blijft. Als x weg gaat, weet of dat probelemen geeft
+
+entieiten, een opbject persoon en ding waarvan je info wilt registreren
+  - attributen, details van de entieiten
+      - ID enkel voor identificatie is geen attirbuut, tenzij het een betekenis heeft
+relaties, verhouding tussen entieiten
+
+1 = 1
+n = veel / many
+0,1 = 0 of 1
+(rete belangrijk voor databse)
+
+Dit is chen notatie
+entiteit = vierkant
+relaties is ruit <> zo <>
+attribuut is () langerekte cirkel
+
+ER tools:
+Virtual paradigm (viaschool), online versie, voor nu deze gebruiken
+ER diagram vs chen notatie 
+
+Opensoruce alternatiefen
+- ERAlchemy2 (AUR: eralchemy2)
+- Dia 
+- Umbrrello (Crow's foot-notatie dan chen)
+
+Geen database diagram, want die is niet geschikt voor klassendiagram
+
+EER, anatal deelneming van klant. stippelijn is berekent veld, dus niet ER maar wel EER
+- Duidelijk krijgen verschil ER en EER
+- basis ER maken, is eenvoudig
+
+Niet elke klant heeft toch een pas? Mmm, als ik det tekst lees is elke klant die zich registreert lid
+
+Als 1 op 1 realtie is, attribuut dat hun verbindt hoort bij de <>
+
+Wat heb ik hiervan geleerd:
+ER Diagram basis
+Tools, we maken ER diagram via Chen notatie
+
+Vragen die ik nog heb
+Wat is het verschil tussen ER en EER?
+Welke notaties zijn er nog meer?
+N:N moet zijn M:N, waarom? Of klopt dit? Waarom niet N:N?

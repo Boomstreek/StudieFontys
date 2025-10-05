@@ -14,6 +14,8 @@ Op basis van mijn [[Kernwaarden]] ga ik mijn leerdoelen voor semester 01 opstell
 ### Technologische skill ontwikkelen
 #### data leren visualiseren met Python en R
 ##### [[Werkboek R]] en [[datacamp.com]]
+#### Algemene kennis opdoen via workshops
+##### [[Workshops BusData Sem01]]
 ## Legacy
 ### Portfolio opbouwen met met analyses en visualisaties die ik heb gemaakt. 
 #### [[Portfolio Data-analyses]]

@@ -1,21 +1,19 @@
-Hoe doe je de orientatie
-  - Moet je alle topics iets voor opstellen? of is 2 of 3 ook voldoende?
-
 Hoe doe je Proffesnionele Standaard
   - Wie zijn je stakeholders, leg dat duidelijk vast
   - Hoe werk je samen, hoe leg je dit vast?
   - Trello bord met meetings, kanban
 
-Overweldigt door de vakken en de opdrachten, adveis? denk zelf kiezen
-  - Wat zou je leerdoelen?
+data 
+- Wat is het verschil tussen ER en EER 
+- Welke notaties zijn er nog meer?
+- N:N vs N:M, waarom niet N:N als N voor meerdere staat
+
+Relaties beschrijft hoe entiteiten zich tot elkaar verhouden, isets voor werk
+
+Visual Paradigm is niet open source, gaat het om een UML Unifeid modeling language?
+- gaat om chen notatie 
+  - Welke notaties zijn er nog meer en wat is het verschil ertussen?
 
 
-Volgende stap is design, hoe ga ik daarmee verder?
-  - zelf opzet maken, dit kan je zelf
-
-Les Donderdag as:
-Hoe kan SQL tellen in een string? Zie .png vraag 
-
-
-Voor de volgende keer:
-  - Portfolie klaarmaken voor 1ste inlevermoment (dat is zondag as.)
+Voor leerdoelen:
+Creatievieit komt bij mij niet uit spontane crativiteit. Ik begin met duidelijk de functionaliteit te beschrijven, vervolgens ga ik via techniek een 3d model of model maken, en dan ga ik bruut forcen totdat ik een ontwerp heb wat elegant lijkt. 
