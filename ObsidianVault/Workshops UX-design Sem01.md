@@ -1,0 +1,46 @@
+Les 1
+MagnaCult
+
+UX = user experience
+  - De interactie met een product en vooral hoe ze dit ervaren
+  - Design is leuk, maar gebruikers gaan voor gebruikersgemakt
+  - gaat om gevoel
+  - desgin kan heel mooi zijn, maar als het niet aansluit bij de gebruikerswensen dan he niet.
+  - Zet perspectief van user centraal, niet de stakeholders
+  - UX Mindset = gebruikers centraal zetten
+
+UX = uiterlijk + gevoel + gebruikersgemak
+ - ux is een team die vanuit verschillende perspectieven naar de UX kijken
+
+UX, korte feedbacklijnen, echter dat is voor alles handig.
+
+dont make me think, me is user
+
+Newson-norman group - usability
+  1. Laat weten wat er gebuert, voortgangsbalk
+  2. Overeenkomsten met exhte wereld, printer voor printen, mobieltje voor mobile
+  3. zekerheid en controle - annuleeroptie, geeft een gevoel van veiligheid
+  4. consistenetie en standaarden - dit moet je nalezen als je dit wilt
+  5. automatisch aanvullen - maakt het makkelijk, voorkomt fouten
+  6. herkennen is gemakkelijker dan onthouden
+  7. flexibiteit en effiencey, acceleratorts: sneltoetsen, vorborgen tabs voor wie sneller wil en kan
+  8. vorm en minimilistsch design, relevante info en visuele rust
+  9. erken fouten, help informeer en los ze op -meldingen
+  10. help en documentatie
+
+  SMART
+  Specifiek, meetbaar, acceptable, realistisch en tijdgebonden
+
+  Doelgroep
+  wie is je doelgroep, wie, juiste plaatst, juiste moment, juiste boodschap
+   kruip dieper in het hoofd van j klant
+  Persona
+  helpt je om in de doelgroep te verplaatsen, fictief persoon\
+  8 stappen om er te komen
+
+Wat vindt ik ervan: Als gebruiker van IT heel blij dat UX-ontwerpers mijn leven makkelijker maken. Maar ik wordt er niet warm van. Waarom wordt ik er niet warm van? Deze vraag nog beantwoorden
+
+Als mens trekt het me niet, ik weet, bewuste kennis, dat het nuttig is en dat het goed is dat het gebeurt. Maar ik wil echter een andere kant op lopen
+
+Vraag: Hoe zit het met japanse ontwerp, japanse kunst gaat om context, westerse op focus
+

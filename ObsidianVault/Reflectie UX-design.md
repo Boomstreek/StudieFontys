@@ -1,0 +1,1 @@
+Waarom heb ik er geen zin in? Zou mezelf wel als creatief zien, maar toch vondti k het niet leuk waarom?

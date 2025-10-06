@@ -12,3 +12,5 @@ Het mooiste is niet winnen van anderen, maar jezelf overwinnen. Blijven leren, o
 
 # Legacy
 Het leven is tijdelijk, maar wat je nalaat kan anderen inspireren. Door jouw voorbeeld hoop je dat zij de moed vinden om te proberen, te willen en risico’s te nemen. Dat ze bewuste keuzes maken om niet voor het makkelijke, maar voor een vervullend leven te gaan en daarmee de wereld een stukje beter achterlaten.
+
+# Controlfreak? 

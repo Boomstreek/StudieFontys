@@ -17,7 +17,7 @@ Wat heb ik geleerd
 ## [[Chen notatie]]
 ## Vragen
 ### Wat is het verschil tussen [[ER Diagram]] en [[EER Diagram]]
-#### Verschil is:
+#### Verschil is: 
 ### Welke notaties zijn er nog meer?
 #### [[Chen notatie]]
 #### [[Crow's foot notatie]]

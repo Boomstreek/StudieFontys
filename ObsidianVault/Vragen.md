@@ -7,6 +7,6 @@
 			1. Dit gaat dan weer mijn vraag voor infrastructuur worden
 4. Bus & Data
 	1. Univariate vs histogram
+	2. [[Workshops BusData Sem01]]
 5. Programeren 
-	1. deel 3, staat niet online
-		1. Kan je downloaden, rick vragen als ik he niet kan vinden
+

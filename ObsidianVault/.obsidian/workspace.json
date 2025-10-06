@@ -11,10 +11,30 @@
             "id": "106fb09ccbac2128",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Lessen Arduino probeersels.md",
+                "mode": "source",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Lessen Arduino probeersels"
+            }
+          }
+        ]
+      },
+      {
+        "id": "6776ddfa45909608",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e32d92b6511f1906",
+            "type": "leaf",
+            "state": {
+              "type": "mindmap",
+              "state": {},
+              "icon": "dot-network",
+              "title": "Mind Map of Lessen Arduino probeersels"
             }
           }
         ]
@@ -166,22 +186,24 @@
   },
   "active": "106fb09ccbac2128",
   "lastOpenFiles": [
-    "Workshops BusData Sem01.md",
-    "Vragen.md",
     "Leerdoelen/Leerdoelen Sem-01 v2.md",
-    "ER Diagram.md",
+    "Workshops/Workshops BusData Sem01.md",
+    "Vragen.md",
+    "Reflectie UX-design.md",
     "analyse.md",
-    "design.md",
-    "Welcome.md",
-    "Workshops Technologies Sem01.md",
-    "Aha momenten.md",
     "Reflectie project Sem01.md",
-    "Lessen Arduino probeersels.md",
-    "Leerdoelen/Leerdoelen Sem-01.md",
-    "Workshops",
     "Leerdoelen/Leerdoelen.md",
-    "Feedback 29-09-2025.md",
+    "Leerdoelen/Leerdoelen Sem-01.md",
+    "Workshops UX-design Sem01.md",
+    "Workshops/Workshops Technologies Sem01.md",
+    "Welcome.md",
+    "Lessen Arduino probeersels.md",
     "Kernwaarden.md",
+    "Feedback 29-09-2025.md",
+    "ER Diagram.md",
+    "design.md",
+    "Aha momenten.md",
+    "Workshops",
     "20250924_Leerdoelen.png",
     "Pasted image 20250924140631.png",
     "Leerdoelen",
