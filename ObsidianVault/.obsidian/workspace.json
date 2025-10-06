@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Workshops/Workshops BusData Sem01.md",
+                "file": "design.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Workshops BusData Sem01"
+              "title": "design"
             }
           }
         ]
@@ -34,7 +34,7 @@
               "type": "mindmap",
               "state": {},
               "icon": "dot-network",
-              "title": "Mind Map of Workshops BusData Sem01"
+              "title": "Mind Map of design"
             }
           }
         ]
@@ -186,10 +186,10 @@
   },
   "active": "106fb09ccbac2128",
   "lastOpenFiles": [
+    "Workshops/Workshops BusData Sem01.md",
     "Vragen.md",
     "Leerdoelen/Leerdoelen Sem-01 v2.md",
     "Lessen Arduino probeersels.md",
-    "Workshops/Workshops BusData Sem01.md",
     "Reflectie UX-design.md",
     "analyse.md",
     "Reflectie project Sem01.md",
