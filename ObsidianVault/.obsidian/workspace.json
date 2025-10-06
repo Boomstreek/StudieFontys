@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lessen Arduino probeersels.md",
+                "file": "Workshops/Workshops BusData Sem01.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Lessen Arduino probeersels"
+              "title": "Workshops BusData Sem01"
             }
           }
         ]
@@ -34,7 +34,7 @@
               "type": "mindmap",
               "state": {},
               "icon": "dot-network",
-              "title": "Mind Map of Lessen Arduino probeersels"
+              "title": "Mind Map of Workshops BusData Sem01"
             }
           }
         ]
@@ -186,9 +186,10 @@
   },
   "active": "106fb09ccbac2128",
   "lastOpenFiles": [
-    "Leerdoelen/Leerdoelen Sem-01 v2.md",
-    "Workshops/Workshops BusData Sem01.md",
     "Vragen.md",
+    "Leerdoelen/Leerdoelen Sem-01 v2.md",
+    "Lessen Arduino probeersels.md",
+    "Workshops/Workshops BusData Sem01.md",
     "Reflectie UX-design.md",
     "analyse.md",
     "Reflectie project Sem01.md",
@@ -197,7 +198,6 @@
     "Workshops UX-design Sem01.md",
     "Workshops/Workshops Technologies Sem01.md",
     "Welcome.md",
-    "Lessen Arduino probeersels.md",
     "Kernwaarden.md",
     "Feedback 29-09-2025.md",
     "ER Diagram.md",

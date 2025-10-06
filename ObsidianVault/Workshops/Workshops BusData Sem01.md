@@ -24,3 +24,4 @@ Wat heb ik geleerd
 #### meer?
 ##### Waarom kies je de een en niet de ander?
 ### Waarom N:M en niet N:N, verschil daartussen
+####  N is 0, 1 of meer en M is 1, 2, of meer, maar dit staat niet vast
