@@ -1,4 +1,4 @@
-Op basis van mijn [[Kernwaarden]] ga ik mijn leerdoelen voor semester 01 opstellen. 
+Op basis van mijn [[Kernwaarden]] ga ik mijn leerdoelen voor semester 01 opstellen. De nieuwste versie is [[Leerdoelen Sem-01 v3]] 
 
 # Business & Analyse
 ## Verbinden

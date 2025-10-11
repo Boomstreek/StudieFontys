@@ -6,6 +6,7 @@
       {
         "id": "3eeb764435bde24f",
         "type": "tabs",
+        "dimension": 75.86206896551724,
         "children": [
           {
             "id": "106fb09ccbac2128",
@@ -13,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "design.md",
+                "file": "Boeken/The Phoenix Project.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "design"
+              "title": "The Phoenix Project"
             }
           }
         ]
@@ -26,6 +27,7 @@
       {
         "id": "6776ddfa45909608",
         "type": "tabs",
+        "dimension": 24.137931034482758,
         "children": [
           {
             "id": "e32d92b6511f1906",
@@ -34,7 +36,7 @@
               "type": "mindmap",
               "state": {},
               "icon": "dot-network",
-              "title": "Mind Map of No file"
+              "title": "Mind Map of The Phoenix Project"
             }
           }
         ]
@@ -184,11 +186,15 @@
       "bases:Create new base": false
     }
   },
-  "active": "106fb09ccbac2128",
+  "active": "92d32d5199956397",
   "lastOpenFiles": [
+    "Boeken",
+    "Leerdoelen/Leerdoelen Sem-01 v3.md",
+    "Boeken/The Phoenix Project.md",
+    "Leerdoelen/Leerdoelen Sem-01 v2.md",
+    "design.md",
     "Workshops/Workshops BusData Sem01.md",
     "Vragen.md",
-    "Leerdoelen/Leerdoelen Sem-01 v2.md",
     "Lessen Arduino probeersels.md",
     "Reflectie UX-design.md",
     "analyse.md",
@@ -201,7 +207,6 @@
     "Kernwaarden.md",
     "Feedback 29-09-2025.md",
     "ER Diagram.md",
-    "design.md",
     "Aha momenten.md",
     "Workshops",
     "20250924_Leerdoelen.png",
