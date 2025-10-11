@@ -1730,19 +1730,19 @@
     ]
   },
   "packageFolders": {
-    "/home/Bram/.nuget/packages/": {}
+    "/root/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/Bram/Documents/Studie/Sem01/Workshops/programmeren/ArduinoLuisteren/ArduinoLuisteren.csproj",
+      "projectUniqueName": "/home/bram/Documents/Studie/Sem01/Workshops/programmeren/ArduinoLuisteren/ArduinoLuisteren.csproj",
       "projectName": "ArduinoLuisteren",
-      "projectPath": "/home/Bram/Documents/Studie/Sem01/Workshops/programmeren/ArduinoLuisteren/ArduinoLuisteren.csproj",
-      "packagesPath": "/home/Bram/.nuget/packages/",
-      "outputPath": "/home/Bram/Documents/Studie/Sem01/Workshops/programmeren/ArduinoLuisteren/obj/",
+      "projectPath": "/home/bram/Documents/Studie/Sem01/Workshops/programmeren/ArduinoLuisteren/ArduinoLuisteren.csproj",
+      "packagesPath": "/root/.nuget/packages/",
+      "outputPath": "/home/bram/Documents/Studie/Sem01/Workshops/programmeren/ArduinoLuisteren/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/Bram/.nuget/NuGet/NuGet.Config"
+        "/root/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"

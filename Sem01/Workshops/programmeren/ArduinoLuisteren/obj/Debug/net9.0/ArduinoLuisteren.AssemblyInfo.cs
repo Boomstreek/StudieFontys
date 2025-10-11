@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ArduinoLuisteren")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bc2c6fb61d17b835884cd15c9403b4120ca13086")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7e0293e479cbdbd98f840b0b87ffc39aacaad39a")]
 [assembly: System.Reflection.AssemblyProductAttribute("ArduinoLuisteren")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ArduinoLuisteren")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

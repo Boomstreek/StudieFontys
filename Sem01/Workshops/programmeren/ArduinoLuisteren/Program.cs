@@ -1,61 +1,58 @@
 ﻿using System;
 using System.IO.Ports;
-using System.Text.RegularExpressions;
+using System.Text.Json;
 
-class Program {
-  static void Main() {
-    string portName = "/dev/ttyUSB0"; // pas dit aan
-    int baudRate = 9600;
+class SensorData
+{
+    public float temperatuur { get; set; }
+    public float luchtvochtigheid { get; set; }
+}
 
-    using (SerialPort port = new SerialPort(portName, baudRate)) {
-      port.Open();
-      Console.WriteLine($"Verbonden met Arduino op {portName}");
-      Console.WriteLine("Wachten op data...\n");
+class Program
+{
+    static void Main()
+    {
+        string portName = "/dev/ttyUSB0";
+        int baudRate = 9600;
 
-      string? line;
-      float? t1 = null, t2 = null, t3 = null, avgTemp = null;
-      float? h1 = null, h2 = null, h3 = null, avgHum = null;
+        using (SerialPort port = new SerialPort(portName, baudRate))
+        {
+            port.ReadTimeout = 5000;
+            port.NewLine = "\n";
+            port.Open();
 
-      while (true) {
-        try {
-          line = port.ReadLine().Trim();
-          Console.WriteLine(line);
+            byte measure = 0b10100101;
+            port.Write(new byte[] { measure }, 0, 1);
+            Console.WriteLine("Meetverzoek verstuurd...");
 
-          // Parse met regex
-          Match m;
+            // Wacht tot data beschikbaar is
+            DateTime start = DateTime.Now;
+            while (port.BytesToRead == 0)
+            {
+                if ((DateTime.Now - start).TotalMilliseconds > 5000)
+                {
+                    Console.WriteLine("Timeout: geen reactie van Arduino");
+                    return;
+                }
+            }
 
-          if ((m = Regex.Match(line, @"Temperature 1= ([0-9.]+)")).Success)
-            t1 = float.Parse(m.Groups[1].Value);
-          else if ((m = Regex.Match(line, @"Temperature 2= ([0-9.]+)")).Success)
-            t2 = float.Parse(m.Groups[1].Value);
-          else if ((m = Regex.Match(line, @"Temperature 3= ([0-9.]+)")).Success)
-            t3 = float.Parse(m.Groups[1].Value);
-          else if ((m = Regex.Match(line, @"Temperature gemiddelde= ([0-9.]+)"))
-                       .Success)
-            avgTemp = float.Parse(m.Groups[1].Value);
-          else if ((m = Regex.Match(line, @"Humidity 1= ([0-9.]+)")).Success)
-            h1 = float.Parse(m.Groups[1].Value);
-          else if ((m = Regex.Match(line, @"Humidity 2= ([0-9.]+)")).Success)
-            h2 = float.Parse(m.Groups[1].Value);
-          else if ((m = Regex.Match(line, @"Humidity 3= ([0-9.]+)")).Success)
-            h3 = float.Parse(m.Groups[1].Value);
-          else if ((m = Regex.Match(line, @"Humidity gemiddelde= ([0-9.]+)"))
-                       .Success)
-            avgHum = float.Parse(m.Groups[1].Value);
+            int response = port.ReadByte();
+            if (response == 0x55)
+            {
+                Console.WriteLine("ACK ontvangen, wacht op JSON...");
+                string jsonData = port.ReadLine().Trim();
+                Console.WriteLine("Ontvangen JSON: " + jsonData);
 
-          // Wanneer we de volledige set hebben:
-          if (avgTemp.HasValue && avgHum.HasValue) {
-            Console.WriteLine($"\n➡️  Gemiddelde temperatuur: {avgTemp:F2} °C");
-            Console.WriteLine(
-                $"➡️  Gemiddelde luchtvochtigheid: {avgHum:F2} %\n");
+                SensorData data = JsonSerializer.Deserialize<SensorData>(jsonData);
+                Console.WriteLine($"Temperatuur: {data.temperatuur} °C");
+                Console.WriteLine($"Luchtvochtigheid: {data.luchtvochtigheid} %");
+            }
+            else
+            {
+                Console.WriteLine("NACK ontvangen of fout bij uitlezen.");
+            }
 
-            // Hier kun je loggen, opslaan, of grafisch weergeven
-            avgTemp = null;
-            avgHum = null;
-          }
-        } catch (TimeoutException) {
+            port.Close();
         }
-      }
     }
-  }
 }
