@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Boeken/The Phoenix Project.md",
+                "file": "Oriëntatie Sem 01.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "The Phoenix Project"
+              "title": "Oriëntatie Sem 01"
             }
           }
         ]
@@ -36,7 +36,7 @@
               "type": "mindmap",
               "state": {},
               "icon": "dot-network",
-              "title": "Mind Map of The Phoenix Project"
+              "title": "Mind Map of Oriëntatie Sem 01"
             }
           }
         ]
@@ -186,25 +186,28 @@
       "bases:Create new base": false
     }
   },
-  "active": "92d32d5199956397",
+  "active": "106fb09ccbac2128",
   "lastOpenFiles": [
-    "Boeken",
     "Leerdoelen/Leerdoelen Sem-01 v3.md",
-    "Boeken/The Phoenix Project.md",
     "Leerdoelen/Leerdoelen Sem-01 v2.md",
+    "Boeken/The Phoenix Project.md",
+    "Leerdoelen/Leerdoelen.md",
+    "Leerdoelen/Leerdoelen Sem-01.md",
+    "Oriëntatie Sem 01.md",
+    "Reflectie project Sem01.md",
+    "Reflectie UX-design.md",
+    "Lessen Arduino probeersels.md",
+    "Kernwaarden.md",
+    "Boeken/Cybersecurity and Cyberwar What Everyone Needs to Know.md",
+    "Boeken/Algorithms to Live by The Computer Science of Human Decisions.md",
+    "Boeken",
     "design.md",
     "Workshops/Workshops BusData Sem01.md",
     "Vragen.md",
-    "Lessen Arduino probeersels.md",
-    "Reflectie UX-design.md",
     "analyse.md",
-    "Reflectie project Sem01.md",
-    "Leerdoelen/Leerdoelen.md",
-    "Leerdoelen/Leerdoelen Sem-01.md",
     "Workshops UX-design Sem01.md",
     "Workshops/Workshops Technologies Sem01.md",
     "Welcome.md",
-    "Kernwaarden.md",
     "Feedback 29-09-2025.md",
     "ER Diagram.md",
     "Aha momenten.md",

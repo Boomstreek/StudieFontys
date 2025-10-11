@@ -52,3 +52,14 @@ Een organisatie groeit door te leren en te durven experimenteren.
 - Een goede manager is een facilitator, geen controleur.
     
 - Communicatie, vertrouwen en verantwoordelijkheid vormen de basis van effectief samenwerken.
+
+#### Opmerking over hulpmiddelen:
+Deze tekst is opgesteld met behulp van ChatGPT. De belangrijkste prompts en instructies waren samengevat als:
+
+- Verbeter en herschrijf mijn eigen samenvatting van The Phoenix Project.
+    
+- Maak het vloeiender, compacter en professioneel, met behoud van de inhoud.
+    
+- Voeg concreetere voorbeelden en structuur toe bij Flow, Feedback en Growth.
+    
+- Sluit af met een korte vermelding dat het is gemaakt met ChatGPT, inclusief de gebruikte prompt.
