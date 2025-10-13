@@ -21,8 +21,23 @@
               "icon": "lucide-file",
               "title": "Oriëntatie Sem 01"
             }
+          },
+          {
+            "id": "70c3f420ababcb7d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Lokaal LLM (AI) draaien.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Lokaal LLM (AI) draaien"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "6776ddfa45909608",
@@ -36,7 +51,7 @@
               "type": "mindmap",
               "state": {},
               "icon": "dot-network",
-              "title": "Mind Map of Oriëntatie Sem 01"
+              "title": "Mind Map of Lokaal LLM (AI) draaien"
             }
           }
         ]
@@ -186,14 +201,15 @@
       "bases:Create new base": false
     }
   },
-  "active": "106fb09ccbac2128",
+  "active": "70c3f420ababcb7d",
   "lastOpenFiles": [
+    "Oriëntatie Sem 01.md",
+    "Lokaal LLM (AI) draaien.md",
     "Leerdoelen/Leerdoelen Sem-01 v3.md",
     "Leerdoelen/Leerdoelen Sem-01 v2.md",
     "Boeken/The Phoenix Project.md",
     "Leerdoelen/Leerdoelen.md",
     "Leerdoelen/Leerdoelen Sem-01.md",
-    "Oriëntatie Sem 01.md",
     "Reflectie project Sem01.md",
     "Reflectie UX-design.md",
     "Lessen Arduino probeersels.md",
