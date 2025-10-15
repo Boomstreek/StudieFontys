@@ -28,12 +28,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lokaal LLM (AI) draaien.md",
+                "file": "Workshops/Workshops Programmeren Sem01.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Lokaal LLM (AI) draaien"
+              "title": "Workshops Programmeren Sem01"
             }
           }
         ],
@@ -51,7 +51,7 @@
               "type": "mindmap",
               "state": {},
               "icon": "dot-network",
-              "title": "Mind Map of Lokaal LLM (AI) draaien"
+              "title": "Mind Map of Workshops Programmeren Sem01"
             }
           }
         ]
@@ -203,9 +203,13 @@
   },
   "active": "70c3f420ababcb7d",
   "lastOpenFiles": [
-    "Oriëntatie Sem 01.md",
-    "Lokaal LLM (AI) draaien.md",
+    "Workshops/Workshops Technologies Sem01.md",
+    "Workshops/Workshops Programmeren Sem01.md",
+    "Workshops/Workshops BusData Sem01.md",
+    "Programmeren.md",
     "Leerdoelen/Leerdoelen Sem-01 v3.md",
+    "Lokaal LLM (AI) draaien.md",
+    "Oriëntatie Sem 01.md",
     "Leerdoelen/Leerdoelen Sem-01 v2.md",
     "Boeken/The Phoenix Project.md",
     "Leerdoelen/Leerdoelen.md",
@@ -218,11 +222,9 @@
     "Boeken/Algorithms to Live by The Computer Science of Human Decisions.md",
     "Boeken",
     "design.md",
-    "Workshops/Workshops BusData Sem01.md",
     "Vragen.md",
     "analyse.md",
     "Workshops UX-design Sem01.md",
-    "Workshops/Workshops Technologies Sem01.md",
     "Welcome.md",
     "Feedback 29-09-2025.md",
     "ER Diagram.md",

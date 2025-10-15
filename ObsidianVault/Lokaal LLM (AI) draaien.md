@@ -91,3 +91,9 @@ Bronvermelding:
   3. “Voeg een inleiding, afsluiting en disclaimer toe met bronvermelding.”
   4. "Herschrijf de tekst zodat het vloeiend wordt, zonder inhoud te verliezen"
 
+/*
+RX580 wordt niet meer ondersteund door ollama
+Mistral 7B quantized, wat is preceis quantized? met cpu alleen werkt niet zoals ik wil.
+Ben bang dat mijn hardware te oud is..
+Wellicht onderzoeken of ik een lichter versie kan gebruiken.
+*/
