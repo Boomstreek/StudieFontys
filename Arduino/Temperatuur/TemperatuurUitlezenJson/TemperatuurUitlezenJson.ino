@@ -18,36 +18,43 @@ void setup() {
 
 void loop() {
 
-  if (Serial.available() >0) {
-    byte incomingByte = Serial.read();
+  bool measure = false;
+  byte incomingByte;
 
-    if (incomingByte == 0b10100101){
-      Serial.write(0x55); //ACK
-      Serial.flush();
-      delay(10);
-
-      // meten
-      float t1 = dht1.readTemperature();
-      float t2 = dht2.readTemperature();
-      float t3 = dht3.readTemperature();
-
-      float h1 = dht1.readHumidity();
-      float h2 = dht2.readHumidity();
-      float h3 = dht3.readHumidity();
-
-      // Gemiddelde terug geven
-      float gem_tem = (t1 + t2 + t3) / 3.0;
-      float gem_hum = (h1 + h2 + h3) / 3.0;
-    
-      //terugsturen van data in de vorm van handmatige json
-      String data = "{\"temperatuur\":" + String(gem_tem) + ",\"luchtvochtigheid\":" + String(gem_hum) + "}";
-      Serial.println(data);
+  if (measure == false) {
+    if (Serial.available() > 0) {
+      incomingByte = Serial.read();
+      measure = true;
     }
-
+    // Small delay
     else {
-      Serial.write(0xFF); //NACK
-      Serial.flush();
-      }
+      delay(10);
+    }
+  }
+
+  // When measure == true then excecute this
+  if (incomingByte == 0b10100101){
+        // meten
+        float t1 = dht1.readTemperature();
+        float t2 = dht2.readTemperature();
+        float t3 = dht3.readTemperature();
+
+        float h1 = dht1.readHumidity();
+        float h2 = dht2.readHumidity();
+        float h3 = dht3.readHumidity();
+
+        // Gemiddelde terug geven
+        float gem_tem = (t1 + t2 + t3) / 3.0;
+        float gem_hum = (h1 + h2 + h3) / 3.0;  
+
+        //terugsturen van data in de vorm van handmatige json
+        String data = "{\"temperatuur\":" + String(gem_tem) + ",\"luchtvochtigheid\":" + String(gem_hum) + "}";
+        Serial.println(data);
+
+        static measure = false;
+  }
+  else {
+    static measure = false;
   }
 }
 
