@@ -1,5 +1,4 @@
 #include <DHT.h>
-JsonDocument doc;
 
 #define DHTPIN1 7
 #define DHTPIN2 8
