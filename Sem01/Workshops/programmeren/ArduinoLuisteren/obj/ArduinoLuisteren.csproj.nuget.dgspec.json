@@ -10,11 +10,11 @@
         "projectUniqueName": "/home/bram/Documents/Studie/Sem01/Workshops/programmeren/ArduinoLuisteren/ArduinoLuisteren.csproj",
         "projectName": "ArduinoLuisteren",
         "projectPath": "/home/bram/Documents/Studie/Sem01/Workshops/programmeren/ArduinoLuisteren/ArduinoLuisteren.csproj",
-        "packagesPath": "/root/.nuget/packages/",
+        "packagesPath": "/home/bram/.nuget/packages/",
         "outputPath": "/home/bram/Documents/Studie/Sem01/Workshops/programmeren/ArduinoLuisteren/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/root/.nuget/NuGet/NuGet.Config"
+          "/home/bram/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
