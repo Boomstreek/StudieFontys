@@ -4,6 +4,15 @@ using System.Threading;
 
 class Program
 {
+
+}
+/*
+using System;
+using System.IO.Ports;
+using System.Threading;
+
+class Program
+{
     static void Main()
     {
         string portName = "/dev/ttyUSB0"; // Arduino poort op Linux
@@ -57,7 +66,7 @@ class Program
     }
 }
 
-
+*/
 
 /*
 using System;
