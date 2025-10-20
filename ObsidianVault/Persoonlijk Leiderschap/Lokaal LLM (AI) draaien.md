@@ -91,9 +91,14 @@ Bronvermelding:
   3. “Voeg een inleiding, afsluiting en disclaimer toe met bronvermelding.”
   4. "Herschrijf de tekst zodat het vloeiend wordt, zonder inhoud te verliezen"
 
-/*
+/* Notities uitvoering
 RX580 wordt niet meer ondersteund door ollama
-Mistral 7B quantized, wat is preceis quantized? met cpu alleen werkt niet zoals ik wil.
-Ben bang dat mijn hardware te oud is..
-Wellicht onderzoeken of ik een lichter versie kan gebruiken.
+Mistral 7B quantized, wat is precies quantized? 
+- Quantized staat voor kleine en lichter AI model. Meestal houdt dit in hoeveel bits er worden gebruikt. FP32, FP16: FLoating point xx-bit, Q8/INT8, Q4 / INT 4, x bit integer.
+
+Vanwege niet ondersteunde GPU werk ik met alleen een CPU, dit werkt niet zoals ik wil.
+
+Mijn conclusies is dat mijn hardware te oud is
+
+Ik zou kunnen onderzoeken of ik een lichter model kan gebruiken, maar dan ga ik te ver weg van hou ik op dit moment chat gpt gebruik. 
 */

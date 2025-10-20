@@ -28,12 +28,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Nul-meting orientatie.md",
+                "file": "Vragen.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Nul-meting orientatie"
+              "title": "Vragen"
             }
           }
         ],
@@ -51,7 +51,7 @@
               "type": "mindmap",
               "state": {},
               "icon": "dot-network",
-              "title": "Mind Map of No file"
+              "title": "Mind Map of Vragen"
             }
           }
         ]
@@ -203,35 +203,36 @@
   },
   "active": "70c3f420ababcb7d",
   "lastOpenFiles": [
-    "Oriëntatie Sem 01.md",
-    "Nul-meting orientatie.md",
-    "Programmeren.md",
-    "Reflectie project Sem01.md",
-    "Reflectie UX-design.md",
-    "Kernwaarden.md",
-    "Workshops/Workshops Technologies Sem01.md",
+    "Leerdoelen/Leerdoelen per topic/Technologies.md",
     "Lessen Arduino probeersels.md",
-    "Leerdoelen/Leerdoelen Sem-01 v3.md",
-    "Persoonlijk Leiderschap/Lokaal LLM (AI) draaien.md",
-    "Persoonlijk Leiderschap",
     "Feedback 29-09-2025.md",
     "ER Diagram.md",
     "design.md",
     "analyse.md",
-    "Workshops/Workshops Programmeren Sem01.md",
-    "Workshops/Workshops Technologies Sem01_oud.md",
-    "Workshops/Workshops BusData Sem01.md",
-    "Leerdoelen/Leerdoelen.md",
+    "Persoonlijk Leiderschap/Kernwaarden.md",
+    "Leerdoelen/Leerdoelen per topic/UX-design.md",
+    "Workshops/Workshops UX-design Sem01.md",
+    "Vragen.md",
+    "Reflectie UX-design.md",
+    "Leerdoelen/Leerdoelen per topic/Business & Analyse.md",
+    "Leerdoelen/Leerdoelen per topic/Programmeren.md",
     "Leerdoelen/Leerdoelen Sem-01.md",
+    "Leerdoelen/Leerdoelen Sem-01 v3.md",
+    "Leerdoelen/Leerdoelen per topic/Infrastructuur.md",
+    "Leerdoelen/Leerdoelen per topic",
     "Leerdoelen/Leerdoelen Sem-01 v2.md",
-    "99_Oud",
     "Persoonlijk Leiderschap/Boeken/The Phoenix Project.md",
     "Persoonlijk Leiderschap/Boeken/Cybersecurity and Cyberwar What Everyone Needs to Know.md",
     "Persoonlijk Leiderschap/Boeken/Algorithms to Live by The Computer Science of Human Decisions.md",
-    "Persoonlijk Leiderschap/Boeken",
-    "Vragen.md",
-    "Workshops UX-design Sem01.md",
+    "Persoonlijk Leiderschap/Lokaal LLM (AI) draaien.md",
     "Welcome.md",
+    "Leerdoelen/Leerdoelen.md",
+    "Workshops/Workshops Technologies Sem01.md",
+    "Reflectie project Sem01.md",
+    "Nul-meting orientatie.md",
+    "Persoonlijk Leiderschap",
+    "99_Oud",
+    "Persoonlijk Leiderschap/Boeken",
     "Workshops",
     "20250924_Leerdoelen.png",
     "Pasted image 20250924140631.png",

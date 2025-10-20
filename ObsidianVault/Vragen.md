@@ -10,3 +10,5 @@
 	2. [[Workshops BusData Sem01]]
 5. Programeren 
 
+# 20-10-2025
+1. In portfolie requeste feedback on goals, waarvoor gebruik je dat?

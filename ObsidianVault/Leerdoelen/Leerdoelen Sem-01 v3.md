@@ -1,6 +1,5 @@
 # Oriëntatie
 ## [[Oriëntatie Sem 01]]
-### Nul-meting
 ### Eind conclusie
 ## [[Business & Analyse]]
 ## [[Technologies]]
@@ -9,11 +8,17 @@
 ## [[UX-design]]
 
 # Professionele IT-producten maken
-## 
+## Analyse en Advies
+## Design
+### 
+## Realisatie
+## Validatie
 
 # Professionele Standaard
 ## Interviews
 ## [[Obsidian]]
+### Verbeter map structuur, hoe zet ik dit logisch op, alles moet een logisch vloeiend verhaal worden
+## Documenten proffesionele IT-producten
 
 # Persoonlijk leiderschap
 ## Boeken lezen

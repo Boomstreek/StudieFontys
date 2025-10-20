@@ -2,7 +2,7 @@
 
 DHT11_Aggregator::DHT11_Aggregator(const uint8_t pins[], uint8_t count, uint8_t type)
   : sensorCount(count), avgTemperature(0), avgHumidity(0), sensorType(type) {
-    sensors = new DHT*[sensorCount];  // array van pointers
+    sensors = new DHT*[sensorCount];  // array van pointers, deze begrijp ik nog slecht. waarom DHT* en niet DHT?
     for (uint8_t i = 0; i < sensorCount; i++) {
       sensors[i] = new DHT(pins[i], sensorType);  // maak elk object individueel aan
     }
