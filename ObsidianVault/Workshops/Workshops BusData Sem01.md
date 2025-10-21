@@ -15,6 +15,7 @@ Wat heb ik geleerd
 # Les 3
 ## [[ER Diagram]] basis
 ## [[Chen notatie]]
+## Visual paradigm
 ## Vragen
 ### Wat is het verschil tussen [[ER Diagram]] en [[EER Diagram]]
 #### Verschil is: 
