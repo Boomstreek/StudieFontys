@@ -6,7 +6,6 @@
       {
         "id": "3eeb764435bde24f",
         "type": "tabs",
-        "dimension": 75.86206896551724,
         "children": [
           {
             "id": "106fb09ccbac2128",
@@ -28,33 +27,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Vragen.md",
+                "file": "Templates/Leertraject - Weekkaart.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Vragen"
+              "title": "Leertraject - Weekkaart"
             }
           }
         ],
         "currentTab": 1
-      },
-      {
-        "id": "6776ddfa45909608",
-        "type": "tabs",
-        "dimension": 24.137931034482758,
-        "children": [
-          {
-            "id": "e32d92b6511f1906",
-            "type": "leaf",
-            "state": {
-              "type": "mindmap",
-              "state": {},
-              "icon": "dot-network",
-              "title": "Mind Map of Welcome"
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -198,16 +180,27 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
   "active": "70c3f420ababcb7d",
   "lastOpenFiles": [
-    "Welcome.md",
+    "Leertraject/Untitled.md",
+    "Templates/Leertraject - Weekkaart.md",
+    "Untitled.md",
     "Leerdoelen/Leerdoelen Sem-01 v3.md",
-    "Vragen.md",
-    "Reflectie UX-design.md",
+    "analyse.md",
+    "Persoonlijk Leiderschap/Kernwaarden.md",
+    "Templates",
+    "Leertraject/Drawing 2025-10-23 16.28.37.excalidraw.md",
+    "Leertraject/000_Template 1.md",
     "Leerdoelen/Leerdoelen Sem-01 v2.md",
+    "Vragen.md",
+    "Leertraject",
+    "Welcome.md",
+    "Reflectie UX-design.md",
     "Leerdoelen/Leerdoelen Sem-01.md",
     "Workshops/Workshops BusData Sem01.md",
     "ER Diagram.md",
@@ -215,8 +208,6 @@
     "Lessen Arduino probeersels.md",
     "Feedback 29-09-2025.md",
     "design.md",
-    "analyse.md",
-    "Persoonlijk Leiderschap/Kernwaarden.md",
     "Leerdoelen/Leerdoelen per topic/UX-design.md",
     "Workshops/Workshops UX-design Sem01.md",
     "Leerdoelen/Leerdoelen per topic/Business & Analyse.md",
@@ -225,11 +216,6 @@
     "Leerdoelen/Leerdoelen per topic",
     "Persoonlijk Leiderschap/Boeken/The Phoenix Project.md",
     "Persoonlijk Leiderschap/Boeken/Cybersecurity and Cyberwar What Everyone Needs to Know.md",
-    "Persoonlijk Leiderschap/Boeken/Algorithms to Live by The Computer Science of Human Decisions.md",
-    "Persoonlijk Leiderschap/Lokaal LLM (AI) draaien.md",
-    "Leerdoelen/Leerdoelen.md",
-    "Workshops/Workshops Technologies Sem01.md",
-    "Reflectie project Sem01.md",
     "Persoonlijk Leiderschap",
     "99_Oud",
     "Persoonlijk Leiderschap/Boeken",
