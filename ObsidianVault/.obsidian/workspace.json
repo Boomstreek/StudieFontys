@@ -13,30 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Oriëntatie Sem 01.md",
+                "file": "Workshops/Workshops BusData Sem01.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Oriëntatie Sem 01"
-            }
-          },
-          {
-            "id": "70c3f420ababcb7d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Templates/Leertraject - Weekkaart.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Leertraject - Weekkaart"
+              "title": "Workshops BusData Sem01"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -185,10 +170,11 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "70c3f420ababcb7d",
+  "active": "106fb09ccbac2128",
   "lastOpenFiles": [
+    "Oriëntatie Sem 01.md",
     "Leertraject/Untitled.md",
-    "Templates/Leertraject - Weekkaart.md",
+    "Templates/Leertraject - Weekkaart.md.md",
     "Untitled.md",
     "Leerdoelen/Leerdoelen Sem-01 v3.md",
     "analyse.md",
@@ -215,7 +201,6 @@
     "Leerdoelen/Leerdoelen per topic/Infrastructuur.md",
     "Leerdoelen/Leerdoelen per topic",
     "Persoonlijk Leiderschap/Boeken/The Phoenix Project.md",
-    "Persoonlijk Leiderschap/Boeken/Cybersecurity and Cyberwar What Everyone Needs to Know.md",
     "Persoonlijk Leiderschap",
     "99_Oud",
     "Persoonlijk Leiderschap/Boeken",
