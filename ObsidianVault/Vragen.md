@@ -27,4 +27,7 @@ Feedback 20-10-2025
 	1. ken merken van een goed proffesioneel product
 		1. Analyse, design, realisatie, validatie, fases
 		2. 4 waar stat ik nu eigenlijk, wat heb ik gedaan, waar ben ik gekomen, en waar zou ik volgende week . Per week
-		3. 
+
+# Vragen
+1. Wanneer is de school geopend, wanneer kan je van het techniek lokaal gebruik maken?
+2. 
