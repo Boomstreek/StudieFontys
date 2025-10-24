@@ -27,90 +27,55 @@ Wat heb ik geleerd
 ### Waarom N:M en niet N:N, verschil daartussen
 ####  N is 0, 1 of meer en M is 1, 2, of meer, maar dit staat niet vast
 
-# Les 5 - ER naar Database
-Je hebt nog niet gekozen voor een DB of taal bij een ER-diagram. Die stap gaan we nu zetten
+# Les 4 – Van ER-diagram naar Database
 
-Recap
+## Recap ER-diagram
+- Basis voor: klasse diagram en database  
+- **Entiteiten:** rechthoek  
+- **Attributen:** ovaal  
+- **Relaties:** ruit (met naam en kardinaliteit)  
+- **Tools:** Virtual Paradigm, SmartDraw, Canva, Edraw  
+- **Notatie:** Chen-notatie  
 
-ER-diagram
-basis voor:
-- klasse diagram
-- database
+## Database
+- Relaties kunnen ook attributen hebben  
 
-entiteiten rechthoek
-attributen ovaal
-relaties ruit
+### Stap 1 – Tabellen maken
+- Elke entiteit (rechthoek) wordt een tabel  
+- Elk veld heeft een unieke ID (meestal integer)  
 
-relaties naam en kardinaliteit. Geeft verhouding visueel wwer
+### Stap 2 – Attributen toevoegen
+- Voeg alle attributen van de entiteit toe aan de tabel  
 
-tools:
-virtual paradigm
-smartdraw, canva, edraw
+### Stap 3 – Relaties omzetten
+- Kardinaliteit: 0, 1 of n  
+- **Foreign key:** verwijst naar ID in een andere tabel  
+- **Bij n–n relaties:** maak een **koppeltabel**  
+  - Naam: combineer de twee entiteiten of verzin een zinvolle naam  
+  - Voeg attributen van de relatie toe  
 
-via chen notatie
+**Voorbeelden:**  
+- `Patient – Medicijn` → `PatientMedicijn(PatientID, MedicijnID, Aantal, Tijdstip)`  
+- `Patient – Docter` → `Behandelaar(PatientID, DocterID)` (combinatie is uniek, geen aparte ID nodig)  
 
-Database
+### Foreign key gedrag bij verwijderen
+1. **Mandatory:** verwijderen verboden als er nog koppelingen zijn  
+2. **Cascade:** verwijdert automatisch alle gekoppelde records  
+3. **Set to null:** verwijst naar null bij verwijdering  
 
-relaties kunnen ook attributen hebben
+## Extra notities
+- **Crow’s foot notatie:**  
+  - `0` = 0 of 1  
+  - `1` = altijd minstens 1  
+  - Meer info: [Crow's Foot ERD Tutorial](https://medium.com/@callista.m.azizah/crows-foot-erd-for-beginners-a-tutorial-1effc8a326c6R)  
 
-Stap 1
-Alle rechthoeken worden een tabel
-- elk veld heeft in ID <uniek>
-	- Meestal worden integers gebruikt
+- **Praktisch:**  
+  - Student Square portal: eigen database maken  
+  - Azure Data Studio kan ook (SQL Server)  
+  - Mockaroo.com: random data genereren  
+  - R Studio script beschikbaar om verbinding te maken met SQL Server en data uit Excel te uploaden (script bij Kees)  
 
-Stap 2
-Voeg de attributen toe aan de tabellen
-
-stap 3 relaties
-0, 1 of n
-bijv. VerplID is gekoppeld aan ID table verpleegkundig
-
-foreign key, identifier staat in een andere tabel
-
-utizondering, bij veel op veel n - n
-
-hier maak je een koppeltabel
-
-als je dat heb dan maak je een apart tabel
-Verzin zinvolle naam of voeg de twee namen samen
-- voeg hier dan de attributen toe die op de relatie stonden
-
-bijvoorbeld patient, medicijn wordt PatientMedicijn, PatientID, Medicijn ID, Aantal, Tijdstip
-
-Patient en Docter is ook N - N. Samen wordt dat Behandelaar, met PatientID, DocterID
-- dit heeft geen idee, en de cobinatie daarvan is uniek. Dus is al de ID
-
-DIK gedrukt is de key van de tabel
-
-Bij een foreign key als iets verwijdert word
-drie dingen die je kan doen
-- Mandatory, verboden is nog gekoppeld
-- Cascade, waterfal, ook direkt de andere koppelingen verwijderen die daar op leunde.
-- Foreign key -> null, alle patient id worden null.
-
-
-kraaipoot notatie
-
--0 is 1 of 0
--1 is altijd min 1
-meer even over uitzoeken
-https://medium.com/@callista.m.azizah/crows-foot-erd-for-beginners-a-tutorial-1effc8a326c6R
-
-Student square
-self service portal, hier kan je een eigen database aanmaken op een fontys omgeving
-azure data studio kan ook in sql server
-hier de string invoeren van de studentsquar database die is aangemaatk
-
-mockaroo.com kan je database laten invullen met random data
-
-via R Studie is er een script om 
-- verbinding te maken met sql server
-- data te uploaden naar de database via excel
-- script kan je vragen bij Kees
-
-Wat heb ik geleerd:
-- koppeltabel
-- crow notatie (aanvulling)
-
-ER-diagram voor applicatie
-Dan database maken voor de applicatie
+## Wat je hebt geleerd
+- Koppeltabellen maken bij n–n relaties  
+- Crow’s foot notatie begrijpen  
+- ER-diagram vertalen naar een database voor je applicatie

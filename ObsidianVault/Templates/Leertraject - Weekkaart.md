@@ -29,38 +29,34 @@ tR += `---\n\n`;
 /* ---------------------------
    Inhoud weektemplate
 ----------------------------*/
-tR += `# 🗓️ Week ${weekNumber} – ${title}\n\n`;
-tR += `%% ✏️ Vul dit begin van de week in om richting te bepalen.
+tR += `# Week ${weekNumber} – ${title}\n\n`;
+tR += `%% Vul dit begin van de week in om richting te bepalen.
    Je kunt later in de week reflectie toevoegen onderaan. %%\n\n`;
 
-tR += `## 🎯 Doelen voor deze week\n`;
+tR += `## Doelen voor deze week\n`;
 tR += `- ${doelen.split(",").map(d => d.trim()).join("\n- ")}\n\n`;
 
-tR += `## 🎯 Focus\n`;
+tR += `## Focus\n`;
 tR += `${focus}\n\n`;
 
-tR += `## ⚠️ Verwachte uitdagingen\n`;
+tR += `## Verwachte uitdagingen\n`;
 tR += `${uitdaging}\n\n`;
 
-tR += `## 🤝 Ondersteuning of afstemming\n`;
+tR += `## Ondersteuning of afstemming\n`;
 tR += `${hulp}\n\n`;
 
-tR += `## 🔄 Verwachte volgende stap\n`;
+tR += `## Verwachte volgende stap\n`;
 tR += `${volgende}\n\n`;
 
-tR += `## 📅 Wat heb ik gedaan (aanvullen door de week)\n`;
+tR += `## Wat heb ik gedaan (aanvullen door de week)\n`;
 tR += `- \n\n`;
 
-tR += `## 💡 Reflectie (einde van de week, optioneel)\n`;
+tR += `## Reflectie (einde van de week, optioneel)\n`;
 tR += `- Wat werkte goed?\n`;
 tR += `- Wat kan beter?\n`;
 tR += `- Belangrijkste inzicht:\n\n`;
 
-tR += `## 🔗 Navigatie\n`;
-tR += `[[Week ${weekNumber - 1} |← Vorige week]]  \n`;
-tR += `[[Week ${weekNumber + 1} |Volgende week →]]\n\n`;
-
-tR += `## 📈 Dataview voorbeeldquery\n`;
+tR += `## Dataview voorbeeldquery\n`;
 tR += `%% Gebruik deze op je dashboard om overzicht te krijgen over doelen en thema's %%\n`;
 tR += "```dataview\n";
 tR += "TABLE week, thema, focus, doelen, volgende_stap\n";
