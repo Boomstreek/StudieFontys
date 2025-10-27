@@ -1,0 +1,35 @@
+{
+	"folders": {},
+	"connections": {
+		"sqlite_jdbc-19a262c8c16-c3e156eb32c552f": {
+			"provider": "sqlite",
+			"driver": "sqlite_jdbc",
+			"name": "Powerlifting.sqlite",
+			"save-password": true,
+			"configuration": {
+				"database": "/home/bram/Documents/Studie/Sem01/Challange_01/Design/dbeaver/Powerlifting.sqlite",
+				"url": "jdbc:sqlite:/home/bram/Documents/Studie/Sem01/Challange_01/Design/dbeaver/Powerlifting.sqlite",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"auth-model": "native"
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"smart-commit": false,
+			"smart-commit-recover": true,
+			"auto-close-transactions": true,
+			"close-transactions-period": 1800,
+			"auto-close-connections": true,
+			"close-connections-period": 14400
+		}
+	}
+}
