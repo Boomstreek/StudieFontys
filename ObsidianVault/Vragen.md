@@ -17,7 +17,7 @@
 5.  Hoeveel orientaties moet je doen? Infrastructuur en design trekt me minder, wil daar eigenlijk niet echt tijd aan besteden.
 6. Strategisch / tactische vraag, zit dat vooral bij business
 
-Feedback 20-10-2025
+## Feedback 20-10-2025
 1. plan waar je wilt zijn bij het volgende portfolio product, wat moet je doen om de volgende keer binnen te zijn
 2. Van orientatie naar beginnend, 
 3. Analyse en advies afmaken en daar feedback op vragen, volgens POWER
@@ -29,5 +29,6 @@ Feedback 20-10-2025
 		2. 4 waar stat ik nu eigenlijk, wat heb ik gedaan, waar ben ik gekomen, en waar zou ik volgende week . Per week
 
 # Vragen
-1. Wanneer is de school geopend, wanneer kan je van het techniek lokaal gebruik maken?
-2. 
+1. Zie weekkaarten
+2. Wanneer is de school geopend, wanneer kan je van het techniek lokaal gebruik maken?
+3. Inschrijven 2de semester, moet dat nu al?
