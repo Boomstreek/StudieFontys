@@ -9,5 +9,6 @@
   },
   "livePreview": false,
   "showLineNumber": true,
-  "useTab": true
+  "useTab": true,
+  "readableLineLength": true
 }
