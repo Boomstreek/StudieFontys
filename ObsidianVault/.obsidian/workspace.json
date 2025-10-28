@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Leertraject/2025-W44.md",
+                "file": "Workshops/Workshop Programmeren extra - c_sharp oefenen.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2025-W44"
+              "title": "Workshop Programmeren extra - c_sharp oefenen"
             }
           }
         ]
@@ -172,8 +172,9 @@
   },
   "active": "12faf7074711f5a3",
   "lastOpenFiles": [
-    "Templates/Leertraject - Weekkaart.md",
     "Leertraject/2025-W44.md",
+    "Workshops/Workshop Programmeren extra - c_sharp oefenen.md",
+    "Templates/Leertraject - Weekkaart.md",
     "Leertraject/2025-W45.md",
     "2025-11-03.md",
     "Leertraject/2025 - W45.md",
