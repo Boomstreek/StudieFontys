@@ -1,0 +1,15 @@
+/home/bram/Documents/Studie/Sem01/Workshops/programmeren/loops/obj/Debug/net9.0/loops.GeneratedMSBuildEditorConfig.editorconfig
+/home/bram/Documents/Studie/Sem01/Workshops/programmeren/loops/obj/Debug/net9.0/loops.AssemblyInfoInputs.cache
+/home/bram/Documents/Studie/Sem01/Workshops/programmeren/loops/obj/Debug/net9.0/loops.AssemblyInfo.cs
+/home/bram/Documents/Studie/Sem01/Workshops/programmeren/loops/obj/Debug/net9.0/loops.csproj.CoreCompileInputs.cache
+/home/bram/Documents/Studie/Sem01/Workshops/programmeren/loops/obj/Debug/net9.0/loops.sourcelink.json
+/home/bram/Documents/Studie/Sem01/Workshops/programmeren/loops/bin/Debug/net9.0/loops
+/home/bram/Documents/Studie/Sem01/Workshops/programmeren/loops/bin/Debug/net9.0/loops.deps.json
+/home/bram/Documents/Studie/Sem01/Workshops/programmeren/loops/bin/Debug/net9.0/loops.runtimeconfig.json
+/home/bram/Documents/Studie/Sem01/Workshops/programmeren/loops/bin/Debug/net9.0/loops.dll
+/home/bram/Documents/Studie/Sem01/Workshops/programmeren/loops/bin/Debug/net9.0/loops.pdb
+/home/bram/Documents/Studie/Sem01/Workshops/programmeren/loops/obj/Debug/net9.0/loops.dll
+/home/bram/Documents/Studie/Sem01/Workshops/programmeren/loops/obj/Debug/net9.0/refint/loops.dll
+/home/bram/Documents/Studie/Sem01/Workshops/programmeren/loops/obj/Debug/net9.0/loops.pdb
+/home/bram/Documents/Studie/Sem01/Workshops/programmeren/loops/obj/Debug/net9.0/loops.genruntimeconfig.cache
+/home/bram/Documents/Studie/Sem01/Workshops/programmeren/loops/obj/Debug/net9.0/ref/loops.dll
