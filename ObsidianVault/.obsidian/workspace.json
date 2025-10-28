@@ -11,10 +11,14 @@
             "id": "12faf7074711f5a3",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Leertraject/2025-W44.md",
+                "mode": "source",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "2025-W44"
             }
           }
         ]

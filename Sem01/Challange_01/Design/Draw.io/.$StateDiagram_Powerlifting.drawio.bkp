@@ -1,0 +1,152 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.8 Chrome/140.0.7339.240 Electron/38.4.0 Safari/537.36" version="28.2.8">
+  <diagram name="Page-1" id="M_nr3jVRS5qWqzOSbjnj">
+    <mxGraphModel dx="1493" dy="924" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="yrevsYgq-jChiJUVu6dB-48" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="40" width="510" height="740" as="geometry" />
+        </mxCell>
+        <mxCell id="yrevsYgq-jChiJUVu6dB-23" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry width="330" height="810" as="geometry" />
+        </mxCell>
+        <mxCell id="yrevsYgq-jChiJUVu6dB-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yrevsYgq-jChiJUVu6dB-2" target="yrevsYgq-jChiJUVu6dB-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yrevsYgq-jChiJUVu6dB-2" value="kalibreren" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="360" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yrevsYgq-jChiJUVu6dB-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yrevsYgq-jChiJUVu6dB-4" target="yrevsYgq-jChiJUVu6dB-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yrevsYgq-jChiJUVu6dB-17" value="Luisert voor handshake" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yrevsYgq-jChiJUVu6dB-13">
+          <mxGeometry x="-0.275" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yrevsYgq-jChiJUVu6dB-4" value="Start" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=6;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yrevsYgq-jChiJUVu6dB-5" value="Eind" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=6;strokeColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="40" y="690" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yrevsYgq-jChiJUVu6dB-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yrevsYgq-jChiJUVu6dB-6" target="yrevsYgq-jChiJUVu6dB-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yrevsYgq-jChiJUVu6dB-18" value="Luister voor kalibratie waarden" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yrevsYgq-jChiJUVu6dB-14">
+          <mxGeometry x="-0.2" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yrevsYgq-jChiJUVu6dB-6" value="handshake" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="200" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yrevsYgq-jChiJUVu6dB-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yrevsYgq-jChiJUVu6dB-11" target="yrevsYgq-jChiJUVu6dB-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="560" />
+              <mxPoint x="240" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yrevsYgq-jChiJUVu6dB-20" value="Luister voor handshake" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yrevsYgq-jChiJUVu6dB-16">
+          <mxGeometry x="-0.1769" y="-1" relative="1" as="geometry">
+            <mxPoint y="-46" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yrevsYgq-jChiJUVu6dB-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="yrevsYgq-jChiJUVu6dB-11" target="yrevsYgq-jChiJUVu6dB-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yrevsYgq-jChiJUVu6dB-22" value="Timeout na 10 minuten" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yrevsYgq-jChiJUVu6dB-21">
+          <mxGeometry x="-0.1111" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yrevsYgq-jChiJUVu6dB-11" value="Meten &amp;amp; Sturen" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="520" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yrevsYgq-jChiJUVu6dB-24" value="&lt;div&gt;State Diagram:&lt;/div&gt;Powelifting sensor Arduino V01" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="148" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yrevsYgq-jChiJUVu6dB-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yrevsYgq-jChiJUVu6dB-25" target="yrevsYgq-jChiJUVu6dB-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yrevsYgq-jChiJUVu6dB-35" value="Gebruikers naam selecteren&lt;br&gt;Gewicht gebruiker invoeren&lt;br&gt;Datum genereren&lt;br&gt;Oefening selecteren" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yrevsYgq-jChiJUVu6dB-29">
+          <mxGeometry x="0.1456" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yrevsYgq-jChiJUVu6dB-25" value="Start" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=6;" vertex="1" parent="1">
+          <mxGeometry x="620" y="80" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yrevsYgq-jChiJUVu6dB-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yrevsYgq-jChiJUVu6dB-26" target="yrevsYgq-jChiJUVu6dB-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yrevsYgq-jChiJUVu6dB-43" value="Verbinding ACK&lt;div&gt;Luisteren naar data&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yrevsYgq-jChiJUVu6dB-39">
+          <mxGeometry x="-0.2963" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yrevsYgq-jChiJUVu6dB-26" value="handshake" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="560" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yrevsYgq-jChiJUVu6dB-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yrevsYgq-jChiJUVu6dB-27" target="yrevsYgq-jChiJUVu6dB-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yrevsYgq-jChiJUVu6dB-41" value="set_nummer instellen op 1&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yrevsYgq-jChiJUVu6dB-37">
+          <mxGeometry x="-0.2662" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yrevsYgq-jChiJUVu6dB-27" value="Omgeving opstellen" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="240" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yrevsYgq-jChiJUVu6dB-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yrevsYgq-jChiJUVu6dB-28" target="yrevsYgq-jChiJUVu6dB-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yrevsYgq-jChiJUVu6dB-47" value="Als stang weer ongeveer terug ligt bij het begin punt,&lt;br&gt;ga door naar volgende state-" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yrevsYgq-jChiJUVu6dB-40">
+          <mxGeometry x="-0.4226" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yrevsYgq-jChiJUVu6dB-28" value="Ontvangen" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="560" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yrevsYgq-jChiJUVu6dB-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yrevsYgq-jChiJUVu6dB-36" target="yrevsYgq-jChiJUVu6dB-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yrevsYgq-jChiJUVu6dB-42" value="Verbinding maken" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yrevsYgq-jChiJUVu6dB-38">
+          <mxGeometry x="0.246" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yrevsYgq-jChiJUVu6dB-36" value="Set" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="400" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yrevsYgq-jChiJUVu6dB-49" value="State Diagram:&lt;div&gt;Software PC V01&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="779" y="59" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="yrevsYgq-jChiJUVu6dB-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yrevsYgq-jChiJUVu6dB-50" target="yrevsYgq-jChiJUVu6dB-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yrevsYgq-jChiJUVu6dB-53" value="Inloggen" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yrevsYgq-jChiJUVu6dB-52">
+          <mxGeometry x="-0.5211" y="3" relative="1" as="geometry">
+            <mxPoint x="-3" y="21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yrevsYgq-jChiJUVu6dB-50" value="Start" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=6;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="40" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yrevsYgq-jChiJUVu6dB-51" value="Gebruikersomgeving" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="200" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yrevsYgq-jChiJUVu6dB-54" value="Nieuw oefening" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="330" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yrevsYgq-jChiJUVu6dB-55" value="Oude oefening" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1340" y="340" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
