@@ -161,5 +161,4 @@ tR += `Vorige: [[${year}-W${nextWeekNumber - 1}]]\n`;
 tR += `Volgende: [[${year}-W${nextWeekNumber + 1}]]\n\n`;
 
 tR += `[[Canvas/Leertraject-tijdlijn.canvas|📌 Bekijk Canvas-overzicht]]\n`;
-tR += `[[Excalidraw/Week ${nextWeekNumber}.excalidraw|✏️ Weektekening]]\n`;
 %>

@@ -1,6 +1,5 @@
 [
+  "templater-obsidian",
   "dataview",
-  "obsidian-excalidraw-plugin",
-  "obsidian-mind-map",
-  "templater-obsidian"
+  "obsidian-mind-map"
 ]
