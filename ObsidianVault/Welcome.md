@@ -1,1 +1,0 @@
-In [[Leerdoelen Sem-01 v2]] staan mijn leerdoelen beschreven. Het idee is dat dit uitbreid met de tijd dat ik eraan werk.

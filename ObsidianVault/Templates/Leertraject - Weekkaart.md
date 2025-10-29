@@ -49,6 +49,7 @@ do {
 const waaromEnergie = await tp.system.prompt("Waarom heb je gekozen voor dit energiecijfer?");
 
 let emotie = "";
+const emoties = ["blij", "boos", "gefrustreerd", "ontspannen", "gestrest", "verbaasd"];
 
 do {
     const input = await tp.system.prompt(
@@ -155,6 +156,9 @@ tR += "FROM \"Leertraject\"\n";
 tR += "WHERE contains(tags, \"leertraject\")\n";
 tR += "SORT week DESC\n";
 tR += "```\n\n";
+
+tR += `Vorige: [[${year}-W${nextWeekNumber - 1}]]\n`;
+tR += `Volgende: [[${year}-W${nextWeekNumber + 1}]]\n\n`;
 
 tR += `[[Canvas/Leertraject-tijdlijn.canvas|📌 Bekijk Canvas-overzicht]]\n`;
 tR += `[[Excalidraw/Week ${nextWeekNumber}.excalidraw|✏️ Weektekening]]\n`;
