@@ -4,22 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "5ce7e021544bd5ed",
+        "id": "d6f620c8294f1ca1",
         "type": "tabs",
         "children": [
           {
-            "id": "12faf7074711f5a3",
+            "id": "8c6731fcaa3f552b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM01/Workshops/Workshop Infrastructure.md",
+                "file": "Leertraject/2025-W44.md",
                 "mode": "source",
-                "source": true,
-                "backlinks": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "Workshop Infrastructure"
+              "title": "2025-W44"
             }
           }
         ]
@@ -142,22 +141,31 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM01/Workshops/Workshop Infrastructure.md",
+                "file": "SEM01/Diagram/Powerlifting Database diagram.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Workshop Infrastructure"
+              "title": "Outline of Powerlifting Database diagram"
+            }
+          },
+          {
+            "id": "8030f329e015c8d8",
+            "type": "leaf",
+            "state": {
+              "type": "mermaid-toolbar-view",
+              "state": {},
+              "icon": "trident-custom",
+              "title": "Mermaid Toolbar"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -172,16 +180,30 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "12faf7074711f5a3",
+  "active": "8c6731fcaa3f552b",
   "lastOpenFiles": [
+    "SEM01/Diagram/Powerlifting PC Flow chart.md",
+    "Leertraject/2025-W44.md",
+    "SEM01/Diagram/Powerlifting Database diagram Learned.md",
+    "SEM01/Diagram/Powerlifting Database diagram.md",
+    "SEM01/Diagram/Powerlifting Arduino State Diagram.md",
+    "SEM01/Diagram/ER Diagram.md",
+    "Canvas/Leertraject-tijdlijn.canvas",
+    "SEM01/Diagram",
+    "SEM01/Vragen.md",
+    "SEM01/Reflectie UX-design.md",
+    "SEM01/Reflectie project Sem01.md",
+    "SEM01/Oriëntatie Sem 01.md",
+    "SEM01/Lessen Arduino probeersels.md",
+    "SEM01/Feedback 29-09-2025.md",
     "SEM01/Workshops/Workshop Programmeren extra - c_sharp oefenen.md",
+    "SEM01/design.md",
+    "SEM01/Workshops/Workshop Infrastructure.md",
     "SEM01/Workshops/Workshops BusData Sem01.md",
     "SEM01/Workshops/Workshops Programmeren Sem01.md",
     "SEM01/Workshops/Workshops Technologies Sem01.md",
     "SEM01/Workshops/Workshops Technologies Sem01_oud.md",
-    "SEM01/Workshops/Workshop Infrastructure.md",
     "SEM01/Workshops/Workshops UX-design Sem01.md",
-    "Leertraject/2025-W44.md",
     "Leertraject/2025-W43.md",
     "Werk/DB Groen.md",
     "Werk/DB Wegen.md",
@@ -190,19 +212,6 @@
     "SEM01/Persoonlijk Leiderschap/Lokaal LLM (AI) draaien.md",
     "Templates/Leertraject - Weekkaart.md",
     "SEM01/Leerdoelen/Leerdoelen per topic/Technologies.md",
-    "SEM01/Leerdoelen/Leerdoelen per topic/Programmeren.md",
-    "SEM01/Leerdoelen/Leerdoelen per topic/Business & Analyse.md",
-    "SEM01/Persoonlijk Leiderschap/Kernwaarden.md",
-    "Canvas/Leertraject-tijdlijn.canvas",
-    "Excalidraw/Week 43.excalidraw.md",
-    "Excalidraw/Drawing 2025-10-29 10.30.44.excalidraw.md",
-    "SEM01/Feedback 29-09-2025.md",
-    "SEM01/Vragen.md",
-    "SEM01/Reflectie UX-design.md",
-    "SEM01/Reflectie project Sem01.md",
-    "SEM01/Lessen Arduino probeersels.md",
-    "SEM01/ER Diagram.md",
-    "SEM01/design.md",
     "Untitled.canvas",
     "SEM01",
     "Excalidraw",
@@ -211,7 +220,6 @@
     "Leertraject",
     "SEM01/Leerdoelen/Leerdoelen per topic",
     "SEM01/Persoonlijk Leiderschap",
-    "99_Oud",
     "20250924_Leerdoelen.png",
     "Pasted image 20250924140631.png"
   ]
