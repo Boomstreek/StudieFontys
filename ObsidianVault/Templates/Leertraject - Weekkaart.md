@@ -16,7 +16,7 @@ const title = await tp.system.prompt("Titel voor deze week?");
 const doelen = await tp.system.prompt("Wat wil je deze week bereiken? (scheid met komma’s)");
 const focus = await tp.system.prompt("Wat krijgt je hoofdfocus deze week?");
 const uitdaging = await tp.system.prompt("Wat verwacht je dat lastig wordt?");
-const hulp = await tp.system.prompt("Waar wil je ondersteuning of afstemming over?");
+const hulp = await tp.system.prompt("Waar zijn je (hulp)vragen voor komende week");
 const volgende = await tp.system.prompt("Zijn er al actiepunten voor volgende week? (scheid met komma’s)");
 
 /* ---------------------------

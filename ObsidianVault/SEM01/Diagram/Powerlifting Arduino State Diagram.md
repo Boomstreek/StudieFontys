@@ -15,7 +15,7 @@ stateDiagram-v2
     if_state2 --> eind : if incomingByte == 0b00000000
     if_state2 --> wachten : else
 
-    %% Meetfase met terugk[[Powerlifting PC Flow chart]]eerlogica
+    %% Meetfase met terugk[[2025-W44]][[Powerlifting PC Flow chart]]eerlogica
     metenSturen --> metenSturen : sensoren bewegen / meetgegevens doorsturen
     metenSturen --> wachten : sensoren ongeveer terug bij beginpositie én enige tijd stil
 

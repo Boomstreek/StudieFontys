@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "d6f620c8294f1ca1",
+        "id": "081ed893dda12ad4",
         "type": "tabs",
         "children": [
           {
-            "id": "8c6731fcaa3f552b",
+            "id": "734e19c97872d98a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM01/Diagram/Powerlifting Arduino State Diagram.md",
+                "file": "Leertraject/2025-W45.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Powerlifting Arduino State Diagram"
+              "title": "2025-W45"
             }
           }
         ]
@@ -141,27 +141,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM01/Diagram/Powerlifting Database diagram.md",
+                "file": "Leertraject/2025-W45.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Powerlifting Database diagram"
-            }
-          },
-          {
-            "id": "8030f329e015c8d8",
-            "type": "leaf",
-            "state": {
-              "type": "mermaid-toolbar-view",
-              "state": {},
-              "icon": "trident-custom",
-              "title": "Mermaid Toolbar"
+              "title": "Outline of 2025-W45"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -176,24 +166,27 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "templater-obsidian:Templater": false,
-      "mermaid-tools:Open Mermaid Toolbar": false
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "92d32d5199956397",
+  "active": "734e19c97872d98a",
   "lastOpenFiles": [
-    "SEM01/Eindproduct/Design v2.md",
-    "SEM01/Diagram/Powerlifting Arduino State Diagram.md",
-    "SEM01/Eindproduct",
-    "SEM01/Diagram/Powerlifting Database diagram.md",
-    "SEM01/Diagram/Powerlifting Database diagram Learned.md",
+    "Templates/Leertraject - Weekkaart.md",
+    "Leertraject/2025-W45.md",
     "Leertraject/2025-W44.md",
-    "SEM01/Diagram/Powerlifting PC Flow chart.md",
+    "Leertraject/2025-W43.md",
+    "SEM01/Diagram/Powerlifting Database diagram Learned.md",
+    "SEM01/Diagram/Powerlifting Chen Notatie.md",
     "SEM01/Diagram/ER Diagram.md",
-    "Canvas/Leertraject-tijdlijn.canvas",
-    "SEM01/Diagram",
     "SEM01/Vragen.md",
     "SEM01/Reflectie UX-design.md",
+    "SEM01/Diagram/Powerlifting PC Flow chart.md",
+    "SEM01/Diagram/Powerlifting Arduino State Diagram.md",
+    "SEM01/Eindproduct/Design v2.md",
+    "SEM01/Eindproduct",
+    "SEM01/Diagram/Powerlifting Database diagram.md",
+    "Canvas/Leertraject-tijdlijn.canvas",
+    "SEM01/Diagram",
     "SEM01/Reflectie project Sem01.md",
     "SEM01/Oriëntatie Sem 01.md",
     "SEM01/Lessen Arduino probeersels.md",
@@ -206,13 +199,9 @@
     "SEM01/Workshops/Workshops Technologies Sem01.md",
     "SEM01/Workshops/Workshops Technologies Sem01_oud.md",
     "SEM01/Workshops/Workshops UX-design Sem01.md",
-    "Leertraject/2025-W43.md",
     "Werk/DB Groen.md",
-    "Werk/DB Wegen.md",
     "Werk/DB Wegen",
     "Werk",
-    "SEM01/Persoonlijk Leiderschap/Lokaal LLM (AI) draaien.md",
-    "Templates/Leertraject - Weekkaart.md",
     "Untitled.canvas",
     "SEM01",
     "Excalidraw",

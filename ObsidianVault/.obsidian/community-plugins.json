@@ -1,7 +1,6 @@
 [
   "templater-obsidian",
   "dataview",
-  "obsidian-mind-map",
-  "mermaid-tools",
-  "better-export-pdf"
+  "better-export-pdf",
+  "obsidian-plantuml"
 ]
