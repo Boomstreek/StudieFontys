@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Leertraject/2025-W44.md",
+                "file": "SEM01/Diagram/Powerlifting Arduino State Diagram.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2025-W44"
+              "title": "Powerlifting Arduino State Diagram"
             }
           }
         ]
@@ -180,13 +180,15 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "8c6731fcaa3f552b",
+  "active": "92d32d5199956397",
   "lastOpenFiles": [
-    "SEM01/Diagram/Powerlifting PC Flow chart.md",
-    "Leertraject/2025-W44.md",
-    "SEM01/Diagram/Powerlifting Database diagram Learned.md",
-    "SEM01/Diagram/Powerlifting Database diagram.md",
+    "SEM01/Eindproduct/Design v2.md",
     "SEM01/Diagram/Powerlifting Arduino State Diagram.md",
+    "SEM01/Eindproduct",
+    "SEM01/Diagram/Powerlifting Database diagram.md",
+    "SEM01/Diagram/Powerlifting Database diagram Learned.md",
+    "Leertraject/2025-W44.md",
+    "SEM01/Diagram/Powerlifting PC Flow chart.md",
     "SEM01/Diagram/ER Diagram.md",
     "Canvas/Leertraject-tijdlijn.canvas",
     "SEM01/Diagram",
@@ -211,7 +213,6 @@
     "Werk",
     "SEM01/Persoonlijk Leiderschap/Lokaal LLM (AI) draaien.md",
     "Templates/Leertraject - Weekkaart.md",
-    "SEM01/Leerdoelen/Leerdoelen per topic/Technologies.md",
     "Untitled.canvas",
     "SEM01",
     "Excalidraw",
@@ -219,7 +220,6 @@
     "Templates",
     "Leertraject",
     "SEM01/Leerdoelen/Leerdoelen per topic",
-    "SEM01/Persoonlijk Leiderschap",
     "20250924_Leerdoelen.png",
     "Pasted image 20250924140631.png"
   ]
