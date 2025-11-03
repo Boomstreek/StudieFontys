@@ -8,19 +8,19 @@
     "net9.0": []
   },
   "packageFolders": {
-    "/home/Bram/.nuget/packages/": {}
+    "/home/bram/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/Bram/Documents/Studie/Sem01/Workshops/programmeren/raadhetgetal/raadhetgetal.csproj",
+      "projectUniqueName": "/home/bram/Documents/Studie/Sem01/Workshops/programmeren/raadhetgetal/raadhetgetal.csproj",
       "projectName": "raadhetgetal",
-      "projectPath": "/home/Bram/Documents/Studie/Sem01/Workshops/programmeren/raadhetgetal/raadhetgetal.csproj",
-      "packagesPath": "/home/Bram/.nuget/packages/",
-      "outputPath": "/home/Bram/Documents/Studie/Sem01/Workshops/programmeren/raadhetgetal/obj/",
+      "projectPath": "/home/bram/Documents/Studie/Sem01/Workshops/programmeren/raadhetgetal/raadhetgetal.csproj",
+      "packagesPath": "/home/bram/.nuget/packages/",
+      "outputPath": "/home/bram/Documents/Studie/Sem01/Workshops/programmeren/raadhetgetal/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/Bram/.nuget/NuGet/NuGet.Config"
+        "/home/bram/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"

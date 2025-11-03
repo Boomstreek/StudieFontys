@@ -2,6 +2,5 @@
   "templater-obsidian",
   "dataview",
   "better-export-pdf",
-  "obsidian-plantuml",
-  "mermaid-tools"
+  "obsidian-plantuml"
 ]

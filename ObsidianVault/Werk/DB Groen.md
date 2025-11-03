@@ -47,7 +47,7 @@ erDiagram
         string adres_contactpersoon_zelfbeheer
         string afbeelding_file
         string afbeelding_naam
-        string afvalbak_kleur "afvakbak of container?
+        string afvalbak_kleur "afvakbak of container?"
         string afvalbak_ledigen
         string afvalbak_type
         string ambitieniveau

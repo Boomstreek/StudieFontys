@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM01/Diagram/Powerlifting Class diagram.md",
-                "mode": "preview",
+                "file": "Werk/DB Wegen.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Powerlifting Class diagram"
+              "title": "DB Wegen"
             }
           }
         ]
@@ -141,27 +141,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM01/Diagram/Powerlifting Class diagram.md",
+                "file": "Werk/DB Wegen.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Powerlifting Class diagram"
-            }
-          },
-          {
-            "id": "91d6255d5beefcec",
-            "type": "leaf",
-            "state": {
-              "type": "mermaid-toolbar-view",
-              "state": {},
-              "icon": "trident-custom",
-              "title": "Mermaid Toolbar"
+              "title": "Outline of DB Wegen"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -182,7 +172,10 @@
   },
   "active": "46a69b46a9fad369",
   "lastOpenFiles": [
+    "SEM01/Diagram/Powerlifting Chen Notatie.md",
+    "Werk/DB Wegen.md",
     "SEM01/Diagram/Powerlifting Class diagram.md",
+    "Werk/DB Groen.md",
     "Leertraject/2025-W45.md",
     "Leertraject/2025-W44.md",
     "2025-11-02.md",
@@ -191,7 +184,6 @@
     "Leertraject/2025-W46.md",
     "Leertraject/2025-W43.md",
     "SEM01/Diagram/Powerlifting Database diagram Learned.md",
-    "SEM01/Diagram/Powerlifting Chen Notatie.md",
     "SEM01/Diagram/ER Diagram.md",
     "SEM01/Vragen.md",
     "SEM01/Reflectie UX-design.md",
@@ -209,8 +201,6 @@
     "SEM01/Workshops/Workshop Programmeren extra - c_sharp oefenen.md",
     "SEM01/design.md",
     "SEM01/Workshops/Workshop Infrastructure.md",
-    "SEM01/Workshops/Workshops BusData Sem01.md",
-    "SEM01/Workshops/Workshops Programmeren Sem01.md",
     "Werk/DB Wegen",
     "Werk",
     "Untitled.canvas",

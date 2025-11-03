@@ -123,5 +123,100 @@ erDiagram
             string sector
         }
 
+```
 
+```plantuml
+@startchen
+<style>
+.red {
+BackGroundColor #f08080
+FontColor #000000
+}
+.blue {
+BackGroundColor #00bfff
+FontColor #000000
+}
+.green {
+BackGroundColor #90ee90
+FontColor #000000
+}
+</style>
+
+' Entiteiten
+entity User <<red>> {
+	username <<blue>> {
+	}
+}
+
+' relationship
+relationship has <<green>> {
+}
+
+' connection
+'User -1- has
+'has -N- Session
+
+@endchen
+```
+
+```plantuml
+@startchen
+title IMBOR 2025 – Wegbeheer (conceptueel Chen-model)
+
+entity IMBOR_Objecttype {
+    imbor_id
+    naam
+    categorie
+}
+
+entity BGT_Object {
+    bgt_id
+    objecttype
+    geometrie
+}
+
+entity Beheerobject {
+    beheer_id
+    status
+    conditie
+}
+
+entity Beheerder {
+    beheerder_id
+    naam
+    afdeling
+}
+
+entity Materiaal {
+    materiaal_id
+    naam
+    levensduur
+}
+
+entity Gebruikstype {
+    gebruikstype_id
+    naam
+}
+
+entity Inspectie {
+    inspectie_id
+    datum
+    score
+}
+
+entity Onderhoudsactie {
+    actie_id
+    type
+    datum
+}
+
+Beheerobject -1- BGT_Object 
+Beheerobject -1- IMBOR_Objecttype
+Beheerobject -1- Materiaal
+Beheerobject -1- Gebruikstype
+Beheerobject -1- Beheerder
+Beheerobject -N- Inspectie
+Inspectie -N- Onderhoudsactie
+
+@endchen
 ```
