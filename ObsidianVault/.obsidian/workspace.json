@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Werk/DB Wegen.md",
+                "file": "Leertraject/2025-W45.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "DB Wegen"
+              "title": "2025-W45"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 452.5
   },
   "right": {
     "id": "5e1f4ee143262312",
@@ -141,13 +141,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Werk/DB Wegen.md",
+                "file": "Leertraject/2025-W45.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of DB Wegen"
+              "title": "Outline of 2025-W45"
             }
           }
         ],
@@ -166,32 +166,32 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "templater-obsidian:Templater": false,
-      "mermaid-tools:Open Mermaid Toolbar": false
+      "templater-obsidian:Templater": false
     }
   },
   "active": "46a69b46a9fad369",
   "lastOpenFiles": [
+    "SEM01/Diagram/Powerlifting Database diagram.md",
     "SEM01/Diagram/Powerlifting Chen Notatie.md",
-    "Werk/DB Wegen.md",
     "SEM01/Diagram/Powerlifting Class diagram.md",
-    "Werk/DB Groen.md",
     "Leertraject/2025-W45.md",
     "Leertraject/2025-W44.md",
-    "2025-11-02.md",
+    "SEM01/Diagram/Powerlifting Database diagram Learned.md",
+    "SEM01/Diagram/Powerlifting PC Flow chart.md",
     "Templates/Leertraject - Weekkaart.md",
+    "Leertraject/2025-W46.md",
+    "Werk/DB Wegen.md",
+    "Werk/DB Groen.md",
+    "2025-11-02.md",
     "Templates/Leertraject - Weekkaart 1.md",
     "Leertraject/2025-W46.md",
     "Leertraject/2025-W43.md",
-    "SEM01/Diagram/Powerlifting Database diagram Learned.md",
     "SEM01/Diagram/ER Diagram.md",
     "SEM01/Vragen.md",
     "SEM01/Reflectie UX-design.md",
-    "SEM01/Diagram/Powerlifting PC Flow chart.md",
     "SEM01/Diagram/Powerlifting Arduino State Diagram.md",
     "SEM01/Eindproduct/Design v2.md",
     "SEM01/Eindproduct",
-    "SEM01/Diagram/Powerlifting Database diagram.md",
     "Canvas/Leertraject-tijdlijn.canvas",
     "SEM01/Diagram",
     "SEM01/Reflectie project Sem01.md",
@@ -200,7 +200,6 @@
     "SEM01/Feedback 29-09-2025.md",
     "SEM01/Workshops/Workshop Programmeren extra - c_sharp oefenen.md",
     "SEM01/design.md",
-    "SEM01/Workshops/Workshop Infrastructure.md",
     "Werk/DB Wegen",
     "Werk",
     "Untitled.canvas",
