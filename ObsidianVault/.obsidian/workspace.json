@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "081ed893dda12ad4",
+        "id": "abc02b802ed6ad62",
         "type": "tabs",
         "children": [
           {
-            "id": "734e19c97872d98a",
+            "id": "46a69b46a9fad369",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Leertraject/2025-W45.md",
-                "mode": "source",
+                "file": "SEM01/Diagram/Powerlifting Class diagram.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2025-W45"
+              "title": "Powerlifting Class diagram"
             }
           }
         ]
@@ -141,17 +141,27 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Leertraject/2025-W45.md",
+                "file": "SEM01/Diagram/Powerlifting Class diagram.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2025-W45"
+              "title": "Outline of Powerlifting Class diagram"
+            }
+          },
+          {
+            "id": "91d6255d5beefcec",
+            "type": "leaf",
+            "state": {
+              "type": "mermaid-toolbar-view",
+              "state": {},
+              "icon": "trident-custom",
+              "title": "Mermaid Toolbar"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -166,14 +176,19 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "734e19c97872d98a",
+  "active": "46a69b46a9fad369",
   "lastOpenFiles": [
-    "Templates/Leertraject - Weekkaart.md",
+    "SEM01/Diagram/Powerlifting Class diagram.md",
     "Leertraject/2025-W45.md",
     "Leertraject/2025-W44.md",
+    "2025-11-02.md",
+    "Templates/Leertraject - Weekkaart.md",
+    "Templates/Leertraject - Weekkaart 1.md",
+    "Leertraject/2025-W46.md",
     "Leertraject/2025-W43.md",
     "SEM01/Diagram/Powerlifting Database diagram Learned.md",
     "SEM01/Diagram/Powerlifting Chen Notatie.md",
@@ -196,10 +211,6 @@
     "SEM01/Workshops/Workshop Infrastructure.md",
     "SEM01/Workshops/Workshops BusData Sem01.md",
     "SEM01/Workshops/Workshops Programmeren Sem01.md",
-    "SEM01/Workshops/Workshops Technologies Sem01.md",
-    "SEM01/Workshops/Workshops Technologies Sem01_oud.md",
-    "SEM01/Workshops/Workshops UX-design Sem01.md",
-    "Werk/DB Groen.md",
     "Werk/DB Wegen",
     "Werk",
     "Untitled.canvas",

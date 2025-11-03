@@ -786,7 +786,7 @@
     }
   ],
   "customCategories": [],
-  "selectedCategoryId": "entityRelationshipDiagram",
+  "selectedCategoryId": "classDiagram",
   "defaultCategorySortOrders": {},
   "categoryModifications": {}
 }
