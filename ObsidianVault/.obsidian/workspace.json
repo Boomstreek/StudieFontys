@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Leertraject/2025-W45.md",
+                "file": "SEM01/SEM01 Orientatie Keuze.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2025-W45"
+              "title": "SEM01 Orientatie Keuze"
             }
           }
         ]
@@ -141,13 +141,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Leertraject/2025-W45.md",
+                "file": "SEM01/SEM01 Orientatie Keuze.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2025-W45"
+              "title": "Outline of SEM01 Orientatie Keuze"
             }
           }
         ],
@@ -171,13 +171,18 @@
   },
   "active": "46a69b46a9fad369",
   "lastOpenFiles": [
+    "Untitled.md",
+    "SEM01/SEM01 Orientatie Keuze.md",
+    "SEM01/Diagram/ER Diagram.md",
+    "SEM01/Workshops/Workshop Infrastructure.md",
+    "SEM01/Diagram/Powerlifting PC Flow chart.md",
+    "Leertraject/2025-W45.md",
+    "SEM01/Vragen.md",
     "SEM01/Diagram/Powerlifting Database diagram.md",
     "SEM01/Diagram/Powerlifting Chen Notatie.md",
     "SEM01/Diagram/Powerlifting Class diagram.md",
-    "Leertraject/2025-W45.md",
     "Leertraject/2025-W44.md",
     "SEM01/Diagram/Powerlifting Database diagram Learned.md",
-    "SEM01/Diagram/Powerlifting PC Flow chart.md",
     "Templates/Leertraject - Weekkaart.md",
     "Leertraject/2025-W46.md",
     "Werk/DB Wegen.md",
@@ -186,8 +191,6 @@
     "Templates/Leertraject - Weekkaart 1.md",
     "Leertraject/2025-W46.md",
     "Leertraject/2025-W43.md",
-    "SEM01/Diagram/ER Diagram.md",
-    "SEM01/Vragen.md",
     "SEM01/Reflectie UX-design.md",
     "SEM01/Diagram/Powerlifting Arduino State Diagram.md",
     "SEM01/Eindproduct/Design v2.md",
@@ -197,9 +200,6 @@
     "SEM01/Reflectie project Sem01.md",
     "SEM01/Oriëntatie Sem 01.md",
     "SEM01/Lessen Arduino probeersels.md",
-    "SEM01/Feedback 29-09-2025.md",
-    "SEM01/Workshops/Workshop Programmeren extra - c_sharp oefenen.md",
-    "SEM01/design.md",
     "Werk/DB Wegen",
     "Werk",
     "Untitled.canvas",
