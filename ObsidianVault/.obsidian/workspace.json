@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM01/SEM01 Orientatie Keuze.md",
+                "file": "Leertraject/2025-W45.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "SEM01 Orientatie Keuze"
+              "title": "2025-W45"
             }
           }
         ]
@@ -141,13 +141,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM01/SEM01 Orientatie Keuze.md",
+                "file": "Leertraject/2025-W45.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of SEM01 Orientatie Keuze"
+              "title": "Outline of 2025-W45"
             }
           }
         ],
@@ -171,8 +171,8 @@
   },
   "active": "46a69b46a9fad369",
   "lastOpenFiles": [
-    "Untitled.md",
     "SEM01/SEM01 Orientatie Keuze.md",
+    "Untitled.md",
     "SEM01/Diagram/ER Diagram.md",
     "SEM01/Workshops/Workshop Infrastructure.md",
     "SEM01/Diagram/Powerlifting PC Flow chart.md",
