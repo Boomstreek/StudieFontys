@@ -13,11 +13,9 @@ const year = nextWeek.year();
    Prompts
 ----------------------------*/
 const title = await tp.system.prompt("Titel voor deze week?");
-const doelen = await tp.system.prompt("Wat wil je deze week bereiken? (scheid met komma’s)");
+const doelen = await tp.system.prompt("Wat wil je deze week doen? (scheid met komma’s)(?Vragen?, Actiepunt)");
 const focus = await tp.system.prompt("Wat krijgt je hoofdfocus deze week?");
 const uitdaging = await tp.system.prompt("Wat verwacht je dat lastig wordt?");
-const hulp = await tp.system.prompt("Waar zijn je (hulp)vragen voor komende week? (scheid met komma’s)");
-const volgende = await tp.system.prompt("Zijn er al actiepunten voor volgende week? (scheid met komma’s)");
 
 /* ---------------------------
    Valideerbare motivatie / energie / emoties prompts
@@ -74,8 +72,6 @@ await tp.file.rename(`${year}-W${nextWeekNumber}`);
 /* ---------------------------
    YAML-header genereren
 ----------------------------*/
-const hulpArray = hulp.split(",").map(h => h.trim()).filter(h => h.length > 0);
-const volgendeArray = volgende.split(",").map(v => v.trim()).filter(v => v.length > 0);
 const doelenArray = doelen.split(",").map(d => d.trim()).filter(d => d.length > 0);
 
 tR += `---\n`;
@@ -87,11 +83,9 @@ tR += `energie: ${energieInt}\n`;
 tR += `waarom dit energiecijfer?: "${waaromEnergie}"\n`;
 tR += `emotie: "${emotie}"\n`;
 tR += `waarom deze emotie?: "${waaromEmotie}"\n`;
-tR += `doelen: [${doelenArray.map(d => `"${d}"`).join(", ")}]\n`;
+tR += `Actiepunten: [${doelenArray.map(d => `"${d}"`).join(", ")}]\n`;
 tR += `focus: "${focus}"\n`;
 tR += `verwachte_uitdagingen: "${uitdaging}"\n`;
-tR += `ondersteuning_nodig:\n${hulpArray.map(h => `  - ${h}`).join("\n")}\n`;
-tR += `volgende_stap: [${volgendeArray.map(v => `"${v}"`).join(", ")}]\n`;
 tR += `tags: [leertraject, weekkaart]\n`;
 tR += `Eerste_maandag_van_de_week: ${nextMonday}\n`;
 tR += `Aangemaakt_op: ${today}\n`;
@@ -104,7 +98,7 @@ tR += `# Week ${nextWeekNumber} – ${title}\n\n`;
 tR += `%% Vul dit begin van de week in om richting te bepalen.
    Voeg aan het eind van de week reflectie toe onderaan. %%\n\n`;
 
-tR += `## Doelen voor deze week\n`;
+tR += `## Actiepunten/?Vragen? voor deze week\n`;
 tR += `${doelenArray.map(d => `- [ ] ${d}`).join("\n")}\n\n`;
 
 tR += `## Focus\n`;
@@ -112,12 +106,6 @@ tR += `${focus}\n\n`;
 
 tR += `## Verwachte uitdagingen\n`;
 tR += `${uitdaging}\n\n`;
-
-tR += `## Ondersteuning, Afstemming, Vragen\n`;
-tR += `${hulpArray.map(h => `- [ ] ${h}`).join("\n")}\n\n`;
-
-tR += `## Actiepunten volgende week\n`;
-tR += `${volgendeArray.map(v => `- [ ] ${v}`).join("\n")}\n\n`;
 
 tR += `## Wat heb ik gedaan\n`;
 tR += `%%- (Welke projecten of taken heb ik uitgevoerd?) %%\n`;
@@ -146,9 +134,6 @@ tR += `- \n\n`;
 tR += `## Inzichten of ideeën\n`;
 tR += `%%- (Nieuwe ideeën, observaties, verbeterpunten voor volgende week) %%\n\n`;
 
-tR += `## Vragen voor docenten\n`;
-tR += `%%- (Welke vragen heb ik voor de algemene les?) %%\n\n`;
-
 tR += `## Feedback ontvangen\n`;
 tR += `%% {Naam / opmerking} %%\n\n`;
 
@@ -162,6 +147,4 @@ tR += "```\n\n";
 
 tR += `Vorige: [[${year}-W${nextWeekNumber - 1}]]\n`;
 tR += `Volgende: [[${year}-W${nextWeekNumber + 1}]]\n\n`;
-
-tR += `[[Canvas/Leertraject-tijdlijn.canvas|📌 Bekijk Canvas-overzicht]]\n`;
 %>

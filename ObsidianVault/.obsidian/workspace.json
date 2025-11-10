@@ -8,20 +8,35 @@
         "type": "tabs",
         "children": [
           {
-            "id": "46a69b46a9fad369",
+            "id": "d99d96d6ffe19a35",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Leertraject/2025-W45.md",
+                "file": "Babies/Brain rules for baby_raw.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2025-W45"
+              "title": "Brain rules for baby_raw"
+            }
+          },
+          {
+            "id": "102db5eb3c9990c6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Leertraject/2025-W46.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "2025-W46"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -141,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Leertraject/2025-W45.md",
+                "file": "Leertraject/2025-W46.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2025-W45"
+              "title": "Outline of 2025-W46"
             }
           }
         ],
@@ -169,46 +184,46 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "46a69b46a9fad369",
+  "active": "102db5eb3c9990c6",
   "lastOpenFiles": [
-    "SEM01/SEM01 Orientatie Keuze.md",
-    "Untitled.md",
-    "SEM01/Diagram/ER Diagram.md",
-    "SEM01/Workshops/Workshop Infrastructure.md",
-    "SEM01/Diagram/Powerlifting PC Flow chart.md",
     "Leertraject/2025-W45.md",
-    "SEM01/Vragen.md",
-    "SEM01/Diagram/Powerlifting Database diagram.md",
-    "SEM01/Diagram/Powerlifting Chen Notatie.md",
-    "SEM01/Diagram/Powerlifting Class diagram.md",
+    "Leertraject/2025-W46.md",
+    "Leertraject/2025-W46.3.md",
     "Leertraject/2025-W44.md",
-    "SEM01/Diagram/Powerlifting Database diagram Learned.md",
-    "Templates/Leertraject - Weekkaart.md",
-    "Leertraject/2025-W46.md",
-    "Werk/DB Wegen.md",
-    "Werk/DB Groen.md",
-    "2025-11-02.md",
-    "Templates/Leertraject - Weekkaart 1.md",
-    "Leertraject/2025-W46.md",
     "Leertraject/2025-W43.md",
-    "SEM01/Reflectie UX-design.md",
-    "SEM01/Diagram/Powerlifting Arduino State Diagram.md",
-    "SEM01/Eindproduct/Design v2.md",
-    "SEM01/Eindproduct",
-    "Canvas/Leertraject-tijdlijn.canvas",
-    "SEM01/Diagram",
-    "SEM01/Reflectie project Sem01.md",
+    "Templates/Leertraject - Weekkaart.md",
+    "Templates/Leertraject - Weekkaart 1.md",
+    "Leertraject/2025-W47.md",
+    "SEM01/Reflectie/Reflectie Syntaxis.md",
+    "Babies/Brain rules for baby_raw.md",
+    "Babies/Brain rules for baby.md",
+    "SEM01/Collection Description SEM01 02.md",
     "SEM01/Oriëntatie Sem 01.md",
+    "Babies",
+    "SEM01/Collection Description SEM01 01.md",
+    "Canvas/Leertraject-tijdlijn.canvas",
+    "SEM01/Workshops/Reflectie project Sem01.md",
+    "SEM01/Reflectie/Diagrammen Reflectie.md",
+    "Reflectie syntaxis",
+    "SEM01/Vragen.md",
     "SEM01/Lessen Arduino probeersels.md",
+    "SEM01/Feedback 29-09-2025.md",
+    "SEM01/Code/Arduino Temperatuursensor/Arduino Temperatuursensor Code.md",
+    "SEM01/Code/Arduino Temperatuursensor",
+    "SEM01/Code",
+    "SEM01/Code.md",
+    "SEM01/Code/Arduino Temperatuursensor/Arduino Temperaturusensor C_sharp code.md",
+    "SEM01/Workshops/SEM01 Orientatie Keuze.md",
+    "SEM01/Reflectie",
+    "SEM01/Diagram/Powerlifting PC Flow chart.md",
+    "SEM01/Diagram/Powerlifting Class diagram.md",
+    "SEM01/Workshops/Workshop Infrastructure.md",
+    "Expirment Arduino Temp Sensor",
+    "SEM01/Eindproduct",
+    "SEM01/Diagram",
     "Werk/DB Wegen",
     "Werk",
     "Untitled.canvas",
-    "SEM01",
-    "Excalidraw",
-    "Canvas",
-    "Templates",
-    "Leertraject",
-    "SEM01/Leerdoelen/Leerdoelen per topic",
     "20250924_Leerdoelen.png",
     "Pasted image 20250924140631.png"
   ]

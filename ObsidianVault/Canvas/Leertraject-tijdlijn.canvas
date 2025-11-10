@@ -1,9 +1,11 @@
 {
 	"nodes":[
 		{"id":"b06bdf448dfa9e80","type":"file","file":"Leertraject/2025-W43.md","x":-1040,"y":-360,"width":400,"height":400},
-		{"id":"63e2c844c7ef2329","type":"file","file":"Leertraject/2025-W44.md","x":-360,"y":-360,"width":400,"height":400}
+		{"id":"63e2c844c7ef2329","type":"file","file":"Leertraject/2025-W44.md","x":-360,"y":-360,"width":400,"height":400},
+		{"id":"2255b4bd1d8651e8","x":280,"y":-360,"width":400,"height":400,"type":"file","file":"Leertraject/2025-W45.md"}
 	],
 	"edges":[
-		{"id":"1f97df8de46a087f","fromNode":"b06bdf448dfa9e80","fromSide":"right","toNode":"63e2c844c7ef2329","toSide":"left"}
+		{"id":"1f97df8de46a087f","fromNode":"b06bdf448dfa9e80","fromSide":"right","toNode":"63e2c844c7ef2329","toSide":"left"},
+		{"id":"b8fe365a664e552b","fromNode":"63e2c844c7ef2329","fromSide":"right","toNode":"2255b4bd1d8651e8","toSide":"left"}
 	]
 }
