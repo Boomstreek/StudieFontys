@@ -75,39 +75,102 @@ Student Housing B.V. beheert meerdere studentencomplexen met gedeelde voorzienin
 2. ipsum
 
 ### 3.2 Doelgroep / Gebruikers
-%% beter beschrijven %%
-- Studenten
-- Beheerders 
-- Interne onderhoudsmedewerker  
-- Externe onderhoudspartners
+#### Studenten
+Studenten wonen in de studentenhuizen die Student Housing B.V. aanbiedt. Zij hebben behoefte aan een overzichtelijk systeem waarmee zij klachten kunnen melden, de status van meldingen kunnen volgen en inzicht hebben in de afhandeling. Daarnaast willen zij duidelijkheid over huishoudtaken: wie welke taak uitvoert, wanneer dit moet gebeuren en wat al is gedaan.
+
+#### Beheerders 
+Beheerders zijn verantwoordelijk voor het dagelijkse reilen en zeilen binnen de studentenhuizen. Zij moeten inzicht hebben in alle openstaande en afgeronde klachten, de planning en uitvoering van huishoudtaken, de onderhoudsstatus en operationele kosten. Het systeem moet hen ondersteunen bij coördinatie, besluitvorming en communicatie met studenten en onderhoudspartijen.
+
+#### Onderhoudsmedewerker  
+Onderhoudsmedewerkers, zowel intern als extern, voeren reparaties en onderhoudstaken uit binnen de studentenhuizen. Zij hebben behoefte aan een duidelijke en actuele takenlijst, met per taak de locatie, omschrijving, prioriteit, benodigde materialen en eventuele veiligheidsinstructies. Het systeem moet hen helpen om werkzaamheden efficiënt en traceerbaar uit te voeren.
+
+#### Onderhoudsmanager
+De onderhoudsmanager is verantwoordelijk voor de planning, prioritering en toewijzing van onderhoudstaken. Deze rol vereist inzicht in de totale onderhoudsbehoefte, beschikbare capaciteit, kostenramingen en materiaalgebruik. De onderhoudsmanager moet eenvoudig taken kunnen aanmaken, prioriteiten kunnen wijzigen, voortgang kunnen monitoren en rapportages kunnen genereren.
 
 ### 3.3 Beperkingen en voorkeuren
 %%Aanvullen en controleren%%
 - CSV-data van onbekende kwaliteit  
 - Team heeft beperkte ervaring 
 - Hardware (Arduino) alleen optioneel na MVP  
-- 
+
+
 ### 3.4 Functieanalyse (MoSCoW)
-
+%% dit uitgebreid doornemen met zijn alle%% 
 #### Must-have (MVP)
+- **Webapplicatie (basisplatform)**  
+  - Toegang voor studenten, beheerders en onderhoudsmedewerkers  
+  - Inloggen met rolgebaseerde rechten
 
+- **Klachtenregistratie **  
+  - Studenten kunnen een klacht melden  
+  - Statusoverzicht per klacht (open, in behandeling, afgerond)  
+  - Beheerders kunnen klachten toewijzen, prioriteren en afhandelen  
+  - Basishistorie en feedbackmogelijkheid
+
+- **Huishoudrooster**  
+  - Aanmaken van huishoudtaken  
+  - Automatische of handmatige taakverdeling  
+  - Inzicht voor studenten: wie heeft welke taak en wanneer  
+  - Taken als uitgevoerd markeren + logging
+
+- **Onderhoudsbeheer**  
+  - Takenlijst voor onderhoudsmedewerkers  
+  - Toewijzing door beheerder of onderhoudsmanager  
+  - Basisregistratie: locatie, omschrijving, status, datum
+
+- **Data**  
+  - Eenmalige import van CSV-data  
+  - Minimale validatie op verplichte velden
+
+- **Basisdashboard / rapportage**  
+  - Overzicht aantal klachten  
+  - Status onderhoud  
+  - Huishoudtakenoverzicht
 
 #### Should-have
+- **Communicatiefunctionaliteit**  
+  - Reacties op klachten en onderhoudstaken  
+  - Notificaties bij wijzigingen
 
+- **Uitgebreidere onderhoudsflows**  
+  - Prioriteitsniveaus  
+  - Meerdere medewerkers per taak
+
+- **Verbeterde Data*  
+  - Detectie ontbrekende velden  
+  - Validatierapport
+
+- **Gebruikersprofielen**  
+  - Contactinformatie  
+  - Voorkeuren
 
 #### Could-have
+- **Documentupload bij klachten**  
+  - Foto's, video's, PDF's
 
+- **Kalenderweergave**  
+  - Week- en maandplanning
 
-#### Won’t-have (nu)
+- **Uitgebreide dashboards**  
+  - Energieverbruik  
+  - SLA-tijden onderhoud
+
+- **Tags en thema’s voor klachten**  
+  - Geluid, verwarming, veiligheid, etc.
+
+#### Won’t-have 
+- Smart-home integraties (luchtkwaliteit, sensoren, Arduino)  
+- Communityfunctionaliteiten (evenementen, hulpmiddelen delen, voorraadbeheer)  
+- Integraties met externe systemen  
+- Organisatorische veranderprocessen binnen Student Housing B.V.
+
 
 ### 3.5 Use Case (Pixar Pitch)
-%%Nog maken%%
-Er was eens 
-Iedere dag
-Op een dag
-En daardoor (because of that)
-En daardoor (because of that)
-Tot op een dag
+Er was eens een studentenhuis dat werd beheerd door Student Housing B.V.
+Iedere dag worstelden de studenten met het melden van klachten en het bijhouden van huishoudtaken.
+Op een dag kwam iemand van Student Housing B.V. met het idee om een webportal te ontwikkelen om deze problemen op te lossen.
+En daardoor konden studenten eenvoudig klachten indienen en hadden ze duidelijk inzicht in wie welke taken in het huishouden moest uitvoeren.
+Tot op een dag waren de problemen van vroeger opgelost en woonden de studenten een stuk gelukkiger in hun studentenhuis, omdat hun klachten werden gehoord en het huishouden goed geregistreerd en verdeeld was.
 
 ### 3.6 Openstaande vragen
 %%welke vragen staan er nog open?%%
@@ -165,3 +228,6 @@ Tools nalopen en bespreken
 Scope en Deelvragen
 Alle opmerking nalopen
 %%
+## Bronnenlijst
+**APA-bronvermelding (inclusief AI-prompt):**
+OpenAI. (2025, november 9). Prompt gebruikt voor het taalkundig te verbeter en tekst vloeiend te laten lopen [ChatGPT, GPT-5 mini]. Geraadpleegd via https://chat.openai.com
