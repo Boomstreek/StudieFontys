@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Leertraject/2025-W46.md",
+                "file": "SEM01/Groepsproject/Analyse/Probleemanalyse - Project Studentenhuisvesting.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2025-W46"
+              "title": "Probleemanalyse - Project Studentenhuisvesting"
             }
           }
         ],
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Leertraject/2025-W46.md",
+                "file": "SEM01/Groepsproject/Analyse/Probleemanalyse - Project Studentenhuisvesting.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2025-W46"
+              "title": "Outline of Probleemanalyse - Project Studentenhuisvesting"
             }
           }
         ],
@@ -186,8 +186,12 @@
   },
   "active": "102db5eb3c9990c6",
   "lastOpenFiles": [
-    "Leertraject/2025-W45.md",
     "Leertraject/2025-W46.md",
+    "SEM01/Groepsproject/Analyse/Probleemanalyse - Project Studentenhuisvesting.md",
+    "SEM01/Groepsproject/Analyse",
+    "SEM01/Groepsproject/Sprint 0",
+    "SEM01/Groepsproject",
+    "Leertraject/2025-W45.md",
     "SEM01/Groepsproject/Untitled.canvas",
     "SEM01/Eigen project",
     "SEM01/Groepsproject",
@@ -219,10 +223,6 @@
     "SEM01/Eigen project/Workshops/SEM01 Orientatie Keuze.md",
     "SEM01/Eigen project/Reflectie",
     "SEM01/Eigen project/Diagram/Powerlifting PC Flow chart.md",
-    "SEM01/Eigen project/Diagram/Powerlifting Class diagram.md",
-    "Expirment Arduino Temp Sensor",
-    "SEM01/Eindproduct",
-    "SEM01/Eigen project/Diagram",
     "Untitled.canvas",
     "20250924_Leerdoelen.png",
     "Pasted image 20250924140631.png"

@@ -10,5 +10,6 @@
   "livePreview": false,
   "showLineNumber": true,
   "useTab": true,
-  "readableLineLength": true
+  "readableLineLength": true,
+  "alwaysUpdateLinks": true
 }
