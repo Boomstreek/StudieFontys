@@ -17,13 +17,13 @@ Student Housing B.V. beheert meerdere studentencomplexen met gedeelde voorzienin
 ### 2.1 Overzicht van uitdagingen
 
 #### Operationele problemen
-- Onvoldoende naleving van schoonmaak- en huishoudtaken  %%huishouden%%
-- Vergeten of onbetaalde gezamenlijke boodschappen   %%huishouden%%
-- Afval wordt niet tijdig afgevoerd   %%huishouden / klacht%%
-- Ongemelde feestjes of verstoringen  %%klacht%%
-- Klachten over verwarming/airco   %%klacht%%
-- Storing of slecht onderhoud aan brandalarmen %%onderhoud%% 
-- Geen goede traceerbaarheid van onderhoudsdiensten  %%onderhoud%%
+- Onvoldoende naleving van schoonmaak- en huishoudtaken  
+- Vergeten of onbetaalde gezamenlijke boodschappen  
+- Afval wordt niet tijdig afgevoerd  
+- Ongemelde feestjes of verstoringen  
+- Klachten over verwarming/airco  
+- Storing of slecht onderhoud aan brandalarmen  
+- Geen goede traceerbaarheid van onderhoudsdiensten  
 
 #### Nieuwe mogelijkheden (toekomst)
 - Delen van studiehulpmiddelen  
@@ -41,53 +41,16 @@ Student Housing B.V. beheert meerdere studentencomplexen met gedeelde voorzienin
 
 ## 3. Probleemanalyse 
 
-### 3.1 Scope
-#### Binnen scope 
-
-- Ontwikkelen van een IT-systeem dat:
-	- Via een website benaderbaar is
-	- Ondersteuning biedt voor huishoudelijke organisatie
-		- Huishoudrooster (schoonmaken, afval buiten zetten, boodschappen doen)
-	- Klachtenproces van studenten automatiseert
-		- melding, opvolging, feedback
-	- Onderhoudsbeer automatiseert 
-		- planning, uitvoering, registratie
-- Starten met een MVP (Minimal viable product)
-- Oude data (CSV-export) is verwerkt in het systeem
-- Rollen en rechten
-	- Student
-	- Beheerder
-	- Interne onderhoudsmedewerker
-	- Extern onderhoudspartner
-- Basisrapportage / Basis dashboard voor kosten, gebruik en leefomgeving
-
-#### Buiten scope
-- Geavenceeerde smart home integratie en sensortechnolgie
-- Communityfunctionaliteit
-	- Evenementen
-	- Studiehulpmioddelen delen
-	- voorraadbeheer
-- Integratie met externe systemen
-- Veranderingsproces bij Student Housing B.V.
-
-### 3.2 Deelvragen
-1. lorum
-2. ipsum
+### 3.1 Scope / Deelvragen
+%%Invullen%%
 
 ### 3.2 Doelgroep / Gebruikers
 %% beter beschrijven %%
-- Studenten
-- Beheerders 
-- Interne onderhoudsmedewerker  
+- Studenten (bewoners)  
+- Beheerders / facility-medewerkers  
 - Externe onderhoudspartners
 
-### 3.3 Beperkingen en voorkeuren
-%%Aanvullen en controleren%%
-- CSV-data van onbekende kwaliteit  
-- Team heeft beperkte ervaring 
-- Hardware (Arduino) alleen optioneel na MVP  
-- 
-### 3.4 Functieanalyse (MoSCoW)
+### 3.3 Functieanalyse (MoSCoW)
 
 #### Must-have (MVP)
 
@@ -99,6 +62,13 @@ Student Housing B.V. beheert meerdere studentencomplexen met gedeelde voorzienin
 
 
 #### Won’t-have (nu)
+
+
+### 3.4 Beperkingen en voorkeuren
+%%Aanvullen en controleren%%
+- CSV-data van onbekende kwaliteit  
+- Team heeft beperkte ervaring 
+- Hardware (Arduino) alleen optioneel na MVP  
 
 ### 3.5 Use Case (Pixar Pitch)
 %%Nog maken%%
@@ -137,11 +107,6 @@ Welke tools gaan we gebruiken?
 - SQL Server  
 - Trello
 - Obsidian voor tekst en diagrammen?
-	- Markdown voor tekst
-		- Voordeel, we kunnen de tekst in GIT zetten
-	-  Mermaid voor Diagrammen, voldoet mermaid niet dan PlantUML
-		- Voordeel Mermaid wordt automatisch gegenereerd op basis van de syntax in Git
-		- Syntax is makkelijker aanpasbaar dan graphic tekenen
 
 ### Samenwerkingsafspraken
 %%Document Rik invoegen%%
