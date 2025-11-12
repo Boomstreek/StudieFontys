@@ -19,3 +19,15 @@ Object is het gemaakt iets vanaf de class/blauwdruk, bijvoorbeeld huis met 4 ram
 
 Uiteindelijk het voordeel van OOP is dat je gaat verwijzen. Jij schrijft iets 1x op en daar verwijs je naar. Als je dan dat ene wilt wijzigen, hoef je alleen maar in de verwijzing aan te passen. Denk aan .dotfiles en gnu/stow, symlinks
 
+# Les 06 WebUI
+html uitleg
+gitlap uitleg
+razorpages in vscode
+database connectie opbouwen
+	- snap je het niet, over 2 weken opnieuw uitgelgt
+	- dll ophalen (mysql) 
+		- hierna ging het te nsnel
+		- in elk geval een functie aangemaakt ,met oa sql
+		- data in tabel gezet
+	- is veel, gewoon oefenen
+

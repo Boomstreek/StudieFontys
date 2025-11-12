@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM01/Groepsproject/Analyse/Probleemanalyse - Project Studentenhuisvesting.md",
+                "file": "SEM01/Eigen project/Workshops/Workshops Programmeren Sem01.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Probleemanalyse - Project Studentenhuisvesting"
+              "title": "Workshops Programmeren Sem01"
             }
           }
         ],
@@ -107,7 +107,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 452.5
+    "width": 200
   },
   "right": {
     "id": "5e1f4ee143262312",
@@ -170,13 +170,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM01/Groepsproject/Analyse/Probleemanalyse - Project Studentenhuisvesting.md",
+                "file": "SEM01/Eigen project/Workshops/Workshops Programmeren Sem01.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Probleemanalyse - Project Studentenhuisvesting"
+              "title": "Outline of Workshops Programmeren Sem01"
             }
           }
         ],
@@ -200,16 +200,16 @@
   },
   "active": "f15ff4ba7ad2b432",
   "lastOpenFiles": [
-    "SEM01/Eigen project/Reflectie/Diagrammen Reflectie.md",
-    "SEM01/Groepsproject/Analyse/Probleemanalyse - Project Studentenhuisvesting.md",
     "Leertraject/2025-W46.md",
-    "SEM01/Groepsproject/Analyse",
+    "SEM01/Niet Gebruiken/Analyse/Probleemanalyse - Project Studentenhuisvesting.md",
+    "SEM01/Eigen project/Reflectie/Diagrammen Reflectie.md",
+    "SEM01/Niet Gebruiken/Analyse",
     "SEM01/Groepsproject/Sprint 0",
-    "SEM01/Groepsproject",
+    "SEM01/Niet Gebruiken",
     "Leertraject/2025-W45.md",
     "SEM01/Groepsproject/Untitled.canvas",
     "SEM01/Eigen project",
-    "SEM01/Groepsproject",
+    "SEM01/Niet Gebruiken",
     "Leertraject/2025-W46.3.md",
     "Leertraject/2025-W44.md",
     "Leertraject/2025-W43.md",

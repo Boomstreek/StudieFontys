@@ -209,6 +209,11 @@ Welke tools gaan we gebruiken?
 
 ### Samenwerkingsafspraken
 %%Document Rik invoegen%%
+GIT Hub als centrale bestanden hub?
+	- documenten in markdown
+	- code gewoon als code
+	- Diagrammen als syntax 
+- Rechten en rollen
 
 ## 7. Initiële product backlog (MVP)
 De initiële product backlog bevat de eerste set van user stories en taken die nodig zijn om het minimale werkende product (MVP) op te leveren. De nadruk ligt op het realiseren van de basisfunctionaliteiten: Website als portaal, klachtenregistratie, huishoudrooster, onderhoudsbeheer en eenvoudige rapportage.
