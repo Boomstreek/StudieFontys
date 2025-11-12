@@ -4,53 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "abc02b802ed6ad62",
+        "id": "ccf9b0a720d73b1e",
         "type": "tabs",
         "children": [
           {
-            "id": "d99d96d6ffe19a35",
+            "id": "859c3991cdc8bd2d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Babies/Brain rules for baby_raw.md",
+                "file": "SEM01/Eigen project/Workshops/Workshops BusData Sem01.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Brain rules for baby_raw"
-            }
-          },
-          {
-            "id": "102db5eb3c9990c6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SEM01/Groepsproject/Analyse/Probleemanalyse - Project Studentenhuisvesting.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Probleemanalyse - Project Studentenhuisvesting"
-            }
-          },
-          {
-            "id": "f15ff4ba7ad2b432",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SEM01/Eigen project/Workshops/Workshops Programmeren Sem01.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Workshops Programmeren Sem01"
+              "title": "Workshops BusData Sem01"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -107,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 395.5
   },
   "right": {
     "id": "5e1f4ee143262312",
@@ -170,13 +141,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM01/Eigen project/Workshops/Workshops Programmeren Sem01.md",
+                "file": "SEM01/Eigen project/Workshops/Workshops BusData Sem01.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Workshops Programmeren Sem01"
+              "title": "Outline of Workshops BusData Sem01"
             }
           }
         ],
@@ -198,8 +169,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "f15ff4ba7ad2b432",
+  "active": "859c3991cdc8bd2d",
   "lastOpenFiles": [
+    "SEM01/Eigen project/Workshops/Workshops BusData Sem01.md",
+    "Babies/Brain rules for baby_raw.md",
+    "SEM01/Eigen project/Workshops/procesDiagramSymbolen.png",
+    "SEM01/Eigen project/Workshops/Workshops Programmeren Sem01.md",
     "Leertraject/2025-W46.md",
     "SEM01/Niet Gebruiken/Analyse/Probleemanalyse - Project Studentenhuisvesting.md",
     "SEM01/Eigen project/Reflectie/Diagrammen Reflectie.md",
@@ -217,7 +192,6 @@
     "Templates/Leertraject - Weekkaart 1.md",
     "Leertraject/2025-W47.md",
     "SEM01/Eigen project/Reflectie/Reflectie Syntaxis.md",
-    "Babies/Brain rules for baby_raw.md",
     "Babies/Brain rules for baby.md",
     "SEM01/Eigen project/Collection Description SEM01 02.md",
     "SEM01/Eigen project/Oriëntatie Sem 01.md",
@@ -236,7 +210,6 @@
     "SEM01/Eigen project/Code/Arduino Temperatuursensor/Arduino Temperaturusensor C_sharp code.md",
     "SEM01/Eigen project/Workshops/SEM01 Orientatie Keuze.md",
     "SEM01/Eigen project/Reflectie",
-    "SEM01/Eigen project/Diagram/Powerlifting PC Flow chart.md",
     "Untitled.canvas",
     "20250924_Leerdoelen.png",
     "Pasted image 20250924140631.png"

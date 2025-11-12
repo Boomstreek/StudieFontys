@@ -31,3 +31,5 @@ database connectie opbouwen
 		- data in tabel gezet
 	- is veel, gewoon oefenen
 
+# Les 07 Conceptueel model naar Klassediagram
+ze gebruiken UML class diagram
