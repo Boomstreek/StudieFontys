@@ -34,9 +34,23 @@
               "icon": "lucide-file",
               "title": "Probleemanalyse - Project Studentenhuisvesting"
             }
+          },
+          {
+            "id": "f15ff4ba7ad2b432",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SEM01/Groepsproject/Analyse/Probleemanalyse - Project Studentenhuisvesting.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Probleemanalyse - Project Studentenhuisvesting"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -184,7 +198,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "102db5eb3c9990c6",
+  "active": "f15ff4ba7ad2b432",
   "lastOpenFiles": [
     "SEM01/Eigen project/Reflectie/Diagrammen Reflectie.md",
     "SEM01/Groepsproject/Analyse/Probleemanalyse - Project Studentenhuisvesting.md",
