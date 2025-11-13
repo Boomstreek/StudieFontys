@@ -136,7 +136,7 @@ De onderhoudsmanager is verantwoordelijk voor de planning, prioritering en toewi
   - Prioriteitsniveaus  
   - Meerdere medewerkers per taak
 
-- **Verbeterde Data*  
+- **Verbeteren Data** 
   - Detectie ontbrekende velden  
   - Validatierapport
 
@@ -176,7 +176,7 @@ Tot op een dag waren de problemen van vroeger opgelost en woonden de studenten e
 %%welke vragen staan er nog open?%%
 
 ## 4. Planning
-Sprint 0
+Sprint 0 - Probleemanalyse. website online krijgen
 
 ## 5. Technologische analyse
 - C#, .NET  
@@ -184,7 +184,7 @@ Sprint 0
 - GitHub  
 - CSV-import
 - Tekst in markdown?
-- Diagrammen in Mermaid indien mogelijk anders PlantUML
+- Diagrammen in Mermaid indien mogelijk anders PlantUML?
 
 ## 6. Agile-setup en teamafspraken
 
@@ -244,6 +244,7 @@ MoSCoW en wat is de MVP
 Tools nalopen en bespreken
 Scope en Deelvragen
 Alle opmerking nalopen
+
 %%
 ## Bronnenlijst
 **APA-bronvermelding (inclusief AI-prompt):**

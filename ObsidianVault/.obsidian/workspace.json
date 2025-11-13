@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "Workshops BusData Sem01"
             }
+          },
+          {
+            "id": "adf321ebdab3c5bc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SEM01/Eigen project/Workshops/Workshops Bonus.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Workshops Bonus"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 395.5
+    "width": 200
   },
   "right": {
     "id": "5e1f4ee143262312",
@@ -141,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM01/Eigen project/Workshops/Workshops BusData Sem01.md",
+                "file": "SEM01/Eigen project/Workshops/Workshops Bonus.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Workshops BusData Sem01"
+              "title": "Outline of Workshops Bonus"
             }
           }
         ],
@@ -169,13 +184,28 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "859c3991cdc8bd2d",
+  "active": "adf321ebdab3c5bc",
   "lastOpenFiles": [
     "SEM01/Eigen project/Workshops/Workshops BusData Sem01.md",
-    "Babies/Brain rules for baby_raw.md",
-    "SEM01/Eigen project/Workshops/procesDiagramSymbolen.png",
+    "SEM01/Eigen project/Workshops/Workshops Bonus.md",
+    "SEM01/Eigen project/Workshops/Workshop Programmeren extra - c_sharp oefenen.md",
+    "SEM01/Eigen project/Workshops/Workshop Infrastructure.md",
+    "SEM01/Eigen project/Workshops/Reflectie UX-design.md",
+    "SEM01/Eigen project/Workshops/Reflectie project Sem01.md",
+    "SEM01/Eigen project/Workshops/SEM01 Orientatie Keuze.md",
     "SEM01/Eigen project/Workshops/Workshops Programmeren Sem01.md",
+    "SEM01/Eigen project/Workshops/Workshops Technologies Sem01.md",
+    "SEM01/Eigen project/Collection Description SEM01 02.md",
+    "SEM01/Eigen project/Feedback 29-09-2025.md",
+    "SEM01/Eigen project/Oriëntatie Sem 01.md",
     "Leertraject/2025-W46.md",
+    "SEM01/Eigen project/Workshops/procesDiagramSymbolen.png",
+    "SEM01/Eigen project/Workshops/Workshops Technologies Sem01_oud.md",
+    "SEM01/Eigen project/Diagram/Powerlifting Class diagram.md",
+    "SEM01/Eigen project/Diagram/Powerlifting Chen Notatie.md",
+    "SEM01/Eigen project/Diagram/ER Diagram.md",
+    "SEM01/Eigen project/Workshops/Workshops UX-design Sem01.md",
+    "Babies/Brain rules for baby_raw.md",
     "SEM01/Niet Gebruiken/Analyse/Probleemanalyse - Project Studentenhuisvesting.md",
     "SEM01/Eigen project/Reflectie/Diagrammen Reflectie.md",
     "SEM01/Niet Gebruiken/Analyse",
@@ -189,26 +219,11 @@
     "Leertraject/2025-W44.md",
     "Leertraject/2025-W43.md",
     "Templates/Leertraject - Weekkaart.md",
-    "Templates/Leertraject - Weekkaart 1.md",
-    "Leertraject/2025-W47.md",
-    "SEM01/Eigen project/Reflectie/Reflectie Syntaxis.md",
-    "Babies/Brain rules for baby.md",
-    "SEM01/Eigen project/Collection Description SEM01 02.md",
-    "SEM01/Eigen project/Oriëntatie Sem 01.md",
     "Babies",
-    "SEM01/Eigen project/Collection Description SEM01 01.md",
     "Canvas/Leertraject-tijdlijn.canvas",
-    "SEM01/Eigen project/Workshops/Reflectie project Sem01.md",
     "Reflectie syntaxis",
-    "SEM01/Eigen project/Vragen.md",
-    "SEM01/Eigen project/Lessen Arduino probeersels.md",
-    "SEM01/Eigen project/Feedback 29-09-2025.md",
-    "SEM01/Eigen project/Code/Arduino Temperatuursensor/Arduino Temperatuursensor Code.md",
     "SEM01/Eigen project/Code/Arduino Temperatuursensor",
     "SEM01/Eigen project/Code",
-    "SEM01/Code.md",
-    "SEM01/Eigen project/Code/Arduino Temperatuursensor/Arduino Temperaturusensor C_sharp code.md",
-    "SEM01/Eigen project/Workshops/SEM01 Orientatie Keuze.md",
     "SEM01/Eigen project/Reflectie",
     "Untitled.canvas",
     "20250924_Leerdoelen.png",

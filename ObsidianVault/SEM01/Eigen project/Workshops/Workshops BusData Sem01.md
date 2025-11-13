@@ -207,3 +207,97 @@ bpmnGraph
     task6 --> task7 --> task8 --> task9 --> task10
     task10 --> task11 --> task12 --> gateway1
 ```
+
+
+Les 6 Strategie en performance
+Wat is een missie?
+Slechte missiom statement zijn bucket list items, gebaseerd op marktpositie winst of omzet
+Missiestatement
+waar staan we voor 
+waarde
+
+Visie
+Waar gaan we voor
+
+Belangrijk om dit uit elkaar teh ouden Missie en Visie, Misssie wie ben ik en Visie wat wil ik doen
+
+missie statement moet je een idee geven welk bedrijf het is, raadbaar in elk geval de juiste richting
+
+missie vissie dat hoort bij dit merk
+
+Strategie is voor 3-5 jaar
+huidige positie ga je vanuit
+	- 5 krachten van porter
+	- 6w model van farreell
+	- swot analyse
+
+bijvoorbeeld met
+	 - value strategy tract wiersema (focus bedrijf)
+	 - competition strategy porter
+
+volgens tracy en wiesema
+strategie 
+- product leaderschip
+focus op
+beste product
+
+customer intemcy -> beste opllosing voor de klatn
+
+operational excellence -> beste opbrengst
+
+waardestrategien, belanse van de strategie
+
+Hoe kies je tussen de verschillende doelen als ze met elkaar bijten?
+- de cijfers worden anders, je kiest ze neit alle 3 het is een trade off
+- je kiezt meer
+
+als je hebt gekozen, wat ga ik dan meten? Critice performence
+klant teveredenheid -> klantentrouw
+gemotiveerde mederwerkers -> medewerkerbetrokkkenheid
+innovatie -> activie vernieuwing
+
+daarna
+key performance
+klantentrouw -> aantal terugekerende klnaten per jaar
+medewerkesbetrokkenheid -> score medewerkers
+actieve verniwueing -> aantal nnieuwe producten per jaar
+
+KPI's moeten zijn smart, speciefiek meetbaar acceptable, realistisch, tijdsgebonden
+je meet kpis in een eenheid
+
+wat is voldoende, wat is goed, wat is onvoldoende ofdaar willen we uitkomen
+
+je meet kpis op data binnen je bedrijfsproces, dus omslagpunt in je bedrijfsproces, dus van bakker naar verkoper is bijvoorbeeld een opslagpunt
+
+missie
+bestaansrecht van ondernemening
+visie
+waar gaan we voor
+strategie
+palan 3-5 jaar
+csfs welek factoren zijn belangirjk
+cscs wat gaan we dan meten
+kpis wat meten we het en wanner is het goed
+
+kpi bewijzen dat het werkt of niet in de echte wereld, die succes bewijzen in de relle werdel en zo een indicatie zijn voor de missie.vissie/strategie
+
+systeem wereld - reele wereld -> doel 
+hoe kunnen we vanuit de systeem wereld de intentie het doel vertifieren 
+
+hierdoor zorgt dat de proffesional zicht mikt op de klant
+
+door kpis worden het doel niet de reele wereld maar dan wordt het doel de systeem wereld
+
+hier hebben wij bij mijn werk last van, reele wereld en de systeem werredl
+(verdraaide organisaties) wouter hart
+rens van der vorst Dont mention the VAR
+
+blijf alert bij kpis waarom wouden we dit meten en blijft dit het doel halen
+
+uiteindelijk wint de systeemwereld altijd
+- toeslagenschandaal
+- identisiteitsfraude
+
+volgende keer, hoe je de meting kan vertalen naar dashboard. Pakken we stukje proces met applicatie 
+
+Dashboarding, fontys data github website nakijken
