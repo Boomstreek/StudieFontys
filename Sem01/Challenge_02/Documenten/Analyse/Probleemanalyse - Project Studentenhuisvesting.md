@@ -136,7 +136,7 @@ De onderhoudsmanager is verantwoordelijk voor de planning, prioritering en toewi
   - Prioriteitsniveaus  
   - Meerdere medewerkers per taak
 
-- **Verbeteren Data** 
+- **Verbeterde Data*  
   - Detectie ontbrekende velden  
   - Validatierapport
 
@@ -176,7 +176,7 @@ Tot op een dag waren de problemen van vroeger opgelost en woonden de studenten e
 %%welke vragen staan er nog open?%%
 
 ## 4. Planning
-Sprint 0 - Probleemanalyse. website online krijgen
+Sprint 0
 
 ## 5. Technologische analyse
 - C#, .NET  
@@ -184,7 +184,7 @@ Sprint 0 - Probleemanalyse. website online krijgen
 - GitHub  
 - CSV-import
 - Tekst in markdown?
-- Diagrammen in Mermaid indien mogelijk anders PlantUML?
+- Diagrammen in Mermaid indien mogelijk anders PlantUML
 
 ## 6. Agile-setup en teamafspraken
 
@@ -228,7 +228,11 @@ Als student wil ik een klacht kunnen indienen. Bij voorkeur gaat dit volgens een
 **US-3 - Klachten beheren**
 Als beheerder wil ik de klachten, die de studenten indienen, kunnen inzien, status geven, toewijzen aan de Onderhoudsmanager en erop kunnen reageren naar de student
 
-**US-4 - 
+**US-4 - Huishoudrooster beheren**
+Als beheerder wil ik huishoudtaken kunnen aanmaken en verdelen zodat het schoonmaakrooster eerlijk wordt bijgehouden.
+
+**US-5 - Huishoudtaken afvinken**
+Als student wil ik mijn toegewezen huishoudtaken kunnen afvinken zodat iedereen kan zien wat is gedaan.
 
 ## 8. Risicoanalyse
 
@@ -244,7 +248,6 @@ MoSCoW en wat is de MVP
 Tools nalopen en bespreken
 Scope en Deelvragen
 Alle opmerking nalopen
-
 %%
 ## Bronnenlijst
 **APA-bronvermelding (inclusief AI-prompt):**
