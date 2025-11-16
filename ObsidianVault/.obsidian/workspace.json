@@ -13,30 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM01/Eigen project/Workshops/Workshops BusData Sem01.md",
+                "file": "SEM01/Eigen project/Workshops/Workshops Agile.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Workshops BusData Sem01"
-            }
-          },
-          {
-            "id": "adf321ebdab3c5bc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SEM01/Eigen project/Workshops/Workshops Bonus.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Workshops Bonus"
+              "title": "Workshops Agile"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -93,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 442.5
   },
   "right": {
     "id": "5e1f4ee143262312",
@@ -156,13 +141,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM01/Eigen project/Workshops/Workshops Bonus.md",
+                "file": "SEM01/Eigen project/Workshops/Workshops Agile.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Workshops Bonus"
+              "title": "Outline of Workshops Agile"
             }
           }
         ],
@@ -184,22 +169,22 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "adf321ebdab3c5bc",
+  "active": "859c3991cdc8bd2d",
   "lastOpenFiles": [
     "SEM01/Eigen project/Workshops/Workshops BusData Sem01.md",
-    "SEM01/Eigen project/Workshops/Workshops Bonus.md",
+    "SEM01/Eigen project/Workshops/Workshops Agile.md",
     "SEM01/Eigen project/Workshops/Workshop Programmeren extra - c_sharp oefenen.md",
     "SEM01/Eigen project/Workshops/Workshop Infrastructure.md",
+    "SEM01/Eigen project/Workshops/SEM01 Orientatie Keuze.md",
     "SEM01/Eigen project/Workshops/Reflectie UX-design.md",
     "SEM01/Eigen project/Workshops/Reflectie project Sem01.md",
-    "SEM01/Eigen project/Workshops/SEM01 Orientatie Keuze.md",
+    "SEM01/Eigen project/Workshops/procesDiagramSymbolen.png",
     "SEM01/Eigen project/Workshops/Workshops Programmeren Sem01.md",
     "SEM01/Eigen project/Workshops/Workshops Technologies Sem01.md",
     "SEM01/Eigen project/Collection Description SEM01 02.md",
     "SEM01/Eigen project/Feedback 29-09-2025.md",
     "SEM01/Eigen project/Oriëntatie Sem 01.md",
     "Leertraject/2025-W46.md",
-    "SEM01/Eigen project/Workshops/procesDiagramSymbolen.png",
     "SEM01/Eigen project/Workshops/Workshops Technologies Sem01_oud.md",
     "SEM01/Eigen project/Diagram/Powerlifting Class diagram.md",
     "SEM01/Eigen project/Diagram/Powerlifting Chen Notatie.md",
@@ -218,7 +203,6 @@
     "Leertraject/2025-W46.3.md",
     "Leertraject/2025-W44.md",
     "Leertraject/2025-W43.md",
-    "Templates/Leertraject - Weekkaart.md",
     "Babies",
     "Canvas/Leertraject-tijdlijn.canvas",
     "Reflectie syntaxis",
