@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM01/Eigen project/Workshops/Workshops Agile.md",
+                "file": "Leertraject/2025-W47.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Workshops Agile"
+              "title": "2025-W47"
             }
           }
         ]
@@ -141,13 +141,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM01/Eigen project/Workshops/Workshops Agile.md",
+                "file": "Leertraject/2025-W47.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Workshops Agile"
+              "title": "Outline of 2025-W47"
             }
           }
         ],
@@ -171,8 +171,14 @@
   },
   "active": "859c3991cdc8bd2d",
   "lastOpenFiles": [
-    "SEM01/Eigen project/Workshops/Workshops BusData Sem01.md",
+    "Leertraject/2025-W46.md",
+    "Leertraject/2025-W47.md",
+    "Leertraject/2025-W44.md",
+    "Leertraject/2025-W43.md",
+    "Leertraject/2025-W45.md",
+    "Leertraject/2025-W47.md",
     "SEM01/Eigen project/Workshops/Workshops Agile.md",
+    "SEM01/Eigen project/Workshops/Workshops BusData Sem01.md",
     "SEM01/Eigen project/Workshops/Workshop Programmeren extra - c_sharp oefenen.md",
     "SEM01/Eigen project/Workshops/Workshop Infrastructure.md",
     "SEM01/Eigen project/Workshops/SEM01 Orientatie Keuze.md",
@@ -184,7 +190,6 @@
     "SEM01/Eigen project/Collection Description SEM01 02.md",
     "SEM01/Eigen project/Feedback 29-09-2025.md",
     "SEM01/Eigen project/Oriëntatie Sem 01.md",
-    "Leertraject/2025-W46.md",
     "SEM01/Eigen project/Workshops/Workshops Technologies Sem01_oud.md",
     "SEM01/Eigen project/Diagram/Powerlifting Class diagram.md",
     "SEM01/Eigen project/Diagram/Powerlifting Chen Notatie.md",
@@ -196,13 +201,9 @@
     "SEM01/Niet Gebruiken/Analyse",
     "SEM01/Groepsproject/Sprint 0",
     "SEM01/Niet Gebruiken",
-    "Leertraject/2025-W45.md",
     "SEM01/Groepsproject/Untitled.canvas",
     "SEM01/Eigen project",
     "SEM01/Niet Gebruiken",
-    "Leertraject/2025-W46.3.md",
-    "Leertraject/2025-W44.md",
-    "Leertraject/2025-W43.md",
     "Babies",
     "Canvas/Leertraject-tijdlijn.canvas",
     "Reflectie syntaxis",
