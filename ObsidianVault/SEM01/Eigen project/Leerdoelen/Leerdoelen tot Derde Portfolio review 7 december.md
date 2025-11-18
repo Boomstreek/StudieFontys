@@ -1,4 +1,4 @@
-zzzzzzzzzzzzz## **1. Oriëntatie**
+## **1. Oriëntatie**
 
 - Mijn richting _Business & Data_ verder  te bevestigen door te kijken wat naar toe beweeg in het groepsproject
 - Op basis daarvan een korte **motivatie** schrijven waarom deze route bij mij past.

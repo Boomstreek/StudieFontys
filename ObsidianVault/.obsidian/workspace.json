@@ -27,30 +27,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM01/Eigen project/Leerdoelen/Leerdoelen tot Derde Portfolio review 7 december.md",
+                "file": "SEM01/Eigen project/Diagram/Powerlifting Class diagram.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Leerdoelen tot Derde Portfolio review 7 december"
-            }
-          },
-          {
-            "id": "6158c6372b18becd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SEM01/Eigen project/Persoonlijk Leiderschap/Feedbackdocument.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Feedbackdocument"
+              "title": "Powerlifting Class diagram"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -170,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM01/Eigen project/Persoonlijk Leiderschap/Feedbackdocument.md",
+                "file": "SEM01/Eigen project/Diagram/Powerlifting Class diagram.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Feedbackdocument"
+              "title": "Outline of Powerlifting Class diagram"
             }
           }
         ],
@@ -198,10 +184,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "92d32d5199956397",
+  "active": "5057738bba688a2c",
   "lastOpenFiles": [
+    "SEM01/Eigen project/Diagram/Powerlifting Chen Notatie.md",
     "SEM01/Eigen project/Leerdoelen/Leerdoelen tot Derde Portfolio review 7 december.md",
     "SEM01/Eigen project/Persoonlijk Leiderschap/Feedbackdocument.md",
+    "SEM01/Eigen project/Diagram/Powerlifting PC Flow chart.md",
+    "SEM01/Eigen project/Workshops/Workshops Programmeren Sem01.md",
     "Leertraject/2025-W47.md",
     "Leertraject/2025-W46.md",
     "Leertraject/2025-W44.md",
@@ -215,18 +204,15 @@
     "SEM01/Eigen project/Workshops/Reflectie UX-design.md",
     "SEM01/Eigen project/Workshops/Reflectie project Sem01.md",
     "SEM01/Eigen project/Workshops/procesDiagramSymbolen.png",
-    "SEM01/Eigen project/Workshops/Workshops Programmeren Sem01.md",
     "SEM01/Eigen project/Workshops/Workshops Technologies Sem01.md",
     "SEM01/Eigen project/Collection Description SEM01 02.md",
     "SEM01/Eigen project/Feedback 29-09-2025.md",
     "SEM01/Eigen project/Oriëntatie Sem 01.md",
     "SEM01/Eigen project/Workshops/Workshops Technologies Sem01_oud.md",
     "SEM01/Eigen project/Diagram/Powerlifting Class diagram.md",
-    "SEM01/Eigen project/Diagram/Powerlifting Chen Notatie.md",
     "SEM01/Eigen project/Diagram/ER Diagram.md",
     "SEM01/Eigen project/Workshops/Workshops UX-design Sem01.md",
     "Babies/Brain rules for baby_raw.md",
-    "SEM01/Niet Gebruiken/Analyse/Probleemanalyse - Project Studentenhuisvesting.md",
     "SEM01/Niet Gebruiken/Analyse",
     "SEM01/Groepsproject/Sprint 0",
     "SEM01/Niet Gebruiken",
