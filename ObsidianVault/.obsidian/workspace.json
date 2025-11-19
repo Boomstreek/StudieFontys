@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM01/Eigen project/Diagram/Powerlifting Class diagram.md",
+                "file": "Leertraject/2025-W47.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Powerlifting Class diagram"
+              "title": "2025-W47"
             }
           }
         ],
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM01/Eigen project/Diagram/Powerlifting Class diagram.md",
+                "file": "Leertraject/2025-W47.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Powerlifting Class diagram"
+              "title": "Outline of 2025-W47"
             }
           }
         ],
@@ -186,13 +186,19 @@
   },
   "active": "5057738bba688a2c",
   "lastOpenFiles": [
-    "SEM01/Eigen project/Diagram/Powerlifting Chen Notatie.md",
+    "SEM01/Eigen project/ExpertWorkshops/20251117 Kees & Edwin.md",
+    "Leertraject/2025-W47.md",
+    "SEM01/Eigen project/ExpertWorkshops",
     "SEM01/Eigen project/Leerdoelen/Leerdoelen tot Derde Portfolio review 7 december.md",
+    "SEM01/Eigen project/Vragen.md",
+    "SEM01/Eigen project/Oriëntatie Sem 01.md",
+    "SEM01/Eigen project/Feedback 29-09-2025.md",
+    "Leertraject/2025-W46.md",
+    "SEM01/Eigen project/Diagram/Powerlifting Class diagram.md",
+    "SEM01/Eigen project/Diagram/Powerlifting Chen Notatie.md",
     "SEM01/Eigen project/Persoonlijk Leiderschap/Feedbackdocument.md",
     "SEM01/Eigen project/Diagram/Powerlifting PC Flow chart.md",
     "SEM01/Eigen project/Workshops/Workshops Programmeren Sem01.md",
-    "Leertraject/2025-W47.md",
-    "Leertraject/2025-W46.md",
     "Leertraject/2025-W44.md",
     "Leertraject/2025-W43.md",
     "Leertraject/2025-W45.md",
@@ -206,13 +212,8 @@
     "SEM01/Eigen project/Workshops/procesDiagramSymbolen.png",
     "SEM01/Eigen project/Workshops/Workshops Technologies Sem01.md",
     "SEM01/Eigen project/Collection Description SEM01 02.md",
-    "SEM01/Eigen project/Feedback 29-09-2025.md",
-    "SEM01/Eigen project/Oriëntatie Sem 01.md",
     "SEM01/Eigen project/Workshops/Workshops Technologies Sem01_oud.md",
-    "SEM01/Eigen project/Diagram/Powerlifting Class diagram.md",
     "SEM01/Eigen project/Diagram/ER Diagram.md",
-    "SEM01/Eigen project/Workshops/Workshops UX-design Sem01.md",
-    "Babies/Brain rules for baby_raw.md",
     "SEM01/Niet Gebruiken/Analyse",
     "SEM01/Groepsproject/Sprint 0",
     "SEM01/Niet Gebruiken",
@@ -224,7 +225,6 @@
     "Reflectie syntaxis",
     "SEM01/Eigen project/Code/Arduino Temperatuursensor",
     "SEM01/Eigen project/Code",
-    "SEM01/Eigen project/Reflectie",
     "Untitled.canvas",
     "20250924_Leerdoelen.png",
     "Pasted image 20250924140631.png"
