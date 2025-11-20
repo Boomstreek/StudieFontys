@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM01/Eigen project/Diagram/Powerlifting Chen Notatie.md",
-                "mode": "preview",
+                "file": "Leertraject/2025-W47.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Powerlifting Chen Notatie"
+              "title": "2025-W47"
             }
           }
         ],
@@ -93,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 442.5
+    "width": 242.5
   },
   "right": {
     "id": "5e1f4ee143262312",
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM01/Eigen project/Diagram/Powerlifting Chen Notatie.md",
+                "file": "Leertraject/2025-W47.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Powerlifting Chen Notatie"
+              "title": "Outline of 2025-W47"
             }
           }
         ],
@@ -174,6 +174,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "templater-obsidian:Templater": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -185,6 +186,7 @@
   },
   "active": "5057738bba688a2c",
   "lastOpenFiles": [
+    "SEM01/Eigen project/Diagram/Powerlifting Chen Notatie.md",
     "Leertraject/2025-W47.md",
     "SEM01/Eigen project/ExpertWorkshops/20251117 Kees & Edwin.md",
     "SEM01/Eigen project/ExpertWorkshops",
@@ -194,7 +196,6 @@
     "SEM01/Eigen project/Feedback 29-09-2025.md",
     "Leertraject/2025-W46.md",
     "SEM01/Eigen project/Diagram/Powerlifting Class diagram.md",
-    "SEM01/Eigen project/Diagram/Powerlifting Chen Notatie.md",
     "SEM01/Eigen project/Persoonlijk Leiderschap/Feedbackdocument.md",
     "SEM01/Eigen project/Diagram/Powerlifting PC Flow chart.md",
     "SEM01/Eigen project/Workshops/Workshops Programmeren Sem01.md",
