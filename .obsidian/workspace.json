@@ -1,56 +1,41 @@
 {
   "main": {
-    "id": "22615b0bbde792d5",
+    "id": "525f0dc5da6b04eb",
     "type": "split",
     "children": [
       {
-        "id": "ccf9b0a720d73b1e",
+        "id": "247c0ca2057ad7ef",
         "type": "tabs",
         "children": [
           {
-            "id": "859c3991cdc8bd2d",
+            "id": "b9d6219d92fea554",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Leertraject/2025-W47.md",
+                "file": "ObsidianVault/SEM01/Eigen project/Workshops/Workshops BusData Sem01.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2025-W47"
-            }
-          },
-          {
-            "id": "5057738bba688a2c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SEM01/Eigen project/Diagram/Powerlifting Chen Notatie.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Powerlifting Chen Notatie"
+              "title": "Workshops BusData Sem01"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "e09bac64b058d4b4",
+    "id": "304a04f426ca195d",
     "type": "split",
     "children": [
       {
-        "id": "0320eed3fa6928bf",
+        "id": "905f655c80302e6e",
         "type": "tabs",
         "children": [
           {
-            "id": "92d32d5199956397",
+            "id": "dc4cdcc60f603e33",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -63,7 +48,7 @@
             }
           },
           {
-            "id": "d720ba9a87817982",
+            "id": "10402b38dd073429",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -80,7 +65,7 @@
             }
           },
           {
-            "id": "8dbb6ed7f6401e49",
+            "id": "5d2c94102ab164b1",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -93,18 +78,18 @@
       }
     ],
     "direction": "horizontal",
-    "width": 442.5
+    "width": 200
   },
   "right": {
-    "id": "5e1f4ee143262312",
+    "id": "b3fef47296053f8c",
     "type": "split",
     "children": [
       {
-        "id": "eb187976d6128f87",
+        "id": "751b3fadd071f834",
         "type": "tabs",
         "children": [
           {
-            "id": "0ebae8d7fcace7c0",
+            "id": "0a04d673b6096662",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -122,21 +107,20 @@
             }
           },
           {
-            "id": "e4dd2ead417a344e",
+            "id": "70ef5953792bc62e",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Welcome.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Welcome"
+              "title": "Outgoing links"
             }
           },
           {
-            "id": "a99b600e11f11493",
+            "id": "82fef23c176922f8",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -151,26 +135,39 @@
             }
           },
           {
-            "id": "7cd70e6b75460811",
+            "id": "12b4737ace4b6884",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "b5e1bd0cf82a493a",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM01/Eigen project/Diagram/Powerlifting Chen Notatie.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Powerlifting Chen Notatie"
+              "title": "Outline"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -183,49 +180,8 @@
       "bases:Create new base": false
     }
   },
-  "active": "5057738bba688a2c",
+  "active": "b9d6219d92fea554",
   "lastOpenFiles": [
-    "Leertraject/2025-W47.md",
-    "SEM01/Eigen project/ExpertWorkshops/20251117 Kees & Edwin.md",
-    "SEM01/Eigen project/ExpertWorkshops",
-    "SEM01/Eigen project/Leerdoelen/Leerdoelen tot Derde Portfolio review 7 december.md",
-    "SEM01/Eigen project/Vragen.md",
-    "SEM01/Eigen project/Oriëntatie Sem 01.md",
-    "SEM01/Eigen project/Feedback 29-09-2025.md",
-    "Leertraject/2025-W46.md",
-    "SEM01/Eigen project/Diagram/Powerlifting Class diagram.md",
-    "SEM01/Eigen project/Diagram/Powerlifting Chen Notatie.md",
-    "SEM01/Eigen project/Persoonlijk Leiderschap/Feedbackdocument.md",
-    "SEM01/Eigen project/Diagram/Powerlifting PC Flow chart.md",
-    "SEM01/Eigen project/Workshops/Workshops Programmeren Sem01.md",
-    "Leertraject/2025-W44.md",
-    "Leertraject/2025-W43.md",
-    "Leertraject/2025-W45.md",
-    "SEM01/Eigen project/Workshops/Workshops Agile.md",
-    "SEM01/Eigen project/Workshops/Workshops BusData Sem01.md",
-    "SEM01/Eigen project/Workshops/Workshop Programmeren extra - c_sharp oefenen.md",
-    "SEM01/Eigen project/Workshops/Workshop Infrastructure.md",
-    "SEM01/Eigen project/Workshops/SEM01 Orientatie Keuze.md",
-    "SEM01/Eigen project/Workshops/Reflectie UX-design.md",
-    "SEM01/Eigen project/Workshops/Reflectie project Sem01.md",
-    "SEM01/Eigen project/Workshops/procesDiagramSymbolen.png",
-    "SEM01/Eigen project/Workshops/Workshops Technologies Sem01.md",
-    "SEM01/Eigen project/Collection Description SEM01 02.md",
-    "SEM01/Eigen project/Workshops/Workshops Technologies Sem01_oud.md",
-    "SEM01/Eigen project/Diagram/ER Diagram.md",
-    "SEM01/Niet Gebruiken/Analyse",
-    "SEM01/Groepsproject/Sprint 0",
-    "SEM01/Niet Gebruiken",
-    "SEM01/Groepsproject/Untitled.canvas",
-    "SEM01/Eigen project",
-    "SEM01/Niet Gebruiken",
-    "Babies",
-    "Canvas/Leertraject-tijdlijn.canvas",
-    "Reflectie syntaxis",
-    "SEM01/Eigen project/Code/Arduino Temperatuursensor",
-    "SEM01/Eigen project/Code",
-    "Untitled.canvas",
-    "20250924_Leerdoelen.png",
-    "Pasted image 20250924140631.png"
+    "mo is klaar met trello.md"
   ]
 }

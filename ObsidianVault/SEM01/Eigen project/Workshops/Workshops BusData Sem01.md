@@ -301,3 +301,90 @@ uiteindelijk wint de systeemwereld altijd
 volgende keer, hoe je de meting kan vertalen naar dashboard. Pakken we stukje proces met applicatie 
 
 Dashboarding, fontys data github website nakijken
+
+
+# uitleg business model canvas
+
+bestaat uit 9 dingen
+
+hij heeft net iets gedeelte ergens, de buisness model canvas
+
+filmpje:
+je orgineerst het per functie
+
+maarn u doen we het anders
+
+stap 2 value proposition:
+wat doe je en voor wie
+(solving a problem or a need, not a idea or product) (verschil tussen problem en need)
+
+Meer kunnen genieten van het  leven door sociaal te bewegen: is een voorbeeld
+
+stap 2 the customer 
+who arethey and why would they buy? you exist for them
+
+customer archtype, customer persona maken
+- geographic
+- social
+- demographic
+
+mensen met een kleinere sociale netwerk, t
+
+ouderen 60-80 die fitter willen worden maar een drempel overheen moeten om het te gaan doen.
+
+er zijn er nog veel meer, ze moeten allemaal naar voren komen
+
+Stap 3: Channels
+hoe bereikt je value proposition je customer, door distrubution channel
+
+fysiek of digitaal?
+
+doorverwijzing via fysiotherapeut , zo dicht mogelijk bij de persoon komen
+
+stap 4: customer relationship
+how do i get customers, how do i keep them, how do i grow them?
+
+>get>-keep->grow> en weer terug naar get
+
+Hoe hou je de mensen vast? Gerzellig
+
+stap 5: Revenua stream
+what value is de customer paying for . Ditrect sale, freemium model, lincens en subscription model is anders dan de pricing tactics?
+
+financiele opbrengesten en social opbrengsten of andere opbrengsten. Zoals awerness van cyberveiligheid
+
+Dit staat in de course? waar staat de course dan? 
+
+stap 6: resources
+what are the key resources? welke assets zijn belagnrijk? Veel geld, veel leen geld, fabricatiemachines, autos, intuelectual, pattants, custromers, humans that work or something else?
+
+social coach, ruimte, muziek, 
+
+stap 7: Partners
+who are your key partners? what are we aquirering for us, what activiteits are tehy doing for you and when?
+
+joint ventures
+
+huisartsenpraktijk, zorginstelling, zwenbadeb,
+
+iets met zorgverzekering betaalt het? customer segment?
+
+PRaktische tip: doe dit op post its, zodat je kan switchen makkelijk
+
+stap 8: activities
+
+what is the most important thing you need to do to make the busniss work?
+
+key activitiets you need to become expert at? 
+
+Stap 9: Cost ??
+cost what are fixed cost
+
+opdracht is om dit toe te passen in je project
+
+namen bij customer segment en keypartners, dat is raar. Keypartnet helpt met waardere creeeren dus die stuur je geen rekenen.
+
+Maandag kijken customer segment die we nog meer een plek kunnen geven. Template is ontvangen ga hiermee aan de slag
+
+expert tafel rond 19:30
+exper
