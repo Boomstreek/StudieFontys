@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Leertraject/2025-W47.md",
+                "file": "SEM01/Eigen project/Losse onderzoekjes/Onderzoek BMC visualisatie.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2025-W47"
+              "title": "Onderzoek BMC visualisatie"
             }
           }
         ],
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Leertraject/2025-W47.md",
+                "file": "SEM01/Eigen project/Losse onderzoekjes/Onderzoek BMC visualisatie.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2025-W47"
+              "title": "Outline of Onderzoek BMC visualisatie"
             }
           }
         ],
@@ -184,11 +184,15 @@
       "bases:Create new base": false
     }
   },
-  "active": "5057738bba688a2c",
+  "active": "92d32d5199956397",
   "lastOpenFiles": [
-    "SEM01/Eigen project/Diagram/Powerlifting Chen Notatie.md",
+    "SEM01/Eigen project/Losse onderzoekjes",
     "Leertraject/2025-W47.md",
+    "SEM01/Eigen project/Losse onderzoekjes/Onderzoek BMC visualisatie.md",
+    "SEM01/Eigen project/Workshops/Workshops BusData Sem01.md",
     "SEM01/Eigen project/ExpertWorkshops/20251117 Kees & Edwin.md",
+    "SEM01/Eigen project/Losse onderzoekjes/Wat hoort thuis in een technische analyse.md",
+    "SEM01/Eigen project/Diagram/Powerlifting Chen Notatie.md",
     "SEM01/Eigen project/ExpertWorkshops",
     "SEM01/Eigen project/Leerdoelen/Leerdoelen tot Derde Portfolio review 7 december.md",
     "SEM01/Eigen project/Vragen.md",
@@ -203,7 +207,6 @@
     "Leertraject/2025-W43.md",
     "Leertraject/2025-W45.md",
     "SEM01/Eigen project/Workshops/Workshops Agile.md",
-    "SEM01/Eigen project/Workshops/Workshops BusData Sem01.md",
     "SEM01/Eigen project/Workshops/Workshop Programmeren extra - c_sharp oefenen.md",
     "SEM01/Eigen project/Workshops/Workshop Infrastructure.md",
     "SEM01/Eigen project/Workshops/SEM01 Orientatie Keuze.md",
@@ -211,9 +214,6 @@
     "SEM01/Eigen project/Workshops/Reflectie project Sem01.md",
     "SEM01/Eigen project/Workshops/procesDiagramSymbolen.png",
     "SEM01/Eigen project/Workshops/Workshops Technologies Sem01.md",
-    "SEM01/Eigen project/Collection Description SEM01 02.md",
-    "SEM01/Eigen project/Workshops/Workshops Technologies Sem01_oud.md",
-    "SEM01/Eigen project/Diagram/ER Diagram.md",
     "SEM01/Niet Gebruiken/Analyse",
     "SEM01/Groepsproject/Sprint 0",
     "SEM01/Niet Gebruiken",

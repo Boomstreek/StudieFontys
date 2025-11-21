@@ -302,7 +302,7 @@ volgende keer, hoe je de meting kan vertalen naar dashboard. Pakken we stukje pr
 
 Dashboarding, fontys data github website nakijken
 
-
+%% raw
 # uitleg business model canvas
 
 bestaat uit 9 dingen
@@ -388,3 +388,109 @@ Maandag kijken customer segment die we nog meer een plek kunnen geven. Template 
 
 expert tafel rond 19:30
 exper
+%%
+
+# Business Model Canvas – Verbeterde Les-Samenvatting
+
+Het **Business Model Canvas (BMC)** bestaat uit **9 bouwstenen**. In de les werd eerst de klassieke uitleg gedeeld, maar vervolgens werkten we het **per functie/onderdeel** verder uit.  
+
+## 1. Value Proposition (Stap 2 in de les)  
+**Wat doe je en voor wie?**  
+Een value proposition lost **een probleem of een behoefte (need)** op. Het gaat dus **niet** om het verkopen van een idee of product, maar om het oplossen van iets dat de klant ervaart.
+
+**Voorbeeld:**  
+*“Meer kunnen genieten van het leven door sociaal te bewegen.”*
+
+## 2. Customer Segments (Stap 2 – The Customer)  
+**Voor wie besta je?**  
+Wie zijn je klanten en **waarom zouden zij kopen/gebruiken**? Je moet precies weten **wie ze zijn**, want zonder klant besta je niet als organisatie.
+
+### Customer archetype / persona opbouwen:
+- **Geografisch**
+- **Sociaal**
+- **Demografisch**
+
+**Voorbeeldsegment uit de les:**  
+- *Ouderen van 60–80 jaar met een kleiner sociaal netwerk, die graag fitter willen worden maar een drempel ervaren om te beginnen.*
+
+Er zijn mogelijk **veel meer segmenten**—die moeten allemaal zichtbaar worden in je Canvas.
+
+## 3. Channels (Stap 3)  
+**Hoe bereikt jouw value proposition de klant?**  
+Kan zowel **fysiek** als **digitaal**.
+
+**Voorbeelden:**  
+- Doorverwijzingen via fysiotherapeuten  
+- Zo dicht mogelijk aansluiten bij waar de persoon al komt
+
+## 4. Customer Relationships (Stap 4)  
+**Hoe krijg, behoud en laat je klanten groeien?**
+
+- **Get → Keep → Grow → (terug naar Get)**  
+Het is een continu proces.
+
+**Voorbeeld:**  
+- *Klanten vasthouden door gezelligheid en sociale verbinding.*
+
+## 5. Revenue Streams (Stap 5)  
+**Welke waarde levert de klant geld op?**  
+Let op:  
+- **Verdienmodellen** (direct sales, freemium, licenties, subscriptions) zijn iets anders dan **pricing tactics**.  
+- Opbrengsten kunnen **financieel** en/of **sociaal** zijn (bijv. awareness creëren over cyberveiligheid).
+
+(*Vraag uit de les: “Dit staat in de course? Waar staat de course dan?”*)
+
+## 6. Key Resources (Stap 6)  
+**Welke middelen zijn essentieel om het bedrijf te laten werken?**  
+Dit kunnen zijn:  
+- Financiële middelen (geld, leningen)  
+- Fysieke middelen (machines, voertuigen, ruimtes)  
+- Intellectuele middelen (patenten, know-how)  
+- Human resources (mensen met expertise)
+
+**Voorbeelden uit de les:**  
+- Social coach  
+- Fysieke ruimte  
+- Muziek
+
+## 7. Key Partners (Stap 7)  
+**Met wie werk je samen en waarom?**  
+Partners leveren waarde, middelen of activiteiten die jij zelf niet doet.
+
+### Vragen:  
+- Wat leveren ze aan jou?  
+- Welke activiteiten verrichten zij voor jou?  
+- Wanneer en waarom?
+
+**Voorbeelden:**  
+- Huisartsenpraktijken  
+- Zorginstellingen  
+- Zwembaden  
+- Mogelijk zorgverzekeringen (afhankelijk van je customer segment)
+
+> Opmerking uit de les: Namen horen **niet** bij Customer Segments maar bij Partners. Partners helpen bij waardecreatie, maar je **stuurt ze geen rekening**.
+
+## 8. Key Activities (Stap 8)  
+**Wat moet je vooral goed doen zodat je bedrijf werkt?**  
+Wat moet je kunnen? Waar moet je expert in worden?
+
+
+## 9. Cost Structure (Stap 9)  
+**Welke kosten maak je?**  
+Bijv.:  
+- Vaste kosten  
+- Variabele kosten  
+- Kosten van partners  
+- Kosten van resources en activiteiten
+
+
+## Opdracht  
+Pas dit Business Model Canvas toe op je **eigen project**.  
+Maandag wordt samen gekeken naar **extra customer segments** die je nog kunt toevoegen. Je hebt de template ontvangen—ga daarmee aan de slag.
+
+
+## Praktische tip uit de les  
+Werk met **post-its** zodat je makkelijk kunt schuiven en onderdelen kunt hergroeperen.
+
+## Organisatorisch  
+- Expert-tafel rond **19:30**.
