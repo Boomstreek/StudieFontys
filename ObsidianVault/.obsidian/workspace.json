@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM01/Eigen project/Losse onderzoekjes/Onderzoek BMC visualisatie.md",
+                "file": "Gitnore/Schoonmaakrooster.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Onderzoek BMC visualisatie"
+              "title": "Schoonmaakrooster"
             }
           }
         ],
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM01/Eigen project/Losse onderzoekjes/Onderzoek BMC visualisatie.md",
+                "file": "Gitnore/Schoonmaakrooster.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Onderzoek BMC visualisatie"
+              "title": "Outline of Schoonmaakrooster"
             }
           }
         ],
@@ -184,11 +184,13 @@
       "bases:Create new base": false
     }
   },
-  "active": "92d32d5199956397",
+  "active": "5057738bba688a2c",
   "lastOpenFiles": [
-    "SEM01/Eigen project/Losse onderzoekjes",
     "Leertraject/2025-W47.md",
+    "Gitnore/Schoonmaakrooster.md",
+    "Gitnore",
     "SEM01/Eigen project/Losse onderzoekjes/Onderzoek BMC visualisatie.md",
+    "SEM01/Eigen project/Losse onderzoekjes",
     "SEM01/Eigen project/Workshops/Workshops BusData Sem01.md",
     "SEM01/Eigen project/ExpertWorkshops/20251117 Kees & Edwin.md",
     "SEM01/Eigen project/Losse onderzoekjes/Wat hoort thuis in een technische analyse.md",
@@ -220,11 +222,9 @@
     "SEM01/Groepsproject/Untitled.canvas",
     "SEM01/Eigen project",
     "SEM01/Niet Gebruiken",
-    "Babies",
+    "Gitnore/Babies",
     "Canvas/Leertraject-tijdlijn.canvas",
     "Reflectie syntaxis",
-    "SEM01/Eigen project/Code/Arduino Temperatuursensor",
-    "SEM01/Eigen project/Code",
     "Untitled.canvas",
     "20250924_Leerdoelen.png",
     "Pasted image 20250924140631.png"
