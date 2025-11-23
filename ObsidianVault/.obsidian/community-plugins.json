@@ -2,5 +2,6 @@
   "templater-obsidian",
   "dataview",
   "better-export-pdf",
-  "obsidian-plantuml"
+  "obsidian-plantuml",
+  "obsidian-excalidraw-plugin"
 ]

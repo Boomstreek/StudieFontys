@@ -213,5 +213,7 @@ graph TB
 ## Conclusie
 Het blijkt lastig om een BMC via syntax visueel aantrekkelijk weer te geven. Hoewel er diverse opties zijn met Mermaid en PlantUML, blijft het moeilijk om een overzichtelijke en intuïtieve weergave te realiseren. Voor het doel van het project lijkt het werken met post-its op een fysiek bord nog steeds de meest praktische en overzichtelijke methode.
 
+Als alternatief om mee te nemen gebruik ik excalidraw, dit werkt in obsidian mijn document/notitie applicatie. 
+
 ## Bronvermelding
 Alle codevoorbeelden in dit document zijn gegenereerd door ChatGPT.

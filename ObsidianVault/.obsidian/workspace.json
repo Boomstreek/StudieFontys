@@ -22,21 +22,33 @@
             }
           },
           {
-            "id": "5057738bba688a2c",
+            "id": "577bcb86342292ff",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "SEM01/Groepsproject/BMC_01.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "BMC_01"
+            }
+          },
+          {
+            "id": "c626ef53606bb6c0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Gitnore/20251123_SollicitatieDataEngineer/Motivatiebrief 1Stroom Data engineer.md",
+                "file": "Leertraject/2025-W48.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Motivatiebrief 1Stroom Data engineer"
+              "title": "2025-W48"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -156,13 +168,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Gitnore/20251123_SollicitatieDataEngineer/Motivatiebrief 1Stroom Data engineer.md",
+                "file": "Leertraject/2025-W48.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Motivatiebrief 1Stroom Data engineer"
+              "title": "Outline of 2025-W48"
             }
           }
         ],
@@ -181,15 +193,34 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "5057738bba688a2c",
+  "active": "c626ef53606bb6c0",
   "lastOpenFiles": [
+    "Leertraject/2025-W47.md",
+    "Leertraject/2025-W48.md",
+    "SEM01/Eigen project/Leerdoelen/Leerdoelen tot Derde Portfolio review 7 december.md",
+    "Leertraject/2025-W46.md",
+    "SEM01/Eigen project/Losse onderzoekjes/Onderzoek BMC visualisatie.md",
+    "Templates/Leertraject - Weekkaart.md",
+    "SEM01/Feedback Verzameling.md",
+    "SEM01/Eigen project/Collection Description SEM01 01.md",
+    "SEM01/Eigen project/Collection Description SEM01 02.md",
+    "SEM01/Eigen project/Feedback 29-09-2025.md",
+    "SEM01/Eigen project/Leerdoelen/Leerdoelen.md",
+    "SEM01/Groepsproject/BMC_02.md",
+    "SEM01/Groepsproject/BMC_01.md",
+    "SEM01/Groepsproject/BMC_01 1.md",
+    "SEM01/Groepsproject/Business Model Canvas.md",
+    "Keuze INSPIRE.md",
+    "SEM01/Eigen project/Losse onderzoekjes/Wat hoort thuis in een technische analyse.md",
+    "SEM01/Eigen project/Workshops/Workshops BusData Sem01.md",
+    "Excalidraw",
+    "Gitnore/20251123_SollicitatieDataEngineer/Motivatiebrief 1Stroom Data engineer.md",
     "Gitnore/20251123_SollicitatieDataEngineer/Motivatiebrief 1Stroom Data engineer.pdf",
     "Gitnore/20251123_SollicitatieDataEngineer/20251123 CV Bram Wieringa.pdf",
-    "Gitnore/20251123_SollicitatieDataEngineer/Motivatiebrief 1Stroom Data engineer.md",
-    "Leertraject/2025-W47.md",
     "Gitnore/20251123_SollicitatieDataEngineer/20251123 CV Bram Wieringa.odt",
     "Gitnore/20251123_SollicitatieDataEngineer",
     "Gitnore/20251123_DataEngineerSolliciatie",
@@ -198,30 +229,12 @@
     "Gitnore/lu370244i2hw.tmp",
     "Gitnore/lu370244i2fi.tmp",
     "Gitnore/20251123 CV Bram Wieringa.odt",
-    "Gitnore/lu370244i21p.tmp",
-    "Gitnore/20251123 CV Bram Wieringa.docx",
     "Gitnore/CV_BramWieringa/CV Bram Wieringa.md",
     "Gitnore/Motivatiebrief 1Stroom Data engineer.md",
     "SEM01/Eigen project/Diagram/Powerlifting Database diagram.md",
     "SEM01/Eigen project/Diagram/Powerlifting Chen Notatie.md",
     "SEM01/Eigen project/Diagram/Powerlifting Arduino State Diagram.md",
     "Gitnore/Schoonmaakrooster.md",
-    "Gitnore/Babies/Brain rules for baby.md",
-    "Gitnore/Babies/Brain rules for baby_raw.md",
-    "SEM01/Eigen project/Losse onderzoekjes/Onderzoek BMC visualisatie.md",
-    "SEM01/Eigen project/Workshops/Workshops BusData Sem01.md",
-    "SEM01/Eigen project/ExpertWorkshops/20251117 Kees & Edwin.md",
-    "SEM01/Eigen project/Losse onderzoekjes/Wat hoort thuis in een technische analyse.md",
-    "SEM01/Eigen project/Leerdoelen/Leerdoelen tot Derde Portfolio review 7 december.md",
-    "SEM01/Eigen project/Vragen.md",
-    "SEM01/Eigen project/Oriëntatie Sem 01.md",
-    "SEM01/Eigen project/Feedback 29-09-2025.md",
-    "Leertraject/2025-W46.md",
-    "SEM01/Eigen project/Diagram/Powerlifting Class diagram.md",
-    "SEM01/Eigen project/Persoonlijk Leiderschap/Feedbackdocument.md",
-    "SEM01/Eigen project/Diagram/Powerlifting PC Flow chart.md",
-    "SEM01/Eigen project/Workshops/Workshops Programmeren Sem01.md",
-    "Leertraject/2025-W44.md",
     "SEM01/Eigen project/Workshops/procesDiagramSymbolen.png",
     "SEM01/Groepsproject/Untitled.canvas",
     "Canvas/Leertraject-tijdlijn.canvas",

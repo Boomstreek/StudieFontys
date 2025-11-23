@@ -98,7 +98,7 @@ tR += `# Week ${nextWeekNumber} – ${title}\n\n`;
 tR += `%% Vul dit begin van de week in om richting te bepalen.
    Voeg aan het eind van de week reflectie toe onderaan. %%\n\n`;
 
-tR += `## Actiepunten/?Vragen? voor deze week\n`;
+tR += `## Actielijst voor deze week\n`;
 tR += `${doelenArray.map(d => `- [ ] ${d}`).join("\n")}\n\n`;
 
 tR += `## Focus\n`;
@@ -106,11 +106,6 @@ tR += `${focus}\n\n`;
 
 tR += `## Verwachte uitdagingen\n`;
 tR += `${uitdaging}\n\n`;
-
-tR += `## Wat heb ik gedaan\n`;
-tR += `%%- (Welke projecten of taken heb ik uitgevoerd?) %%\n`;
-tR += `%%- (Wat waren concrete resultaten of stappen?) %%\n`;
-tR += `%%- (Waar heb ik de meeste tijd aan besteed — was dat effectief?) %%\n\n`;
 
 tR += `## Wat heb ik geleerd\n`;
 tR += `%%- (Welke kennis of vaardigheid heb ik ontwikkeld?) %%\n`;
