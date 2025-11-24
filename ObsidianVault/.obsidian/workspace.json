@@ -39,12 +39,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Leertraject/2025-W48.md",
+                "file": "SEM01/Groepsproject/Customer Persona/Student - Anja.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2025-W48"
+              "title": "Student - Anja"
             }
           }
         ],
@@ -168,13 +168,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Leertraject/2025-W48.md",
+                "file": "SEM01/Groepsproject/Customer Persona/Student - Anja.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2025-W48"
+              "title": "Outline of Student - Anja"
             }
           }
         ],
@@ -199,8 +199,11 @@
   },
   "active": "c626ef53606bb6c0",
   "lastOpenFiles": [
-    "Leertraject/2025-W47.md",
     "Leertraject/2025-W48.md",
+    "SEM01/Groepsproject/Customer Persona/Student - Anja.md",
+    "SEM01/Groepsproject/Customer Persona",
+    "SEM01/Groepsproject/BMC",
+    "Leertraject/2025-W47.md",
     "SEM01/Eigen project/Leerdoelen/Leerdoelen tot Derde Portfolio review 7 december.md",
     "Leertraject/2025-W46.md",
     "SEM01/Eigen project/Losse onderzoekjes/Onderzoek BMC visualisatie.md",
@@ -210,10 +213,10 @@
     "SEM01/Eigen project/Collection Description SEM01 02.md",
     "SEM01/Eigen project/Feedback 29-09-2025.md",
     "SEM01/Eigen project/Leerdoelen/Leerdoelen.md",
-    "SEM01/Groepsproject/BMC_02.md",
-    "SEM01/Groepsproject/BMC_01.md",
+    "SEM01/Groepsproject/BMC/BMC_02.md",
+    "SEM01/Groepsproject/BMC/BMC_01.md",
     "SEM01/Groepsproject/BMC_01 1.md",
-    "SEM01/Groepsproject/Business Model Canvas.md",
+    "SEM01/Groepsproject/BMC/Business Model Canvas.md",
     "Keuze INSPIRE.md",
     "SEM01/Eigen project/Losse onderzoekjes/Wat hoort thuis in een technische analyse.md",
     "SEM01/Eigen project/Workshops/Workshops BusData Sem01.md",
@@ -227,14 +230,11 @@
     "Gitnore/CV Bram Wieringa.md",
     "Gitnore/20251123 CV Bram Wieringa.pdf",
     "Gitnore/lu370244i2hw.tmp",
-    "Gitnore/lu370244i2fi.tmp",
-    "Gitnore/20251123 CV Bram Wieringa.odt",
     "Gitnore/CV_BramWieringa/CV Bram Wieringa.md",
     "Gitnore/Motivatiebrief 1Stroom Data engineer.md",
     "SEM01/Eigen project/Diagram/Powerlifting Database diagram.md",
     "SEM01/Eigen project/Diagram/Powerlifting Chen Notatie.md",
     "SEM01/Eigen project/Diagram/Powerlifting Arduino State Diagram.md",
-    "Gitnore/Schoonmaakrooster.md",
     "SEM01/Eigen project/Workshops/procesDiagramSymbolen.png",
     "SEM01/Groepsproject/Untitled.canvas",
     "Canvas/Leertraject-tijdlijn.canvas",
