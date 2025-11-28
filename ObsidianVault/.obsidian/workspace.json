@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Gitnore/20251123_SollicitatieDataEngineer/Voorbereiding 1ste gesprek.md",
+                "file": "Leertraject/2025-W47.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Voorbereiding 1ste gesprek"
+              "title": "2025-W47"
             }
           }
         ],
@@ -184,13 +184,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Gitnore/20251123_SollicitatieDataEngineer/Voorbereiding 1ste gesprek.md",
+                "file": "Leertraject/2025-W47.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Voorbereiding 1ste gesprek"
+              "title": "Outline of 2025-W47"
             }
           }
         ],
@@ -215,15 +215,17 @@
   },
   "active": "e3f5a36f2645c253",
   "lastOpenFiles": [
+    "Leertraject/2025-W43.md",
+    "Leertraject/2025-W48.md",
+    "SEM01/Groepsproject/BMC/BMC_01.md",
+    "SEM01/Groepsproject/Scrummeeting/24-11-2025.md",
+    "SEM01/Groepsproject/Scrummeeting",
+    "Gitnore/20251123_SollicitatieDataEngineer/Voorbereiding 1ste gesprek.md",
     "Gitnore/20251123_SollicitatieDataEngineer/Voorbereiding 1ste gesprek.pdf",
     "Gitnore/20251123_SollicitatieDataEngineer/1ste gesprek uitgewerkt.pdf",
     "Gitnore/20251123_SollicitatieDataEngineer/1ste gesprek uitgewerkt.md",
-    "Gitnore/20251123_SollicitatieDataEngineer/Voorbereiding 1ste gesprek.md",
-    "Leertraject/2025-W48.md",
     "SEM01/Eigen project/Workshops/Workshops BusData Sem01.md",
-    "SEM01/Groepsproject/BMC/BMC_01.md",
     "SEM01/Groepsproject/BMC/BMC_02.md",
-    "SEM01/Groepsproject/24-11-2025.md",
     "Leertraject/2025-W47.md",
     "SEM01/Groepsproject/Customer Persona/Student - Anja.md",
     "SEM01/Groepsproject/Customer Persona",
@@ -247,9 +249,7 @@
     "Gitnore/20251123_SollicitatieDataEngineer/20251123 CV Bram Wieringa.pdf",
     "Gitnore/20251123_SollicitatieDataEngineer/20251123 CV Bram Wieringa.odt",
     "Gitnore/20251123_SollicitatieDataEngineer",
-    "Gitnore/20251123_DataEngineerSolliciatie",
     "Gitnore/CV Bram Wieringa.md",
-    "Gitnore/20251123 CV Bram Wieringa.pdf",
     "Gitnore/CV_BramWieringa/CV Bram Wieringa.md",
     "SEM01/Eigen project/Workshops/procesDiagramSymbolen.png",
     "SEM01/Groepsproject/Untitled.canvas",
