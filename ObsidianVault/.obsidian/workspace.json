@@ -48,9 +48,23 @@
               "icon": "lucide-file",
               "title": "1ste gesprek uitgewerkt"
             }
+          },
+          {
+            "id": "e3f5a36f2645c253",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Gitnore/20251123_SollicitatieDataEngineer/Voorbereiding 1ste gesprek.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Voorbereiding 1ste gesprek"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -170,13 +184,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Gitnore/20251123_SollicitatieDataEngineer/1ste gesprek uitgewerkt.md",
+                "file": "Gitnore/20251123_SollicitatieDataEngineer/Voorbereiding 1ste gesprek.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 1ste gesprek uitgewerkt"
+              "title": "Outline of Voorbereiding 1ste gesprek"
             }
           }
         ],
@@ -199,10 +213,12 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "7366073a3419d28a",
+  "active": "e3f5a36f2645c253",
   "lastOpenFiles": [
-    "Gitnore/20251123_SollicitatieDataEngineer/Voorbereiding 1ste gesprek.md",
+    "Gitnore/20251123_SollicitatieDataEngineer/Voorbereiding 1ste gesprek.pdf",
+    "Gitnore/20251123_SollicitatieDataEngineer/1ste gesprek uitgewerkt.pdf",
     "Gitnore/20251123_SollicitatieDataEngineer/1ste gesprek uitgewerkt.md",
+    "Gitnore/20251123_SollicitatieDataEngineer/Voorbereiding 1ste gesprek.md",
     "Leertraject/2025-W48.md",
     "SEM01/Eigen project/Workshops/Workshops BusData Sem01.md",
     "SEM01/Groepsproject/BMC/BMC_01.md",
@@ -234,9 +250,7 @@
     "Gitnore/20251123_DataEngineerSolliciatie",
     "Gitnore/CV Bram Wieringa.md",
     "Gitnore/20251123 CV Bram Wieringa.pdf",
-    "Gitnore/lu370244i2hw.tmp",
     "Gitnore/CV_BramWieringa/CV Bram Wieringa.md",
-    "Gitnore/Motivatiebrief 1Stroom Data engineer.md",
     "SEM01/Eigen project/Workshops/procesDiagramSymbolen.png",
     "SEM01/Groepsproject/Untitled.canvas",
     "Canvas/Leertraject-tijdlijn.canvas",
