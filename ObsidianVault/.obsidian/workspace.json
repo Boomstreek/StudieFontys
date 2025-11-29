@@ -62,9 +62,23 @@
               "icon": "lucide-file",
               "title": "2025-W47"
             }
+          },
+          {
+            "id": "5a33336100007334",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Leertraject/2025-W48.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "2025-W48"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -184,13 +198,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Leertraject/2025-W47.md",
+                "file": "Leertraject/2025-W48.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2025-W47"
+              "title": "Outline of 2025-W48"
             }
           }
         ],
@@ -213,10 +227,16 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "e3f5a36f2645c253",
+  "active": "5a33336100007334",
   "lastOpenFiles": [
-    "Leertraject/2025-W43.md",
+    "SEM01/Eigen project/Losse onderzoekjes/Agile werkvormen.md",
     "Leertraject/2025-W48.md",
+    "SEM01/Eigen project/Persoonlijk Leiderschap/Boeken/Clean Agile - Back to Basics.md",
+    "SEM01/Eigen project/Persoonlijk Leiderschap/Boeken/Algorithms to Live by The Computer Science of Human Decisions.md",
+    "SEM01/Eigen project/Persoonlijk Leiderschap/Boeken/The Phoenix Project.md",
+    "SEM01/Eigen project/Persoonlijk Leiderschap/Boeken/Cybersecurity and Cyberwar What Everyone Needs to Know.md",
+    "Leertraject/2025-W47.md",
+    "Leertraject/2025-W43.md",
     "SEM01/Groepsproject/BMC/BMC_01.md",
     "SEM01/Groepsproject/Scrummeeting/24-11-2025.md",
     "SEM01/Groepsproject/Scrummeeting",
@@ -226,7 +246,6 @@
     "Gitnore/20251123_SollicitatieDataEngineer/1ste gesprek uitgewerkt.md",
     "SEM01/Eigen project/Workshops/Workshops BusData Sem01.md",
     "SEM01/Groepsproject/BMC/BMC_02.md",
-    "Leertraject/2025-W47.md",
     "SEM01/Groepsproject/Customer Persona/Student - Anja.md",
     "SEM01/Groepsproject/Customer Persona",
     "SEM01/Groepsproject/BMC",
@@ -241,16 +260,11 @@
     "SEM01/Eigen project/Leerdoelen/Leerdoelen.md",
     "SEM01/Groepsproject/BMC_01 1.md",
     "SEM01/Groepsproject/BMC/Business Model Canvas.md",
-    "Keuze INSPIRE.md",
-    "SEM01/Eigen project/Losse onderzoekjes/Wat hoort thuis in een technische analyse.md",
     "Excalidraw",
-    "Gitnore/20251123_SollicitatieDataEngineer/Motivatiebrief 1Stroom Data engineer.md",
     "Gitnore/20251123_SollicitatieDataEngineer/Motivatiebrief 1Stroom Data engineer.pdf",
     "Gitnore/20251123_SollicitatieDataEngineer/20251123 CV Bram Wieringa.pdf",
     "Gitnore/20251123_SollicitatieDataEngineer/20251123 CV Bram Wieringa.odt",
     "Gitnore/20251123_SollicitatieDataEngineer",
-    "Gitnore/CV Bram Wieringa.md",
-    "Gitnore/CV_BramWieringa/CV Bram Wieringa.md",
     "SEM01/Eigen project/Workshops/procesDiagramSymbolen.png",
     "SEM01/Groepsproject/Untitled.canvas",
     "Canvas/Leertraject-tijdlijn.canvas",
