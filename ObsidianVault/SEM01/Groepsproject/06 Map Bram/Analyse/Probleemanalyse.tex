@@ -1,0 +1,408 @@
+
+\documentclass[12pt,a4paper]{report}
+
+% --- PACKAGES ---
+\usepackage[utf8]{inputenc}
+\usepackage[dutch]{babel}
+\usepackage{setspace}
+\usepackage{geometry}
+\usepackage{hyperref}
+\usepackage{titlesec}
+\usepackage{csquotes}
+
+\geometry{margin=2.5cm}
+
+\titleformat{\chapter}{\bfseries\LARGE}{\thechapter.}{0.5em}{}
+\titleformat{\section}{\bfseries\Large}{\thesection}{0.5em}{}
+\titleformat{\subsection}{\bfseries\large}{\thesubsection}{0.5em}{}
+
+\onehalfspacing
+
+% --- TITLE DATA ---
+\title{\textbf{Project Studentenhuisvesting}\\[1cm]
+\large IT-systeem voor klachtenbeheer, onderhoud en huishoudelijke organisatie}
+\author{Bram Wieringa \\ Groep 14}
+\date{November 2025}
+
+\begin{document}
+
+% --- TITLE PAGE ---
+\begin{titlepage}
+    \centering
+    \vspace*{3cm}
+    {\Huge \textbf{Studentenhuisvesting}}\\[0.5cm]
+    {\Large Probleemanalyse}\\[0.3cm]
+    \vfill
+    \textbf{Auteur:} Groep 14\\[0.2cm]
+    \textbf{Datum:} November 2025\\[2cm]
+    \vfill
+\end{titlepage}
+
+% --- TABLE OF CONTENTS ---
+\pagenumbering{roman}
+\tableofcontents
+\newpage
+
+\pagenumbering{arabic}
+
+% --- DOCUMENT START ---
+\chapter{Projectbeschrijving}
+
+\textbf{Projectnaam: } Studentenhuisvesting  \\
+\textbf{Doel: } Ontwikkelen van een IT-systeem dat de belangrijkste operationele problemen van Student Housing B.V. oplost en schaalbaar is voor toekomstige uitbreidingen.  \\
+\textbf{Hoofdvraag: } Hoe kan een nieuw IT-systeem het klachtenproces, onderhoudsbeheer en huishoudelijke organisatie binnen studentenhuisvesting efficiënter en inzichtelijker maken?
+
+\chapter{Contextanalyse}
+
+Student Housing B.V. beheert meerdere studentencomplexen met gedeelde voorzieningen. Het huidige systeem is verouderd en ondersteunt de processen onvoldoende. Het nieuwe systeem moet:
+
+\begin{itemize}
+    \item het klachten- en onderhoudsproces optimaliseren;
+    \item ondersteuning bieden voor huishoudelijke organisatie;
+    \item inzicht geven in kosten en leefomstandigheden;
+    \item starten met een haalbare MVP;
+    \item werken met CSV-data afkomstig uit het oude systeem.
+\end{itemize}
+
+\section{Overzicht van uitdagingen}
+
+\subsection{Operationele problemen}
+\begin{itemize}
+    \item Onvoldoende naleving van schoonmaaktaken
+    \item Onbetaalde gezamenlijke boodschappen
+    \item Afval wordt niet tijdig afgevoerd
+    \item Ongemelde feestjes of overlast
+    \item Klachten over verwarming/airconditioning
+    \item Storingen of slecht onderhoud van brandalarmen
+    \item Geen traceerbaarheid van onderhoudsdiensten
+\end{itemize}
+
+\subsection{Nieuwe mogelijkheden voor de toekomst}
+\begin{itemize}
+    \item Delen van studiehulpmiddelen
+    \item Boodschappen- en voorraadbeheer
+    \item Monitoring van luchtkwaliteit
+    \item Smart-home integraties
+    \item Communityfunctionaliteiten
+\end{itemize}
+
+\subsection{Kostenreductie en inzicht}
+\begin{itemize}
+    \item Inzicht in energieverbruik
+    \item Betere onderhoudsplanning
+    \item Inzicht in leefomstandigheden
+    \item Betere studentplaatsing
+    \item Minder schadegevallen
+\end{itemize}
+
+\chapter{Probleemanalyse}
+
+\section{Scope}
+
+\subsection*{Binnen scope}
+\begin{itemize}
+    \item Webapplicatie met rolgebaseerde toegang
+    \item Klachtenregistratie
+    \item Huishoudtaken en rooster
+    \item Onderhoudsbeheer
+    \item Eenmalige CSV-import
+    \item Basisdashboard
+    \item Veilig modelnetwerk
+\end{itemize}
+
+\subsection*{Buiten scope}
+\begin{itemize}
+    \item Smart-home integraties
+    \item Communityfunctionaliteiten
+    \item Externe integraties
+    \item Veranderprocessen
+\end{itemize}
+
+\section{Doelgroepen}
+
+\subsection{Studenten}
+\noindent Studenten wonen in de studentenhuizen die Student Housing B.V. aanbiedt. Zij hebben behoefte aan een overzichtelijk systeem waarmee zij klachten kunnen melden, de status van meldingen kunnen volgen en inzicht hebben in de afhandeling. Daarnaast willen zij duidelijkheid over huishoudtaken: wie welke taak uitvoert, wanneer dit moet gebeuren en wat al is gedaan.
+
+\subsection{Beheerders}
+\noindent Beheerders zijn verantwoordelijk voor het dagelijkse reilen en zeilen binnen de studentenhuizen. Zij moeten inzicht hebben in alle openstaande en afgeronde klachten, de planning en uitvoering van huishoudtaken, de onderhoudsstatus en operationele kosten. Het systeem moet hen ondersteunen bij coördinatie, besluitvorming en communicatie met studenten en onderhoudspartijen.
+
+\subsection{Onderhoudsmedewerker}
+\noindent Onderhoudsmedewerkers, zowel intern als extern, voeren reparaties en onderhoudstaken uit binnen de studentenhuizen. Zij hebben behoefte aan een duidelijke en actuele takenlijst, met per taak de locatie, omschrijving, prioriteit, benodigde materialen en eventuele veiligheidsinstructies. Het systeem moet hen helpen om werkzaamheden efficiënt en traceerbaar uit te voeren.
+
+\subsection{Onderhoudsmanager}
+\noindent De onderhoudsmanager is verantwoordelijk voor de planning, prioritering en toewijzing van onderhoudstaken. Deze rol vereist inzicht in de totale onderhoudsbehoefte, beschikbare capaciteit, kostenramingen en materiaalgebruik. De onderhoudsmanager moet eenvoudig taken kunnen aanmaken, prioriteiten kunnen wijzigen, voortgang kunnen monitoren en rapportages kunnen genereren.
+
+\section{Beperkingen en voorkeuren}
+\begin{itemize}
+    \item CSV-data van onbekende kwaliteit
+    \item Beperkte programmeerervaring team
+    \item Hardware pas ná MVP
+    \item Voorkeur voor heldere ICT-infrastructuur
+\end{itemize}
+
+\chapter{Functieanalyse (MoSCoW)}
+
+\section{Must-have}
+\begin{itemize}
+    \item Rolgebaseerde webapplicatie
+    \item Klachtenregistratie
+    \item Huishoudrooster
+    \item Onderhoudsbeheer
+    \item CSV-import
+    \item Dashboard
+\end{itemize}
+
+\section{Should-have}
+\begin{itemize}
+    \item Notificaties
+    \item Prioriteiten in onderhoud
+    \item Gebruikersprofielen
+\end{itemize}
+
+\section{Could-have}
+\begin{itemize}
+    \item Documentupload
+    \item Kalender
+    \item Extra dashboards
+\end{itemize}
+
+\section{Won't-have}
+\begin{itemize}
+    \item Smart-home koppelingen
+    \item Communityfuncties
+\end{itemize}
+
+\chapter{Use Case – Pixar Pitch}
+
+Er was eens een studentenhuis dat werd beheerd door Student Housing B.V.  
+Iedere dag worstelden studenten met klachten en huishoudtaken.  
+Op een dag besloot Student Housing B.V. een webportaal te ontwikkelen.  
+Daardoor konden studenten eenvoudig klachten indienen en taken volgen.  
+Tot op een dag waren de problemen opgelost en was het wooncomfort verbeterd.
+
+\chapter{Projectplanning}
+
+\begin{itemize}
+    \item 10 november — Start groepsproject
+    \item 24 november — Sprint 0 opleveren
+    \item 7 december — Portfolioreview 3
+    \item 8 december — Sprint 1 opleveren
+    \item 22 december — Sprint 2 opleveren
+    \item 5 januari — Sprint 3 opleveren
+    \item 12 januari — Conclusie schrijven
+    \item 18 januari — Portfolioreview 4
+\end{itemize}
+
+\chapter{Agile-setup en teamafspraken}
+
+\section{Definition of Done}
+\begin{itemize}
+    \item Functionaliteit werkt volledig
+    \item Code getest
+    \item Documentatie bijgewerkt
+    \item Reviewer akkoord
+    \item Gereed voor sprintreview
+\end{itemize}
+
+\section{Definition of Ready}
+\begin{itemize}
+    \item INVEST-principe toegepast
+    \item Acceptatiecriteria testbaar
+    \item UI/databasediscussies gevoerd
+    \item Dependencies duidelijk
+\end{itemize}
+
+\section{Tools}
+Zie de Technische analyse.
+
+\section{Samenwerkingsafspraken}
+
+\subsection{Scrumrollen}
+\begin{itemize}
+    \item Per sprint wordt één Scrum Master aangewezen.
+    \item De groep vertegenwoordigt samen de Product Owner.
+\end{itemize}
+
+\subsection{Communicatie}
+\begin{itemize}
+    \item WhatsApp: korte berichten
+    \item Trello: sprintplanning
+    \item Microsoft Teams: vaste weekly op donderdag 17:30
+    \item GitHub: code en documentatie
+\end{itemize}
+
+\subsection{Documentatie}
+\begin{itemize}
+    \item Actiepunten worden genoteerd in Trello
+    \item Notulist rouleert
+    \item Documentatie volgt: \textbf{Analyse -- Adviseer -- Design -- Realisatie -- Manage \& Control}
+\end{itemize}
+
+\subsection{Oplevermomenten}
+\begin{itemize}
+    \item Elke sprint: review + retrospectief
+\end{itemize}
+
+\subsection{Besluitvorming}
+\begin{itemize}
+    \item Consensus waar mogelijk
+    \item Anders stemmen
+    \item Bij gelijk: muntje opgooien
+    \item Alleen de aanwezigen hebben stemrecht.
+\end{itemize}
+
+\chapter{Initi\"ele Product Backlog (MVP)}
+
+\section{User Stories (INVEST)}
+
+\subsection*{US-01a -- Toegang tot portaal}
+\textbf{Als} gebruiker\\
+\textbf{wil ik} kunnen inloggen op een online portaal\\
+\textbf{zodat} ik toegang heb tot alle functionaliteiten van het studentenhuis.
+
+\textbf{Acceptatiecriteria:}
+\begin{itemize}
+    \item Inloggen met rol (Student, Beheerder, Onderhoudsmedewerker, Onderhoudsmanager)
+    \item Onjuist wachtwoord geeft foutmelding
+    \item Rolgebaseerde toegang: gebruiker ziet alleen wat relevant is
+\end{itemize}
+
+\textbf{MoSCoW:} Must-have
+
+\subsection*{US-01b -- Navigatie en dashboard}
+\textbf{Als} ingelogde gebruiker\\
+\textbf{wil ik} een overzichtelijk dashboard\\
+\textbf{zodat} ik snel kan zien welke taken, klachten of meldingen relevant zijn voor mij.
+
+\textbf{Acceptatiecriteria:}
+\begin{itemize}
+    \item Dashboard toont relevante modules per rol
+    \item Klikken op een module opent de juiste pagina
+    \item Overzichtelijk en eenvoudig te begrijpen
+\end{itemize}
+
+\textbf{MoSCoW:} Must-have
+
+\subsection*{US-02a -- Klacht indienen}
+\textbf{Als} student\\
+\textbf{wil ik} een klacht kunnen indienen via een formulier\\
+\textbf{zodat} ik problemen snel kan melden.
+
+\textbf{Acceptatiecriteria:}
+\begin{itemize}
+    \item Formulier bevat categorieën van veelvoorkomende problemen
+    \item Mogelijkheid tot extra toelichting
+    \item Bevestiging na indienen
+\end{itemize}
+
+\textbf{MoSCoW:} Must-have
+
+\subsection*{US-02b -- Klachtstatus volgen}
+\textbf{Als} student\\
+\textbf{wil ik} de status van mijn ingediende klacht kunnen volgen\\
+\textbf{zodat} ik transparantie heb over de afhandeling.
+
+\textbf{Acceptatiecriteria:}
+\begin{itemize}
+    \item Status zichtbaar: Open, In behandeling, Afgerond
+    \item Toegewezen medewerker zichtbaar
+    \item Historie van acties zichtbaar
+\end{itemize}
+
+\textbf{MoSCoW:} Must-have
+
+\subsection*{US-03 -- Klachten beheren}
+\textbf{Als} beheerder\\
+\textbf{wil ik} klachten kunnen inzien, toewijzen, prioriteren en feedback geven\\
+\textbf{zodat} klachten efficiënt worden opgevolgd.
+
+\textbf{Acceptatiecriteria:}
+\begin{itemize}
+    \item Lijst van openstaande klachten beschikbaar
+    \item Toewijzen aan onderhoudsmanager of medewerker mogelijk
+    \item Prioriteit instellen (Laag, Midden, Hoog)
+    \item Reacties toevoegen die student kan zien
+    \item Status aanpassen
+\end{itemize}
+
+\textbf{MoSCoW:} Must-have
+
+\subsection*{US-04 -- Huishoudrooster beheren}
+\textbf{Als} beheerder\\
+\textbf{wil ik} huishoudtaken kunnen aanmaken, verdelen en aanpassen\\
+\textbf{zodat} het schoonmaakrooster eerlijk wordt bijgehouden.
+
+\textbf{Acceptatiecriteria:}
+\begin{itemize}
+    \item Taken aanmaken met omschrijving, locatie, frequentie, student toegewezen
+    \item Taken verdelen handmatig of automatisch
+    \item Aanpassen of verwijderen van taken
+    \item Studenten zien hun taken in rooster
+\end{itemize}
+
+\textbf{MoSCoW:} Must-have
+
+\subsection*{US-05 -- Huishoudtaken afvinken}
+\textbf{Als} student\\
+\textbf{wil ik} mijn toegewezen huishoudtaken kunnen afvinken\\
+\textbf{zodat} iedereen kan zien wat is gedaan.
+
+\textbf{Acceptatiecriteria:}
+\begin{itemize}
+    \item Taak markeren als uitgevoerd
+    \item Status real-time zichtbaar voor alle gebruikers
+    \item Historie beschikbaar voor beheerder
+\end{itemize}
+
+\textbf{MoSCoW:} Must-have
+
+\section{Toelichting backlog}
+\begin{itemize}
+    \item Alle stories zijn \textbf{INVEST-compliant}: klein, testbaar, waardevol, inschatbaar en onafhankelijk waar mogelijk.
+    \item De \textbf{MVP-focus} ligt op de absolute basisfunctionaliteiten, zonder smart-home integraties, communityfunctionaliteiten of externe koppelingen.
+    \item Stories kunnen later worden uitgebreid naar \textbf{Should-have} en \textbf{Could-have} functionaliteiten zoals notificaties, documentupload, uitgebreide dashboards en kalenderweergave.
+\end{itemize}
+
+\chapter{Conclusie}
+
+Het project \textit{Studentenhuisvesting} richt zich op het ontwikkelen van een schaalbare, webgebaseerde IT-oplossing die de belangrijkste operationele knelpunten binnen studentencomplexen van Student Housing B.V. oplost. De analyse laat zien dat vooral het klachtenproces, het onderhoudsbeheer en de huishoudelijke organisatie momenteel inefficiënt verlopen door het gebruik van verouderde systemen en beperkte traceerbaarheid.\\
+
+Met de gekozen scope, duidelijke rolverdeling en een MVP die zich focust op de essentiële functionaliteiten, klachtenregistratie, huishoudtaken en onderhoudsbeheer, wordt een haalbaar en waardevol fundament gelegd. Door gebruik te maken van user stories die voldoen aan het INVEST-principe, een heldere Definition of Ready en Definition of Done, en een Agile-werkwijze met vaste sprintmomenten, ontstaat een structuur die zowel de kwaliteit van het eindproduct als de samenwerking binnen het team ondersteunt.\\
+
+Het project creëert niet alleen een oplossing voor de huidige problemen, maar legt ook een basis voor toekomstige uitbreidingen. Daarmee vormt de MVP een solide eerste stap richting een modern, gebruiksvriendelijk en betrouwbaar IT-systeem dat de leefomgeving van studenten verbetert en het beheer voor Student Housing B.V. aanzienlijk efficiënter maakt.
+
+\begin{thebibliography}{9}
+
+\bibitem{openai2025a}
+OpenAI. (2025, 9 november). 
+\textit{Hoe ziet een sprintplanning eruit?} ChatGPT. 
+Geraadpleegd op \url{https://chat.openai.com}
+
+\bibitem{openai2025b}
+OpenAI. (2025, 10--24 november). 
+\textit{Prompt gebruikt voor taalkundige verbetering}. ChatGPT. 
+Geraadpleegd op \url{https://chat.openai.com}
+
+\bibitem{scrumguide}
+Schwaber, K., \& Sutherland, J. (2020). 
+\textit{The Scrum Guide}. 
+Geraadpleegd op \url{https://scrumguides.org}
+
+\bibitem{vp_ready}
+Visual Paradigm. (z.d.). 
+\textit{Definition of ready in Scrum}. 
+Geraadpleegd op \url{https://www.visual-paradigm.com/scrum/what-is-definition-of-ready-in-scrum/}
+
+\bibitem{vp_done}
+Visual Paradigm. (z.d.). 
+\textit{Definition of done vs acceptance criteria}. 
+Geraadpleegd op \url{https://www.visual-paradigm.com/scrum/definition-of-done-vs-acceptance-criteria/}
+
+\bibitem{vp_smart}
+Visual Paradigm. (z.d.). 
+\textit{Write user story SMART goals}. 
+Geraadpleegd op \url{https://www.visual-paradigm.com/scrum/write-user-story-smart-goals/}
+
+\end{thebibliography}
+
+\end{document}
