@@ -67,6 +67,18 @@
             "id": "5a33336100007334",
             "type": "leaf",
             "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "SEM01/Groepsproject/BMC/BMC_01.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "BMC_01"
+            }
+          },
+          {
+            "id": "977c6c47c57d43ad",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
                 "file": "Leertraject/2025-W48.md",
@@ -78,7 +90,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -227,13 +239,15 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "5a33336100007334",
+  "active": "977c6c47c57d43ad",
   "lastOpenFiles": [
     "SEM01/Groepsproject/BMC/BMC_02.md",
-    "SEM01/Groepsproject/BMC/Business Model Canvas.md",
     "SEM01/Groepsproject/BMC/BMC_01.md",
-    "SEM01/Groepsproject/Analyse/Probleemanalyse - Project Studentenhuisvesting.md",
+    "SEM01/Eigen project/Workshops/Workshops BusData Sem01.md",
+    "SEM01/Groepsproject/BMC/BMC_01 1.md",
     "Leertraject/2025-W48.md",
+    "SEM01/Groepsproject/BMC/Business Model Canvas.md",
+    "SEM01/Groepsproject/Analyse/Probleemanalyse - Project Studentenhuisvesting.md",
     "SEM01/Eigen project/Losse onderzoekjes/Agile werkvormen.md",
     "SEM01/Eigen project/Persoonlijk Leiderschap/Boeken/Clean Agile - Back to Basics.md",
     "SEM01/Eigen project/Persoonlijk Leiderschap/Boeken/Algorithms to Live by The Computer Science of Human Decisions.md",
@@ -247,7 +261,6 @@
     "Gitnore/20251123_SollicitatieDataEngineer/Voorbereiding 1ste gesprek.pdf",
     "Gitnore/20251123_SollicitatieDataEngineer/1ste gesprek uitgewerkt.pdf",
     "Gitnore/20251123_SollicitatieDataEngineer/1ste gesprek uitgewerkt.md",
-    "SEM01/Eigen project/Workshops/Workshops BusData Sem01.md",
     "SEM01/Groepsproject/Customer Persona/Student - Anja.md",
     "SEM01/Groepsproject/Customer Persona",
     "SEM01/Groepsproject/BMC",
@@ -258,8 +271,6 @@
     "SEM01/Feedback Verzameling.md",
     "SEM01/Eigen project/Collection Description SEM01 01.md",
     "SEM01/Eigen project/Collection Description SEM01 02.md",
-    "SEM01/Eigen project/Feedback 29-09-2025.md",
-    "SEM01/Eigen project/Leerdoelen/Leerdoelen.md",
     "Excalidraw",
     "Gitnore/20251123_SollicitatieDataEngineer/Motivatiebrief 1Stroom Data engineer.pdf",
     "Gitnore/20251123_SollicitatieDataEngineer/20251123 CV Bram Wieringa.pdf",
