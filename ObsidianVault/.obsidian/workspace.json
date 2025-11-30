@@ -81,12 +81,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Leertraject/2025-W48.md",
-                "mode": "preview",
+                "file": "Leertraject/2025-W49.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2025-W48"
+              "title": "2025-W49"
             }
           }
         ],
@@ -210,13 +210,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Leertraject/2025-W48.md",
+                "file": "Leertraject/2025-W49.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2025-W48"
+              "title": "Outline of 2025-W49"
             }
           }
         ],
@@ -241,9 +241,9 @@
   },
   "active": "977c6c47c57d43ad",
   "lastOpenFiles": [
+    "Leertraject/2025-W48.md",
     "Leertraject/2025-W49.md",
     "Templates/Leertraject - Weekkaart.md",
-    "Leertraject/2025-W48.md",
     "SEM01/Groepsproject/07 infra/ER-Diagram.png",
     "SEM01/Groepsproject/07 infra/Datamodel.md",
     "SEM01/Groepsproject/07 infra",
