@@ -107,11 +107,6 @@ tR += `${focus}\n\n`;
 tR += `## Verwachte uitdagingen\n`;
 tR += `${uitdaging}\n\n`;
 
-tR += `## Wat heb ik geleerd\n`;
-tR += `%%- (Welke kennis of vaardigheid heb ik ontwikkeld?) %%\n`;
-tR += `%%- (Wat heb ik geleerd over samenwerking of proces?) %%\n`;
-tR += `%%- (Wat zou ik verder willen ontwikkelen?) %%\n\n`;
-
 tR += `## Reflectie (einde van de week)\n`;
 tR += `### Wat werkte goed?\n`;
 tR += `- \n\n`;
@@ -126,15 +121,18 @@ tR += `### Belangrijkste inzicht\n`;
 tR += `%% Beschrijf je belangrijkste Aha-moment en waarom dit belangrijk was. %%\n\n`;
 tR += `- \n\n`;
 
-tR += `## Inzichten of ideeën\n`;
-tR += `%%- (Nieuwe ideeën, observaties, verbeterpunten voor volgende week) %%\n\n`;
+tR += `## Inzichten, ideeën en geleerde lessen\n`;
+tR += `%%- (Nieuwe ideeën, observaties, verbeterpunten voor volgende week) %%\n`;
+tR += `%%- (Welke kennis of vaardigheid heb ik ontwikkeld?) %%\n`;
+tR += `%%- (Wat heb ik geleerd over samenwerking of proces?) %%\n`;
+tR += `%%- (Wat zou ik verder willen ontwikkelen?) %%\n\n`;
 
 tR += `## Feedback ontvangen\n`;
 tR += `%% {Naam / opmerking} %%\n\n`;
 
 tR += `## Dataview overzicht\n`;
 tR += "```dataview\n";
-tR += "TABLE week, thema, focus, doelen, volgende_stap\n";
+tR += "TABLE week, thema, focus, emotie, energie, motivatie\n";
 tR += "FROM \"Leertraject\"\n";
 tR += "WHERE contains(tags, \"leertraject\")\n";
 tR += "SORT week DESC\n";

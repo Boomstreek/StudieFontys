@@ -82,7 +82,7 @@
               "type": "markdown",
               "state": {
                 "file": "Leertraject/2025-W48.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
@@ -239,8 +239,11 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "92d32d5199956397",
+  "active": "977c6c47c57d43ad",
   "lastOpenFiles": [
+    "Leertraject/2025-W49.md",
+    "Templates/Leertraject - Weekkaart.md",
+    "Leertraject/2025-W48.md",
     "SEM01/Groepsproject/07 infra/ER-Diagram.png",
     "SEM01/Groepsproject/07 infra/Datamodel.md",
     "SEM01/Groepsproject/07 infra",
@@ -276,9 +279,7 @@
     "SEM01/Groepsproject/02 IT Projectflow/01 Strategie/BMC.md",
     "SEM01/Groepsproject/02 IT Projectflow/IT-Projectflow.md",
     "SEM01/Groepsproject/OUD.md",
-    "Leertraject/2025-W48.md",
     "SEM01/Groepsproject/OUD/BMC/BMC_02.md",
-    "SEM01/Groepsproject/OUD/BMC/BMC_01.md",
     "SEM01/Eigen project/Workshops/procesDiagramSymbolen.png",
     "SEM01/Groepsproject/Untitled.canvas",
     "Canvas/Leertraject-tijdlijn.canvas",
