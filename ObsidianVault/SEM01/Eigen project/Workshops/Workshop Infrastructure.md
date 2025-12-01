@@ -24,3 +24,5 @@ fontys netwerk virutaal manchine kan je daar maken
 
 Basis virtualizatie VM's en Containers 2
 denk dat het handig is als ik eerst wat oefeningen maak, maar merk dat ik daar weinig zin in heb.
+
+EduCloud Door Sefan Beekwilder
