@@ -3,5 +3,6 @@
   "dataview",
   "better-export-pdf",
   "obsidian-plantuml",
-  "obsidian-excalidraw-plugin"
+  "obsidian-excalidraw-plugin",
+  "obsidian-kroki"
 ]
