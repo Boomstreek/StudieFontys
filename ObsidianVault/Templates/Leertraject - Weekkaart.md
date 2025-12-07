@@ -47,7 +47,20 @@ do {
 const waaromEnergie = await tp.system.prompt("Waarom heb je gekozen voor dit energiecijfer?");
 
 let emotie = "";
-const emoties = ["blij", "boos", "gefrustreerd", "ontspannen", "gestrest", "verbaasd"];
+const emoties = [
+  "blij",
+  "trots",
+  "nieuwsgierig",
+  "ontspannen",
+  "kalm",
+  "verbaasd",
+  "boos",
+  "gefrustreerd",
+  "gestrest",
+  "verdrietig",
+  "teleurgesteld",
+  "ongerust"
+];
 
 do {
     const input = await tp.system.prompt(

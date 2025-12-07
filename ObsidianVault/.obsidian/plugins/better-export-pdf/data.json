@@ -25,6 +25,8 @@
     "marginRight": "10",
     "displayHeader": false,
     "displayFooter": false,
-    "cssSnippet": "0"
+    "cssSnippet": "0",
+    "pageWidth": "1100",
+    "pageHeight": "250"
   }
 }

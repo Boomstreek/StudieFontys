@@ -6,12 +6,12 @@ flowchart LR
 
 %% Document information
 subgraph DocumentInformation
-    DOC[**Author:** Bram Wieringa<br>**Version:** 1.0<br>**Date:** 07-12-2025]
+    DOC[**Title:** Van Visie naar Sprint<br>**Author:** Bram Wieringa<br>**Version:** 1.0<br>**Date:** 07-12-2025]
 end
 
 %% Dependencies
 subgraph Dependencies
-    DEP[None]
+    DEP[Tussentijdse Reflectie op de Samenwerking tijdens de Groepsopdracht - SEM01, Version 1.0<br>]
 end
 
 DOC --> DEP
