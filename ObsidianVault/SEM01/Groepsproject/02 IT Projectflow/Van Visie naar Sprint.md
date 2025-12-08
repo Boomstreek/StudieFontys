@@ -48,7 +48,6 @@ end
 %% Pre-Scrum
 subgraph preScrum[**Pre-Scrum**]
 direction LR
-	SPIKE[Spike]
 	DOR[Definition of Ready]
 	REQ[Requirements]
 	ACR[Acceptance Criteria]
@@ -56,7 +55,6 @@ direction LR
 end
 
 USST ==> VSLI ==> REQ ==> ACR ==> DOR ==> PB
-USST --> SPIKE --> REQ
 
 %% Scrumproces
 subgraph scrumProces[**Scrumproces**]
@@ -76,6 +74,10 @@ direction LR
 	SR ==> SP
 	SR ==> PB
 end
+
+SPIKE[Spike]
+
+USST --> SPIKE --> USST
 
 CP -...-> USST
 
