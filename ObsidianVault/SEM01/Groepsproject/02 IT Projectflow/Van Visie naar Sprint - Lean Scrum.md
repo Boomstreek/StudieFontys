@@ -1,17 +1,17 @@
 ```mermaid
 ---
-title: Van Visie naar Sprint
+title: Van Visie naar Sprint - Lean Scrum
 ---
 flowchart LR
 
 %% Document information
 subgraph DocumentInformation
-    DOC[**Title:** Van Visie naar Sprint<br>**Author:** Bram Wieringa<br>**Version:** 1.0<br>**Date:** 07-12-2025]
+    DOC[**Title:** Van Visie naar Sprint<br>**Author:** Bram Wieringa<br>**Version:** 2.0<br>**Date:** 09-12-2025]
 end
 
 %% Dependencies
 subgraph Dependencies
-    DEP[Tussentijdse Reflectie op de Samenwerking tijdens de Groepsopdracht - SEM01, Version 1.0<br>]
+    DEP[Tussentijdse Reflectie op de Samenwerking tijdens de Groepsopdracht - SEM01, Version 1.0<br>]
 end
 
 DOC --> DEP
@@ -39,14 +39,14 @@ direction LR
 
 	
 	%% Paths
-	OSTR ==> PSTR ==> PJSC ==> MVP ==> USST
-	STHL <-..-> PJSC & MVP & USST
-	BMC --> CP
+	OSTR ==>|Sets Direction| PSTR ==>|Defines Project Boundaries| PJSC ==>|Focus on Core Vaue| MVP ==>|Behavioral Examples| USST
+	STHL <-..->|Informs and Validates| PJSC & MVP & USST
+	BMC -->|Example of Target Audience| CP
 	
 end
 
-%% Pre-Scrum/Backlog Refinement
-subgraph preScrum[**Backlog Refinement**]
+%% Backlog Refinement
+subgraph backlogRefinement[**Backlog Refinement**]
 direction LR
 	DOR[Definition of Ready]
 	REQ[Requirements]
@@ -55,7 +55,7 @@ direction LR
 	SPIKE[Spike]
 end
 
-USST ==> VSLI ==> REQ ==> ACR ==> DOR ==> PB
+USST ==>|Is sliced verticaly| VSLI ==>|Splitting| REQ ==>|Making Measurable| ACR ==>|Determine Scope| DOR ==>|Meets Checklist| PB
 
 USST <-.->|Optional| SPIKE
 
@@ -69,19 +69,18 @@ direction LR
 	DAY([Daily Scrum])
 	DOD[Definition of Done]
 	SR[Sprint Review]
+	RET[Sprint Retrospective]
 
 	%% Paths
-	PB ==> SP ==> SB ==> SCR ==> DOD ==> SR
-	DAY --> SCR --> DAY
-	
-	SR ==> SP
-	SR ==> PB
+	SR -.-> PB 
+	PB ==> SP ==> SB ==> SCR ==> DOD ==>|Review Sprint Product| SR ==>|Review Sprint Proces| RET --> SP
+	DAY --> SCR --> DAY	
 end
 
 
 CP -...-> USST
 
-%% Styles (Door CHAT-GPT)
+%% Styles (Door AI)
 
 %% Document & Dependencies - neutraal
 style DocumentInformation fill:#E3EDF7,stroke:#5A7184,stroke-width:2px
@@ -103,8 +102,8 @@ style MVP fill:#4DA6FF,stroke:#1F4E79,stroke-width:1.5px
 style CP fill:#3399FF,stroke:#1F4E79,stroke-width:1.5px
 style USST fill:#1A8CFF,stroke:#1F4E79,stroke-width:1.5px
 
-%% Pre-Scrum - oranje familie
-style preScrum fill:#FFF2E0,stroke:#FFB266,stroke-width:1px,stroke-dasharray: 5 5
+%% Backlog Refinement - oranje familie
+style backlogRefinement fill:#FFF2E0,stroke:#FFB266,stroke-width:1px,stroke-dasharray: 5 5
 
 style SPIKE fill:#FFE0B3,stroke:#FF8000,stroke-width:1.5px
 style DOR fill:#FFD699,stroke:#FF8000,stroke-width:1.5px
@@ -122,4 +121,5 @@ style SCR fill:#BF80FF,stroke:#9933FF,stroke-width:1.5px
 style DAY fill:#B266FF,stroke:#9933FF,stroke-width:1.5px
 style DOD fill:#A64DFF,stroke:#9933FF,stroke-width:1.5px
 style SR fill:#9933FF,stroke:#9933FF,stroke-width:1.5px
+style RET fill:#8C1AFF,stroke:#9933FF,stroke-width:1.5px 
 ```
