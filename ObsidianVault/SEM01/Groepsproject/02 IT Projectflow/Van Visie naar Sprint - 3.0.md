@@ -6,7 +6,7 @@ flowchart LR
 
 %% Document information
 subgraph DocumentInformation
-    DOC[**Title:** Van Visie naar Sprint<br>**Author:** Bram Wieringa<br>**Version:** 3.0<br>**Date:** 09-12-2025]
+    DOC[**Title:** Van Visie naar Sprint<br>**Author:** Bram Wieringa<br>**Version:** 3.0<br>**Date:** 10-12-2025]
 end
 
 %% Dependencies
@@ -46,8 +46,8 @@ direction LR
 	
 end
 
-%% Pre-Scrum/Backlog Refinement
-subgraph preScrum[**Backlog Refinement**]
+%% Backlog Refinement
+subgraph backlogRefinement[**Backlog Refinement**]
 direction LR
 	DOR[Definition of Ready]
 	EST[Story Point Estimation]
@@ -72,15 +72,14 @@ direction LR
 	DAY([Daily Scrum])
 	DOD[Definition of Done]
 	SR[Sprint Review]
+	SRS[Sprint Retrospective]
 
 	%% Paths
-	DOR ==> PB ==> SP ==> SB ==> SCR ==> DOD ==> SR
+	DOR ==> PB ==> SP ==> SB ==> SCR ==> DOD ==> SR ==> SRS
 	DAY --> SCR --> DAY
 	
-	SR ==> SP
-	SR ==> PB
-	
-	%% Comments
+	SRS -.->|Reflection Proces| SP
+	SR -.->|Reflection Product| PB
 	
 end
 
@@ -136,8 +135,21 @@ THEN: The item is successfully added to the cart AND the cart content persists w
 `"])
 
 ESTCC01(["`
-**Lorum Ipsum**
-Voor nu deze laten vallen 
+Imagine you have a pile of LEGO sets to build. Some sets are small, some are big.
+<br>
+-Story points are numbers that show how hard or big each LEGO set is.
+--Tiny LEGO car -> 1 point 
+--Big LEGO castle -> 8 points
+<br>
+Now, to make sure the numbers are fair:
+<br>
+-The team can choose one LEGO set as a “reference castle”. 
+-This reference castle gets a fixed story point number (like 5 points).
+-Every new set is compared to the reference castle:
+--If its easier -> smaller number
+--If its harder -> bigger number
+<br>
+This helps the team estimate consistently and avoid inflating numbers.
 `"])
 
 DORCC01(["`
@@ -172,27 +184,75 @@ Are all critical Non-Functional Requirements (NFRs) for this Story known and add
 Is the design or are the wireframes available for the feature to be built?
 `"])
 
+DODCC01(["`
+**Example**
+-the functionality fully works according to the user story
+-the code has been tested
+-documentation in GitHub has been updated
+-the reviewer has approved it
+-the functionality can be demonstrated in the sprint review
+`"])
+
+SPIKECC01(["`
+A Scrum Spike is a moment when the team takes some time to figure out how something works before they really start building it.  
+They are not building the real thing yet, they are just trying and learning first.
+<br>
+It is like this:
+*You want to build a big tower with blocks, but you don’t know if the blocks are strong enough.*
+*So you first build a small test tower to see if it works. That little test is the **Spike**.*
+<br>
+With a Spike, the team tries to:
+-find out if something is possible
+-learn how to build it
+-and discover the best way to do it
+<br>
+This way, they make fewer mistakes later, and they know better what to do when they start the real work.
+<br>
+In short:
+A Scrum Spike is a short learning time to build smarter later.
+`"])
+
+SRCC01(["`
+**What did we build**
+What has been delivered during this sprint?
+Does the result meet the expectations of the stakeholders / Product Owner?
+Is it usable, working, and valuable?
+Any feedback on the product itself.
+Input for updating the product backlog.
+`"])
+
+SRSCC01(["`
+**How did we collaborate and work?**
+How did the collaboration go?
+What went well and what went less well?
+Which bottlenecks were there in the process?
+What will we concretely improve in the next sprint?
+`"])
+
 	%% Paths Comments
 VSLI -.- VSLICC01
 REQ -.- REQCC01
 ACR -.- ACRCC01
 DOR -.- DORCC01
 EST -.- ESTCC01
+SPIKE -.- SPIKECC01
+DOD -.- DODCC01
+SR -.- SRCC01
+SRS -.- SRSCC01
 
 
-%% Styles (Door CHAT-GPT)
+%% Styles (By Chat-GPT)
 
-%% Document & Dependencies - neutraal
+%% Document & Dependencies
 style DocumentInformation fill:#E3EDF7,stroke:#5A7184,stroke-width:2px
 style DOC fill:#E0E5EB,stroke:#5A7184,stroke-width:2px
 style Dependencies fill:#E3EDF7,stroke:#5A7184,stroke-width:2px
 style DEP fill:#E0E5EB,stroke:#5A7184,stroke-width:2px
 
-%% Business Analysis - blauwe familie
+%% Business Analysis - blauw familie
 style businessAnalysis fill:#E6F0FF,stroke:#99CCFF,stroke-width:1px,stroke-dasharray: 5 5
 style OSTR fill:#F0F8FF,stroke:#99CCFF,stroke-width:1px
 style PSTR fill:#F0F8FF,stroke:#99CCFF,stroke-width:1px
-
 style MIS fill:#D0E6FF,stroke:#1F4E79,stroke-width:1.5px
 style VIS fill:#B3D9FF,stroke:#1F4E79,stroke-width:1.5px
 style BMC fill:#99CCFF,stroke:#1F4E79,stroke-width:1.5px
@@ -202,9 +262,8 @@ style MVP fill:#4DA6FF,stroke:#1F4E79,stroke-width:1.5px
 style CP fill:#3399FF,stroke:#1F4E79,stroke-width:1.5px
 style USST fill:#1A8CFF,stroke:#1F4E79,stroke-width:1.5px
 
-%% Pre-Scrum / Backlog Refinement - oranje familie
-style preScrum fill:#FFF2E0,stroke:#FFB266,stroke-width:1px,stroke-dasharray: 5 5
-
+%% Backlog Refinement - oranje familie
+style backlogRefinement fill:#FFF2E0,stroke:#FFB266,stroke-width:1px,stroke-dasharray: 5 5
 style SPIKE fill:#FFE0B3,stroke:#FF8000,stroke-width:1.5px
 style DOR fill:#FFD699,stroke:#FF8000,stroke-width:1.5px
 style REQ fill:#FFCC80,stroke:#FF8000,stroke-width:1.5px
@@ -213,7 +272,6 @@ style VSLI fill:#FF9933,stroke:#FF8000,stroke-width:1.5px
 
 %% Scrumproces - paars familie
 style scrumProces fill:#F3E6FF,stroke:#CC99FF,stroke-width:1px,stroke-dasharray: 5 5
-
 style PB fill:#E6CCFF,stroke:#9933FF,stroke-width:1.5px
 style SP fill:#D9B3FF,stroke:#9933FF,stroke-width:1.5px
 style SB fill:#CC99FF,stroke:#9933FF,stroke-width:1.5px
@@ -221,12 +279,27 @@ style SCR fill:#BF80FF,stroke:#9933FF,stroke-width:1.5px
 style DAY fill:#B266FF,stroke:#9933FF,stroke-width:1.5px
 style DOD fill:#A64DFF,stroke:#9933FF,stroke-width:1.5px
 style SR fill:#9933FF,stroke:#9933FF,stroke-width:1.5px
+style SRS fill:#C299FF,stroke:#9933FF,stroke-width:1.5px
 style EST fill:#FFB266,stroke:#FF8000,stroke-width:1.5px
 
-%% Comments - oranje familie (lichtere tinten)
+%% Comments - lichtere tinten van parent
 style VSLICC01 fill:#FFEFD5,stroke:#FF9933,stroke-width:1.5px,stroke-dasharray: 3 3
 style REQCC01 fill:#FFF5E6,stroke:#FF9933,stroke-width:1.5px,stroke-dasharray: 3 3
 style ACRCC01 fill:#FFE6CC,stroke:#FF9933,stroke-width:1.5px,stroke-dasharray: 3 3
 style ESTCC01 fill:#FFF0CC,stroke:#FF9933,stroke-width:1.5px,stroke-dasharray: 3 3
 style DORCC01 fill:#FFE6B3,stroke:#FF9933,stroke-width:1.5px,stroke-dasharray: 3 3
+style SPIKECC01 fill:#FFF2CC,stroke:#FF9933,stroke-width:1.5px,stroke-dasharray: 3 3
+style DODCC01 fill:#E0CCFF,stroke:#9933FF,stroke-width:1.5px,stroke-dasharray: 3 3
+style SRCC01 fill:#E6CCFF,stroke:#9933FF,stroke-width:1.5px,stroke-dasharray: 3 3
+style SRSCC01 fill:#EAD1FF,stroke:#9933FF,stroke-width:1.5px,stroke-dasharray: 3 3
 ```
+
+%%
+10-12-2025
+https://docs.google.com/document/u/0/d/1TCuuu-8Mm14oxsOnlk8DqfZAA1cvtYu9WGv67Yj_sSk/pub?pli=1
+
+https://docs.google.com/document/u/0/d/1TCuuu-8Mm14oxsOnlk8DqfZAA1cvtYu9WGv67Yj_sSk/pub?pli=1
+
+https://www.youtube.com/watch?v=-mZO9aASfQA
+
+%%
