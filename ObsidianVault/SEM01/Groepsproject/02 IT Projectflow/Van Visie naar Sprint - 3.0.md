@@ -229,7 +229,16 @@ Which bottlenecks were there in the process?
 What will we concretely improve in the next sprint?
 `"])
 
-	%% Paths Comments
+PBCC01(["`
+**Tasks**
+Add tasks to the vertical slice.
+Front-end
+Back-end
+Database
+Test/QA
+`"])
+
+%% Paths Comments
 VSLI -.- VSLICC01
 REQ -.- REQCC01
 ACR -.- ACRCC01
@@ -239,6 +248,7 @@ SPIKE -.- SPIKECC01
 DOD -.- DODCC01
 SR -.- SRCC01
 SRS -.- SRSCC01
+PB -.- PBCC01
 
 
 %% Styles (By Chat-GPT)
