@@ -494,3 +494,21 @@ Werk met **post-its** zodat je makkelijk kunt schuiven en onderdelen kunt hergro
 
 ## Organisatorisch  
 - Expert-tafel rond **19:30**.
+
+# Data verzamelen
+Bij strategie hebben we het gehad bij KPI's 
+
+KPI's zeggen iets over het proces
+- BPD, business proces diagram
+
+op bais van BPD gaan we kijken welke data er wordt bijgehouden. Bijvoorbeeld via een cookie, en hoe lang het duurt voordat de klant op een product drukt
+
+ook als het afleveradres en betalen lang duurt, zeg  dat ook iets. Bijvoorbeeld als je gebruiksvriendelijk iwlt zijn dan mot de tijd daarvan laag zijn.
+
+Aan de hand van een bedrijfsproces, wat is dan het normale gedrag van de klant, en als dat afwijkt wat zegt dat dan?
+
+En die normtijden worden KPIs  en daarmee kan je iets met je dashboards
+
+Denk na over de data, hoe je dat kan gebruiken.
+
+_**BPD maken over het eerst proces en daarbij welke data om inzicht te krijgen in gedrag van mijn klant**_
