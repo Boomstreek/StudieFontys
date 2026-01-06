@@ -6,7 +6,7 @@ flowchart LR
 
 %% Document information
 subgraph DocumentInformation
-    DOC[**Title:** Data Team – From Request to Delivery<br>**Author:** Bram Wieringa<br>**Version:** 1.0<br>**Date:** 06-01-2026]
+    DOC[**Title:** Data Team – From Request to Delivery<br>**Author:** Bram Wieringa<br>**Version:** 1.1<br>**Date:** 06-01-2026]
 end
 
 %% Dependencies
@@ -87,6 +87,18 @@ Provides accurate, timely, and usable data supporting municipal goals, complianc
 <br>
 **Example Vision**
 A data-driven municipality where information is accessible, trusted, and supports continuous improvement.
+`"])
+
+DVCCC01(["`
+**Data Value Canvas**
+<br>
+Defines *why* a data product should exist before defining solutions.
+-**Decision:** Which decision or action should be improved?
+-**Value:** What value is created if the decision is better informed?
+-**Users:** Who makes or uses this decision
+-**Moment:** When in the process does this information matter?
+-**Information need:** What type of information is required? (not yet how or from where)
+-**Alternative:** What happens if this data is not available?
 `"])
 
 STHLCC01(["`
@@ -276,6 +288,7 @@ Test/QA
 %% Paths Comments
 MIS -...- MISVISCC01
 VIS -...- MISVISCC01
+DVC -.- DVCCC01
 STHL -.- STHLCC01
 CP -.- CPCC01
 VSLI -.- VSLICC01
@@ -311,6 +324,7 @@ style USST fill:#1A8CFF,stroke:#1F4E79,stroke-width:1.5px
 
 %% Comments - Data Analysis & Framing
 style MISVISCC01 fill:#DFF0FF,stroke:#99CCFF,stroke-width:1.5px,stroke-dasharray:3 3
+style DVCCC01 fill:#D0EBFF,stroke:#1F4E79,stroke-width:1.5px,stroke-dasharray:3 3
 style STHLCC01 fill:#D0EBFF,stroke:#1F4E79,stroke-width:1.5px,stroke-dasharray:3 3
 style CPCC01 fill:#B3DAFF,stroke:#1F4E79,stroke-width:1.5px,stroke-dasharray:3 3
 
