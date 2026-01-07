@@ -6,7 +6,7 @@ flowchart LR
 
 %% Document information
 subgraph DocumentInformation
-    DOC[**Title:** Data Team – From Request to Delivery<br>**Author:** Bram Wieringa<br>**Version:** 1.1<br>**Date:** 06-01-2026]
+    DOC[**Title:** Data Team – From Request to Delivery<br>**Author:** Bram Wieringa<br>**Version:** 1.2<br>**Date:** 07-01-2026]
 end
 
 %% Dependencies
@@ -30,6 +30,7 @@ direction LR
 	
 	STHL[Stakeholders]
 	PJSC[Project Scope]
+	BPMN[Business Process Model Notation]
 	MVP[Minimal Viable Product]
 	CP[User Roles <br>*Customer Persona*]
 	USST[User Stories]
@@ -40,6 +41,7 @@ direction LR
 	STHL <-.-> PJSC & MVP & USST
 	DVC --> CP
 	CP -...-> USST
+	BPMN -.- |optional assistance| MVP & PJSC
 	
 end
 
@@ -318,6 +320,7 @@ style VIS fill:#B3D9FF,stroke:#1F4E79,stroke-width:1.5px
 style DVC fill:#99CCFF,stroke:#1F4E79,stroke-width:1.5px
 style STHL fill:#80BFFF,stroke:#1F4E79,stroke-width:1.5px
 style PJSC fill:#66B3FF,stroke:#1F4E79,stroke-width:1.5px
+style BPMN fill:#3399FF,stroke:#1F4E79,stroke-width:1.5px
 style MVP fill:#4DA6FF,stroke:#1F4E79,stroke-width:1.5px
 style CP fill:#3399FF,stroke:#1F4E79,stroke-width:1.5px
 style USST fill:#1A8CFF,stroke:#1F4E79,stroke-width:1.5px

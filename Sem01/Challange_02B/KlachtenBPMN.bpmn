@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:modeler="http://camunda.org/schema/modeler/1.0" id="Definitions_1lbpexs" targetNamespace="http://bpmn.io/schema/bpmn" exporter="Camunda Modeler" exporterVersion="5.42.0" modeler:executionPlatform="Camunda Cloud" modeler:executionPlatformVersion="8.8.0">
+  <bpmn:collaboration id="Collaboration_1p1g824">
+    <bpmn:participant id="Participant_0q6kaux" name="Customer" processRef="Process_034e4es" />
+    <bpmn:participant id="Participant_1wj2z4r" name="Beheerder" processRef="Process_1cf2cut" />
+    <bpmn:messageFlow id="Flow_0a9xh37" sourceRef="Activity_13a1o8n" targetRef="Event_0ldihjk" />
+  </bpmn:collaboration>
+  <bpmn:process id="Process_034e4es" isExecutable="true">
+    <bpmn:endEvent id="Event_0zqfnx6" name="complaint handled">
+      <bpmn:incoming>Flow_1bm12do</bpmn:incoming>
+    </bpmn:endEvent>
+    <bpmn:sequenceFlow id="Flow_11woz1k" sourceRef="Activity_13a1o8n" targetRef="Activity_1jzd87y" />
+    <bpmn:sequenceFlow id="Flow_1bm12do" sourceRef="Activity_1jzd87y" targetRef="Event_0zqfnx6" />
+    <bpmn:sequenceFlow id="Flow_1m2sonb" sourceRef="StartEvent_1" targetRef="Activity_13a1o8n" />
+    <bpmn:task id="Activity_1jzd87y" name="Gets feedback on complaint">
+      <bpmn:incoming>Flow_11woz1k</bpmn:incoming>
+      <bpmn:outgoing>Flow_1bm12do</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:startEvent id="StartEvent_1" name="Has complaint">
+      <bpmn:outgoing>Flow_1m2sonb</bpmn:outgoing>
+    </bpmn:startEvent>
+    <bpmn:task id="Activity_13a1o8n" name="Reports complaint on website">
+      <bpmn:incoming>Flow_1m2sonb</bpmn:incoming>
+      <bpmn:outgoing>Flow_11woz1k</bpmn:outgoing>
+    </bpmn:task>
+  </bpmn:process>
+  <bpmn:process id="Process_1cf2cut" isExecutable="false">
+    <bpmn:startEvent id="Event_0ldihjk" name="Recieves complaint" />
+  </bpmn:process>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_1">
+    <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="Collaboration_1p1g824">
+      <bpmndi:BPMNShape id="Participant_0q6kaux_di" bpmnElement="Participant_0q6kaux" isHorizontal="true">
+        <dc:Bounds x="160" y="80" width="600" height="318" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="StartEvent_1_di" bpmnElement="StartEvent_1">
+        <dc:Bounds x="224" y="192" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="207" y="235" width="70" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_13a1o8n_di" bpmnElement="Activity_13a1o8n">
+        <dc:Bounds x="310" y="170" width="100" height="80" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Event_0zqfnx6_di" bpmnElement="Event_0zqfnx6">
+        <dc:Bounds x="662" y="192" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="636" y="235" width="90" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_1jzd87y_di" bpmnElement="Activity_1jzd87y">
+        <dc:Bounds x="500" y="170" width="100" height="80" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="Flow_1m2sonb_di" bpmnElement="Flow_1m2sonb">
+        <di:waypoint x="260" y="210" />
+        <di:waypoint x="310" y="210" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_11woz1k_di" bpmnElement="Flow_11woz1k">
+        <di:waypoint x="410" y="210" />
+        <di:waypoint x="500" y="210" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_1bm12do_di" bpmnElement="Flow_1bm12do">
+        <di:waypoint x="600" y="210" />
+        <di:waypoint x="662" y="210" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="Participant_1wj2z4r_di" bpmnElement="Participant_1wj2z4r" isHorizontal="true">
+        <dc:Bounds x="160" y="350" width="600" height="250" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Event_0ldihjk_di" bpmnElement="Event_0ldihjk">
+        <dc:Bounds x="232" y="472" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="227" y="515" width="48" height="27" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="Flow_0a9xh37_di" bpmnElement="Flow_0a9xh37">
+        <di:waypoint x="360" y="250" />
+        <di:waypoint x="360" y="336" />
+        <di:waypoint x="250" y="336" />
+        <di:waypoint x="250" y="472" />
+      </bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</bpmn:definitions>
