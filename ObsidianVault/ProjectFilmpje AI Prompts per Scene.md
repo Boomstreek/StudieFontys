@@ -1,5 +1,9 @@
 # Video Script: De IT Commando's & De Huurdersportal
 
+## Opdracht:
+90 seconden filmpje maximaal
+
+
 ## Scène 1: De Crisis (De Aanleiding)
 
 - **Visuele beschrijving:** Close-up van een radiator aan de muur van een rommelige studentenkamer waar met enorme kracht water uitspuit. Buiten het raam raast een sneeuwstorm. Een jonge vrouw staat midden in de kamer; haar chique jurk (voor haar date) is volledig doorweekt. Ze kijkt met pure wanhoop naar de chaos.
