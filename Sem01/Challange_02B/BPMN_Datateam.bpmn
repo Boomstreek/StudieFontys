@@ -30,12 +30,24 @@ Lijkt mij niet, misschien lopen er wel 10 producten waarvan elke MVP onzettende 
 Manager beoordeeld nu volgens mij de levensvatbaarheid en de relevantie van het verzoezk</bpmn:text>
     </bpmn:textAnnotation>
     <bpmn:textAnnotation id="TextAnnotation_13elrw7">
-      <bpmn:text>Krijgt deze nog extra informatie mee van de manager?</bpmn:text>
+      <bpmn:text>Krijgt deze nog extra informatie mee van de manager?
+Ja, via strategische weging
+
+Daarnaast kan je afspreken, 2 must haves maximaal per project
+
+of
+
+we gaan het berekenen
+
+Strategische weging * MosCow 3=musthave, 2 is should have,  1 is could haver, / EST</bpmn:text>
     </bpmn:textAnnotation>
     <bpmn:association id="Association_1okik1y" associationDirection="None" sourceRef="Activity_1pclxjj" targetRef="TextAnnotation_0lhaxx0" />
     <bpmn:association id="Association_0tnnayw" associationDirection="None" sourceRef="Activity_1gkalji" targetRef="TextAnnotation_0sh3shr" />
     <bpmn:association id="Association_0czvm9p" associationDirection="None" sourceRef="Activity_1te7lta" targetRef="TextAnnotation_1sqfit8" />
-    <bpmn:association id="Association_1dfmhmt" associationDirection="None" sourceRef="Activity_0jsutav" targetRef="TextAnnotation_13elrw7" />
+    <bpmn:textAnnotation id="TextAnnotation_11j9m8m">
+      <bpmn:text>Geeft Strategische weging mee. 0.0 t/m 2.0</bpmn:text>
+    </bpmn:textAnnotation>
+    <bpmn:association id="Association_1b1jkgn" associationDirection="None" sourceRef="Activity_1te7lta" targetRef="TextAnnotation_11j9m8m" />
   </bpmn:collaboration>
   <bpmn:process id="Process_1xa19jp" isExecutable="true">
     <bpmn:startEvent id="StartEvent_1" name="Notices information problem">
@@ -253,12 +265,10 @@ Manager beoordeeld nu volgens mij de levensvatbaarheid en de relevantie van het 
   <bpmn:process id="Process_188r9a4" isExecutable="false">
     <bpmn:laneSet id="LaneSet_086nfak">
       <bpmn:lane id="Lane_0pt4s6h" name="Datateam">
-        <bpmn:flowNodeRef>Activity_0vrrsiu</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>Event_1dsno3t</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>Event_07w4jl2</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>Event_1lhb9b1</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>Activity_0okg6xu</bpmn:flowNodeRef>
-        <bpmn:flowNodeRef>Activity_0yqsr40</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>Activity_1rtw4j3</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>Activity_06n8mwu</bpmn:flowNodeRef>
       </bpmn:lane>
@@ -266,17 +276,14 @@ Manager beoordeeld nu volgens mij de levensvatbaarheid en de relevantie van het 
         <bpmn:flowNodeRef>Activity_1te7lta</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>Gateway_02vd9k4</bpmn:flowNodeRef>
       </bpmn:lane>
-      <bpmn:lane id="Lane_0he3gkx" name="Product Owner / wie wordt dit?">
+      <bpmn:lane id="Lane_0he3gkx" name="Product Owner / Via script / formule omdat deze persoon er niet is">
         <bpmn:flowNodeRef>Activity_0jsutav</bpmn:flowNodeRef>
       </bpmn:lane>
+      <bpmn:lane id="Lane_0szzw8k" name="Project Lead">
+        <bpmn:flowNodeRef>Activity_0yqsr40</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Activity_0vrrsiu</bpmn:flowNodeRef>
+      </bpmn:lane>
     </bpmn:laneSet>
-    <bpmn:userTask id="Activity_0vrrsiu" name="Define Data Value Canvas">
-      <bpmn:extensionElements>
-        <zeebe:userTask />
-      </bpmn:extensionElements>
-      <bpmn:incoming>Flow_00mo0u3</bpmn:incoming>
-      <bpmn:outgoing>Flow_0jj4bia</bpmn:outgoing>
-    </bpmn:userTask>
     <bpmn:startEvent id="Event_1dsno3t" name="Request recieved">
       <bpmn:outgoing>Flow_00mo0u3</bpmn:outgoing>
       <bpmn:messageEventDefinition id="MessageEventDefinition_0h88q7j" />
@@ -293,13 +300,6 @@ Manager beoordeeld nu volgens mij de levensvatbaarheid en de relevantie van het 
       <bpmn:outgoing>Flow_0f1vu4r</bpmn:outgoing>
       <bpmn:outgoing>Flow_0i0d12f</bpmn:outgoing>
     </bpmn:exclusiveGateway>
-    <bpmn:userTask id="Activity_0jsutav" name="User Stories Prioritization">
-      <bpmn:extensionElements>
-        <zeebe:userTask />
-      </bpmn:extensionElements>
-      <bpmn:incoming>Flow_1d7ofte</bpmn:incoming>
-      <bpmn:outgoing>Flow_0zsbjuc</bpmn:outgoing>
-    </bpmn:userTask>
     <bpmn:endEvent id="Event_07w4jl2" name="Delivery of information product">
       <bpmn:incoming>Flow_0wd14km</bpmn:incoming>
     </bpmn:endEvent>
@@ -310,6 +310,24 @@ Manager beoordeeld nu volgens mij de levensvatbaarheid en de relevantie van het 
       <bpmn:incoming>Flow_0f1vu4r</bpmn:incoming>
       <bpmn:outgoing>Flow_0ic8i8s</bpmn:outgoing>
     </bpmn:task>
+    <bpmn:subProcess id="Activity_1rtw4j3" name="Backlog Refinement">
+      <bpmn:incoming>Flow_0zsbjuc</bpmn:incoming>
+      <bpmn:outgoing>Flow_04bm0em</bpmn:outgoing>
+    </bpmn:subProcess>
+    <bpmn:subProcess id="Activity_06n8mwu" name="Scrum">
+      <bpmn:incoming>Flow_04bm0em</bpmn:incoming>
+      <bpmn:outgoing>Flow_0wd14km</bpmn:outgoing>
+    </bpmn:subProcess>
+    <bpmn:sequenceFlow id="Flow_00mo0u3" sourceRef="Event_1dsno3t" targetRef="Activity_0vrrsiu" />
+    <bpmn:sequenceFlow id="Flow_0jj4bia" sourceRef="Activity_0vrrsiu" targetRef="Activity_1te7lta" />
+    <bpmn:sequenceFlow id="Flow_19s5a5r" sourceRef="Activity_1te7lta" targetRef="Gateway_02vd9k4" />
+    <bpmn:sequenceFlow id="Flow_0f1vu4r" name="No-Go" sourceRef="Gateway_02vd9k4" targetRef="Activity_0okg6xu" />
+    <bpmn:sequenceFlow id="Flow_0i0d12f" name="Go" sourceRef="Gateway_02vd9k4" targetRef="Activity_0yqsr40" />
+    <bpmn:sequenceFlow id="Flow_1d7ofte" sourceRef="Activity_0yqsr40" targetRef="Activity_0jsutav" />
+    <bpmn:sequenceFlow id="Flow_0zsbjuc" sourceRef="Activity_0jsutav" targetRef="Activity_1rtw4j3" />
+    <bpmn:sequenceFlow id="Flow_0wd14km" sourceRef="Activity_06n8mwu" targetRef="Event_07w4jl2" />
+    <bpmn:sequenceFlow id="Flow_0ic8i8s" sourceRef="Activity_0okg6xu" targetRef="Event_1lhb9b1" />
+    <bpmn:sequenceFlow id="Flow_04bm0em" sourceRef="Activity_1rtw4j3" targetRef="Activity_06n8mwu" />
     <bpmn:subProcess id="Activity_0yqsr40" name="Solution Refinement">
       <bpmn:incoming>Flow_0i0d12f</bpmn:incoming>
       <bpmn:outgoing>Flow_1d7ofte</bpmn:outgoing>
@@ -335,24 +353,18 @@ Manager beoordeeld nu volgens mij de levensvatbaarheid en de relevantie van het 
       <bpmn:sequenceFlow id="Flow_1p9ncjn" sourceRef="Activity_05lfte0" targetRef="Activity_0ofeg5m" />
       <bpmn:sequenceFlow id="Flow_0zahh12" sourceRef="Activity_0ofeg5m" targetRef="Activity_1yroqj2" />
     </bpmn:subProcess>
-    <bpmn:subProcess id="Activity_1rtw4j3" name="Backlog Refinement">
-      <bpmn:incoming>Flow_0zsbjuc</bpmn:incoming>
-      <bpmn:outgoing>Flow_04bm0em</bpmn:outgoing>
-    </bpmn:subProcess>
-    <bpmn:subProcess id="Activity_06n8mwu" name="Scrum">
-      <bpmn:incoming>Flow_04bm0em</bpmn:incoming>
-      <bpmn:outgoing>Flow_0wd14km</bpmn:outgoing>
-    </bpmn:subProcess>
-    <bpmn:sequenceFlow id="Flow_00mo0u3" sourceRef="Event_1dsno3t" targetRef="Activity_0vrrsiu" />
-    <bpmn:sequenceFlow id="Flow_0jj4bia" sourceRef="Activity_0vrrsiu" targetRef="Activity_1te7lta" />
-    <bpmn:sequenceFlow id="Flow_19s5a5r" sourceRef="Activity_1te7lta" targetRef="Gateway_02vd9k4" />
-    <bpmn:sequenceFlow id="Flow_0f1vu4r" name="No-Go" sourceRef="Gateway_02vd9k4" targetRef="Activity_0okg6xu" />
-    <bpmn:sequenceFlow id="Flow_0i0d12f" name="Go" sourceRef="Gateway_02vd9k4" targetRef="Activity_0yqsr40" />
-    <bpmn:sequenceFlow id="Flow_1d7ofte" sourceRef="Activity_0yqsr40" targetRef="Activity_0jsutav" />
-    <bpmn:sequenceFlow id="Flow_0zsbjuc" sourceRef="Activity_0jsutav" targetRef="Activity_1rtw4j3" />
-    <bpmn:sequenceFlow id="Flow_0wd14km" sourceRef="Activity_06n8mwu" targetRef="Event_07w4jl2" />
-    <bpmn:sequenceFlow id="Flow_0ic8i8s" sourceRef="Activity_0okg6xu" targetRef="Event_1lhb9b1" />
-    <bpmn:sequenceFlow id="Flow_04bm0em" sourceRef="Activity_1rtw4j3" targetRef="Activity_06n8mwu" />
+    <bpmn:userTask id="Activity_0vrrsiu" name="Define Data Value Canvas">
+      <bpmn:extensionElements>
+        <zeebe:userTask />
+      </bpmn:extensionElements>
+      <bpmn:incoming>Flow_00mo0u3</bpmn:incoming>
+      <bpmn:outgoing>Flow_0jj4bia</bpmn:outgoing>
+    </bpmn:userTask>
+    <bpmn:scriptTask id="Activity_0jsutav" name="User Stories Prioritization">
+      <bpmn:incoming>Flow_1d7ofte</bpmn:incoming>
+      <bpmn:outgoing>Flow_0zsbjuc</bpmn:outgoing>
+    </bpmn:scriptTask>
+    <bpmn:association id="Association_1dfmhmt" associationDirection="None" sourceRef="Activity_0jsutav" targetRef="TextAnnotation_13elrw7" />
   </bpmn:process>
   <bpmndi:BPMNDiagram id="BPMNDiagram_1">
     <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="Collaboration_0pg9788">
@@ -708,7 +720,7 @@ Manager beoordeeld nu volgens mij de levensvatbaarheid en de relevantie van het 
         <di:waypoint x="3682" y="3245" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNShape id="Participant_1sl00vv_di" bpmnElement="Participant_1sl00vv" isHorizontal="true">
-        <dc:Bounds x="532" y="840" width="1798" height="820" />
+        <dc:Bounds x="532" y="840" width="1798" height="1050" />
         <bpmndi:BPMNLabel />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Lane_0pt4s6h_di" bpmnElement="Lane_0pt4s6h" isHorizontal="true">
@@ -720,11 +732,12 @@ Manager beoordeeld nu volgens mij de levensvatbaarheid en de relevantie van het 
         <bpmndi:BPMNLabel />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Lane_0he3gkx_di" bpmnElement="Lane_0he3gkx" isHorizontal="true">
-        <dc:Bounds x="562" y="1420" width="1768" height="240" />
+        <dc:Bounds x="562" y="1670" width="1768" height="220" />
         <bpmndi:BPMNLabel />
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Activity_1dldpzz_di" bpmnElement="Activity_0vrrsiu">
-        <dc:Bounds x="740" y="990" width="100" height="80" />
+      <bpmndi:BPMNShape id="Lane_0szzw8k_di" bpmnElement="Lane_0szzw8k" isHorizontal="true">
+        <dc:Bounds x="562" y="1420" width="1768" height="250" />
+        <bpmndi:BPMNLabel />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Event_0nr2hwg_di" bpmnElement="Event_1dsno3t">
         <dc:Bounds x="652" y="1012" width="36" height="36" />
@@ -740,9 +753,6 @@ Manager beoordeeld nu volgens mij de levensvatbaarheid en de relevantie van het 
         <bpmndi:BPMNLabel>
           <dc:Bounds x="1021.5" y="1335" width="57" height="14" />
         </bpmndi:BPMNLabel>
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Activity_1c36imt_di" bpmnElement="Activity_0jsutav">
-        <dc:Bounds x="1640" y="1550" width="100" height="80" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Event_07w4jl2_di" bpmnElement="Event_07w4jl2">
         <dc:Bounds x="2172" y="1052" width="36" height="36" />
@@ -760,27 +770,12 @@ Manager beoordeeld nu volgens mij de levensvatbaarheid en de relevantie van het 
         <dc:Bounds x="1290" y="1130" width="100" height="80" />
         <bpmndi:BPMNLabel />
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Activity_0yqsr40_di" bpmnElement="Activity_0yqsr40" isExpanded="true">
-        <dc:Bounds x="1180" y="890" width="540" height="200" />
-        <bpmndi:BPMNLabel />
+      <bpmndi:BPMNShape id="Activity_1dldpzz_di" bpmnElement="Activity_0vrrsiu">
+        <dc:Bounds x="750" y="1500" width="100" height="80" />
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Activity_1q9ism9_di" bpmnElement="Activity_05lfte0">
-        <dc:Bounds x="1220" y="950" width="100" height="80" />
+      <bpmndi:BPMNShape id="Activity_00w2us8_di" bpmnElement="Activity_0jsutav">
+        <dc:Bounds x="1750" y="1770" width="100" height="80" />
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Activity_10myuld_di" bpmnElement="Activity_0ofeg5m">
-        <dc:Bounds x="1390" y="950" width="100" height="80" />
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Activity_1x99bx5_di" bpmnElement="Activity_1yroqj2">
-        <dc:Bounds x="1560" y="950" width="100" height="80" />
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNEdge id="Flow_1p9ncjn_di" bpmnElement="Flow_1p9ncjn">
-        <di:waypoint x="1320" y="990" />
-        <di:waypoint x="1390" y="990" />
-      </bpmndi:BPMNEdge>
-      <bpmndi:BPMNEdge id="Flow_0zahh12_di" bpmnElement="Flow_0zahh12">
-        <di:waypoint x="1490" y="990" />
-        <di:waypoint x="1560" y="990" />
-      </bpmndi:BPMNEdge>
       <bpmndi:BPMNShape id="Activity_0smntg8_di" bpmnElement="Activity_1rtw4j3">
         <dc:Bounds x="1810" y="1030" width="100" height="80" />
       </bpmndi:BPMNShape>
@@ -788,13 +783,40 @@ Manager beoordeeld nu volgens mij de levensvatbaarheid en de relevantie van het 
         <dc:Bounds x="1980" y="1030" width="100" height="80" />
         <bpmndi:BPMNLabel />
       </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_0yqsr40_di" bpmnElement="Activity_0yqsr40" isExpanded="true">
+        <dc:Bounds x="1140" y="1440" width="540" height="200" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_1q9ism9_di" bpmnElement="Activity_05lfte0">
+        <dc:Bounds x="1180" y="1500" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_10myuld_di" bpmnElement="Activity_0ofeg5m">
+        <dc:Bounds x="1350" y="1500" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_1x99bx5_di" bpmnElement="Activity_1yroqj2">
+        <dc:Bounds x="1520" y="1500" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="Flow_1p9ncjn_di" bpmnElement="Flow_1p9ncjn">
+        <di:waypoint x="1280" y="1540" />
+        <di:waypoint x="1350" y="1540" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_0zahh12_di" bpmnElement="Flow_0zahh12">
+        <di:waypoint x="1450" y="1540" />
+        <di:waypoint x="1520" y="1540" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Association_1dfmhmt_di" bpmnElement="Association_1dfmhmt">
+        <di:waypoint x="1850" y="1809" />
+        <di:waypoint x="2020" y="1806" />
+      </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="Flow_00mo0u3_di" bpmnElement="Flow_00mo0u3">
         <di:waypoint x="688" y="1030" />
-        <di:waypoint x="740" y="1030" />
+        <di:waypoint x="719" y="1030" />
+        <di:waypoint x="719" y="1540" />
+        <di:waypoint x="750" y="1540" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="Flow_0jj4bia_di" bpmnElement="Flow_0jj4bia">
-        <di:waypoint x="790" y="1070" />
-        <di:waypoint x="790" y="1300" />
+        <di:waypoint x="800" y="1500" />
+        <di:waypoint x="800" y="1300" />
         <di:waypoint x="870" y="1300" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="Flow_19s5a5r_di" bpmnElement="Flow_19s5a5r">
@@ -812,25 +834,22 @@ Manager beoordeeld nu volgens mij de levensvatbaarheid en de relevantie van het 
       <bpmndi:BPMNEdge id="Flow_0i0d12f_di" bpmnElement="Flow_0i0d12f">
         <di:waypoint x="1075" y="1300" />
         <di:waypoint x="1110" y="1300" />
-        <di:waypoint x="1110" y="990" />
-        <di:waypoint x="1180" y="990" />
+        <di:waypoint x="1110" y="1540" />
+        <di:waypoint x="1140" y="1540" />
         <bpmndi:BPMNLabel>
-          <dc:Bounds x="1118" y="1142" width="15" height="14" />
+          <dc:Bounds x="1086" y="1410" width="15" height="14" />
         </bpmndi:BPMNLabel>
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="Flow_1d7ofte_di" bpmnElement="Flow_1d7ofte">
-        <di:waypoint x="1690" y="1090" />
-        <di:waypoint x="1690" y="1550" />
+        <di:waypoint x="1650" y="1640" />
+        <di:waypoint x="1650" y="1780" />
+        <di:waypoint x="1750" y="1780" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="Flow_0zsbjuc_di" bpmnElement="Flow_0zsbjuc">
-        <di:waypoint x="1740" y="1590" />
-        <di:waypoint x="1760" y="1590" />
-        <di:waypoint x="1760" y="1070" />
-        <di:waypoint x="1810" y="1070" />
-      </bpmndi:BPMNEdge>
-      <bpmndi:BPMNEdge id="Flow_04bm0em_di" bpmnElement="Flow_04bm0em">
-        <di:waypoint x="1910" y="1070" />
-        <di:waypoint x="1980" y="1070" />
+        <di:waypoint x="1800" y="1770" />
+        <di:waypoint x="1800" y="1440" />
+        <di:waypoint x="1860" y="1440" />
+        <di:waypoint x="1860" y="1110" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="Flow_0wd14km_di" bpmnElement="Flow_0wd14km">
         <di:waypoint x="2080" y="1070" />
@@ -839,6 +858,10 @@ Manager beoordeeld nu volgens mij de levensvatbaarheid en de relevantie van het 
       <bpmndi:BPMNEdge id="Flow_0ic8i8s_di" bpmnElement="Flow_0ic8i8s">
         <di:waypoint x="1390" y="1170" />
         <di:waypoint x="1452" y="1170" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_04bm0em_di" bpmnElement="Flow_04bm0em">
+        <di:waypoint x="1910" y="1070" />
+        <di:waypoint x="1980" y="1070" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="Association_0tnnayw_di" bpmnElement="Association_0tnnayw">
         <di:waypoint x="1121" y="690" />
@@ -852,9 +875,9 @@ Manager beoordeeld nu volgens mij de levensvatbaarheid en de relevantie van het 
         <di:waypoint x="870" y="1297" />
         <di:waypoint x="260" y="1258" />
       </bpmndi:BPMNEdge>
-      <bpmndi:BPMNEdge id="Association_1dfmhmt_di" bpmnElement="Association_1dfmhmt">
-        <di:waypoint x="1698" y="1630" />
-        <di:waypoint x="1717" y="1720" />
+      <bpmndi:BPMNEdge id="Association_1b1jkgn_di" bpmnElement="Association_1b1jkgn">
+        <di:waypoint x="915" y="1260" />
+        <di:waypoint x="906" y="1180" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNShape id="TextAnnotation_0lhaxx0_di" bpmnElement="TextAnnotation_0lhaxx0">
         <dc:Bounds x="920" y="206" width="150" height="69" />
@@ -864,11 +887,27 @@ Manager beoordeeld nu volgens mij de levensvatbaarheid en de relevantie van het 
         <dc:Bounds x="1080" y="380" width="449.98313090418355" height="112.01079622132255" />
         <bpmndi:BPMNLabel />
       </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="TextAnnotation_1sqfit8_di" bpmnElement="TextAnnotation_1sqfit8">
+        <dc:Bounds x="160" y="1240" width="99.99156545209178" height="400.8097165991903" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
       <bpmndi:BPMNEdge id="Flow_1x6ke3n_di" bpmnElement="Flow_1x6ke3n">
         <di:waypoint x="760" y="770" />
         <di:waypoint x="760" y="951" />
         <di:waypoint x="670" y="951" />
         <di:waypoint x="670" y="1012" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_0np75qg_di" bpmnElement="Flow_0np75qg">
+        <di:waypoint x="930" y="770" />
+        <di:waypoint x="930" y="880" />
+        <di:waypoint x="780" y="880" />
+        <di:waypoint x="780" y="1500" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_0y3wr5u_di" bpmnElement="Flow_0y3wr5u">
+        <di:waypoint x="930" y="770" />
+        <di:waypoint x="930" y="870" />
+        <di:waypoint x="1420" y="870" />
+        <di:waypoint x="1420" y="1440" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="Flow_0ubqumj_di" bpmnElement="Flow_0ubqumj">
         <di:waypoint x="4200" y="2183" />
@@ -882,26 +921,14 @@ Manager beoordeeld nu volgens mij de levensvatbaarheid en de relevantie van het 
         <di:waypoint x="2670" y="2985" />
         <di:waypoint x="2670" y="3227" />
       </bpmndi:BPMNEdge>
-      <bpmndi:BPMNShape id="TextAnnotation_1sqfit8_di" bpmnElement="TextAnnotation_1sqfit8">
-        <dc:Bounds x="160" y="1240" width="99.99156545209178" height="400.8097165991903" />
-        <bpmndi:BPMNLabel />
-      </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="TextAnnotation_13elrw7_di" bpmnElement="TextAnnotation_13elrw7">
-        <dc:Bounds x="1670" y="1720" width="99.99156545209178" height="70.17543859649123" />
+        <dc:Bounds x="2020" y="1790" width="369.9814439946019" height="170.0404858299595" />
         <bpmndi:BPMNLabel />
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNEdge id="Flow_0np75qg_di" bpmnElement="Flow_0np75qg">
-        <di:waypoint x="930" y="770" />
-        <di:waypoint x="930" y="880" />
-        <di:waypoint x="790" y="880" />
-        <di:waypoint x="790" y="990" />
-      </bpmndi:BPMNEdge>
-      <bpmndi:BPMNEdge id="Flow_0y3wr5u_di" bpmnElement="Flow_0y3wr5u">
-        <di:waypoint x="930" y="770" />
-        <di:waypoint x="930" y="870" />
-        <di:waypoint x="1460" y="870" />
-        <di:waypoint x="1460" y="890" />
-      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="TextAnnotation_11j9m8m_di" bpmnElement="TextAnnotation_11j9m8m">
+        <dc:Bounds x="850" y="1110" width="99.99156545209178" height="70.17543859649123" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
     </bpmndi:BPMNPlane>
   </bpmndi:BPMNDiagram>
   <bpmndi:BPMNDiagram id="BPMNDiagram_02v8e6g">
