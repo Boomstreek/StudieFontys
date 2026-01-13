@@ -67,3 +67,215 @@
 - **AI Prompt:**
     
     > `Minimalist graphic background, corporate branding colors, IT company logo in center, professional clean typography, high resolution.`
+    
+
+# Full script
+## **SCENE 1 – THE CRISIS (0–10s)**
+
+Cinematic close-up of a **broken radiator pipe violently spraying high-pressure water** into a **wet, messy student dorm room**. Water splashes against the walls, furniture, and camera lens.  
+Outside the window, a **raging snow blizzard** howls relentlessly.  
+In the center of the room stands a **young woman**, completely soaked, wearing a **ruined elegant evening dress clearly meant for a date**.  
+She stands frozen in place, her face showing **panic, despair, and disbelief** as the chaos unfolds around her.  
+Lighting is **cold and dramatic**, dominated by blue tones. Handheld camera movement enhances the sense of urgency, while the sound of rushing water fills the room.
+
+---
+
+## **SCENE 2 – EPIC INTRO (10–20s)**
+
+Suddenly, the door **explodes open**.  
+**Four men in full black commando gear** — tactical vests, helmets, gloves — storm into the room like an elite SWAT team.  
+At the exact same moment, a **giant hyper-realistic T-Rex smashes through the wall**, sending debris, dust, and chunks of plaster flying everywhere.  
+Smoke and particles fill the air.  
+The camera shifts to **low-angle heroic shots**, bathed in orange-and-blue blockbuster lighting, as **epic action music swells** to full intensity.
+
+---
+
+## **SCENE 3 – FALSE HOPE (20–30s)**
+
+The woman turns toward the commandos.  
+Her expression instantly transforms from despair to **pure hope**.  
+She **jumps high into the air with joy**, arms wide open, despite her soaking wet clothes, clearly trying to run toward and hug one of the commandos.  
+The moment plays in **slow motion**, water droplets flying through the air.  
+The commandos remain **stone-faced and serious**, staring straight ahead like perfectly disciplined professionals.  
+The heroic music continues triumphantly.
+
+---
+
+## **SCENE 4 – THE “IT” MONTAGE (30–37s)**
+
+A fast-paced **action-style montage** begins.  
+The commandos are now seated inside the **same messy, flooded student dorm room**, aggressively **typing on laptops** with intense focus.  
+**Sparks fly from the keyboards**, screens glow brightly, sweat drips from their faces as fingers pound the keys like weapons.  
+Rapid close-ups show **lines of code scrolling at impossible speed**.  
+In the background, the **T-Rex now sits calmly in the corner**, delicately holding a **tiny teacup**, sipping politely.  
+Motion blur, rapid cuts, and exaggerated seriousness push the music to its absolute peak.
+
+---
+
+## **SCENE 5 – THE REVEAL / ANTICLIMAX (37–47s)**
+
+The music **cuts abruptly to silence**.  
+The lighting switches to **flat, mundane, almost office-like**.  
+The commandos stand proudly behind the woman, **arms crossed**, posing as if the mission is complete.  
+The woman sits behind a laptop.  
+On the screen, clearly visible, is a large button labeled **“Klacht melden”**.  
+She **sighs deeply**, exhausted and disappointed, then reluctantly clicks the button.  
+The commandos turn and **leave the wet, messy student dorm room** without a word.  
+The **T-Rex stays behind**, watching them go with a confused expression.  
+Behind the woman, the radiator now sprays water **even harder than before**.
+
+---
+
+## **SCENE 6 – THE REAL HERO (47–57s)**
+
+The door swings open once more.  
+An **extremely muscular, handsome plumber** in a tight blue overall bursts into the room heroically — wearing a **green Luigi hat**.  
+He calmly turns a single valve **once** — the leak immediately stops.  
+Warm, golden **heroic lighting** floods the room.  
+The plumber gives the **T-Rex a confident high-five**; the T-Rex looks genuinely happy.  
+The woman rushes forward and **hugs the plumber with immense gratitude** as the chaos finally ends.
+
+# Poging 2 volledig script
+Create a **cinematic action-comedy video**, **exact total duration: 60 seconds**.  
+Maintain **consistent characters, clothing, room layout, and lighting continuity** throughout the entire clip.  
+Style: **Hollywood blockbuster parody**, high production value, exaggerated drama, absurd humor.  
+Use dynamic camera movement, cinematic depth of field, realistic physics, and strong visual clarity.
+
+---
+
+**0–10s | THE CRISIS**  
+Close-up: **broken radiator pipe spraying high-pressure water** across a **wet, messy student dorm room**. Water hits walls, furniture, camera lens.  
+Outside window: **violent snow blizzard**.  
+Medium shot: **young woman**, completely soaked, wearing a **ruined elegant evening dress**, frozen in shock.  
+Facial expression: panic, despair, disbelief.  
+Lighting: cold blue tones.  
+Camera: slight handheld shake.  
+Audio: loud rushing water, distant wind.
+
+---
+
+**10–20s | EPIC INTRO**  
+Door **blasts open**.  
+**Four men in black commando tactical gear** rush in like a SWAT team.  
+Simultaneously: **giant hyper-realistic T-Rex smashes through wall**, debris and dust explode into the room.  
+Smoke fills the air.  
+Camera: low-angle hero shots, slow push-ins.  
+Lighting: orange-and-blue action lighting.  
+Music: epic blockbuster score rises.
+
+---
+
+**20–30s | FALSE HOPE**  
+Woman turns toward commandos.  
+Expression shifts instantly to **pure hope**.  
+She **jumps joyfully toward them**, arms wide, trying to hug one of them.  
+Action in **slow motion**, water droplets suspended mid-air.  
+Commandos remain **stone-faced, motionless, serious**.  
+Music continues triumphant.
+
+---
+
+**30–37s | IT MONTAGE**  
+Rapid action montage.  
+Commandos seated in the **same flooded dorm room**, aggressively **typing on laptops**.  
+**Sparks fly from keyboards**, glowing screens, visible sweat, intense focus.  
+Extreme close-ups of **fast-scrolling code**.  
+Background: **T-Rex calmly sitting**, delicately sipping tea from a **tiny teacup**.  
+Camera: fast cuts, motion blur.  
+Music reaches maximum intensity.
+
+---
+
+**37–47s | ANTICLIMAX**  
+Music **cuts to silence**.  
+Lighting switches to flat, neutral, office-like.  
+Commandos stand behind woman, **arms crossed**, proud hero poses.  
+Woman sits at laptop.  
+Screen clearly shows large button: **“Klacht melden”**.  
+She sighs, exhausted, clicks the button.  
+Commandos turn and **exit the room**.  
+**T-Rex stays behind, confused**.  
+Radiator sprays **even more water than before**.
+
+---
+
+**47–60s | THE REAL HERO**  
+Door opens again.  
+**Extremely muscular, handsome plumber** enters heroically, wearing a **blue overall and green Luigi hat**.  
+He turns one valve **once** — leak instantly stops.  
+Lighting shifts to warm golden hero light.  
+Plumber gives **T-Rex a confident high-five**; T-Rex looks happy.  
+Woman hugs plumber in gratitude.  
+Final mood: relief, warmth, comedic payoff.
+
+---
+
+Ensure **exactly 60 seconds runtime**, smooth pacing, strong visual storytelling, and comedic clarity.  
+
+# Versie 3
+Create a **cinematic action-comedy video**, **exact total duration: 80 seconds**.  
+**Single continuous location**, **no scene resets**, **consistent character faces, outfits, and room layout** throughout.  
+Style: **Hollywood blockbuster parody**, high realism, exaggerated drama, absurd humor.  
+No narration, no on-screen text until optional end card (end card must be textless).
+
+**0–10s | THE CRISIS**  
+Close-up: **broken radiator pipe spraying high-pressure water** in a **wet, messy student dorm room**.  
+Water hits walls, furniture, camera lens.  
+Outside window: **violent snow blizzard**.  
+Medium shot: **young woman**, completely soaked, wearing a **ruined elegant evening dress**, frozen in panic.  
+Lighting: cold blue tones.  
+Camera: slight handheld shake.  
+Audio: rushing water, wind.
+
+**10–20s | EPIC INTRO**  
+Door **blasts open**.  
+**Four men in black commando tactical gear** rush in like a SWAT team.  
+Simultaneously: **giant hyper-realistic T-Rex smashes through wall**, debris and dust flying.  
+Smoke fills room.  
+Camera: low-angle heroic shots.  
+Lighting: orange-blue action lighting.  
+Music: epic score rises.
+
+**20–30s | FALSE HOPE**  
+Woman turns toward commandos, expression shifts to **pure hope**.  
+She **jumps joyfully toward them**, arms wide, trying to hug one.  
+**Slow motion**, water droplets suspended mid-air.  
+Commandos remain **stone-faced and motionless**.  
+Music remains triumphant.
+
+**30–40s | IT MONTAGE**  
+Rapid montage.  
+Commandos seated in the **same flooded room**, aggressively **typing on laptops**.  
+**Sparks from keyboards**, glowing screens, sweat, intense focus.  
+Extreme close-ups of **fast-scrolling code**.  
+Background: **T-Rex calmly sitting**, delicately sipping tea from a **tiny teacup**.  
+Camera: fast cuts, motion blur.  
+Music at maximum intensity.
+
+**40–55s | ANTICLIMAX**  
+Music **cuts to silence**.  
+Lighting becomes flat, neutral, office-like.  
+Commandos stand behind woman, **arms crossed**, proud poses.  
+Woman sits at laptop; screen clearly shows large button: **“Klacht melden”**.  
+She sighs and clicks it.  
+Commandos **exit the room**.  
+**T-Rex stays behind, confused**.  
+Radiator sprays **even more water than before**.
+
+**55–70s | THE REAL HERO**  
+Door opens again.  
+**Extremely muscular, handsome plumber** enters heroically, wearing **blue overalls and a green Luigi hat**.  
+He turns one valve **once** — leak instantly stops.  
+Lighting shifts to warm golden hero light.  
+Plumber gives **T-Rex a confident high-five**; T-Rex looks happy.  
+Woman hugs plumber in gratitude.  
+Mood: relief, warmth, comedic payoff.
+
+**70–80s | TEXTLESS END CARD**  
+Hard cut to a **clean, minimalist background** in neutral or brand-ready colors.  
+**No text, no logo, no animation requiring text**.  
+Subtle ambient motion only (soft gradient movement or light particles).  
+Calm, neutral lighting.  
+Designed for **post-production logo or text overlay**.
+
+Ensure **exactly 80 seconds runtime**, smooth pacing, strong visual continuity, realistic water physics, and clear comedic timing.
