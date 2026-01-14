@@ -74,19 +74,132 @@
 
 Cinematic close-up of a **broken radiator pipe violently spraying high-pressure water** into a **wet, messy student dorm room**. Water splashes against the walls, furniture, and camera lens.  
 Outside the window, a **raging snow blizzard** howls relentlessly.  
-In the center of the room stands a **young woman**, completely soaked, wearing a **ruined elegant evening dress clearly meant for a date**.  
+In the center of the room stands a **young woman, white, attractive**, completely soaked, wearing a **ruined elegant evening dress clearly meant for a date**.  
 She stands frozen in place, her face showing **panic, despair, and disbelief** as the chaos unfolds around her.  
-Lighting is **cold and dramatic**, dominated by blue tones. Handheld camera movement enhances the sense of urgency, while the sound of rushing water fills the room.
+Lighting is **cold and dramatic**, dominated by blue tones. Handheld camera movement enhances the sense of urgency, while the sound of rushing water fills the room. 
+
+Ensure smooth pacing, strong visual continuity, realistic water physics, and clear comedic timing.
+
 
 ---
 
-## **SCENE 2 – EPIC INTRO (10–20s)**
+## **SCENE 1 – EPIC INTRO (10–20s)**
 
 Suddenly, the door **explodes open**.  
-**Four men in full black commando gear** — tactical vests, helmets, gloves — storm into the room like an elite SWAT team.  
-At the exact same moment, a **giant hyper-realistic T-Rex smashes through the wall**, sending debris, dust, and chunks of plaster flying everywhere.  
+**Four men in full black commando gear** — tactical vests, helmets, gloves — storm into the samen **wet, messy student dorm room** room like an elite SWAT team, looking like hero's to help.  
+A small bit later, a **T-Rex smashes through the wall**, sending debris, dust, and chunks of plaster flying everywhere.  
 Smoke and particles fill the air.  
 The camera shifts to **low-angle heroic shots**, bathed in orange-and-blue blockbuster lighting, as **epic action music swells** to full intensity.
+
+Ensure smooth pacing, strong visual continuity and clear comedic timing.
+
+## scene 2
+
+**INT. WETTE STUDENTENKAMER – NACHT**
+
+Water spuit uit een radiator. Rommel overal.
+
+**0–1s**  
+De deur **KNALT OPEN**.
+
+**1–3s**  
+**VIER MANNEN, diverse uiterlijk, IN ZWARTE COMMANDO-OUTFITS** stormen binnen als een SWAT-team.  
+Op hun borst staat groot **IT**.  
+Low-angle hero shot, oranje-blauwe actiebelichting.  
+Epische muziek zwelt aan.
+
+**3–4s**  
+Ze nemen positie. Klaar om te helpen.
+
+**4–6s**  
+**CRASH.**  
+Een muur breekt open.  
+Een **KLEINE, SCHATTIGE T-REX realistische** verschijnt in stof en rook.
+
+**6–7s**  
+De T-Rex niest, glimlacht ondeugend (Jack Sparrow-vibe),  
+geeft een vriendelijk knikje naar het IT-team.
+
+**7–8s**  
+Wide hero shot:  
+IT-commando’s + schattige T-Rex samen.  
+Muziek piekt.  
+Freeze-frame gevoel.
+
+## Scene 3
+**INT. DEZELFDE NATTE, CHAOTISCHE STUDENTENKAMER – NACHT**  
+(identiek aan vorige scène: water uit radiator, rommel, rookrestjes)
+
+**0–1s**  
+De **jonge vrouw** draait zich om naar de **IT-commando’s**.
+
+**1–3s**  
+Haar gezicht verandert **direct** van wanhoop naar **pure hoop**.  
+Ze **springt juichend omhoog**, armen wijd open, doorweekt,  
+en zet aan om één van hen te omhelzen.
+
+**3–6s – SLOW MOTION**  
+Waterdruppels zweven door de lucht.  
+Haar haar en kleding bewegen elegant in slow motion.  
+De **heroïsche muziek blijft triomfantelijk doorgaan**.
+
+**TUSSENIN BEELD:**  
+De **IT-commando’s blijven roerloos**, strak vooruitkijkend.  
+Geen reactie. Perfect gedisciplineerd.
+
+**6–7s**  
+In de achtergrond:  
+de **zelfde schattige T-Rex** staat rustig naast het kapotte muurgat,  
+leunt ontspannen tegen de muur, kijkt toe met een kleine, tevreden glimlach.
+
+**7–8s**  
+Wide hero shot:  
+– springende vrouw  
+– stoïcijnse IT-commando’s  
+– kalme, schattige T-Rex  
+Water, rook, oranje-blauwe belichting.  
+Episch tableau.
+
+
+## Scene 4
+**INT. DEZELFDE NATTE, CHAOTISCHE STUDENTENKAMER – NACHT**  
+(identiek: water op de vloer, kapotte muur, rookrestjes)
+
+**0–1s**  
+**HARD CUT.**  
+De **IT-commando’s zitten nu in de kamer**, laptop op schoot.
+
+**1–3s**  
+Snelle montage:  
+– vingers **rammen agressief op toetsenborden**  
+– gezichten strak, zwetend  
+– **vonken vliegen** uit de laptops  
+– schermen gloeien fel
+
+**3–5s**  
+Extreme close-ups:  
+**code scrolt belachelijk snel**, onleesbaar, futuristisch.  
+Motion blur, smash cuts.  
+De **epische muziek piekt maximaal**.
+
+**5–6s**  
+Ultra-serieuze blikken.  
+Typen alsof het wapens zijn.
+
+**6–7s**  
+Cut naar achtergrond:  
+de **zelfde schattige T-Rex** zit rustig in de hoek,  
+houdt een **minuscuul theekopje** vast,  
+neemt een keurige slok.
+
+**7–8s**  
+Wide hero shot:  
+chaos op de voorgrond —  
+kalmte in de hoek.  
+Muziek eindigt op hoogste punt.
+
+## Scene 5
+
 
 ---
 
@@ -279,3 +392,6 @@ Calm, neutral lighting.
 Designed for **post-production logo or text overlay**.
 
 Ensure **exactly 80 seconds runtime**, smooth pacing, strong visual continuity, realistic water physics, and clear comedic timing.
+
+
+**INT. DEZELFDE NATTE, CHAOTISCHE STUDENTENKAMER – NACHT** (identiek aan vorige scène: water uit radiator, rommel, rookrestjes) De **jonge vrouw** uit de eerder scene is super blij en knuffelt 1 van de **IT-commando’s**. **TUSSENIN BEELD:** De **IT-commando’s kijken om zich heen om het probleem te identificeren In de achtergrond: de **zelfde T-Rex** staat, die pakt een paraplu, hadneling is jack sparrwo achtig
