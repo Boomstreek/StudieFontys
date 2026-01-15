@@ -13,7 +13,7 @@
     <bpmn:messageFlow id="Flow_0np75qg" sourceRef="Activity_1e2fj7g" targetRef="Activity_0vrrsiu" />
     <bpmn:messageFlow id="Flow_0y3wr5u" sourceRef="Activity_1e2fj7g" targetRef="Activity_0yqsr40" />
     <bpmn:textAnnotation id="TextAnnotation_0lhaxx0">
-      <bpmn:text>Datateam – From Request to Delivery.pdf 1.2</bpmn:text>
+      <bpmn:text>Datateam – From Request to Delivery.pdf 1.5</bpmn:text>
     </bpmn:textAnnotation>
     <bpmn:textAnnotation id="TextAnnotation_0sh3shr">
       <bpmn:text>Paar vragen:
@@ -409,26 +409,6 @@ Strategische weging * MosCow 3=musthave, 2 is should have,  1 is could haver, /
         <di:waypoint x="1170" y="730" />
         <di:waypoint x="1252" y="730" />
       </bpmndi:BPMNEdge>
-      <bpmndi:BPMNShape id="Participant_1vn8ruo_di" bpmnElement="Participant_1vn8ruo" isHorizontal="true">
-        <dc:Bounds x="490" y="80" width="600" height="250" />
-        <bpmndi:BPMNLabel />
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Activity_141nk43_di" bpmnElement="Activity_141nk43">
-        <dc:Bounds x="580" y="100" width="100" height="80" />
-        <bpmndi:BPMNLabel />
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Activity_1qfs8s2_di" bpmnElement="Activity_1qfs8s2">
-        <dc:Bounds x="580" y="200" width="100" height="80" />
-        <bpmndi:BPMNLabel />
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Activity_0u9hw4n_di" bpmnElement="Activity_0u9hw4n">
-        <dc:Bounds x="720" y="100" width="100" height="80" />
-        <bpmndi:BPMNLabel />
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Activity_1pclxjj_di" bpmnElement="Activity_1pclxjj">
-        <dc:Bounds x="720" y="200" width="100" height="80" />
-        <bpmndi:BPMNLabel />
-      </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Participant_1h4rj8c_di" bpmnElement="Datateam001" isHorizontal="true">
         <dc:Bounds x="2552" y="1855" width="1748" height="630" />
         <bpmndi:BPMNLabel />
@@ -719,24 +699,44 @@ Strategische weging * MosCow 3=musthave, 2 is should have,  1 is could haver, /
         <di:waypoint x="3610" y="3245" />
         <di:waypoint x="3682" y="3245" />
       </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="Participant_1vn8ruo_di" bpmnElement="Participant_1vn8ruo" isHorizontal="true">
+        <dc:Bounds x="490" y="80" width="600" height="250" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_141nk43_di" bpmnElement="Activity_141nk43">
+        <dc:Bounds x="580" y="100" width="100" height="80" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_1qfs8s2_di" bpmnElement="Activity_1qfs8s2">
+        <dc:Bounds x="580" y="200" width="100" height="80" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_0u9hw4n_di" bpmnElement="Activity_0u9hw4n">
+        <dc:Bounds x="720" y="100" width="100" height="80" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_1pclxjj_di" bpmnElement="Activity_1pclxjj">
+        <dc:Bounds x="720" y="200" width="100" height="80" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Participant_1sl00vv_di" bpmnElement="Participant_1sl00vv" isHorizontal="true">
         <dc:Bounds x="532" y="840" width="1798" height="1050" />
         <bpmndi:BPMNLabel />
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Lane_0pt4s6h_di" bpmnElement="Lane_0pt4s6h" isHorizontal="true">
-        <dc:Bounds x="562" y="840" width="1768" height="400" />
-        <bpmndi:BPMNLabel />
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Lane_1fb9hu0_di" bpmnElement="Lane_1fb9hu0" isHorizontal="true">
-        <dc:Bounds x="562" y="1240" width="1768" height="180" />
+      <bpmndi:BPMNShape id="Lane_0szzw8k_di" bpmnElement="Lane_0szzw8k" isHorizontal="true">
+        <dc:Bounds x="562" y="1420" width="1768" height="250" />
         <bpmndi:BPMNLabel />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Lane_0he3gkx_di" bpmnElement="Lane_0he3gkx" isHorizontal="true">
         <dc:Bounds x="562" y="1670" width="1768" height="220" />
         <bpmndi:BPMNLabel />
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Lane_0szzw8k_di" bpmnElement="Lane_0szzw8k" isHorizontal="true">
-        <dc:Bounds x="562" y="1420" width="1768" height="250" />
+      <bpmndi:BPMNShape id="Lane_1fb9hu0_di" bpmnElement="Lane_1fb9hu0" isHorizontal="true">
+        <dc:Bounds x="562" y="1240" width="1768" height="180" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Lane_0pt4s6h_di" bpmnElement="Lane_0pt4s6h" isHorizontal="true">
+        <dc:Bounds x="562" y="840" width="1768" height="400" />
         <bpmndi:BPMNLabel />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Event_0nr2hwg_di" bpmnElement="Event_1dsno3t">
@@ -770,12 +770,6 @@ Strategische weging * MosCow 3=musthave, 2 is should have,  1 is could haver, /
         <dc:Bounds x="1290" y="1130" width="100" height="80" />
         <bpmndi:BPMNLabel />
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Activity_1dldpzz_di" bpmnElement="Activity_0vrrsiu">
-        <dc:Bounds x="750" y="1500" width="100" height="80" />
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Activity_00w2us8_di" bpmnElement="Activity_0jsutav">
-        <dc:Bounds x="1750" y="1770" width="100" height="80" />
-      </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Activity_0smntg8_di" bpmnElement="Activity_1rtw4j3">
         <dc:Bounds x="1810" y="1030" width="100" height="80" />
       </bpmndi:BPMNShape>
@@ -787,14 +781,14 @@ Strategische weging * MosCow 3=musthave, 2 is should have,  1 is could haver, /
         <dc:Bounds x="1140" y="1440" width="540" height="200" />
         <bpmndi:BPMNLabel />
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Activity_1q9ism9_di" bpmnElement="Activity_05lfte0">
-        <dc:Bounds x="1180" y="1500" width="100" height="80" />
-      </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Activity_10myuld_di" bpmnElement="Activity_0ofeg5m">
         <dc:Bounds x="1350" y="1500" width="100" height="80" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Activity_1x99bx5_di" bpmnElement="Activity_1yroqj2">
         <dc:Bounds x="1520" y="1500" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_1q9ism9_di" bpmnElement="Activity_05lfte0">
+        <dc:Bounds x="1180" y="1500" width="100" height="80" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNEdge id="Flow_1p9ncjn_di" bpmnElement="Flow_1p9ncjn">
         <di:waypoint x="1280" y="1540" />
@@ -804,10 +798,12 @@ Strategische weging * MosCow 3=musthave, 2 is should have,  1 is could haver, /
         <di:waypoint x="1450" y="1540" />
         <di:waypoint x="1520" y="1540" />
       </bpmndi:BPMNEdge>
-      <bpmndi:BPMNEdge id="Association_1dfmhmt_di" bpmnElement="Association_1dfmhmt">
-        <di:waypoint x="1850" y="1809" />
-        <di:waypoint x="2020" y="1806" />
-      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="Activity_1dldpzz_di" bpmnElement="Activity_0vrrsiu">
+        <dc:Bounds x="750" y="1500" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_00w2us8_di" bpmnElement="Activity_0jsutav">
+        <dc:Bounds x="1750" y="1770" width="100" height="80" />
+      </bpmndi:BPMNShape>
       <bpmndi:BPMNEdge id="Flow_00mo0u3_di" bpmnElement="Flow_00mo0u3">
         <di:waypoint x="688" y="1030" />
         <di:waypoint x="719" y="1030" />
@@ -837,7 +833,7 @@ Strategische weging * MosCow 3=musthave, 2 is should have,  1 is could haver, /
         <di:waypoint x="1110" y="1540" />
         <di:waypoint x="1140" y="1540" />
         <bpmndi:BPMNLabel>
-          <dc:Bounds x="1086" y="1410" width="15" height="14" />
+          <dc:Bounds x="1086" y="1393" width="15" height="14" />
         </bpmndi:BPMNLabel>
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="Flow_1d7ofte_di" bpmnElement="Flow_1d7ofte">
@@ -863,24 +859,12 @@ Strategische weging * MosCow 3=musthave, 2 is should have,  1 is could haver, /
         <di:waypoint x="1910" y="1070" />
         <di:waypoint x="1980" y="1070" />
       </bpmndi:BPMNEdge>
-      <bpmndi:BPMNEdge id="Association_0tnnayw_di" bpmnElement="Association_0tnnayw">
-        <di:waypoint x="1121" y="690" />
-        <di:waypoint x="1127" y="492" />
-      </bpmndi:BPMNEdge>
-      <bpmndi:BPMNEdge id="Association_1okik1y_di" bpmnElement="Association_1okik1y">
-        <di:waypoint x="820" y="245" />
-        <di:waypoint x="920" y="249" />
-      </bpmndi:BPMNEdge>
-      <bpmndi:BPMNEdge id="Association_0czvm9p_di" bpmnElement="Association_0czvm9p">
-        <di:waypoint x="870" y="1297" />
-        <di:waypoint x="260" y="1258" />
-      </bpmndi:BPMNEdge>
-      <bpmndi:BPMNEdge id="Association_1b1jkgn_di" bpmnElement="Association_1b1jkgn">
-        <di:waypoint x="915" y="1260" />
-        <di:waypoint x="906" y="1180" />
+      <bpmndi:BPMNEdge id="Association_1dfmhmt_di" bpmnElement="Association_1dfmhmt">
+        <di:waypoint x="1850" y="1809" />
+        <di:waypoint x="2020" y="1806" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNShape id="TextAnnotation_0lhaxx0_di" bpmnElement="TextAnnotation_0lhaxx0">
-        <dc:Bounds x="920" y="206" width="150" height="69" />
+        <dc:Bounds x="920" y="206" width="150" height="55" />
         <bpmndi:BPMNLabel />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="TextAnnotation_0sh3shr_di" bpmnElement="TextAnnotation_0sh3shr">
@@ -891,6 +875,26 @@ Strategische weging * MosCow 3=musthave, 2 is should have,  1 is could haver, /
         <dc:Bounds x="160" y="1240" width="99.99156545209178" height="400.8097165991903" />
         <bpmndi:BPMNLabel />
       </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="TextAnnotation_13elrw7_di" bpmnElement="TextAnnotation_13elrw7">
+        <dc:Bounds x="2020" y="1790" width="369.9814439946019" height="170.0404858299595" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="TextAnnotation_11j9m8m_di" bpmnElement="TextAnnotation_11j9m8m">
+        <dc:Bounds x="850" y="1110" width="99.99156545209178" height="70.17543859649123" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="Flow_0ubqumj_di" bpmnElement="Flow_0ubqumj">
+        <di:waypoint x="4200" y="2183" />
+        <di:waypoint x="4200" y="2445" />
+        <di:waypoint x="2650" y="2445" />
+        <di:waypoint x="2650" y="2707" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_12g6tiu_di" bpmnElement="Flow_12g6tiu">
+        <di:waypoint x="3500" y="2743" />
+        <di:waypoint x="3500" y="2985" />
+        <di:waypoint x="2670" y="2985" />
+        <di:waypoint x="2670" y="3227" />
+      </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="Flow_1x6ke3n_di" bpmnElement="Flow_1x6ke3n">
         <di:waypoint x="760" y="770" />
         <di:waypoint x="760" y="951" />
@@ -909,26 +913,22 @@ Strategische weging * MosCow 3=musthave, 2 is should have,  1 is could haver, /
         <di:waypoint x="1420" y="870" />
         <di:waypoint x="1420" y="1440" />
       </bpmndi:BPMNEdge>
-      <bpmndi:BPMNEdge id="Flow_0ubqumj_di" bpmnElement="Flow_0ubqumj">
-        <di:waypoint x="4200" y="2183" />
-        <di:waypoint x="4200" y="2445" />
-        <di:waypoint x="2650" y="2445" />
-        <di:waypoint x="2650" y="2707" />
+      <bpmndi:BPMNEdge id="Association_1okik1y_di" bpmnElement="Association_1okik1y">
+        <di:waypoint x="820" y="245" />
+        <di:waypoint x="920" y="249" />
       </bpmndi:BPMNEdge>
-      <bpmndi:BPMNEdge id="Flow_12g6tiu_di" bpmnElement="Flow_12g6tiu">
-        <di:waypoint x="3500" y="2743" />
-        <di:waypoint x="3500" y="2985" />
-        <di:waypoint x="2670" y="2985" />
-        <di:waypoint x="2670" y="3227" />
+      <bpmndi:BPMNEdge id="Association_0tnnayw_di" bpmnElement="Association_0tnnayw">
+        <di:waypoint x="1121" y="690" />
+        <di:waypoint x="1127" y="492" />
       </bpmndi:BPMNEdge>
-      <bpmndi:BPMNShape id="TextAnnotation_13elrw7_di" bpmnElement="TextAnnotation_13elrw7">
-        <dc:Bounds x="2020" y="1790" width="369.9814439946019" height="170.0404858299595" />
-        <bpmndi:BPMNLabel />
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="TextAnnotation_11j9m8m_di" bpmnElement="TextAnnotation_11j9m8m">
-        <dc:Bounds x="850" y="1110" width="99.99156545209178" height="70.17543859649123" />
-        <bpmndi:BPMNLabel />
-      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="Association_0czvm9p_di" bpmnElement="Association_0czvm9p">
+        <di:waypoint x="870" y="1297" />
+        <di:waypoint x="260" y="1258" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Association_1b1jkgn_di" bpmnElement="Association_1b1jkgn">
+        <di:waypoint x="915" y="1260" />
+        <di:waypoint x="906" y="1180" />
+      </bpmndi:BPMNEdge>
     </bpmndi:BPMNPlane>
   </bpmndi:BPMNDiagram>
   <bpmndi:BPMNDiagram id="BPMNDiagram_02v8e6g">
