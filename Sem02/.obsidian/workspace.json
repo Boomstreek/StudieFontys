@@ -25,17 +25,30 @@
             "id": "5365d5d9e957eaf9",
             "type": "leaf",
             "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Beroepsopdracht Your Future/Associate degree Beroepsopdracht PRO - Your Future.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Associate degree Beroepsopdracht PRO - Your Future"
+            }
+          },
+          {
+            "id": "9cef96e93a216c01",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "Weekkaarten/2026-W7.md",
+                "file": "Beroepsopdracht Your Future/Your Future.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2026-W7"
+              "title": "Your Future"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -194,15 +207,23 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "586bf051f7dcb9ab",
+  "active": "9cef96e93a216c01",
   "lastOpenFiles": [
+    "Beroepsopdracht Your Future/Functieprofielen.md",
+    "Beroepsopdracht Your Future/Associate degree Beroepsopdracht PRO - Your Future.pdf",
+    "Beroepsopdracht Your Future/Your Future.md",
     "Weekkaarten/2026-W7.md",
+    "Beroepsopdracht Your Future/functieprofielen.txt",
+    "Beroepsopdracht Your Future/Unconfirmed 264645.crdownload",
+    "Lesavonden/2026-02-12.md",
+    "Beroepsopdracht Your Future",
     "Associate degree Beroepsopdracht PRO - Your Future.pdf",
     "Unconfirmed 422427.crdownload",
-    "Lesavonden/2026-02-12.md",
     "Challenge01/Challenge 1 Business Herhaling en niveaubepaling zorgplanning ouderen.docx",
     "Challenge01/Unconfirmed 940675.crdownload",
     "Challenge01"
