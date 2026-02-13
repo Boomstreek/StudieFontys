@@ -13,24 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lesavonden/2026-02-12.md",
+                "file": "Weekkaarten/2026-W7.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2026-02-12"
+              "title": "2026-W7"
             }
           },
           {
-            "id": "5365d5d9e957eaf9",
+            "id": "83b57cf8bc4739c9",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Beroepsopdracht Your Future/Associate degree Beroepsopdracht PRO - Your Future.pdf"
+                "file": "Leerdoelen/Leerdoelen Sprint 1 Sem02.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "Associate degree Beroepsopdracht PRO - Your Future"
+              "icon": "lucide-file",
+              "title": "Leerdoelen Sprint 1 Sem02"
             }
           },
           {
@@ -46,9 +48,20 @@
               "icon": "lucide-file",
               "title": "Your Future"
             }
+          },
+          {
+            "id": "5365d5d9e957eaf9",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Beroepsopdracht Your Future/Associate degree Beroepsopdracht PRO - Your Future.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Associate degree Beroepsopdracht PRO - Your Future"
+            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -105,7 +118,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "9993d9c848bd2d67",
@@ -212,20 +225,22 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "9cef96e93a216c01",
+  "active": "586bf051f7dcb9ab",
   "lastOpenFiles": [
-    "Beroepsopdracht Your Future/Functieprofielen.md",
-    "Beroepsopdracht Your Future/Associate degree Beroepsopdracht PRO - Your Future.pdf",
-    "Beroepsopdracht Your Future/Your Future.md",
+    "Leerdoelen/Leerdoelen Sprint 1 Sem02.md",
     "Weekkaarten/2026-W7.md",
+    "Leerdoelen",
+    "Lesavonden/2026-02-12.md",
+    "Beroepsopdracht Your Future/Your Future.md",
+    "Beroepsopdracht Your Future/Your Future.pdf",
+    "Beroepsopdracht Your Future/Associate degree Beroepsopdracht PRO - Your Future.pdf",
+    "Beroepsopdracht Your Future/Functieprofielen.md",
     "Beroepsopdracht Your Future/functieprofielen.txt",
     "Beroepsopdracht Your Future/Unconfirmed 264645.crdownload",
-    "Lesavonden/2026-02-12.md",
     "Beroepsopdracht Your Future",
     "Associate degree Beroepsopdracht PRO - Your Future.pdf",
     "Unconfirmed 422427.crdownload",
     "Challenge01/Challenge 1 Business Herhaling en niveaubepaling zorgplanning ouderen.docx",
-    "Challenge01/Unconfirmed 940675.crdownload",
-    "Challenge01"
+    "Challenge01/Unconfirmed 940675.crdownload"
   ]
 }
