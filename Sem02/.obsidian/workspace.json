@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Weekkaarten/2026-W7.md",
+                "file": "Weekkaarten/2026-W8.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2026-W7"
+              "title": "2026-W8"
             }
           },
           {
@@ -227,8 +227,10 @@
   },
   "active": "586bf051f7dcb9ab",
   "lastOpenFiles": [
-    "Leerdoelen/Leerdoelen Sprint 1 Sem02.md",
     "Weekkaarten/2026-W7.md",
+    "Weekkaarten/2026-W8.md",
+    "Weekkaarten/2026-W6.md",
+    "Leerdoelen/Leerdoelen Sprint 1 Sem02.md",
     "Leerdoelen",
     "Lesavonden/2026-02-12.md",
     "Beroepsopdracht Your Future/Your Future.md",
