@@ -25,24 +25,14 @@
             "id": "9cef96e93a216c01",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "GemeenteraadInControl.md"
+                "file": "Weekkaarten/2026-W8.md",
+                "mode": "source",
+                "source": true
               },
-              "icon": "excalidraw-icon",
-              "title": "GemeenteraadInControl"
-            }
-          },
-          {
-            "id": "5365d5d9e957eaf9",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Beroepsopdracht Your Future/Associate degree Beroepsopdracht PRO - Your Future.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Associate degree Beroepsopdracht PRO - Your Future"
+              "icon": "lucide-file",
+              "title": "2026-W8"
             }
           }
         ],
@@ -212,21 +202,21 @@
   },
   "active": "9cef96e93a216c01",
   "lastOpenFiles": [
+    "Leerdoelen/Leerdoelen Sprint 1 Sem02.md",
+    "Weekkaarten/2026-W8.md",
+    "Beroepsopdracht Your Future/Associate degree Beroepsopdracht PRO - Your Future.pdf",
     "GemeenteraadInControl.md",
     "Templates/TemplateDVC.md",
     "Beroepsopdracht Your Future/Your Future.md",
     "Templates/Drawing 2026-02-17 06.52.24.excalidraw.md",
     "Werk/TemplateDVC 1.md",
-    "Weekkaarten/2026-W8.md",
     "Werk",
     "Werk",
     "Weekkaarten/2026-W7.md",
     "Weekkaarten/2026-W6.md",
-    "Leerdoelen/Leerdoelen Sprint 1 Sem02.md",
     "Leerdoelen",
     "Lesavonden/2026-02-12.md",
     "Beroepsopdracht Your Future/Your Future.pdf",
-    "Beroepsopdracht Your Future/Associate degree Beroepsopdracht PRO - Your Future.pdf",
     "Beroepsopdracht Your Future/Functieprofielen.md",
     "Beroepsopdracht Your Future/functieprofielen.txt",
     "Beroepsopdracht Your Future/Unconfirmed 264645.crdownload",
