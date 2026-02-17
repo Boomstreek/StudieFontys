@@ -22,31 +22,15 @@
             }
           },
           {
-            "id": "83b57cf8bc4739c9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Leerdoelen/Leerdoelen Sprint 1 Sem02.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Leerdoelen Sprint 1 Sem02"
-            }
-          },
-          {
             "id": "9cef96e93a216c01",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Beroepsopdracht Your Future/Your Future.md",
-                "mode": "source",
-                "source": true
+                "file": "GemeenteraadInControl.md"
               },
-              "icon": "lucide-file",
-              "title": "Your Future"
+              "icon": "excalidraw-icon",
+              "title": "GemeenteraadInControl"
             }
           },
           {
@@ -61,7 +45,8 @@
               "title": "Associate degree Beroepsopdracht PRO - Your Future"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -225,15 +210,21 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "586bf051f7dcb9ab",
+  "active": "9cef96e93a216c01",
   "lastOpenFiles": [
-    "Weekkaarten/2026-W7.md",
+    "GemeenteraadInControl.md",
+    "Templates/TemplateDVC.md",
+    "Beroepsopdracht Your Future/Your Future.md",
+    "Templates/Drawing 2026-02-17 06.52.24.excalidraw.md",
+    "Werk/TemplateDVC 1.md",
     "Weekkaarten/2026-W8.md",
+    "Werk",
+    "Werk",
+    "Weekkaarten/2026-W7.md",
     "Weekkaarten/2026-W6.md",
     "Leerdoelen/Leerdoelen Sprint 1 Sem02.md",
     "Leerdoelen",
     "Lesavonden/2026-02-12.md",
-    "Beroepsopdracht Your Future/Your Future.md",
     "Beroepsopdracht Your Future/Your Future.pdf",
     "Beroepsopdracht Your Future/Associate degree Beroepsopdracht PRO - Your Future.pdf",
     "Beroepsopdracht Your Future/Functieprofielen.md",
@@ -241,8 +232,6 @@
     "Beroepsopdracht Your Future/Unconfirmed 264645.crdownload",
     "Beroepsopdracht Your Future",
     "Associate degree Beroepsopdracht PRO - Your Future.pdf",
-    "Unconfirmed 422427.crdownload",
-    "Challenge01/Challenge 1 Business Herhaling en niveaubepaling zorgplanning ouderen.docx",
-    "Challenge01/Unconfirmed 940675.crdownload"
+    "Unconfirmed 422427.crdownload"
   ]
 }
