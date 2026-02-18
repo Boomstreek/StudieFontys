@@ -29,7 +29,7 @@
               "state": {
                 "file": "Weekkaarten/2026-W8.md",
                 "mode": "source",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
               "title": "2026-W8"
@@ -202,10 +202,10 @@
   },
   "active": "9cef96e93a216c01",
   "lastOpenFiles": [
-    "Leerdoelen/Leerdoelen Sprint 1 Sem02.md",
-    "Weekkaarten/2026-W8.md",
-    "Beroepsopdracht Your Future/Associate degree Beroepsopdracht PRO - Your Future.pdf",
     "GemeenteraadInControl.md",
+    "Weekkaarten/2026-W8.md",
+    "Leerdoelen/Leerdoelen Sprint 1 Sem02.md",
+    "Beroepsopdracht Your Future/Associate degree Beroepsopdracht PRO - Your Future.pdf",
     "Templates/TemplateDVC.md",
     "Beroepsopdracht Your Future/Your Future.md",
     "Templates/Drawing 2026-02-17 06.52.24.excalidraw.md",
