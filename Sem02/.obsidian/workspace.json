@@ -25,16 +25,32 @@
             "id": "9cef96e93a216c01",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "GemeenteraadInControl.md"
+                "file": "Weekkaarten/2026-W8.md",
+                "mode": "source",
+                "source": true
               },
-              "icon": "excalidraw-icon",
-              "title": "GemeenteraadInControl"
+              "icon": "lucide-file",
+              "title": "2026-W8"
+            }
+          },
+          {
+            "id": "26c71ef307496d3c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Challenge01/Personal Leaderschip/Boekverslag SQL and Relational Theory.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Boekverslag SQL and Relational Theory"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -198,10 +214,16 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "9cef96e93a216c01",
+  "active": "26c71ef307496d3c",
   "lastOpenFiles": [
+    "Challenge01/Analyse/Analyse van Knelpunten & Verbetersuggesties.md",
+    "Challenge01/Personal Leaderschip/Boekverslag SQL and Relational Theory.md",
+    "Challenge01/Personal Leaderschip",
     "Weekkaarten/2026-W8.md",
+    "Lesavonden/2026-02-12.md",
+    "Challenge01/Analyse/Analyse van Knelpunten & Verbetersuggesties.pdf",
     "GemeenteraadInControl.md",
+    "Brief orne en Yvette.md",
     "Leerdoelen/Leerdoelen Sprint 1 Sem02.md",
     "Beroepsopdracht Your Future/Associate degree Beroepsopdracht PRO - Your Future.pdf",
     "Templates/TemplateDVC.md",
@@ -213,13 +235,10 @@
     "Weekkaarten/2026-W7.md",
     "Weekkaarten/2026-W6.md",
     "Leerdoelen",
-    "Lesavonden/2026-02-12.md",
     "Beroepsopdracht Your Future/Your Future.pdf",
     "Beroepsopdracht Your Future/Functieprofielen.md",
     "Beroepsopdracht Your Future/functieprofielen.txt",
     "Beroepsopdracht Your Future/Unconfirmed 264645.crdownload",
-    "Beroepsopdracht Your Future",
-    "Associate degree Beroepsopdracht PRO - Your Future.pdf",
-    "Unconfirmed 422427.crdownload"
+    "Beroepsopdracht Your Future"
   ]
 }

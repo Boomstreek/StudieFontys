@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" targetNamespace="http://bpmn.io/schema/bpmn" exporter="Camunda Modeler" exporterVersion="5.42.0">
+  <bpmn:collaboration id="Collaboration_Simple">
+    <bpmn:participant id="Participant_Hospital" name="Surgical Planning &#38; Bed Management" processRef="Process_Surgery_Simple" />
+  </bpmn:collaboration>
+  <bpmn:process id="Process_Surgery_Simple" isExecutable="true">
+    <bpmn:laneSet id="LaneSet_1">
+      <bpmn:lane id="Lane_Doctor" name="Doctor">
+        <bpmn:flowNodeRef>Start_Visit</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>End_Success</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Task_CreateWorkorder</bpmn:flowNodeRef>
+      </bpmn:lane>
+      <bpmn:lane id="Lane_Planner" name="OR Planner">
+        <bpmn:flowNodeRef>Task_ScheduleOR</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Task_ContactPatient</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Gateway_PatientOk</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Task_CheckBeds</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Gateway_BedOk</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Task_FinalizeHIX</bpmn:flowNodeRef>
+      </bpmn:lane>
+      <bpmn:lane id="Lane_Screening" name="Screening">
+        <bpmn:flowNodeRef>Task_MedicalScreening</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Gateway_ScreeningOk</bpmn:flowNodeRef>
+      </bpmn:lane>
+    </bpmn:laneSet>
+    <bpmn:startEvent id="Start_Visit" name="Patient Visit">
+      <bpmn:outgoing>Flow_1</bpmn:outgoing>
+      <bpmn:outgoing>Flow_0dpnj6a</bpmn:outgoing>
+    </bpmn:startEvent>
+    <bpmn:task id="Task_ScheduleOR" name="Schedule OR Slot">
+      <bpmn:incoming>Flow_2</bpmn:incoming>
+      <bpmn:incoming>Flow_Retry</bpmn:incoming>
+      <bpmn:incoming>Flow_12adath</bpmn:incoming>
+      <bpmn:incoming>Flow_1q284i3</bpmn:incoming>
+      <bpmn:incoming>Flow_1syuis6</bpmn:incoming>
+      <bpmn:outgoing>Flow_3</bpmn:outgoing>
+      <bpmn:outgoing>Flow_0wei21p</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id="Task_ContactPatient" name="Contact Patient for Date">
+      <bpmn:incoming>Flow_3</bpmn:incoming>
+      <bpmn:incoming>Flow_0wei21p</bpmn:incoming>
+      <bpmn:outgoing>Flow_4</bpmn:outgoing>
+      <bpmn:outgoing>Flow_1j57ck6</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:exclusiveGateway id="Gateway_PatientOk" name="Accepted?">
+      <bpmn:incoming>Flow_4</bpmn:incoming>
+      <bpmn:incoming>Flow_1j57ck6</bpmn:incoming>
+      <bpmn:incoming>Flow_078s3lh</bpmn:incoming>
+      <bpmn:outgoing>Flow_ToScreening</bpmn:outgoing>
+      <bpmn:outgoing>Flow_Retry</bpmn:outgoing>
+      <bpmn:outgoing>Flow_02hgvxx</bpmn:outgoing>
+      <bpmn:outgoing>Flow_1j0o539</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+    <bpmn:task id="Task_MedicalScreening" name="Perform Medical Screening">
+      <bpmn:incoming>Flow_ToScreening</bpmn:incoming>
+      <bpmn:incoming>Flow_1j0o539</bpmn:incoming>
+      <bpmn:outgoing>Flow_5</bpmn:outgoing>
+      <bpmn:outgoing>Flow_1umjxm3</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:exclusiveGateway id="Gateway_ScreeningOk" name="Cleared?">
+      <bpmn:incoming>Flow_5</bpmn:incoming>
+      <bpmn:incoming>Flow_1umjxm3</bpmn:incoming>
+      <bpmn:outgoing>Flow_ToBeds</bpmn:outgoing>
+      <bpmn:outgoing>Flow_AbortMed</bpmn:outgoing>
+      <bpmn:outgoing>Flow_078s3lh</bpmn:outgoing>
+      <bpmn:outgoing>Flow_1q284i3</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+    <bpmn:task id="Task_CheckBeds" name="Allocate Inpatient Bed">
+      <bpmn:incoming>Flow_ToBeds</bpmn:incoming>
+      <bpmn:incoming>Flow_02hgvxx</bpmn:incoming>
+      <bpmn:outgoing>Flow_6</bpmn:outgoing>
+      <bpmn:outgoing>Flow_12d0h32</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:exclusiveGateway id="Gateway_BedOk" name="Bed Available?">
+      <bpmn:incoming>Flow_6</bpmn:incoming>
+      <bpmn:incoming>Flow_12d0h32</bpmn:incoming>
+      <bpmn:outgoing>Flow_Final</bpmn:outgoing>
+      <bpmn:outgoing>Flow_Retry</bpmn:outgoing>
+      <bpmn:outgoing>Flow_03yhp80</bpmn:outgoing>
+      <bpmn:outgoing>Flow_1syuis6</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+    <bpmn:task id="Task_FinalizeHIX" name="Finalize HIX Registration">
+      <bpmn:incoming>Flow_Final</bpmn:incoming>
+      <bpmn:incoming>Flow_03yhp80</bpmn:incoming>
+      <bpmn:outgoing>Flow_End</bpmn:outgoing>
+      <bpmn:outgoing>Flow_1isfht6</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:endEvent id="End_Success" name="Ready for Surgery">
+      <bpmn:incoming>Flow_End</bpmn:incoming>
+      <bpmn:incoming>Flow_1isfht6</bpmn:incoming>
+    </bpmn:endEvent>
+    <bpmn:endEvent id="Flow_AbortMed" name="Medical Abort" />
+    <bpmn:sequenceFlow id="Flow_1" sourceRef="Start_Visit" targetRef="Task_CreateWorkorder" />
+    <bpmn:sequenceFlow id="Flow_2" sourceRef="Task_CreateWorkorder" targetRef="Task_ScheduleOR" />
+    <bpmn:sequenceFlow id="Flow_3" sourceRef="Task_ScheduleOR" targetRef="Task_ContactPatient" />
+    <bpmn:sequenceFlow id="Flow_4" sourceRef="Task_ContactPatient" targetRef="Gateway_PatientOk" />
+    <bpmn:sequenceFlow id="Flow_ToScreening" name="Yes" sourceRef="Gateway_PatientOk" targetRef="Task_MedicalScreening" />
+    <bpmn:sequenceFlow id="Flow_Retry" name="No / Retry" sourceRef="Gateway_PatientOk" targetRef="Task_ScheduleOR" />
+    <bpmn:sequenceFlow id="Flow_5" sourceRef="Task_MedicalScreening" targetRef="Gateway_ScreeningOk" />
+    <bpmn:sequenceFlow id="Flow_ToBeds" name="Yes" sourceRef="Gateway_ScreeningOk" targetRef="Task_CheckBeds" />
+    <bpmn:sequenceFlow id="Flow_6" sourceRef="Task_CheckBeds" targetRef="Gateway_BedOk" />
+    <bpmn:sequenceFlow id="Flow_Final" name="Yes" sourceRef="Gateway_BedOk" targetRef="Task_FinalizeHIX" />
+    <bpmn:sequenceFlow id="Flow_End" sourceRef="Task_FinalizeHIX" targetRef="End_Success" />
+    <bpmn:sequenceFlow id="Flow_0dpnj6a" sourceRef="Start_Visit" targetRef="Task_CreateWorkorder" />
+    <bpmn:task id="Task_CreateWorkorder" name="Create HIX Workorder">
+      <bpmn:incoming>Flow_1</bpmn:incoming>
+      <bpmn:incoming>Flow_0dpnj6a</bpmn:incoming>
+      <bpmn:outgoing>Flow_2</bpmn:outgoing>
+      <bpmn:outgoing>Flow_12adath</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:sequenceFlow id="Flow_12adath" sourceRef="Task_CreateWorkorder" targetRef="Task_ScheduleOR" />
+    <bpmn:sequenceFlow id="Flow_0wei21p" sourceRef="Task_ScheduleOR" targetRef="Task_ContactPatient" />
+    <bpmn:sequenceFlow id="Flow_1j57ck6" sourceRef="Task_ContactPatient" targetRef="Gateway_PatientOk" />
+    <bpmn:sequenceFlow id="Flow_02hgvxx" name="yes" sourceRef="Gateway_PatientOk" targetRef="Task_CheckBeds" />
+    <bpmn:sequenceFlow id="Flow_12d0h32" sourceRef="Task_CheckBeds" targetRef="Gateway_BedOk" />
+    <bpmn:sequenceFlow id="Flow_03yhp80" name="yes" sourceRef="Gateway_BedOk" targetRef="Task_FinalizeHIX" />
+    <bpmn:sequenceFlow id="Flow_1isfht6" sourceRef="Task_FinalizeHIX" targetRef="End_Success" />
+    <bpmn:sequenceFlow id="Flow_1j0o539" sourceRef="Gateway_PatientOk" targetRef="Task_MedicalScreening" />
+    <bpmn:sequenceFlow id="Flow_1umjxm3" sourceRef="Task_MedicalScreening" targetRef="Gateway_ScreeningOk" />
+    <bpmn:sequenceFlow id="Flow_078s3lh" name="yes" sourceRef="Gateway_ScreeningOk" targetRef="Gateway_PatientOk" />
+    <bpmn:sequenceFlow id="Flow_1q284i3" name="no" sourceRef="Gateway_ScreeningOk" targetRef="Task_ScheduleOR" />
+    <bpmn:sequenceFlow id="Flow_1syuis6" name="no" sourceRef="Gateway_BedOk" targetRef="Task_ScheduleOR" />
+  </bpmn:process>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_1">
+    <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="Collaboration_Simple">
+      <bpmndi:BPMNShape id="Participant_Hospital_di" bpmnElement="Participant_Hospital" isHorizontal="true">
+        <dc:Bounds x="160" y="80" width="1240" height="450" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Lane_Screening_di" bpmnElement="Lane_Screening" isHorizontal="true">
+        <dc:Bounds x="190" y="380" width="1210" height="150" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Lane_Planner_di" bpmnElement="Lane_Planner" isHorizontal="true">
+        <dc:Bounds x="190" y="230" width="1210" height="150" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Lane_Doctor_di" bpmnElement="Lane_Doctor" isHorizontal="true">
+        <dc:Bounds x="190" y="80" width="1210" height="150" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Start_Visit_di" bpmnElement="Start_Visit">
+        <dc:Bounds x="240" y="130" width="36" height="36" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_ScheduleOR_di" bpmnElement="Task_ScheduleOR">
+        <dc:Bounds x="480" y="260" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_ContactPatient_di" bpmnElement="Task_ContactPatient">
+        <dc:Bounds x="630" y="260" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Gateway_PatientOk_di" bpmnElement="Gateway_PatientOk" isMarkerVisible="true">
+        <dc:Bounds x="785" y="275" width="50" height="50" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="784" y="251" width="52" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_MedicalScreening_di" bpmnElement="Task_MedicalScreening">
+        <dc:Bounds x="760" y="410" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Gateway_ScreeningOk_di" bpmnElement="Gateway_ScreeningOk" isMarkerVisible="true">
+        <dc:Bounds x="915" y="425" width="50" height="50" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="974.5" y="443" width="45" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_CheckBeds_di" bpmnElement="Task_CheckBeds">
+        <dc:Bounds x="960" y="260" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Gateway_BedOk_di" bpmnElement="Gateway_BedOk" isMarkerVisible="true">
+        <dc:Bounds x="1115" y="275" width="50" height="50" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_FinalizeHIX_di" bpmnElement="Task_FinalizeHIX">
+        <dc:Bounds x="1220" y="260" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="End_Success_di" bpmnElement="End_Success">
+        <dc:Bounds x="1312" y="132" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="1285" y="108" width="90" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_CreateWorkorder_di" bpmnElement="Task_CreateWorkorder">
+        <dc:Bounds x="353" y="108" width="100" height="80" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="Flow_0dpnj6a_di" bpmnElement="Flow_0dpnj6a">
+        <di:waypoint x="276" y="148" />
+        <di:waypoint x="353" y="148" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_12adath_di" bpmnElement="Flow_12adath">
+        <di:waypoint x="453" y="148" />
+        <di:waypoint x="467" y="148" />
+        <di:waypoint x="467" y="300" />
+        <di:waypoint x="480" y="300" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_0wei21p_di" bpmnElement="Flow_0wei21p">
+        <di:waypoint x="580" y="300" />
+        <di:waypoint x="630" y="300" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_1j57ck6_di" bpmnElement="Flow_1j57ck6">
+        <di:waypoint x="730" y="300" />
+        <di:waypoint x="785" y="300" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_02hgvxx_di" bpmnElement="Flow_02hgvxx">
+        <di:waypoint x="835" y="300" />
+        <di:waypoint x="960" y="300" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="889" y="282" width="18" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_12d0h32_di" bpmnElement="Flow_12d0h32">
+        <di:waypoint x="1060" y="300" />
+        <di:waypoint x="1115" y="300" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_03yhp80_di" bpmnElement="Flow_03yhp80">
+        <di:waypoint x="1165" y="300" />
+        <di:waypoint x="1220" y="300" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="1184" y="282" width="18" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_1isfht6_di" bpmnElement="Flow_1isfht6">
+        <di:waypoint x="1270" y="260" />
+        <di:waypoint x="1270" y="150" />
+        <di:waypoint x="1312" y="150" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_1j0o539_di" bpmnElement="Flow_1j0o539">
+        <di:waypoint x="810" y="325" />
+        <di:waypoint x="810" y="410" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_1umjxm3_di" bpmnElement="Flow_1umjxm3">
+        <di:waypoint x="860" y="450" />
+        <di:waypoint x="915" y="450" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_078s3lh_di" bpmnElement="Flow_078s3lh">
+        <di:waypoint x="940" y="425" />
+        <di:waypoint x="940" y="360" />
+        <di:waypoint x="820" y="360" />
+        <di:waypoint x="820" y="315" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="871" y="342" width="18" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_1q284i3_di" bpmnElement="Flow_1q284i3">
+        <di:waypoint x="940" y="475" />
+        <di:waypoint x="940" y="510" />
+        <di:waypoint x="530" y="510" />
+        <di:waypoint x="530" y="340" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="729" y="492" width="13" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_1syuis6_di" bpmnElement="Flow_1syuis6">
+        <di:waypoint x="1140" y="275" />
+        <di:waypoint x="1140" y="240" />
+        <di:waypoint x="530" y="240" />
+        <di:waypoint x="530" y="260" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="1143" y="251" width="13" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</bpmn:definitions>
