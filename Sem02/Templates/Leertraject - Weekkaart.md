@@ -129,24 +129,19 @@ tR += `### Wat was impactvol of opvallend?\n`;
 tR += `- \n\n`;
 tR += `### Hoe voelde de week?\n`;
 tR += `%%- (druk, leerzaam, bevredigend, frustrerend, etc.) %%\n\n`;
-tR += `%% {Motivatie / Energie} %%\n\n`;
+
 tR += `### Belangrijkste inzicht\n`;
 tR += `%% Beschrijf je belangrijkste Aha-moment en waarom dit belangrijk was. %%\n\n`;
 tR += `- \n\n`;
 
 tR += `## Inzichten, ideeën en geleerde lessen\n`;
-tR += `%%- (Nieuwe ideeën, observaties, verbeterpunten voor volgende week) %%\n`;
-tR += `%%- (Welke kennis of vaardigheid heb ik ontwikkeld?) %%\n`;
-tR += `%%- (Wat heb ik geleerd over samenwerking of proces?) %%\n`;
-tR += `%%- (Wat zou ik verder willen ontwikkelen?) %%\n\n`;
 
 tR += `## Feedback ontvangen\n`;
-tR += `%% {Naam / opmerking} %%\n\n`;
 
 tR += `## Dataview overzicht\n`;
 tR += "```dataview\n";
 tR += "TABLE week, thema, focus, emotie, energie, motivatie\n";
-tR += "FROM \"Leertraject\"\n";
+tR += "FROM \"Weekkaarten\"\n";
 tR += "WHERE contains(tags, \"leertraject\")\n";
 tR += "SORT week DESC\n";
 tR += "```\n\n";

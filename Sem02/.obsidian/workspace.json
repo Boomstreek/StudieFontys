@@ -41,16 +41,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Challenge01/Personal Leaderschip/Boekverslag SQL and Relational Theory.md",
+                "file": "Weekkaarten/2026-W9.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Boekverslag SQL and Relational Theory"
+              "title": "2026-W9"
+            }
+          },
+          {
+            "id": "d926ed99c8b4d0fc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Weekkaarten/2026-W9.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "2026-W9"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -214,31 +228,35 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "26c71ef307496d3c",
+  "active": "d926ed99c8b4d0fc",
   "lastOpenFiles": [
-    "Challenge01/Analyse/Analyse van Knelpunten & Verbetersuggesties.md",
-    "Challenge01/Personal Leaderschip/Boekverslag SQL and Relational Theory.md",
-    "Challenge01/Personal Leaderschip",
     "Weekkaarten/2026-W8.md",
+    "Templates/Leertraject - Weekkaart.md",
+    "Weekkaarten/2026-W7.md",
+    "Weekkaarten/2026-W6.md",
+    "Weekkaarten/2026-W9.md",
     "Lesavonden/2026-02-12.md",
+    "Challenge01/Manage & Control/Feedback Document.md",
+    "Challenge01/Manage & Control",
+    "Templates/TemplateDVC.md",
+    "Beroepsopdracht Your Future/Associate degree Beroepsopdracht PRO - Your Future.pdf",
+    "Challenge01/Analyse/OR_Planning002.png",
+    "Challenge01/Personal Leaderschip/Boekverslag SQL and Relational Theory.md",
+    "Challenge01/Analyse/Analyse van Knelpunten & Verbetersuggesties.md",
+    "Challenge01/Personal Leaderschip",
     "Challenge01/Analyse/Analyse van Knelpunten & Verbetersuggesties.pdf",
     "GemeenteraadInControl.md",
     "Brief orne en Yvette.md",
     "Leerdoelen/Leerdoelen Sprint 1 Sem02.md",
-    "Beroepsopdracht Your Future/Associate degree Beroepsopdracht PRO - Your Future.pdf",
-    "Templates/TemplateDVC.md",
     "Beroepsopdracht Your Future/Your Future.md",
     "Templates/Drawing 2026-02-17 06.52.24.excalidraw.md",
     "Werk/TemplateDVC 1.md",
     "Werk",
     "Werk",
-    "Weekkaarten/2026-W7.md",
-    "Weekkaarten/2026-W6.md",
     "Leerdoelen",
     "Beroepsopdracht Your Future/Your Future.pdf",
     "Beroepsopdracht Your Future/Functieprofielen.md",
     "Beroepsopdracht Your Future/functieprofielen.txt",
-    "Beroepsopdracht Your Future/Unconfirmed 264645.crdownload",
-    "Beroepsopdracht Your Future"
+    "Beroepsopdracht Your Future/Unconfirmed 264645.crdownload"
   ]
 }
