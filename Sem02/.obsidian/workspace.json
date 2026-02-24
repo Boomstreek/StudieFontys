@@ -53,12 +53,14 @@
             "id": "d926ed99c8b4d0fc",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Werk/GemeenteraadInControl.md"
+                "file": "Challenge01/Manage & Control/Feedback Document.md",
+                "mode": "preview",
+                "source": true
               },
-              "icon": "excalidraw-icon",
-              "title": "GemeenteraadInControl"
+              "icon": "lucide-file",
+              "title": "Feedback Document"
             }
           }
         ],
@@ -226,9 +228,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3672e29859ac791f",
+  "active": "d926ed99c8b4d0fc",
   "lastOpenFiles": [
+    "Challenge01/Analyse/Analyse van Knelpunten & Verbetersuggesties.md",
+    "Challenge01/Analyse/Analyse van Knelpunten & Verbetersuggesties.pdf",
     "Weekkaarten/2026-W9.md",
+    "Werk/GemeenteraadInControl.md",
     "Weekkaarten/2026-W8.md",
     "Templates/Leertraject - Weekkaart.md",
     "Weekkaarten/2026-W7.md",
@@ -240,10 +245,7 @@
     "Beroepsopdracht Your Future/Associate degree Beroepsopdracht PRO - Your Future.pdf",
     "Challenge01/Analyse/OR_Planning002.png",
     "Challenge01/Personal Leaderschip/Boekverslag SQL and Relational Theory.md",
-    "Challenge01/Analyse/Analyse van Knelpunten & Verbetersuggesties.md",
     "Challenge01/Personal Leaderschip",
-    "Challenge01/Analyse/Analyse van Knelpunten & Verbetersuggesties.pdf",
-    "Werk/GemeenteraadInControl.md",
     "Brief orne en Yvette.md",
     "Leerdoelen/Leerdoelen Sprint 1 Sem02.md",
     "Beroepsopdracht Your Future/Your Future.md",
