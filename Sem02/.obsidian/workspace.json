@@ -41,24 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Weekkaarten/2026-W9.md",
+                "file": "Challenge01/Manage & Control/Feedback Document.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2026-W9"
-            }
-          },
-          {
-            "id": "d926ed99c8b4d0fc",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Werk/GemeenteraadInControl.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "GemeenteraadInControl"
+              "title": "Feedback Document"
             }
           }
         ],
@@ -228,14 +216,14 @@
   },
   "active": "26c71ef307496d3c",
   "lastOpenFiles": [
-    "Werk/GemeenteraadInControl.md",
     "Weekkaarten/2026-W9.md",
+    "Challenge01/Manage & Control/Feedback Document.md",
+    "Werk/GemeenteraadInControl.md",
     "Weekkaarten/2026-W8.md",
     "Templates/Leertraject - Weekkaart.md",
     "Weekkaarten/2026-W7.md",
     "Weekkaarten/2026-W6.md",
     "Lesavonden/2026-02-12.md",
-    "Challenge01/Manage & Control/Feedback Document.md",
     "Challenge01/Manage & Control",
     "Templates/TemplateDVC.md",
     "Beroepsopdracht Your Future/Associate degree Beroepsopdracht PRO - Your Future.pdf",
