@@ -1,26 +1,28 @@
 #!/bin/bash
 
-# Vraag de gebruiker om de bestandsnaam
+# 1. Input vragen
+ls -a
+echo "------------------------------------------------"
 echo "Voer de naam van het .bpmn bestand in:"
 read -r FILENAME
 
-# Controleer of het bestand bestaat
+# 2. Check of bestand bestaat
 if [ ! -f "$FILENAME" ]; then
-    echo "❌ Fout: Bestand '$FILENAME' niet gevonden."
+    echo "Fout: Bestand '$FILENAME' niet gevonden."
     exit 1
 fi
 
-echo "🚀 Bezig met converteren van $FILENAME naar PDF..."
+# 3. Omgevingsvariabele instellen voor Arch Linux
+export PUPPETEER_EXECUTABLE_PATH=/usr/bin/chromium
 
-# We draaien nu een image waar Chrome al in zit
-docker run --rm \
-  -v "$(pwd):/data" \
-  -u $(id -u):$(id -g) \
-  ghcr.io/puppeteer/puppeteer:latest \
-  npx bpmn-to-image "/data/$FILENAME:pdf"
+echo "Bezig met converteren naar PDF..."
+
+# 4. De tool direct lokaal aanroepen
+bpmn-to-image "$FILENAME":"${FILENAME%.*}.pdf" --no-sandbox
 
 if [ $? -eq 0 ]; then
-    echo "✅ Succes! Je PDF is klaar."
+    echo "Succes! De PDF staat in je map."
 else
-    echo "❌ De conversie is mislukt. Controleer of de bestandsnaam klopt (let op hoofdletters)."
+    echo "Er ging iets mis met de conversie."
+    exit 1
 fi

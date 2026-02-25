@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Challenge01/Analyse/OK Planning - Huidige Situatie (IST).md",
+                "file": "Weekkaarten/2026-W9.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "OK Planning - Huidige Situatie (IST)"
+              "title": "2026-W9"
             }
           }
         ],
@@ -202,11 +202,15 @@
   },
   "active": "5b8744ee2f9ab5af",
   "lastOpenFiles": [
+    "Challenge01/Analyse/OK Planning - Huidige Situatie (IST).md",
+    "Challenge01/Analyse/OR_Planning003.pdf",
     "Challenge01/Analyse/bpmn2pdf.sh~",
+    "Challenge01/Analyse/1.pdf",
     "Challenge01/Analyse/bpmn2pdf.sh",
+    "Challenge01/Analyse/1.bpmn",
+    "Challenge01/Analyse/OR_Planning003_1.bpmn",
     "Challenge01/Analyse/OR_Planning003.bpmn",
     "Challenge01/Manage & Control/Feedback Document.md",
-    "Challenge01/Analyse/OK Planning - Huidige Situatie (IST).md",
     "Challenge01/Analyse/OR_Planning001.png",
     "Challenge01/Analyse/OR_Planning002.png",
     "Challenge01/Analyse/Analyse van Knelpunten & Verbetersuggesties.md",
@@ -222,16 +226,11 @@
     "Templates/TemplateDVC.md",
     "Beroepsopdracht Your Future/Associate degree Beroepsopdracht PRO - Your Future.pdf",
     "Challenge01/Personal Leaderschip/Boekverslag SQL and Relational Theory.md",
-    "Challenge01/Personal Leaderschip",
     "Brief orne en Yvette.md",
     "Leerdoelen/Leerdoelen Sprint 1 Sem02.md",
     "Beroepsopdracht Your Future/Your Future.md",
     "Templates/Drawing 2026-02-17 06.52.24.excalidraw.md",
     "Werk/TemplateDVC 1.md",
-    "Werk",
-    "Werk",
-    "Leerdoelen",
-    "Beroepsopdracht Your Future/Your Future.pdf",
     "Beroepsopdracht Your Future/Functieprofielen.md"
   ]
 }
