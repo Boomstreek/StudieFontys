@@ -56,8 +56,8 @@ Voor een betrouwbare nulmeting geniet het de voorkeur om deze data direct te ext
 	- _Data:_ Hoeveel minuten besteedt een OK-planner gemiddeld aan één succesvolle planning (inclusief mislukte belpogingen en handmatige data-check)?
 	- _Waarom:_ Dit dient als basis voor de berekening van de tijdsbesparing door automatisering (API-koppelingen en digitale / fysieke notificaties).
 
-## 4.2 Patient- en procesdynamiek
-- Weigerings- en annuleringsfrequentie
+## 4.2 Patient- en procsdynamiek
+- Weigerings- en annuleringsfrequentie?
 	- _Data:_ Hoe vaak wijst een patiënt een voorgesteld moment af tijdens een telefonisch contact?
 	- _Data:_ Hoe vaak wordt een reeds geplande operatie door de patiënt afgezegd als de patient via de post of digitaal is geinformeerd over het operatiemoment.?
 	- _Waarom:_ Data geeft extra onderbouwing voor het inzetten van een patiëntenportaal voor contact met de patient.
@@ -70,16 +70,21 @@ Voor een betrouwbare nulmeting geniet het de voorkeur om deze data direct te ext
 
 ## 4.3 Kwalitatieve Indicatoren
 
-- **Patiënttevredenheid over de communicatie:**
-    - _Data:_ Hoe ervaart de patiënt de huidige telefonische benadering versus digitale alternatieven?
+- **Patiënttevredenheid**
+    - _Data:_ Patienttevredenheid
     - _Waarom:_ Het management moet kunnen afwegen of de 'persoonlijke touch' van de telefoon opweegt tegen de snelheid en duidelijkheid van digitale post/portaal.
         
-- **Medewerkerstevredenheid (OK-planners):**
+- **OK-planners Medewerkerstevredenheid:**
     - _Data:_ In hoeverre ervaren planners de huidige handmatige administratie en het "jagen" op patiënten als een belasting voor hun werkplezier?
-    - _Waarom:_ Automatisering moet niet alleen kosten besparen, maar ook de werkdruk verlagen en de focus verleggen naar complexe logistieke puzzels in plaats van overtypen.
+    - _Waarom:_ Hoe is deze verandering voor de OK-planners
 
+# 5. Moscow parameters
 # 5. Conclusie
 
 # 6. Bronnen
 
 # 7. Bijlage
+
+
+### Over nadenken?
+Tijdspad inzetten? Of adviseren het kanban te doen?

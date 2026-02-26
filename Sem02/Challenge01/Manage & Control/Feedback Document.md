@@ -19,6 +19,7 @@ Haar bedankt. vragen beantwoord en de laatste yes en no's ingevuld.
 **Actielijst feedback**
 *De schuingedrukt tekst geeft aan wat ik voor deze actie heb gedaan.*
 - PNG omvormen naar PDF
+	- *Script voor gemaakt, uiteraard meer werk dan verwacht*
 - Nagaan flow bij Kelly
 	- Klopt arts route?
 		- *Ja klopt*
