@@ -1,8 +1,8 @@
 ## Metadata
 **Author: ** Bram Wieringa
-**Date: ** 21-02-226
-**Version: ** 1.0
-**Dependencies: ** OR Planning 001
+**Date: ** 26-02-2026
+**Version: ** 2.0
+**Dependencies: ** OR Planning 003
 
 ## Knelpunten & Verbetersuggesties
 
