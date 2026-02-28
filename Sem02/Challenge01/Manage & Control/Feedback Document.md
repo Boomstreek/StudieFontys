@@ -1,3 +1,8 @@
+**Kelly op Heij, OK-planner haar proces schetsen**
+Met pen en papier bij kelly gezeten en ontzettent veel vragen gestelt. Deze vragen had ik achteraf gezien beter kunnen registreren, maar de uitkomst was goed. Ik heb daarmee een concept werkproces kunnen opstellen.
+
+---
+
 **Emma Jonkers over OR Planning BPMN & Analyse van Knelpunten Verbetersuggesties, allebei versie 1.0 op 22-02-2026**
 
 *Ziet er netjes uit, heel gedetailleerd! 
@@ -14,7 +19,7 @@ Haar bedankt. vragen beantwoord en de laatste yes en no's ingevuld.
 
 ---
 
-** Expertafel Myrjamover OR Planning BPMN & Analyse van Knelpunten Verbetersuggesties, allebei versie 1.0 op 24-02-2026** (Verwerkt in Feedpulse 1: *Checkpoint 1 Feedback week 1 en 2 24-02-2026)* 
+** Expertafel Myriam over OR Planning BPMN & Analyse van Knelpunten Verbetersuggesties, allebei versie 1.0 op 24-02-2026** (Verwerkt in Feedpulse 1: *Checkpoint 1 Feedback week 1 en 2 24-02-2026)* 
 
 **Actielijst feedback**
 *De schuingedrukt tekst geeft aan wat ik voor deze actie heb gedaan.*
@@ -33,6 +38,21 @@ Haar bedankt. vragen beantwoord en de laatste yes en no's ingevuld.
 - Geef in Portfolio het individueleproduct een naam
 - beschrijf in de inleiding waar het product over gaat
 - Productbeschrijving BPMN, zet daar neer over welk proces het gaat.
+
+---
+
+**Kelly op Heij, 25-02-2026, Validatie OK-plannig proces**
+**Mijn vraag**
+*Haar antwoord, vrij samengevat in mijn woorden*
+
+**Route Arts, klopt dit?**
+*ja*
+
+**Klopt de screen proces?**
+*Nee, er wordt altijd een screening gedaan. Daarnaast melden ze dat de screening collega's patiënten voornamelijk benaderen via digitale post of fysieke post, alleen als het niet anders kan bellen ze. En dat is wanneer ze binnen 5 werkdagen moeten verschijnen voor de operatie*
+
+**Hoe wordt er in dit proces omgegaan met acute gevallen?**
+*Dat gaat buiten de planning (dit proces red.) om. Wat kan gebeuren is dat een operatie niet doorgaat vanwege spoedoperaties en dat deze patiënten weer opnieuw moeten worden ingepland.*
 
 ---
 
