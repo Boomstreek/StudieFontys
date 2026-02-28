@@ -11,7 +11,7 @@ Dit document beschrijft de huidige werkwijze (IST) van het OK-planningsproces. H
 Het vastleggen van de huidige processtappen als nulmeting voor de voorgestelde automatisering en procesoptimalisatie.
 
 ## 1.2 Scope
-De scope van dit proces start bij de beoordeling van de chirurgische noodzaak door de medisch specialist en eindigt op de dag van de operatie. Het proces richt zich uitsluitend op de geplande) zorg.
+De scope van dit proces start bij de beoordeling van de chirurgische noodzaak door de medisch specialist en eindigt op de dag van de operatie. Het proces richt zich uitsluitend op de geplande zorg en hoofdzakelijk op de rol van OK-planner.
 
 Acute spoedgevallen vallen buiten de directe procesgang van deze planning. De impact van acute zorg is echter wel aanwezig: spoedoperaties kunnen leiden tot het ad-hoc annuleren van reeds ingeplande patiënten. In de huidige werkwijze dwingt dit de OK-planner om het volledige planningsproces voor de uitgevallen patiënt handmatig opnieuw te doorlopen.
 
@@ -50,8 +50,8 @@ Voor een betrouwbare nulmeting geniet het de voorkeur om deze data direct te ext
 
 ## 4.1 Operationele Efficiency en Procesintegriteit
 - **Annuleringen door beddentekort**
-	- _Indicator:_ Percentage en absoluut aantal annuleringen vanwege beddentekort twee werkdagen voor aanvang van operatie.
-	- _Relevantie:_Deze KPI meet het effect van de voorgestelde Parallel Gateway op vroegtijdige beddencontrole. Het doel is om onnodig capaciteitsverlies op de OK te minimaliseren door logistieke knelpunten eerder in het proces te signaleren.
+	- **Indicator:** Percentage en absoluut aantal annuleringen vanwege beddentekort twee werkdagen voor aanvang van operatie.
+	- **Relevantie:** Deze KPI meet het effect van de voorgestelde Parallel Gateway op vroegtijdige beddencontrole. Het doel is om onnodig capaciteitsverlies op de OK te minimaliseren door logistieke knelpunten eerder in het proces te signaleren.
 - **Gemiddelde doorlooptijd per planning**
 	- **Indicator:** Het aantal minuten dat een OK-planner gemiddeld besteedt aan het voltooien van één planning (inclusief mislukte belpogingen en handmatige datacorrecties).
 	- **Relevantie:** Dit vormt de nulmeting voor de berekening van de tijdswinst na automatisering (API-koppelingen en digitale notificaties).
@@ -78,7 +78,6 @@ Voor een betrouwbare nulmeting geniet het de voorkeur om deze data direct te ext
 	    - _Procesversnelling:_ Het toont aan hoeveel 'dode tijd' er in het proces zit door het proberen te bereiken van niet-beschikbare patiënten.
 
 ## 4.3 Kwalitatieve Indicatoren
-
 - **Patiënt- en medewerkerstevredenheid**
 	- **Patiënt:** In hoeverre weegt de 'persoonlijke touch' van een telefoongesprek op tegen het gemak van digitale snelheid en duidelijkheid?
 	- **Medewerker OK-planners:** De mate waarin OK-planners de huidige administratieve last en het "jagen" op patiënten ervaren als een belasting van hun werkplezier.
@@ -88,16 +87,24 @@ Voor een betrouwbare nulmeting geniet het de voorkeur om deze data direct te ext
 	-  **Indicator:** Percentage patiënten waarbij de medische screening nog niet volledig is op het moment dat de planner de taak weer oppakt.
 	- **Relevantie:** Deze indicator identificeert knelpunten in het voorafgaande screeningsproces die een directe negatieve impact hebben op de workflow van de OK-planning.
 
-# 5. Moscow parameters
-In hoofdstuk 4 werd besproken welke parameters er allemaal handig zouden kunnen zijn om te bepalen wat de ROI is.
+# 5. MoSCoW Analyse: Optimalisatie OK-Planning
+Hiervoor moet ik eerst mok data generen/
 
-# 5. Conclusie
+## 5.1 Must Havess
 
-# 6. Bronnen
+## 5.2 Should Haves
+
+## 5.3 Could Haves
+
+## 5.4 Won´t Have s(voor nu)
+
+# 6. Conclusie
+
+# 7. Bronnen
 - Google. (2026). **Gemini (Gemini 3 Flash)** [Large language model]. Geraadpleegd op 28 februari 2026, van [https://gemini.google.com](https://gemini.google.com)
 - **Gebruikte prompt:** _"Verbeter deze tekst zodat het vloeiender, leesbaarder en professioneler wordt maar behoud de kern van de tekst."_
 - 
-# 7. Bijlage
+# 8. Bijlage
 
 
 ### Over nadenken?

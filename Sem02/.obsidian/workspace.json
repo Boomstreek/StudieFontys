@@ -42,7 +42,7 @@
               "type": "markdown",
               "state": {
                 "file": "Weekkaarten/2026-W9.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
@@ -55,24 +55,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Challenge01/Analyse/OK Planning - Huidige Situatie (IST).md",
+                "file": "Challenge01/Analyse/4. Nulmeting - Benodigde data voor onderbouwing.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "OK Planning - Huidige Situatie (IST)"
+              "title": "4. Nulmeting - Benodigde data voor onderbouwing"
             }
           },
           {
-            "id": "a572db63322d7595",
+            "id": "4968e1f9e28a1a8f",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.12.4"
+                "file": "Challenge01/Analyse/4. Nulmeting - Benodigde data voor onderbouwing.md",
+                "mode": "source",
+                "source": true
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.12.4"
+              "icon": "lucide-file",
+              "title": "4. Nulmeting - Benodigde data voor onderbouwing"
             }
           },
           {
@@ -104,7 +106,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -268,15 +270,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "00954efef3ad85e4",
+  "active": "17c0e20616859ba2",
   "lastOpenFiles": [
+    "Challenge01/Analyse/4. Nulmeting - Benodigde data voor onderbouwing.md",
+    "Challenge01/Analyse/4. Nulmeting - Benodigde data voor onderbouwing.pdf",
+    "Leerdoelen/Leerdoelen Sprint 1 Sem02.md",
+    "Challenge01/Analyse/OK Planning - Huidige Situatie (IST).md",
     "Challenge01/Analyse/Analyse van Knelpunten & Verbetersuggesties.md",
     "Plan van aanpak.md",
     "Weekkaarten/2026-W9.md",
     "Challenge01/Manage & Control/Feedback Document.md",
     "IST,SOLL,GAP.md",
-    "Leerdoelen/Leerdoelen Sprint 1 Sem02.md",
-    "Challenge01/Analyse/OK Planning - Huidige Situatie (IST).md",
     "Lesavonden/2026-02-26 Experttafel Business.md",
     "Weekkaarten/2026-W7.md",
     "Weekkaarten/2026-W8.md",
@@ -296,7 +300,6 @@
     "Lesavonden/2026-02-12.md",
     "Challenge01/Manage & Control",
     "Templates/TemplateDVC.md",
-    "Beroepsopdracht Your Future/Associate degree Beroepsopdracht PRO - Your Future.pdf",
     "Challenge01/Personal Leaderschip/Boekverslag SQL and Relational Theory.md",
     "Brief orne en Yvette.md",
     "Beroepsopdracht Your Future/Your Future.md",
