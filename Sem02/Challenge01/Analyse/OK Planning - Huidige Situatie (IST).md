@@ -48,42 +48,45 @@ Om de impact van de voorgestelde procesverbeteringen objectief te kunnen meten, 
 
 Voor een betrouwbare nulmeting geniet het de voorkeur om deze data direct te extraheren uit de logbestanden van HiX, telefonie-centrale en eventuele andere systemen, om subjectiviteit te voorkomen en een zuiver beeld van de proces-doorlooptijden te verkrijgen.
 
-## 4.1 Operationele efficiency en uitval
-- **Percentage en absolute aantal annuleringen door beddentekort op moment van geplande operatie**
-	- _Data:_ Hoeveel procent van de geplande operaties wordt 48 uur voor aanvang geannuleerd vanwege een gebrek aan bedecapaciteit?
-	- _Waarom:_ Dit toont aan of het verplaatsen van de beddencontrole naar voren in het proces (Parallel Gateway) daadwerkelijk capaciteitsverlies op de OK voorkomt.
+## 4.1 Operationele Efficiency en Procesintegriteit
+- **Annuleringen door beddentekort**
+	- _Indicator:_ Percentage en absoluut aantal annuleringen vanwege beddentekort twee werkdagen voor aanvang van operatie.
+	- _Relevantie:_Deze KPI meet het effect van de voorgestelde Parallel Gateway op vroegtijdige beddencontrole. Het doel is om onnodig capaciteitsverlies op de OK te minimaliseren door logistieke knelpunten eerder in het proces te signaleren.
 - **Gemiddelde doorlooptijd per planning**
-	- _Data:_ Hoeveel minuten besteedt een OK-planner gemiddeld aan één succesvolle planning (inclusief mislukte belpogingen en handmatige data-check)?
-	- _Waarom:_ Dit dient als basis voor de berekening van de tijdsbesparing door automatisering (API-koppelingen en digitale / fysieke notificaties).
-- **Foutgevoeligheid en herstelwerk (Data-intregriteit)**
-	- _Data:_Hoe vaak per week moet een planning worden aangepast vanwege typefouten of synchronisatieverschillen tussen HIX en MEDSPACE?
-	- _Waarom:_Dit kwantificeert de waarde van het automatiseren van handmatige User Tasks naar Service Tasks (API).
+	- **Indicator:** Het aantal minuten dat een OK-planner gemiddeld besteedt aan het voltooien van één planning (inclusief mislukte belpogingen en handmatige datacorrecties).
+	- **Relevantie:** Dit vormt de nulmeting voor de berekening van de tijdswinst na automatisering (API-koppelingen en digitale notificaties).
+- **Data-integriteit en herstelwerk**
+	- **Indicator:** Het wekelijkse aantal handmatige correcties in de planning door synchronisatieverschillen of typefouten tussen HiX en MEDSPACE.
+	- **Relevantie:** Dit kwantificeert de noodzaak om handmatige _User Tasks_ te vervangen door geautomatiseerde _Service Tasks_ (API), wat de foutgevoeligheid verlaagt.
 
-## 4.2 Patient- en procesdynamiek
-- **Weigerings- en annuleringsfrequentie?**
-	- _Data:_ Hoe vaak wijst een patiënt een voorgesteld moment af tijdens een telefonisch contact?
-	- _Data:_ Hoe vaak wordt een reeds geplande operatie door de patiënt afgezegd als de patient via de post of digitaal is geïnformeerd over het operatiemoment.?
-	- _Waarom:_ Data geeft extra onderbouwing voor het inzetten van een patiëntenportaal voor contact met de patient.
-- **Afzeggingsfrequentie en Escalatie (Deadlocks)**
-	- _Data:_ Hoe vaak belt een patiënt een operatie af? Dit moet gemeten worden per patient per operatie, om te zien of mensen vaker dezelfde operatie afbellen.
-	- _Waarom:_ Deze data dient als onderbouwing voor het instellen van een escalatieprotocol naar een supervisor om processtagnatie te voorkomen.
-- **Klantcontact tijd**
-	- _Data:_ Na hoeveel belpogingen wordt een patiënt gemiddeld daadwerkelijk gesproken? En voor hoe lang?
-	- _Waarom:_ Dit kan ondersteunde werken om ovetegaan naar asynchroon contact via digitale of fysieke post of SMS of andere middel.
-	- _Data:_ Hoevaak beld een patient nadat deze digitaal of via de post is benaderd op om een operatie af te zeggen. (hier een tijdlimiet op zetten? Om te voorkomen dat je de reden van afzegging aan het verkeerde gaat tevoegen)
-	- _Waarom:_ 
+## 4.2 Patiënt- en Procesdynamiek
+- **Responsiviteit en kanaalkeuze**
+	- **Indicator A:** Frequentie van directe afwijzingen tijdens telefonisch contact versus annuleringen na digitale/postale berichtgeving.
+	- **Indicator B:** Het aantal belpogingen voordat een patiënt daadwerkelijk wordt bereikt en de gemiddelde gespreksduur.
+	- **Relevantie:** Deze data onderbouwen de transitie naar asynchroon contact (patiëntenportaal/SMS). Het geeft inzicht in of de huidige telefonische benadering efficiënt is of dat digitale zelfservice tot minder procesverstoring leidt.
+- **Escalatie en processtagnatie (Deadlocks)**
+	- **Indicator:** Het aantal herhaaldelijke afzeggingen per patiënt per operatie. 
+	- **Relevantie:** Hiermee wordt de noodzaak voor een escalatieprotocol naar een supervisor aangetoond, om te voorkomen dat specifieke dossiers het planningsproces langdurig blokkeren.
+- **Retourstroom na digitale benadering**
+	- **Indicator:** Het aantal patiënten dat binnen een vastgesteld tijdsbestek (bijv. 48 uur) na een digitale of fysieke notificatie alsnog telefonisch contact opneemt om de afspraak te wijzigen. (_Hier heb ik veel over zitten denken, en weet het nog steeds niet zeker, maar of die 48 uur relevant is of niet. Ik wil voorkomen dat alle afzeggeing aan het asynchrome worden gekoppeld.)
+	- **Relevantie:** Dit meet de effectiviteit van de digitale en fysieke informatievoorziening en voorkomt dat de reden van afzegging onjuist wordt gealloceerd.
+- **Klantcontacttijd**
+	- **Indicator A (Bereikbaarheid):** Het gemiddeld aantal belpogingen (outbound) dat een OK-planner moet ondernemen voordat er daadwerkelijk een patiënt wordt gesproken.
+	- **Indicator B (Gespreksduur):** De gemiddelde duur van het effectieve telefoongesprek (in minuten) waarin de operatie wordt bevestigd of verzet.
+	- **Relevantie:** Deze data zijn essentieel voor de business case van een asynchroon systeem (zoals een portaal, SMS, chat).
+	    - _Tijdwinst:_ Door de "wachttijd" en de herhaalde belpogingen (synchronisatie-verlies) te elimineren, kan worden berekend hoeveel tijd vrijkomt wanneer de patiënt op een eigen gekozen moment reageert.
+	    - _Procesversnelling:_ Het toont aan hoeveel 'dode tijd' er in het proces zit door het proberen te bereiken van niet-beschikbare patiënten.
 
 ## 4.3 Kwalitatieve Indicatoren
 
-- **Patiënttevredenheid**
-    - _Data:_ Patienttevredenheid
-    - _Waarom:_ Het management moet kunnen afwegen of de 'persoonlijke touch' van de telefoon opweegt tegen de snelheid en duidelijkheid van digitale post/portaal.    
-- **OK-planners Medewerkerstevredenheid:**
-    - _Data:_ In hoeverre ervaren planners de huidige handmatige administratie en het "jagen" op patiënten als een belasting voor hun werkplezier?
-    - _Waarom:_ Hoe is deze verandering voor de OK-planners
+- **Patiënt- en medewerkerstevredenheid**
+	- **Patiënt:** In hoeverre weegt de 'persoonlijke touch' van een telefoongesprek op tegen het gemak van digitale snelheid en duidelijkheid?
+	- **Medewerker OK-planners:** De mate waarin OK-planners de huidige administratieve last en het "jagen" op patiënten ervaren als een belasting van hun werkplezier.
+	- **Relevantie:** Cruciaal voor het management om de balans te vinden tussen menselijke zorg en procesmatige efficiëntie.
+	  
 - **Screening "In-Control" ratio**
-	-  _Data:_ Percentage patiënten waarbij de medische screening nog niet volledig is op het moment dat de planner de taak oppakt.
-	- _Waarom:_ Dit meet eventuele problemen in de screening proces, dat weer effect heeft op de OK-planning
+	-  **Indicator:** Percentage patiënten waarbij de medische screening nog niet volledig is op het moment dat de planner de taak weer oppakt.
+	- **Relevantie:** Deze indicator identificeert knelpunten in het voorafgaande screeningsproces die een directe negatieve impact hebben op de workflow van de OK-planning.
 
 # 5. Moscow parameters
 In hoofdstuk 4 werd besproken welke parameters er allemaal handig zouden kunnen zijn om te bepalen wat de ROI is.
@@ -91,7 +94,9 @@ In hoofdstuk 4 werd besproken welke parameters er allemaal handig zouden kunnen 
 # 5. Conclusie
 
 # 6. Bronnen
-
+- Google. (2026). **Gemini (Gemini 3 Flash)** [Large language model]. Geraadpleegd op 28 februari 2026, van [https://gemini.google.com](https://gemini.google.com)
+- **Gebruikte prompt:** _"Verbeter deze tekst zodat het vloeiender, leesbaarder en professioneler wordt maar behoud de kern van de tekst."_
+- 
 # 7. Bijlage
 
 
