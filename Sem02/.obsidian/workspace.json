@@ -8,105 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "26c71ef307496d3c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Challenge01/Manage & Control/Feedback Document.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Feedback Document"
-            }
-          },
-          {
-            "id": "5b8744ee2f9ab5af",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Challenge01/Manage & Control/Feedback Document.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Feedback Document"
-            }
-          },
-          {
-            "id": "17c0e20616859ba2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Weekkaarten/2026-W9.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "2026-W9"
-            }
-          },
-          {
             "id": "00954efef3ad85e4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Challenge01/Analyse/4. Nulmeting - Benodigde data voor onderbouwing.md",
+                "file": "Challenge01/Analyse/ERD - Conceptueel - OK-Planning.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "4. Nulmeting - Benodigde data voor onderbouwing"
-            }
-          },
-          {
-            "id": "4968e1f9e28a1a8f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Challenge01/Analyse/4. Nulmeting - Benodigde data voor onderbouwing.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "4. Nulmeting - Benodigde data voor onderbouwing"
-            }
-          },
-          {
-            "id": "93c61bd4a8185473",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Leerdoelen/Leerdoelen Sprint 1 Sem02.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Leerdoelen Sprint 1 Sem02"
-            }
-          },
-          {
-            "id": "818296137155f166",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IST,SOLL,GAP.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "IST,SOLL,GAP"
+              "title": "ERD - Conceptueel - OK-Planning"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -270,15 +185,19 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "17c0e20616859ba2",
+  "active": "00954efef3ad85e4",
   "lastOpenFiles": [
+    "Challenge01/Analyse/OK Planning - Huidige Situatie (IST).md",
+    "Challenge01/Analyse/ERD - Conceptueel - OK-Planning 1.md",
+    "Challenge01/Analyse/OR_Planning001.png",
+    "Challenge01/Analyse/ERD - Conceptueel - OK-Planning.md",
+    "Weekkaarten/2026-W10.md",
     "Challenge01/Analyse/4. Nulmeting - Benodigde data voor onderbouwing.md",
+    "Weekkaarten/2026-W9.md",
     "Challenge01/Analyse/4. Nulmeting - Benodigde data voor onderbouwing.pdf",
     "Leerdoelen/Leerdoelen Sprint 1 Sem02.md",
-    "Challenge01/Analyse/OK Planning - Huidige Situatie (IST).md",
     "Challenge01/Analyse/Analyse van Knelpunten & Verbetersuggesties.md",
     "Plan van aanpak.md",
-    "Weekkaarten/2026-W9.md",
     "Challenge01/Manage & Control/Feedback Document.md",
     "IST,SOLL,GAP.md",
     "Lesavonden/2026-02-26 Experttafel Business.md",
@@ -292,7 +211,6 @@
     "Challenge01/Analyse/1.bpmn",
     "Challenge01/Analyse/OR_Planning003_1.bpmn",
     "Challenge01/Analyse/OR_Planning003.bpmn",
-    "Challenge01/Analyse/OR_Planning001.png",
     "Challenge01/Analyse/OR_Planning002.png",
     "Werk/GemeenteraadInControl.md",
     "Templates/Leertraject - Weekkaart.md",
