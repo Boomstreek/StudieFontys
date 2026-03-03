@@ -55,12 +55,12 @@ Voor een betrouwbare nulmeting geniet het de voorkeur om deze data direct te ext
 - **Gemiddelde doorlooptijd per planning**
 	- **Indicator:** Het aantal minuten dat een OK-planner gemiddeld besteedt aan het voltooien van één planning (inclusief mislukte belpogingen en handmatige datacorrecties).
 	- **Relevantie:** Dit vormt de nulmeting voor de berekening van de tijdswinst na automatisering (API-koppelingen en digitale notificaties).
-- **Data-integriteit en herstelwerk**
-	- **Indicator:** Het wekelijkse aantal handmatige correcties in de planning door synchronisatieverschillen of typefouten tussen HiX en MEDSPACE.
+- **Data-integriteit en herstelwerk** (_deze nog eens goed naar kijken, niemand gaat dit goed bijhouden_)
+	- **Indicator:** Het wekelijkse aantal handmatige correcties in de planning door typefouten tussen HiX en MEDSPACE.
 	- **Relevantie:** Dit kwantificeert de noodzaak om handmatige _User Tasks_ te vervangen door geautomatiseerde _Service Tasks_ (API), wat de foutgevoeligheid verlaagt.
 
 ## 4.2 Patiënt- en Procesdynamiek
-- **Responsiviteit en kanaalkeuze**
+- **Kanaalkeuze** 
 	- **Indicator A:** Frequentie van directe afwijzingen tijdens telefonisch contact versus annuleringen na digitale/postale berichtgeving.
 	- **Indicator B:** Het aantal belpogingen voordat een patiënt daadwerkelijk wordt bereikt en de gemiddelde gespreksduur.
 	- **Relevantie:** Deze data onderbouwen de transitie naar asynchroon contact (patiëntenportaal/SMS). Het geeft inzicht in of de huidige telefonische benadering efficiënt is of dat digitale zelfservice tot minder procesverstoring leidt.
