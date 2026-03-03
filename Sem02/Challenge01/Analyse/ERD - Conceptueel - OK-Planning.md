@@ -29,6 +29,10 @@ entity Patient <<red>> {
 	' 4.2 Responsiviteit & Kanaalkeuze & 4.2 Klantcontacttijd
 	telefoonnummer <<blue>> {
 	}
+	ligtOpKamer <<blue>>{
+	}
+	patientTevredenheid <<blue>> {
+	}
 }
 
 entity Operatie <<red>> {
@@ -68,12 +72,14 @@ entity Medewerker <<red>> {
 	' beschikbare werkdagen
 	werkdagen <<blue>> {
 	}
+	medewerkerTevredenheid <<blue>> {
+	}
 }
 
 entity Afdeling <<red>> {
 	afdelingsNaam <<blue>> {
 	}
-	aantalBeddenBeschikbaar <<blue>> {
+	aantalBedden <<blue>> {
 	}
 }
 
@@ -106,18 +112,18 @@ relationship facaliteert <<green>> {
 	' 4.2 Retourstroom na digitaal contact - nam patient binnen 48u contact op
 	retourstroom48u <<blue>> {
 	}
-
+	screeningStatus <<blue>> {
+	}
 }
 
 Medewerker -N- facaliteert
 facaliteert -N- Operatie
 
-relationship checkt <<green>> {
-}
+relationship "ligt op een" as ligtOpEen <<green>> {
+} 
 
-Medewerker -N- checkt
-checkt -1- Operatie
+Patient -N- ligtOpEen
+ligtOpEen -1- Afdeling
 
 @endchen
 ```
-- Moet nog ergens medewerkers en klant tevredenheid bijhouden

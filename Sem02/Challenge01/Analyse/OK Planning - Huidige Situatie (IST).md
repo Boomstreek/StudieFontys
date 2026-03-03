@@ -48,41 +48,62 @@ Om de impact van de voorgestelde procesverbeteringen objectief te kunnen meten, 
 
 Voor een betrouwbare nulmeting geniet het de voorkeur om deze data direct te extraheren uit de logbestanden van HiX, telefonie-centrale en eventuele andere systemen, om subjectiviteit te voorkomen en een zuiver beeld van de proces-doorlooptijden te verkrijgen.
 
-## 4.1 Operationele Efficiency en Procesintegriteit
-- **Annuleringen door beddentekort**
-	- **Indicator:** Percentage en absoluut aantal annuleringen vanwege beddentekort twee werkdagen voor aanvang van operatie.
-	- **Relevantie:** Deze KPI meet het effect van de voorgestelde Parallel Gateway op vroegtijdige beddencontrole. Het doel is om onnodig capaciteitsverlies op de OK te minimaliseren door logistieke knelpunten eerder in het proces te signaleren.
+## 4.1 Knelpunt: Handmatige data opzoeken & invoer
 - **Gemiddelde doorlooptijd per planning**
 	- **Indicator:** Het aantal minuten dat een OK-planner gemiddeld besteedt aan het voltooien van één planning (inclusief mislukte belpogingen en handmatige datacorrecties).
 	- **Relevantie:** Dit vormt de nulmeting voor de berekening van de tijdswinst na automatisering (API-koppelingen en digitale notificaties).
-- **Data-integriteit en herstelwerk** (_deze nog eens goed naar kijken, niemand gaat dit goed bijhouden_)
-	- **Indicator:** Het wekelijkse aantal handmatige correcties in de planning door typefouten tussen HiX en MEDSPACE.
-	- **Relevantie:** Dit kwantificeert de noodzaak om handmatige _User Tasks_ te vervangen door geautomatiseerde _Service Tasks_ (API), wat de foutgevoeligheid verlaagt.
 
-## 4.2 Patiënt- en Procesdynamiek
+- **Indicator: Data-frictie & Herstelwerk**
+    - **Metriek:** Het aantal mutaties in Hix dat plaatsvindt binnen 60 minuten nadat een actie in HiX is afgerond.
+    - **Relevantie:** Dit toont indirect aan hoe vaak een planner in HiX fouten herstelt
+        
+- **Indicator: Administratieve handelingstijd (Baseline)**
+    - **Metriek:** De gemiddelde tijd (totaal) die een planner per dossier besteedt aan systeem-interactie (exclusief beltijd).
+    - **Relevantie:** Kwantificeert de potentiële tijdwinst van automatische data-uitwisseling.
+        
+
+## 4.2 Knelpunt: Onbeperkt weigeren door patiënt
+_Focus: Introductie van een escalatieprotocol bij "deadlocks"._
+- **Escalatie en processtagnatie (Deadlocks)**
+	- **Indicator:** Het aantal herhaaldelijke afzeggingen per patiënt per operatie. 
+	- **Relevantie:** Hiermee wordt de noodzaak voor een escalatieprotocol naar een supervisor aangetoond, om te voorkomen dat specifieke dossiers het planningsproces langdurig blokkeren.     
+
+## 4.3 Knelpunt: Late beddencontrole
+_Focus: Implementatie van een Parallel Gateway voor vroegtijdige beddenreservering._
+- **Annuleringen door beddentekort**
+	- **Indicator:** Percentage en absoluut aantal annuleringen vanwege beddentekort twee werkdagen voor aanvang van operatie.
+	- **Relevantie:** Deze KPI meet het effect van de voorgestelde Parallel Gateway op vroegtijdige beddencontrole. Het doel is om onnodig capaciteitsverlies op de OK te minimaliseren door logistieke knelpunten eerder in het proces te signaleren.        
+
+## 4.4 Knelpunt: Afhankelijkheid van telefonisch contact
+_Focus: Transitie naar asynchrone communicatie (SMS, Portaal, E-mail)._
 - **Kanaalkeuze** 
 	- **Indicator A:** Frequentie van directe afwijzingen tijdens telefonisch contact versus annuleringen na digitale/postale berichtgeving.
 	- **Indicator B:** Het aantal belpogingen voordat een patiënt daadwerkelijk wordt bereikt en de gemiddelde gespreksduur.
 	- **Relevantie:** Deze data onderbouwen de transitie naar asynchroon contact (patiëntenportaal/SMS). Het geeft inzicht in of de huidige telefonische benadering efficiënt is of dat digitale zelfservice tot minder procesverstoring leidt.
-- **Escalatie en processtagnatie (Deadlocks)**
-	- **Indicator:** Het aantal herhaaldelijke afzeggingen per patiënt per operatie. 
-	- **Relevantie:** Hiermee wordt de noodzaak voor een escalatieprotocol naar een supervisor aangetoond, om te voorkomen dat specifieke dossiers het planningsproces langdurig blokkeren.
-- **Retourstroom na digitale benadering**
-	- **Indicator:** Het aantal patiënten dat binnen een vastgesteld tijdsbestek (bijv. 48 uur) na een digitale of fysieke notificatie alsnog telefonisch contact opneemt om de afspraak te wijzigen. (_Hier heb ik veel over zitten denken, en weet het nog steeds niet zeker, maar of die 48 uur relevant is of niet. Ik wil voorkomen dat alle afzeggeing aan het asynchrome worden gekoppeld.)
-	- **Relevantie:** Dit meet de effectiviteit van de digitale en fysieke informatievoorziening en voorkomt dat de reden van afzegging onjuist wordt gealloceerd.
+
 - **Klantcontacttijd**
-	- **Indicator A (Bereikbaarheid):** Het gemiddeld aantal belpogingen (outbound) dat een OK-planner moet ondernemen voordat er daadwerkelijk een patiënt wordt gesproken.
-	- **Indicator B (Gespreksduur):** De gemiddelde duur van het effectieve telefoongesprek (in minuten) waarin de operatie wordt bevestigd of verzet.
+	- **Indicator A (Bereikbaarheid):** Het gemiddeld aantal belpogingen dat een OK-planner moet ondernemen voordat er daadwerkelijk een patiënt wordt gesproken.
+	- **Indicator B (Gespreksduur):** De gemiddelde duur van het effectieve telefoongesprek in minuten waarin de operatie wordt bevestigd of verzet.
 	- **Relevantie:** Deze data zijn essentieel voor de business case van een asynchroon systeem (zoals een portaal, SMS, chat).
 	    - _Tijdwinst:_ Door de "wachttijd" en de herhaalde belpogingen (synchronisatie-verlies) te elimineren, kan worden berekend hoeveel tijd vrijkomt wanneer de patiënt op een eigen gekozen moment reageert.
 	    - _Procesversnelling:_ Het toont aan hoeveel 'dode tijd' er in het proces zit door het proberen te bereiken van niet-beschikbare patiënten.
+        
+- **Indicator: Retourstroom (Validatie van asynchroon contact)**
+    - **Metriek:** Het aantal patiënten dat binnen 48 uur na een digitale notificatie alsnog telefonisch contact opneemt voor verduidelijking of aanpassing van de geplande datum.
+    - **Relevantie:** Dit meet de effectiviteit van de digitale informatievoorziening en voorkomt dat de reden van afzegging onjuist wordt gealloceerd door een inschatting te maken dat mensen binnen 48 uur reageren.
 
-## 4.3 Kwalitatieve Indicatoren
+## 4.5 Bij meerdere van toepasbaar
+_Data die voor meerdere dingen relevant kunnen zijn_
 - **Patiënt- en medewerkerstevredenheid**
 	- **Patiënt:** In hoeverre weegt de 'persoonlijke touch' van een telefoongesprek op tegen het gemak van digitale snelheid en duidelijkheid?
 	- **Medewerker OK-planners:** De mate waarin OK-planners de huidige administratieve last en het "jagen" op patiënten ervaren als een belasting van hun werkplezier.
 	- **Relevantie:** Cruciaal voor het management om de balans te vinden tussen menselijke zorg en procesmatige efficiëntie.
-	  
+
+- **Gemiddelde doorlooptijd per planning**
+	- **Indicator:** Het aantal minuten dat een OK-planner gemiddeld besteedt aan het voltooien van één planning (inclusief mislukte belpogingen en handmatige datacorrecties).
+	- **Relevantie:** Dit vormt de nulmeting voor de berekening van de tijdswinst na veranderingen in het proces. Heeft het überhaupt nut wat we hebben gedaan?
+
+## 4.6 Overig
 - **Screening "In-Control" ratio**
 	-  **Indicator:** Percentage patiënten waarbij de medische screening nog niet volledig is op het moment dat de planner de taak weer oppakt.
 	- **Relevantie:** Deze indicator identificeert knelpunten in het voorafgaande screeningsproces die een directe negatieve impact hebben op de workflow van de OK-planning.
