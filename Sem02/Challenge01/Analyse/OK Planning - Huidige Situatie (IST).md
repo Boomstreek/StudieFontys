@@ -1,7 +1,7 @@
 ## Metadata
 **Author: ** Bram Wieringa
-**Date: ** 26-02-2026
-**Version: ** 1.1
+**Date: ** 05-03-2026
+**Version: ** 1.2
 **Dependencies: ** OR Planning 003 en Analyse van Knelpunten & Verbetersuggesties versie 2
 
 # 1. Inleiding
@@ -35,13 +35,24 @@ Afbeelding proces toevoegen
 4. **Screening:** Na de initiële planning volgt het screeningstraject. Waar men patient alleen telefonisch bellen als ze binnen 5 werkdagen moet op komen dagen voor de screening.
 5. **Beddencontrole:** De cruciale controle op bedbeschikbaarheid vindt pas 2 dagen voor de operatie plaats.
 
-# 3. Knelpunten
-Uit de analyse zijn de volgende knelpunten naar voren gekomen:
+# 3. Knelpunten & Verbeteringen
+De huidige analyse legt een aantal inefficiënties bloot die de doorstroom van de OK-planning hinderen. Om dit proces te versnellen en te verbeteren, voeren we de volgende maatregelen in:
 
-- **Handmatige Data-afhandeling:** Het opzoeken van informatie in HiX en Medspace gebeurt handmatig. Dit verhoogt de kans op menselijke fouten en vertraagt de start van de planning.
-- **Deadlock in Patiëntkeuze:** Er is geen beperking aan hoe vaak een patiënt een voorgestelde datum kan weigeren. Dit leidt tot een oneindige loop in het proces.
-- **Inefficiënte Communicatie:** De sterke afhankelijkheid van telefonisch contact in de OK-planning maakt het proces arbeidsintensief. Screening communiceert idealiter via digitale of fysieke post. Het is onduidelijk waarom men dat  niet doet bij de OK-planning.
-- **Capaciteitsverlies:** Door de beddencontrole pas 2 dagen van te voren uit te voeren, kan bij een tekort de gereserveerde OK-tijd niet altijd meer effectief worden ingezet voor een andere patiënt.
+- **Handmatige data opzoeken**
+    - _Knelpunt:_ Een aantal controletaken in HIX en MEDSPACE zijn nu handmatig (User Tasks).
+    - _Verbetering:_ Automatiseer dit via Service Tasks (API-koppelingen) voor directe data-uitwisseling, wat de kans op menselijke fouten verkleint.
+        
+- **Patient mag oneindig weigeren**
+    - _Knelpunt:_ Er zit geen limiet op de herhaal-loop als een patiënt een datum weigert.
+    - _Verbetering:_ Voeg een regel toe die na twee mislukte pogingen het proces escaleert naar een supervisor om een "deadlock" te voorkomen.
+        
+- **Late beddencontrole**
+    - _Knelpunt:_ De bedden-check vindt pas 2 dagen voor de OK plaats, waardoor bij een tekort de OK-tijd vaak verloren gaat.
+    - _Verbetering:_ Gebruik een Parallel Gateway om de bedden-allocatie direct na de screening te starten, zodat er meer tijd is voor alternatieve oplossingen.
+        
+- **Communicatie via mensen**
+    - _Knelpunt:_ Het proces is extreem afhankelijk van telefonisch contact, wat arbeidsintensief en foutgevoelig is (voicemail-loops).
+    - _Verbetering:_ Implementeer een geautomatiseerde notificatie-service (SMS, E-mail, Patiëntportaal) om de status direct door de patiënt te laten bevestigen.
 
 # 4. Nulmeting: Benodigde data voor onderbouwing
 Om de impact van de voorgestelde procesverbeteringen objectief te kunnen meten, is een nulmeting op basis van harde data noodzakelijk. Onderstaande gegevens zijn vereist om de huidige inefficiëntie aan te tonen en de 'Return on Investment' (ROI) van de nieuwe werkwijze te berekenen.
@@ -49,18 +60,9 @@ Om de impact van de voorgestelde procesverbeteringen objectief te kunnen meten, 
 Voor een betrouwbare nulmeting geniet het de voorkeur om deze data direct te extraheren uit de logbestanden van HiX, telefonie-centrale en eventuele andere systemen, om subjectiviteit te voorkomen en een zuiver beeld van de proces-doorlooptijden te verkrijgen.
 
 ## 4.1 Knelpunt: Handmatige data opzoeken & invoer
-- **Gemiddelde doorlooptijd per planning**
-	- **Indicator:** Het aantal minuten dat een OK-planner gemiddeld besteedt aan het voltooien van één planning (inclusief mislukte belpogingen en handmatige datacorrecties).
-	- **Relevantie:** Dit vormt de nulmeting voor de berekening van de tijdswinst na automatisering (API-koppelingen en digitale notificaties).
-
 - **Indicator: Data-frictie & Herstelwerk**
-    - **Metriek:** Het aantal mutaties in Hix dat plaatsvindt binnen 60 minuten nadat een actie in HiX is afgerond.
-    - **Relevantie:** Dit toont indirect aan hoe vaak een planner in HiX fouten herstelt
-        
-- **Indicator: Administratieve handelingstijd (Baseline)**
-    - **Metriek:** De gemiddelde tijd (totaal) die een planner per dossier besteedt aan systeem-interactie (exclusief beltijd).
-    - **Relevantie:** Kwantificeert de potentiële tijdwinst van automatische data-uitwisseling.
-        
+    - **Metriek:** Het aantal mutaties op kritieke datavelden in HiX (zoals operatiedatum, operatietype of patiëntgegevens) die plaatsvinden nadat deze initieel was gevuld.
+    - **Relevantie:** Dit meet indirect  hoe vaak een planner in HiX fouten herstelt.
 
 ## 4.2 Knelpunt: Onbeperkt weigeren door patiënt
 _Focus: Introductie van een escalatieprotocol bij "deadlocks"._
@@ -72,7 +74,7 @@ _Focus: Introductie van een escalatieprotocol bij "deadlocks"._
 _Focus: Implementatie van een Parallel Gateway voor vroegtijdige beddenreservering._
 - **Annuleringen door beddentekort**
 	- **Indicator:** Percentage en absoluut aantal annuleringen vanwege beddentekort twee werkdagen voor aanvang van operatie.
-	- **Relevantie:** Deze KPI meet het effect van de voorgestelde Parallel Gateway op vroegtijdige beddencontrole. Het doel is om onnodig capaciteitsverlies op de OK te minimaliseren door logistieke knelpunten eerder in het proces te signaleren.        
+	- **Relevantie:** Deze KPI meet het effect van de voorgestelde Parallel Gateway op vroegtijdige beddencontrole. Het doel is om onnodig capaciteitsverlies op de OK te minimaliseren door logistieke knelpunten eerder in het proces te signaleren.   
 
 ## 4.4 Knelpunt: Afhankelijkheid van telefonisch contact
 _Focus: Transitie naar asynchrone communicatie (SMS, Portaal, E-mail)._
@@ -82,14 +84,14 @@ _Focus: Transitie naar asynchrone communicatie (SMS, Portaal, E-mail)._
 	- **Relevantie:** Deze data onderbouwen de transitie naar asynchroon contact (patiëntenportaal/SMS). Het geeft inzicht in of de huidige telefonische benadering efficiënt is of dat digitale zelfservice tot minder procesverstoring leidt.
 
 - **Klantcontacttijd**
-	- **Indicator A (Bereikbaarheid):** Het gemiddeld aantal belpogingen dat een OK-planner moet ondernemen voordat er daadwerkelijk een patiënt wordt gesproken.
-	- **Indicator B (Gespreksduur):** De gemiddelde duur van het effectieve telefoongesprek in minuten waarin de operatie wordt bevestigd of verzet.
+	- **Indicator A:** Het gemiddeld aantal belpogingen dat een OK-planner moet ondernemen voordat er daadwerkelijk een patiënt wordt gesproken.
+	- **Indicator B** De gemiddelde duur van het effectieve telefoongesprek in minuten waarin de operatie wordt bevestigd of verzet.
 	- **Relevantie:** Deze data zijn essentieel voor de business case van een asynchroon systeem (zoals een portaal, SMS, chat).
 	    - _Tijdwinst:_ Door de "wachttijd" en de herhaalde belpogingen (synchronisatie-verlies) te elimineren, kan worden berekend hoeveel tijd vrijkomt wanneer de patiënt op een eigen gekozen moment reageert.
 	    - _Procesversnelling:_ Het toont aan hoeveel 'dode tijd' er in het proces zit door het proberen te bereiken van niet-beschikbare patiënten.
         
-- **Indicator: Retourstroom (Validatie van asynchroon contact)**
-    - **Metriek:** Het aantal patiënten dat binnen 48 uur na een digitale notificatie alsnog telefonisch contact opneemt voor verduidelijking of aanpassing van de geplande datum.
+- **Retoursstroom na invoeren digitale notificatie**
+    - **Indicator:** Het aantal patiënten dat binnen 48 uur na een digitale notificatie alsnog telefonisch contact opneemt voor verduidelijking of aanpassing van de geplande datum.
     - **Relevantie:** Dit meet de effectiviteit van de digitale informatievoorziening en voorkomt dat de reden van afzegging onjuist wordt gealloceerd door een inschatting te maken dat mensen binnen 48 uur reageren.
 
 ## 4.5 Bij meerdere van toepasbaar
@@ -104,12 +106,16 @@ _Data die voor meerdere dingen relevant kunnen zijn_
 	- **Relevantie:** Dit vormt de nulmeting voor de berekening van de tijdswinst na veranderingen in het proces. Heeft het überhaupt nut wat we hebben gedaan?
 
 ## 4.6 Overig
+- **Percentage OK-planning gevuld**
+	- **Indicator: ** Hoe vol de OK's gepland zijn
+	- **Relevantie: ** Uiteindelijk is het de taak van de OK-planners om de OK te vullen. 
+
 - **Screening "In-Control" ratio**
 	-  **Indicator:** Percentage patiënten waarbij de medische screening nog niet volledig is op het moment dat de planner de taak weer oppakt.
 	- **Relevantie:** Deze indicator identificeert knelpunten in het voorafgaande screeningsproces die een directe negatieve impact hebben op de workflow van de OK-planning.
 
 # 5. MoSCoW Analyse: Optimalisatie OK-Planning
-Hiervoor moet ik eerst mok data generen/
+
 
 ## 5.1 Must Havess
 

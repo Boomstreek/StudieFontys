@@ -56,3 +56,22 @@ Haar bedankt. vragen beantwoord en de laatste yes en no's ingevuld.
 
 ---
 
+**Emma Jonkers & Duayne Vaasen, 23-03-2026, Door de bomen het bos niet meer zien**
+
+Afgelopen week liep ik vast bij het koppelen van data aan mijn knelpunten, vooral omdat ik te diep in de verschillende soorten KPI’s dook. Hierdoor zag ik door de bomen het bos niet meer. In gesprek met Duayne Vaasen en Emma kon ik mijn hulpvraag niet helder formuleren door een blinde vlek in mijn eigen aanpak; ik stelde simpelweg niet de juiste vragen voor concrete feedback.
+
+Ik had eigenlijk moeten vragen naar de rode draad: de stap van analyse naar design. Uiteindelijk kwam ik zelf tot dit inzicht en bij het afstemmen met Emma bleek dat zij precies dezelfde logica gebruikte.
+
+*Actie:* De benodigde datapunten per specifiek knelpunt herstructureren, zodat de data direct antwoord geeft op de onderliggende analysevraag.
+
+&
+
+**Emma Jonkers & Duayne Vaasen, 23-03-2026, ERD weinig entiteit veel attributen**
+
+In mijn initiële ERD-ontwerp waren er relatief weinig entiteiten, maar bevatten deze een groot aantal attributen. Dit zou resulteren in een database met weinig tabellen en zeer veel kolommen. 
+Hoewel mijn collega's dit probleem erkenden, konden zij mij op dat moment nog niet van een concreet advies voorzien. Nu ik de stap van analyse naar design scherper heb geformuleerd, verwacht ik dat de structuur van het ERD ook logischer en overzichtelijker zal worden.
+
+*Actie:* ERD aanpassen nadat ik de analyse met het vorige actiepunt heb bijgewerkt.
+
+---
+
