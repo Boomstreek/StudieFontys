@@ -1,14 +1,18 @@
 ## Metadata
 **Author: ** Bram Wieringa
-**Date: ** 05-03-2026
-**Version: ** 1.2
+**Date: ** 06-03-2026
+**Version: ** 1.3
 **Dependencies: ** OR Planning 003 en Analyse van Knelpunten & Verbetersuggesties versie 2
 
 # 1. Inleiding
-Dit document beschrijft de huidige werkwijze (IST) van het OK-planningsproces. Het doel is om een feitelijk fundament te leggen voor procesverbetering. In de huidige situatie wordt de planning gekenmerkt door een hoge mate van handmatige gegevensverwerking en afhankelijkheid van telefonische bereikbaarheid, wat leidt tot een verhoogde kans op fouten en inefficiëntie.
+Dit document fungeert als een optimalisatieplan voor het OK-planningsproces. Het biedt een nulmeting van de huidige werkwijze, identificeert de kritieke knelpunten en schetst de beoogde verbeteringen om te komen tot een efficiëntere, datagedreven procesinrichting.
 
 ## 1.1 Doelstelling
-Het vastleggen van de huidige processtappen als nulmeting voor de voorgestelde automatisering en procesoptimalisatie.
+De doelstelling van dit document is drieledig:
+
+1. **Nulmeting:** Het benoemen van de huidige inefficiënties in het OK-planningsproces om een objectief vertrekpunt voor verbetering vast te leggen.
+2. **Optimalisatie:** Het identificeren van concrete knelpunten en het aandragen van oplossingen ter procesverbetering.    
+3. **Implementatiekader:** Het bieden van een gestructureerde aanpak (via MoSCoW-prioritering en Scrum-methodiek) om te komen tot een proactieve, datagedreven werkwijze die de administratieve druk verlaagt en de OK-capaciteit optimaliseert.
 
 ## 1.2 Scope
 De scope van dit proces start bij de beoordeling van de chirurgische noodzaak door de medisch specialist en eindigt op de dag van de operatie. Het proces richt zich uitsluitend op de geplande zorg en hoofdzakelijk op de rol van OK-planner.
@@ -33,7 +37,7 @@ Afbeelding proces toevoegen
 2. **Handmatige Validatie:** De OK-planner voert handmatig controles uit in zowel HiX als indien nodig Medspace om de medische data en de beschikbaarheid van de specialist te verifiëren.
 3. **Patiëntcontact:** De patiënt wordt telefonisch benaderd voor het afstemmen van een datum. Dit verloopt via een repetitief proces zonder harde limiet op het aantal weigeringen door de patiënt.
 4. **Screening:** Na de initiële planning volgt het screeningstraject. Waar men patient alleen telefonisch bellen als ze binnen 5 werkdagen moet op komen dagen voor de screening.
-5. **Beddencontrole:** De cruciale controle op bedbeschikbaarheid vindt pas 2 dagen voor de operatie plaats.
+5. **Beddencontrole:** De cruciale controle op bedebeschikbaarheid vindt pas 2 dagen voor de operatie plaats.
 
 # 3. Knelpunten & Verbeteringen
 De huidige analyse legt een aantal inefficiënties bloot die de doorstroom van de OK-planning hinderen. Om dit proces te versnellen en te verbeteren, voeren we de volgende maatregelen in:
@@ -115,24 +119,64 @@ _Data die voor meerdere dingen relevant kunnen zijn_
 	- **Relevantie:** Deze indicator identificeert knelpunten in het voorafgaande screeningsproces die een directe negatieve impact hebben op de workflow van de OK-planning.
 
 # 5. MoSCoW Analyse: Optimalisatie OK-Planning
+Om het OK-planningsproces stapsgewijs te verbeteren, is een strikte prioritering essentieel. Het proces begint met een nulmeting, waarna op basis van data-inzicht gericht optimalisaties worden doorgevoerd. De onderstaande MoSCoW-analyse dient als leidraad voor de implementatie.
 
+## 5.1 Must Haves (Randvoorwaardelijk voor succes)
+- **Nulmeting (Baseline):** Extractie van historische data om de huidige doorlooptijden en foutmarges objectief vast te leggen.
+- **API-koppeling (HiX - Medspace):** Realisatie van geautomatiseerde data-uitwisseling voor het elimineren van handmatige controle-taken.
+- **Data-kwaliteit & Validatie:** Implementatie van harde validatieregels bij invoer om te voorkomen dat foutieve of onvolledige data het planningsproces verstoort.
+- **Escalatieprotocol (Deadlock-preventie):** Automatische doorzetting van dossiers naar een supervisor na maximaal twee weigeringen door de patiënt.
+- **Management Dashboard (KPI's):** Real-time inzicht in:
+    - Doorlooptijd van het volledige OK-planningsproces.
+    - Percentage gevulde OK-slots.
+    - Specifieke KPI's per gedefinieerd knelpunt (conform hoofdstuk 4).
 
-## 5.1 Must Havess
-
-## 5.2 Should Haves
+## 5.2 Should Haves (Hoge prioriteit na baseline)
+- **Asynchrone Communicatie:** Implementatie van digitale notificatieservice (SMS/E-mail/Patiëntportaal) om telefonische afhankelijkheid te verminderen.
+- **Screening Monitoring:** Real-time inzicht in de 'In-Control' ratio van de medische screening om tijdig bij te sturen.
+- **UX Optimalisatie:** Herontwerp van de dashboard-interface voor OK-planners voor een betere visuele workflow en overzichtelijkheid.
 
 ## 5.3 Could Haves
+- **Automatische Tevredenheidsmeting:** Geautomatiseerde feedbackloops voor patiënten en medewerkers over het planningsproces.
+- **Analyse Retoursstroom:** Diepgaand onderzoek naar de redenen achter telefonische contactopnames door patiënten na digitale berichtgeving, om de digitale zelfservice verder te verfijnen.
+    
 
-## 5.4 Won´t Have s(voor nu)
+## 5.4 Won’t Haves 
+- **Acute Zorg:** De integratie of optimalisatie van spoedoperaties.
+- **Systeemvervanging:** Grootschalige vervanging of herinrichting van de gehele IT-infrastructuur (HiX/Medspace).
+- **Volledig Autonome Planning:** Het streven naar een planning zonder menselijke tussenkomst of supervisie.
 
-# 6. Conclusie
+# 6. Implementatiestrategie: Scrum-methodiek
+Het realiseren van de verbeteringen in het OK-planningsproces wordt uitgevoerd via een Scrum-methodiek. Gezien de noodzaak om snel inzicht te krijgen in data (de nulmeting) en de afhankelijkheid van technische koppelingen, biedt Scrum de juiste structuur voor iteratieve ontwikkeling en continue feedback.
+
+- **Sprint-cycli:** Het verbetertraject wordt opgedeeld in sprints van 2 weken. Elke sprint eindigt met een 'Sprint Review', waarin de opgeleverde functionaliteiten (zoals API-koppelingen of nieuwe dashboards) worden getoetst aan de praktijk.
+- **Sprint 1: Nulmeting & Inrichting:** De eerste prioriteit is het vaststellen van de baseline. In deze sprint wordt de data-extractie uit HiX en telefoniesystemen gerealiseerd, zodat we vanaf sprint 2 op basis van feiten kunnen sturen.
+- **Product Backlog:** De MoSCoW-analyse (hoofdstuk 5) fungeert als de basis voor de Product Backlog. De 'Must Haves' worden als eerste prioriteit naar de sprint-planning getrokken.
+- **Stakeholder management:** Voor een succesvolle borging van dit verbetertraject is het essentieel om feedback te verzamelen van eindgebruikers en procesverantwoordelijken. Omdat dit een fictief project betreft, worden hiervoor verschillende relevante personen benaderd om deze rol op zich te nemen en het project van feedback te voorzien.
+
+Vooraf worden deze rollen niet aan specifieke personen toegewezen; er wordt per fase gekeken wie de meest waardevolle inzichten kan bieden. Denk hierbij aan medestudenten, docenten, werkcollega’s en ervaringsdeskundigen, zoals een partner die werkzaam is als OK-planner.
+
+# 7. Conclusie
+Het huidige OK-planningsproces bevat significante inefficiënties, met name door handmatige data-invoer en een gebrek aan objectieve processturing. Dit document legt het fundament voor een noodzakelijke transformatie.
+
+- **Datagedreven verbetering:** De verplichte nulmeting vormt de basis voor elke volgende stap. Hierdoor sturen we niet langer op onderbuikgevoel, maar op meetbare KPI’s zoals doorlooptijden en de "In-Control" ratio van het screeningsproces.
+
+- **Van reactief naar proactief:** De OK-planner stapt af van administratief "jagen" op informatie en het ad-hoc oplossen van problemen. Door te sturen op duidelijke KPI’s en het automatiseren van routinematig werk, verschuift de rol naar die van procesregisseur. De planner hoeft niet langer achter uitzonderingen aan te rennen, maar behoudt het overzicht en stuurt proactief op de OK-capaciteit.
+
+- **Iteratieve realisatie:** Via een Scrum-werkwijze wordt het verbetertraject beheersbaar gehouden. Door in sprints te werken, kunnen we snel waarde toevoegen (zoals de automatische notificatieservice) en de impact op het zorgproces nauwgezet monitoren.
+
+**Eindoordeel:** Met de uitvoering van de 'Must Haves' en de Scrum-werkwijze leggen we de basis voor een hogere OK-vullingsgraad en minder administratieve druk. Dankzij de nulmeting en KPI’s maken we het hele proces inzichtelijk. Hierdoor hebben we altijd feitelijk zicht op de voortgang; ook wanneer doelen niet worden gehaald, weten we precies waar het proces hapert en kunnen we gericht bijsturen.
 
 # 7. Bronnen
 - Google. (2026). **Gemini (Gemini 3 Flash)** [Large language model]. Geraadpleegd op 28 februari 2026, van [https://gemini.google.com](https://gemini.google.com)
 - **Gebruikte prompt:** _"Verbeter deze tekst zodat het vloeiender, leesbaarder en professioneler wordt maar behoud de kern van de tekst."_
-- 
+
 # 8. Bijlage
-
-
-### Over nadenken?
-Tijdspad inzetten? Of adviseren het kanban te doen?
+- BPMN diagram
+- ERD-digram
+	- Chen's Notatie (coneptueel)
+	- Crows Feet Notatie
+- Desgin Dashbaord
+- Data-dictionart bronnen nulmeting
+- scrum product backlog
+- risico -matrixc
