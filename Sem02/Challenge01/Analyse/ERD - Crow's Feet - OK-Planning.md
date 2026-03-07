@@ -6,7 +6,7 @@ erDiagram
     METADATA {
     Auteur Bram_Wieringa
     datum d07_03_2026
-    versie v001
+    versie v002
     }
     
     PATIENT ||--o{ OPNAMEN : "is opgenomen"
@@ -22,6 +22,7 @@ erDiagram
     MEDEWERKER ||--o{ TEVREDENHEID : "heeft werkgeluk"
     
     MEDEWERKER ||--|{ ROOSTER : "heeft werkrooster"
+    MEDEWERKER }|--|| FUNCTIE : "heeft functie"
     
     OPERATIE }|--|| OPERATIE_KAMER : "vindt plaats in"
     OPERATIE_KAMER ||--|{ OKROOSTER : "heeft beschikbaarheid"
@@ -55,8 +56,12 @@ erDiagram
     
     MEDEWERKER {
     int medewerkerId PK
-    int roosterId FK
-    string functie
+    int functieId FK
+    }
+    
+    FUNCTIE {
+    int functieId PK
+    string functieNaam
     }
     
     ROOSTER {
@@ -79,7 +84,6 @@ erDiagram
     OPERATIE {
     int operatieId PK
     int patientId FK
-    int okRoosterId FK
     datetime geplandeStartTijd
     datetime geplandeEindTijd
     datetime werkelijkeStartTijd
@@ -95,6 +99,7 @@ erDiagram
     
     OKROOSTER {
     int okRoosterId PK
+    int operatieId FK
     int operatieKamerId FK
     date datum
     time startTijd
