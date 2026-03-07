@@ -8,29 +8,43 @@
         "type": "tabs",
         "children": [
           {
-            "id": "19553fcbbd318ea4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Challenge01/Analyse/OK Planning - Huidige Situatie.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "OK Planning - Huidige Situatie"
-            }
-          },
-          {
             "id": "8f73d9da1fedfe12",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Challenge01/Design/Drawing 2026-03-07 12.01.29.excalidraw.md"
+                "file": "Challenge01/Design/Wireframe Dashboard.md"
               },
               "icon": "excalidraw-icon",
-              "title": "Drawing 2026-03-07 12.01.29.excalidraw"
+              "title": "Wireframe Dashboard"
+            }
+          },
+          {
+            "id": "89bb258299f66ec8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Challenge01/Analyse/ERD - Crow's Feet - OK-Planning.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "ERD - Crow's Feet - OK-Planning"
+            }
+          },
+          {
+            "id": "9ed1f3f76b108f6c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Challenge01/Analyse/OK Planning - Analyse.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "OK Planning - Analyse"
             }
           }
         ],
@@ -91,7 +105,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 289.5
   },
   "right": {
     "id": "9993d9c848bd2d67",
@@ -198,10 +212,27 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "8f73d9da1fedfe12",
+  "active": "89bb258299f66ec8",
   "lastOpenFiles": [
-    "Challenge01/Analyse/OK Planning - Huidige Situatie.md",
-    "Challenge01/Design/Drawing 2026-03-07 12.01.29.excalidraw.md",
+    "Challenge01/Analyse/OK Planning - Analyse.md",
+    "Challenge01/Analyse/ERD - Crow's Feet - OK-Planning.md",
+    "Challenge01/Design/Wireframe Dashboard.md",
+    "Challenge01/Analyse/ERD - Conceptueel - OK-Planning.md",
+    "Challenge01/Analyse/ERD - Conceptueel - OK-Planning.pdf",
+    "Weekkaarten/2026-W10.md",
+    "Challenge01/Analyse/Analyse van Knelpunten & Verbetersuggesties.pdf",
+    "Challenge01/Analyse/4. Nulmeting - Benodigde data voor onderbouwing.pdf",
+    "Challenge01/Analyse/4. Nulmeting - Benodigde data voor onderbouwing.md",
+    "Challenge01/Analyse/OR_Planning003.pdf",
+    "Challenge01/Analyse/OR_Planning002.png",
+    "Challenge01/Analyse/OR_Planning001.png",
+    "Challenge01/Analyse/OK Planning - Analyse.pdf",
+    "Challenge01/Design/Wireframe Dashboard.pdf",
+    "Challenge01/Design/home.png",
+    "Challenge01/Design/back.png",
+    "Challenge01/home.png",
+    "Challenge01/back.png",
+    "Challenge01/Analyse/OK Planning - Huidige Situatie.pdf",
     "back.png",
     "Challenge01/Design/Icons/back.png",
     "Challenge01/Design/Icons/Unconfirmed 227768.crdownload",
@@ -209,31 +240,18 @@
     "Challenge01/Design/Icons/home.png",
     "Challenge01/Design/Icons/Unconfirmed 183287.crdownload",
     "Challenge01/Design/Icons",
-    "Challenge01/Design/lu13988dqrf.tmp",
     "Challenge01/Analyse/Analyse van Knelpunten & Verbetersuggesties.md",
-    "Challenge01/Analyse/ERD - Conceptueel - OK-Planning.md",
-    "ERD - Crow's Feet - OK-Planning.md",
-    "Weekkaarten/2026-W10.md",
     "Challenge01/Manage & Control/Feedback Document.md",
     "Geloft.md",
-    "Challenge01/Design/lu3522550drd.tmp",
-    "Challenge01/Design/wireframeDashboard.odp",
-    "Challenge01/Design/lu3522550cyw.tmp",
-    "Challenge01/Design",
-    "Challenge01/Analyse/4. Nulmeting - Benodigde data voor onderbouwing.md",
-    "Challenge01/Manage & Control/Feedback Document.pdf",
-    "Challenge01/Analyse/OK Planning - Huidige Situatie (IST).pdf",
     "IST,SOLL,GAP.md",
     "N8N - flowchart Stroom.md",
     "Challenge01/Analyse/ERD - Conceptueel - OK-Planning 1.md",
-    "Challenge01/Analyse/OR_Planning001.png",
     "Weekkaarten/2026-W9.md",
     "Leerdoelen/Leerdoelen Sprint 1 Sem02.md",
     "Plan van aanpak.md",
     "Lesavonden/2026-02-26 Experttafel Business.md",
     "Weekkaarten/2026-W7.md",
     "Weekkaarten/2026-W8.md",
-    "Challenge01/Analyse/OR_Planning002.png",
     "Werk/GemeenteraadInControl.md",
     "Templates/Leertraject - Weekkaart.md",
     "Weekkaarten/2026-W6.md",

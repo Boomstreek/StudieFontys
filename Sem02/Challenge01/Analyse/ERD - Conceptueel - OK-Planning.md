@@ -23,9 +23,9 @@ FontColor #000000
 entity Metadata <<grey>> {
 	"Auteur: Bram Wieringa" as auteur <<grey>> {
 	}
-	"Datum: 05-03-2026" as datumvandaag <<grey>> {
+	"Datum: 07-03-2026" as datumvandaag <<grey>> {
 	}
-	"Versie: 002" as versie <<grey>> {
+	"Versie: 005" as versie <<grey>> {
 	}
 }
 
@@ -33,12 +33,14 @@ entity Metadata <<grey>> {
 entity Patient <<red>> {
 	naam <<blue>> {
 	}
-	voorkeurskanaal <<blue>> {
+	toestemmingDigitaalPatientDossier <<blue>> {
 	' e-mail, patientenportaal, SMS, telefoon, Post
 	}
 	adres <<blue>> {
 	}
 	telefoonnummer <<blue>> {
+	}
+	email <<blue>> {
 	}
 }
 
@@ -123,7 +125,7 @@ entity "OK-slot" as OKSlot <<red>> {
 
 ' Relationships
 
-relationship "OK-slots worden geplant" as plant <<green>> {
+relationship "word geplant" as plant <<green>> {
 	startTijdPlanning <<blue>> {
 	}
 	eindTijdPlanning <<blue>> {
@@ -190,7 +192,7 @@ patientTevreden -N- Tevredenheid
 Medewerker -1- medewerkerTevreden
 medewerkerTevreden -N- Tevredenheid
 
-Operatie -N- krijgtToegewezen
+Operatie -1- krijgtToegewezen
 krijgtToegewezen -1- OKSlot
 
 OKSlot -N- wordtUitgevoerdIn 

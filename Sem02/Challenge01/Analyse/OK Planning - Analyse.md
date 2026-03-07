@@ -1,7 +1,7 @@
 ## Metadata
 **Author: ** Bram Wieringa
-**Date: ** 06-03-2026
-**Version: ** 1.3
+**Date: ** 07-03-2026
+**Version: ** 1.4
 **Dependencies: ** OR Planning 003 en Analyse van Knelpunten & Verbetersuggesties versie 2
 
 # 1. Inleiding
@@ -121,25 +121,23 @@ _Data die voor meerdere dingen relevant kunnen zijn_
 # 5. MoSCoW Analyse: Optimalisatie OK-Planning
 Om het OK-planningsproces stapsgewijs te verbeteren, is een strikte prioritering essentieel. Het proces begint met een nulmeting, waarna op basis van data-inzicht gericht optimalisaties worden doorgevoerd. De onderstaande MoSCoW-analyse dient als leidraad voor de implementatie.
 
-## 5.1 Must Haves (Randvoorwaardelijk voor succes)
+## 5.1 Must Haves 
 - **Nulmeting (Baseline):** Extractie van historische data om de huidige doorlooptijden en foutmarges objectief vast te leggen.
-- **API-koppeling (HiX - Medspace):** Realisatie van geautomatiseerde data-uitwisseling voor het elimineren van handmatige controle-taken.
-- **Data-kwaliteit & Validatie:** Implementatie van harde validatieregels bij invoer om te voorkomen dat foutieve of onvolledige data het planningsproces verstoort.
 - **Escalatieprotocol (Deadlock-preventie):** Automatische doorzetting van dossiers naar een supervisor na maximaal twee weigeringen door de patiënt.
 - **Management Dashboard (KPI's):** Real-time inzicht in:
     - Doorlooptijd van het volledige OK-planningsproces.
     - Percentage gevulde OK-slots.
     - Specifieke KPI's per gedefinieerd knelpunt (conform hoofdstuk 4).
-
-## 5.2 Should Haves (Hoge prioriteit na baseline)
 - **Asynchrone Communicatie:** Implementatie van digitale notificatieservice (SMS/E-mail/Patiëntportaal) om telefonische afhankelijkheid te verminderen.
-- **Screening Monitoring:** Real-time inzicht in de 'In-Control' ratio van de medische screening om tijdig bij te sturen.
-- **UX Optimalisatie:** Herontwerp van de dashboard-interface voor OK-planners voor een betere visuele workflow en overzichtelijkheid.
+- **API-koppeling (HiX - Medspace):** Realisatie van geautomatiseerde data-uitwisseling voor het elimineren van handmatige controle-taken.
+
+## 5.2 Should Haves 
+- **UX Optimalisatie:** Herontwerp van de dashboard-interface voor een betere visuele workflow en overzichtelijkheid.
+- **Analyse Retoursstroom:** Diepgaand onderzoek naar de redenen achter telefonische contactopnames door patiënten na digitale berichtgeving, om de digitale zelfservice verder te verfijnen.
 
 ## 5.3 Could Haves
 - **Automatische Tevredenheidsmeting:** Geautomatiseerde feedbackloops voor patiënten en medewerkers over het planningsproces.
-- **Analyse Retoursstroom:** Diepgaand onderzoek naar de redenen achter telefonische contactopnames door patiënten na digitale berichtgeving, om de digitale zelfservice verder te verfijnen.
-    
+- **Screening Monitoring:** Real-time inzicht in de 'In-Control' ratio van de medische screening om tijdig bij te sturen.
 
 ## 5.4 Won’t Haves 
 - **Acute Zorg:** De integratie of optimalisatie van spoedoperaties.
@@ -174,9 +172,6 @@ Het huidige OK-planningsproces bevat significante inefficiënties, met name door
 # 8. Bijlage
 - BPMN diagram
 - ERD-digram
-	- Chen's Notatie (coneptueel)
+	- Chen's Notatie (conceptual)
 	- Crows Feet Notatie
-- Desgin Dashbaord
-- Data-dictionart bronnen nulmeting
-- scrum product backlog
-- risico -matrixc
+- Design Dashbaord
