@@ -3,16 +3,22 @@
 title: OK-Planning - ERD Crow's Feet Notatie
 ---
 erDiagram
+    METADATA {
+    Auteur Bram_Wieringa
+    datum d07_03_2026
+    versie v001
+    }
+    
     PATIENT ||--o{ OPNAMEN : "is opgenomen"
     OPNAMEN }|--|| KAMER : "ligt op"
     KAMER }|--|| AFDELING : "hoort bij"
     
-    PATIENT |o--o{ OPERATIE : ondergaat
+    PATIENT ||--o{ OPERATIE : ondergaat
     MEDEWERKER }|--|| KOPPEL_UITVOERING : "voert uit"
     OPERATIE }|--|| KOPPEL_UITVOERING : "wordt geholpen door"
     KOPPEL_UITVOERING ||--|| OKROOSTER : "heeft OK-slot"
     
-    PATIENT |o--o{ TEVREDENHEID : "is tevreden"
+    PATIENT ||--o{ TEVREDENHEID : "is tevreden"
     MEDEWERKER ||--o{ TEVREDENHEID : "heeft werkgeluk"
     
     MEDEWERKER ||--|{ ROOSTER : "heeft werkrooster"

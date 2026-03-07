@@ -39,16 +39,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Challenge01/Analyse/OK Planning - Analyse.md",
-                "mode": "source",
-                "source": false
+                "file": "Challenge01/Analyse/ERD - Crow's Feet - OK-Planning.md",
+                "mode": "preview",
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "OK Planning - Analyse"
+              "title": "ERD - Crow's Feet - OK-Planning"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -212,8 +212,9 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "89bb258299f66ec8",
+  "active": "9ed1f3f76b108f6c",
   "lastOpenFiles": [
+    "Challenge01/Analyse/ERD - Crow's Feet - OK-Planning.pdf",
     "Challenge01/Analyse/OK Planning - Analyse.md",
     "Challenge01/Analyse/ERD - Crow's Feet - OK-Planning.md",
     "Challenge01/Design/Wireframe Dashboard.md",
