@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "OK Planning - Huidige Situatie"
             }
+          },
+          {
+            "id": "8f73d9da1fedfe12",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Challenge01/Design/Drawing 2026-03-07 12.01.29.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-03-07 12.01.29.excalidraw"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -185,12 +198,20 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "19553fcbbd318ea4",
+  "active": "8f73d9da1fedfe12",
   "lastOpenFiles": [
+    "Challenge01/Analyse/OK Planning - Huidige Situatie.md",
+    "Challenge01/Design/Drawing 2026-03-07 12.01.29.excalidraw.md",
+    "back.png",
+    "Challenge01/Design/Icons/back.png",
+    "Challenge01/Design/Icons/Unconfirmed 227768.crdownload",
+    "home.png",
+    "Challenge01/Design/Icons/home.png",
+    "Challenge01/Design/Icons/Unconfirmed 183287.crdownload",
+    "Challenge01/Design/Icons",
     "Challenge01/Design/lu13988dqrf.tmp",
     "Challenge01/Analyse/Analyse van Knelpunten & Verbetersuggesties.md",
     "Challenge01/Analyse/ERD - Conceptueel - OK-Planning.md",
-    "Challenge01/Analyse/OK Planning - Huidige Situatie.md",
     "ERD - Crow's Feet - OK-Planning.md",
     "Weekkaarten/2026-W10.md",
     "Challenge01/Manage & Control/Feedback Document.md",
@@ -202,20 +223,16 @@
     "Challenge01/Analyse/4. Nulmeting - Benodigde data voor onderbouwing.md",
     "Challenge01/Manage & Control/Feedback Document.pdf",
     "Challenge01/Analyse/OK Planning - Huidige Situatie (IST).pdf",
-    "Challenge01/Analyse/ERD - Conceptueel - OK-Planning.pdf",
     "IST,SOLL,GAP.md",
     "N8N - flowchart Stroom.md",
     "Challenge01/Analyse/ERD - Conceptueel - OK-Planning 1.md",
     "Challenge01/Analyse/OR_Planning001.png",
     "Weekkaarten/2026-W9.md",
-    "Challenge01/Analyse/4. Nulmeting - Benodigde data voor onderbouwing.pdf",
     "Leerdoelen/Leerdoelen Sprint 1 Sem02.md",
     "Plan van aanpak.md",
     "Lesavonden/2026-02-26 Experttafel Business.md",
     "Weekkaarten/2026-W7.md",
     "Weekkaarten/2026-W8.md",
-    "Challenge01/Analyse/Analyse van Knelpunten & Verbetersuggesties.pdf",
-    "Challenge01/Analyse/OR_Planning003.pdf",
     "Challenge01/Analyse/OR_Planning002.png",
     "Werk/GemeenteraadInControl.md",
     "Templates/Leertraject - Weekkaart.md",
@@ -223,7 +240,6 @@
     "Lesavonden/2026-02-12.md",
     "Templates/TemplateDVC.md",
     "Challenge01/Personal Leaderschip/Boekverslag SQL and Relational Theory.md",
-    "Brief orne en Yvette.md",
-    "Beroepsopdracht Your Future/Your Future.md"
+    "Brief orne en Yvette.md"
   ]
 }
