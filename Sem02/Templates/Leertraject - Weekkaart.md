@@ -135,8 +135,10 @@ tR += `%% Beschrijf je belangrijkste Aha-moment en waarom dit belangrijk was. %%
 tR += `- \n\n`;
 
 tR += `## Inzichten, ideeën en geleerde lessen\n`;
+tR += `- \n\n`;
 
 tR += `## Feedback ontvangen\n`;
+tR += `- \n\n`;
 
 tR += `## Dataview overzicht\n`;
 tR += "```dataview\n";

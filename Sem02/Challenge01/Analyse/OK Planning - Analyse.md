@@ -166,7 +166,7 @@ Het huidige OK-planningsproces bevat significante inefficiënties, met name door
 **Eindoordeel:** Met de uitvoering van de 'Must Haves' en de Scrum-werkwijze leggen we de basis voor een hogere OK-vullingsgraad en minder administratieve druk. Dankzij de nulmeting en KPI’s maken we het hele proces inzichtelijk. Hierdoor hebben we altijd feitelijk zicht op de voortgang; ook wanneer doelen niet worden gehaald, weten we precies waar het proces hapert en kunnen we gericht bijsturen.
 
 # 7. Bronnen
-- Google. (2026). **Gemini (Gemini 3 Flash)** [Large language model]. Geraadpleegd op 28 februari 2026, van [https://gemini.google.com](https://gemini.google.com)
+- Google. (2026). **Gemini (Gemini 3 Flash)** [Large language model]. Geraadpleegd op 7 maart 2026, van [https://gemini.google.com](https://gemini.google.com)
 - **Gebruikte prompt:** _"Verbeter deze tekst zodat het vloeiender, leesbaarder en professioneler wordt maar behoud de kern van de tekst."_
 
 # 8. Bijlage
@@ -174,4 +174,3 @@ Het huidige OK-planningsproces bevat significante inefficiënties, met name door
 - ERD-digram
 	- Chen's Notatie (conceptual)
 	- Crows Feet Notatie
-- Design Dashbaord

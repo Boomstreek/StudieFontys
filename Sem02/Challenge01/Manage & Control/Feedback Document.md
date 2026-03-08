@@ -62,7 +62,7 @@ Afgelopen week liep ik vast bij het koppelen van data aan mijn knelpunten, voora
 
 Ik had eigenlijk moeten vragen naar de rode draad: de stap van analyse naar design. Uiteindelijk kwam ik zelf tot dit inzicht en bij het afstemmen met Emma bleek dat zij precies dezelfde logica gebruikte.
 
-*Actie:* De benodigde datapunten per specifiek knelpunt herstructureren, zodat de data direct antwoord geeft op de onderliggende analysevraag.
+**Actie:** De benodigde datapunten per specifiek knelpunt herstructureren, zodat de data direct antwoord geeft op de onderliggende analysevraag.
 
 &
 
@@ -71,7 +71,35 @@ Ik had eigenlijk moeten vragen naar de rode draad: de stap van analyse naar desi
 In mijn initiële ERD-ontwerp waren er relatief weinig entiteiten, maar bevatten deze een groot aantal attributen. Dit zou resulteren in een database met weinig tabellen en zeer veel kolommen. 
 Hoewel mijn collega's dit probleem erkenden, konden zij mij op dat moment nog niet van een concreet advies voorzien. Nu ik de stap van analyse naar design scherper heb geformuleerd, verwacht ik dat de structuur van het ERD ook logischer en overzichtelijker zal worden.
 
-*Actie:* ERD aanpassen nadat ik de analyse met het vorige actiepunt heb bijgewerkt.
+**Actie:** ERD aanpassen nadat ik de analyse met het vorige actiepunt heb bijgewerkt.
 
 ---
 
+**Bespreking Myriam 03-03-2026**
+
+1. Planning en Tijdbesteding Stage
+Totale duur: 17 weken.
+Inzet: 3,5 dag per week (55 dagen totaal).
+Belangrijke notitie: Houd bij het plannen rekening met verslaglegging. Dit is een aanzienlijk deel van je werkdruk en moet je niet onderschatten.
+Checkpoints: Er zijn 3 vaste terugkommomenten gedurende de stageperiode.
+
+2. Portfolio-opbouw
+Vrijheid: Het portfolio wordt ingericht naar eigen voorkeur en stijl.
+Je mag dingen die je maakt voor werk hierin uploaden. Voor mij zou dat kunnen zijn:
+- Data Value Canvas.
+- Projectscope.
+- Professional Skills (reflecties en bewijslast).
+- Documentatie van 'werk-dingen'.
+
+3. Inhoudelijke Focus (De ICT-Cycle)
+De stageopdracht moet de gehele ICT-cyclus dekken. Denk hierbij aan:
+Onderzoek: Voorfase, probleemstelling en theoretisch kader.
+Scope: Heldere afbakening van wat je wel en niet doet.
+Proof of Concept: Uitvoering en realisatie van je oplossing.
+Bedrijfsbegeleiding: Zorg voor een vast ritme waarin je regelmatig sparren kunt met je begeleider op de werkvloer.
+
+4. Directe Actiepunten
+[x] Bookmatch: Status van je bestelling controleren/bijhouden.
+[x] Overkoepelende documentatie: Starten met het aanmaken van de hoofdmappen/documenten voor je portfolio
+
+---
