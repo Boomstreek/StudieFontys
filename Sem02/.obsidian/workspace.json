@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d72489c6b803578a",
+            "id": "11b6f9cb22d1bca6",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -185,11 +185,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "d72489c6b803578a",
+  "active": "11b6f9cb22d1bca6",
   "lastOpenFiles": [
+    "Weekkaarten/2026-W11.md",
     "Weekkaarten/2026-W10.md",
     "Challenge01/Design/OK-Planning - Design.md",
-    "Weekkaarten/2026-W11.md",
     "Challenge01/Manage & Control/Feedback Document.md",
     "Weekkaarten/2026-W9.md",
     "Templates/Leertraject - Weekkaart.md",
