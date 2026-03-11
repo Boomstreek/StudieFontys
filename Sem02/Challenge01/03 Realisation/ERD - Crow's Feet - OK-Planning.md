@@ -29,8 +29,14 @@ erDiagram
     
     PATIENT {
     int patientId PK
-    string naam
-    string adres
+    string voornaam
+    string achternaam
+    string stad
+    string provincie
+    string postcode
+    string straat
+    string huisnummer
+    string gender
     int telefoonnummer
     string email
     boolean toestemmingDigitaalPatientDossier
@@ -38,12 +44,15 @@ erDiagram
     
     OPNAMEN {
     int opnamenId PK
+    int patientId FK
     date startDatum
     date eindDatum
     }
     
     KAMER {
     int kamerId PK
+    int afdelingId FK
+    int opnamenId FK
     int aantalBedden
     decimal kamerNummer
     }

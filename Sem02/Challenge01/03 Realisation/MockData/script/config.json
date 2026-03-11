@@ -1,0 +1,6 @@
+{
+    "output_dir": "data_output",
+    "format": "csv",
+    "n_patients": 200,
+    "n_operaties": 500
+}
