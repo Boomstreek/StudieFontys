@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Challenge01/03 Realisation/ERD - Crow's Feet - OK-Planning.md",
+                "file": "Weekkaarten/2026-W11.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "ERD - Crow's Feet - OK-Planning"
+              "title": "2026-W11"
             }
           }
         ],
@@ -93,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 289.5
+    "width": 200
   },
   "right": {
     "id": "9993d9c848bd2d67",
@@ -202,6 +202,7 @@
   },
   "active": "49fec8095369dc3a",
   "lastOpenFiles": [
+    "Challenge01/03 Realisation/ERD - Crow's Feet - OK-Planning.md",
     "Challenge01/03 Realisation/MockData/script/data_output/OPERATIE.csv",
     "Challenge01/03 Realisation/MockData/script/data_output/PATIENT.csv",
     "Challenge01/03 Realisation/MockData/script/data_output",
@@ -212,8 +213,6 @@
     "Challenge01/03 Realisation/MockData/script/models.py",
     "Challenge01/03 Realisation/MockData/script/entities.py",
     "Challenge01/03 Realisation/MockData/script/enti",
-    "Challenge01/03 Realisation/MockData/script/logic.py",
-    "Challenge01/03 Realisation/ERD - Crow's Feet - OK-Planning.md",
     "Challenge01/01 Analyse/OK Planning - Analyse.md",
     "Challenge01/01 Analyse/4. Nulmeting - Benodigde data voor onderbouwing.md",
     "Challenge01/01 Analyse/Analyse van Knelpunten & Verbetersuggesties.md",

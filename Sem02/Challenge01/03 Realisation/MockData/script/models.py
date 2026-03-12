@@ -50,7 +50,7 @@ class Operatie:
         return random.choices(waarden, weights=gewichten, k=1)[0]
 
     @staticmethod
-    def generate(patientId):
+    def generate(id, patientId):
         g_start, g_eind, w_start, w_eind = Operatie._generate_times()
         return {
             "operatieId": id,
@@ -62,7 +62,22 @@ class Operatie:
             "typeOperatie": random.choice(['Knie', 'Heup', 'Hart', 'Oog', 'Steralisatie', 'Hersenen', 'Nieren']),
             "status": random.choice(['Gepland', 'Voltooid']),
             "statusScreening": random.choice([True, False]),
-            "annuleringsDatum":
-            "annuleringsReden":
+            "annuleringsDatum": None,
+            "annuleringsReden": None,
             "aantalHerplanningen":Operatie._get_random_herplanningen()
+        }
+class Functie
+    @staticmethod
+    def generate (id):
+        return {
+            "functieId": id,
+            "functieNaam": random.choice(['Arts'], ['Chirurg'], ['OK-planner'])
+        }
+
+class Medewerker
+    @staticmethod
+    def generate (id):
+        return {
+            "medewerkerId": id,
+
         }
