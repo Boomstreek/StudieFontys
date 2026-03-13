@@ -42,7 +42,6 @@ def create_dataset(config):
     # Genereer Tevredenheid
     tevredenheden = [Tevredenheid.generate(medewerkerId, patientId) for i in range(config['n_tevredenheid'])]
     df_tevredenheid = pd.DataFrame(tevredenheden)
-    df_tevredenheid.insert(0, 'tevredenheidId', range(1, len(df_tevredenheid) + 1))
     df_tevredenheid['medewerkerId'] = df_tevredenheid['medewerkerId'].astype('Int64')
     df_tevredenheid['patientId'] = df_tevredenheid['patientId'].astype('Int64')
 
