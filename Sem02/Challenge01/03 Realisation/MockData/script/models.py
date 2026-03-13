@@ -66,18 +66,43 @@ class Operatie:
             "annuleringsReden": None,
             "aantalHerplanningen":Operatie._get_random_herplanningen()
         }
-class Functie
+    
+class Functie:
+    mogelijkeFuncties = ['Screener' , 'Chirurg', 'OK-planner']
+
     @staticmethod
     def generate (id):
         return {
             "functieId": id,
-            "functieNaam": random.choice(['Arts'], ['Chirurg'], ['OK-planner'])
+            "functieNaam": Functie.mogelijkeFuncties[id - 1]
         }
 
-class Medewerker
+class Medewerker:
     @staticmethod
-    def generate (id):
+    def generate (id, functieId):
         return {
             "medewerkerId": id,
+            "functieId": random.choice(functieId),
+            "voornaam": fake.first_name(),
+            "achternaam": fake.last_name(),
+            "email": fake.email(),
+            "telefoonnummer": "06" + "".join([str(random.randint(0, 9)) for _ in range(8)])
+        }
 
+class Tevredenheid:
+    @staticmethod
+    def generate (medewerkerId, patientId):
+        if random.choice(['medewerker' , 'patient']) == 'medewerker':
+            medewerkerId = random.choice(medewerkerId)
+            patientId = None
+        else:
+            medewerkerId = None
+            patientId = random.choice(patientId)
+
+        return {
+        "medewerkerId": medewerkerId,
+        "patientId": patientId,
+        "datum": (datetime.now() - timedelta(days=random.randint(0, 365))).date().isoformat(),
+        "opmerking": fake.paragraph(nb_sentences=2),
+        "tevredenheidsScore": random.randint(1, 10)
         }

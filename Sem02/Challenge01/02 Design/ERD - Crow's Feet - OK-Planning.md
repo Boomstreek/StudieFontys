@@ -24,7 +24,6 @@ erDiagram
     MEDEWERKER ||--|{ ROOSTER : "heeft werkrooster"
     MEDEWERKER }|--|| FUNCTIE : "heeft functie"
     
-    OPERATIE }|--|| OPERATIE_KAMER : "vindt plaats in"
     OPERATIE_KAMER ||--|{ OKROOSTER : "heeft beschikbaarheid"
     
     PATIENT {
@@ -66,6 +65,10 @@ erDiagram
     MEDEWERKER {
     int medewerkerId PK
     int functieId FK
+    string voornaam
+    string achternaam
+    string email
+    int telefoonnummer
     }
     
     FUNCTIE {
@@ -82,7 +85,6 @@ erDiagram
     }
     
     TEVREDENHEID{
-    int tevredenheidId PK
     int medewerkerId FK
     int patientId FK
     date datum
