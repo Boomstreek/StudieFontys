@@ -106,3 +106,42 @@ class Tevredenheid:
         "opmerking": fake.paragraph(nb_sentences=2),
         "tevredenheidsScore": random.randint(1, 10)
         }
+
+class Rooster:
+    @staticmethod
+    def generate (id, medewerkerId):
+        uren = list(range(0, 24))
+        gewichten = [
+            # hieronder leer ik python chaining. Wat vroeger van de whiskunde docent nooit mocht ;D
+            3 if 8 <= uur <= 17 else 1
+            for uur in uren
+        ]
+        startUur = random.choices(population=uren, weights=gewichten, k=1)[0]
+        startMinuut = random.choice([0, 15, 30, 45])
+        duurDienstUren = random.randint(4,8)
+
+        startTijd = datetime.strptime(f"{startUur}:{startMinuut:02d}", "%H:%M")
+        eindTijd = startTijd + timedelta(hours=duurDienstUren)
+
+        return {
+            "roosterId": id,
+            "medewerkerId": random.choice(medewerkerId),
+            "datum": (datetime.now() + timedelta(days=random.randint(0, 365))).date().isoformat(),
+            "startTijd": startTijd,
+            "eindTijd": eindTijd
+        }
+
+class Koppel_Uitvoering:
+    @staticmethod
+    def generate (operatieId, medewerkerId):
+
+        return {
+            "operatieId": operatieId,
+            "medewerkerId": random.choice(medewerkerId),
+            "gespreksduurTotaalMinuten": random.randint(2,10),
+            "aantalTelefonischeDatumVoorstellen": random.randint(1, 5),
+            "retourStroom48u": random.choice([True, False, False]),
+            "aantalMinutenBezigMetPlanning": random.randint(10, 120),
+            "aantalBelpogingen": random.randint(1, 4),
+            "opmerking": fake.sentence() if random.random() < 0.5 else None
+        }

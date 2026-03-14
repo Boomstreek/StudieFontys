@@ -1,5 +1,5 @@
 import pandas as pd
-from models import Patient, Operatie, Functie, Medewerker, Tevredenheid
+from models import Patient, Operatie, Functie, Medewerker, Tevredenheid, Rooster, Koppel_Uitvoering
 
 def get_existing_patient_ids(csv_path):
     """Leest de bestaande CSV en geeft een lijst met ID's terug."""
@@ -45,9 +45,19 @@ def create_dataset(config):
     df_tevredenheid['medewerkerId'] = df_tevredenheid['medewerkerId'].astype('Int64')
     df_tevredenheid['patientId'] = df_tevredenheid['patientId'].astype('Int64')
 
+    # Genereer Rooster
+    rooster = [Rooster.generate(i, medewerkerId) for i in range (1, config['n_medewerkers'] * 5 + 1)]
+    df_rooster = pd.DataFrame(rooster)
+
+    # Genereer Koppel_Uitvoering
+    koppel_uitvoering = [Koppel_Uitvoering.generate(oid, medewerkerId) for oid in operatieId]
+    df_koppel_uitvoering = pd.DataFrame(koppel_uitvoering)
+
     return {"Patient": df_patients, 
             "Operatie": df_operaties,
             "Functie": df_functies,
             "Medewerker": df_medewerkers,
-            "Tevredenheid": df_tevredenheid
+            "Tevredenheid": df_tevredenheid,
+            "Rooster": df_rooster,
+            "Koppel_Uitvoering": df_koppel_uitvoering
     }

@@ -125,9 +125,9 @@ erDiagram
     KOPPEL_UITVOERING {
     int operatieId FK
     int medewerkerId FK
-    decimal gespreksduurTotaal
+    decimal gespreksduurTotaalMinuten
     int aantalTelefonischeDatumVoorstellen
-    int retourStroom48u
+    boolean retourStroom48u
     decimal aantalMinutenBezigMetPlanning
     int aantalBelpogingen
     string opmerking
