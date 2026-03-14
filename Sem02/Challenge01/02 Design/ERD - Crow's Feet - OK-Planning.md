@@ -5,8 +5,8 @@ title: OK-Planning - ERD Crow's Feet Notatie
 erDiagram
     METADATA {
     Auteur Bram_Wieringa
-    datum d07_03_2026
-    versie v002
+    datum d14_03_2026
+    versie v003
     }
     
     PATIENT ||--o{ OPNAMEN : "is opgenomen"
@@ -16,13 +16,13 @@ erDiagram
     PATIENT ||--o{ OPERATIE : ondergaat
     MEDEWERKER }|--|| KOPPEL_UITVOERING : "voert uit"
     OPERATIE }|--|| KOPPEL_UITVOERING : "wordt geholpen door"
-    KOPPEL_UITVOERING ||--|| OKROOSTER : "heeft OK-slot"
+    OKROOSTER ||--|| KOPPEL_UITVOERING : "is ingepland in"
     
-    PATIENT ||--o{ TEVREDENHEID : "is tevreden"
     MEDEWERKER ||--o{ TEVREDENHEID : "heeft werkgeluk"
+    PATIENT ||--o{ TEVREDENHEID : "is tevreden"
     
     MEDEWERKER ||--|{ ROOSTER : "heeft werkrooster"
-    MEDEWERKER }|--|| FUNCTIE : "heeft functie"
+    FUNCTIE ||--|{ MEDEWERKER : "heeft functie"
     
     OPERATIE_KAMER ||--|{ OKROOSTER : "heeft beschikbaarheid"
     
@@ -44,6 +44,7 @@ erDiagram
     OPNAMEN {
     int opnamenId PK
     int patientId FK
+    int kamerId FK
     date startDatum
     date eindDatum
     }
@@ -51,7 +52,6 @@ erDiagram
     KAMER {
     int kamerId PK
     int afdelingId FK
-    int opnamenId FK
     int aantalBedden
     decimal kamerNummer
     }
@@ -85,6 +85,7 @@ erDiagram
     }
     
     TEVREDENHEID{
+    int tevredenheidId PK
     int medewerkerId FK
     int patientId FK
     date datum
@@ -95,10 +96,6 @@ erDiagram
     OPERATIE {
     int operatieId PK
     int patientId FK
-    datetime geplandeStartTijd
-    datetime geplandeEindTijd
-    datetime werkelijkeStartTijd
-    datetime werkelijkeEindTijd
     string typeOperatie
     string status
     date deadline
@@ -110,11 +107,11 @@ erDiagram
     
     OKROOSTER {
     int okRoosterId PK
-    int operatieId FK
     int operatieKamerId FK
-    date datum
-    time startTijd
-    time eindTijd
+    datetime geplandeStartTijd
+    datetime geplandeEindTijd
+    datetime werkelijkeStartTijd
+    datetime werkelijkeEindTijd
     }
     
     OPERATIE_KAMER {
@@ -125,6 +122,7 @@ erDiagram
     KOPPEL_UITVOERING {
     int operatieId FK
     int medewerkerId FK
+    int okRoosterId FK
     decimal gespreksduurTotaalMinuten
     int aantalTelefonischeDatumVoorstellen
     boolean retourStroom48u

@@ -1,5 +1,5 @@
 import pandas as pd
-from models import Patient, Operatie, Functie, Medewerker, Tevredenheid, Rooster, Koppel_Uitvoering, Operatie_Kamer
+from models import Patient, Operatie, Functie, Medewerker, Tevredenheid, Rooster, Operatie_Kamer, OkRooster, Koppel_Uitvoering, Afdeling, Kamer, Opnamen
 
 def get_existing_patient_ids(csv_path):
     """Leest de bestaande CSV en geeft een lijst met ID's terug."""
@@ -40,7 +40,7 @@ def create_dataset(config):
     medewerkerId = df_medewerkers['medewerkerId'].tolist()
 
     # Genereer Tevredenheid
-    tevredenheden = [Tevredenheid.generate(medewerkerId, patientId) for i in range(config['n_tevredenheid'])]
+    tevredenheden = [Tevredenheid.generate(i, medewerkerId, patientId) for i in range(config['n_tevredenheid'])]
     df_tevredenheid = pd.DataFrame(tevredenheden)
     df_tevredenheid['medewerkerId'] = df_tevredenheid['medewerkerId'].astype('Int64')
     df_tevredenheid['patientId'] = df_tevredenheid['patientId'].astype('Int64')
@@ -49,14 +49,33 @@ def create_dataset(config):
     rooster = [Rooster.generate(i, medewerkerId) for i in range (1, config['n_medewerkers'] * 5 + 1)]
     df_rooster = pd.DataFrame(rooster)
 
-    # Genereer Koppel_Uitvoering
-    koppel_uitvoering = [Koppel_Uitvoering.generate(oid, medewerkerId) for oid in operatieId]
-    df_koppel_uitvoering = pd.DataFrame(koppel_uitvoering)
-
     # Genereer Operatie_Kamer
     operatie_kamer = [Operatie_Kamer.generate(i) for i in range(1, config['n_operatie_kamers'] + 1)]
     df_operatie_kamer = pd.DataFrame(operatie_kamer)
     operatieKamerId = df_operatie_kamer['operatieKamerId'].tolist()
+
+    # Genereer OkRooster
+    ok_rooster = [OkRooster.generate(i, operatieKamerId) for i in range(1, len(operatieId) + 1)]
+    df_ok_rooster = pd.DataFrame(ok_rooster)
+    okRoosterId = df_ok_rooster['okRoosterId'].tolist()
+
+    # Genereer Koppel_Uitvoering
+    koppel_uitvoering = [Koppel_Uitvoering.generate(oid, medewerkerId, okRoosterId) for oid in operatieId]
+    df_koppel_uitvoering = pd.DataFrame(koppel_uitvoering)
+
+    # Genereer Afdeling
+    afdelingen = [Afdeling.generate(i) for i in range(1, len(Afdeling.mogelijkeAfdelingen) + 1)]
+    df_afdelingen = pd.DataFrame(afdelingen)
+    afdelingId = df_afdelingen['afdelingId'].tolist()
+
+    # Genereer Kamer
+    kamers = [Kamer.generate(i, afdelingId) for i in range(1, config['n_kamers'] + 1)]
+    df_kamers = pd.DataFrame(kamers)
+    kamerId = df_kamers['kamerId'].tolist()
+
+    # Genereer Opnamen
+    opnamen = [Opnamen.generate(i, patientId, kamerId) for i in range(1, config['n_opnamen'] + 1)]
+    df_opnamen = pd.DataFrame(opnamen)
 
     return {"Patient": df_patients, 
             "Operatie": df_operaties,
@@ -64,6 +83,10 @@ def create_dataset(config):
             "Medewerker": df_medewerkers,
             "Tevredenheid": df_tevredenheid,
             "Rooster": df_rooster,
+            "Operatie_Kamer": df_operatie_kamer,
+            "OkRooster": df_ok_rooster,
             "Koppel_Uitvoering": df_koppel_uitvoering,
-            "Operatie_Kamer": df_operatie_kamer
+            "Afdeling": df_afdelingen,
+            "Kamer": df_kamers,
+            "Opnamen": df_opnamen
     }
