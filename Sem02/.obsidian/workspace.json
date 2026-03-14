@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Challenge01/02 Design/ERD - Crow's Feet - OK-Planning.md",
-                "mode": "preview",
+                "file": "Weekkaarten/2026-W11.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "ERD - Crow's Feet - OK-Planning"
+              "title": "2026-W11"
             }
           }
         ]
@@ -187,6 +187,7 @@
   },
   "active": "49fec8095369dc3a",
   "lastOpenFiles": [
+    "Challenge01/02 Design/ERD - Crow's Feet - OK-Planning.md",
     "Challenge01/03 Realisation/MockData/script/data_output/Opnamen.csv",
     "Challenge01/03 Realisation/MockData/script/data_output/Kamer.csv",
     "Challenge01/03 Realisation/MockData/script/data_output/Afdeling.csv",
@@ -196,10 +197,8 @@
     "Challenge01/03 Realisation/MockData/script/data_output/Rooster.csv",
     "Challenge01/03 Realisation/MockData/script/data_output/Tevredenheid.csv",
     "Challenge01/02 Design/Wireframe Dashboard.md",
-    "Challenge01/02 Design/ERD - Crow's Feet - OK-Planning.md",
     "Challenge01/02 Design/ERD - Crow's Feet - OK-Planning.pdf",
     "Challenge01/01 Analyse/ERD - Conceptueel - OK-Planning.pdf",
-    "Challenge01/03 Realisation/MockData/script/data_output/Medewerker.csv",
     "Challenge01/01 Analyse/ERD - Conceptueel - OK-Planning.md",
     "Weekkaarten/2026-W11.md",
     "Challenge01/01 Analyse/OK Planning - Analyse.md",
