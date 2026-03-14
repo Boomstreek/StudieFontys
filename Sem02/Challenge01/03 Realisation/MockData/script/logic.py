@@ -1,5 +1,5 @@
 import pandas as pd
-from models import Patient, Operatie, Functie, Medewerker, Tevredenheid, Rooster, Koppel_Uitvoering
+from models import Patient, Operatie, Functie, Medewerker, Tevredenheid, Rooster, Koppel_Uitvoering, Operatie_Kamer
 
 def get_existing_patient_ids(csv_path):
     """Leest de bestaande CSV en geeft een lijst met ID's terug."""
@@ -53,11 +53,17 @@ def create_dataset(config):
     koppel_uitvoering = [Koppel_Uitvoering.generate(oid, medewerkerId) for oid in operatieId]
     df_koppel_uitvoering = pd.DataFrame(koppel_uitvoering)
 
+    # Genereer Operatie_Kamer
+    operatie_kamer = [Operatie_Kamer.generate(i) for i in range(1, config['n_operatie_kamers'] + 1)]
+    df_operatie_kamer = pd.DataFrame(operatie_kamer)
+    operatieKamerId = df_operatie_kamer['operatieKamerId'].tolist()
+
     return {"Patient": df_patients, 
             "Operatie": df_operaties,
             "Functie": df_functies,
             "Medewerker": df_medewerkers,
             "Tevredenheid": df_tevredenheid,
             "Rooster": df_rooster,
-            "Koppel_Uitvoering": df_koppel_uitvoering
+            "Koppel_Uitvoering": df_koppel_uitvoering,
+            "Operatie_Kamer": df_operatie_kamer
     }

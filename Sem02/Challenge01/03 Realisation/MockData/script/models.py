@@ -145,3 +145,16 @@ class Koppel_Uitvoering:
             "aantalBelpogingen": random.randint(1, 4),
             "opmerking": fake.sentence() if random.random() < 0.5 else None
         }
+
+class Operatie_Kamer:
+    @staticmethod
+    def generate (id):
+        
+        return {
+            "operatieKamerId": id,
+            "naam": fake.first_name()
+        }
+
+#class OkRooster:
+#    @staticmethod
+#    def generate (id, operatieId, operatieKamerId):

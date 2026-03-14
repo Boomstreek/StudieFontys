@@ -4,5 +4,6 @@
     "n_patients": 200,
     "n_operaties": 500,
     "n_medewerkers": 200,
-    "n_tevredenheid": 10
+    "n_tevredenheid": 10,
+    "n_operatie_kamers": 10
 }
