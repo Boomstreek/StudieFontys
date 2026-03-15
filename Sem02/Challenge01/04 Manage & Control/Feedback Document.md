@@ -149,7 +149,7 @@ Tips:
 - *Ga ik meenemen, data wordt hiervoor al gegenereerd*
     
 - Check even bij stap 2 (verbetervoorstel), staan aantal uitkomsten bijv. werkgeluk, duurzaamheid en kostenbesparend? Komt dit terug in je verbeterpunten?
-- *Goede, verbetervoorstel uitbreiden met overkoepelende doelstellingen*
+- *Goede, OK-Planning - Analyse hoodfstuk 3 uitgebreid met organisatorische meerwaarde.*
     
 Ik heb verschillende stukken van je opdracht bekeken en het ziet er heel netjes uit. Altijd ook fijn om even te kunnen sparren over de opdrachten.
 

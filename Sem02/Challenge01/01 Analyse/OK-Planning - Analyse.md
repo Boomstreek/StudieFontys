@@ -1,7 +1,7 @@
 ## Metadata
 **Author: ** Bram Wieringa
-**Date: ** 07-03-2026
-**Version: ** 1.4
+**Date: ** 15-03-2026
+**Version: ** 1.5
 **Dependencies: ** OR Planning 003 en Analyse van Knelpunten & Verbetersuggesties versie 2
 
 # 1. Inleiding
@@ -45,18 +45,22 @@ De huidige analyse legt een aantal inefficiënties bloot die de doorstroom van d
 - **Handmatige data opzoeken**
     - _Knelpunt:_ Een aantal controletaken in HIX en MEDSPACE zijn nu handmatig (User Tasks).
     - _Verbetering:_ Automatiseer dit via Service Tasks (API-koppelingen) voor directe data-uitwisseling, wat de kans op menselijke fouten verkleint.
-        
+    - _Organisatorische meerwaarde:_ Verhoogt de datakwaliteit en betrouwbaarheid aanzienlijk. Het verlaagt de administratieve last per planning, waardoor planners meer tijd hebben voor complexere werkzaamheden in plaats van repeterend invoerwerk.
+
 - **Patient mag oneindig weigeren**
     - _Knelpunt:_ Er zit geen limiet op de herhaal-loop als een patiënt een datum weigert.
     - _Verbetering:_ Voeg een regel toe die na twee mislukte pogingen het proces escaleert naar een supervisor om een "deadlock" te voorkomen.
-        
+    - _Organisatorische meerwaarde:_ Voorkomt stagnatie van het planningsproces. Het zorgt voor een voorspelbare doorlooptijd en dwingt tijdig besluitvorming af bij patiënten die de zorgcontinuïteit onbedoeld vertragen.
+
 - **Late beddencontrole**
     - _Knelpunt:_ De bedden-check vindt pas 2 dagen voor de OK plaats, waardoor bij een tekort de OK-tijd vaak verloren gaat.
     - _Verbetering:_ Gebruik een Parallel Gateway om de bedden-allocatie direct na de screening te starten, zodat er meer tijd is voor alternatieve oplossingen.
-        
+    -  _Organisatorische meerwaarde:_ Maximaliseert het OK-rendement. Door logistieke knelpunten specifiek het bedden gebrek eerder in kaart te brengen, kunnen alternatieve oplossingen worden gevonden zonder dat de kostbare operatieruimte leeg blijft staan.
+
 - **Communicatie via mensen**
     - _Knelpunt:_ Het proces is extreem afhankelijk van telefonisch contact, wat arbeidsintensief en foutgevoelig is (voicemail-loops).
     - _Verbetering:_ Implementeer een geautomatiseerde notificatie-service (SMS, E-mail, Patiëntportaal) om de status direct door de patiënt te laten bevestigen.
+    - _Organisatorische meerwaarde:_ Verhoogt de procesefficiëntie door arbeidsintensieve taak van mensen op te bellen op een arbeidseffectievere manier te gaan uitvoeren. 
 
 # 4. Nulmeting: Benodigde data voor onderbouwing
 Om de impact van de voorgestelde procesverbeteringen objectief te kunnen meten, is een nulmeting op basis van harde data noodzakelijk. Onderstaande gegevens zijn vereist om de huidige inefficiëntie aan te tonen en de 'Return on Investment' (ROI) van de nieuwe werkwijze te berekenen.
@@ -166,7 +170,7 @@ Het huidige OK-planningsproces bevat significante inefficiënties, met name door
 **Eindoordeel:** Met de uitvoering van de 'Must Haves' en de Scrum-werkwijze leggen we de basis voor een hogere OK-vullingsgraad en minder administratieve druk. Dankzij de nulmeting en KPI’s maken we het hele proces inzichtelijk. Hierdoor hebben we altijd feitelijk zicht op de voortgang; ook wanneer doelen niet worden gehaald, weten we precies waar het proces hapert en kunnen we gericht bijsturen.
 
 # 7. Bronnen
-- Google. (2026). **Gemini (Gemini 3 Flash)** [Large language model]. Geraadpleegd op 7 maart 2026, van [https://gemini.google.com](https://gemini.google.com)
+- Google. (2026). **Gemini (Gemini 3 Flash)** [Large language model]. Geraadpleegd op 15 maart 2026, van [https://gemini.google.com](https://gemini.google.com)
 - **Gebruikte prompt:** _"Verbeter deze tekst zodat het vloeiender, leesbaarder en professioneler wordt maar behoud de kern van de tekst."_
 
 # 8. Bijlage
