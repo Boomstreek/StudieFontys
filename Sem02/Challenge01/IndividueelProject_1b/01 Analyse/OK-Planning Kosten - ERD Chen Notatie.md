@@ -34,6 +34,7 @@ entity Patient <<red>> {
 	naam <<blue>> {
 	}
 	toestemmingDigitaalPatientDossier <<blue>> {
+	' e-mail, patientenportaal, SMS, telefoon, Post
 	}
 	adres <<blue>> {
 	}
@@ -43,34 +44,26 @@ entity Patient <<red>> {
 	}
 }
 
-entity Planner <<red>> {
-	naam <<blue>> {
+entity Opnamen <<red>> {
+	startDatum <<blue>> {
 	}
-	uurTarief <<blue>> {
-	}
-	werkgeversLasten <<blue>> {
+	eindDatum <<blue>> {
 	}
 }
 
-entity Contactpoging <<red>> {
-	kanaal <<blue>> {
+entity Kamer <<red>> {
+	kamerNummer <<blue>> {
 	}
-	tijdstip <<blue>> {
-	}
-	succesvol <<blue>> {
-	}
-	duurSeconden <<blue>> {
+	aantalBedden <<blue>> {
 	}
 }
 
-entity Notificatie <<red>> {
-	type <<blue>> {
+entity Tevredenheid <<red>> {
+	tevredenheidsScore <<blue>> {
 	}
-	verzendTijd <<blue>> {
+	datetime <<blue>> {
 	}
-	bevestingsTijd <<blue>> {
-	}
-	digitaalBevestigd <<blue>> {
+	opmerking <<blue>> {
 	}
 }
 
@@ -82,22 +75,72 @@ entity Operatie <<red>> {
 	}
 	deadlineOperatie <<blue>> {
 	}
+	statusScreening <<blue>> {
+	}
+	annuleringsDatum <<blue>> {
+	}
+	annuleringsReden <<blue>> {
+	}
+	aantalHerplaningen <<blue>> {
+	}
 	geplandeStartTijd <<blue>> {
 	}
 	geplandeEindTijd <<blue>> {
 	}
-	noShow <<blue>> {
+	werkelijkeStartTijd <<blue>> {
+	}
+	werkelijkeEindTijd <<blue>> {
 	}
 }
 
+entity Medewerker <<red>> {
+	naam <<blue>> {
+	}
+	functie <<blue>> {
+	}
+	werkdagen <<blue>> {
+	}
+}
 
+entity Afdeling <<red>> {
+	afdelingsNaam <<blue>> {
+	}
+	aantalKamers <<blue>> {
+	}
+}
+
+entity "Operatie Kamer" as OK <<red>> {
+	naam <<blue>> {
+	}
+	locatie <<blue>> {
+	}
+}
+
+entity "OK-slot" as OKSlot <<red>> {
+	datum <<blue>> {
+	}
+	tijdslot <<blue>> {
+	}
+}
 
 ' Relationships
 
-relationship "voert uit" as voertUit <<green>> {
+relationship "word geplant" as plant <<green>> {
+	startTijdPlanning <<blue>> {
+	}
+	eindTijdPlanning <<blue>> {
+	}
+	aantalBelpogingen <<blue>> {
+	}
+	gespreksduurTotaal <<blue>> {
+	}
+	aantalTelefonischeDatumVoorstellen <<blue>> {
+	}
+	retourStroom48u <<blue>> {
+	}
 }
 
-relationship "ontvangt" as ontvangt <<green>> {
+relationship "voert uit" as voertUit <<green>> {
 }
 
 relationship "is opgenomen" as isOpgenomen <<green>> {
