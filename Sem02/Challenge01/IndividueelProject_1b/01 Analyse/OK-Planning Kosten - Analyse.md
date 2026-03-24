@@ -1,7 +1,7 @@
 ## Metadata
 **Author: ** Bram Wieringa
-**Date: ** 22-03-2026
-**Version: ** 1.0
+**Date: ** 24-03-2026
+**Version: ** 1.1
 **Dependencies: ** 
 - OK-Planning - Analyse versie 1.5
 
@@ -12,7 +12,17 @@ Dit document vormt de transitie van de zorglogistieke analyse (opdracht 1a) naar
 Het definiëren van de functionele en financiële vereisten voor een Power BI Dashboard. Dit dashboard moet inzichtelijk maken welke kostenbesparing en efficiëntiewinst gerealiseerd worden door de overstap van telefonische acquisitie naar geautomatiseerde asynchrone communicatie.
 
 ### 1.2 Scope
-De transformatie van één specifiek verbeterpunt: Het vervangen van handmatig telefonisch patiëntcontact door een geautomatiseerde notificatie-service (SMS, E-mail, Patiënten Portaal).
+De scope van dit project is beperkt tot de **financiële kwantificering** van de transitie binnen het planningsproces. We richten ons specifiek op de vervanging van handmatig, synchroon patiëntcontact (bellen) door geautomatiseerde, asynchrone notificaties (SMS, e-mail, portaal).
+
+- **In scope:**
+	- Het berekenen van de huidige operationele kosten (nulmeting) van het belproces.
+	- Het definiëren van financiële stuurgetallen (KPI's) voor het Power BI Dashboard.
+	- De potentiële besparing op personele capaciteit (FTE) door reductie van _Non-Value Added Time_.
+	
+- **Out of scope:**
+    - De technische implementatie van de notificatie-software.
+    - Medische inhoudelijke optimalisatie van de OK-planning zelf.
+    - Kosten met betrekking tot de nazorg of facturatieprocessen.
 
 ### 1.3 Stakeholders
 **Primaire stakeholder:** Manager OK-planners (Focus: Werkdrukverlaging, bezettingsgraad en kostenefficiëntie).
