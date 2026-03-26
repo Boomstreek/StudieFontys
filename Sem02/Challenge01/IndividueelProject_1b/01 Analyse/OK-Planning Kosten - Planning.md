@@ -3,7 +3,7 @@
 _Focus: Het fundament leggen en de nulmeting concretiseren._
 
 - **Activiteiten:**
-    - **BPMN-verfijning:** Het bestaande proces uit 1a uitbreiden met de financiële meetpunten (waar ontstaat de NVAT?).
+    - **BPMN-verfijning:** Het bestaande proces uit 1a uitbreiden en versimpelen met de financiële meetpunten (waar ontstaat de NVAT?).
     - **Data-inventarisatie:** Definiëren van de exacte datastructuur (ERD Chen-notatie) die nodig is voor de CPB-berekening.
     - **Stakeholder check:** Kort fictief overleg met de 'Manager OK-planners' om de KPI's (CPB, NVAT) te valideren. 'Manager OK-planners' worden gedaan door AI
 - **Deliverable:** Definitief Business Analysis Document (Aanvulling op versie 1.1).
