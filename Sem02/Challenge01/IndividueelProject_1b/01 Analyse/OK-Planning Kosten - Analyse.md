@@ -1,7 +1,7 @@
 ## Metadata
 **Author: ** Bram Wieringa
-**Date: ** 24-03-2026
-**Version: ** 1.1
+**Date: ** 27-03-2026
+**Version: ** 1.2
 **Dependencies: ** 
 - OK-Planning - Analyse versie 1.5
 
@@ -42,7 +42,7 @@ Om het dashboard te voeden en de business case te onderbouwen, is de volgende da
 - **Uitvaldata:** Percentage patiënten dat niet komt opdagen (No-shows) na telefonisch contact versus digitaal contact.
 
 
-## 4. Benodigde KPI's (Financieel & Operationeel)
+## 4. Benodigde KPI's 
 Om de manager te overtuigen van de verbetering, moet het dashboard de volgende kritieke prestatie-indicatoren tonen:
 
 |**KPI**|**Definitie**|**Financiële Invalshoek**|
@@ -80,7 +80,7 @@ Door de **Cost per Booking (CPB)** te verlagen via een hogere **Digital Adoption
 
 ## 7. Bronvermelding
 **Interne Documentatie**
-Wieringa, B. (2026). _OK-Planning - Analyse (versie 1.5 - Opdracht 1a)_. Ongepubliceerd document, Fontys ICT.
+Wieringa, J.C.L. (2026). _OK-Planning - Analyse (versie 1.5 - Opdracht 1a)_. Ongepubliceerd document, Fontys ICT.
 
 **AI-Assistentie**
 Gemini (2026). _Ondersteuning bij financiële KPI-formulering, documentstructurering en optimalisatie van spelling en taalbeheersing_. Google AI. Geraadpleegd op 22 maart 2026.
