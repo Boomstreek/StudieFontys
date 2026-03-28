@@ -1,11 +1,9 @@
 {
     "output_dir": "data_output",
     "format": "csv",
-    "n_patients": 200,
-    "n_operaties": 500,
-    "n_medewerkers": 200,
-    "n_tevredenheid": 10,
-    "n_operatie_kamers": 10,
-    "n_kamers": 50,
-    "n_opnamen": 300
+    "n_patient": 2000,
+    "n_medewerker": 5,
+    "start_jaar": 2022,
+    "eind_jaar": 2024,
+    "n_planning": 2500
 }

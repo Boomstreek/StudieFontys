@@ -26,7 +26,8 @@ erDiagram
 	}
 	
 	Dim_Datum {
-		date datum_id PK
+		uuid datum_id PK
+		int day
 		int week
 		int maand
 		int kwartaal
@@ -35,8 +36,8 @@ erDiagram
 	
 	Dim_Belpoging {
 		uuid belpoging_id PK
-		int duur_belpogingen_seconden
 		int aantal_belpogingen
+		int duur_belpogingen_seconden
 	}
 	
 	Feit_Planning {

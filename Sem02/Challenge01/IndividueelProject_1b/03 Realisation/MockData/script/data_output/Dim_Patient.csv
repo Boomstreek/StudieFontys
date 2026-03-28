@@ -1,0 +1,2001 @@
+patient_id,voornaam,achternaam,toestemming_portaal
+1,Evelien,Coolen,False
+2,Kyra,van de Wal,False
+3,Sofie,de Beer,True
+4,Romy,Galenzone,True
+5,Lola,Geldens,False
+6,Luna,Koning,True
+7,Roos,de Marduras,False
+8,Alyssa,Leene,False
+9,Rafael,Henric van den Nuwenhuse,False
+10,Lotte,Mater,False
+11,Fiene,Fredriks,False
+12,Sem,Bosch,False
+13,Lily,Verheuvel,True
+14,Lotte,van de Kooij,False
+15,Maya,Mater,True
+16,David,Marceron,False
+17,Joshua,Rijntjes,False
+18,Nathan,van den Eijssel,False
+19,Victoria,Manne,False
+20,Bradley,Elbertse,True
+21,Aaron,Köster,True
+22,Elize,Rackham,False
+23,Sterre,de Boer,True
+24,Emir,van den Brink,False
+25,Noëlle,de Kok,False
+26,Juul,Jonkman,True
+27,Thijs,Sam,False
+28,Milan,de Groot,True
+29,Isabel,Manne,True
+30,Dylano,Welf,False
+31,Maud,Hoekstra,False
+32,Joris,Simons,True
+33,Bastiaan,van der Velden,True
+34,Tim,Jurrijens,False
+35,Jim,van Buuren,True
+36,Michael,van den Berg,False
+37,Mohammed,de Groot,True
+38,Maryam,Walsteijn,True
+39,Lorenzo,Sam,True
+40,Phileine,van Ham,False
+41,Thomas,Oostveen,True
+42,Suus,Die Bont,False
+43,Rick,Wright,False
+44,Saar,van de Pavert,True
+45,Noëlle,Cant,False
+46,Luca,Spreeuw,False
+47,Koen,Vierdag,False
+48,Iris,van Munster,True
+49,Mila,Tamsma,False
+50,Tess,van Mil,False
+51,Wouter,Dijkman,False
+52,Joëlle,Kok,True
+53,Victor,van Engelen,True
+54,Luuk,van den Nieuwenhuijsen,False
+55,Lorenzo,van Praagh,False
+56,Luke,Verschut,True
+57,Mette,Zeemans,True
+58,Ashley,Broeshart,False
+59,Luuk,van der Strigt,True
+60,Jens,Doornhem,True
+61,Helena,Post,False
+62,Demi,Osterhoudt,True
+63,Ravi,den Teuling,True
+64,Isa,Wagenvoort,False
+65,Raf,van Leeuwen,False
+66,Myrthe,Mulders,True
+67,Jesse,Michiels,False
+68,Olaf,Haack,True
+69,Janne,Spruit,True
+70,Lizz,Jansdr,False
+71,Tess,Lensen,False
+72,Levi,Dorsman,False
+73,Pien,Willemsen,False
+74,Ben,van 't Erve,True
+75,Julian,van der Lede,True
+76,Milou,Pieters van der Maes,True
+77,Melle,Meeusen,True
+78,Fenna,Mol,True
+79,Noah,van den Velde,False
+80,Suus,Wunderink,True
+81,Elif,Kleybrink,True
+82,Sami,Haselaar,False
+83,Maarten,van der Linden,False
+84,Ise,Matthews,False
+85,Roan,de Gruijl,True
+86,Nadine,Doorhof,True
+87,Rick,van den Broek,True
+88,Lieve,Groote,True
+89,Job,die Bont,False
+90,Rosalie,Korstman,False
+91,Jayson,Ariens,True
+92,Joost,van Zwaben,False
+93,Rowan,Bud,False
+94,Rayan,Riem,False
+95,Pleun,Dirksen,False
+96,Yasmin,Jochems,True
+97,Stefan,Ariens,False
+98,Esmée,de Gratie,True
+99,Loes,Palman,True
+100,Pepijn,Holthuis,True
+101,Vera,Uit de Willigen,False
+102,Saar,van den Heuvel,False
+103,Aiden,van den Velden,False
+104,Aimée,Hellevoort,False
+105,Victor,Postma,False
+106,Youssef,van den Eijssel,True
+107,Stefan,van Geffen,False
+108,Stef,van de Kooij,False
+109,Emma,Sarneel,True
+110,Ella,Cammel,False
+111,Stella,Estey,False
+112,Dana,Tuithof,False
+113,Hailey,Huurdeman,True
+114,Luka,Westermann,False
+115,Giel,Niermann,True
+116,Tristan,van der Brink,True
+117,Morris,van Beieren,True
+118,Floris,Coolen,True
+119,Owen,Bosch,True
+120,Ayoub,Scharroo,False
+121,Puk,Bellemans,True
+122,Bo,Heymans,False
+123,Myrthe,Uit de Willigen,False
+124,Ninthe,Kronenberg,False
+125,Jort,Lagerweij,True
+126,Féline,van den Velden,True
+127,Pleun,Nollee,False
+128,Rens,de Koning,False
+129,Sjoerd,Bosch,True
+130,Saar,Stichter,False
+131,Jamie,Bezemer,True
+132,Michael,Janssens,True
+133,Oscar,de Gruijl,False
+134,Pleun,de Gruijl,False
+135,Isabel,Koster,False
+136,Collin,Frerichs,True
+137,Suus,Spruit,True
+138,Carlijn,Sestig,False
+139,Rik,de Backer,False
+140,Boris,Schatteleijn,False
+141,Ashley,Walsteijn,False
+142,Nout,Werdes,False
+143,Hamza,Coolen,True
+144,Yassin,Jurrijens,True
+145,Mohammed,Frankhuizen,False
+146,Ruben,den Haag,True
+147,Suus,Arens,False
+148,Leon,Waardeloo,True
+149,Jesper,van der Mast,True
+150,Robin,van der Schuijt,False
+151,Tycho,Broeckx,False
+152,Jack,van Kuijc van Malsen,True
+153,Johanna,Schakelaar,True
+154,Senn,Hendriks,True
+155,Sophie,van Breugel,False
+156,Sam,Klein,True
+157,Maud,Wever,True
+158,Jorn,van Clootwijck,False
+159,Yasmine,Suijker,True
+160,Bo,Peeters,False
+161,Carlijn,van den Broek,True
+162,Bo,de Werd,False
+163,Maxim,van Dongen,True
+164,Maxim,Pierson,True
+165,Sophia,Massa,True
+166,Ecrin,Woudenberg,True
+167,Floris,The Elder,False
+168,Thom,Roose,False
+169,Kayleigh,Huel,False
+170,Jet,van Spreuwel,False
+171,Jonas,Kronenberg,True
+172,Norah,van den Nuwenhuijzen,False
+173,Benjamin,Meeres,True
+174,Sami,van de Water,True
+175,Keano,Appelman,False
+176,Lizz,Martens,True
+177,Julian,de Graaf,True
+178,Casper,Huls,False
+179,Yinthe,Frerichs,True
+180,Bart,Latier,True
+181,Lise,van Asten,True
+182,Jayda,le Guellec,False
+183,Mathijs,Voortman,True
+184,Nathan,Groenestein,True
+185,Guus,Bleijenberg,True
+186,Lana,Hermans,True
+187,Valerie,Bruynzeels,False
+188,Ecrin,Ellis,False
+189,Nadia,Köster,False
+190,Cas,Scuylenborchs,False
+191,Sil,Dachgelt,False
+192,Jasper,Jansen,True
+193,Muhammed,Miltenburg,True
+194,Quinten,Hoppenbrouwer,True
+195,Quinn,Genefaas,False
+196,Noëlle,Hakker,True
+197,Anouk,Winnrich,False
+198,Cato,van Wassenaar,True
+199,Jonas,van der Veiver,False
+200,Brent,Heymans,False
+201,Valerie,Erhout,False
+202,Maya,Vandenbergh,False
+203,Myrthe,van den Nyeuwenhuysen,True
+204,Jelle,van Praagh,False
+205,Amin,Broeshart,False
+206,Zoë,Vegt,True
+207,Loes,Westermann,False
+208,Livia,Bos,False
+209,Benthe,Waltrade Walderade,True
+210,Joy,Adriaansen,True
+211,Beau,Lucas,True
+212,Wout,van Ochten,True
+213,Elisa,Arnold,False
+214,Alexander,Persijn,True
+215,Joep,den Teuling,False
+216,Julian,de Haas,False
+217,Saar,van Orleans,True
+218,Evi,van Luinenburg,False
+219,Bilal,van Voorst,True
+220,Iris,van Haspengouw Hesbaye,True
+221,Jasper,Weijters,True
+222,Riley,van Suinvorde,False
+223,Elisa,van der Maath,False
+224,Milo,Rijcken,True
+225,Ayden,Lansink,False
+226,Rowan,van den Nieuwenhuijsen,True
+227,Sam,de Bont,True
+228,Roos,Luboch,True
+229,Ivy,Appelman,False
+230,Selena,Feenstra,True
+231,Leon,Rietveld,False
+232,Jamie,Bouhuizen,True
+233,Hannah,Becht,True
+234,Maya,Klein,True
+235,Tycho,Coreth von und zu Coredo und Starkenberg,False
+236,Twan,Manne,True
+237,Wessel,Blonk,True
+238,Merle,van der Wal,False
+239,Evy,Freshour,True
+240,Lily,van Embden,False
+241,Lukas,van den Oever,True
+242,Fabian,Roessink,True
+243,Joey,de Groot,True
+244,Britt,van den Eerenbeemt,True
+245,Morris,Die Bont,False
+246,Loek,van Dongen,True
+247,Inaya,Aarden,False
+248,Sam,van der Klijn,False
+249,Indy,van Wallaert,True
+250,Liv,Bave,False
+251,Lizzy,de Boer,False
+252,Giel,Phillipsen,False
+253,Ravi,Lucas,True
+254,Mette,Poncelet,True
+255,Elise,van Henegouwen,False
+256,Ian,Blees,False
+257,Lana,Broeckx,True
+258,Loek,Erhout,True
+259,Saar,Wutke,False
+260,Stijn,Jansen,True
+261,Nina,Govarts,False
+262,Hugo,Boer,True
+263,Sophia,Doyle,True
+264,Tycho,Friehus,False
+265,Siem,Butselaar,True
+266,Ali,van Bernicia,False
+267,Wout,van Straaten,False
+268,Melissa,Bruggeman,True
+269,Sjoerd,Steenbeek,False
+270,Bilal,van Haspengouw Hesbaye,False
+271,Max,van Engeland,False
+272,Wesley,die Bont,True
+273,Melissa,Holthuis,True
+274,Aylin,de Koning,True
+275,Mila,van Beek,True
+276,Dylano,van Nimwegen,True
+277,Myrthe,Vial,True
+278,Rens,Wensen,False
+279,Floor,Smit,False
+280,Megan,Booden,True
+281,Juul,Bekbergen,False
+282,Amin,van Mil,True
+283,Victoria,Leene,False
+284,Sanne,Keijzer,False
+285,Fenna,Pieters,False
+286,Fien,Vandenbergh,False
+287,Esmee,van Mil,True
+288,Stella,Thatcher,False
+289,Youssef,van Amstel,True
+290,Amy,Wildschut,False
+291,Lukas,Pauwels,False
+292,Leon,Höning,True
+293,Joël,Jansse,True
+294,Puk,van der Kint,True
+295,Mason,de Graaf,False
+296,Pippa,Vignon,False
+297,Bilal,Gnodde,False
+298,Wouter,van Waas,True
+299,Lot,Ulrich,False
+300,Sienna,van Dongen,False
+301,Twan,Le Marec,True
+302,Sep,Kleybrink,False
+303,Bas,Molenaar,False
+304,Dana,Remmers,False
+305,Lizz,Smits,False
+306,Yara,Geneart,True
+307,Rafael,van 't Erve,True
+308,James,Hendriks,False
+309,Jake,van de Noordmark,True
+310,Julia,van Beieren,False
+311,Mirte,van Wickerode,False
+312,Jesse,Blaak,False
+313,Mats,Stange,True
+314,Olaf,Brouwer,True
+315,Max,Ellis,True
+316,Bryan,Oosterhout,True
+317,Michael,van Oudewater,False
+318,Isabelle,van Berkel,False
+319,Dave,Feenstra,True
+320,Sofie,van de Berg,True
+321,Casper,Doornhem,True
+322,Fenna,Linschoten,False
+323,Sami,Coenen,True
+324,Olivier,van der Plas,False
+325,Amy,Cornelissen,True
+326,Sep,Mosley,False
+327,Vincent,Keltenie,True
+328,Jesper,le Luc,True
+329,Jim,Kuipers,True
+330,Alexander,Buijs,True
+331,Lotte,Cornelissen,True
+332,Wessel,van der Maath,False
+333,Simon,Schiffer,False
+334,Nikki,Mulder,False
+335,Mick,de Werd,True
+336,Britt,van Nus,False
+337,Laura,Meeusen,False
+338,Anna,van der Laar,True
+339,Rafael,Scuylenborchs,True
+340,Dewi,van Mare,True
+341,Eliza,Mulder,False
+342,Annabel,de Bruin,True
+343,Sven,Luitgardis van Neustrië,True
+344,Livia,Dekker,False
+345,Dirk,Smeets,False
+346,Mirte,Barents,False
+347,Raf,Broeders,True
+348,Lise,Oosterhout,False
+349,Melle,"Werl-Arnsberg, van",False
+350,Elizabeth,Boetet,False
+351,Boaz,van Leeuwen,False
+352,Imke,de Plantard,False
+353,Hannah,van Baalen,True
+354,Liam,Korstman,False
+355,Lieve,Labado,False
+356,Lindsey,van den Heuvel,False
+357,Nick,Melet,False
+358,Joost,Kuit,False
+359,Jesse,Kok,True
+360,Maartje,Leene,True
+361,Kiki,van der Horst,False
+362,Sebastiaan,van Rheineck,True
+363,Rens,Pison,False
+364,Fatima,Puig,True
+365,Quinty,Zijlemans,False
+366,Wouter,van Salmen,True
+367,Zakaria,de Keijzer,False
+368,Ivy,Stettyn,False
+369,Bibi,de Jong,True
+370,Saar,van Dalem,True
+371,Nikki,van der Avoirt,False
+372,Mike,Godfrey van Alemannië,True
+373,Tristan,Martens,True
+374,Dirk,le Briel,False
+375,Lynn,van Landen,True
+376,Vince,Heyne,True
+377,Chris,Lommert,True
+378,Owen,Draaisma,False
+379,Lieke,Huisman,True
+380,Ruben,Aschman,True
+381,Evie,Thatcher,True
+382,Michelle,Luboch,True
+383,Juliette,van Dongen,False
+384,Stijn,van der Heyden,True
+385,Aaliyah,van Klaarwater,True
+386,Lily,Koster,True
+387,Lindsey,Vandenbergh,True
+388,Raf,Keijser,True
+389,Vincent,Robbrechts Bruijne,False
+390,Nick,van Heusden,True
+391,Mark,Serra,False
+392,Luka,Pauwels,False
+393,Jort,Moenen,True
+394,Joël,Mens,True
+395,Kai,Schellekens,False
+396,Oscar,Kuilenburg,False
+397,Vince,Vergeer,False
+398,Lex,van Emmelen,False
+399,Raf,de Vroege,True
+400,Raf,Backer,False
+401,Thijmen,Karels,False
+402,Sepp,de Heer,False
+403,Justin,van Geffen,False
+404,Bastiaan,van Mil,False
+405,Boaz,Risma,True
+406,Luna,van der Klijn,True
+407,Abel,Schiffer,True
+408,Zakaria,Klomp Jan,False
+409,Hannah,Molenaar,True
+410,Michael,Remmers,False
+411,Bo,Huel,False
+412,Roos,Brumleve,False
+413,Iris,Kort,True
+414,Daniël,ter Waarbeek,False
+415,Jesper,Wouters,True
+416,Maarten,Noordijk,True
+417,Yasmine,Neuzerling,False
+418,Rafael,d' Heripon,False
+419,Eliza,van Maaren,False
+420,Finn,Zijlmans,True
+421,Tara,Neuzerling,False
+422,Maya,Michiels,True
+423,Joep,Klomp Jan,False
+424,Lex,Overdijk,True
+425,Nadia,Coret,True
+426,Micha,Fechant,True
+427,Owen,Wolfsdr,False
+428,Julia,Cammel,False
+429,Ella,van Noordeloos,True
+430,Fem,Verhoeven,True
+431,Tijmen,van Schevinghuizen,False
+432,Yinthe,Geerling,True
+433,Luka,Unruoch Hunerik,False
+434,Berend,Verhoeven,False
+435,Lizzy,Kuit,False
+436,Sofie,de Graaf,True
+437,Jet,Boddaugh,False
+438,Merel,Dijkman,True
+439,Luca,Scharroo,True
+440,Joy,de Plantard,False
+441,Nina,Saxo,True
+442,Mehmet,Woutersz,False
+443,Tycho,Hulskes,True
+444,Liv,Unruoch Hunerik,True
+445,Féline,Mathurin,True
+446,Amber,van Laon,True
+447,Jorn,van Bergen,True
+448,Romy,Mudden,True
+449,Jayda,van Westfalen,True
+450,Sebastiaan,Brouwer,False
+451,Julian,Kleybrink,False
+452,Liam,van Noort,True
+453,Elise,Draaisma,True
+454,Hendrik,van den Nuwenhijsen,False
+455,Youssef,Jacobs,False
+456,Jolie,van Herstal,False
+457,Lorenzo,Goderts,False
+458,Sterre,van den Eijssel,True
+459,Jorn,de Jonge,False
+460,Pieter,van Berkum,False
+461,Jim,Jonker,True
+462,Mathijs,Galijn,True
+463,Jip,van Egisheim,True
+464,Amin,van Bergen,True
+465,Tobias,Stoffel,False
+466,Max,Oemencs,False
+467,Noor,van de Leemput,False
+468,Jasper,Rehorst,False
+469,Eline,Bierstraten,True
+470,Jasmijn,Eelman,False
+471,Sofia,Wipstrik,False
+472,Berat,Rousselet,True
+473,Milan,van de Coterlet,False
+474,Benthe,Dekker,True
+475,Jacob,Lether,False
+476,Oscar,Tirie,False
+477,Mart,van Rijnsbergen,False
+478,Ivan,van Westfalen,True
+479,Nina,Westermann,True
+480,Maja,Rijcken,True
+481,Zoë,Simons,False
+482,Esila,Jansen,False
+483,Kai,Rippey,False
+484,Thijmen,Bruijne van der Veen,False
+485,Ella,van Spreuwel,True
+486,Alyssa,Hofman,False
+487,Jan,Charon,False
+488,Quinty,Kallen,True
+489,Noah,Muller,True
+490,Jayda,Roodesteijn,False
+491,Silke,van Doorn,True
+492,Maarten,Otto,False
+493,Riley,Ferran,True
+494,Hamza,van Gelder,False
+495,Jesse,Bolkesteijn,True
+496,Maya,van den Velden,True
+497,Zara,van Beeck,True
+498,Brent,Recers,True
+499,Noah,van den Eerenbeemt,True
+500,Siem,Molen,True
+501,Benthe,Chrodtrud,False
+502,Mia,van Hostaden,True
+503,Nova,Sire,True
+504,Felix,Zwijsen,True
+505,Merijn,Adriaense,False
+506,Ella,van Rijnsbergen,False
+507,Jasmijn,van Bovene,False
+508,Sven,de Strigter,False
+509,Jenna,Bosch,True
+510,Maya,van Bentheim,False
+511,Janna,Mangel,True
+512,Jack,van Praagh,True
+513,Mees,van Clootwijck,True
+514,Faye,Bronder,True
+515,Maartje,Werdes,False
+516,Bradley,van Duvenvoirde,False
+517,Kayleigh,van Geffen,True
+518,Bradley,Smit,False
+519,Joris,Overeem,True
+520,Alicia,Perkins,False
+521,Lily,Meis,False
+522,Cato,Eelman,True
+523,Hendrik,Lelijveld,True
+524,Jordy,le Gulcher,False
+525,Nora,Wipstrik,True
+526,Joëlle,Moenen,True
+527,James,van Tuijl,False
+528,Daniel,Velderman,True
+529,Helena,van 't Houteveen,True
+530,James,Ferran,True
+531,Kaylee,Keijzer,True
+532,Johannes,van der Schuijt,True
+533,Kevin,van der Mast,False
+534,Isabelle,Wolters,True
+535,Senna,Oversteeg,True
+536,Pim,Kerkhof,True
+537,Jenna,de Lange,False
+538,Xavi,van Emmelen,True
+539,Luca,Zaal,True
+540,Evelien,Lieshout,False
+541,James,Scholten,True
+542,Charlotte,Symons,False
+543,Kick,Zwijsen,True
+544,Johannes,Hehl,True
+545,Puck,van 't Riet,False
+546,Chloë,Sitters,True
+547,Ninthe,Maaswinkel,True
+548,Nathan,Timmerman,True
+549,Quinten,Prinsen,False
+550,Stijn,van Embden,False
+551,Joris,van 't Riet,True
+552,Ilse,de Gruijter,True
+553,Joël,Recers,False
+554,Julia,Lips,True
+555,Elize,Lambregt,False
+556,Justin,Postma,False
+557,Lauren,van den Brink,True
+558,Jade,Heijmans,False
+559,Ivy,Doorhof,False
+560,Lex,Tins,True
+561,Ivy,Mallien,True
+562,Lana,Geneart,True
+563,Bibi,Geerling,False
+564,Alex,Demmendaal,True
+565,Livia,van der Ven,False
+566,Kyara,Jans,False
+567,Bjorn,van Riet,True
+568,Liam,Nek,False
+569,Floor,de Hoogh,False
+570,Mia,Grondel,True
+571,Meike,Schouten,True
+572,Luka,Goedhart,False
+573,Mees,van Waas,False
+574,Sven,Stook,False
+575,Olivia,Kolster,True
+576,Rick,Dorsman,False
+577,Valerie,van Parijs,True
+578,Janna,van Gils,True
+579,Mustafa,Leene,False
+580,Fiene,Luster,False
+581,Kyara,de Roo,False
+582,Hanna,de Mol,True
+583,Anna,Martens,True
+584,Stefan,van Henegouwen,False
+585,Rowan,Vrancken,False
+586,Chloé,Arent,True
+587,Isabel,van Dijk,False
+588,Jennifer,Elsenaar,True
+589,Jamie,Maas,True
+590,Lana,van Ommeren,True
+591,Renske,Spruyt,False
+592,Lize,Pastoors,True
+593,Tobias,Volcke,True
+594,Ivy,van Hostaden,True
+595,Wesley,van den Brink,True
+596,Stijn,Jaceps,True
+597,Janna,van der Pol,True
+598,Loes,Köster,True
+599,Alyssa,Wijland,False
+600,Lena,van Hulten,True
+601,Luka,Bastiaense,True
+602,Sanne,le Guellec,False
+603,Frederique,van Spreeuwel,False
+604,Marinus,Broek,True
+605,Nathan,de Grunt,True
+606,Ivy,Doyle,False
+607,Julia,van der Laar,False
+608,Cato,Galenzone,True
+609,Emma,van den Brink,True
+610,Senna,Mol,False
+611,Nienke,van de Greef,True
+612,Annemijn,van het Heerenveen,False
+613,Olaf,Spier,False
+614,Jim,van de Ven,True
+615,Jayden,VI,True
+616,Ella,Schellekens,True
+617,Jorn,van der Brink,True
+618,Julie,Gepa van Bourgondië,False
+619,Mette,Smeets,True
+620,Esmee,Sam,True
+621,Hugo,Amalrada,True
+622,Fatima,Garret,True
+623,Catharina,Nollee,True
+624,Stijn,van den Berg,True
+625,Nina,de Korte,False
+626,Kian,Scharroo,True
+627,Laura,Schwartsbach,True
+628,David,Adriaense,False
+629,Chloë,Zwart,True
+630,Elizabeth,van der Klein,True
+631,Nynke,Diesbergen,True
+632,Suze,de Haas,True
+633,Lisanne,van Westfalen,True
+634,Loïs,Hekker,True
+635,David,Moet,True
+636,Hendrik,van Embden,False
+637,Nout,Hazenveld,False
+638,Mirte,van den Brink,False
+639,Kyra,Ariens,True
+640,Noëlle,Smits,False
+641,Giel,Carnotte,False
+642,Daan,van Wel,False
+643,Laurens,Moenen,True
+644,Liz,Slagmolen,True
+645,Fenna,Vandenbergh,False
+646,Tirza,van Luin,True
+647,Luke,Levesque,True
+648,Maryam,Bekbergen,True
+649,Jonathan,van der Veiver,True
+650,Lisanne,Backer,False
+651,Colin,de Bock,False
+652,Sterre,Hemma van Allemanië,True
+653,Jennifer,de Bock,True
+654,Jacob,Cammel,False
+655,Guusje,Scheffers,True
+656,Daphne,Wolffel,True
+657,Maaike,Groenestein,True
+658,Naomi,Salet,False
+659,Wesley,'s Gravensande,True
+660,Dani,Romijn,True
+661,Damian,Thomas,True
+662,Fabiënne,van den Assem,True
+663,Liam,Neuteboom,False
+664,Olivier,van de Ven,True
+665,Naud,Mathol,True
+666,Ruben,Buijs,False
+667,Noëlle,Keijzer,False
+668,Chris,Verhagen,False
+669,Julius,Engels,False
+670,Mette,Nollee,True
+671,Sjoerd,van Northeim,True
+672,Fabiënne,Meijer,False
+673,Tygo,Korsman,True
+674,Nick,van der Veen,True
+675,Yasmine,Friehus,False
+676,Linn,van Wassenaar,True
+677,Aiden,Rijks,True
+678,Jill,van Venrooy,True
+679,Lana,Zevenboom,False
+680,Wouter,Hoeks,False
+681,Jesse,Vos,False
+682,Joost,Vos,True
+683,Milan,Prinsen,True
+684,Fem,Ellis,True
+685,Liza,Post,True
+686,Micha,van Beeck,False
+687,Linde,van de Plas,False
+688,Evelien,van Liendert,True
+689,Amelia,van Rossum,True
+690,Ali,de Marduras,False
+691,Marijn,de Jode Vastraedsd,False
+692,Lieke,Roodesteijn,True
+693,Colin,Brandt,True
+694,Dion,Dircken,True
+695,Mare,Langevoort,False
+696,Jelte,Reimes,False
+697,Kyara,Oda,True
+698,Ilse,de Marduras,True
+699,Sienna,van Wickerode,False
+700,Hailey,Cammel,True
+701,Willem,van Dagsburg,False
+702,Ian,van Roijen,False
+703,Kian,Bastiaanse,True
+704,Giel,Potters,True
+705,Jayson,van den Henst,True
+706,Elizabeth,Bouwhuisen,True
+707,Cas,Geerts,True
+708,Wouter,Vastenhouw,True
+709,Jasmijn,van Velzen,True
+710,Dina,Dirksen,False
+711,Maxim,Keijser,True
+712,Kyra,Post,True
+713,Joris,van Haarlem,True
+714,Pippa,Room,False
+715,Tirza,Michielsen,False
+716,Thom,Verschut,True
+717,Olaf,Slagmolen,False
+718,Johanna,Oosterhek,True
+719,Milo,Kremer,False
+720,Morris,van Berkel,False
+721,Guus,'s Gravensande,False
+722,Johannes,van Maasgouw,True
+723,Ise,Ulrich,False
+724,Youssef,Stinis,False
+725,Hendrik,de Gruil,True
+726,Ceylin,Lathrope,True
+727,Jim,Osterhoudt,True
+728,Dylano,Köster,False
+729,Maxim,le Gallen,False
+730,Amelia,Appelman,True
+731,Jonathan,van Arnsberg,True
+732,Azra,Hakker,True
+733,Casper,Zwijsen,False
+734,Elias,Stoffel,False
+735,Yassin,van Gent,True
+736,Leah,Meeusen,True
+737,Sepp,Ariens Ansems,True
+738,Lenn,van Grondelle,True
+739,Joël,de Jode Vastraedsd,True
+740,Alex,Uphuis,True
+741,Stan,Sam,True
+742,Angelina,Boetet,False
+743,Fenna,Pasman,True
+744,Ravi,van den Eijssel,True
+745,Hailey,Jacobs,False
+746,Berat,Doesburg,False
+747,Jake,de Korte,True
+748,Joy,Marchand,False
+749,Pippa,Verbeek,False
+750,Sara,Heijmans,True
+751,Ashley,Koning,True
+752,Sanne,van Hamaland,True
+753,Jens,Bronder,False
+754,Joëlle,van Dagsburg,False
+755,Johanna,van de Plas,True
+756,Nadine,Otto,False
+757,Ruben,Hoes,True
+758,Isis,van 't Wel,False
+759,Mustafa,van Dooren,False
+760,Yinthe,Rietveld,True
+761,Azra,Noordijk,False
+762,Danique,Estey,False
+763,Suze,Backer,False
+764,Stef,van Doorn,False
+765,Rafael,Huijben,False
+766,Fabian,Boeser,False
+767,Daan,van der Laarse,True
+768,Sil,van der Heijden,True
+769,Noa,Heijmen,True
+770,Lena,Geerling,False
+771,Mirte,Hermans,True
+772,Olivier,Ghoerle,True
+773,Anne,Spreeuw,False
+774,Ivy,Slagmolen,True
+775,Amelia,Unruoch Hunerik,False
+776,Jennifer,Bolkesteijn,True
+777,Norah,Smits,False
+778,Justin,Verboom,False
+779,Aylin,van de Pavert,False
+780,Aaliyah,van Daal,False
+781,Jade,de Vroege,True
+782,Loek,Scharroo,False
+783,Koen,Brizee,False
+784,Tristan,Kramer,True
+785,Xavi,de Vos,True
+786,Raf,van Hulten,True
+787,Lindsey,Bosch,True
+788,Stan,Molegraaf,False
+789,Cornelis,Belpere,False
+790,Lina,de Boer,False
+791,Aiden,Oversteeg,False
+792,Dina,Françoise,True
+793,Fiene,Eckhardt,True
+794,Mika,Kunen,True
+795,Hendrik,Berends,False
+796,Ravi,Merckx,False
+797,Isabel,Schiffer,True
+798,Hidde,Verbeeck,True
+799,Lukas,Scheffers,True
+800,Merel,van Breukelveen,True
+801,Bjorn,van der Laarse,True
+802,Maaike,Rijntjes,True
+803,Noor,Elbertse,False
+804,Fleur,Doorhof,False
+805,Thom,Serra,True
+806,Mees,van den Pol,True
+807,Amélie,Elsenaar,False
+808,Puck,Janse,True
+809,Fabian,van Daal,False
+810,Julie,Schakelaar,True
+811,Chris,Haengreve,True
+812,Janne,Martel,True
+813,Karlijn,Boers,True
+814,Amber,de Grunt,True
+815,Liv,van de Brink,False
+816,Stella,Kisman,False
+817,Elise,Estey,True
+818,Justin,Hendriks,False
+819,Michelle,Lind,True
+820,Jayson,Vermeulen,True
+821,Niels,David,False
+822,Aimée,van Landen,False
+823,Senn,Strik,True
+824,Johanna,Peters,False
+825,Ibrahim,Becht,True
+826,Lisanne,Brandon,True
+827,Luna,Steinmeiern,True
+828,Adriana,Schakelaar,True
+829,Florian,Bartels,True
+830,Giel,Hoelen,True
+831,Dirk,van den Brink,True
+832,Ravi,van der Heiden,False
+833,Mees,Galenzone,True
+834,Ruben,Gruijl,False
+835,Karlijn,Kas,True
+836,Jip,van Westfalen,False
+837,Bram,Aarts,True
+838,Amelia,Ridder,True
+839,Amy,Jansse,False
+840,Faye,van der Sloot,False
+841,Berat,Huijs,True
+842,Demi,Schipper,True
+843,Loek,Hendriks,True
+844,Stijn,Ellis,False
+845,Vera,Jorrisen,False
+846,Meike,de Bruijn,False
+847,Wessel,Blokland,True
+848,Liz,Velderman,True
+849,Milan,Freshour,False
+850,Morris,Tammerijn,True
+851,Fiene,Kuipers,False
+852,Michelle,van de Berg,False
+853,Bart,van Leeuwen,True
+854,Keano,van Northeim,False
+855,Livia,Lambers,False
+856,Mila,Haneberg,False
+857,Johannes,Cammel,True
+858,Olivia,Robbrechts Bruijne,True
+859,Merijn,de Haas,False
+860,Daniel,Welf,False
+861,Ian,van Goerle,False
+862,Aimée,van Orleans,True
+863,Evie,Schokman,True
+864,Megan,Adriaensdr,True
+865,Ilse,Cornelisse,False
+866,Chloë,Janssen,True
+867,David,Jaceps,True
+868,Maya,van Parijs,True
+869,Rens,Ouwel,True
+870,Aimée,Oosterhout,False
+871,Femke,Holthuis,True
+872,Kian,Olthof,False
+873,Yassin,Symons,False
+874,Lotte,Aarden,False
+875,Jurre,Kok,False
+876,Jasper,Passchiers,False
+877,Amira,van der Lede,False
+878,Noah,van den Berg,False
+879,Lieke,Heerschop,True
+880,Tessa,Cant,True
+881,Sylvie,Muijs,False
+882,Dewi,Peters,True
+883,Sep,van Emmelen,True
+884,Phileine,de Strigter,False
+885,Evi,Frerichs,False
+886,Tobias,Post,False
+887,Hailey,Bos,False
+888,Jinthe,Claesner,False
+889,Cornelia,Wever,False
+890,Sam,de Boer,True
+891,Lois,Huijben,False
+892,Lana,van den Assem,False
+893,Nynke,Smeets,True
+894,Rosa,van Bunschoten,True
+895,Milan,Wright,False
+896,Joep,Boer,True
+897,Kay,Haring,False
+898,Joey,Niermann,False
+899,Bjorn,Persijn,False
+900,Zoë,Hendriks,True
+901,Floris,van den Assem,False
+902,Tessa,Wilmont,False
+903,Felix,van den Wittenboer,True
+904,Julie,Diesbergen,False
+905,Jade,Totwiller,False
+906,Berat,Meijer,False
+907,Lise,van der Smeede,False
+908,Robin,van Nes,False
+909,Aiden,Courtier,False
+910,Ashley,Alpaidis,False
+911,Mees,van Bergen,True
+912,Liza,Keijzer,True
+913,Colin,Michielsen,True
+914,Melle,de Groot,True
+915,Evi,van de Wal,False
+916,Jade,Bolkesteijn,False
+917,Pien,Levesque,False
+918,Wouter,Jurrijens,True
+919,Loes,van Nes,True
+920,Elizabeth,Chotzen,False
+921,Aaron,van Ginneke,False
+922,Tijs,Lieshout,True
+923,Jort,van Evelingen,True
+924,Jacob,Verheij,True
+925,Demi,Draaisma,False
+926,Leah,Belpere,True
+927,Ilse,Ghoerle,True
+928,Kyano,Veltman,True
+929,Tijmen,Otte,False
+930,Lana,Weerdenburg,False
+931,Jacob,Meijer,True
+932,Marinus,Dries,True
+933,Elisabeth,Lips,True
+934,Ninthe,Pieters,False
+935,Meike,Neuzerling,True
+936,Imke,van Hamaland,True
+937,Zoey,de Boer,True
+938,Jayda,Miltenburg,True
+939,Dylan,Jorrisen,True
+940,Maarten,'s Gravensande,False
+941,Gerrit,Nek,False
+942,Giovanni,Dachgelder,True
+943,Jente,Jekel,False
+944,Noor,Aalts,False
+945,Tijmen,Draaisma,True
+946,Yasmin,van den Bosch,False
+947,Nora,van Vlaanderen,True
+948,Laurens,Nihoe,False
+949,Johannes,Billung,False
+950,Finn,Klerks,False
+951,Valentijn,Feenstra,True
+952,Giovanni,Frankhuizen,True
+953,Danique,Heymans,False
+954,Dewi,Smits,False
+955,Jet,Paillet,False
+956,Lieve,van Hagen,True
+957,Tristan,Uit de Willigen,True
+958,Bjorn,Tammerijn,True
+959,Floor,van Evelingen,True
+960,Elin,van Ooste,True
+961,Dylan,Broek,True
+962,Azra,Gerritsen,True
+963,Bilal,van der Zijl,True
+964,Nadine,Meis,False
+965,Mohammed,Scharroo,True
+966,Luka,Coreth von und zu Coredo und Starkenberg,False
+967,Kiki,van Grondelle,True
+968,Kaylee,Cornelisz,False
+969,Pien,Remmers,True
+970,Aylin,Moensendijk,False
+971,Mees,Kamp,False
+972,Oscar,Paillet,False
+973,Evelien,Beekman,True
+974,Lizzy,Beernink,True
+975,Dylano,van Ham,False
+976,Joëlle,Gnodde,False
+977,Chris,van de Elzas,True
+978,Sanne,Schellekens,False
+979,Zeynep,van der Sande,True
+980,Ben,Demmendaal,True
+981,Colin,Rijn,True
+982,Olaf,Spiker,True
+983,Sjoerd,Brizee,True
+984,Sjoerd,van Beaumont,True
+985,Esila,van Nus,False
+986,Mehmet,Soos,False
+987,Linn,van Suinvorde,False
+988,Luca,de Bruin,False
+989,Lukas,Mijsberg,False
+990,Julius,Kisman,False
+991,Mick,Roose,False
+992,Benthe,Schuylenborch,False
+993,Guusje,Ghoerle,True
+994,Yara,Schelvis,True
+995,Olivier,Jans,False
+996,Zakaria,Scherms,True
+997,Eline,van 't Riet,True
+998,Kay,Walter,True
+999,Jill,Jansdr,True
+1000,Sem,Kramer,True
+1001,Dylan,Kriens,False
+1002,Amy,Brievingh,False
+1003,Arthur,Guit,True
+1004,Milan,de Gruil,True
+1005,Giovanni,van Munster,True
+1006,Esmee,van Formbach,False
+1007,Mark,'s Gravensande,False
+1008,Amber,Dircken,True
+1009,Simon,Verheuvel,True
+1010,Ali,Melet,True
+1011,Boris,van Arkel,False
+1012,Rosalie,Leguit,False
+1013,Daan,Leene,False
+1014,Jayda,Bresse,True
+1015,Julia,Heyne,True
+1016,Maurits,Boogaerts,False
+1017,James,van Jumiège,True
+1018,Aaliyah,Puig,True
+1019,Ian,Blaak,False
+1020,James,Hoedemakers,False
+1021,Rosa,Galijn,True
+1022,Jake,Kleibrink,False
+1023,Nina,Voortman,True
+1024,Fleur,van den Bergh,False
+1025,Laura,Lambregt,True
+1026,Niels,Hoeks,True
+1027,Duuk,van Hulten,True
+1028,Quinty,Rehorst,False
+1029,Mirthe,Vertooren,True
+1030,Dex,Woudenberg,True
+1031,Justin,Jans,True
+1032,Nick,Nijman,False
+1033,Levi,van 't Houteveen,False
+1034,Amelia,Groenendaal,False
+1035,Bradley,Tillmanno,False
+1036,Mark,van der Laan,False
+1037,Bibi,Blokland,True
+1038,Pieter,van den Corput,True
+1039,Muhammed,Verbruggen,False
+1040,Muhammed,Kas,False
+1041,Elise,van der Heyden,True
+1042,Fenne,Keijser,True
+1043,Bo,van Grinsven,True
+1044,Ilse,Elbertse,True
+1045,Marijn,Kerkhof,True
+1046,Raf,Massa,False
+1047,Benthe,Rotteveel,True
+1048,Robin,Bos,True
+1049,Jamie,Knoers,False
+1050,James,van Rooij,False
+1051,Féline,Ferran,False
+1052,Stijn,Pauwels,True
+1053,Maud,van der Loo,True
+1054,Ninthe,Ponci,True
+1055,Boaz,Lamotte,False
+1056,Daniel,Goedhart,False
+1057,Vigo,van Mook,True
+1058,Hanna,Dijkman,True
+1059,Nora,den Haag,False
+1060,Dean,de Gruijter,False
+1061,Boris,van Heusden,True
+1062,Abel,Prinsen,True
+1063,Anouk,Buijs,False
+1064,Sanne,Chotzen,False
+1065,Jesper,de Vroege,True
+1066,Tygo,Dijkstra,False
+1067,Yassin,Diesbergen,True
+1068,Ali,Hendrikse,True
+1069,Giovanni,Boers,True
+1070,Megan,Unruoch Hunerik,False
+1071,Jamie,van Gastel,False
+1072,Melissa,van Olst,True
+1073,Amir,Hulshouts,False
+1074,Wessel,Veenendaal,True
+1075,Eline,Koster,False
+1076,Eliza,Jones,False
+1077,Esmee,Elberts,False
+1078,Bastiaan,Amalrada,True
+1079,Sep,Claesner,False
+1080,Mick,Ouwerkerk,True
+1081,Quinty,Verheij,False
+1082,Lisanne,Aarden,False
+1083,Maryam,Ghoerle,True
+1084,Esther,de Groot,False
+1085,Jesper,Reimes,False
+1086,Linde,de Bruijn,False
+1087,Dana,Cosman,True
+1088,Pieter,Jans,True
+1089,Aaron,Loreal,False
+1090,Jayden,van den Henst,True
+1091,Myrthe,Ooms,False
+1092,Mia,François,False
+1093,Eline,Vink,True
+1094,Ilse,Timmermans,True
+1095,Matthias,van Wijk,False
+1096,Julian,Cornelissen,False
+1097,Elizabeth,van Duvenvoirde,False
+1098,Mustafa,de Hoog,False
+1099,Evy,Post,True
+1100,Hannah,Dirksen,True
+1101,Luna,Huijben,True
+1102,Merel,Verbeek,True
+1103,Noortje,de Grunt,True
+1104,Rik,Willemsen,True
+1105,Jinthe,Thomas,True
+1106,Elisabeth,Willemsen,True
+1107,Kim,Puig,False
+1108,Fien,van de Kooij,False
+1109,Yasmine,Holthuis,True
+1110,Frederique,Wooning,False
+1111,Sepp,de Gruson,True
+1112,Rosa,Verhoeven,True
+1113,Faas,van den Assem,True
+1114,Sebastiaan,Meeres,False
+1115,Julia,Hoeks,True
+1116,Emir,Smith,False
+1117,Femke,Riem,False
+1118,Levi,van Bunschoten,True
+1119,Sylvie,Jdotte,False
+1120,Anne,de Hoogh,True
+1121,Sophia,Blom,True
+1122,Lizzy,Recers,False
+1123,Sebastiaan,van Boven,False
+1124,Selina,van der Linden,True
+1125,Suze,Spier,True
+1126,Floor,Roose,True
+1127,Rick,Huijs,True
+1128,Dave,van Bunschoten,False
+1129,Thijmen,Sestig,True
+1130,Evi,van Hoevel en van Zwindrecht,False
+1131,Liz,van Nus,False
+1132,Yusuf,van der Veiver,False
+1133,Myrthe,van Leeuwen,False
+1134,Amin,van Hagen,True
+1135,Giovanni,van der Leek,False
+1136,Zoë,Osterhoudt,True
+1137,Juliette,Doorhof,False
+1138,Valentijn,Meijer,False
+1139,Jens,Janssen,False
+1140,Willem,Kuipers,False
+1141,Fay,de Korte,True
+1142,Kevin,van Bergen,False
+1143,Sten,le Gallen,True
+1144,Julia,van Noort,True
+1145,Levi,van Duivenvoorde,False
+1146,Fenne,Tielemans,False
+1147,Lieve,Coret,True
+1148,Pien,van den Berg,False
+1149,Joëlle,van Breugel,False
+1150,Senna,van der Mast,False
+1151,Linn,van Orleans,False
+1152,Benthe,Mijsberg,False
+1153,Nathan,van Straaten,False
+1154,Giovanni,van den Wittenboer,True
+1155,Elizabeth,Groote,False
+1156,Vigo,Uphaus,True
+1157,Tobias,Velderman,False
+1158,Maja,Stoffelsz,True
+1159,Indy,van Egisheim,True
+1160,Fien,Tillmanno,False
+1161,Mason,van 't Riet,False
+1162,Zoë,Waardeloo,True
+1163,Simon,van Grondelle,False
+1164,Raf,Kerkhof,True
+1165,Jay,Simonis,True
+1166,Imran,van Ghoerle,True
+1167,Demi,Groenestein,False
+1168,Brian,Marchal,True
+1169,Annabel,van de Berg,False
+1170,Wout,van Noordeloos,False
+1171,Tijs,Lether,False
+1172,Milan,Ariens Ansems,False
+1173,Ise,Bronder,False
+1174,Amelia,van de Pavert,False
+1175,Amin,Wouters van Eijndhoven,True
+1176,Roos,Westerburg,True
+1177,Amber,Mahieu,False
+1178,Mustafa,Gerrits,False
+1179,Ise,Tielemans,False
+1180,Mike,Slingerland,False
+1181,Jolijn,Arens,False
+1182,Ise,Werdes,True
+1183,Nout,van Henegouwen,True
+1184,Jip,van Haeften,False
+1185,Quinten,de Swart,False
+1186,Jesper,van Wassenaar,True
+1187,Janna,van Nederlotharingen,False
+1188,Olaf,van Laon,False
+1189,Noortje,van Oostendorp,False
+1190,Tessa,van Haspengouw Hesbaye,True
+1191,Kyano,de Gruil,False
+1192,Job,van der Lede,False
+1193,Ize,Ponci,True
+1194,Yinthe,Kallen,False
+1195,Amber,van der Meulen,False
+1196,Ilse,Segerszoen,True
+1197,Loek,van den Bosch,False
+1198,Daniel,van Clootwijck,True
+1199,Elizabeth,Erhout,False
+1200,Luke,van Es,True
+1201,Luuk,Bernaards,True
+1202,Teun,van de Pol,True
+1203,Mark,Heymans,False
+1204,Danique,Emmen,False
+1205,Nout,Groote,False
+1206,Naud,van de Greef,False
+1207,Michael,Poncelet,True
+1208,Lieve,Weijland,True
+1209,Jasmijn,Unruoch Hunerik,False
+1210,Ben,Cosman,False
+1211,Jolie,van Metz,False
+1212,Esila,Mol,True
+1213,Jens,Billung,False
+1214,Mika,le Briel,False
+1215,Rosalie,Matthews,True
+1216,Oscar,Hermans,False
+1217,Elena,van der Horst,False
+1218,Evi,Arens,False
+1219,Milo,Simonis,False
+1220,Lise,Billung,True
+1221,Emir,Shupe,True
+1222,Olivia,van Susa,False
+1223,Pim,Dirven,False
+1224,Mick,Kremer,True
+1225,Puck,Eijkelboom,True
+1226,Bradley,van Este,True
+1227,Jake,Wolters,True
+1228,Kyano,Spruit,False
+1229,Mara,Uit de Willigen,False
+1230,Tessa,van Oosten,True
+1231,Beau,Persijn,False
+1232,Loes,Stettyn,True
+1233,Tim,Kremer,False
+1234,Kevin,Doorhof,True
+1235,Jort,Aeije,False
+1236,Jonas,Meeusen,False
+1237,Lieke,Lieshout,True
+1238,Kate,Rubben,False
+1239,Emma,Verharen,False
+1240,Dylan,Momberg,False
+1241,Guus,Rijks,True
+1242,Nina,Gnodde,False
+1243,Lisa,Adriaensdr,True
+1244,Bente,Doorhof,True
+1245,Kyara,van Olst,True
+1246,Luna,Vervoort,True
+1247,Maud,Reimes,True
+1248,Ashley,de Boer,True
+1249,Nova,van Wessex,False
+1250,Lauren,Ouwel,False
+1251,Liza,Alpaidis,True
+1252,Ize,Neuzerling,False
+1253,Boris,van Egisheim,True
+1254,Dion,Schelvis,True
+1255,Tobias,Keijzer,False
+1256,Elisabeth,van Beaumont,False
+1257,Ayden,van Mil,False
+1258,Leon,Huijbrechts,True
+1259,Aya,van Duvenvoirde,False
+1260,Berend,Coret-Coredo,True
+1261,Amélie,Boer,False
+1262,Elif,Steinmeiern,True
+1263,Dex,Walter,False
+1264,Elena,Heinrichs,True
+1265,Kay,Engels,False
+1266,Vajèn,Poncelet,True
+1267,Hendrik,Labado,False
+1268,Vigo,Coret-Coredo,True
+1269,Joël,Tins,False
+1270,Bibi,Room,False
+1271,Naomi,de Marduras,False
+1272,Maya,Brievingh,True
+1273,Stella,van Leuven,False
+1274,Aylin,van de Greef,True
+1275,Mike,van den Wittenboer,True
+1276,Stef,van Arnsberg,True
+1277,Mason,Verhaar,True
+1278,Julie,Wooning,False
+1279,Rosalie,de Kale,True
+1280,Marijn,Breugelensis,False
+1281,Renske,van Haspengouw,True
+1282,Ibrahim,van Vlaanderen,False
+1283,Koen,Thomas,True
+1284,Marinus,Bosch,True
+1285,Julia,van Oudewater,True
+1286,Sylvie,Boogaerts,True
+1287,Kian,van de Pol,True
+1288,Arthur,Adryaens,True
+1289,Jacob,Moensendijk,False
+1290,Eline,Hondeveld,True
+1291,Thom,van Rijthoven,False
+1292,Ayden,van Duivenvoorde,True
+1293,Veerle,Jacobi,False
+1294,Luuk,Ramaker,False
+1295,Lucy,van Ham,True
+1296,Niels,Sam,False
+1297,Tirza,Robbrechts Bruijne,True
+1298,Esila,Brands,False
+1299,Bo,Chotzen,False
+1300,Zoë,Broeshart,True
+1301,Boris,van der Veen,True
+1302,Youssef,Timmermans,True
+1303,Jake,Cornelisse,False
+1304,Aylin,Kuilenburg,True
+1305,Riley,Brouwer,False
+1306,Noortje,van Embden,True
+1307,Lars,van Salm,False
+1308,Eva,Cornelissen,False
+1309,James,Koret,False
+1310,Kyano,Lankle,False
+1311,Loek,Jaceps,False
+1312,Jari,Rotteveel,False
+1313,Jinthe,Huisman,False
+1314,Jules,Kruns,True
+1315,Britt,Beekman,False
+1316,Jayden,Weyland,True
+1317,Julie,van Emmelen,False
+1318,Jayda,de Bock,True
+1319,Stella,Marchand,True
+1320,Tobias,Fortuyn,False
+1321,Floor,Speijer,False
+1322,Daniel,van Beeck,True
+1323,Jinthe,van Munster,True
+1324,Tirza,Jansen,True
+1325,Felix,Broeders,False
+1326,Brent,van Rijnsbergen,False
+1327,Joëlle,Huurdeman,True
+1328,Twan,Broek,True
+1329,Johanna,Mudden,True
+1330,Arthur,de Groot,False
+1331,Brent,Vignon,False
+1332,Ibrahim,van Asten,False
+1333,Ravi,Feenstra,True
+1334,Joël,van der Maes,True
+1335,Lindsey,de Vroege,False
+1336,Rosa,de Reede,True
+1337,Mees,Joosten,True
+1338,Ryan,Verkade,False
+1339,Quinten,Lambers,True
+1340,Johannes,den Haag,True
+1341,Bas,Spanhaak,False
+1342,Mara,Jorrisen,False
+1343,Kyano,van der Meulen,False
+1344,Xavi,Brisee,True
+1345,Victoria,Everde,True
+1346,Levi,van Kasteelen,False
+1347,Maya,Jacobs,True
+1348,Damian,Rietveld,False
+1349,Jay,Heijman,False
+1350,Sven,Emmen,False
+1351,Azra,Boers,True
+1352,Brent,van 't Riet,False
+1353,Daniël,Rijks,False
+1354,Naomi,Erhout,True
+1355,Sterre,Stinis,False
+1356,Joep,Kalman,True
+1357,Merel,Keltenie,True
+1358,Berat,van het Heerenveen,True
+1359,Yassin,van den Velde,False
+1360,Juliette,Jacobi,False
+1361,Sem,van Dommelen,False
+1362,Sem,Huel,True
+1363,Luke,Oude Heer,True
+1364,Puk,Janssen,True
+1365,Vera,Guit,False
+1366,Faas,van de Greef,True
+1367,Lucy,Hemma van Allemanië,False
+1368,Dana,Jdotte,False
+1369,Lex,Broeders,True
+1370,Sanne,Lansink,False
+1371,Juliette,Pieters,False
+1372,Loes,Mercks,True
+1373,Youssef,van de Velden,True
+1374,Kian,Wutke,False
+1375,Ilse,Heijman,True
+1376,Stella,Jeggij,True
+1377,Bradley,Hoeks,True
+1378,Mirte,Lage,True
+1379,Fabiënne,Vallenduuk,False
+1380,Pim,Wooning,True
+1381,Isa,Paillet,False
+1382,Linde,van der Kint,True
+1383,Kate,van der Kint,False
+1384,Jennifer,Die Bont,True
+1385,Floor,de Jong,True
+1386,Rik,Rouwenhorst,True
+1387,Jake,de Koning,True
+1388,Wout,van Oosten,False
+1389,Jordy,van der Velde,False
+1390,Jelte,Ouwerkerk,False
+1391,Naud,Hoppenbrouwer,True
+1392,Berat,Vrancken,True
+1393,Gerrit,de Graaf,True
+1394,Pippa,van Opper-Lotharingen,False
+1395,Bibi,van Ooste,True
+1396,Maartje,van Tuijl,False
+1397,Thijn,Ridder,True
+1398,Mila,Merkx,False
+1399,Boris,Borman,True
+1400,Maurits,van Geffen,True
+1401,Ayden,Schelvis,True
+1402,Alyssa,Hulskes,False
+1403,Dex,Brievingh,True
+1404,Vigo,van der Maes,False
+1405,Senna,Thatcher,False
+1406,Tim,Wooning,True
+1407,Marit,van Bruchem,False
+1408,Koen,Zwart,True
+1409,Maud,Vial,False
+1410,Elena,Fechant,False
+1411,Jordy,van der Laarse,True
+1412,Hanna,van Maasgouw,True
+1413,Niek,de Gruijter,False
+1414,Feline,Verbruggen,False
+1415,Elize,van Kuijc van Malsen,True
+1416,Casper,Grondel,False
+1417,Ibrahim,van Saksen,True
+1418,Emily,van Straaten,False
+1419,Evie,van Gils,True
+1420,Jasmijn,van Maaren,True
+1421,Nadia,van Veen,True
+1422,Maaike,Hehl,False
+1423,Maxim,Spruit,True
+1424,Teun,Vermeulen,False
+1425,Keano,van Beek,False
+1426,Sami,Meijer,True
+1427,Daphne,van Clootwijck,True
+1428,Mara,Ridder,True
+1429,Colin,van Buuren,True
+1430,Carlijn,van Verdun,True
+1431,Daphne,Kleibrink,True
+1432,Tess,Uittenbosch,False
+1433,Ninthe,Sas,False
+1434,Vince,Huijzing,False
+1435,Sylvie,Stook,False
+1436,Kate,Muller,True
+1437,Zakaria,Estey,False
+1438,Hannah,Wilmont,False
+1439,Muhammed,van de Ven,False
+1440,Valentijn,Marchand,True
+1441,Hannah,Ketel,False
+1442,Stan,Haack,False
+1443,Amy,van der Leek,False
+1444,Jurre,van Noordeloos,False
+1445,Dina,Kwaadland,True
+1446,Jordy,Vos,True
+1447,Julius,Appelman,False
+1448,Nick,Smits,True
+1449,Demi,Geerts,False
+1450,Milo,Hendricks,True
+1451,Matthias,de Mol,False
+1452,Mehmet,Scharroo,False
+1453,Esmée,van Kuijc van Malsen,True
+1454,Selina,Brandon,False
+1455,Kian,Henric van den Nuwenhuse,True
+1456,Sjoerd,Draaisma,False
+1457,Zeynep,van Rheineck,False
+1458,Jade,Groenestein,False
+1459,Olaf,Teunissen,True
+1460,Owen,Vial,False
+1461,Seth,Weyland,False
+1462,Esther,van den Corput,True
+1463,Tristan,Dachgeldt,False
+1464,Joost,Timmermans,True
+1465,Joey,Scuylenborchs,True
+1466,Elizabeth,Sestig,False
+1467,Kyra,Engels,False
+1468,Daan,Reimes,True
+1469,Eline,van Leeuwen,False
+1470,Yfke,van Bunschoten,False
+1471,Maarten,Tammerijn,False
+1472,Lotte,Ehlert,False
+1473,Esmee,Laffray,False
+1474,Amin,van Vliet,False
+1475,Kiki,van Geest,False
+1476,Jasper,van Kempen,False
+1477,Luca,Weylant,False
+1478,Amir,de Roos,False
+1479,Matthijs,van Dalem,True
+1480,Sophie,van Spreeuwel,True
+1481,Mason,Galijn,True
+1482,Joëlle,Elsemulder,True
+1483,Sienna,Nieuwstraten,False
+1484,Liam,Heerkens,True
+1485,Mathijs,Lemmens,True
+1486,Teun,van der Loo,True
+1487,Floortje,Bouwhuisen,True
+1488,Imke,Tamsma,True
+1489,Demi,Dirven,True
+1490,Jasper,van de Berg,False
+1491,Yasmin,van Haspengouw Hesbaye,False
+1492,Niels,Van Bragt,True
+1493,Kyano,Woutersz,False
+1494,Tijs,Peronne,False
+1495,Senna,Bertho,False
+1496,Yasmin,Welf,False
+1497,Elif,van Rheineck,True
+1498,Stef,Bierstraten,True
+1499,Damian,van den Nieuwenhuijsen,True
+1500,Nova,Melet,True
+1501,Jim,Haring,False
+1502,Sil,van Kuijc,True
+1503,Rens,Tuithof,True
+1504,Adriana,de Groot,False
+1505,Jayden,de Reede,True
+1506,Alex,van Parijs,True
+1507,David,Lijn,True
+1508,Merle,Perkins,True
+1509,Fenna,Wright,True
+1510,Ceylin,Ramaker,False
+1511,Emily,Courtier,False
+1512,Esmée,Lutterveld,True
+1513,Simon,Borman,True
+1514,Iris,Cammel,True
+1515,Amber,van Eck,False
+1516,Ayden,van Oostendorp,False
+1517,Lynn,Meeres,False
+1518,Joëlle,van den Corput,True
+1519,Maya,Lind,False
+1520,Lynn,Aarden,True
+1521,Ilse,van Hulten,True
+1522,Floortje,Linschoten,False
+1523,Jens,van der Horst,False
+1524,Kyara,Bouthoorn,False
+1525,Sander,Bos,False
+1526,Elena,de Vries,False
+1527,Sten,de Jode Vastraedsd,False
+1528,Ben,Roodesteijn,False
+1529,Jake,Konings,False
+1530,Jurre,Bud,True
+1531,Phileine,Bos,True
+1532,Adriana,Cornelisz,False
+1533,Sarah,van Rijthoven,True
+1534,Amélie,Mathol,False
+1535,Luke,van Rossum,True
+1536,Amin,le Floch,False
+1537,Eliza,Willems,True
+1538,Wouter,van de Berg,True
+1539,Jasper,Kuijpers,False
+1540,Daniel,van Engeland,False
+1541,Yasmin,Blees,False
+1542,Tijn,Dekker,False
+1543,Elif,Westerbeek,False
+1544,Morris,Cosman,True
+1545,Rafael,Chotzen,False
+1546,Mette,Heijmans,False
+1547,Quinn,van Soest,False
+1548,Karlijn,Zuidweg,False
+1549,Linde,Kosten,True
+1550,Tygo,Mol,False
+1551,Arie,Paillet,True
+1552,Evy,Belpere,True
+1553,Joy,van de Darnau,False
+1554,Lina,van Ham,False
+1555,Elisa,Ligtvoet,True
+1556,Raf,Hoeks,True
+1557,Maud,Gellemeyer,False
+1558,Marinus,Glasses,True
+1559,Maxim,Bresé,True
+1560,Nynke,Moenen,False
+1561,Cornelia,van den Corput,True
+1562,Julius,van Santen,True
+1563,Oscar,van Salm,False
+1564,Jill,van Voorst,False
+1565,Jesse,Groen,True
+1566,Tijn,Glasses,True
+1567,Nynke,de Wit,True
+1568,Berat,van de Berg,True
+1569,Dirk,Cornelissen,False
+1570,Ise,Terry,False
+1571,Kayleigh,Oude Heer,False
+1572,Finn,Lommert,False
+1573,Anouk,Coenen,False
+1574,Giovanni,Hanegraaff,True
+1575,Nienke,de Vroege,True
+1576,Mirthe,Rehorst,True
+1577,Quinten,Frankhuizen,False
+1578,Jurre,Marchand,True
+1579,Ivy,van Suinvorde,True
+1580,Jolijn,van de Coterlet,True
+1581,Jayson,Lambers,True
+1582,Annemijn,Kolen,True
+1583,Jade,Reijers,True
+1584,Siem,Hexspoor,True
+1585,Abel,Tirie,False
+1586,Chloë,Paillet,False
+1587,Leah,Janssen,True
+1588,Oscar,Huls,False
+1589,Juul,Schuurmans,False
+1590,Job,Garret,False
+1591,Julius,Cornelisz,True
+1592,Sienna,Jurrijens,False
+1593,Jasmijn,Scherms,False
+1594,Jorn,de Haan,False
+1595,Sil,Coolen,False
+1596,Amélie,van der Laar,True
+1597,Jacob,Kuijpers,False
+1598,Jesse,Scheffers,True
+1599,Stan,van Luin,True
+1600,Lieve,Room,False
+1601,Jorn,Woutersz,False
+1602,Mads,Risma,False
+1603,Ayoub,van der Strigt,True
+1604,Mustafa,van Soest,False
+1605,Mats,Schagen,True
+1606,Rik,van der Spaendonc,True
+1607,Laura,Martens,False
+1608,Isabel,van der Heijden,False
+1609,Elias,van der Laarse,True
+1610,Mads,van Buuren,True
+1611,Sofia,van der Schuijt,False
+1612,Lieve,Thatcher,False
+1613,Stijn,van der Linden,False
+1614,Elise,Hendricks,False
+1615,Maurits,de Keijzer,True
+1616,Youssef,Westerburg,True
+1617,Mette,Poncelet,False
+1618,Lise,van der Laarse,False
+1619,Kate,Dachgelder,True
+1620,Stan,Pastoors,False
+1621,Olivia,Adriaense,False
+1622,Nisa,van Ommeren,True
+1623,Dion,Vos,True
+1624,Laurens,Hoedemakers,False
+1625,Stef,Rouwhorst,False
+1626,Elise,Boudewijns,True
+1627,Quinn,Geerling,False
+1628,Azra,Takkelenburg,False
+1629,Wessel,Le Marec,True
+1630,Duuk,Verwoert,True
+1631,Jan,Suijker,True
+1632,Hendrik,van den Berg,False
+1633,Maryam,de Bruijn,True
+1634,Tijs,van Beek,True
+1635,Yassin,van Alenburg,True
+1636,Lorenzo,van Wel,False
+1637,Stef,van Suinvorde,True
+1638,Duuk,Jansen,False
+1639,Rafael,Amalrada,False
+1640,Amy,Bruggeman,False
+1641,Sophia,van den Henst,False
+1642,Ties,Krabbe,True
+1643,Maarten,Salet,False
+1644,Olivia,Vos,True
+1645,Myrthe,Lambregt,True
+1646,Norah,Kok,False
+1647,Daniël,Huisman,True
+1648,Ayoub,van Boven,True
+1649,Isabella,Elberts,True
+1650,Ali,Strijker,False
+1651,Lena,Heere,False
+1652,Pien,Scheffers,True
+1653,Floor,Brisee,False
+1654,Daan,Huls,False
+1655,Yassin,Muller,True
+1656,Maya,Kathagen,True
+1657,Annabel,van der Noot,False
+1658,Milan,Schiffer,False
+1659,Selina,Vertooren,False
+1660,Bart,van Wessex,False
+1661,Cas,Blees,True
+1662,Michelle,Sas,False
+1663,Madelief,Wilson,False
+1664,Féline,Woudenberg,False
+1665,Brian,'s Gravensande,False
+1666,Norah,Feenstra,False
+1667,Jade,Jones,True
+1668,Kyara,van Munster,False
+1669,Brent,Weylant,False
+1670,Mads,Lieshout,True
+1671,Vincent,le Briel,True
+1672,Sylvie,Peterse,False
+1673,Marit,van Vliet,False
+1674,Ella,Verschut,False
+1675,Hanna,van Bergen,False
+1676,Yassin,de Graaf,False
+1677,Juliette,Bresé,False
+1678,Mason,Ouwel,False
+1679,Faye,Timmermans,False
+1680,Aaron,van Beeck,False
+1681,Sterre,Bosch,False
+1682,Cornelis,Flink,True
+1683,Felix,Aarden,True
+1684,Indy,van Poppel,False
+1685,Sanne,Mulders,True
+1686,Loïs,Coret-Coredo,True
+1687,Mark,Driessen,False
+1688,Vince,Lonen,True
+1689,Pippa,Westermann,False
+1690,Lieke,van 't Riet,False
+1691,Kyara,de Boer,False
+1692,Marinus,Bertho,True
+1693,Emma,van Este,True
+1694,Amélie,Stook,True
+1695,Fatima,Bronder,False
+1696,Lotte,Spanhaak,True
+1697,Joy,Niermann,False
+1698,Ryan,Roessink,False
+1699,Kyan,Heerschop,False
+1700,Annemijn,Willems,True
+1701,Hendrik,Aeije,False
+1702,Leon,Nijman,False
+1703,Fiene,Arnold,False
+1704,Kay,Rippey,False
+1705,Berat,van Rossum,False
+1706,Selina,Pasman,True
+1707,Nora,Mathol,False
+1708,Sjoerd,Nieuwstraten,False
+1709,Quinty,Brandt,True
+1710,Jente,Hoes,True
+1711,Wouter,Hehl,True
+1712,Ayoub,Hulskes,False
+1713,Alex,Koret,False
+1714,Felix,Jans,False
+1715,Jesper,Serra,True
+1716,Ibrahim,Oostveen,True
+1717,Kay,Lijn,True
+1718,Jinthe,Peronne,False
+1719,Lisanne,Courtier,True
+1720,Pleun,Schrik,False
+1721,Mustafa,van Saksen,True
+1722,Emir,Hexspoor,False
+1723,Daniël,Gerritse,True
+1724,Imke,Uphus,True
+1725,Robin,de Smit,True
+1726,Lizz,van Rijthoven,True
+1727,Adam,Robbrechts Bruijne,True
+1728,Kevin,Lijn,False
+1729,Victoria,Verhagen,True
+1730,Nynke,Rijn,False
+1731,Pieter,den Teuling,True
+1732,Kevin,Booden,True
+1733,Fabian,Rek,False
+1734,Nadia,Bouthoorn,True
+1735,Azra,de Bruijn,False
+1736,Benthe,van Tuijl,True
+1737,Bo,Luitgardis van Neustrië,False
+1738,Rafael,Heijmans,False
+1739,Berat,Kunen,True
+1740,Ise,van Haspengouw,False
+1741,Nynke,Mol,False
+1742,Jolijn,Sire,True
+1743,Sam,van der Smeede,False
+1744,Rayan,Hendrikse,True
+1745,Pippa,van der Meer,True
+1746,Angelina,van den Oever,False
+1747,Matthias,Schakelaar,True
+1748,Tycho,Klomp Jan,True
+1749,Evi,den Teuling,True
+1750,Yassin,Heinrichs,False
+1751,Tygo,van Engelen,True
+1752,Jayson,Groenendaal,False
+1753,Fleur,Steinmeiern,True
+1754,Stella,Wolfsdr,False
+1755,Maaike,Stichter,False
+1756,Olivier,de Bruin,True
+1757,Kayleigh,Bouhuizen,True
+1758,Jenna,Korsman,True
+1759,Hugo,van der Maath,True
+1760,Lise,Peeters,False
+1761,Isis,Smit,False
+1762,Nynke,Pratt,False
+1763,Sam,Woudenberg,True
+1764,Merle,Aalts,False
+1765,Anouk,Koning,True
+1766,Pleun,van de Plas,False
+1767,Niek,Hoekstra,True
+1768,Quinten,Bijlsma,True
+1769,Aron,Stuivenberg,False
+1770,Johanna,van Goerle,False
+1771,Mirte,Mol,True
+1772,Meike,Werdes,False
+1773,Kyano,Kleibrink,True
+1774,Tyler,van Geenen,False
+1775,Eline,Korstman,True
+1776,Benjamin,Huberts,False
+1777,Tijn,van Wickerode,False
+1778,Noa,Aalts,True
+1779,Bastiaan,ter Waarbeek,False
+1780,Bibi,de Gruson,False
+1781,Eline,van den Berg,False
+1782,Niek,Françoise,False
+1783,Linn,van der Heijden,True
+1784,Sepp,van Ginneke,True
+1785,Ilse,'s Gravensande,False
+1786,Joëlle,van Duyvenvoorde,False
+1787,Brent,van Jumiège,True
+1788,Jesse,Rackham,True
+1789,Rayan,Momberg,False
+1790,Puk,van den Brink,False
+1791,Sander,de Gruijl,True
+1792,Zara,Wijland,False
+1793,Morris,Marchand,False
+1794,Luc,van Hulten,False
+1795,Siem,Courtier,True
+1796,Sem,Scuylenborchs,True
+1797,Mick,Martens,True
+1798,Jasmijn,de Beer,True
+1799,Mare,Unruoch Hunerik,True
+1800,Esmée,van Landen,False
+1801,Jules,Lonen,True
+1802,Ian,van Verdun,False
+1803,Tom,Hoeks,False
+1804,Amber,van Dongen,True
+1805,Luca,Schakelaar,False
+1806,Elisabeth,van Bentheim,True
+1807,Jelle,van der Zijl,True
+1808,Sam,Risma,False
+1809,Lex,Neuteboom,False
+1810,Luuk,van de Wiel,False
+1811,Senna,Potters,False
+1812,Marijn,Lieshout,True
+1813,Kevin,de Gruil,True
+1814,Senna,Kerkhof,False
+1815,Kai,Smits,True
+1816,Nynke,de Mol,True
+1817,Johannes,Brands,True
+1818,Silke,van der Horst,False
+1819,Hendrik,Fortuyn,False
+1820,Azra,van Suinvorde,False
+1821,Floris,van der Maes,True
+1822,Faas,van Ooyen,False
+1823,Noud,Schroeff,False
+1824,Emily,Kleibrink,True
+1825,Lot,de Vos,True
+1826,Bjorn,Booden,True
+1827,Jim,le Luc,True
+1828,Liv,Wilcken,True
+1829,Youssef,Lensen,True
+1830,Ravi,Werdes,False
+1831,Aimée,Walter,False
+1832,Keano,Bellemans,True
+1833,Noah,Lucas,False
+1834,Maud,Schagen,False
+1835,Lieve,Rietveld,False
+1836,Wouter,Sestig,False
+1837,Jesse,Emmen,True
+1838,Sara,The Elder,True
+1839,Damian,Hendricks,True
+1840,Bo,Wolters,False
+1841,Simon,Buijs,True
+1842,Iris,Coenen,True
+1843,Julie,Thatcher,False
+1844,Olivia,van Rijnsbergen,True
+1845,Jari,Elbertse,True
+1846,Jorn,Dekker,True
+1847,Lois,van der Velden,True
+1848,Liv,Huel,True
+1849,Adam,Verschut,True
+1850,Jelle,Lonen,True
+1851,Luka,Brizee,True
+1852,Anouk,Lucas,False
+1853,Nora,Stoffelsz,True
+1854,Raf,Rouwhorst,False
+1855,Ivy,Wolffel,True
+1856,Bo,Adryaens,True
+1857,Elisabeth,van Luinenburg,True
+1858,Max,Jacobs,False
+1859,Myrthe,Lathrope,True
+1860,Lisa,Hendrikse,True
+1861,Evy,de Swart,True
+1862,Samuel,Heyne,False
+1863,James,Vos,True
+1864,Lucy,Lamore,True
+1865,Kyra,Jorrisen,True
+1866,Suze,van Velthoven,False
+1867,Lieve,Fredriks,False
+1868,Maarten,Veenendaal,False
+1869,Maya,Adriaensdr,True
+1870,Evelien,Zuijdveld,True
+1871,Sep,Vallenduuk,True
+1872,Vince,Bouwhuisen,True
+1873,Seth,Pieters,True
+1874,Matthijs,Heijmans,True
+1875,Jolijn,Heymans,True
+1876,Ise,van der Spaendonck,False
+1877,Luc,van Baalen,True
+1878,Damian,Stange,False
+1879,Mark,Molenaar,False
+1880,Mohamed,Loreal,True
+1881,Tijmen,Berends,False
+1882,Elize,Hoelen,False
+1883,Ties,van Verdun,False
+1884,Frederique,van den Pol,False
+1885,Hidde,Room,False
+1886,Marijn,Verbruggen,True
+1887,Linde,Wolffel,True
+1888,Nathan,van Ginneke,False
+1889,Daan,Gellemeyer,False
+1890,Boris,van Beaumont,False
+1891,Wesley,Haselaar,False
+1892,Elize,Meis,True
+1893,Hugo,van Baalen,False
+1894,Eliza,Levesque,True
+1895,Floor,van de Darnau,False
+1896,Benthe,Kuijpers,False
+1897,Naomi,van der Zijl,False
+1898,Zakaria,van Praagh,False
+1899,Isabella,Welf,False
+1900,Angelina,Rotteveel,False
+1901,Azra,Kunen,False
+1902,Mirthe,van Hamaland,False
+1903,Simon,Room,True
+1904,Victoria,Verbeeck,False
+1905,Levi,Hekker,False
+1906,Emir,Slagmolen,True
+1907,Chloé,Mol,True
+1908,Ivy,Prinsen,True
+1909,Joshua,van Bovenen,True
+1910,Senn,Schelvis,False
+1911,Madelief,van Bergen,True
+1912,Maria,van Salm,False
+1913,Adriana,van Voorhout,False
+1914,Fleur,Speijer,True
+1915,Gijs,Vegt,True
+1916,Sam,Strik,False
+1917,Fleur,van der Hoeven,False
+1918,Jayden,Welf,False
+1919,Joshua,Marchal,True
+1920,Jake,Kuiper,True
+1921,Puck,van de Velden,False
+1922,Sam,Schuurmans,False
+1923,Amir,van Voorst,True
+1924,Hendrik,Lucas,False
+1925,Gerrit,Verschut,True
+1926,Livia,Jansse,False
+1927,Mads,van Duivenvoorde,True
+1928,Frederique,van der Mast,False
+1929,Matthias,Muller,False
+1930,Ize,Hendricks,False
+1931,Willem,Jeggij,False
+1932,Vajèn,de Werd,False
+1933,Bryan,Schwartsbach,True
+1934,Ilse,Meis,True
+1935,Kyara,Courtier,False
+1936,Isis,Overdijk,False
+1937,Duuk,Lensen,True
+1938,Loïs,Schokman,False
+1939,Dion,Luboch,True
+1940,Hailey,Lelijveld,True
+1941,Linde,van der Ploeg,True
+1942,Jente,Freshour,True
+1943,Lauren,Symons,False
+1944,Matthijs,Schroeff,True
+1945,Mehmet,Kleijse,True
+1946,Sofia,van Limburg,False
+1947,Seth,Lathrope,False
+1948,Evie,Ouwerkerk,False
+1949,Nynke,van Limburg,True
+1950,Ize,de Vries,True
+1951,Aaliyah,van de Darnau,False
+1952,Giovanni,Pieters van der Maes,False
+1953,Kevin,Gellemeyer,True
+1954,Fabiënne,Hoeks,True
+1955,Sebastiaan,Uphaus,False
+1956,Rick,Rotteveel,False
+1957,Sienna,Maas,True
+1958,Jaylinn,Huijzing,False
+1959,Maryam,Rietveld,False
+1960,Raf,van der Kint,True
+1961,Noortje,Westerburg,False
+1962,Bram,Timmerman,False
+1963,Tara,van 't Erve,False
+1964,Suze,Geerts,False
+1965,Maryam,Olykan,False
+1966,Lana,van der Noot,False
+1967,Stef,Elberts,False
+1968,Tom,Overdijk,True
+1969,Sienna,de Jonge,False
+1970,Mirte,van Rheineck,True
+1971,Elena,Brouwer,True
+1972,Aya,Höning,False
+1973,Guus,Kolen,True
+1974,Wout,van Ooyen,False
+1975,Puk,van Laon,True
+1976,Helena,Mulder,False
+1977,Wessel,van der Kint,False
+1978,Jip,Koster,True
+1979,Olivia,Meeres,False
+1980,Jip,Slingerland,True
+1981,Karlijn,Louws,True
+1982,Pleun,de Jonge,False
+1983,Joey,"Bourgondië, van",False
+1984,Kate,Schenk,False
+1985,Juliette,Meyer,False
+1986,Elize,van der Klijn,True
+1987,Joris,Wever,False
+1988,Dana,de Ruiter,False
+1989,Max,Boddaugh,True
+1990,Mart,den Buytelaar,False
+1991,Joey,Brouwer,False
+1992,Nick,van Velthoven,True
+1993,Zara,de Groot,True
+1994,Inaya,Genefaas,True
+1995,Lauren,Aarden,False
+1996,Isa,van Grondelle,True
+1997,Sophie,Neuzerling,False
+1998,Jules,Schenk,True
+1999,Tijn,de Jode Vastraedsd,False
+2000,Mats,de Roo,False

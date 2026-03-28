@@ -13,6 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Challenge01/IndividueelProject_1b/02 Design/OK-Planning Kosten - Ster Model.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "OK-Planning Kosten - Ster Model"
+            }
+          },
+          {
+            "id": "a0f2e87d4aa45aef",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Weekkaarten/2026-W13.md",
                 "mode": "source",
                 "source": true
@@ -63,7 +77,8 @@
               "title": "OK-Planning Kosten - Definitief Business Analysis Document"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -227,12 +242,21 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "d7215f7bb383ad0a",
+  "active": "8d9ad0ceefdc3db8",
   "lastOpenFiles": [
-    "Challenge01/IndividueelProject_1b/01 Analyse/OK-Planning Kosten - Definitief Business Analysis Document.md",
-    "Weekkaarten/2026-W13.md",
+    "Challenge01/IndividueelProject_1b/03 Realisation/MockData/script/data_output/Feit_Planning.csv",
+    "Challenge01/IndividueelProject_1b/03 Realisation/MockData/script/data_output/Dim_Belpoging.csv",
+    "Challenge01/IndividueelProject_1b/03 Realisation/MockData/script/data_output/Dim_Datum.csv",
+    "Challenge01/IndividueelProject_1b/03 Realisation/MockData/script/data_output/Dim_Medewerker.csv",
+    "Challenge01/IndividueelProject_1b/03 Realisation/MockData/script/data_output/Dim_Patient.csv",
     "Challenge01/IndividueelProject_1b/01 Analyse/OK-Planning Kosten - Analyse.md",
     "Challenge01/IndividueelProject_1b/02 Design/OK-Planning Kosten - Ster Model.md",
+    "Weekkaarten/2026-W13.md",
+    "Challenge01/IndividueelProject_1b/01 Analyse/OK-Planning Kosten - Definitief Business Analysis Document.md",
+    "Challenge01/IndividueelProject_1b/03 Realisation/MockData/script/data_output/Patient.csv",
+    "Challenge01/IndividueelProject_1a/03 Realisation/MockData/script/__pycache__/logic.cpython-314.pyc.140233493869152",
+    "Challenge01/IndividueelProject_1b/03 Realisation/MockData/script/__pycache__/models.cpython-314.pyc.140495887431120",
+    "Challenge01/IndividueelProject_1b/01 Analyse/Invalshoek.md",
     "Challenge01/IndividueelProject_1b/02 Design/Wireframe Dashboard.md",
     "Challenge01/IndividueelProject_1a/01 Analyse/ERD - Conceptueel - OK-Planning.md",
     "Challenge01/IndividueelProject_1a/02 Design/ERD - Crow's Feet - OK-Planning.md",
@@ -245,15 +269,7 @@
     "Challenge01/IndividueelProject_1b/02 Design/OK-Planning - Design.md",
     "Challenge01/IndividueelProject_1b/02 Design/OK-Planning - Design.pdf",
     "Challenge01/IndividueelProject_1b/02 Design/BacklogRefinement_werk.PNG",
-    "Challenge01/IndividueelProject_1b/02 Design/ERD - Crow's Feet - OK-Planning.pdf",
-    "Challenge01/IndividueelProject_1b/01 Analyse/OK-Planning Kosten.pdf",
-    "Challenge01/IndividueelProject_1b/01 Analyse/Invalshoek.md",
-    "Challenge01/IndividueelProject_1b/01 Analyse/ERD - Conceptueel - OK-Planning.pdf",
     "Challenge01/IndividueelProject_1b/01 Analyse/ERD - Conceptueel - OK-Planning.md",
-    "Challenge01/IndividueelProject_1b/01 Analyse/OK-Planning Kosten - Analyse.pdf",
-    "Challenge01/IndividueelProject_1b/01 Analyse/OK-Planning-FinMan.bpmn",
-    "Challenge01/IndividueelProject_1b/01 Analyse/OK-Planning-kosten.pdf",
-    "Challenge01/IndividueelProject_1b/01 Analyse/OR_Planning003.pdf",
     "Challenge01/IndividueelProject_1a/01 Analyse/OK-Planning - Analyse.md",
     "Afbeeldingen/Vermelding Bronnen AI.png",
     "Afbeeldingen/voorbeeld methode expert interview.png",

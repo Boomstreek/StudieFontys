@@ -4,206 +4,101 @@ from datetime import datetime, timedelta
 
 fake = Faker('nl_NL')
 
-class Patient:
+class Dim_Patient:
     @staticmethod
     def generate(id, row=None):
         return {
-            "patientId": id,
+            "patient_id": id,
             "voornaam": fake.first_name(),
             "achternaam": fake.last_name(),
-            "stad": fake.city(),
-            "provincie": fake.province(),
-            "postcode": fake.postcode(),
-            "straat": fake.street_name(),
-            "huisnummer": random.randint(1, 500),
-            "gender": random.choice(['Male', 'Female', 'Non-binary']),
-            "telefoonnummer": fake.phone_number(),
-            "email": fake.email(),
-            "toestemmingDigitaalPatientDossier": random.choice([True, False])
+            "toestemming_portaal": random.choice([True, False])
         }
 
-class Operatie: 
-    @staticmethod
-    def _get_random_herplanningen():
-        """Hulpfunctie voor de parabolische verdeling van herplanningen."""
-        waarden = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
-        gewichten = [20, 30, 40, 25, 15, 10, 5, 3, 2, 1]
-        return random.choices(waarden, weights=gewichten, k=1)[0]
-
-    @staticmethod
-    def generate(id, patientId):
-        return {
-            "operatieId": id,
-            "patientId": random.choice(patientId),
-            "typeOperatie": random.choice(['Knie', 'Heup', 'Hart', 'Oog', 'Steralisatie', 'Hersenen', 'Nieren']),
-            "status": random.choice(['Gepland', 'Voltooid']),
-            "deadline": (datetime.now() + timedelta(days=random.randint(30, 365))).date().isoformat(),
-            "statusScreening": random.choice([True, False]),
-            "annuleringsDatum": None,
-            "annuleringsReden": None,
-            "aantalHerplanningen": Operatie._get_random_herplanningen()
-        }
-    
-class Functie:
-    mogelijkeFuncties = ['Screener' , 'Chirurg', 'OK-planner']
-
-    @staticmethod
-    def generate (id):
-        return {
-            "functieId": id,
-            "functieNaam": Functie.mogelijkeFuncties[id - 1]
-        }
-
-class Medewerker:
-    @staticmethod
-    def generate (id, functieId):
-        return {
-            "medewerkerId": id,
-            "functieId": random.choice(functieId),
-            "voornaam": fake.first_name(),
-            "achternaam": fake.last_name(),
-            "email": fake.email(),
-            "telefoonnummer": "06" + "".join([str(random.randint(0, 9)) for _ in range(8)])
-        }
-
-class Tevredenheid:
-    @staticmethod
-    def generate (id, medewerkerId, patientId):
-        if random.choice(['medewerker' , 'patient']) == 'medewerker':
-            medewerkerId = random.choice(medewerkerId)
-            patientId = None
-        else:
-            medewerkerId = None
-            patientId = random.choice(patientId)
-
-        return {
-            "tevredenheidId": id,
-            "medewerkerId": medewerkerId,
-            "patientId": patientId,
-            "datum": (datetime.now() - timedelta(days=random.randint(0, 365))).date().isoformat(),
-            "opmerking": fake.paragraph(nb_sentences=2),
-            "tevredenheidsScore": random.randint(1, 10)
-        }
-
-class Rooster:
-    @staticmethod
-    def generate (id, medewerkerId):
-        uren = list(range(0, 24))
-        gewichten = [
-            # hieronder leer ik python chaining. Wat vroeger van de whiskunde docent nooit mocht ;D
-            3 if 8 <= uur <= 17 else 1
-            for uur in uren
-        ]
-        startUur = random.choices(population=uren, weights=gewichten, k=1)[0]
-        startMinuut = random.choice([0, 15, 30, 45])
-        duurDienstUren = random.randint(4,8)
-
-        startTijd = datetime.strptime(f"{startUur}:{startMinuut:02d}", "%H:%M")
-        eindTijd = startTijd + timedelta(hours=duurDienstUren)
-
-        return {
-            "roosterId": id,
-            "medewerkerId": random.choice(medewerkerId),
-            "datum": (datetime.now() + timedelta(days=random.randint(0, 365))).date().isoformat(),
-            "startTijd": startTijd,
-            "eindTijd": eindTijd
-        }
-
-class Operatie_Kamer:
-    @staticmethod
-    def generate (id):
-        
-        return {
-            "operatieKamerId": id,
-            "naam": fake.first_name()
-        }
-
-class OkRooster:
-    @staticmethod
-    def _generate_times():
-        """Genereert realistische tijden voor operaties."""
-        start_date = datetime.now() + timedelta(days=random.randint(1, 30))
-        
-        start_uur = random.randint(7, 17)
-        start_minuut = random.choice([0, 15, 30, 45])
-        
-        geplande_start = start_date.replace(
-            hour=start_uur,
-            minute=start_minuut,
-            second=0,
-            microsecond=0
-        )
-        
-        duur = timedelta(hours=random.randint(1, 4))
-        geplande_eind = geplande_start + duur
-        
-        afwijking = timedelta(minutes=random.randint(-30, 60))
-        werkelijke_start = geplande_start + timedelta(minutes=random.randint(-15, 15))
-        werkelijke_eind = geplande_eind + afwijking
-        
-        return geplande_start, geplande_eind, werkelijke_start, werkelijke_eind
-    
-    @staticmethod
-    def generate(id, operatieKamerId):
-        g_start, g_eind, w_start, w_eind = OkRooster._generate_times()
-
-        return {
-            "okRoosterId": id,
-            "operatieKamerId": random.choice(operatieKamerId),
-            "geplandeStartTijd": g_start.isoformat(),
-            "geplandeEindTijd": g_eind.isoformat(),
-            "werkelijkeStartTijd": w_start.isoformat(),
-            "werkelijkeEindTijd": w_eind.isoformat(),
-        }
-    
-class Koppel_Uitvoering:
-    @staticmethod
-    def generate (operatieId, medewerkerId, okRoosterId):
-        
-
-        return {
-            "operatieId": operatieId,
-            "medewerkerId": random.choice(medewerkerId),
-            "okRoosterId": random.choice(okRoosterId),
-            "gespreksduurTotaalMinuten": random.randint(2,10),
-            "aantalTelefonischeDatumVoorstellen": random.randint(1, 5),
-            "retourStroom48u": random.choice([True, False, False]),
-            "aantalMinutenBezigMetPlanning": random.randint(10, 120),
-            "aantalBelpogingen": random.randint(1, 4),
-            "opmerking": fake.sentence() if random.random() < 0.5 else None
-        }
-    
-class Afdeling:
-    mogelijkeAfdelingen = ['Cardiologie', 'Neurologie', 'Orthopedie', 'Oogheelkunde', 'Urologie', 'Gynaecologie']
-
+class Dim_Medewerker:
     @staticmethod
     def generate(id):
+        uurtarief = round(random.uniform(30, 50), 2)
         return {
-            "afdelingId": id,
-            "afdelingsnaam": Afdeling.mogelijkeAfdelingen[id - 1],
-            "aantalKamers": random.randint(5, 20)
+            "medewerker_id": id,
+            "voornaam": fake.first_name(),
+            "achternaam": fake.last_name(),
+            "functie": 'OK-Planner',
+            "uurtarief": uurtarief,
+            "overhead": round(uurtarief * random.uniform(0.45, 0.55), 2)
         }
 
-class Kamer:
+class Dim_Datum:
     @staticmethod
-    def generate(id, afdelingId):
+    def generate(id, datum):
         return {
-            "kamerId": id,
-            "afdelingId": random.choice(afdelingId),
-            "aantalBedden": random.randint(1, 4),
-            "kamerNummer": id
+            "datum_id": id,
+            "dag": datum.day,
+            "week": datum.isocalendar().week,
+            "maand": datum.month,
+            "kwartaal": (datum.month - 1) // 3 + 1,
+            "jaar": datum.year
         }
 
-class Opnamen:
+class Dim_Belpoging:
     @staticmethod
-    def generate(id, patientId, kamerId):
-        startDatum = datetime.now() - timedelta(days=random.randint(0, 365))
-        eindDatum = startDatum + timedelta(days=random.randint(1, 14))
+    def generate(id, toestemming_portaal):
+        if toestemming_portaal:
+            return {
+                "belpoging_id": id,
+                "aantal_belpogingen" : 0,
+                "duur_belpogingen_seconden": 0
+            }
+        
+        # Parabolisch afnemende kans op aantal belpogingen
+        waarden  = [1,  2,  3,  4,  5,  6,  7, 8, 9, 10]
+        gewichten = [50, 25, 12,  6,  3,  2,  1, 1, 1,  1]
+        aantal = random.choices(waarden, weights=gewichten, k=1)[0]
+
+        # Duur per belpoging: mediaan tussen 2-4 min, max 15 min
+        # Gebruik driehoeksverdeling: min=60s, mode=180s, max=900s
+        duur_totaal = sum(
+            int(random.triangular(60, 900, 180))
+            for _ in range(aantal)
+        )
 
         return {
-            "opnamenId": id,
-            "patientId": random.choice(patientId),
-            "kamerId": random.choice(kamerId),
-            "startDatum": startDatum.date().isoformat(),
-            "eindDatum": eindDatum.date().isoformat()
+            "belpoging_id": id,
+            "aantal_belpogingen": aantal,
+            "duur_belpogingen_seconden": duur_totaal
+        }
+
+class Feit_Planning:
+    @staticmethod
+    def generate(id, patient_id, medewerker_id, datum_id, duur_belpogingen_seconden, toestemming_portaal):
+        # Duur planning: belpogingen + extra gesprekstijd (5-30 min, mediaan 8-12 min)
+        extra_seconden = int(random.triangular(300, 1800, 600))  # 5-30 min, mode=10 min
+        duur_planning_seconden = duur_belpogingen_seconden + extra_seconden
+
+        # Planning start: willekeurig op een werkdag tussen 08:00 en 17:00
+        planning_start = datetime(2024, 1, 1) + timedelta(
+            days=random.randint(0, 365),
+            hours=random.randint(8, 16),
+            minutes=random.choice([0, 15, 30, 45])
+        )
+        planning_eind = planning_start + timedelta(seconds=duur_planning_seconden)
+
+        # Bevestiging
+        if not toestemming_portaal:
+            # Telefonisch: bevestiging op het moment dat het gesprek klaar is
+            datetime_bevestiging = planning_eind
+        else:
+            # Digitaal: lineair 0-2 dagen, piek net voor 2 dagen (de meesten reageren niet)
+            # Driehoeksverdeling: min=0, max=2 dagen, mode=1.9 dagen
+            uren_later = random.triangular(0, 48, 45)  # in uren, mode ~45 uur
+            datetime_bevestiging = planning_start + timedelta(hours=uren_later)
+
+        return {
+            "feit_id": id,
+            "patient_id": patient_id,
+            "medewerker_id": medewerker_id,
+            "datum_id": datum_id,
+            "duur_planning_seconden": duur_planning_seconden,
+            "datetime_planning_start": planning_start.isoformat(),
+            "datetime_planning_eind": planning_eind.isoformat(),
+            "datetime_bevestiging": datetime_bevestiging.isoformat()
         }
