@@ -1,7 +1,7 @@
 ## Metadata
 **Author: ** Bram Wieringa
-**Date: ** 27-03-2026
-**Version: ** 1.2
+**Date: ** 28-03-2026
+**Version: ** 1.3
 **Dependencies: ** 
 - OK-Planning - Analyse versie 1.5
 
@@ -49,7 +49,7 @@ Om de manager te overtuigen van de verbetering, moet het dashboard de volgende k
 |---|---|---|
 |**Cost per Booking (CPB)**|Totale loonkosten planners / aantal succesvolle planningen.|Maakt de directe besparing per patiënt inzichtelijk door minder handmatige handelingen.|
 |**Non-Value Added Time (NVAT)**|Percentage van de werktijd besteed aan mislukte belpogingen en voicemails.|Toont de "verborgen kosten" van inefficiëntie (loonbetaling zonder resultaat).|
-|**Digital Adoption Rate**|% van de patiënten dat de afspraak bevestigt via de digitale notificatie.|Bepaalt de ROI van de software; hoe hoger de rate, hoe lager de operationele kosten.|
+|**Digital Adoption Rate**|% van de patiënten dat digitaal bereikbaar is|Hoe meer mensen telefonisch benaderd hoeven te worden, des te efficiënter het proces verloopt.|
 
 ## 5. MoSCoW Analyse
 Voor de ontwikkeling van het Power BI Dashboard hanteren we de volgende prioriteiten, gebaseerd op de KPI’s uit hoofdstuk 4:

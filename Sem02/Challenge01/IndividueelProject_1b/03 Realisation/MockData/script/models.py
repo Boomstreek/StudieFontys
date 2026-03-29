@@ -32,6 +32,7 @@ class Dim_Datum:
     def generate(id, datum):
         return {
             "datum_id": id,
+            "datum": datum.strftime("%Y-%m-%d"),  # ← toevoegen
             "dag": datum.day,
             "week": datum.isocalendar().week,
             "maand": datum.month,
@@ -69,7 +70,7 @@ class Dim_Belpoging:
 
 class Feit_Planning:
     @staticmethod
-    def generate(id, patient_id, medewerker_id, datum_id, duur_belpogingen_seconden, toestemming_portaal):
+    def generate(id, patient_id, medewerker_id, datum_id, belpoging_id, duur_belpogingen_seconden, toestemming_portaal):
         # Duur planning: belpogingen + extra gesprekstijd (5-30 min, mediaan 8-12 min)
         extra_seconden = int(random.triangular(300, 1800, 600))  # 5-30 min, mode=10 min
         duur_planning_seconden = duur_belpogingen_seconden + extra_seconden
@@ -97,6 +98,7 @@ class Feit_Planning:
             "patient_id": patient_id,
             "medewerker_id": medewerker_id,
             "datum_id": datum_id,
+            "belpoging_id": belpoging_id,
             "duur_planning_seconden": duur_planning_seconden,
             "datetime_planning_start": planning_start.isoformat(),
             "datetime_planning_eind": planning_eind.isoformat(),

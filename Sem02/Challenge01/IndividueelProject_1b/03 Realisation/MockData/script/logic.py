@@ -25,17 +25,19 @@ def create_dataset(config):
     df_belpoging = pd.DataFrame(belpogingen)
 
     # Feit Planning
-    planning = [
-        Feit_Planning.generate(
+    planning = []
+    for i in range(1, config['n_planning'] + 1):
+        p = random.choice(patient)
+        b = belpogingen[p['patient_id'] - 1]  # belpoging van dezelfde patiënt
+        planning.append(Feit_Planning.generate(
             id=i,
-            patient_id=random.choice(patient)['patient_id'],
+            patient_id=p['patient_id'],
             medewerker_id=random.choice(df_medewerker['medewerker_id'].tolist()),
             datum_id=random.choice(df_datum['datum_id'].tolist()),
-            duur_belpogingen_seconden=random.choice(belpogingen)['duur_belpogingen_seconden'],
-            toestemming_portaal=random.choice(patient)['toestemming_portaal']
-    )
-    for i in range(1, config['n_planning'] + 1)
-]
+            belpoging_id=b['belpoging_id'],
+            duur_belpogingen_seconden=b['duur_belpogingen_seconden'],
+            toestemming_portaal=p['toestemming_portaal']
+        ))
     df_planning = pd.DataFrame(planning)
 
     return {
