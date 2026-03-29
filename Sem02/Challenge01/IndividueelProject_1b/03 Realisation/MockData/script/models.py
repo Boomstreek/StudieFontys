@@ -32,7 +32,7 @@ class Dim_Datum:
     def generate(id, datum):
         return {
             "datum_id": id,
-            "datum": datum.strftime("%Y-%m-%d"),  # ← toevoegen
+            "datum": datum.strftime("%Y-%m-%d"), 
             "dag": datum.day,
             "week": datum.isocalendar().week,
             "maand": datum.month,
