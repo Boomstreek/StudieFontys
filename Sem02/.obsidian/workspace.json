@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -228,8 +228,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "b24538b53b924800",
+  "active": "5035235918a86273",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2026-03-30 10.02.48.excalidraw.md",
+    "Untitled.md",
+    "Excalidraw",
+    "Challenge01/IndividueelProject_1b/01 Analyse/OK-Planning Kosten - Planning.md",
     "Challenge01/IndividueelProject_1b/03 Realisation/Dashboard code.pdf",
     "Challenge01/IndividueelProject_1b/03 Realisation/Dashboard code.md",
     "Weekkaarten/2026-W14.md",
@@ -238,7 +242,6 @@
     "Challenge01/IndividueelProject_1b/03 Realisation/MockData/script/data_output/Dim_Datum.csv",
     "Challenge01/IndividueelProject_1b/03 Realisation/MockData/script/data_output/Dim_Medewerker.csv",
     "Challenge01/IndividueelProject_1b/03 Realisation/MockData/script/data_output/Dim_Patient.csv",
-    "Challenge01/IndividueelProject_1b/01 Analyse/OK-Planning Kosten - Planning.md",
     "Challenge01/IndividueelProject_1a/01 Analyse/OK-Planning - Analyse.md",
     "Challenge01/IndividueelProject_1b/01 Analyse/Invalshoek.md",
     "Weekkaarten/2026-W13.md",
@@ -254,8 +257,6 @@
     "Challenge01/IndividueelProject_1b/03 Realisation/MockData/script/__pycache__/models.cpython-314.pyc.140495887431120",
     "Challenge01/IndividueelProject_1a/01 Analyse/ERD - Conceptueel - OK-Planning.md",
     "Challenge01/IndividueelProject_1a/02 Design/ERD - Crow's Feet - OK-Planning.md",
-    "Challenge01/IndividueelProject_1b/02 Design/OK-Planning Kosten - Ster Model.pdf",
-    "Challenge01/IndividueelProject_1b/01 Analyse/OK-Planning-FinMan.pdf",
     "Challenge01/IndividueelProject_1b/01 Analyse/OK-Planning Kosten - ERD Chen Notatie.md",
     "Challenge01/IndividueelProject_1b/02 Design/OK-Planning Kosten - Crows Feet Notatie.md",
     "Challenge01/IndividueelProject_1b/02 Design/OK-Planning - Design.md",
@@ -274,7 +275,6 @@
     "Challenge01/IndividueelProject_1b/03 Realisation/Knelpunt4.1.PNG",
     "Challenge01/IndividueelProject_1b/02 Design/Icons/home.png",
     "Challenge01/IndividueelProject_1b/02 Design/Icons/back.png",
-    "Challenge01/IndividueelProject_1b/05 Professional Standard/Professionele Communicatie - Procesregie.md",
-    "Challenge01/IndividueelProject_1b/01 Analyse/OK-Planning - Analyse.md"
+    "Challenge01/IndividueelProject_1b/05 Professional Standard/Professionele Communicatie - Procesregie.md"
   ]
 }
