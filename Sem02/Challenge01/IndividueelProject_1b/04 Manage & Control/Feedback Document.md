@@ -189,3 +189,23 @@ Wat vind Kelly als OK-planner van de verbetervoorstellen?
     - *je kan meer werk verzetten op een dag. Minder lang bezig met nazoeken, mensen achteraan bellen* 
 
 ---
+**27-03-2026 Myriam van Dijk over kpi's analyse hoofdstuk 4**
+Dag Bram,  
+Zoals vanavond besproken zijn deze 3 KPI's al prima, je kunt er nog een paar aanvullen uit H2: 'doorlooptijd OK-planning", of "%reductie van adminlasten", of "#herhaalpogingen".
+
+_Actie: voor nu nog niks. Eerst de eerste 3 verwerken en mooi maken_
+
+---
+
+**31-03-2026 Feedback Duayne en Emma op Dashboard **
+- Emma
+	- Benaming aanpassen voor iedereen te begrijpen
+	- Tips: Je kan visuals met je data aanpassen om te kijken wat het beste past  
+	- Duidelijk dashboard, overzichtelijk goed bezig! 
+- Duayne
+	- NVAT%  en benamingen zijn voor mensen die er geen verstand hebben denk ik niet duidelijk.
+---
+
+**31-03-2026 Feedback Thieu**
+- Gebruik Nederlandse termen, je gaat ze toch alleen maar vertalen als je in een Nederlandse omgeving werkt.
+---

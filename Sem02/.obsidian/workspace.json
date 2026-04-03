@@ -1,0 +1,208 @@
+{
+  "main": {
+    "id": "d68a1de010127c08",
+    "type": "split",
+    "children": [
+      {
+        "id": "1bcc84829bf703d7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bdc44705685c0754",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Challenge01/IndividueelProject_1b/04 Manage & Control/Feedback Document.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Feedback Document"
+            }
+          },
+          {
+            "id": "4f4289ef89f1c62c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Weekkaarten/2026-W14.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "2026-W14"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4e849c39d09be458",
+    "type": "split",
+    "children": [
+      {
+        "id": "4eb103b30c73879e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "79092576aa8678fe",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "b661e692eb5b3004",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "a249b52655487f6c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "d65f38fafc0eaf75",
+    "type": "split",
+    "children": [
+      {
+        "id": "28cb107ac13b8f1b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "aead8272ede571c8",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Challenge01/IndividueelProject_1b/04 Manage & Control/Feedback Document.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Feedback Document"
+            }
+          },
+          {
+            "id": "ea990ab6098b0053",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Challenge01/IndividueelProject_1b/04 Manage & Control/Feedback Document.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Feedback Document"
+            }
+          },
+          {
+            "id": "21cc042f3f857078",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "192e9b56246b96fd",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "13de80dee375fd56",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Challenge01/IndividueelProject_1b/04 Manage & Control/Feedback Document.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Feedback Document"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "templater-obsidian:Templater": false
+    }
+  },
+  "active": "bdc44705685c0754",
+  "lastOpenFiles": [
+    "Challenge01/IndividueelProject_1b/03 Realisation/dashboardv2.png",
+    "Weekkaarten/2026-W14.md",
+    "Challenge01/IndividueelProject_1b/04 Manage & Control/Feedback Document.md"
+  ]
+}
