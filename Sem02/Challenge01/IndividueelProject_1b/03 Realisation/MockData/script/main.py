@@ -23,6 +23,6 @@ datasets = create_dataset(config)
 for name, df in datasets.items():
     file_path = os.path.join(output_dir, f"{name}.{config['format']}")
     df.to_csv(file_path, index=False)
-    print(f"✅ Opgeslagen: {file_path}")
+    print(f"Opgeslagen: {file_path}")
 
 print("Klaar! Je dataset staat klaar.")

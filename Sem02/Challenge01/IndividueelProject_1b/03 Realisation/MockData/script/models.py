@@ -27,6 +27,16 @@ class Dim_Medewerker:
             "overhead": round(uurtarief * random.uniform(0.45, 0.55), 2)
         }
 
+class Dim_Tevredenheid:
+    @staticmethod
+    def generate(id, medewerker_id, patient_id):
+        return {
+            "tevredenheid_id": id,
+            "medewerker_id": medewerker_id,
+            "patient_id": patient_id,
+            "tevredenheid": random.randint(1, 10)
+        }
+
 class Dim_Datum:
     @staticmethod
     def generate(id, datum):
@@ -56,9 +66,9 @@ class Dim_Belpoging:
         aantal = random.choices(waarden, weights=gewichten, k=1)[0]
 
         # Duur per belpoging: mediaan tussen 2-4 min, max 15 min
-        # Gebruik driehoeksverdeling: min=60s, mode=180s, max=900s
+        # Gebruik driehoeksverdeling: min=30s, mode=120s, max=900s
         duur_totaal = sum(
-            int(random.triangular(60, 900, 180))
+            int(random.triangular(30, 900, 120))
             for _ in range(aantal)
         )
 
@@ -70,10 +80,11 @@ class Dim_Belpoging:
 
 class Feit_Planning:
     @staticmethod
-    def generate(id, patient_id, medewerker_id, datum_id, belpoging_id, duur_belpogingen_seconden, toestemming_portaal):
+    def generate(id, patient_id, medewerker_id, tevredenheid_id, datum_id, belpoging_id, duur_belpogingen_seconden, toestemming_portaal):
         # Duur planning: belpogingen + extra gesprekstijd (5-30 min, mediaan 8-12 min)
         extra_seconden = int(random.triangular(300, 1800, 600))  # 5-30 min, mode=10 min
         duur_planning_seconden = duur_belpogingen_seconden + extra_seconden
+        duur_planning_seconden = min(duur_planning_seconden, 46400) # Maximale kosten is euro 999 per planning, kreeg op en bepaald moment 2,33k euro aan kosten gem eruit. 
 
         # Planning start: willekeurig op een werkdag tussen 08:00 en 17:00
         planning_start = datetime(2024, 1, 1) + timedelta(
@@ -97,6 +108,7 @@ class Feit_Planning:
             "feit_id": id,
             "patient_id": patient_id,
             "medewerker_id": medewerker_id,
+            "tevredenheid_id": tevredenheid_id,
             "datum_id": datum_id,
             "belpoging_id": belpoging_id,
             "duur_planning_seconden": duur_planning_seconden,

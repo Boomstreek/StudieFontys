@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Challenge01/IndividueelProject_1b/04 Manage & Control/Feedback Document.md",
+                "file": "Challenge01/IndividueelProject_1b/01 Analyse/OK-Planning Kosten - Analyse.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Feedback Document"
+              "title": "OK-Planning Kosten - Analyse"
             }
           },
           {
@@ -201,8 +201,14 @@
   },
   "active": "bdc44705685c0754",
   "lastOpenFiles": [
+    "Challenge01/IndividueelProject_1b/03 Realisation/MockData/script/data_output/Feit_Planning.csv",
+    "Challenge01/IndividueelProject_1b/03 Realisation/MockData/script/data_output/Dim_Belpoging.csv",
+    "Challenge01/IndividueelProject_1b/03 Realisation/MockData/script/data_output/Dim_Datum.csv",
+    "Challenge01/IndividueelProject_1b/03 Realisation/MockData/script/data_output/Dim_Tevredenheid.csv",
+    "Challenge01/IndividueelProject_1b/03 Realisation/MockData/script/data_output/Dim_Medewerker.csv",
+    "Challenge01/IndividueelProject_1b/03 Realisation/MockData/script/data_output/Dim_Patient.csv",
+    "Challenge01/IndividueelProject_1b/04 Manage & Control/Feedback Document.md",
     "Challenge01/IndividueelProject_1b/03 Realisation/dashboardv2.png",
-    "Weekkaarten/2026-W14.md",
-    "Challenge01/IndividueelProject_1b/04 Manage & Control/Feedback Document.md"
+    "Weekkaarten/2026-W14.md"
   ]
 }
