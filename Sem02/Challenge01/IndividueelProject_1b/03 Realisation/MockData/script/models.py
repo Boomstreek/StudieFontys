@@ -17,14 +17,15 @@ class Dim_Patient:
 class Dim_Medewerker:
     @staticmethod
     def generate(id):
-        uurtarief = round(random.uniform(30, 50), 2)
+        uurtarief = random.randint(30, 50)
+        overhead = round(uurtarief * random.uniform(0.45, 0.55))
         return {
             "medewerker_id": id,
             "voornaam": fake.first_name(),
             "achternaam": fake.last_name(),
             "functie": 'OK-Planner',
             "uurtarief": uurtarief,
-            "overhead": round(uurtarief * random.uniform(0.45, 0.55), 2)
+            "overhead": overhead
         }
 
 class Dim_Tevredenheid:
