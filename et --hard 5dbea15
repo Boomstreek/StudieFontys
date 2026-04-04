@@ -1,0 +1,231 @@
+[33meab3953[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m HEAD@{0}: reset: moving to HEAD~3
+[33m4475688[m HEAD@{1}: reset: moving to HEAD~3
+[33m5dbea15[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m HEAD@{2}: commit: gwer
+[33m456a05c[m HEAD@{3}: commit: new ata
+[33madef2db[m HEAD@{4}: commit: new data
+[33m4475688[m HEAD@{5}: commit: nieuwe data
+[33m1272fc0[m HEAD@{6}: commit: dashboard optimalisatei
+[33m44aeb7f[m HEAD@{7}: rebase (finish): returning to refs/heads/main
+[33m44aeb7f[m HEAD@{8}: rebase (continue): klote workspace.json
+[33meab3953[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m HEAD@{9}: pull (start): checkout eab395317f25f449b7a9213ca28050a4d83e0ac5
+[33mfd465a5[m HEAD@{10}: commit: klote workspace.json
+[33m8398224[m HEAD@{11}: commit: gre
+[33m23969fd[m HEAD@{12}: commit: zodag werk
+[33m6f983df[m HEAD@{13}: commit: hlagwf
+[33ma588eea[m HEAD@{14}: commit: mockdata
+[33m798eb7b[m HEAD@{15}: commit: upload
+[33mc8fe85f[m HEAD@{16}: commit: tussentijds uypload
+[33mfe6bcae[m HEAD@{17}: commit: lesavond
+[33mcdafded[m HEAD@{18}: rebase (finish): returning to refs/heads/main
+[33mcdafded[m HEAD@{19}: rebase (continue): week 11 aanpassing
+[33md266d9b[m HEAD@{20}: pull (start): checkout d266d9b07833b11782b654dc7b124f6ce0ae3c74
+[33mcb5be23[m HEAD@{21}: commit: week 11 aanpassing
+[33m39998a8[m HEAD@{22}: commit: upa
+[33macbe84a[m HEAD@{23}: pull: Fast-forward
+[33m58c8f10[m HEAD@{24}: pull (finish): returning to refs/heads/main
+[33m58c8f10[m HEAD@{25}: pull (pick): wtf
+[33m7e36417[m HEAD@{26}: pull (start): checkout 7e36417b69efd75a5e188482ce84033673422c07
+[33md60a3fc[m HEAD@{27}: commit: wtf
+[33m62c7423[m HEAD@{28}: commit: sprint 1 inleveren
+[33mdce7681[m HEAD@{29}: pull (finish): returning to refs/heads/main
+[33mdce7681[m HEAD@{30}: pull (pick): kan weg
+[33m119f7c2[m HEAD@{31}: pull (start): checkout 119f7c2d05c0969df85cab1cbc4f4bcaad8fe0d1
+[33m3e64fcd[m HEAD@{32}: commit: kan weg
+[33mdaa7207[m HEAD@{33}: commit: veel geupload naar portfolio
+[33m5c5e4de[m HEAD@{34}: commit: evaluatie verbetervoorstel
+[33m74d7506[m HEAD@{35}: commit: kelly validatie
+[33mb338000[m HEAD@{36}: commit: ERD Crows feet aanpassing
+[33m6843c3b[m HEAD@{37}: commit: mockdata eerste versie af
+[33m9610107[m HEAD@{38}: commit: operatie kamer
+[33macb9556[m HEAD@{39}: commit: tussentijdse commit
+[33mea1a690[m HEAD@{40}: commit: eerste dashboard
+[33m3cf0c01[m HEAD@{41}: commit: eerste dataset code werkend
+[33mf18adb1[m HEAD@{42}: pull: Fast-forward
+[33m66a8efa[m HEAD@{43}: commit: bpmn datateam
+[33mb5e156e[m HEAD@{44}: commit: 08-03-2026
+[33m53b692e[m HEAD@{45}: commit: tussentijdse upload
+[33mea00bad[m HEAD@{46}: commit: tussentijds update
+[33mf7a887e[m HEAD@{47}: commit: weer wat dichterbij
+[33m51823dc[m HEAD@{48}: commit: bakcup
+[33m3a733ed[m HEAD@{49}: commit: crews feet notatie
+[33m52678b9[m HEAD@{50}: commit: wireframe gemaakt
+[33mcb8a402[m HEAD@{51}: commit: kleine aanpassing
+[33mf3c3691[m HEAD@{52}: commit: weer vel gedaan beack up
+[33mdd446f6[m HEAD@{53}: commit: ert
+[33m0da297a[m HEAD@{54}: commit: avond 05-03-2026
+[33m3046356[m HEAD@{55}: commit: gelofte backup
+[33mcb13f8f[m HEAD@{56}: pull: Fast-forward
+[33mc684cdd[m HEAD@{57}: commit: voorbereiding lesavond
+[33m18b7d4d[m HEAD@{58}: commit: zondagavond werk
+[33m5af1401[m HEAD@{59}: commit: wachten op feedback emma duayne
+[33m02dfdba[m HEAD@{60}: commit: kleine wijziging
+[33m55cf947[m HEAD@{61}: commit: zaterdag ochtend
+[33m6861046[m HEAD@{62}: commit: huphup
+[33m8c8181b[m HEAD@{63}: commit: toch een paar extra dingen toegeveogd
+[33m7e1a82c[m HEAD@{64}: commit: leavond 26-02-2026
+[33m7ca23a2[m HEAD@{65}: commit: lekker gewerkt aan IST
+[33mf407b54[m HEAD@{66}: commit: bpmn2pdf.sh werkt lokaal
+[33m35b34b1[m HEAD@{67}: commit: bpmn2pdf.sh probeersel
+[33m8186c19[m HEAD@{68}: commit: aanpssing bpmn
+[33m7965692[m HEAD@{69}: commit: fedback lesavond verwerkt en geupload
+[33m0b7f028[m HEAD@{70}: rebase (finish): returning to refs/heads/main
+[33m0b7f028[m HEAD@{71}: rebase (continue): geen idee
+[33m45ea3bb[m HEAD@{72}: pull (start): checkout 45ea3bb57564f3c8422ff20a765d3746a67f1ebc
+[33mc591bed[m HEAD@{73}: commit: geen idee
+[33m97b5fad[m HEAD@{74}: commit: kleine aanpassing
+[33m3f13d51[m HEAD@{75}: commit: algemene verbeteringen en nieuwe weekkaart
+[33m99efbaf[m HEAD@{76}: commit: analyse 001 compleet
+[33m4986c76[m HEAD@{77}: pull (finish): returning to refs/heads/main
+[33m4986c76[m HEAD@{78}: pull (pick): werk dingentjes
+[33m1c0c8f0[m HEAD@{79}: pull (start): checkout 1c0c8f0a4e1a783766edf84946c658bd23491f23
+[33ma8ad4c1[m HEAD@{80}: commit: werk dingentjes
+[33m563b815[m HEAD@{81}: commit: update
+[33m3e7b6fa[m HEAD@{82}: commit: opdracht gekozen
+[33m0248b04[m HEAD@{83}: commit: DVC template
+[33md2b5bcf[m HEAD@{84}: commit: week 8 weekplanning
+[33m134cbd7[m HEAD@{85}: reset: moving to origin/main
+[33m6f2bb45[m HEAD@{86}: rebase (abort): returning to refs/heads/main
+[33m134cbd7[m HEAD@{87}: pull (start): checkout 134cbd76eed33ea8e770ecfc3c4ccc4543099708
+[33m6f2bb45[m HEAD@{88}: commit: irrelevant worksspcae.json
+[33mfea9328[m HEAD@{89}: commit: lesavond 12-02-2026
+[33mb4d73b3[m HEAD@{90}: commit: mapstructuur obsidian aangemaakt en weekkaart gemaakt
+[33mce3f144[m HEAD@{91}: pull: Fast-forward
+[33m6d70d8d[m HEAD@{92}: pull (finish): returning to refs/heads/main
+[33m6d70d8d[m HEAD@{93}: pull (pick): aantekingen
+[33mdc279f6[m HEAD@{94}: pull (start): checkout dc279f69dc74ec4cab30ff58717a7b304bdc3222
+[33mc85e275[m HEAD@{95}: commit: aantekingen
+[33m4dbaea4[m HEAD@{96}: commit: W6 Toegevoegd en datateam1.6.png
+[33md21a081[m HEAD@{97}: commit: inlveren portfolio SEM01 4de en laatste versie
+[33m85bc695[m HEAD@{98}: pull (finish): returning to refs/heads/main
+[33m85bc695[m HEAD@{99}: pull (pick): blabla
+[33m5f0b811[m HEAD@{100}: pull (start): checkout 5f0b81119a32b9fe6b78cf4d9bc07933e8ceb784
+[33m097f113[m HEAD@{101}: commit: blabla
+[33m38fb1f6[m HEAD@{102}: commit: 14-01-2026 avonds
+[33mee805ed[m HEAD@{103}: commit: 13-01-2026
+[33m24cd3d2[m HEAD@{104}: commit: 13-01-2026 ochtend
+[33mb017164[m HEAD@{105}: pull: Fast-forward
+[33m0e3da11[m HEAD@{106}: commit: golum
+[33mcdc4710[m HEAD@{107}: commit: updatje
+[33m63396ca[m HEAD@{108}: commit: tussentijdse commit
+[33mc37bbad[m HEAD@{109}: reset: moving to origin/main
+[33mdb954f5[m HEAD@{110}: reset: moving to HEAD~1
+[33mea6d536[m HEAD@{111}: commit: test
+[33mdb954f5[m HEAD@{112}: reset: moving to HEAD
+[33mdb954f5[m HEAD@{113}: commit: test
+[33m48d5e08[m HEAD@{114}: commit: fimplje en iteratiie prcoes datateam
+[33m39f31a9[m HEAD@{115}: commit: gitnore bijgewerkt en wat kleine dingetjes
+[33mc37bbad[m HEAD@{116}: commit: avond
+[33m2c5db98[m HEAD@{117}: commit: datateam klein aanpassing
+[33ma05df59[m HEAD@{118}: commit: BPMN 1.0
+[33mbaf5a90[m HEAD@{119}: commit: from request to delivery 1.2 toegevoegd | BPMN
+[33m809a3f5[m HEAD@{120}: commit: request to delivery v1.1
+[33m8ddd8d8[m HEAD@{121}: commit: Data team opzet gemaakt
+[33mb543e85[m HEAD@{122}: pull (finish): returning to refs/heads/main
+[33mb543e85[m HEAD@{123}: pull (pick): pre merge
+[33mfe72421[m HEAD@{124}: pull (start): checkout fe72421050dc43ba6a6cb1f008345ef22f9db5b5
+[33m6de0882[m HEAD@{125}: commit: pre merge
+[33m46aa0e7[m HEAD@{126}: pull (finish): returning to refs/heads/main
+[33m46aa0e7[m HEAD@{127}: pull (pick): weekstaat, eerste van 2026!
+[33m2638f7c[m HEAD@{128}: pull (start): checkout 2638f7ce016b4888600b2dbdb9d0b585a146ab1b
+[33m631e0a9[m HEAD@{129}: commit: weekstaat, eerste van 2026!
+[33m92ada18[m HEAD@{130}: commit: weekstaat w50 ingevuldt en w51 aangemaakt
+[33m18a48a4[m HEAD@{131}: commit: sql oefeningen
+[33m1937148[m HEAD@{132}: commit: van vissie naar sprint 3.0
+[33me10d066[m HEAD@{133}: commit: leerdoelen concept en van visie naar sprint 3.0 begonnen
+[33m55d1836[m HEAD@{134}: pull: Fast-forward
+[33m6d4571a[m HEAD@{135}: commit: datacamp sql inter
+[33mf299cea[m HEAD@{136}: commit: derde portfolio review
+[33m681135e[m HEAD@{137}: commit: stats
+[33mf575ac9[m HEAD@{138}: commit: disabled kroki
+[33mfaad153[m HEAD@{139}: commit: Van Visie naar Sprint
+[33mf1834de[m HEAD@{140}: commit: 06-12-2025 ochtend werwk
+[33m38d881d[m HEAD@{141}: pull: Fast-forward
+[33m29c85d6[m HEAD@{142}: pull: Fast-forward
+[33m95468be[m HEAD@{143}: commit: 2025-W49 Portfolio inlevermoment to-do aangevuldt
+[33mdd12393[m HEAD@{144}: commit: Weekkaart 2025-W48
+[33m87a74e5[m HEAD@{145}: commit: Merge Studie Obsidian Vault en Groepsproject Vault, zodat in groepsGIT alleen nog code komt
+[33mbf19b9a[m HEAD@{146}: commit: BMC push
+[33mc062906[m HEAD@{147}: commit: 30-11-2025
+[33m264d07c[m HEAD@{148}: commit: 29-11-2025
+[33m313695f[m HEAD@{149}: commit: 28-11-2025
+[33m7c0c27b[m HEAD@{150}: commit: nikszegende update
+[33mf8ce3a5[m HEAD@{151}: commit: kleine aanpassing
+[33mcf76a52[m HEAD@{152}: pull: Fast-forward
+[33md3b2b2e[m HEAD@{153}: commit: progbleem analyse
+[33m49bedf9[m HEAD@{154}: commit: Week 47 afsluiting
+[33m5759c66[m HEAD@{155}: commit: 20252311 kleine commit
+[33m7abce17[m HEAD@{156}: commit: onbelagnirjke chagne
+[33mdf55ed2[m HEAD@{157}: commit: Gitnore aangemaakt
+[33m018fd33[m HEAD@{158}: commit: Add Gitnore folder to .gitignore
+[33ma64bbf0[m HEAD@{159}: commit: tussentijdse update
+[33mfcfe996[m HEAD@{160}: pull: Fast-forward
+[33m4349a44[m HEAD@{161}: commit: 19112025 woesndagmiddag werkjes
+[33m0509bf4[m HEAD@{162}: commit: woensdag ochtend 19112025
+[33m17eca45[m HEAD@{163}: pull: Fast-forward
+[33ma38af94[m HEAD@{164}: commit: 17-11-2025
+[33m15a388e[m HEAD@{165}: commit: Weekkaart ingevuld
+[33mb93c628[m HEAD@{166}: commit: workshop agile utigewerkt
+[33m0ec2ff6[m HEAD@{167}: commit: Stop tracking Challenge_02
+[33m4c49736[m HEAD@{168}: commit: challange02 in gitignore
+[33m5eb8f8f[m HEAD@{169}: pull: Fast-forward
+[33mf24e5fe[m HEAD@{170}: commit: lessen gevolgdt
+[33mf147c4c[m HEAD@{171}: commit: update
+[33m7d5a702[m HEAD@{172}: commit: git update
+[33m29aba5a[m HEAD@{173}: commit: 11112025 update
+[33m0d579c2[m HEAD@{174}: commit: 11112025
+[33mf3d2a34[m HEAD@{175}: commit: wijzigingen
+[33m3b7553c[m HEAD@{176}: commit: test
+[33me8c7508[m HEAD@{177}: commit: groepsproject git aangemaakt
+[33m31840d3[m HEAD@{178}: commit: aanpassingen
+[33md7569ec[m HEAD@{179}: pull: Fast-forward
+[33mf71b599[m HEAD@{180}: commit: weektemplate update
+[33md4483e6[m HEAD@{181}: commit: weekstaat bijgewerkt
+[33m1871924[m HEAD@{182}: commit: SEM01 Orientatie keuze
+[33m23b0e3e[m HEAD@{183}: pull: Fast-forward
+[33ma544962[m HEAD@{184}: commit: Wies
+[33m150e9e7[m HEAD@{185}: pull: Fast-forward
+[33m6f4d183[m HEAD@{186}: commit: temp
+[33m9ed595d[m HEAD@{187}: commit: 03112025
+[33m620f62f[m HEAD@{188}: commit: Dingen gedaan
+[33ma0f8bd3[m HEAD@{189}: commit: design reflectie
+[33m28c17c8[m HEAD@{190}: commit: design document orginele aanpak
+[33m05a460c[m HEAD@{191}: commit: mermaid diagrams
+[33m5d6fd80[m HEAD@{192}: pull: Fast-forward
+[33m5411455[m HEAD@{193}: commit: werk db
+[33md20a811[m HEAD@{194}: commit: Chen notatie gemaakt
+[33m13011e1[m HEAD@{195}: commit: Rick op hulp gevraagd
+[33m6c37e49[m HEAD@{196}: commit: mermaid
+[33mff3ee39[m HEAD@{197}: commit: Weekkaart vorige en volgende week toegevoegd, emotie prompt bug fix
+[33m097ae52[m HEAD@{198}: commit: c# oefenen
+[33maf9de45[m HEAD@{199}: commit: loops oefenen
+[33m2eebdef[m HEAD@{200}: commit: c# loops oefenen
+[33m9152890[m HEAD@{201}: commit: state diagram
+[33meb438a1[m HEAD@{202}: commit: 20251027
+[33mcc8ad82[m HEAD@{203}: commit: template weekkaart aangepast
+[33m5feb9ff[m HEAD@{204}: commit: Weektemplate verder ontwikkelt en design documetn iets aangepast
+[33m63d67c8[m HEAD@{205}: commit: weekkaart bijgewerkt
+[33mb88a90f[m HEAD@{206}: commit: weekkaart bijgewerkt
+[33mfbdf14d[m HEAD@{207}: commit: mijn eerste merge
+[33mc41f0ec[m HEAD@{208}: pull: Fast-forward
+[33m09b1f91[m HEAD@{209}: reset: moving to HEAD
+[33m09b1f91[m HEAD@{210}: commit: poging week lertrajet template te maken
+[33mc275aa7[m HEAD@{211}: commit: arduino works!
+[33mbef236c[m HEAD@{212}: pull --rebase: Fast-forward
+[33m7f52f56[m HEAD@{213}: commit: portfolio bijgewerkt
+[33m875623f[m HEAD@{214}: commit: arduino luistern
+[33m84e3a4b[m HEAD@{215}: commit: EURKA! Arduino IDE en dotnet run niet tegelijkertijd laten werken over serial port
+[33m8eae6fb[m HEAD@{216}: commit: arduino library json verwijderd
+[33mb4a6535[m HEAD@{217}: commit: mislukt uitlezen arduino sensor
+[33m7050b20[m HEAD@{218}: commit: workshops samenvatten
+[33md570c21[m HEAD@{219}: pull --rebase (finish): returning to refs/heads/main
+[33md570c21[m HEAD@{220}: pull --rebase (pick): paaraanpassingen
+[33m650bd4e[m HEAD@{221}: pull --rebase (start): checkout 650bd4e083d2e87142a65fbf413933a360d153c5
+[33m7dfc702[m HEAD@{222}: commit: paaraanpassingen
+[33m9b9ce1f[m HEAD@{223}: commit: 13-10-2025
+[33m465bfa0[m HEAD@{224}: commit: boeken
+[33me662201[m HEAD@{225}: commit: phoenix project
+[33m12f7a0b[m HEAD@{226}: commit: Arduino folder toegevoegd
+[33m7e0293e[m HEAD@{227}: pull --rebase --verbose: Fast-forward
+[33m7c65f72[m HEAD@{228}: commit: Les 3 BusData gevolgt
+[33m5102456[m HEAD@{229}: commit: Programeren 03_deel3 gekeken
+[33m355702c[m HEAD@{230}: clone: from github.com:Boomstreek/StudieFontys.git
