@@ -8,35 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "bdc44705685c0754",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Challenge01/IndividueelProject_1b/01 Analyse/OK-Planning Kosten - Analyse.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "OK-Planning Kosten - Analyse"
-            }
-          },
-          {
             "id": "4f4289ef89f1c62c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Weekkaarten/2026-W14.md",
+                "file": "Weekkaarten/2026-W15.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2026-W14"
+              "title": "2026-W15"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -202,6 +187,10 @@
   },
   "active": "4f4289ef89f1c62c",
   "lastOpenFiles": [
+    "Challenge01/IndividueelProject_1b/01 Analyse/OK-Planning Kosten - Analyse.md",
+    "Weekkaarten/2026-W15.md",
+    "Weekkaarten/2026-W14.md",
+    "Challenge01/IndividueelProject_1b/04 Manage & Control/Feedback Document.md",
     "Challenge01/IndividueelProject_1b/03 Realisation/dashboardv3_2.png",
     "Challenge01/IndividueelProject_1b/03 Realisation/dashboardv3_1.png",
     "Challenge01/IndividueelProject_1b/03 Realisation/MockData/script/data_output/Feit_Planning.csv",
@@ -210,9 +199,6 @@
     "Challenge01/IndividueelProject_1b/03 Realisation/MockData/script/data_output/Dim_Tevredenheid.csv",
     "Challenge01/IndividueelProject_1b/03 Realisation/MockData/script/data_output/Dim_Medewerker.csv",
     "Challenge01/IndividueelProject_1b/03 Realisation/MockData/script/data_output/Dim_Patient.csv",
-    "Challenge01/IndividueelProject_1b/01 Analyse/OK-Planning Kosten - Analyse.md",
-    "Challenge01/IndividueelProject_1b/03 Realisation/dashboardv2.png",
-    "Challenge01/IndividueelProject_1b/04 Manage & Control/Feedback Document.md",
-    "Weekkaarten/2026-W14.md"
+    "Challenge01/IndividueelProject_1b/03 Realisation/dashboardv2.png"
   ]
 }
