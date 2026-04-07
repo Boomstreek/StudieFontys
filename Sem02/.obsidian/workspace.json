@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "DevOps Boards Opzetten"
             }
+          },
+          {
+            "id": "13dd1d4b61ee3e81",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Weekkaarten/2026-W15.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "2026-W15"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -185,15 +200,15 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "4f4289ef89f1c62c",
+  "active": "13dd1d4b61ee3e81",
   "lastOpenFiles": [
+    "Challenge01/IndividueelProject_1b/06 Personal Leaderschip/DevOps Boards Opzetten.md",
     "Challenge01/IndividueelProject_1b/06 Personal Leaderschip/Boekverslag SQL and Relational Theory.md",
     "Challenge01/IndividueelProject_1b/01 Analyse/OK-Planning Kosten - Analyse.md",
     "Challenge01/IndividueelProject_1b/02 Design/Wireframe Dashboard.md",
     "Challenge01/IndividueelProject_1b/04 Manage & Control/Feedback Document.md",
     "Challenge01/IndividueelProject_1b/05 Professional Standard/Professionele Communicatie - Procesregie.md",
     "Challenge01/IndividueelProject_1b/05 Professional Standard/Professionele Communicatie - Procesregie.pdf",
-    "Challenge01/IndividueelProject_1b/06 Personal Leaderschip/DevOps Boards Opzetten.md",
     "Weekkaarten/2026-W15.md",
     "Weekkaarten/2026-W14.md",
     "Challenge01/IndividueelProject_1b/03 Realisation/dashboardv3_2.png",
