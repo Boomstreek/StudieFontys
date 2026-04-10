@@ -217,3 +217,23 @@ _Actie: Benaming aangepast en visueel verbetert_
 _Actie: In de toekomst ga ik weer in het nederlands werken_
 
 ---
+
+## **08-04-2026 Feedback Collega Robin - Data Analist**
+[[Feedback Dashboard Bram.pdf]]
+
+### Dashboard voor feedback:
+[[dashboardv3_1.png]][[dashboardv3_2.png]]
+
+### Dashoard na feedback:
+[[dashboardv4_1.png]][[dashboardv4_2.png]]
+
+### Wat heb ik ermee gedaan?
+In deze laatste fase van dit project heb ik het dashboard geoptimaliseerd op basis van de ontvangen feedback. Hoewel het project bijna ten einde loopt, heb ik de volgende verbeteringen doorgevoerd om de kwaliteit en leesbaarheid te verhogen:
+
+- **Datamodel en Structuur:** Het sterschema is opgeschoond en er is een specifieke `_Measures`-tabel aangemaakt waarin alle berekeningen centraal zijn ondergebracht. Met het oog op de naderende einddatum heb ik afgezien van verdere categorisering in mappen, maar de technische basis hiervoor staat in de steigers.
+    
+- **Visueel Design:** Het kleurenpalet is aangepast en de uitlijning van de tekstkaarten (cards) is verbeterd. Door teksten drastisch in te korten en astitels te vereenvoudigen, oogt het geheel nu een stuk rustiger en overzichtelijker.
+    
+- **Layout en UX:** De opbouw van het dashboard is logischer ingericht, waarbij de belangrijkste informatie nu linksboven staat. Daarnaast zijn gecombineerde grafieken, zoals de gemiddelde kosten per planning en de tijdsbesteding aan telefonie, gesplitst in twee aparte, duidelijke lijngrafieken.
+    
+Enkele specifieke optimalisaties, zoals het toevoegen van uitgebreide tooltips voor KPI-berekeningen en het transformeren van 'Waar/Onwaar'-labels naar 'Toestemming/Geen toestemming', heb ik bewust achterwege gelaten. Gezien de korte resterende levensduur van het dashboard wogen de technische inspanningen (die bij voorkeur aan de bron, bijvoorbeeld via DBT in de SQL-server, zouden moeten plaatsvinden) niet op tegen de resterende looptijd.
