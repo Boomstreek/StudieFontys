@@ -1,13 +1,11 @@
-### Metadata
+## Metadata
 **Author: ** Bram Wieringa
 **Date: ** 12-04-2026
-**Version: ** 1.30
+**Version: ** 1.0
 **Dependencies: ** 
 - OK-Planning Kosten - Analyse versie 1.3
 - dashboardv4_1.png
 - dashboardv4_2.png
-
-# Adviesrapport – OK-Planning Kosten - Eindadvies
 
 ## Begrippenlijst
 
@@ -18,6 +16,7 @@
 |Digital Adoption Rate|DAR|Het percentage patiënten dat toestemming heeft gegeven voor digitaal contact via het patiëntenportaal, en daarmee bereikbaar is zonder telefonische interventie.|
 |Full-Time Equivalent|FTE|Een rekeneenheid voor personeelscapaciteit waarbij 1,0 FTE gelijk staat aan één voltijds werkende medewerker.|
 |Key Performance Indicator|KPI|Een meetbare prestatie-indicator waarmee de voortgang richting een strategisch doel wordt bijgehouden.|
+|Return on Investment|ROI|Een maatstaf die de verhouding uitdrukt tussen de behaalde besparing of opbrengst en de gedane investering, uitgedrukt als percentage of ratio.|
 |Synchronisatieverlies|-|Het verlies aan productieve tijd dat ontstaat wanneer twee partijen (planner en patiënt) niet gelijktijdig beschikbaar zijn voor telefonisch contact.|
 |Asynchrone communicatie|-|Een communicatievorm waarbij zender en ontvanger niet gelijktijdig aanwezig hoeven te zijn, zoals SMS, e-mail of berichten via een patiëntenportaal.|
 |Nulmeting|-|Een gecontroleerde meting van de beginsituatie, uitgevoerd vóór een interventie, die dient als referentiepunt om de impact van een verandering te kunnen aantonen.|

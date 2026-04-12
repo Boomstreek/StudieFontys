@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OK-Planning Kosten - Eindadvies.md",
-                "mode": "preview",
+                "file": "Weekkaarten/2026-W12.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "OK-Planning Kosten - Eindadvies"
+              "title": "2026-W12"
             }
           }
         ],
@@ -216,30 +216,33 @@
   },
   "active": "2b4e857552c3faea",
   "lastOpenFiles": [
+    "Challenge01/IndividueelProject_1b/03 Realisation/DashboardVersie2_0.zip",
+    "Challenge01/IndividueelProject_1b/03 Realisation/DashboardVersie2_0/DataModel",
+    "Challenge01/IndividueelProject_1b/03 Realisation/DashboardVersie2_0/Connections",
+    "Challenge01/IndividueelProject_1b/03 Realisation/DashboardVersie2_0/SecurityBindings",
+    "Challenge01/IndividueelProject_1b/03 Realisation/DashboardVersie2_0/Report/StaticResources/SharedResources/BaseThemes/CY26SU02.json",
+    "Challenge01/IndividueelProject_1b/03 Realisation/DashboardVersie2_0/Report/StaticResources/SharedResources/BaseThemes",
+    "Challenge01/IndividueelProject_1b/03 Realisation/DashboardVersie2_0/Report/StaticResources/RegisteredResources/Loomy_Lime9386596562781213.json",
+    "Challenge01/IndividueelProject_1b/03 Realisation/DashboardVersie2_0/Report/StaticResources/SharedResources",
+    "Challenge01/IndividueelProject_1b/03 Realisation/DashboardVersie2_0/Report/StaticResources/RegisteredResources",
+    "Challenge01/IndividueelProject_1b/03 Realisation/DashboardVersie2_0/Report/StaticResources",
+    "Challenge01/IndividueelProject_1b/03 Realisation/DashboardVersie2_0/Report/LinguisticSchema",
+    "Weekkaarten/2026-W13.md",
+    "Weekkaarten/2026-W14.md",
+    "Challenge01/IndividueelProject_1b/04 Manage & Control/Feedback Document.md",
     "Challenge01/IndividueelProject_1b/01 Analyse/OK-Planning Kosten - Analyse.md",
-    "OK-Planning Kosten - Eindadvies.md",
+    "Challenge01/IndividueelProject_1b/01 Analyse/OK-Planning Kosten - Eindadvies.md",
     "Challenge01/IndividueelProject_1b/01 Analyse/Invalshoek.md",
     "Challenge01/IndividueelProject_1b/01 Analyse/OK-Planning Kosten - Definitief Business Analysis Document.md",
-    "Challenge01/IndividueelProject_1b/04 Manage & Control/Feedback Document.md",
     "Challenge01/IndividueelProject_1b/03 Realisation/dashboardv4_2.png",
     "Challenge01/IndividueelProject_1b/03 Realisation/dashboardv4_1.png",
-    "Challenge01/IndividueelProject_1b/04 Manage & Control/Feedback Dashboard Bram.pdf",
-    "Challenge01/IndividueelProject_1b/03 Realisation/DashboardVersie2_0.pbix",
     "Weekkaarten/2026-W15.md",
     "Challenge01/IndividueelProject_1b/06 Personal Leaderschip/DevOps Boards Opzetten.md",
     "Challenge01/IndividueelProject_1b/06 Personal Leaderschip/Boekverslag SQL and Relational Theory.md",
     "Challenge01/IndividueelProject_1b/02 Design/Wireframe Dashboard.md",
     "Challenge01/IndividueelProject_1b/05 Professional Standard/Professionele Communicatie - Procesregie.md",
-    "Challenge01/IndividueelProject_1b/05 Professional Standard/Professionele Communicatie - Procesregie.pdf",
-    "Weekkaarten/2026-W14.md",
     "Challenge01/IndividueelProject_1b/03 Realisation/dashboardv3_2.png",
     "Challenge01/IndividueelProject_1b/03 Realisation/dashboardv3_1.png",
-    "Challenge01/IndividueelProject_1b/03 Realisation/MockData/script/data_output/Feit_Planning.csv",
-    "Challenge01/IndividueelProject_1b/03 Realisation/MockData/script/data_output/Dim_Belpoging.csv",
-    "Challenge01/IndividueelProject_1b/03 Realisation/MockData/script/data_output/Dim_Datum.csv",
-    "Challenge01/IndividueelProject_1b/03 Realisation/MockData/script/data_output/Dim_Tevredenheid.csv",
-    "Challenge01/IndividueelProject_1b/03 Realisation/MockData/script/data_output/Dim_Medewerker.csv",
-    "Challenge01/IndividueelProject_1b/03 Realisation/MockData/script/data_output/Dim_Patient.csv",
     "Challenge01/IndividueelProject_1b/03 Realisation/dashboardv2.png"
   ]
 }
