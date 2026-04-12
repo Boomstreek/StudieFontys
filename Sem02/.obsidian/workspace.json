@@ -27,16 +27,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Challenge01/IndividueelProject_1b/04 Manage & Control/Feedback Document.md",
+                "file": "Challenge01/IndividueelProject_1b/01 Analyse/OK-Planning Kosten - Analyse.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Feedback Document"
+              "title": "OK-Planning Kosten - Analyse"
+            }
+          },
+          {
+            "id": "2b4e857552c3faea",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OK-Planning Kosten - Eindadvies.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "OK-Planning Kosten - Eindadvies"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -200,8 +214,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "13dd1d4b61ee3e81",
+  "active": "2b4e857552c3faea",
   "lastOpenFiles": [
+    "Challenge01/IndividueelProject_1b/01 Analyse/OK-Planning Kosten - Analyse.md",
+    "OK-Planning Kosten - Eindadvies.md",
+    "Challenge01/IndividueelProject_1b/01 Analyse/Invalshoek.md",
+    "Challenge01/IndividueelProject_1b/01 Analyse/OK-Planning Kosten - Definitief Business Analysis Document.md",
+    "Challenge01/IndividueelProject_1b/04 Manage & Control/Feedback Document.md",
     "Challenge01/IndividueelProject_1b/03 Realisation/dashboardv4_2.png",
     "Challenge01/IndividueelProject_1b/03 Realisation/dashboardv4_1.png",
     "Challenge01/IndividueelProject_1b/04 Manage & Control/Feedback Dashboard Bram.pdf",
@@ -209,9 +228,7 @@
     "Weekkaarten/2026-W15.md",
     "Challenge01/IndividueelProject_1b/06 Personal Leaderschip/DevOps Boards Opzetten.md",
     "Challenge01/IndividueelProject_1b/06 Personal Leaderschip/Boekverslag SQL and Relational Theory.md",
-    "Challenge01/IndividueelProject_1b/01 Analyse/OK-Planning Kosten - Analyse.md",
     "Challenge01/IndividueelProject_1b/02 Design/Wireframe Dashboard.md",
-    "Challenge01/IndividueelProject_1b/04 Manage & Control/Feedback Document.md",
     "Challenge01/IndividueelProject_1b/05 Professional Standard/Professionele Communicatie - Procesregie.md",
     "Challenge01/IndividueelProject_1b/05 Professional Standard/Professionele Communicatie - Procesregie.pdf",
     "Weekkaarten/2026-W14.md",
