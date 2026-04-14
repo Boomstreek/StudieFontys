@@ -48,9 +48,37 @@
               "icon": "lucide-file",
               "title": "2026-W12"
             }
+          },
+          {
+            "id": "42703218c96ad0f2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Verzekeringen.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Verzekeringen"
+            }
+          },
+          {
+            "id": "8b161be72b77d09d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data Engineer Skills.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Data Engineer Skills"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -214,8 +242,16 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "2b4e857552c3faea",
+  "active": "8b161be72b77d09d",
   "lastOpenFiles": [
+    "Pasted Images/Pasted image 20260413083805.png",
+    "Pasted Images/Pasted image 20260413083332.png",
+    "Pasted Images/Pasted image 20260326191230.png",
+    "Data Engineer Skills.md",
+    "Pasted Images/Pasted image 20260413083452.png",
+    "Pasted Images",
+    "Verzekeringen.md",
+    "Weekkaarten/2026-W12.md",
     "Challenge01/IndividueelProject_1b/03 Realisation/DashboardVersie2_0.zip",
     "Challenge01/IndividueelProject_1b/03 Realisation/DashboardVersie2_0/DataModel",
     "Challenge01/IndividueelProject_1b/03 Realisation/DashboardVersie2_0/Connections",
@@ -225,8 +261,6 @@
     "Challenge01/IndividueelProject_1b/03 Realisation/DashboardVersie2_0/Report/StaticResources/RegisteredResources/Loomy_Lime9386596562781213.json",
     "Challenge01/IndividueelProject_1b/03 Realisation/DashboardVersie2_0/Report/StaticResources/SharedResources",
     "Challenge01/IndividueelProject_1b/03 Realisation/DashboardVersie2_0/Report/StaticResources/RegisteredResources",
-    "Challenge01/IndividueelProject_1b/03 Realisation/DashboardVersie2_0/Report/StaticResources",
-    "Challenge01/IndividueelProject_1b/03 Realisation/DashboardVersie2_0/Report/LinguisticSchema",
     "Weekkaarten/2026-W13.md",
     "Weekkaarten/2026-W14.md",
     "Challenge01/IndividueelProject_1b/04 Manage & Control/Feedback Document.md",
