@@ -55,44 +55,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Verzekeringen.md",
+                "file": "Weekkaarten/2026-W16.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Verzekeringen"
-            }
-          },
-          {
-            "id": "8b161be72b77d09d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data Engineer Skills.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Data Engineer Skills"
-            }
-          },
-          {
-            "id": "512936b524608506",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Overdrachtsdocument - Technisch Tekenaar & GIS-Specialist.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Overdrachtsdocument - Technisch Tekenaar & GIS-Specialist"
+              "title": "2026-W16"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -256,18 +228,21 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "512936b524608506",
+  "active": "42703218c96ad0f2",
   "lastOpenFiles": [
-    "Data Engineer Skills.md",
+    "Weekkaarten/2026-W12.md",
+    "Weekkaarten/2026-W16.md",
+    "Verzekeringen.md",
+    "Technische Keuring.md",
+    "IST,SOLL,GAP.md",
     "Overdrachtsdocument - Technisch Tekenaar & GIS-Specialist.md",
+    "Data Engineer Skills.md",
     "Untitled",
     "Pasted Images/Pasted image 20260413083805.png",
     "Pasted Images/Pasted image 20260413083332.png",
     "Pasted Images/Pasted image 20260326191230.png",
     "Pasted Images/Pasted image 20260413083452.png",
     "Pasted Images",
-    "Verzekeringen.md",
-    "Weekkaarten/2026-W12.md",
     "Challenge01/IndividueelProject_1b/03 Realisation/DashboardVersie2_0.zip",
     "Challenge01/IndividueelProject_1b/03 Realisation/DashboardVersie2_0/DataModel",
     "Challenge01/IndividueelProject_1b/03 Realisation/DashboardVersie2_0/Connections",
