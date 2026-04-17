@@ -13,44 +13,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Challenge01/IndividueelProject_1b/06 Personal Leaderschip/DevOps Boards Opzetten.md",
+                "file": "Challenge01/IndividueelProject_1b/06 Personal Leaderschip/Van Teams Planner naar Jira - een praktijkgerichte verkenning van Scrum binnen een Datateam.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "DevOps Boards Opzetten"
+              "title": "Van Teams Planner naar Jira - een praktijkgerichte verkenning van Scrum binnen een Datateam"
             }
           },
           {
-            "id": "13dd1d4b61ee3e81",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Challenge01/IndividueelProject_1b/01 Analyse/OK-Planning Kosten - Analyse.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "OK-Planning Kosten - Analyse"
-            }
-          },
-          {
-            "id": "2b4e857552c3faea",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Weekkaarten/2026-W12.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "2026-W12"
-            }
-          },
-          {
-            "id": "42703218c96ad0f2",
+            "id": "a1ae5b2ffe3bf081",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -62,9 +34,23 @@
               "icon": "lucide-file",
               "title": "2026-W16"
             }
+          },
+          {
+            "id": "7abc90014cf413af",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Weekkaarten/2026-W17.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "2026-W17"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -228,10 +214,23 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "42703218c96ad0f2",
+  "active": "7abc90014cf413af",
   "lastOpenFiles": [
-    "Weekkaarten/2026-W12.md",
     "Weekkaarten/2026-W16.md",
+    "Weekkaarten/2026-W17.md",
+    "Challenge01/IndividueelProject_1b/06 Personal Leaderschip/Van Teams Planner naar Jira - een praktijkgerichte verkenning van Scrum binnen een Datateam.md",
+    "Challenge01/IndividueelProject_1b/06 Personal Leaderschip/Van Teams Planner naar Jira - een praktijkgerichte verkenning van Scrum binnen een Datateam.pdf",
+    "Pasted image 20260417144907.png",
+    "Pasted image 20260417144855.png",
+    "Pasted image 20260417144728.png",
+    "Challenge01/IndividueelProject_1b/06 Personal Leaderschip/SEM02 Sprint 2 Reflectie.md",
+    "Challenge01/IndividueelProject_1b/06 Personal Leaderschip/SEM02 Sprint 2 Reflectie.pdf",
+    "Challenge01/IndividueelProject_1b/01 Analyse/OK-Planning Kosten - Analyse.md",
+    "Challenge01/IndividueelProject_1b/03 Realisation/Toelichting Dashboard.md",
+    "Challenge01/IndividueelProject_1b/01 Analyse/OK-Planning Kosten - Eindadvies.md",
+    "Challenge01/IndividueelProject_1b/03 Realisation/Toelichting Dashboard.pdf",
+    "Weekkaarten/2026-W15.md",
+    "Weekkaarten/2026-W12.md",
     "Verzekeringen.md",
     "Technische Keuring.md",
     "IST,SOLL,GAP.md",
@@ -248,25 +247,16 @@
     "Challenge01/IndividueelProject_1b/03 Realisation/DashboardVersie2_0/Connections",
     "Challenge01/IndividueelProject_1b/03 Realisation/DashboardVersie2_0/SecurityBindings",
     "Challenge01/IndividueelProject_1b/03 Realisation/DashboardVersie2_0/Report/StaticResources/SharedResources/BaseThemes/CY26SU02.json",
-    "Challenge01/IndividueelProject_1b/03 Realisation/DashboardVersie2_0/Report/StaticResources/SharedResources/BaseThemes",
-    "Challenge01/IndividueelProject_1b/03 Realisation/DashboardVersie2_0/Report/StaticResources/RegisteredResources/Loomy_Lime9386596562781213.json",
-    "Challenge01/IndividueelProject_1b/03 Realisation/DashboardVersie2_0/Report/StaticResources/SharedResources",
     "Weekkaarten/2026-W13.md",
     "Weekkaarten/2026-W14.md",
     "Challenge01/IndividueelProject_1b/04 Manage & Control/Feedback Document.md",
-    "Challenge01/IndividueelProject_1b/01 Analyse/OK-Planning Kosten - Analyse.md",
-    "Challenge01/IndividueelProject_1b/01 Analyse/OK-Planning Kosten - Eindadvies.md",
     "Challenge01/IndividueelProject_1b/01 Analyse/Invalshoek.md",
     "Challenge01/IndividueelProject_1b/01 Analyse/OK-Planning Kosten - Definitief Business Analysis Document.md",
     "Challenge01/IndividueelProject_1b/03 Realisation/dashboardv4_2.png",
     "Challenge01/IndividueelProject_1b/03 Realisation/dashboardv4_1.png",
-    "Weekkaarten/2026-W15.md",
-    "Challenge01/IndividueelProject_1b/06 Personal Leaderschip/DevOps Boards Opzetten.md",
     "Challenge01/IndividueelProject_1b/06 Personal Leaderschip/Boekverslag SQL and Relational Theory.md",
     "Challenge01/IndividueelProject_1b/02 Design/Wireframe Dashboard.md",
     "Challenge01/IndividueelProject_1b/05 Professional Standard/Professionele Communicatie - Procesregie.md",
-    "Challenge01/IndividueelProject_1b/03 Realisation/dashboardv3_2.png",
-    "Challenge01/IndividueelProject_1b/03 Realisation/dashboardv3_1.png",
-    "Challenge01/IndividueelProject_1b/03 Realisation/dashboardv2.png"
+    "Challenge01/IndividueelProject_1b/03 Realisation/dashboardv3_2.png"
   ]
 }
