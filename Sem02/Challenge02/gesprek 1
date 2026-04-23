@@ -1,0 +1,65 @@
+Korte uitleg team & rollen
+
+
+We werken met 2 teams, maar aan 1 product
+
+
+Team A (Conversatie & Frontend)
+→ regelt het gesprek, taalniveau B1 en de chatinterface
+→ 3 AI: gespreksmodel, logica, validatie + 1 frontend dev
+
+
+Team B (Data, Matching & Techniek)
+→ regelt matches, data, backend en infra
+→ AI matching, backend dev, infra
+→ Business & Data: dataset + dashboard om gebruik inzichtelijk te maken (bijv. starten, afronden, doorklikken)
+
+
+Overkoepelend
+→ 1 Product Owner: scope & prioriteiten
+→ 1 Technisch Lead: technische samenhang bewaken
+
+
+We werken Scrum, gezamenlijke sprint planning & review.
+
+Projectscope (kort)
+
+We bouwen een werkend AI‑chatbot prototype (web)
+De chatbot voert een laagdrempelig gesprek over leefstijl en welzijn
+Gebaseerd op één gespreksmodel (Positieve Gezondheid of Leefstijlroer)
+Resultaat: maximaal 3 passende activiteiten
+Gebruik is anoniem (contactgegevens alleen op verzoek gebruiker)
+We gebruiken synthetische data (geen echte gemeentelijke of medische data)
+Focus op proof of concept, niet op productie of automatisering
+We leveren: werkend product + documentatie + inzicht in gebruik
+
+
+Bespreking zelf, robert, robin, berry, basel, irsad, maurice, nick, sahel en Bram
+transcriptie wordt gemaakt
+
+wat is het probleem? Wordt nu nog uitgelegd als er is geen chatbot, maar dat is een oplossing.
+-> probleem goed gaan omschrijven
+
+Carla heeft geen goed functionerend, actueel en toegankelijk middel om inwoners van de gemeente Boxtel te helpen bij het vinden van passende leefstijl‑ en welzijnsactiviteiten.
+
+We maken een proof of concept, dus voor infra mag het bijvoorbeeld theoritisch zijn.
+
+gesprekstechniek is leidend, leefstijlroer of positive gezondheid
+
+
+Carla, zijn er gespreksverslagen van coaches?
+
+focus op functioneren -> daarna pas UX (prio heeft profiel van student)
+
+probleem analyse, proces (welk procesanalyse, wat is het proces?)
+
+Nick Jussen contactpersoon voor oude groep
+
+projectscope + opzet teams + mapstructuur
+robert planinng
+nick techscope
+
+contactpersoon carla
+
+
+
