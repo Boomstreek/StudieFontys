@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "1bcc84829bf703d7",
+        "id": "eac5f8647a0c8499",
         "type": "tabs",
         "children": [
           {
-            "id": "7abc90014cf413af",
+            "id": "95d1bfddcb8604f1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Weekkaarten/2026-W17.md",
+                "file": "Challenge02/02 - Analyse/Probleemanalyse.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2026-W17"
+              "title": "Probleemanalyse"
+            }
+          },
+          {
+            "id": "7e58bd54e2193e86",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Challenge02/01 - Projectmanagement/Teamrollen.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Teamrollen"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -185,23 +200,34 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "7abc90014cf413af",
+  "active": "7e58bd54e2193e86",
   "lastOpenFiles": [
-    "Challenge02/teamrollen.md",
-    "Challenge02/Projectscope.md",
+    "Challenge02/01 - Projectmanagement/Projectscope.md",
+    "Challenge02/01 - Projectmanagement/Teamrollen.md",
+    "Challenge02/01 - Projectmanagement/Projectscope.pdf",
+    "Challenge02/02 - Analyse/Probleemanalyse.md",
     "Weekkaarten/2026-W17.md",
+    "Challenge02/02 - Analyse/Probleemanalyse.pdf",
+    "Challenge02/Probleemanalyse.pdf",
+    "Challenge02/teamrollen.md",
+    "Challenge02/Probleemanalyse.md",
+    "Challenge02/06 - Transcriptions/gesprek 1",
+    "Challenge02/06 - Transcriptions/01 - Stakeholder/Kennismaken AI-groep S2.docx",
+    "Challenge02/06 - Transcriptions/01 - Stakeholder",
+    "Challenge02/06 - Transcriptions/AI-bot sessie.docx",
+    "Challenge02/06 - Transcriptions/Kennismaken AI-groep S2.docx",
+    "Challenge02/06 - Transcriptions/Transcripties/Kennismaken AI-groep S2.docx",
+    "Challenge02/06 - Transcriptions/Transcripties/AI-bot sessie.docx",
+    "Challenge02/Projectscope.md",
     "Weekkaarten/2026-W16.md",
     "Challenge01/IndividueelProject_1b/06 Personal Leaderschip/Van Teams Planner naar Jira - een praktijkgerichte verkenning van Scrum binnen een Datateam.md",
-    "Challenge01/IndividueelProject_1b/06 Personal Leaderschip/Van Teams Planner naar Jira - een praktijkgerichte verkenning van Scrum binnen een Datateam.pdf",
     "Pasted image 20260417144907.png",
     "Pasted image 20260417144855.png",
     "Pasted image 20260417144728.png",
     "Challenge01/IndividueelProject_1b/06 Personal Leaderschip/SEM02 Sprint 2 Reflectie.md",
-    "Challenge01/IndividueelProject_1b/06 Personal Leaderschip/SEM02 Sprint 2 Reflectie.pdf",
     "Challenge01/IndividueelProject_1b/01 Analyse/OK-Planning Kosten - Analyse.md",
     "Challenge01/IndividueelProject_1b/03 Realisation/Toelichting Dashboard.md",
     "Challenge01/IndividueelProject_1b/01 Analyse/OK-Planning Kosten - Eindadvies.md",
-    "Challenge01/IndividueelProject_1b/03 Realisation/Toelichting Dashboard.pdf",
     "Weekkaarten/2026-W15.md",
     "Weekkaarten/2026-W12.md",
     "Verzekeringen.md",
@@ -209,17 +235,10 @@
     "IST,SOLL,GAP.md",
     "Overdrachtsdocument - Technisch Tekenaar & GIS-Specialist.md",
     "Data Engineer Skills.md",
-    "Untitled",
     "Pasted Images/Pasted image 20260413083805.png",
     "Pasted Images/Pasted image 20260413083332.png",
     "Pasted Images/Pasted image 20260326191230.png",
     "Pasted Images/Pasted image 20260413083452.png",
-    "Pasted Images",
-    "Challenge01/IndividueelProject_1b/03 Realisation/DashboardVersie2_0.zip",
-    "Challenge01/IndividueelProject_1b/03 Realisation/DashboardVersie2_0/DataModel",
-    "Challenge01/IndividueelProject_1b/03 Realisation/DashboardVersie2_0/Connections",
-    "Challenge01/IndividueelProject_1b/03 Realisation/DashboardVersie2_0/SecurityBindings",
-    "Challenge01/IndividueelProject_1b/03 Realisation/DashboardVersie2_0/Report/StaticResources/SharedResources/BaseThemes/CY26SU02.json",
     "Weekkaarten/2026-W13.md",
     "Weekkaarten/2026-W14.md",
     "Challenge01/IndividueelProject_1b/04 Manage & Control/Feedback Document.md",
@@ -227,9 +246,6 @@
     "Challenge01/IndividueelProject_1b/01 Analyse/OK-Planning Kosten - Definitief Business Analysis Document.md",
     "Challenge01/IndividueelProject_1b/03 Realisation/dashboardv4_2.png",
     "Challenge01/IndividueelProject_1b/03 Realisation/dashboardv4_1.png",
-    "Challenge01/IndividueelProject_1b/06 Personal Leaderschip/Boekverslag SQL and Relational Theory.md",
-    "Challenge01/IndividueelProject_1b/02 Design/Wireframe Dashboard.md",
-    "Challenge01/IndividueelProject_1b/05 Professional Standard/Professionele Communicatie - Procesregie.md",
     "Challenge01/IndividueelProject_1b/03 Realisation/dashboardv3_2.png"
   ]
 }
