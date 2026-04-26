@@ -8,34 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4f4289ef89f1c62c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Challenge01/IndividueelProject_1b/06 Personal Leaderschip/Van Teams Planner naar Jira - een praktijkgerichte verkenning van Scrum binnen een Datateam.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Van Teams Planner naar Jira - een praktijkgerichte verkenning van Scrum binnen een Datateam"
-            }
-          },
-          {
-            "id": "a1ae5b2ffe3bf081",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Weekkaarten/2026-W16.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "2026-W16"
-            }
-          },
-          {
             "id": "7abc90014cf413af",
             "type": "leaf",
             "state": {
@@ -49,8 +21,7 @@
               "title": "2026-W17"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -216,8 +187,10 @@
   },
   "active": "7abc90014cf413af",
   "lastOpenFiles": [
-    "Weekkaarten/2026-W16.md",
+    "Challenge02/teamrollen.md",
+    "Challenge02/Projectscope.md",
     "Weekkaarten/2026-W17.md",
+    "Weekkaarten/2026-W16.md",
     "Challenge01/IndividueelProject_1b/06 Personal Leaderschip/Van Teams Planner naar Jira - een praktijkgerichte verkenning van Scrum binnen een Datateam.md",
     "Challenge01/IndividueelProject_1b/06 Personal Leaderschip/Van Teams Planner naar Jira - een praktijkgerichte verkenning van Scrum binnen een Datateam.pdf",
     "Pasted image 20260417144907.png",
