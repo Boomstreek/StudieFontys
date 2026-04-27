@@ -8,35 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "95d1bfddcb8604f1",
+            "id": "63f403fc196ee6af",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Challenge02/02 - Analyse/Probleemanalyse.md",
+                "file": "Weekkaarten/2026-W18.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Probleemanalyse"
-            }
-          },
-          {
-            "id": "7e58bd54e2193e86",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Challenge02/01 - Projectmanagement/Teamrollen.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Teamrollen"
+              "title": "2026-W18"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -200,26 +185,29 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "7e58bd54e2193e86",
+  "active": "63f403fc196ee6af",
   "lastOpenFiles": [
-    "Challenge02/01 - Projectmanagement/Projectscope.md",
-    "Challenge02/01 - Projectmanagement/Teamrollen.md",
-    "Challenge02/01 - Projectmanagement/Projectscope.pdf",
-    "Challenge02/02 - Analyse/Probleemanalyse.md",
     "Weekkaarten/2026-W17.md",
+    "Weekkaarten/2026-W16.md",
+    "Weekkaarten/2026-W18.md",
+    "Challenge02/01 - Projectmanagement/Teamrollen.md",
+    "Challenge02/06 - Transcriptions en Agenda's/Dinsdag 28-04-2026 Agenda.md",
+    "Challenge02/06 - Transcriptions en Agenda's/Dinsdag 28-04-2026 Agenda.pdf",
+    "Challenge02/02 - Analyse/Probleemanalyse.md",
+    "Challenge02/06 - Transcriptions/Dinsdag 28-04-2026 Agenda.md",
+    "Challenge02/06 - Transcriptions en Agenda's/01 - Stakeholder/Kennismaken AI-groep S2.docx",
+    "Challenge02/06 - Transcriptions en Agenda's/gesprek 1",
+    "Challenge02/06 - Transcriptions en Agenda's/AI-bot sessie.docx",
+    "Challenge02/06 - Transcriptions en Agenda's/01 - Stakeholder",
+    "Challenge02/06 - Transcriptions en Agenda's",
+    "Challenge02/01 - Projectmanagement/Teamrollen.pdf",
+    "Challenge02/01 - Projectmanagement/Projectscope.md",
+    "Challenge02/01 - Projectmanagement/Projectscope.pdf",
     "Challenge02/02 - Analyse/Probleemanalyse.pdf",
     "Challenge02/Probleemanalyse.pdf",
     "Challenge02/teamrollen.md",
     "Challenge02/Probleemanalyse.md",
-    "Challenge02/06 - Transcriptions/gesprek 1",
-    "Challenge02/06 - Transcriptions/01 - Stakeholder/Kennismaken AI-groep S2.docx",
-    "Challenge02/06 - Transcriptions/01 - Stakeholder",
-    "Challenge02/06 - Transcriptions/AI-bot sessie.docx",
-    "Challenge02/06 - Transcriptions/Kennismaken AI-groep S2.docx",
-    "Challenge02/06 - Transcriptions/Transcripties/Kennismaken AI-groep S2.docx",
-    "Challenge02/06 - Transcriptions/Transcripties/AI-bot sessie.docx",
     "Challenge02/Projectscope.md",
-    "Weekkaarten/2026-W16.md",
     "Challenge01/IndividueelProject_1b/06 Personal Leaderschip/Van Teams Planner naar Jira - een praktijkgerichte verkenning van Scrum binnen een Datateam.md",
     "Pasted image 20260417144907.png",
     "Pasted image 20260417144855.png",
@@ -242,8 +230,6 @@
     "Weekkaarten/2026-W13.md",
     "Weekkaarten/2026-W14.md",
     "Challenge01/IndividueelProject_1b/04 Manage & Control/Feedback Document.md",
-    "Challenge01/IndividueelProject_1b/01 Analyse/Invalshoek.md",
-    "Challenge01/IndividueelProject_1b/01 Analyse/OK-Planning Kosten - Definitief Business Analysis Document.md",
     "Challenge01/IndividueelProject_1b/03 Realisation/dashboardv4_2.png",
     "Challenge01/IndividueelProject_1b/03 Realisation/dashboardv4_1.png",
     "Challenge01/IndividueelProject_1b/03 Realisation/dashboardv3_2.png"

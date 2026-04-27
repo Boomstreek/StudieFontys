@@ -1,7 +1,7 @@
 ## Metadata
 **Author: ** Bram Wieringa
-**Date: ** 26-04-2026
-**Version: ** 1.1
+**Date: ** 27-04-2026
+**Version: ** 1.2
 **Dependencies: ** 
 - Probleemanalyse versie 1.0
 
@@ -60,7 +60,6 @@ _Belangrijk, maar niet strikt noodzakelijk om te slagen._
 - Mogelijkheid om contactgegevens achter te laten via:
     - naam en e-mailadres
     - of naam en telefoonnummer
-- Conceptuele uitwerking van het businessmodel
 - Visuele of tekstuele toelichting van het matchingproces
 - De chatbot is geschikt voor ondersteunend gebruik door professionals zoals welzijnswerkers of zorgprofessionals
 
@@ -81,6 +80,7 @@ _Wenselijk, maar alleen indien tijd en capaciteit dit toelaten._
 _Bewust buiten de scope van dit project gehouden._
 
 - Samenvoeging van de twee gespreksmodellen tot één nieuw model of het uitwerken van het tweede gespreksmodel
+- Conceptuele uitwerking van het businessmodel
 - Automatisch ophalen of scrapen van actueel aanbod
 - Gebruik van echte gemeentelijke, zorg- of medische data
 - Opslag of verwerking van medische gegevens

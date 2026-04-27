@@ -2,10 +2,10 @@
 
 ### AI-chatbot Sociaal Knooppunt
 **Author: ** Bram Wieringa
-**Date: ** 26-04-2026
+**Date: ** 27-04-2026
 **Version: ** 1.0
 **Dependencies: ** 
-- Projectscope versie 1.1
+- Projectscope versie 1.2
 
 ### Inleiding
 
@@ -26,20 +26,16 @@ De Product Owner is verantwoordelijk voor de inhoudelijke richting van het proje
 **Taken:**
 
 - Bijhouden en bewaken van de projectscope
-- Opstellen en prioriteren van de backlog
+- Opstellen en prioriteren van de backlog.
 - Afstemming met de opdrachtgever (Carla Renders)
 - Bewaken dat het team de "waarom" niet uit het oog verliest
 - Definitief beslissen wanneer een onderdeel voldoet aan de Definition of Done
-
-**Geschikt voor:** student met specialisatie Business & Data _kanttekening aanstaande ouderschap, dit goed bespreken en samen of een oplossing vinden mocht het misgaan en ik me voltijd moet foccussen op mijn gezin, bijvoorbeeld reserve instellen of b gezamlijk akkoord gaan _
-
----
 
 #### Technisch Lead
 
 **Aantal:** 1
 
-De Technisch Lead zorgt dat de technische onderdelen van de twee Scrumteams goed op elkaar aansluiten. Hij of zij heeft overzicht over de volledige technische architectuur en signaleert tijdig wanneer keuzes van het ene team invloed hebben op het andere. De Technisch Lead bouwt zelf mee, maar heeft ook een coördinerende rol.
+De Technisch Lead zorgt dat de technische onderdelen van de twee Scrumteams goed op elkaar aansluiten. Hij heeft overzicht over de volledige technische architectuur en signaleert tijdig wanneer keuzes van het ene team invloed hebben op het andere. De Technisch Lead bouwt zelf mee, maar heeft ook een coördinerende rol.
 
 **Taken:**
 
@@ -48,10 +44,6 @@ De Technisch Lead zorgt dat de technische onderdelen van de twee Scrumteams goed
 - Afstemming tussen de twee Scrumteams op technisch vlak
 - Beoordelen van technische keuzes en deze documenteren
 - Aanspreekpunt voor technische vragen vanuit beide teams
-
-**Geschikt voor:** student met specialisatie AI of Software
-
----
 
 #### Scrum Master
 
@@ -67,15 +59,11 @@ De Scrum Master zorgt dat het Scrumproces goed verloopt. Hij of zij organiseert 
 - Bewaken dat het team op koers blijft met de planning
 - Notulen of samenvattingen bijhouden van overlegmomenten
 
-**Geschikt voor:** elke specialisatie, bij voorkeur iemand die overzicht houdt en communicatief sterk is
-
----
-
 ### Scrumteam 1 – AI & Gesprekslogica
 
 Dit team is verantwoordelijk voor de kern van de chatbot: het gesprek zelf, de gesprekslogica op basis van het gekozen model en de matchinglogica.
 
-**Samenstelling:** 3–4 studenten met specialisatie AI
+**Samenstelling:** 4 studenten met specialisatie AI
 
 **Verantwoordelijkheden:**
 
@@ -86,7 +74,13 @@ Dit team is verantwoordelijk voor de kern van de chatbot: het gesprek zelf, de g
 - Opstellen van persona's en een voorbeeldgesprek (happy flow)
 - Testen van de gesprekslogica en matchingkwaliteit
 
----
+#### Subrollen Team 1
+- **Board Owner** - Houdt het Jira-board bij voor dit team en zorgt ervoor dat taken actueel en correct zijn ingevuld.
+- **Backlog-vertegenwoordiger** - Zorgt ervoor dat user stories verticaal gesliced worden, in samenwerking met de Product Owner.
+- **Gespreksmodel-eigenaar** - Verantwoordelijk voor de systeemprompt en bewaakt dat het gekozen gespreksmodel correct wordt toegepast.
+- **Matching-eigenaar** - Verantwoordelijk voor de matchinglogica en de synthetische dataset.
+- **Testeigenaar** - Verantwoordelijk voor het testen van de gesprekslogica en de matchingkwaliteit.
+- **Documentatie-eigenaar** - Verantwoordelijk voor het bijhouden van de technische documentatie van Team 1, zoals de onderbouwing van de LLM-keuze, de werking van de systeemprompt en het matchingproces. Zorgt dat deze documentatie overdraagbaar is aan een volgende studentengroep.
 
 ### Scrumteam 2 – Software, Infrastructuur & Data
 
@@ -113,33 +107,22 @@ Dit team is verantwoordelijk voor de technische omgeving waarin de chatbot draai
         - aantal gesprekken gevoerd
         - meest voorgestelde activiteiten
         - type gebruikersvragen
-    - Conceptuele uitwerking van het businessmodel
     - Ondersteunen van de Product Owner bij scopebewaking
 
----
-
-### Overzicht
-
-|Rol|Specialisatie|Scrumteam|
-|---|---|---|
-|Product Owner|Business & Data|Overkoepelend|
-|Technisch Lead|AI of Software|Overkoepelend|
-|Scrum Master|Vrij|Overkoepelend|
-|AI-ontwikkelaar (3x)|AI|Team 1|
-|Softwareontwikkelaar (2x)|Software|Team 2|
-|Infrastructuur|Infrastructuur|Team 2|
-|Business & Data|Business & Data|Team 2|
-
----
+#### Subrollen team 2
+- **Board Owner** - Houdt het Jira-board bij voor dit team en zorgt ervoor dat taken actueel en correct zijn ingevuld.
+- **Backlog-vertegenwoordiger** - Zorgt ervoor dat user stories verticaal gesliced worden, in samenwerking met de Product Owner.
+- **Frontend-eigenaar** - Verantwoordelijk voor de chatbot interface. _(Notitie: Sahel wilt dit graag maar is AI student. Dinsdag bespreken.)_
+- **Backend-eigenaar** - Verantwoordelijk voor de koppeling tussen de frontend en de AI-backend.
+- **Infrastructuur-eigenaar** - Verantwoordelijk voor de hostingopzet en privacy by design binnen de technische architectuur.
+- **Data & Dashboard-eigenaar** - Verantwoordelijk voor het dashboard en de inzichten voor de opdrachtgever.
 
 ### Aandachtspunten
 
 - De Product Owner is het enige aanspreekpunt richting de opdrachtgever, tenzij anders afgesproken. Dit voorkomt verwarring over wie wat heeft beloofd.
-- De Technisch Lead heeft geen doorslaggevende stem over inhoudelijke keuzes — dat is de Product Owner. Wel heeft de Technisch Lead een veto op technische keuzes die de architectuur of overdraagbaarheid in gevaar brengen.
+- De Technisch Lead heeft de definitieve stem over technische en inhoudelijke keuzes binnen het bouwwerk. De Product Owner heeft de definitieve stem over prioriteiten, scope en wat er opgeleverd wordt richting de opdrachtgever. Bij grote keuzes die beide raken, zoals de keuze van het gespreksmodel, beslissen zij samen. Komen zij er niet uit, dan heeft de Product Owner de doorslaggevende stem.
 - Beide Scrumteams werken in dezelfde sprintcyclus en komen minimaal één keer per sprint samen met de volledige projectgroep om voortgang te bespreken en af te stemmen.
 - De Scrum Master bewaakt actief dat het team niet alleen bezig is met bouwen, maar ook nadenkt over de "waarom" achter elke keuze. Dit is essentieel voor de documentatie en de overdracht.
-
----
 
 ### Bronnen
 
