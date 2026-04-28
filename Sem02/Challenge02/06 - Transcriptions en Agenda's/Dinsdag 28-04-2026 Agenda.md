@@ -4,7 +4,9 @@
 
 **Datum:** Dinsdag 29 april 2026 
 **Locatie:** Teams
-**Aanwezig:**  Nick, Jurgen, Vikas, Sahel, Robert, Tutai, Irsad, Bram
+**Aanwezig:**  Robert, Tutai, Jurgen, Bram, Irshad (later)
+Niet: Sahel, Vikas, Nick
+ 
 **Transcriptie:** zet transcriptie aan bij opening
 
 ### 1. Opening
