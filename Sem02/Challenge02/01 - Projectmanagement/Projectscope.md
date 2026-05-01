@@ -111,6 +111,7 @@ Fontys Hogeschool ICT. (2026, 21 april). _Kennismakingsgesprek AI-groep S2_ [Ver
 
 Fontys Hogeschool ICT. (2026, 23 april). _AI-bot sessie_ [Vergaderingstranscriptie].
 
+
 Instituut voor Positieve Gezondheid. (z.d.). _Positieve Gezondheid_. Geraadpleegd op 26 april 2026, van [https://www.iph.nl](https://www.iph.nl)
 
 Stichting Richter Education. (z.d.). _Leergebied® Gezond_. Geraadpleegd op 26 april 2026, van [https://www.richter.education](https://www.richter.education)

@@ -1,11 +1,12 @@
 ## Rollen & Teamstructuur
 
-### AI-chatbot Sociaal Knooppunt
+### Metadata
 **Author: ** Bram Wieringa
-**Date: ** 27-04-2026
-**Version: ** 1.0
+**Date: ** 01-05-2026
+**Version: ** 1.1
 **Dependencies: ** 
 - Projectscope versie 1.2
+- Trancriptie: 2026-04-28 Projectoverleg rolverdeling en teamindeling.docx
 
 ### Inleiding
 
@@ -13,9 +14,11 @@ Dit document beschrijft de teamstructuur en rolverdeling voor het project. De gr
 
 De reden voor deze structuur is dat de specialisaties van de studenten sterk van elkaar verschillen. Zonder duidelijke rolverdeling bestaat het risico dat iedereen zich verliest in zijn eigen onderdeel, terwijl het eindproduct alleen werkt als alle onderdelen goed op elkaar aansluiten.
 
-### Overkoepelende projectrollen
+### Stuurgroep
 
-Deze rollen gelden voor het gehele project en staan boven de twee Scrumteams.
+Deze rollen gelden voor het gehele project en staan boven de scrumteams. 
+
+Het voorstel is om na het derde inlevermoment van dit semester de rollen opnieuw te verdelen, zodat andere teamleden de resterende periode de rol vervullen. Dit gebeurt alleen als zowel medestudenten als de betrokken docent(en) dit zinvol achten.
 
 #### Product Owner
 
@@ -41,7 +44,7 @@ De Technisch Lead zorgt dat de technische onderdelen van de twee Scrumteams goed
 
 - Bewaken van de technische architectuur als geheel
 - Zorgen dat de AI-stack, backend en infrastructuur op elkaar aansluiten
-- Afstemming tussen de twee Scrumteams op technisch vlak
+- Afstemming tussen de scrum teams op technisch vlak
 - Beoordelen van technische keuzes en deze documenteren
 - Aanspreekpunt voor technische vragen vanuit beide teams
 
@@ -59,63 +62,30 @@ De Scrum Master zorgt dat het Scrumproces goed verloopt. Hij of zij organiseert 
 - Bewaken dat het team op koers blijft met de planning
 - Notulen of samenvattingen bijhouden van overlegmomenten
 
-### Scrumteam 1 – AI & Gesprekslogica
+### Scrumteams
+De scrumteams zijn ingedeeld op basis van topic, waarbij topic overeenkomt met de specialisatierichting van de opleiding. Dit zorgt ervoor dat elk teamlid werkt vanuit zijn of haar eigen vakgebied en dat de sprint planning en sturing zo dicht mogelijk aansluit bij de individuele leerdoelen van deze periode.
 
-Dit team is verantwoordelijk voor de kern van de chatbot: het gesprek zelf, de gesprekslogica op basis van het gekozen model en de matchinglogica.
+Er zijn vier scrumteams:
 
-**Samenstelling:** 4 studenten met specialisatie AI
+- **AI** - 3 studenten
+- **Software** - 3 studenten
+- **Infrastructuur** - 1 student
+- **Business & Data** -1 student
 
-**Verantwoordelijkheden:**
+De scrumteams zijn zelfsturend. Zij ontvangen user stories vanuit de stuurgroep, bestaande uit de Product Owner, de Technisch Lead en de Scrum Master, en zijn zelf verantwoordelijk voor backlog refinement en uitvoering binnen hun eigen team. De sprintplanning wordt globaal opgepakt door de stuurgroep.
 
-- Uitwerken van de systeemprompt op basis van het gekozen gespreksmodel (Positieve Gezondheid of Het Leefstijlroer)
-- Opzetten van de AI-stack (LLM-keuze, RAG-architectuur)
-- Ontwikkelen van de matchinglogica
-- Opstellen van synthetische data (activiteiten, aanbieders, locaties)
-- Opstellen van persona's en een voorbeeldgesprek (happy flow)
-- Testen van de gesprekslogica en matchingkwaliteit
+Alle teams werken op hetzelfde gezamenlijke Jira scrumboard. De Scrum Master beheert dit board en is verantwoordelijk voor het overzicht. Elk team is zelf verantwoordelijk voor de documentatie die nodig is voor de overdracht aan een volgende groep. De Scrum Master bewaakt de voortgang hiervan en bespreekt dit periodiek met de stuurgroep.
 
-#### Subrollen Team 1
-- **Board Owner** - Houdt het Jira-board bij voor dit team en zorgt ervoor dat taken actueel en correct zijn ingevuld.
-- **Backlog-vertegenwoordiger** - Zorgt ervoor dat user stories verticaal gesliced worden, in samenwerking met de Product Owner.
-- **Gespreksmodel-eigenaar** - Verantwoordelijk voor de systeemprompt en bewaakt dat het gekozen gespreksmodel correct wordt toegepast.
-- **Matching-eigenaar** - Verantwoordelijk voor de matchinglogica en de synthetische dataset.
-- **Testeigenaar** - Verantwoordelijk voor het testen van de gesprekslogica en de matchingkwaliteit.
-- **Documentatie-eigenaar** - Verantwoordelijk voor het bijhouden van de technische documentatie van Team 1, zoals de onderbouwing van de LLM-keuze, de werking van de systeemprompt en het matchingproces. Zorgt dat deze documentatie overdraagbaar is aan een volgende studentengroep.
+#### Subrollen per scrumteam
+Elk scrumteam benoemt een aantal subrollen. Deze rollen functioneren als verlengstuk van de stuurgroep, ze zorgen voor een duidelijk aanspreekpunt per team zonder dat de stuurgroep elk detail hoeft bij te houden. De subrollen mogen per sprint wisselen. 
 
-### Scrumteam 2 – Software, Infrastructuur & Data
+Elk scrumteam benoemt de volgende rollen:
 
-Dit team is verantwoordelijk voor de technische omgeving waarin de chatbot draait, de koppeling met de frontend en het dashboard voor de opdrachtgever.
+**Board Owner** - aanspreekpunt voor de Scrum Master. Houdt het Jira-board actueel voor het eigen team en signaleert wanneer taken vastlopen of onduidelijk zijn.
 
-**Samenstelling:**
+**Backlog-vertegenwoordiger** - aanspreekpunt voor de Product Owner. Zorgt dat user stories voor het team voldoende uitgewerkt zijn voordat een sprint begint.
 
-- 2 studenten met specialisatie Software
-- 1 student met specialisatie Infrastructuur
-- 1 student met specialisatie Business & Data
-
-**Verantwoordelijkheden:**
-
-- **Software (programmeurs):**
-    - Bouwen van de web-based chatbot interface
-    - Koppeling tussen frontend en AI-backend
-    - Zorgen dat het prototype zelfstandig draait en bereikbaar is
-- **Infrastructuur:**
-    - Uitwerken van de hostingarchitectuur (theoretisch en praktisch voor het prototype)
-    - Borgen van privacy by design in de technische opzet
-    - Documenteren van de infrastructuurkeuzes voor overdracht
-- **Business & Data:**
-    - Ontwerpen en bouwen van een dashboard met inzichten voor de opdrachtgever, zoals:
-        - aantal gesprekken gevoerd
-        - meest voorgestelde activiteiten
-        - type gebruikersvragen
-    - Ondersteunen van de Product Owner bij scopebewaking
-
-#### Subrollen team 2
-- **Board Owner** - Houdt het Jira-board bij voor dit team en zorgt ervoor dat taken actueel en correct zijn ingevuld.
-- **Backlog-vertegenwoordiger** - Zorgt ervoor dat user stories verticaal gesliced worden, in samenwerking met de Product Owner.
-- **Frontend-eigenaar** - Verantwoordelijk voor de chatbot interface. _(Notitie: Sahel wilt dit graag maar is AI student. Dinsdag bespreken.)_
-- **Backend-eigenaar** - Verantwoordelijk voor de koppeling tussen de frontend en de AI-backend.
-- **Infrastructuur-eigenaar** - Verantwoordelijk voor de hostingopzet en privacy by design binnen de technische architectuur.
-- **Data & Dashboard-eigenaar** - Verantwoordelijk voor het dashboard en de inzichten voor de opdrachtgever.
+**Documentatie-eigenaar** - aanspreekpunt voor de Technisch Lead. Bewaakt dat de documentatie van het team actueel en overdraagbaar is voor een volgende groep.
 
 ### Aandachtspunten
 
@@ -129,3 +99,5 @@ Dit team is verantwoordelijk voor de technische omgeving waarin de chatbot draai
 Anthropic. (2026). _Claude Sonnet 4.6_ [Large language model]. Gebruikt als AI-assistent bij het opstellen van dit document. [https://www.anthropic.com](https://www.anthropic.com)
 
 Fontys Hogeschool ICT. (2026, 23 april). _AI-bot sessie_ [Vergaderingstranscriptie].
+
+Fontys Hogeschool ICT. (2026, 28 april). _Projectoverleg rolverdeling en teamindeling_ [Vergaderingstranscriptie].

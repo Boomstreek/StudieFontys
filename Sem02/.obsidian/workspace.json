@@ -8,7 +8,35 @@
         "type": "tabs",
         "children": [
           {
-            "id": "63f403fc196ee6af",
+            "id": "386da0ed84bce02d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Challenge02/05 - Validation/Feedback Document.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Feedback Document"
+            }
+          },
+          {
+            "id": "92f0bcf2a53cc37e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Challenge02/01 - Projectmanagement/Technisch Samenwerkingsdocument.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Technisch Samenwerkingsdocument"
+            }
+          },
+          {
+            "id": "accac8749716f7ef",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,65 +48,9 @@
               "icon": "lucide-file",
               "title": "2026-W18"
             }
-          },
-          {
-            "id": "386da0ed84bce02d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Challenge02/01 - Projectmanagement/Projectscope.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Projectscope"
-            }
-          },
-          {
-            "id": "92f0bcf2a53cc37e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Challenge02/01 - Projectmanagement/Teamrollen.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Teamrollen"
-            }
-          },
-          {
-            "id": "f66a831dbc7659b5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Challenge02/02 - Analyse/Probleemanalyse.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Probleemanalyse"
-            }
-          },
-          {
-            "id": "cfaa89003248e33d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Challenge02/06 - Transcriptions en Agenda's/Dinsdag 28-04-2026 Agenda.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Dinsdag 28-04-2026 Agenda"
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -242,13 +214,20 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "cfaa89003248e33d",
+  "active": "accac8749716f7ef",
   "lastOpenFiles": [
-    "Challenge02/02 - Analyse/Probleemanalyse.md",
-    "Challenge02/01 - Projectmanagement/Projectscope.md",
+    "Challenge02/01 - Projectmanagement/Technisch Samenwerkingsdocument.md",
     "Weekkaarten/2026-W18.md",
+    "Challenge02/01 - Projectmanagement/Technisch Samenwerkingsdocument.pdf",
+    "Challenge02/05 - Validation/Feedback Document.md",
     "Challenge02/01 - Projectmanagement/Teamrollen.md",
     "Challenge02/06 - Transcriptions en Agenda's/Dinsdag 28-04-2026 Agenda.md",
+    "Challenge02/01 - Projectmanagement/Projectscope.md",
+    "Challenge01/IndividueelProject_1b/04 Manage & Control/Feedback Document.md",
+    "Challenge02/Portfolio",
+    "Challenge02/06 - Transcriptions en Agenda's/2026-04-28 Projectoverleg rolverdeling en teamindeling.docx",
+    "Challenge02/06 - Transcriptions en Agenda's/Unconfirmed 138306.crdownload",
+    "Challenge02/02 - Analyse/Probleemanalyse.md",
     "Weekkaarten/2026-W17.md",
     "Weekkaarten/2026-W16.md",
     "Challenge02/06 - Transcriptions en Agenda's/Dinsdag 28-04-2026 Agenda.pdf",
@@ -258,10 +237,6 @@
     "Challenge02/06 - Transcriptions en Agenda's/AI-bot sessie.docx",
     "Challenge02/06 - Transcriptions en Agenda's/01 - Stakeholder",
     "Challenge02/06 - Transcriptions en Agenda's",
-    "Challenge02/01 - Projectmanagement/Teamrollen.pdf",
-    "Challenge02/01 - Projectmanagement/Projectscope.pdf",
-    "Challenge02/02 - Analyse/Probleemanalyse.pdf",
-    "Challenge02/Probleemanalyse.pdf",
     "Challenge02/teamrollen.md",
     "Challenge02/Probleemanalyse.md",
     "Challenge02/Projectscope.md",
@@ -279,14 +254,10 @@
     "Technische Keuring.md",
     "IST,SOLL,GAP.md",
     "Overdrachtsdocument - Technisch Tekenaar & GIS-Specialist.md",
-    "Data Engineer Skills.md",
     "Pasted Images/Pasted image 20260413083805.png",
     "Pasted Images/Pasted image 20260413083332.png",
     "Pasted Images/Pasted image 20260326191230.png",
     "Pasted Images/Pasted image 20260413083452.png",
-    "Weekkaarten/2026-W13.md",
-    "Weekkaarten/2026-W14.md",
-    "Challenge01/IndividueelProject_1b/04 Manage & Control/Feedback Document.md",
     "Challenge01/IndividueelProject_1b/03 Realisation/dashboardv4_2.png",
     "Challenge01/IndividueelProject_1b/03 Realisation/dashboardv4_1.png",
     "Challenge01/IndividueelProject_1b/03 Realisation/dashboardv3_2.png"
