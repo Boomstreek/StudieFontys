@@ -1,7 +1,7 @@
 ## Metadata
 **Author: ** Bram Wieringa
-**Date: ** 27-04-2026
-**Version: ** 1.2
+**Date: ** 02-05-2026
+**Version: ** 1.3
 **Dependencies: ** 
 - Probleemanalyse versie 1.0
 
@@ -91,7 +91,7 @@ _Bewust buiten de scope van dit project gehouden._
 - Native mobiele apps (iOS / Android)
 - Actieve betalingsafhandeling met aanbieders
 - Volledig actueel en dekkend activiteitenoverzicht van gemeente Boxtel
-- Alles en volledig wat betrekking heeft, in de breedste zin, op cybersecutiry (controleren)
+- Volledige inrichting, auditing en garantie van cybersecurity-maatregelen.
 
 
 ### Definition of Done
@@ -112,7 +112,6 @@ Anthropic. (2026). _Claude Sonnet 4.6_ [Large language model]. Gebruikt als AI-a
 Fontys Hogeschool ICT. (2026, 21 april). _Kennismakingsgesprek AI-groep S2_ [Vergaderingstranscriptie].
 
 Fontys Hogeschool ICT. (2026, 23 april). _AI-bot sessie_ [Vergaderingstranscriptie].
-
 
 Instituut voor Positieve Gezondheid. (z.d.). _Positieve Gezondheid_. Geraadpleegd op 26 april 2026, van [https://www.iph.nl](https://www.iph.nl)
 

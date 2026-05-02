@@ -6,6 +6,8 @@
 - Projectscope versie 1.2
 - Teamrollen versie 1.1
 
+Dit document komt te vervangen. Ik heb het gemaakt omdat ik een aantal problemen / uitdagingen zie aankomen maar na dit besproken te hebben met Nick en Jurgen ben ik het eens met hun feedback dat we er gewoon tegen aan moeten lopen. We kunnen / we zijn nog niet goed gegneog om alles vooraf af te vangen.
+
 ## Inleiding
 
 Dit document beschrijft hoe de scrumteams samenwerken op technische onderdelen die niet onder één enkel team vallen. Per onderdeel is vastgelegd welk team verantwoordelijk is per fase. De Technisch Lead heeft eindverantwoordelijkheid over het geheel en is het eerste escalatiepunt bij onduidelijkheid over eigenaarschap.

@@ -22,17 +22,17 @@
             }
           },
           {
-            "id": "1312bf7d168f8262",
+            "id": "a841e4312eb2f073",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Challenge02/01 - Projectmanagement/Teamrollen.md",
+                "file": "Challenge02/06 - Transcriptions en Agenda's/02 - Stuurgroep/Actielijst Stuurgroep.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Teamrollen"
+              "title": "Actielijst Stuurgroep"
             }
           },
           {
@@ -69,16 +69,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Weekkaarten/2026-W18.md",
+                "file": "Challenge02/01 - Projectmanagement/Samenwerkingsdocument.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2026-W18"
+              "title": "Samenwerkingsdocument"
+            }
+          },
+          {
+            "id": "fd858332498be898",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Challenge02/01 - Projectmanagement/Samenwerkingsdocument.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Samenwerkingsdocument"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -242,15 +256,22 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "accac8749716f7ef",
+  "active": "fd858332498be898",
   "lastOpenFiles": [
-    "Challenge02/01 - Projectmanagement/Technisch Samenwerkingsdocument.md",
-    "Challenge02/01 - Projectmanagement/Projectscope.md",
-    "Weekkaarten/2026-W18.md",
+    "Challenge02/01 - Projectmanagement/Samenwerkingsdocument.pdf",
     "Challenge02/01 - Projectmanagement/Teamrollen.md",
+    "Challenge02/01 - Projectmanagement/Samenwerkingsdocument.md",
+    "Challenge02/01 - Projectmanagement/Projectscope.md",
+    "Challenge02/01 - Projectmanagement/Projectscope.pdf",
+    "Weekkaarten/2026-W18.md",
     "Challenge02/05 - Validation/Feedback Document.md",
-    "Challenge02/01 - Projectmanagement/Technisch Samenwerkingsdocument.pdf",
+    "Challenge02/06 - Transcriptions en Agenda's/02 - Stuurgroep/Actielijst Stuurgroep.pdf",
+    "Challenge02/06 - Transcriptions en Agenda's/02 - Stuurgroep/02-05-2026 Actielijst.pdf",
+    "Challenge02/06 - Transcriptions en Agenda's/02 - Stuurgroep/Actielijst Stuurgroep.md",
+    "Challenge02/01 - Projectmanagement/Technisch Samenwerkingsdocument.md",
     "Challenge02/06 - Transcriptions en Agenda's/Dinsdag 28-04-2026 Agenda.md",
+    "Challenge02/06 - Transcriptions en Agenda's/02 - Stuurgroep",
+    "Challenge02/01 - Projectmanagement/Technisch Samenwerkingsdocument.pdf",
     "Challenge01/IndividueelProject_1b/04 Manage & Control/Feedback Document.md",
     "Challenge02/Portfolio",
     "Challenge02/06 - Transcriptions en Agenda's/2026-04-28 Projectoverleg rolverdeling en teamindeling.docx",
@@ -261,10 +282,6 @@
     "Challenge02/06 - Transcriptions en Agenda's/Dinsdag 28-04-2026 Agenda.pdf",
     "Challenge02/06 - Transcriptions/Dinsdag 28-04-2026 Agenda.md",
     "Challenge02/06 - Transcriptions en Agenda's/01 - Stakeholder/Kennismaken AI-groep S2.docx",
-    "Challenge02/06 - Transcriptions en Agenda's/gesprek 1",
-    "Challenge02/06 - Transcriptions en Agenda's/AI-bot sessie.docx",
-    "Challenge02/06 - Transcriptions en Agenda's/01 - Stakeholder",
-    "Challenge02/06 - Transcriptions en Agenda's",
     "Challenge02/teamrollen.md",
     "Challenge02/Probleemanalyse.md",
     "Challenge02/Projectscope.md",
@@ -280,8 +297,6 @@
     "Weekkaarten/2026-W12.md",
     "Verzekeringen.md",
     "Technische Keuring.md",
-    "IST,SOLL,GAP.md",
-    "Overdrachtsdocument - Technisch Tekenaar & GIS-Specialist.md",
     "Pasted Images/Pasted image 20260413083805.png",
     "Pasted Images/Pasted image 20260413083332.png",
     "Pasted Images/Pasted image 20260326191230.png",
