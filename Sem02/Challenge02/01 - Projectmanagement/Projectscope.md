@@ -5,7 +5,7 @@
 **Dependencies: ** 
 - Probleemanalyse versie 1.0
 
-## Projectscope – MoSCoW
+## Projectscope - MoSCoW
 
 ### AI-chatbot Sociaal Knooppunt
 
@@ -30,7 +30,6 @@ _Essentieel – zonder deze onderdelen is het project niet geslaagd._
     - Positieve Gezondheid (Instituut voor Positieve Gezondheid)
     - of Het Leefstijlroer (Vereniging Arts en Leefstijl)
 - De chatbot:
-    - communiceert in het Nederlands op taalniveau B1
     - toont na afronding maximaal drie meest passende activiteiten
     - is anoniem te gebruiken
     - vraagt uitsluitend contactgegevens wanneer de gebruiker daar zelf expliciet om verzoekt
@@ -39,23 +38,24 @@ _Essentieel – zonder deze onderdelen is het project niet geslaagd._
     - belemmeringen van de gebruiker
     - leefstijl- en welzijnsvariabelen
 - Voor alle benodigde data wordt synthetische (fictieve) data gebruikt
-- Primaire doelgroep: inwoners van gemeente Boxtel (15–99 jaar)
-- - Er worden minimaal twee persona's opgesteld:
+- Primaire doelgroep: inwoners van gemeente Boxtel (15-99 jaar)
+- Er worden minimaal twee persona's opgesteld:
     - inwoner (primair)
     - welzijnswerker (secundair)
-- Het prototype draait zelfstandig en is bereikbaar via of gelinkt vanaf de website van Sociaal Knooppunt
+- Het prototype draait lokaal
 - Privacy by design is geborgd binnen de grenzen van een proof of concept:
     - de chatbot verwerkt geen medische gegevens
     - persoonsgegevens worden alleen gevraagd bij een expliciete contactaanvraag
 - Projectdocumentatie wordt opgeleverd met:
     - onderbouwing van ontwerp- en technische keuzes
     - beschrijving van het matchingproces
-    - voldoende informatie voor overdracht aan een volgende studentengroep
 
 ### Should have
 
 _Belangrijk, maar niet strikt noodzakelijk om te slagen._
 
+De chatbot:
+- communiceert in het Nederlands op taalniveau B1
 - De gebruiker krijgt inzicht in waarom een specifieke activiteit als match is voorgesteld
 - Mogelijkheid om contactgegevens achter te laten via:
     - naam en e-mailadres
@@ -72,7 +72,7 @@ _Wenselijk, maar alleen indien tijd en capaciteit dit toelaten._
 - Beperkte interne inzichten zoals:
     - type gestelde vragen
     - type gegenereerde matches
-- UX-verbeteringen in gespreksflow en volgorde van vragen
+- UX-verbeteringen in gespreksflow en volgorde van vragen. 
 - Voorbereidende ontwerpstap voor toekomstige meertaligheid
 
 ### Won't have
@@ -91,6 +91,8 @@ _Bewust buiten de scope van dit project gehouden._
 - Native mobiele apps (iOS / Android)
 - Actieve betalingsafhandeling met aanbieders
 - Volledig actueel en dekkend activiteitenoverzicht van gemeente Boxtel
+- Alles en volledig wat betrekking heeft, in de breedste zin, op cybersecutiry (controleren)
+
 
 ### Definition of Done
 

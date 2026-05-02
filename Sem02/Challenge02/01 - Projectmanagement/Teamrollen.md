@@ -47,6 +47,7 @@ De Technisch Lead zorgt dat de technische onderdelen van de twee Scrumteams goed
 - Afstemming tussen de scrum teams op technisch vlak
 - Beoordelen van technische keuzes en deze documenteren
 - Aanspreekpunt voor technische vragen vanuit beide teams
+- Controleren technische documentatie of dat goed opgeleverd kan worden. (is dit nodig)
 
 #### Scrum Master
 
