@@ -1,7 +1,7 @@
 ## Metadata
 **Author: ** Bram Wieringa
-**Date: ** 02-05-2026
-**Version: ** 1.3
+**Date: ** 04-05-2026
+**Version: ** 1.4
 **Dependencies: ** 
 - Probleemanalyse versie 1.0
 
@@ -27,10 +27,9 @@ _Essentieel – zonder deze onderdelen is het project niet geslaagd._
     - een gebruiker minimaal één volledig gesprek kan doorlopen
     - het gesprek resulteert in een aantoonbare match-output
 - Het gesprek is gestructureerd en gebaseerd op exact één erkend gespreksmodel:
-    - Positieve Gezondheid (Instituut voor Positieve Gezondheid)
-    - of Het Leefstijlroer (Vereniging Arts en Leefstijl)
+    -  Dat wordt Het Leefstijlroer van Vereniging Arts en Leefstijl.
 - De chatbot:
-    - toont na afronding maximaal drie meest passende activiteiten
+    - toont na afronding drie meest passende activiteiten
     - is anoniem te gebruiken
     - vraagt uitsluitend contactgegevens wanneer de gebruiker daar zelf expliciet om verzoekt
 - De matchinglogica werkt aantoonbaar op basis van:
@@ -49,6 +48,7 @@ _Essentieel – zonder deze onderdelen is het project niet geslaagd._
 - Projectdocumentatie wordt opgeleverd met:
     - onderbouwing van ontwerp- en technische keuzes
     - beschrijving van het matchingproces
+- Eenvoudig Nederlandse taalgebruik als uitgangspunt
 
 ### Should have
 
@@ -56,12 +56,19 @@ _Belangrijk, maar niet strikt noodzakelijk om te slagen._
 
 De chatbot:
 - communiceert in het Nederlands op taalniveau B1
+- Bij geen passende match kan, na toestemming van de inwoner, gekozen worden voor een nog niet bestaande activiteit, als drie inwoners dit aangeven, pakt de stichting dat op.
 - De gebruiker krijgt inzicht in waarom een specifieke activiteit als match is voorgesteld
 - Mogelijkheid om contactgegevens achter te laten via:
     - naam en e-mailadres
     - of naam en telefoonnummer
 - Visuele of tekstuele toelichting van het matchingproces
 - De chatbot is geschikt voor ondersteunend gebruik door professionals zoals welzijnswerkers of zorgprofessionals
+- Zo kort mogelijk gesprek i.v.m. kosten, met drie ingangen voor de gebruiker van de chatbot:
+    - Weet precies wat ik wil
+    - Weet een beetje wat ik wil
+    - Weet nog helemaal niet wat ik wil _(dan voeren we het volledige gesprek)_
+- Offline hulpfunctie: doorverwijzen naar een inloop om samen te doen (dit heeft voorkeur), of contact laten opnemen met de stichting. 
+- Logo van de stichting wordt toegevoegd  aan UX.
 
 ### Could have
 
@@ -99,7 +106,7 @@ _Bewust buiten de scope van dit project gehouden._
 Het project is afgerond wanneer:
 
 - een gebruiker zelfstandig een volledig gesprek kan voeren met de chatbot
-- de chatbot maximaal drie activiteiten toont
+- de chatbot drie activiteiten toont
 - de herkomst van de match inzichtelijk is
 - het prototype zelfstandig functioneert
 - alle ontwerp-, technische en scopekeuzes zijn gedocumenteerd

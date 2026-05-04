@@ -13,16 +13,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Weekkaarten/2026-W19.md",
+                "file": "Challenge02/01 - Projectmanagement/Projectscope.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2026-W19"
+              "title": "Projectscope"
             }
           },
           {
-            "id": "902551504ab72777",
+            "id": "6b007c8cfcb61854",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -200,30 +200,36 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "902551504ab72777",
+  "active": "6b007c8cfcb61854",
   "lastOpenFiles": [
-    "Challenge02/06 - Transcriptions en Agenda's/01 - Stakeholder/Mail contact/20260504.pdf",
-    "Challenge02/06 - Transcriptions en Agenda's/01 - Stakeholder/Mail contact/Gmail - Ai Chatbot Voorbereidende informatie.pdf",
-    "Challenge02/06 - Transcriptions en Agenda's/01 - Stakeholder/Mail contact",
+    "Challenge02/06 - Transcriptions en Agenda's/01 - Stakeholder/Telefonisch Contact/20260504 - Telefoongesprek Carla - Samenvatting.md",
+    "Challenge02/01 - Projectmanagement/Projectscope.md",
     "Weekkaarten/2026-W19.md",
+    "Challenge02/07 - Informatie verkregen via stakeholder/youtube_links.txt",
+    "Challenge02/07 - Informatie verkregen via stakeholder/Stappenplan gesprek Positieve Gezondheid_02.png",
+    "Challenge02/07 - Informatie verkregen via stakeholder/Dummy_Leefstijlroer_Leergebied_v02.png",
+    "Challenge02/07 - Informatie verkregen via stakeholder/A&L_Handleiding_Leefstijlroer_Dig.pdf",
+    "Challenge02/07 - Informatie verkregen via stakeholder/260504_Communicatietips_Spinnenweb_ZeewseZorgcoalitie_p14.pdf",
+    "Challenge02/07 - Informatie verkregen via stakeholder/260306_LeergebiedGezondBoxtel_klantreis01.jpg",
+    "Challenge02/07 - Informatie verkregen via stakeholder",
+    "Challenge02/07 - Bijlages Stakeholder/youtube_links.txt",
+    "Challenge02/07 - Bijlages Stakeholder/Stappenplan gesprek Positieve Gezondheid_02.png",
+    "Challenge02/07 - Bijlages Stakeholder/Dummy_Leefstijlroer_Leergebied_v02.png",
+    "Challenge02/07 - Bijlages Stakeholder/A&L_Handleiding_Leefstijlroer_Dig.pdf",
+    "Challenge02/07 - Bijlages Stakeholder/260504_Communicatietips_Spinnenweb_ZeewseZorgcoalitie_p14.pdf",
+    "Challenge02/07 - Bijlages Stakeholder/260306_LeergebiedGezondBoxtel_klantreis01.jpg",
+    "Challenge02/07 - Bijlages Stakeholder",
+    "Challenge02/06 - Transcriptions en Agenda's/01 - Stakeholder/Telefonisch Contact/20260504 - Telefoongesprek Carla - Samenvatting.pdf",
+    "Challenge02/06 - Transcriptions en Agenda's/01 - Stakeholder/Telefonisch Contact",
     "Weekkaarten/2026-W18.md",
-    "Challenge02/02 - Analyse/ist.bpmn",
     "Challenge02/06 - Transcriptions en Agenda's/01 - Stakeholder/Eerste gesprek.md",
-    "Challenge02/02 - Analyse/gebruikers.bpmn",
     "Challenge01/IndividueelProject_1a/01 Analyse/Analyse van Knelpunten & Verbetersuggesties.md",
     "Challenge02/05 - Validation/Feedback Document.md",
     "Challenge02/06 - Transcriptions en Agenda's/02 - Stuurgroep/Actielijst Stuurgroep.md",
-    "Challenge02/01 - Projectmanagement/Projectscope.md",
     "Challenge02/01 - Projectmanagement/Samenwerkingsdocument.md",
     "Challenge02/01 - Projectmanagement/Technisch Samenwerkingsdocument.md",
-    "Challenge02/01 - Projectmanagement/Samenwerkingsdocument.pdf",
     "Challenge02/01 - Projectmanagement/Teamrollen.md",
-    "Challenge02/01 - Projectmanagement/Projectscope.pdf",
-    "Challenge02/06 - Transcriptions en Agenda's/02 - Stuurgroep/Actielijst Stuurgroep.pdf",
-    "Challenge02/06 - Transcriptions en Agenda's/02 - Stuurgroep/02-05-2026 Actielijst.pdf",
     "Challenge02/06 - Transcriptions en Agenda's/Dinsdag 28-04-2026 Agenda.md",
-    "Challenge02/06 - Transcriptions en Agenda's/02 - Stuurgroep",
-    "Challenge02/01 - Projectmanagement/Technisch Samenwerkingsdocument.pdf",
     "Challenge01/IndividueelProject_1b/04 Manage & Control/Feedback Document.md",
     "Challenge02/02 - Analyse/Probleemanalyse.md",
     "Weekkaarten/2026-W17.md",
@@ -240,13 +246,6 @@
     "Challenge01/IndividueelProject_1b/01 Analyse/OK-Planning Kosten - Analyse.md",
     "Challenge01/IndividueelProject_1b/03 Realisation/Toelichting Dashboard.md",
     "Challenge01/IndividueelProject_1b/01 Analyse/OK-Planning Kosten - Eindadvies.md",
-    "Weekkaarten/2026-W15.md",
-    "Pasted Images/Pasted image 20260413083805.png",
-    "Pasted Images/Pasted image 20260413083332.png",
-    "Pasted Images/Pasted image 20260326191230.png",
-    "Pasted Images/Pasted image 20260413083452.png",
-    "Challenge01/IndividueelProject_1b/03 Realisation/dashboardv4_2.png",
-    "Challenge01/IndividueelProject_1b/03 Realisation/dashboardv4_1.png",
-    "Challenge01/IndividueelProject_1b/03 Realisation/dashboardv3_2.png"
+    "Pasted Images/Pasted image 20260413083805.png"
   ]
 }
