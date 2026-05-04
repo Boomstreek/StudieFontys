@@ -8,20 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c08a6fa4edaffbb2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Challenge02/01 - Projectmanagement/Projectscope.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Projectscope"
-            }
-          },
-          {
             "id": "6b007c8cfcb61854",
             "type": "leaf",
             "state": {
@@ -35,8 +21,7 @@
               "title": "Projectscope"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -202,6 +187,7 @@
   },
   "active": "6b007c8cfcb61854",
   "lastOpenFiles": [
+    "Challenge02/02 - Analyse/HappyFlow.bpmn",
     "Challenge02/06 - Transcriptions en Agenda's/01 - Stakeholder/Telefonisch Contact/20260504 - Telefoongesprek Carla - Samenvatting.md",
     "Challenge02/01 - Projectmanagement/Projectscope.md",
     "Weekkaarten/2026-W19.md",
