@@ -13,26 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Challenge02/01 - Projectmanagement/Projectscope.md",
+                "file": "Challenge02/02 - Analyse/AiBot Happy Flow - Begeleidende tekst.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Projectscope"
+              "title": "AiBot Happy Flow - Begeleidende tekst"
             }
           },
           {
-            "id": "882ca6bfc7c808c0",
+            "id": "948bfa0010068c81",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Challenge02/06 - Transcriptions en Agenda's/20260505 Agenda.md",
+                "file": "Verzekeringen.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "20260505 Agenda"
+              "title": "Verzekeringen"
             }
           }
         ],
@@ -200,14 +200,15 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "882ca6bfc7c808c0",
+  "active": "948bfa0010068c81",
   "lastOpenFiles": [
-    "Challenge02/02 - Analyse/HappyFlow1-2.pdf",
-    "Challenge02/02 - Analyse/HappyFlow1-2.bpmn",
+    "Challenge02/02 - Analyse/AiBot Happy Flow - Begeleidende tekst.md",
+    "Weekkaarten/2026-W19.md",
     "Challenge02/01 - Projectmanagement/Projectscope.md",
     "Challenge02/06 - Transcriptions en Agenda's/20260505 Agenda.md",
+    "Challenge02/02 - Analyse/HappyFlow1-2.pdf",
+    "Challenge02/02 - Analyse/HappyFlow1-2.bpmn",
     "Challenge02/06 - Transcriptions en Agenda's/Dinsdag 28-04-2026 Agenda.md",
-    "Weekkaarten/2026-W19.md",
     "Challenge02/06 - Transcriptions en Agenda's/Untitled",
     "Challenge02/02 - Analyse/HappyFlow1-1_Business.bpmn",
     "Challenge02/01 - Projectmanagement/Samenwerkingsdocument.md",
@@ -220,7 +221,6 @@
     "Excalidraw",
     "Challenge02/02 - Analyse/HappyFlow.bpmn",
     "Challenge02/06 - Transcriptions en Agenda's/01 - Stakeholder/Telefonisch Contact/20260504 - Telefoongesprek Carla - Samenvatting.md",
-    "Challenge02/07 - Informatie verkregen via stakeholder/youtube_links.txt",
     "Challenge02/07 - Informatie verkregen via stakeholder/Stappenplan gesprek Positieve Gezondheid_02.png",
     "Challenge02/07 - Informatie verkregen via stakeholder/Dummy_Leefstijlroer_Leergebied_v02.png",
     "Challenge02/07 - Informatie verkregen via stakeholder/260306_LeergebiedGezondBoxtel_klantreis01.jpg",
