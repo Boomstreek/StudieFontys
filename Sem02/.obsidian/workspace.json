@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -214,11 +214,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "16af96ea85507b7b",
+  "active": "948bfa0010068c81",
   "lastOpenFiles": [
+    "Weekkaarten/2026-W20.md",
     "Verzekeringen.md",
-    "Challenge02/02 - Analyse/AiBot Happy Flow - Begeleidende tekst.md",
     "Weekkaarten/2026-W19.md",
+    "Challenge02/02 - Analyse/AiBot Happy Flow - Begeleidende tekst.md",
     "Challenge02/01 - Projectmanagement/Projectscope.md",
     "Challenge02/06 - Transcriptions en Agenda's/20260505 Agenda.md",
     "Challenge02/02 - Analyse/HappyFlow1-2.pdf",
@@ -260,7 +261,6 @@
     "Pasted image 20260417144907.png",
     "Pasted image 20260417144855.png",
     "Pasted image 20260417144728.png",
-    "Challenge01/IndividueelProject_1b/06 Personal Leaderschip/SEM02 Sprint 2 Reflectie.md",
     "Pasted Images/Pasted image 20260413083805.png"
   ]
 }
