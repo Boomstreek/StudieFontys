@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Verzekeringen.md",
+                "file": "Challenge02/02 - Analyse/AiBot Happy Flow - Begeleidende tekst.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Verzekeringen"
+              "title": "AiBot Happy Flow - Begeleidende tekst"
             }
           },
           {
@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -214,12 +214,15 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "948bfa0010068c81",
+  "active": "16af96ea85507b7b",
   "lastOpenFiles": [
-    "Weekkaarten/2026-W20.md",
-    "Verzekeringen.md",
-    "Weekkaarten/2026-W19.md",
+    "Challenge02/04 - Realisation",
+    "Challenge02/02 - Analyse/AiBot Happy Flow - Begeleidende tekst.pdf",
     "Challenge02/02 - Analyse/AiBot Happy Flow - Begeleidende tekst.md",
+    "Challenge02/02 - Analyse/Probleemanalyse.md",
+    "Verzekeringen.md",
+    "Weekkaarten/2026-W20.md",
+    "Weekkaarten/2026-W19.md",
     "Challenge02/01 - Projectmanagement/Projectscope.md",
     "Challenge02/06 - Transcriptions en Agenda's/20260505 Agenda.md",
     "Challenge02/02 - Analyse/HappyFlow1-2.pdf",
@@ -235,7 +238,6 @@
     "Challenge02/03 - Ontwerp/AiBot Slider Ontwerp.pdf",
     "Challenge02/03 - Ontwerp",
     "Excalidraw",
-    "Challenge02/02 - Analyse/HappyFlow.bpmn",
     "Challenge02/06 - Transcriptions en Agenda's/01 - Stakeholder/Telefonisch Contact/20260504 - Telefoongesprek Carla - Samenvatting.md",
     "Challenge02/07 - Informatie verkregen via stakeholder/Stappenplan gesprek Positieve Gezondheid_02.png",
     "Challenge02/07 - Informatie verkregen via stakeholder/Dummy_Leefstijlroer_Leergebied_v02.png",
@@ -250,14 +252,12 @@
     "Challenge02/06 - Transcriptions en Agenda's/02 - Stuurgroep/Actielijst Stuurgroep.md",
     "Challenge02/01 - Projectmanagement/Technisch Samenwerkingsdocument.md",
     "Challenge01/IndividueelProject_1b/04 Manage & Control/Feedback Document.md",
-    "Challenge02/02 - Analyse/Probleemanalyse.md",
     "Weekkaarten/2026-W17.md",
     "Weekkaarten/2026-W16.md",
     "Challenge02/06 - Transcriptions/Dinsdag 28-04-2026 Agenda.md",
     "Challenge02/teamrollen.md",
     "Challenge02/Probleemanalyse.md",
     "Challenge02/Projectscope.md",
-    "Challenge01/IndividueelProject_1b/06 Personal Leaderschip/Van Teams Planner naar Jira - een praktijkgerichte verkenning van Scrum binnen een Datateam.md",
     "Pasted image 20260417144907.png",
     "Pasted image 20260417144855.png",
     "Pasted image 20260417144728.png",
