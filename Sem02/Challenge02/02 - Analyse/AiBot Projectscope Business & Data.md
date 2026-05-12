@@ -15,45 +15,58 @@ Om te bepalen wat succes is, is eerst de kernvraag gesteld: wat doen we eigenlij
 
 Om dat te beantwoorden moet het dashboard langs vier dimensies meten:
 
-1. **Gebruik:** wordt de chatbot daadwerkelijk gebruikt?
-2. **Kwaliteit van de match:** klopt het advies dat de chatbot geeft?
-3. **Gebruikerservaring:** vinden inwoners de chatbot prettig en begrijpelijk?
-4. **Impact:** leidt de chatbot tot echte deelname aan activiteiten?
+1. **Gebruik** – wordt de chatbot daadwerkelijk gebruikt?
+2. **Kwaliteit van de match** – klopt het advies dat de chatbot geeft?
+3. **Gebruikerservaring** – vinden inwoners de chatbot prettig en begrijpelijk?
+4. **Impact** – leidt de chatbot tot echte deelname aan activiteiten?
 
-## Projectscope - MoSCoW
+> **Databenadering:** Het dashboard wordt gebouwd en gedemonstreerd met synthetische (fictieve) data. Dit sluit aan op de keuze in de projectscope van de chatbot zelf. De koppeling met echte chatbot-data is een Could have en wordt alleen gerealiseerd als tijd het toelaat.
+
+## Projectscope – MoSCoW
 
 ### Must have
 
 _Essentieel – zonder deze onderdelen is het dashboard niet geslaagd._
 
-- Een werkend Power BI dashboard met minimaal één pagina voor minimaal twee uitgewerkt dimensie (Gebruik, Matchkwaliteit, Gebruikerservaring, Impact)
-- Visualisatie van het aantal gestarte en voltooide gesprekken per week
-- Inzicht in het voltooiingspercentage van gesprekken (% dat eindigt met een match-output)
-- Inzicht in de match-acceptatierate (% gebruikers dat een voorgestelde activiteit opvolgt)
-- Een koppeling aan de chatbot-backend als databron (via export of directe koppeling)
-- KPI-cards bovenaan elke pagina met RAG-status (Rood/Oranje/Groen op basis van streefwaarden)
-- Het dashboard verwerkt geen persoonsgegevens (privacy by design)
+- Een werkend Power BI dashboard met twee pagina's, met daarop twee veschillende dimensies.
+- Alle visualisaties draaien op synthetische data
+- **Dimensie 1 - Gebruik:**
+    - Aantal gestarte gesprekken per week (lijndiagram)
+    - Voltooiingspercentage (KPI-card)
+    - Trechtervisualisatie: gestart → voltooid → match getoond
+    - Verdeling instroomtype (precies / beetje / helemaal niet)
+- **Dimensie 2 - Matchkwaliteit:**
+    - Match-acceptatierate (KPI-card)
+    - Verdeling matches per Leefstijlroer-pijler (staafdiagram)
+    - Percentage "geen match gevonden" (KPI-card)
+- **Dimensie 3 - Gebruikerservaring:**
+    - Gemiddelde gebruikersscore (gauge of KPI-card)
+    - Gemiddelde gesprekslengte in minuten (KPI-card)
+    - Percentage contactgegevens achtergelaten (KPI-card)
+- **Dimensie 4 - Impact:**
+    - Percentage doorverwijzingen met opvolging (KPI-card)
+    - Percentage dat leidt tot deelname aan activiteit (KPI-card)
+    - Bereik kwetsbare doelgroep (gebruikers via professional, %)
+- Het dashboard verwerkt geen persoonsgegevens
 
 ### Should have
 
 _Belangrijk, maar niet strikt noodzakelijk om te slagen._
 
-- Trechtervisualisatie (funnel) die toont op welke stap in het gesprek gebruikers afhaken
-- Uitsplitsing van matches per Leefstijlroer-pijler (voeding, beweging, ontspanning, slaap, verbinding, middelen)
-- Weergave van gemiddelde gesprekslengte in minuten
-- Inzicht in het gebruik per apparaattype (desktop vs. mobiel)
-- Weergave van het percentage gebruikers dat contactgegevens heeft achtergelaten (ja/nee, geen inhoud)
-- Tijdfilter op weekniveau zodat trends over tijd zichtbaar zijn
+- De overige twee dimensies uitgewerkt
+- Tijdfilter op weekniveau zodat trends zichtbaar zijn
+- Uitsplitsing afhaakpunt per gespreksstap
+- Gebruik per apparaattype (desktop vs. mobiel)
+- Overzicht nieuwe activiteitsverzoeken (activiteiten die niet bestaan maar wel gewenst zijn)
+- Opmaak conform huisstijl Stichting Richter Education
 
 ### Could have
 
-_Wenselijk als er tijd en capaciteit voor is._
+_Wenselijk als tijd het toelaat – inclusief koppeling met echte data._
 
-- Gauge-visual voor de gebruikerstevredenheidsscore (CES, 1–5)
-- Inzicht in doorverwijzingsconversie vanuit CRM-data van de stichting
-- Weergave van het percentage "geen passende match" gesprekken
-- Overzicht van nieuwe activiteitsverzoeken (activiteiten die gebruikers wensen maar niet bestaan)
+- Live koppeling met chatbot-backend (REST API of geplande CSV-export) ter vervanging van synthetische data
 - Automatische dagelijkse refresh van de data
+- Drillthrough per activiteit: welke activiteit wordt het vaakst gematcht en opgevolgd?
 
 ### Won't have
 
@@ -61,43 +74,22 @@ _Buiten scope voor deze versie._
 
 - Individuele gebruikersprofielen of herleidbare persoonsgegevens
 - Real-time livestream van gesprekken
-- Integratie met externe systemen buiten de chatbot-backend en het CRM van de stichting
 - Meertalige weergave van het dashboard
-
-## Databronnen
-
-|Databron|Inhoud|Koppeling|
-|---|---|---|
-|Chatbot-backend (sessie-logs)|Gebruik, voltooiing, matchoutput, afhaakpunt|CSV-export of REST API|
-|Contactformulier-log|Contactverzoeken (anoniem geaggregeerd)|Database of export|
-|Enquêteresultaten|CES-score en vertrouwensmeting (optioneel)|CSV-export|
-|CRM stichting|Opvolging en deelname aan activiteiten|Handmatige import|
-
-## Minimale logvelden chatbot-backend
-
-Voor het dashboard zijn onderstaande velden minimaal nodig in de sessie-logs van de chatbot:
-
-|Veld|Type|Toelichting|
-|---|---|---|
-|`sessie_id`|String (hash)|Anoniem, niet herleidbaar tot persoon|
-|`timestamp_start`|Datetime|Starttijd gesprek|
-|`timestamp_einde`|Datetime|Eindtijd gesprek|
-|`instroomtype`|Categorie|precies / beetje / helemaal_niet|
-|`stap_afgebroken`|Integer / null|Null als gesprek volledig is|
-|`match_output`|Array|Drie activiteit-ID's|
-|`pijler_output`|Array|Drie Leefstijlroer-pijlers|
-|`geen_match`|Boolean|True als geen passende activiteit gevonden|
-|`contact_ingevuld`|Boolean|True als gebruiker contactgegevens achterliet|
-|`offline_doorverwezen`|Boolean|True als doorverwezen naar inloop|
-|`ces_score`|Integer / null|1–5, null als niet ingevuld|
-|`device_type`|Categorie|desktop / mobiel|
+- Integratie met andere externe systemen buiten chatbot-backend
 
 ## Vervolgstappen
 
-1. Backlog-item aanmaken voor sessie-logging in de chatbot-backend op basis van bovenstaande velden
-2. Streefwaarden per KPI valideren met de opdrachtgever
-3. Power BI workspace inrichten en databronnen koppelen
-4. Eerste dashboard bouwen zodra gebruikersdata beschikbaar is (na sprint 1)
-5. Optioneel: enquête ontwerpen voor CES en vertrouwensmeting (sprint 2)
+1. Synthetische dataset aanmaken
+2. Power BI dashboard bouwen per dimensie (Must have/Should Have)
+3. Should have inbouwen waar tijd het toelaat
+4. Could have: live koppeling zodra chatbot-backend sessie-logs wegschrijft
 
-_Opgesteld op basis van: Projectscope v1.4, Probleemanalyse v1.0, Happy Flow v1.1 – AI-chatbot Sociaal Knooppunt_
+## Bronnen
+
+Anthropic. (2026). *Claude* (claude-sonnet-4-6) [Large language model; gebruikt voor het opstellen van de opzet en controle van de KPI-structuur, MoSCoW-scope en datavelddefinities op basis van projectdocumenten]. https://www.anthropic.com
+
+Wieringa, B. (2026, 26 april). *Probleemanalyse AI-chatbot "Het Sociaal Knooppunt"* (Versie 1.0). Stichting Richter Education.
+
+Wieringa, B. (2026, 4 mei). *Projectscope AI-chatbot Sociaal Knooppunt* (Versie 1.4). Stichting Richter Education.
+
+Wieringa, B. (2026). *Happy Flow AI-chatbot Sociaal Knooppunt* (Versie 1.1). Stichting Richter Education.
