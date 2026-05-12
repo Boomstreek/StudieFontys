@@ -5,7 +5,6 @@
     <bpmn:participant id="Participant_02c6n2z" name="Happy Flow" processRef="Process_0bkfoq2" />
     <bpmn:participant id="Participant_05z21gp" processRef="Process_0u1fmrt" />
     <bpmn:group id="Group_0sv72o7" />
-    <bpmn:textAnnotation id="TextAnnotation_056bsud" />
   </bpmn:collaboration>
   <bpmn:process id="Process_1crf9p2" isExecutable="true">
     <bpmn:laneSet id="LaneSet_00x70p3">
@@ -396,36 +395,6 @@
         <dc:Bounds x="190" y="2940" width="6000" height="560" />
         <bpmndi:BPMNLabel />
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="DataObjectReference_0soum2e_di" bpmnElement="DataObjectReference_0soum2e">
-        <dc:Bounds x="302" y="1535" width="36" height="50" />
-        <bpmndi:BPMNLabel>
-          <dc:Bounds x="282" y="1592" width="76" height="14" />
-        </bpmndi:BPMNLabel>
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="DataObjectReference_15oledb_di" bpmnElement="DataObjectReference_15oledb">
-        <dc:Bounds x="612" y="1125" width="36" height="50" />
-        <bpmndi:BPMNLabel>
-          <dc:Bounds x="597" y="1182" width="67" height="14" />
-        </bpmndi:BPMNLabel>
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="DataObjectReference_198vxty_di" bpmnElement="DataObjectReference_198vxty">
-        <dc:Bounds x="1822" y="1555" width="36" height="50" />
-        <bpmndi:BPMNLabel>
-          <dc:Bounds x="1797" y="1612" width="86" height="40" />
-        </bpmndi:BPMNLabel>
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="DataObjectReference_0ypd9zy_di" bpmnElement="DataObjectReference_0ypd9zy">
-        <dc:Bounds x="3202" y="1905" width="36" height="50" />
-        <bpmndi:BPMNLabel>
-          <dc:Bounds x="3186" y="1962" width="68" height="14" />
-        </bpmndi:BPMNLabel>
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="DataObjectReference_1r34sw4_di" bpmnElement="DataObjectReference_1r34sw4">
-        <dc:Bounds x="3572" y="1905" width="36" height="50" />
-        <bpmndi:BPMNLabel>
-          <dc:Bounds x="3560" y="1962" width="60" height="14" />
-        </bpmndi:BPMNLabel>
-      </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="BPMNShape_15jei2b" bpmnElement="Activity_02g1o6f" isExpanded="true">
         <dc:Bounds x="1950" y="1575" width="570" height="250" />
         <bpmndi:BPMNLabel />
@@ -784,6 +753,36 @@
           <dc:Bounds x="3268" y="1292" width="85" height="106" />
         </bpmndi:BPMNLabel>
       </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="DataObjectReference_0soum2e_di" bpmnElement="DataObjectReference_0soum2e">
+        <dc:Bounds x="302" y="1535" width="36" height="50" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="282" y="1592" width="76" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="DataObjectReference_15oledb_di" bpmnElement="DataObjectReference_15oledb">
+        <dc:Bounds x="612" y="1125" width="36" height="50" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="597" y="1182" width="67" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="DataObjectReference_198vxty_di" bpmnElement="DataObjectReference_198vxty">
+        <dc:Bounds x="1822" y="1555" width="36" height="50" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="1797" y="1612" width="86" height="40" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="DataObjectReference_0ypd9zy_di" bpmnElement="DataObjectReference_0ypd9zy">
+        <dc:Bounds x="3202" y="1905" width="36" height="50" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="3186" y="1962" width="68" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="DataObjectReference_1r34sw4_di" bpmnElement="DataObjectReference_1r34sw4">
+        <dc:Bounds x="3572" y="1905" width="36" height="50" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="3560" y="1962" width="60" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
       <bpmndi:BPMNEdge id="Flow_1mnfot6_di" bpmnElement="Flow_1mnfot6">
         <di:waypoint x="4400" y="3145" />
         <di:waypoint x="4400" y="3270" />
@@ -1051,28 +1050,25 @@
         <dc:Bounds x="1230" y="3950" width="100" height="80" />
         <bpmndi:BPMNLabel />
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNEdge id="DataOutputAssociation_06w622b_di" bpmnElement="DataOutputAssociation_06w622b">
-        <di:waypoint x="410" y="1515" />
-        <di:waypoint x="338" y="1551" />
+      <bpmndi:BPMNShape id="Group_0sv72o7_di" bpmnElement="Group_0sv72o7">
+        <dc:Bounds x="1100" y="1520" width="1760" height="1160" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="DataOutputAssociation_0n0t26k_di" bpmnElement="DataOutputAssociation_0n0t26k">
+        <di:waypoint x="3554" y="1870" />
+        <di:waypoint x="3575" y="1905" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="DataOutputAssociation_0871h64_di" bpmnElement="DataOutputAssociation_0871h64">
         <di:waypoint x="3184" y="1870" />
         <di:waypoint x="3205" y="1905" />
       </bpmndi:BPMNEdge>
-      <bpmndi:BPMNEdge id="DataOutputAssociation_0n0t26k_di" bpmnElement="DataOutputAssociation_0n0t26k">
-        <di:waypoint x="3554" y="1870" />
-        <di:waypoint x="3575" y="1905" />
+      <bpmndi:BPMNEdge id="DataOutputAssociation_06w622b_di" bpmnElement="DataOutputAssociation_06w622b">
+        <di:waypoint x="410" y="1515" />
+        <di:waypoint x="338" y="1551" />
       </bpmndi:BPMNEdge>
-      <bpmndi:BPMNShape id="Group_0sv72o7_di" bpmnElement="Group_0sv72o7">
-        <dc:Bounds x="1100" y="1520" width="1760" height="1160" />
-      </bpmndi:BPMNShape>
       <bpmndi:BPMNEdge id="DataOutputAssociation_1plvlh4_di" bpmnElement="DataOutputAssociation_1plvlh4">
         <di:waypoint x="3210" y="1260" />
         <di:waypoint x="3292" y="1260" />
       </bpmndi:BPMNEdge>
-      <bpmndi:BPMNShape id="TextAnnotation_056bsud_di" bpmnElement="TextAnnotation_056bsud">
-        <dc:Bounds x="840" y="1270" width="99.99156545209178" height="29.998877109625404" />
-      </bpmndi:BPMNShape>
     </bpmndi:BPMNPlane>
   </bpmndi:BPMNDiagram>
   <bpmndi:BPMNDiagram id="BPMNDiagram_0za7ycn">

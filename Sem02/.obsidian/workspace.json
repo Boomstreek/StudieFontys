@@ -42,21 +42,7 @@
               "type": "markdown",
               "state": {
                 "file": "Challenge02/02 - Analyse/AiBot Business & Data ER-Diagram.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "AiBot Business & Data ER-Diagram"
-            }
-          },
-          {
-            "id": "1beaf5a71155dd5b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Challenge02/02 - Analyse/AiBot Business & Data ER-Diagram.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
@@ -88,23 +74,8 @@
               "icon": "excalidraw-icon",
               "title": "Design"
             }
-          },
-          {
-            "id": "fd12dc9277016953",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Challenge01/IndividueelProject_1b/01 Analyse/OK-Planning Kosten - Analyse.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "OK-Planning Kosten - Analyse"
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -157,7 +128,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -268,15 +240,21 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "ad103f745c5bae02",
+  "active": "b661e692eb5b3004",
   "lastOpenFiles": [
+    "Challenge02/06 - Transcriptions en Agenda's/01 - Stakeholder/Feedback AiChatbot Begeleidende tekst Carla.docx",
+    "Challenge02/06 - Transcriptions en Agenda's/01 - Stakeholder/Carla_aangepast_260511_AiBot Happy Flow - Begeleidende tekst_FontysICT_v13.docx",
     "Challenge02/02 - Analyse/Probleemanalyse.md",
-    "Challenge02/02 - Analyse/AiBot Happy Flow - Begeleidende tekst.md",
-    "Challenge02/02 - Analyse/AiBot Projectscope Business & Data.md",
     "Challenge02/02 - Analyse/AiBot Business & Data ER-Diagram.md",
     "Challenge02/03 - Ontwerp/Design.md",
-    "Challenge02/02 - Analyse/HappyFlow1-3.bpmn",
     "Challenge01/IndividueelProject_1b/01 Analyse/OK-Planning Kosten - Analyse.md",
+    "Challenge02/02 - Analyse/AiBot Projectscope Business & Data.md",
+    "Challenge02/06 - Transcriptions en Agenda's/Carla_aangepast_260511_AiBot Happy Flow - Begeleidende tekst_FontysICT_v13.docx",
+    "Challenge02/06 - Transcriptions en Agenda's/01 - Stakeholder/Mail contact/2026-05-12 Gmail - Opzet Happy Flow voor AI Chatbot.pdf",
+    "Challenge02/06 - Transcriptions en Agenda's/260511_AiBot Happy Flow - Begeleidende tekst_FontysICT_v13.docx",
+    "Challenge02/06 - Transcriptions en Agenda's/Unconfirmed 797695.crdownload",
+    "Challenge02/02 - Analyse/AiBot Happy Flow - Begeleidende tekst.md",
+    "Challenge02/02 - Analyse/HappyFlow1-3.bpmn",
     "Challenge01/IndividueelProject_1b/01 Analyse/OK-Planning Kosten - Definitief Business Analysis Document.md",
     "Challenge02/02 - Analyse/AiBot Happy Flow - Begeleidende tekst.odt",
     "Challenge02/02 - Analyse/Unconfirmed 811022.crdownload",
@@ -287,14 +265,9 @@
     "Verzekeringen.md",
     "Challenge02/01 - Projectmanagement/Projectscope.md",
     "Challenge02/06 - Transcriptions en Agenda's/20260505 Agenda.md",
-    "Challenge02/02 - Analyse/HappyFlow1-2.pdf",
-    "Challenge02/02 - Analyse/HappyFlow1-2.bpmn",
     "Challenge02/06 - Transcriptions en Agenda's/Dinsdag 28-04-2026 Agenda.md",
-    "Challenge02/06 - Transcriptions en Agenda's/Untitled",
-    "Challenge02/02 - Analyse/HappyFlow1-1_Business.bpmn",
     "Challenge02/01 - Projectmanagement/Samenwerkingsdocument.md",
     "Challenge02/01 - Projectmanagement/Teamrollen.md",
-    "Challenge02/01 - Projectmanagement/Samenwerkingsdocument.pdf",
     "Challenge02/03 - Ontwerp/AiBot Slider Ontwerp.md",
     "Challenge02/06 - Transcriptions en Agenda's/01 - Stakeholder/Telefonisch Contact/20260504 - Telefoongesprek Carla - Samenvatting.md",
     "Challenge02/07 - Informatie verkregen via stakeholder/Stappenplan gesprek Positieve Gezondheid_02.png",
@@ -311,7 +284,6 @@
     "Challenge02/01 - Projectmanagement/Technisch Samenwerkingsdocument.md",
     "Challenge01/IndividueelProject_1b/04 Manage & Control/Feedback Document.md",
     "Weekkaarten/2026-W17.md",
-    "Weekkaarten/2026-W16.md",
     "Pasted image 20260417144907.png",
     "Pasted image 20260417144855.png",
     "Pasted image 20260417144728.png",
