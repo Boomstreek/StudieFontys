@@ -1,64 +1,38 @@
 ```mermaid
 erDiagram
-    SESSIE {
-        string sessie_id PK
-        datetime timestamp_start
-        datetime timestamp_einde
-        string instroomtype
-        int stap_afgebroken
-        boolean geen_match
-        boolean contact_ingevuld
-        boolean offline_doorverwezen
-        string device_type
-        boolean via_professional
+    FEIT_GESPREK {
+        int gesprek_id PK
+        int datum_id FK
+        int gemeente_id FK
+        int instroomtype_id FK
+        bool voltooid
+        bool match_getoond
+        int duur_minuten
+        float leefstijlscore_totaal
+        float score_voeding
+        float score_beweging
+        float score_ontspanning
+        float score_slaap
+        float score_verbinding
+        float score_middelen
     }
-
-    GEBRUIK {
-        string sessie_id FK
-        boolean voltooid
-        int gesprekslengte_min
+    DIM_DATUM {
+        int datum_id PK
+        date datum
+        int week
+        int maand
+        int jaar
     }
-
-    MATCHKWALITEIT {
-        string sessie_id FK
-        string pijler_match
-        boolean match_geaccepteerd
-        boolean toelichting_bekeken
-        string activiteit_id FK
+    DIM_GEMEENTE {
+        int gemeente_id PK
+        string gemeente_naam
+        string regio
     }
-
-	LEEFSTIJLSCORE {
-		string sessie_id FK
-		int voeding_score
-		int beweging_score
-		int ontspanning_score
-		int verbinding_score
-		int slaap_score
-		int middelen_score
-	}
-
-    GEBRUIKERSERVARING {
-        string sessie_id FK
-        int gebruikersscore
+    DIM_INSTROOMTYPE {
+        int instroomtype_id PK
+        string omschrijving
     }
-
-    IMPACT {
-        string sessie_id FK
-        boolean opvolging_contact
-        boolean deelname_activiteit
-    }
-
-    ACTIVITEIT {
-        string activiteit_id PK
-        string naam
-        string pijler
-        string organisatie
-    }
-
-    SESSIE ||--|| GEBRUIK : heeft
-    SESSIE ||--o| GEBRUIKERSERVARING : levert
-    SESSIE ||--o{ MATCHKWALITEIT : genereert
-    SESSIE ||--o| IMPACT : resulteert_in
-    SESSIE ||--o| LEEFSTIJLSCORE : heeft_ingevuld
-    MATCHKWALITEIT }o--|| ACTIVITEIT : verwijst_naar
+    FEIT_GESPREK }o--|| DIM_DATUM : "op"
+    FEIT_GESPREK }o--|| DIM_GEMEENTE : "uit"
+    FEIT_GESPREK }o--|| DIM_INSTROOMTYPE : "via"
 ```
