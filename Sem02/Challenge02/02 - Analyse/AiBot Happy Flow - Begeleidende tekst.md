@@ -1,11 +1,12 @@
 ## Metadata
 **Author: ** Bram Wieringa
-**Date: ** 13-05-2026
-**Version: ** 1.1
+**Date: ** 18-05-2026
+**Version: ** 1.2
 **Dependencies: **
 - Leefstijlroer van Vereniging Arts en Leefstijl
-- HappyFlow.bpmn versie 1.2
+- HappyFlow.bpmn versie 1.4
 - Feedback AiChatbot Begeleidende tekst Carla.docx 
+- 20260518_FeedbackHappyFlowCarla.pdf
 
 ## 1. Begroeting en voorstellen
 
@@ -167,7 +168,7 @@ _→ Bij nachtdienst: filter activiteiten op tijdstip (geen vroege ochtendactivi
 
 > **Chatbot:** Tot slot: het onderwerp 'Middelengebruik' — zoals roken, alcohol of medicatie.
 > 
-> Gebruik je geen of weinig verslavende middelen? 
+> Gebruik je geen of weinig middelen? 
 > :( ————————————————— ☺
 
 ### 8b. Motivatievragen en voorkeuren
@@ -236,33 +237,6 @@ _Belemmeringen: lichamelijke beperkingen (zie §3b); doelgroepspecificaties vanu
 > 🔘 Ja, dit klopt 
 > 🔘 Nee, ik wil iets aanpassen
 
-## 10. Accountcreatie
-
-> **Chatbot:** Wil je je resultaten bewaren? Dan kun je een account aanmaken. Je kunt ook gewoon doorgaan zonder account.
-> 
-> 🔘 Ja, ik maak een account aan 
-> 🔘 Nee, ik ga verder zonder account
-
-_→ Bij "nee": sla stap over en ga direct naar de drie suggesties._
-
-_→ Bij "ja": accountcreatie _
-
-### 10b. Accountcreatie
-
-_→ gebruik de eerder ingevulde gegevens om dit alvast voor in te vullen. Zorg wel dat het nog aanpasbaar is.
-
-> **Chatbot:** Vul je gegevens in:
-> 
-> - Naam: ________________
-> - Leeftijd: ________________
-> - Geslacht: 🔘 Man 🔘 Vrouw 🔘 Anders 🔘 Zeg ik liever niet
-> - E-mailadres: ________________
-> - Postcode: ________________
-> 
-> Je gegevens worden veilig opgeslagen en alleen gebruikt om je resultaten te bewaren en een evaluatie in te plannen.
-
-> **Chatbot:** Je account is aangemaakt. We gaan nu verder met je activiteiten zoeken!
-
 ## 11. Drie suggesties weergeven
 
 > **Chatbot:** Op basis van jouw antwoorden heb ik drie activiteiten gevonden die bij jou passen:
@@ -274,6 +248,33 @@ _→ gebruik de eerder ingevulde gegevens om dit alvast voor in te vullen. Zorg 
 > **3. [Naam activiteit]** 📍 [Locatie] | 🕐 [Tijdstip] | 💶 [Kosten] [Korte omschrijving]
 > 
 > Vind je een van deze activiteiten interessant? 🔘 Ja, ik wil meer weten. Laat de aanbieder contact met mij opnemen. 🔘 Nee, geen van deze past bij mij
+
+## 12. Accountcreatie
+
+> **Chatbot:** Wil je je resultaten bewaren? Dan kun je een account aanmaken. Je kunt ook gewoon doorgaan zonder account.
+> 
+> 🔘 Ja, ik maak een account aan 
+> 🔘 Nee, ik ga verder zonder account
+
+_→ Bij "nee": sla stap over en ga direct naar de drie suggesties._
+
+_→ Bij "ja": accountcreatie _
+
+### 12b. Accountcreatie
+
+_→ gebruik de eerder ingevulde gegevens om dit alvast voor in te vullen. Zorg wel dat het nog aanpasbaar is.
+
+> **Chatbot:** Vul je gegevens in:
+> 
+> - Naam: ________________
+> - Leeftijd: ________________ 
+> - Geslacht: 🔘 Man 🔘 Vrouw 🔘 Anders 🔘 Zeg ik liever niet
+> - E-mailadres: ________________ of Telefoonnummer: ________________ 
+> - Postcode: ________________
+> 
+> Je gegevens worden veilig opgeslagen. Jouw contactgegevens worden alleen gebruikt zelf je resultaten na te kunnen kijken of wanneer je kiest voor 'neem contact met mij op'
+
+> **Chatbot:** Je account is aangemaakt. We gaan nu verder met je activiteiten zoeken!
 
 ## 12. Afsluiting
 
