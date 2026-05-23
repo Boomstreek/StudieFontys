@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Challenge02/02 - Analyse/AiBot Happy Flow - Begeleidende tekst.md",
+                "file": "Challenge02/01 - Projectmanagement/Samenwerkingsdocument.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "AiBot Happy Flow - Begeleidende tekst"
+              "title": "Samenwerkingsdocument"
             }
           },
           {
@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Weekkaarten/2026-W21.md",
+                "file": "AiBot Reflectie Sprint 1.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2026-W21"
+              "title": "AiBot Reflectie Sprint 1"
             }
           }
         ],
@@ -202,12 +202,16 @@
   },
   "active": "4ebd7da6b6899a0e",
   "lastOpenFiles": [
+    "Weekkaarten/2026-W21.md",
+    "AiBot Reflectie Sprint 1.md",
+    "Challenge02/01 - Projectmanagement/Samenwerkingsdocument.md",
+    "Challenge02/01 - Projectmanagement/Teamrollen.md",
+    "Challenge02/01 - Projectmanagement/Projectscope.md",
     "Challenge02/02 - Analyse/AiBot Happy Flow - Begeleidende tekst.md",
     "Challenge02/02 - Analyse/HappyFlow1-4.pdf",
     "Challenge02/02 - Analyse/HappyFlow1-4.bpmn",
     "Challenge02/06 - Transcriptions en Agenda's/01 - Stakeholder/Mail contact/20260518_FeedbackHappyFlowCarla.pdf",
     "Challenge02/06 - Transcriptions en Agenda's/01 - Stakeholder/Mail contact/20260518_FeedbackHappyFlowCarla",
-    "Weekkaarten/2026-W21.md",
     "Challenge02/02 - Analyse/AiBot Projectscope Business & Data.md",
     "Challenge02/02 - Analyse/AiBot Business & Data ER-Diagram.md",
     "Challenge02/02 - Analyse/AiBot Business & Data ER-Diagram.pdf",
@@ -223,11 +227,8 @@
     "Challenge01/IndividueelProject_1b/01 Analyse/OK-Planning Kosten - Definitief Business Analysis Document.md",
     "Weekkaarten/2026-W19.md",
     "Verzekeringen.md",
-    "Challenge02/01 - Projectmanagement/Projectscope.md",
     "Challenge02/06 - Transcriptions en Agenda's/20260505 Agenda.md",
     "Challenge02/06 - Transcriptions en Agenda's/Dinsdag 28-04-2026 Agenda.md",
-    "Challenge02/01 - Projectmanagement/Samenwerkingsdocument.md",
-    "Challenge02/01 - Projectmanagement/Teamrollen.md",
     "Challenge02/03 - Ontwerp/AiBot Slider Ontwerp.md",
     "Challenge02/06 - Transcriptions en Agenda's/01 - Stakeholder/Telefonisch Contact/20260504 - Telefoongesprek Carla - Samenvatting.md",
     "Challenge02/07 - Informatie verkregen via stakeholder/Stappenplan gesprek Positieve Gezondheid_02.png",
