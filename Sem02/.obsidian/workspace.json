@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "e62765a819010edc",
+        "id": "bbc422daa7c6ff44",
         "type": "tabs",
         "children": [
           {
-            "id": "4e0b0035cb01b30b",
+            "id": "c8b9761a338b0d86",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Challenge02/01 - Projectmanagement/Samenwerkingsdocument.md",
+                "file": "Weekkaarten/2026-W22.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Samenwerkingsdocument"
-            }
-          },
-          {
-            "id": "4ebd7da6b6899a0e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AiBot Reflectie Sprint 1.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "AiBot Reflectie Sprint 1"
+              "title": "2026-W22"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -200,13 +185,21 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "4ebd7da6b6899a0e",
+  "active": "c8b9761a338b0d86",
   "lastOpenFiles": [
     "Weekkaarten/2026-W21.md",
-    "AiBot Reflectie Sprint 1.md",
+    "Weekkaarten/2026-W22.md",
+    "Challenge02/08 - Personal Leadership/AiBot Sprint Reflectie.md",
+    "Challenge02/08 - Personal Leadership/AiBot Sprint Reflectie.pdf",
+    "Challenge02/08 - Personal Leadership/AiBot Reflectie Verhuizing en Bevalling tijdens Sprint 1.md",
+    "Challenge02/Feedback document Sprint 2.md",
     "Challenge02/01 - Projectmanagement/Samenwerkingsdocument.md",
-    "Challenge02/01 - Projectmanagement/Teamrollen.md",
+    "Challenge02/06 - Transcriptions en Agenda's/transcriptie meeting 5-5.md",
+    "Challenge02/06 - Transcriptions en Agenda's/transcriptie meeting 5-5.pdf",
+    "Challenge02/08 - Personal Leadership/AiBot Reflectie Verhuizing en Bevalling tijdens Sprint 1.pdf",
+    "Challenge02/08 - Personal Leadership",
     "Challenge02/01 - Projectmanagement/Projectscope.md",
+    "Challenge02/01 - Projectmanagement/Teamrollen.md",
     "Challenge02/02 - Analyse/AiBot Happy Flow - Begeleidende tekst.md",
     "Challenge02/02 - Analyse/HappyFlow1-4.pdf",
     "Challenge02/02 - Analyse/HappyFlow1-4.bpmn",
@@ -219,10 +212,6 @@
     "Challenge02/03 - Ontwerp/Design.md",
     "Challenge02/02 - Analyse/Probleemanalyse.md",
     "Weekkaarten/2026-W20.md",
-    "Challenge02/02 - Analyse/HappyFlow1-3.pdf",
-    "Challenge02/06 - Transcriptions en Agenda's/01 - Stakeholder/Mail contact/A4 Leefstijlcheck-V05062024_Dig.pdf",
-    "Challenge02/06 - Transcriptions en Agenda's/01 - Stakeholder/Mail contact/Unconfirmed 471487.crdownload",
-    "Challenge02/06 - Transcriptions en Agenda's/01 - Stakeholder/Feedback AiChatbot Begeleidende tekst Carla.docx",
     "Challenge01/IndividueelProject_1b/01 Analyse/OK-Planning Kosten - Analyse.md",
     "Challenge01/IndividueelProject_1b/01 Analyse/OK-Planning Kosten - Definitief Business Analysis Document.md",
     "Weekkaarten/2026-W19.md",
@@ -240,10 +229,6 @@
     "Weekkaarten/2026-W18.md",
     "Challenge02/06 - Transcriptions en Agenda's/01 - Stakeholder/Eerste gesprek.md",
     "Challenge01/IndividueelProject_1a/01 Analyse/Analyse van Knelpunten & Verbetersuggesties.md",
-    "Challenge02/05 - Validation/Feedback Document.md",
-    "Challenge02/06 - Transcriptions en Agenda's/02 - Stuurgroep/Actielijst Stuurgroep.md",
-    "Challenge02/01 - Projectmanagement/Technisch Samenwerkingsdocument.md",
-    "Challenge01/IndividueelProject_1b/04 Manage & Control/Feedback Document.md",
     "Pasted image 20260417144907.png",
     "Pasted image 20260417144855.png",
     "Pasted image 20260417144728.png",
