@@ -34,6 +34,18 @@
               "icon": "lucide-file",
               "title": "2026-W22"
             }
+          },
+          {
+            "id": "db35477a75e83b5f",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Challenge02/03 - Ontwerp/Design.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Design"
+            }
           }
         ],
         "currentTab": 1
@@ -202,9 +214,9 @@
   },
   "active": "4126d423d6a78f72",
   "lastOpenFiles": [
-    "Challenge02/02 - Analyse/AiBot Projectscope Business & Data.md",
-    "Weekkaarten/2026-W22.md",
     "Challenge02/03 - Ontwerp/Design.md",
+    "Weekkaarten/2026-W22.md",
+    "Challenge02/02 - Analyse/AiBot Projectscope Business & Data.md",
     "Challenge02/03 - Ontwerp/Design.pdf",
     "Challenge02/02 - Analyse/AiBot Happy Flow - Begeleidende tekst.md",
     "Challenge02/04 - Realisation/MockData/script/data_output/Feit_Gesprek.csv",
