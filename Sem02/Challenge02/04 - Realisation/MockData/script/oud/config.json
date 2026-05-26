@@ -1,0 +1,9 @@
+{
+    "output_dir": "data_output",
+    "format": "csv",
+    "n_patient": 2000,
+    "n_medewerker": 5,
+    "start_jaar": 2022,
+    "eind_jaar": 2024,
+    "n_planning": 2500
+}
