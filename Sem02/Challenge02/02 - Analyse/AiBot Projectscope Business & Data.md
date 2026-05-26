@@ -15,11 +15,11 @@ Om te bepalen wat succes is, is eerst de kernvraag gesteld: wat doen we eigenlij
 
 Om dat te beantwoorden meet het dashboard langs vijf dimensies:
 
-1. **Gebruik** – wordt de chatbot daadwerkelijk gebruikt?
-2. **Leefstijlscore** – wat is het profiel van de gebruikers die de chatbot bereikt?
-3. **Matchkwaliteit** – klopt het advies dat de chatbot geeft?
-4. **Gebruikerservaring** – vinden inwoners de chatbot prettig en begrijpelijk?
-5. **Impact** – leidt de chatbot tot echte deelname aan activiteiten?
+1. **Gebruik** - wordt de chatbot daadwerkelijk gebruikt?
+2. **Leefstijlscore** - wat is het profiel van de gebruikers die de chatbot bereikt?
+3. **Matchkwaliteit** - klopt het advies dat de chatbot geeft?
+4. **Gebruikerservaring** - vinden inwoners de chatbot prettig en begrijpelijk?
+5. **Impact** - leidt de chatbot tot echte deelname aan activiteiten?
 
 Dimensies 1 en 2 zijn essentieel en vormen de Must have. Dimensies 3 en 4 zijn belangrijk en vallen onder de Should have. Dimensie 5 is wenselijk en wordt alleen uitgewerkt als tijd het toelaat (Could have).
 

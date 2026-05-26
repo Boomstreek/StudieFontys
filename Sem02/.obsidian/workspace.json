@@ -46,6 +46,48 @@
               "icon": "excalidraw-icon",
               "title": "Design"
             }
+          },
+          {
+            "id": "4666be89d699d238",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Challenge02/02 - Analyse/AiBot Business & Data ER-Diagram.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "AiBot Business & Data ER-Diagram"
+            }
+          },
+          {
+            "id": "33e9e9ed00593234",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Challenge02/02 - Analyse/AiBot Happy Flow - Begeleidende tekst.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "AiBot Happy Flow - Begeleidende tekst"
+            }
+          },
+          {
+            "id": "000abe0c168595f5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Challenge02/02 - Analyse/AiBot Projectscope Business & Data.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "AiBot Projectscope Business & Data"
+            }
           }
         ],
         "currentTab": 1
@@ -214,16 +256,16 @@
   },
   "active": "4126d423d6a78f72",
   "lastOpenFiles": [
-    "Challenge02/03 - Ontwerp/Design.md",
-    "Weekkaarten/2026-W22.md",
-    "Challenge02/02 - Analyse/AiBot Projectscope Business & Data.md",
-    "Challenge02/03 - Ontwerp/Design.pdf",
     "Challenge02/02 - Analyse/AiBot Happy Flow - Begeleidende tekst.md",
+    "Challenge02/02 - Analyse/AiBot Projectscope Business & Data.md",
+    "Weekkaarten/2026-W22.md",
+    "Challenge02/02 - Analyse/AiBot Business & Data ER-Diagram.md",
+    "Challenge02/03 - Ontwerp/Design.md",
+    "Challenge02/03 - Ontwerp/Design.pdf",
     "Challenge02/04 - Realisation/MockData/script/data_output/Feit_Gesprek.csv",
     "Challenge02/04 - Realisation/MockData/script/data_output/Dim_Instroomtype.csv",
     "Challenge02/04 - Realisation/MockData/script/data_output/Dim_Gemeente.csv",
     "Challenge02/04 - Realisation/MockData/script/data_output/Dim_Datum.csv",
-    "Challenge02/02 - Analyse/AiBot Business & Data ER-Diagram.md",
     "Challenge02/04 - Realisation/MockData/script/oud/models.py",
     "Challenge02/04 - Realisation/MockData/script/oud/main.py",
     "Challenge02/04 - Realisation/MockData/script/oud/logic.py",
