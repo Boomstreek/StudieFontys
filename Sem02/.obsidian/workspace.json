@@ -13,54 +13,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Challenge02/02 - Analyse/AiBot Projectscope Business & Data.md",
+                "file": "Weekkaarten/2026-W22.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "AiBot Projectscope Business & Data"
+              "title": "2026-W22"
             }
           },
           {
-            "id": "4126d423d6a78f72",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Challenge02/03 - Ontwerp/Design.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Design"
-            }
-          },
-          {
-            "id": "db35477a75e83b5f",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Challenge02/03 - Ontwerp/Design.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Design"
-            }
-          },
-          {
-            "id": "4666be89d699d238",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Challenge02/02 - Analyse/AiBot Business & Data ER-Diagram.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "AiBot Business & Data ER-Diagram"
-            }
-          },
-          {
-            "id": "33e9e9ed00593234",
+            "id": "c7bc8f8286e9a128",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -74,21 +36,18 @@
             }
           },
           {
-            "id": "000abe0c168595f5",
+            "id": "4126d423d6a78f72",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Challenge02/02 - Analyse/AiBot Projectscope Business & Data.md",
-                "mode": "source",
-                "source": true
+                "file": "Challenge02/03 - Ontwerp/Design.md"
               },
-              "icon": "lucide-file",
-              "title": "AiBot Projectscope Business & Data"
+              "icon": "excalidraw-icon",
+              "title": "Design"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -252,13 +211,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "4126d423d6a78f72",
+  "active": "c8b9761a338b0d86",
   "lastOpenFiles": [
-    "Weekkaarten/2026-W22.md",
     "Challenge02/02 - Analyse/AiBot Happy Flow - Begeleidende tekst.md",
-    "Challenge02/02 - Analyse/AiBot Business & Data ER-Diagram.md",
-    "Challenge02/03 - Ontwerp/Design.md",
+    "Weekkaarten/2026-W22.md",
     "Challenge02/02 - Analyse/AiBot Projectscope Business & Data.md",
+    "Challenge02/03 - Ontwerp/Design.md",
+    "Challenge02/02 - Analyse/AiBot Business & Data ER-Diagram.md",
     "Challenge02/03 - Ontwerp/Design.pdf",
     "Challenge02/04 - Realisation/MockData/script/data_output/Feit_Gesprek.csv",
     "Challenge02/04 - Realisation/MockData/script/data_output/Dim_Instroomtype.csv",
