@@ -1,3 +1,5 @@
+# Workshop 2
+
 Workshop toegepast statistiek
 
 Hoe ver liggen waarnemingen uit elkaar?
@@ -52,3 +54,12 @@ Interkwartielafstand = Q3 - Q1 bijvoorbeeld
 orden alles van laag naar hoog, opeenvolgend de waarnemningen
 
 Boxplot, is een relevanten visualisatie hiervoor
+
+## Note aan mijzelf
+Boxplot maken 
+iets met coeffiencties doen
+
+# Workshop 3
+## _Kansverdeling_
+
+Normaalverdelingen = is verticaal te spieglen
