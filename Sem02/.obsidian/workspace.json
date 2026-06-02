@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Weekkaarten/2026-W22 & W33.md",
+                "file": "Weekkaarten/2026-W23.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2026-W22 & W33"
+              "title": "2026-W23"
             }
           },
           {
@@ -119,7 +119,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 298.5
   },
   "right": {
     "id": "d65f38fafc0eaf75",
@@ -228,12 +228,13 @@
   },
   "active": "4126d423d6a78f72",
   "lastOpenFiles": [
-    "Challenge02/02 - Analyse/AiBot Business & Data ER-Diagram.md",
-    "Weekkaarten/2026-W22 & W33.md",
+    "Weekkaarten/2026-W23.md",
+    "Weekkaarten/2026-W22.md",
     "Challenge02/08 - Personal Leadership/Workshops Statistiek.md",
+    "Challenge02/02 - Analyse/AiBot Business & Data ER-Diagram.md",
+    "Challenge02/03 - Ontwerp/Design.md",
     "Challenge02/02 - Analyse/AiBot Happy Flow - Begeleidende tekst.md",
     "Challenge02/02 - Analyse/AiBot Projectscope Business & Data.md",
-    "Challenge02/03 - Ontwerp/Design.md",
     "Challenge02/03 - Ontwerp/Design.pdf",
     "Challenge02/04 - Realisation/MockData/script/data_output/Feit_Gesprek.csv",
     "Challenge02/04 - Realisation/MockData/script/data_output/Dim_Instroomtype.csv",
@@ -269,7 +270,6 @@
     "Challenge02/07 - Bijlages Stakeholder/Dummy_Leefstijlroer_Leergebied_v02.png",
     "Challenge02/07 - Bijlages Stakeholder/260306_LeergebiedGezondBoxtel_klantreis01.jpg",
     "Weekkaarten/2026-W18.md",
-    "Challenge02/06 - Transcriptions en Agenda's/01 - Stakeholder/Eerste gesprek.md",
     "Pasted image 20260417144907.png",
     "Pasted image 20260417144855.png",
     "Pasted image 20260417144728.png",
