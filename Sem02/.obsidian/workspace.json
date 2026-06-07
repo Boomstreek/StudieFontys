@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Challenge02/04 - Realisation/Reflectie Sprint 2 Tussentijdse evaluatie.md",
+                "file": "Challenge02/08 - Personal Leadership/Reflectie Sprint 2 Tussentijdse evaluatie.md",
                 "mode": "source",
                 "source": true
               },
@@ -41,7 +41,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Challenge02/04 - Realisation/Reflectie Sprint 2 Tussentijdse evaluatie.md",
+                "file": "Challenge02/08 - Personal Leadership/Reflectie Sprint 2 Tussentijdse evaluatie.md",
                 "mode": "preview",
                 "source": true
               },
@@ -55,7 +55,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Challenge02/04 - Realisation/Reflectie Sprint 2 Tussentijdse evaluatie.md",
+                "file": "Challenge02/08 - Personal Leadership/Reflectie Sprint 2 Tussentijdse evaluatie.md",
                 "mode": "source",
                 "source": true
               },
@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Challenge02/04 - Realisation/Reflectie Sprint 2 Tussentijdse evaluatie.md",
+                "file": "Weekkaarten/2026-W24.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Reflectie Sprint 2 Tussentijdse evaluatie"
+              "title": "2026-W24"
             }
           }
         ],
@@ -244,9 +244,10 @@
   },
   "active": "4126d423d6a78f72",
   "lastOpenFiles": [
+    "Challenge02/08 - Personal Leadership/Reflectie Sprint 2 Tussentijdse evaluatie.md",
+    "Weekkaarten/2026-W24.md",
     "Challenge02/08 - Personal Leadership/Reflectie Sprint 2 Tussentijdse evaluatie.pdf",
     "Challenge02/Feedback document Sprint 2.md",
-    "Challenge02/04 - Realisation/Reflectie Sprint 2 Tussentijdse evaluatie.md",
     "Weekkaarten/2026-W23.md",
     "Challenge02/03 - Ontwerp/Design.md",
     "Challenge02/02 - Analyse/AiBot Happy Flow - Begeleidende tekst.md",
@@ -265,7 +266,6 @@
     "Challenge02/04 - Realisation/MockData/script/data_output/Dim_Datum.csv",
     "Challenge02/04 - Realisation/MockData/script/oud/models.py",
     "Challenge02/04 - Realisation/MockData/script/oud/main.py",
-    "Challenge02/04 - Realisation/MockData/script/oud/logic.py",
     "Weekkaarten/2026-W21.md",
     "Challenge02/08 - Personal Leadership/AiBot Sprint Reflectie.md",
     "Challenge02/08 - Personal Leadership/AiBot Reflectie Verhuizing en Bevalling tijdens Sprint 1.md",
