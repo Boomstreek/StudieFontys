@@ -1,0 +1,7 @@
+Deze reflectie komt op een moment dat er, weliswaar marginaal, weer iets meer tijd en mentale ruimte ontstaat na de komst van mijn tweeling. Ik merk dat de focus verschuift van puur 'overleven' naar een modus waarin ik weer wil accelereren en uitdagingen opzoek. Echt verstandig is dat waarschijnlijk nog niet; een stabiele voldoende zou in deze hectische periode al fantastisch zijn. Maar dat is simpelweg niet de reden waarom ik deze opleiding volg.
+
+Gevoelsmatig heb ik de basis voor die voldoende nu op orde. Dit wil ik komende week definitief bevestigen door feedback op te halen bij medestudenten, deze te verwerken en het resultaat vervolgens te verifiëren bij de docenten.
+
+Mijn doel is om de tijd die daarna overblijft te besteden aan verdieping: enerzijds door data visueel te analyseren met boxplots in Python, en anderzijds door eindelijk aan de slag te gaan met het bouwen van een dashboard in een open-source alternatief. Al realistisch over de beschikbare tijd schat ik in dat ik die ruimte waarschijnlijk alleen ga vinden voor de boxplots in Python.
+
+Naast mijn individuele voortgang ligt er een belangrijke focus op mijn projectgroep. In de beginfase heb ik hen intensief geholpen met de opstart, waarna ik het proces bewust wat meer heb losgelaten. In de huidige fase wil ik mijn rol weer oppakken om te ondersteunen bij de samenkomst van het eindproduct.
