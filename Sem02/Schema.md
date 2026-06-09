@@ -1,5 +1,3 @@
-Opwarming
-90/90 arms behind back.
 
 Oefeningen
 - 90/90 hip switch rotate (3x8)
