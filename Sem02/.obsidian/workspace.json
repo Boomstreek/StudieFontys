@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Weekkaarten/2026-W24.md",
+                "file": "Weekkaarten/2026-W22.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2026-W24"
+              "title": "2026-W22"
             }
           }
         ],
@@ -244,15 +244,22 @@
   },
   "active": "4126d423d6a78f72",
   "lastOpenFiles": [
-    "Challenge02/08 - Personal Leadership/Reflectie Sprint 2 Tussentijdse evaluatie.md",
+    "Weekkaarten/2026-W23.md",
     "Weekkaarten/2026-W24.md",
+    "Challenge02/08 - Personal Leadership/Workshops Statistiek.md",
+    "Challenge02/08 - Personal Leadership/Workshops Statistiek.pdf",
+    "Pasted image 20260609090746.png",
+    "Pasted image 20260609090423.png",
+    "Pasted image 20260609085905.png",
+    "Pasted image 20260609085352.png",
+    "Pasted image 20260609084925.png",
+    "Pasted image 20260609084403.png",
+    "Challenge02/08 - Personal Leadership/Reflectie Sprint 2 Tussentijdse evaluatie.md",
     "Challenge02/08 - Personal Leadership/Reflectie Sprint 2 Tussentijdse evaluatie.pdf",
     "Challenge02/Feedback document Sprint 2.md",
-    "Weekkaarten/2026-W23.md",
     "Challenge02/03 - Ontwerp/Design.md",
     "Challenge02/02 - Analyse/AiBot Happy Flow - Begeleidende tekst.md",
     "Challenge02/02 - Analyse/AiBot Business & Data ER-Diagram.md",
-    "Challenge02/08 - Personal Leadership/Workshops Statistiek.md",
     "Challenge02/04 - Realisation/versie1_1_Leefstijl.jpg",
     "Challenge02/04 - Realisation/versie1_1_Gebruik.jpg",
     "Weekkaarten/2026-W22.md",
@@ -265,7 +272,6 @@
     "Challenge02/04 - Realisation/MockData/script/data_output/Dim_Gemeente.csv",
     "Challenge02/04 - Realisation/MockData/script/data_output/Dim_Datum.csv",
     "Challenge02/04 - Realisation/MockData/script/oud/models.py",
-    "Challenge02/04 - Realisation/MockData/script/oud/main.py",
     "Weekkaarten/2026-W21.md",
     "Challenge02/08 - Personal Leadership/AiBot Sprint Reflectie.md",
     "Challenge02/08 - Personal Leadership/AiBot Reflectie Verhuizing en Bevalling tijdens Sprint 1.md",
@@ -281,14 +287,7 @@
     "Verzekeringen.md",
     "Challenge02/06 - Transcriptions en Agenda's/20260505 Agenda.md",
     "Challenge02/06 - Transcriptions en Agenda's/Dinsdag 28-04-2026 Agenda.md",
-    "Challenge02/03 - Ontwerp/AiBot Slider Ontwerp.md",
     "Challenge02/07 - Informatie verkregen via stakeholder/Stappenplan gesprek Positieve Gezondheid_02.png",
-    "Challenge02/07 - Informatie verkregen via stakeholder/Dummy_Leefstijlroer_Leergebied_v02.png",
-    "Challenge02/07 - Informatie verkregen via stakeholder/260306_LeergebiedGezondBoxtel_klantreis01.jpg",
-    "Challenge02/07 - Bijlages Stakeholder/Stappenplan gesprek Positieve Gezondheid_02.png",
-    "Challenge02/07 - Bijlages Stakeholder/Dummy_Leefstijlroer_Leergebied_v02.png",
-    "Challenge02/07 - Bijlages Stakeholder/260306_LeergebiedGezondBoxtel_klantreis01.jpg",
-    "Pasted image 20260417144907.png",
-    "Pasted image 20260417144855.png"
+    "Challenge02/07 - Informatie verkregen via stakeholder/Dummy_Leefstijlroer_Leergebied_v02.png"
   ]
 }
