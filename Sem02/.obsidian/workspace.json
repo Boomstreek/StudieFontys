@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Weekkaarten/2026-W23.md",
+                "file": "Weekkaarten/2026-W24.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2026-W23"
+              "title": "2026-W24"
             }
           },
           {
@@ -62,23 +62,8 @@
               "icon": "lucide-file",
               "title": "Reflectie Sprint 2 Tussentijdse evaluatie"
             }
-          },
-          {
-            "id": "4126d423d6a78f72",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Weekkaarten/2026-W22.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "2026-W22"
-            }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -242,9 +227,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "4126d423d6a78f72",
+  "active": "c8b9761a338b0d86",
   "lastOpenFiles": [
     "Weekkaarten/2026-W23.md",
+    "Challenge02/08 - Personal Leadership/Reflectie Sprint 2 Tussentijdse evaluatie.md",
+    "Weekkaarten/2026-W22.md",
     "Weekkaarten/2026-W24.md",
     "Challenge02/08 - Personal Leadership/Workshops Statistiek.md",
     "Challenge02/08 - Personal Leadership/Workshops Statistiek.pdf",
@@ -254,7 +241,6 @@
     "Pasted image 20260609085352.png",
     "Pasted image 20260609084925.png",
     "Pasted image 20260609084403.png",
-    "Challenge02/08 - Personal Leadership/Reflectie Sprint 2 Tussentijdse evaluatie.md",
     "Challenge02/08 - Personal Leadership/Reflectie Sprint 2 Tussentijdse evaluatie.pdf",
     "Challenge02/Feedback document Sprint 2.md",
     "Challenge02/03 - Ontwerp/Design.md",
@@ -262,7 +248,6 @@
     "Challenge02/02 - Analyse/AiBot Business & Data ER-Diagram.md",
     "Challenge02/04 - Realisation/versie1_1_Leefstijl.jpg",
     "Challenge02/04 - Realisation/versie1_1_Gebruik.jpg",
-    "Weekkaarten/2026-W22.md",
     "Challenge02/03 - Ontwerp/Design.pdf",
     "Challenge02/08 - Personal Leadership/certificate.pdf",
     "Challenge02/08 - Personal Leadership/Unconfirmed 195047.crdownload",
