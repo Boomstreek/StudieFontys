@@ -22,6 +22,20 @@
             }
           },
           {
+            "id": "bd342bb33d301b78",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Schema.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Schema"
+            }
+          },
+          {
             "id": "a5822a52897f8f2d",
             "type": "leaf",
             "state": {
@@ -63,7 +77,8 @@
               "title": "Reflectie Sprint 2 Tussentijdse evaluatie"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -227,8 +242,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "c8b9761a338b0d86",
+  "active": "bd342bb33d301b78",
   "lastOpenFiles": [
+    "Weekkaarten/2026-W24.md",
+    "Schema.md",
+    "Challenge02/04 - Realisation/MockData/script/Python Plots/boxplot_v2.py",
     "Challenge02/04 - Realisation/MockData/script/Python Plots/normale_verdeling.png",
     "Challenge02/04 - Realisation/MockData/script/Python Plots/boxplot_gemeente.png",
     "Challenge02/04 - Realisation/MockData/script/boxplot_gemeente.png",
@@ -237,7 +255,6 @@
     "Weekkaarten/2026-W23.md",
     "Challenge02/08 - Personal Leadership/Reflectie Sprint 2 Tussentijdse evaluatie.md",
     "Weekkaarten/2026-W22.md",
-    "Weekkaarten/2026-W24.md",
     "Challenge02/08 - Personal Leadership/Workshops Statistiek.md",
     "Challenge02/08 - Personal Leadership/Workshops Statistiek.pdf",
     "Pasted image 20260609090746.png",
@@ -252,14 +269,12 @@
     "Challenge02/02 - Analyse/AiBot Happy Flow - Begeleidende tekst.md",
     "Challenge02/02 - Analyse/AiBot Business & Data ER-Diagram.md",
     "Challenge02/04 - Realisation/versie1_1_Leefstijl.jpg",
-    "Challenge02/04 - Realisation/versie1_1_Gebruik.jpg",
     "Challenge02/03 - Ontwerp/Design.pdf",
     "Challenge02/08 - Personal Leadership/certificate.pdf",
     "Challenge02/08 - Personal Leadership/Unconfirmed 195047.crdownload",
     "Challenge02/02 - Analyse/AiBot Projectscope Business & Data.md",
     "Challenge02/04 - Realisation/MockData/script/data_output/Feit_Gesprek.csv",
     "Challenge02/04 - Realisation/MockData/script/data_output/Dim_Instroomtype.csv",
-    "Challenge02/04 - Realisation/MockData/script/data_output/Dim_Gemeente.csv",
     "Weekkaarten/2026-W21.md",
     "Challenge02/08 - Personal Leadership/AiBot Sprint Reflectie.md",
     "Challenge02/08 - Personal Leadership/AiBot Reflectie Verhuizing en Bevalling tijdens Sprint 1.md",
