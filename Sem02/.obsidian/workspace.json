@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Weekkaarten/2026-W24.md",
+                "file": "Challenge02/Feedback document Sprint 2.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2026-W24"
+              "title": "Feedback document Sprint 2"
             }
           },
           {
@@ -215,8 +215,8 @@
   },
   "active": "c8b9761a338b0d86",
   "lastOpenFiles": [
-    "Schema.md",
     "Weekkaarten/2026-W24.md",
+    "Schema.md",
     "Challenge02/04 - Realisation/MockData/script/Python Plots/boxplot_v2.py",
     "Challenge02/04 - Realisation/MockData/script/Python Plots/normale_verdeling.png",
     "Challenge02/04 - Realisation/MockData/script/Python Plots/boxplot_gemeente.png",
