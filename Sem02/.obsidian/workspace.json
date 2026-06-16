@@ -13,40 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Weekkaarten/2026-W25.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "2026-W25"
-            }
-          },
-          {
-            "id": "bd342bb33d301b78",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Schema.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Schema"
-            }
-          },
-          {
-            "id": "c7bc8f8286e9a128",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "Challenge02/08 - Personal Leadership/Reflectie Sprint 2 Tussentijdse evaluatie.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
               "title": "Reflectie Sprint 2 Tussentijdse evaluatie"
+            }
+          },
+          {
+            "id": "d630f3b2ca8b329d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Challenge02/Feedback document Sprint 2.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Feedback document Sprint 2"
             }
           }
         ]
@@ -215,11 +201,12 @@
   },
   "active": "c8b9761a338b0d86",
   "lastOpenFiles": [
-    "Weekkaarten/2026-W24.md",
-    "Schema.md",
     "Weekkaarten/2026-W25.md",
     "Challenge02/Feedback document Sprint 2.md",
+    "Challenge02/05 - Validation/Feedback document Sprint 2.pdf",
     "Challenge02/08 - Personal Leadership/Reflectie Sprint 2 Tussentijdse evaluatie.md",
+    "Schema.md",
+    "Weekkaarten/2026-W24.md",
     "Challenge02/04 - Realisation/MockData/script/Python Plots/boxplot_v2.py",
     "Challenge02/04 - Realisation/MockData/script/Python Plots/normale_verdeling.png",
     "Challenge02/04 - Realisation/MockData/script/Python Plots/boxplot_gemeente.png",
@@ -246,7 +233,6 @@
     "Challenge02/08 - Personal Leadership/Unconfirmed 195047.crdownload",
     "Challenge02/02 - Analyse/AiBot Projectscope Business & Data.md",
     "Challenge02/04 - Realisation/MockData/script/data_output/Feit_Gesprek.csv",
-    "Challenge02/04 - Realisation/MockData/script/data_output/Dim_Instroomtype.csv",
     "Weekkaarten/2026-W21.md",
     "Challenge02/08 - Personal Leadership/AiBot Sprint Reflectie.md",
     "Challenge02/08 - Personal Leadership/AiBot Reflectie Verhuizing en Bevalling tijdens Sprint 1.md",
@@ -259,7 +245,6 @@
     "Challenge01/IndividueelProject_1b/01 Analyse/OK-Planning Kosten - Analyse.md",
     "Challenge01/IndividueelProject_1b/01 Analyse/OK-Planning Kosten - Definitief Business Analysis Document.md",
     "Weekkaarten/2026-W19.md",
-    "Verzekeringen.md",
-    "Challenge02/06 - Transcriptions en Agenda's/20260505 Agenda.md"
+    "Verzekeringen.md"
   ]
 }

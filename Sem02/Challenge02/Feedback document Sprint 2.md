@@ -42,7 +42,9 @@ Feedback Dashboard Bram:
 - De visual voor de gemeente zou ik een andere visual voor gebruiken.
 
 ### Wat heb ik ermee gedaan?
-
+- trechter geprobeerd de verduidelijk door de tekst aan te passen
+- landingspagina weggehaald
+- visuels veranderd
 
 ## Thieu
 hoi bram, vandaag heb je je dashboard laten zien bij deze mijn feedback;
@@ -51,6 +53,8 @@ hoi bram, vandaag heb je je dashboard laten zien bij deze mijn feedback;
 - kleuren van data bijv. staafdiagram uniek per datatype gebruiken. voorlbeeld hoe niet; Tabel A is "gem xxx" groen en Tabel B is "gemeente" ook goen.
 
 ### Wat heb ik ermee gedaan?
+- boxplot gebruikt
+- Kleuren heb ik naar gekeken, weet hoe en dat ik het kan aanpassen, maar vond het teveel werk voor iets wat nog minder dan een week bestaat.
 
 ## Emma
 Feedback:
@@ -65,7 +69,10 @@ Feedback:
     Goed bezig! Ziet er netjes uit
 
 ### Wat heb ik ermee gedaan?
-
+- Naar labels en titles gekeken
+- boxplot toegevoegd
+- geprobeerd legenda passend te maken, niet gelukt :(
+- 
 ---
 
 # Feedback peerreview
