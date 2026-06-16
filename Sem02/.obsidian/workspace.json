@@ -27,15 +27,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Challenge02/Feedback document Sprint 2.md",
+                "file": "Challenge02/AiBot Dashboard Begeleidende tekst.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Feedback document Sprint 2"
+              "title": "AiBot Dashboard Begeleidende tekst"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -199,42 +200,43 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "c8b9761a338b0d86",
+  "active": "d630f3b2ca8b329d",
   "lastOpenFiles": [
-    "Weekkaarten/2026-W25.md",
+    "Challenge02/08 - Personal Leadership/AiBot Sprint Reflectie.md",
+    "Challenge02/08 - Personal Leadership/AiBot Sprint Reflectie.pdf",
+    "Challenge02/08 - Personal Leadership/Workshops Statistiek.md",
+    "Challenge02/AiBot Dashboard Begeleidende tekst.md",
     "Challenge02/Feedback document Sprint 2.md",
-    "Challenge02/05 - Validation/Feedback document Sprint 2.pdf",
+    "Pasted image 20260417144728.png",
+    "Pasted image 20260417144855.png",
+    "Pasted image 20260417144907.png",
+    "Pasted image 20260609084403.png",
+    "Pasted image 20260609084925.png",
+    "Pasted image 20260609085352.png",
+    "Pasted image 20260609085905.png",
+    "Pasted image 20260609090423.png",
+    "Pasted image 20260609090746.png",
+    "Weekkaarten/2026-W25.md",
     "Challenge02/08 - Personal Leadership/Reflectie Sprint 2 Tussentijdse evaluatie.md",
+    "Challenge02/05 - Validation/Feedback document Sprint 2.pdf",
     "Schema.md",
     "Weekkaarten/2026-W24.md",
     "Challenge02/04 - Realisation/MockData/script/Python Plots/boxplot_v2.py",
     "Challenge02/04 - Realisation/MockData/script/Python Plots/normale_verdeling.png",
-    "Challenge02/04 - Realisation/MockData/script/Python Plots/boxplot_gemeente.png",
-    "Challenge02/04 - Realisation/MockData/script/boxplot_gemeente.png",
     "Challenge02/04 - Realisation/MockData/script/Python Plots/boxplot.py",
     "Challenge02/04 - Realisation/MockData/script/Python Plots/boxplot.pu",
     "Weekkaarten/2026-W23.md",
     "Weekkaarten/2026-W22.md",
-    "Challenge02/08 - Personal Leadership/Workshops Statistiek.md",
     "Challenge02/08 - Personal Leadership/Workshops Statistiek.pdf",
-    "Pasted image 20260609090746.png",
-    "Pasted image 20260609090423.png",
-    "Pasted image 20260609085905.png",
-    "Pasted image 20260609085352.png",
-    "Pasted image 20260609084925.png",
-    "Pasted image 20260609084403.png",
     "Challenge02/08 - Personal Leadership/Reflectie Sprint 2 Tussentijdse evaluatie.pdf",
     "Challenge02/03 - Ontwerp/Design.md",
     "Challenge02/02 - Analyse/AiBot Happy Flow - Begeleidende tekst.md",
     "Challenge02/02 - Analyse/AiBot Business & Data ER-Diagram.md",
-    "Challenge02/04 - Realisation/versie1_1_Leefstijl.jpg",
     "Challenge02/03 - Ontwerp/Design.pdf",
     "Challenge02/08 - Personal Leadership/certificate.pdf",
     "Challenge02/08 - Personal Leadership/Unconfirmed 195047.crdownload",
     "Challenge02/02 - Analyse/AiBot Projectscope Business & Data.md",
-    "Challenge02/04 - Realisation/MockData/script/data_output/Feit_Gesprek.csv",
     "Weekkaarten/2026-W21.md",
-    "Challenge02/08 - Personal Leadership/AiBot Sprint Reflectie.md",
     "Challenge02/08 - Personal Leadership/AiBot Reflectie Verhuizing en Bevalling tijdens Sprint 1.md",
     "Challenge02/01 - Projectmanagement/Samenwerkingsdocument.md",
     "Challenge02/06 - Transcriptions en Agenda's/transcriptie meeting 5-5.md",
@@ -244,7 +246,6 @@
     "Weekkaarten/2026-W20.md",
     "Challenge01/IndividueelProject_1b/01 Analyse/OK-Planning Kosten - Analyse.md",
     "Challenge01/IndividueelProject_1b/01 Analyse/OK-Planning Kosten - Definitief Business Analysis Document.md",
-    "Weekkaarten/2026-W19.md",
-    "Verzekeringen.md"
+    "Weekkaarten/2026-W19.md"
   ]
 }
