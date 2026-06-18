@@ -34,20 +34,6 @@
               "icon": "lucide-file",
               "title": "AiBot Reflectie"
             }
-          },
-          {
-            "id": "e4707b53e0db167f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Challenge02/08 - Personal Leadership/Reflectie Sprint 2 Tussentijdse evaluatie.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Reflectie Sprint 2 Tussentijdse evaluatie"
-            }
           }
         ],
         "currentTab": 1
@@ -216,6 +202,10 @@
   },
   "active": "d630f3b2ca8b329d",
   "lastOpenFiles": [
+    "Challenge02/08 - Personal Leadership/GevalideerdDashboard.png",
+    "Challenge02/08 - Personal Leadership/peer_feedback_AI_Chatbotxlsx.xlsx",
+    "Challenge02/07 - Informatie verkregen via stakeholder/eindfoto.jpeg",
+    "Challenge02/08 - Personal Leadership/AiBot Reflectie.pdf",
     "Challenge02/08 - Personal Leadership/Reflectie Sprint 2 Tussentijdse evaluatie.md",
     "Challenge02/AiBot Reflectie.md",
     "Challenge02/AiBot Dashboard Begeleidende tekst.md",
@@ -239,7 +229,6 @@
     "Schema.md",
     "Weekkaarten/2026-W24.md",
     "Challenge02/04 - Realisation/MockData/script/Python Plots/boxplot_v2.py",
-    "Challenge02/04 - Realisation/MockData/script/Python Plots/normale_verdeling.png",
     "Challenge02/04 - Realisation/MockData/script/Python Plots/boxplot.py",
     "Challenge02/04 - Realisation/MockData/script/Python Plots/boxplot.pu",
     "Weekkaarten/2026-W23.md",
@@ -249,8 +238,6 @@
     "Challenge02/03 - Ontwerp/Design.md",
     "Challenge02/02 - Analyse/AiBot Happy Flow - Begeleidende tekst.md",
     "Challenge02/02 - Analyse/AiBot Business & Data ER-Diagram.md",
-    "Challenge02/03 - Ontwerp/Design.pdf",
-    "Challenge02/08 - Personal Leadership/certificate.pdf",
     "Challenge02/02 - Analyse/AiBot Projectscope Business & Data.md",
     "Weekkaarten/2026-W21.md",
     "Challenge02/01 - Projectmanagement/Samenwerkingsdocument.md",
@@ -260,7 +247,6 @@
     "Challenge02/02 - Analyse/Probleemanalyse.md",
     "Weekkaarten/2026-W20.md",
     "Challenge01/IndividueelProject_1b/01 Analyse/OK-Planning Kosten - Analyse.md",
-    "Challenge01/IndividueelProject_1b/01 Analyse/OK-Planning Kosten - Definitief Business Analysis Document.md",
-    "Weekkaarten/2026-W19.md"
+    "Challenge01/IndividueelProject_1b/01 Analyse/OK-Planning Kosten - Definitief Business Analysis Document.md"
   ]
 }
