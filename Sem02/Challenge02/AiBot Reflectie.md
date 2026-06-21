@@ -1,7 +1,7 @@
 ## Metadata
 **Author: ** Bram Wieringa
-**Date: ** 18-06-2026
-**Version: ** 1.1
+**Date: ** 21-06-2026
+**Version: ** 1.2
 **Dependencies: **
 - Reflectie Sprint 2 Tussentijdse evaluatie
 
@@ -22,3 +22,52 @@ Naast mijn individuele traject lag er een belangrijke focus op de projectgroep. 
 Het mooie nieuws is echter dat die actieve sturing aan het einde helemaal niet meer nodig bleek te zijn. De groep heeft elkaars zwaktes uitstekend opgevangen. Groepsleden stapten uit zichzelf naar voren om eigenaarschap te tonen en de afronding te dragen, wat mij enorm positief heeft verrast en waar ik erg trots op ben.
 
 Terugkijkend is dit proces dus uitstekend verlopen. Het is me gelukt om in de beginfase de nodige structuur te genereren voor de groep, waarna zij vervolgens zelfstandig, proactief en op hoog niveau naar een eindproduct toe hebben gewerkt. Het bewuste loslaten heeft daardoor perfect uitgepakt; de groepsleden hebben de verantwoordelijkheid volledig gedragen. Natuurlijk zijn er organisatorische of inhoudelijke details die ik achteraf gezien anders zou hebben aangepakt, maar het eindresultaat is uitstekend. Ik kijk dan ook met een zeer tevreden gevoel terug op deze samenwerking.
+
+## Terugblik must have
+
+_Heeft het eindproduct alles wat we beloofd hebben?_
+
+Voor ver ik weet, voldoen we aan alle eisen maar zijn er een paar afwijkingen,
+
+De eerste afwijking, _"vraagt uitsluitend contactgegevens wanneer de gebruiker daar zelf expliciet om verzoekt"_, is in overleg met de stakeholder aangepast. Daarnaast zijn er uiteindelijk geen persona's opgesteld omdat deze in de praktijk niet nodig bleken te zijn. 
+
+Als het goed is, verwerkt de chatbot geen medische gegevens, maar we missen adequate testen om hier 100% van overtuigd te zijn. Wat betreft de documentatie verwacht ik dat deze wordt geleverd, maar ook hiervoor ontbreken sluitende procedures om het volledig te kunnen garanderen.
+
+### Must have
+
+_Essentieel – zonder deze onderdelen is het project niet geslaagd._
+
+- [x] Een werkend web-based chatbot prototype waarbij:
+    - een gebruiker minimaal één volledig gesprek kan doorlopen
+    - het gesprek resulteert in een aantoonbare match-output
+- [x] Het gesprek is gestructureerd en gebaseerd op exact één erkend gespreksmodel:
+    -  Dat wordt Het Leefstijlroer van Vereniging Arts en Leefstijl.
+- [ ]De chatbot:
+    - [x] toont na afronding drie meest passende activiteiten
+    - [x] is anoniem te gebruiken
+    - [ ] vraagt uitsluitend contactgegevens wanneer de gebruiker daar zelf expliciet om verzoekt
+- [x] De matchinglogica werkt aantoonbaar op basis van:
+    - wensen van de gebruiker
+    - belemmeringen van de gebruiker
+    - leefstijl- en welzijnsvariabelen
+- [x] Voor alle benodigde data wordt synthetische (fictieve) data gebruikt
+- [x] Primaire doelgroep: inwoners van gemeente Boxtel (15-99 jaar)
+- [ ] Er worden minimaal twee persona's opgesteld:
+    - inwoner (primair)
+    - welzijnswerker (secundair)
+- [x] Het prototype draait lokaal
+- [ ] Privacy by design is geborgd binnen de grenzen van een proof of concept:
+    - [ ] de chatbot verwerkt geen medische gegevens
+    - [x] persoonsgegevens worden alleen gevraagd bij een expliciete contactaanvraag
+- Projectdocumentatie wordt opgeleverd met:
+    - onderbouwing van ontwerp- en technische keuzes
+    - beschrijving van het matchingproces
+- [x] Eenvoudig Nederlandse taalgebruik als uitgangspunt
+
+## Wat heb ik er zelf van geleerd / ideeën voor een volgende keer
+
+_Wat heb ik echt geleerd van deze groepsopdracht?_
+
+- Wat basis-technische informatie over de werking van AI.
+- Dat ik mezelf vaker op hoofdlijnen moet houden; ergens in mij schuilt de neiging om de controle te willen behouden. Door er echter voor te zorgen dat de 'inleiding' en de 'conclusie' goed staan, kan ik bewaken dat het hele proces klopt. Met de inleiding doel ik op de scope (wat moet er gemaakt worden?). Met de conclusie doel ik op het inrichten van concrete testen; een aspect waar ik bij een volgend project veel nadrukkelijker mee wil gaan werken om de kwaliteit aan het eind te garanderen. Dit is een methodiek die ik hopelijk bij een volgende groepsopdracht direct kan implementeren. Alhoewel ik nog niet weet hoe ik dat kan doen, zonder het te bureaucratisch te maken.
+- Ik heb dit semester wat geëxperimenteerd met normaalverdelingen en boxplots. De belangrijkste les die ik hieruit meeneem, is dat er enorm veel verschillende manieren zijn om data visueel weer te geven. Het herinnert me eraan dat ik nieuwsgierig moet blijven, want ik ken ze nog lang niet allemaal. In de toekomst wil ik mezelf dan ook vaker expliciet de vraag stellen: is dit wel de beste methode om de specifieke data die ik voor ogen heb te presenteren?
