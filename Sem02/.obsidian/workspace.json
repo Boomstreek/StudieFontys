@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Challenge01/IndividueelProject_1a/01 Analyse/ERD - Conceptueel - OK-Planning.md",
+                "file": "Challenge02/01 - Projectmanagement/Projectscope.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "ERD - Conceptueel - OK-Planning"
+              "title": "Projectscope"
             }
           }
         ],
@@ -232,6 +232,8 @@
   },
   "active": "61b81e4249f1d970",
   "lastOpenFiles": [
+    "Challenge01/IndividueelProject_1a/01 Analyse/4. Nulmeting - Benodigde data voor onderbouwing.md",
+    "Challenge01/IndividueelProject_1a/01 Analyse/ERD - Conceptueel - OK-Planning.md",
     "Challenge01/IndividueelProject_1a/01 Analyse/BPMN_Datateam.pdf",
     "Challenge01/IndividueelProject_1b/01 Analyse/Invalshoek.md",
     "Challenge01/IndividueelProject_1b/01 Analyse/OK-Planning Kosten - Definitief Business Analysis Document.md",
@@ -271,12 +273,10 @@
     "Challenge02/05 - Validation/Feedback document Sprint 2.pdf",
     "Schema.md",
     "Weekkaarten/2026-W24.md",
-    "Challenge02/04 - Realisation/MockData/script/Python Plots/boxplot_v2.py",
     "Weekkaarten/2026-W23.md",
     "Weekkaarten/2026-W22.md",
     "Challenge02/03 - Ontwerp/Design.md",
     "Challenge02/02 - Analyse/AiBot Projectscope Business & Data.md",
-    "Weekkaarten/2026-W21.md",
-    "Challenge02/01 - Projectmanagement/Samenwerkingsdocument.md"
+    "Weekkaarten/2026-W21.md"
   ]
 }

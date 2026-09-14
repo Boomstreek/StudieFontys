@@ -1,1 +1,8 @@
-[]
+[
+  "templater-obsidian",
+  "obsidian-plantuml",
+  "dataview",
+  "better-export-pdf",
+  "obsidian-excalidraw-plugin",
+  "obsidian-kroki"
+]

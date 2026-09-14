@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "Notities"
             }
+          },
+          {
+            "id": "d6178746dddfec54",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Projectafbakening en Leerdoelen Bram.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Projectafbakening en Leerdoelen Bram"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -185,11 +200,17 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "1ff94cf13a62faf3",
+  "active": "d6178746dddfec54",
   "lastOpenFiles": [
+    "Gedistribueerd Data-Platform voor Energienetwerken/01. Analyse/Projectafbakening en Leerdoelen Bram.pdf",
+    "Gedistribueerd Data-Platform voor Energienetwerken/01. Analyse",
+    "Notities.md",
+    "Projectafbakening en Leerdoelen Bram.md",
     "Gedistribueerd Data-Platform voor Energienetwerken",
     "Weekkaarten",
     "Templates/TemplateDVC.md",
@@ -198,7 +219,6 @@
     "Persoonlijk/Template kennismakingsgesprek student en studentcoach NL.pdf",
     "Persoonlijk/Unconfirmed 994110.crdownload",
     "Persoonlijk",
-    "Welcome.md",
-    "Notities.md"
+    "Welcome.md"
   ]
 }
