@@ -62,9 +62,21 @@
               "icon": "lucide-file",
               "title": "Projectscope"
             }
+          },
+          {
+            "id": "5527c591814beff2",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.13.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.13.7"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -230,7 +242,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "61b81e4249f1d970",
+  "active": "5527c591814beff2",
   "lastOpenFiles": [
     "Challenge01/IndividueelProject_1a/01 Analyse/4. Nulmeting - Benodigde data voor onderbouwing.md",
     "Challenge01/IndividueelProject_1a/01 Analyse/ERD - Conceptueel - OK-Planning.md",
