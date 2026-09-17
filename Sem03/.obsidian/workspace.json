@@ -27,16 +27,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projectafbakening en Probleemstelling.md",
+                "file": "Projectafbakening en Leerdoelen Bram.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Projectafbakening en Probleemstelling"
+              "title": "Projectafbakening en Leerdoelen Bram"
+            }
+          },
+          {
+            "id": "0bbf04d0fd6a76c3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Studieplan.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Studieplan"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -205,11 +219,13 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "d6178746dddfec54",
+  "active": "0bbf04d0fd6a76c3",
   "lastOpenFiles": [
-    "Gedistribueerd Data-Platform voor Energienetwerken/01. Analyse/Projectafbakening en Probleemstelling.pdf",
+    "Persoonlijk/Studieplan.pdf",
     "Projectafbakening en Leerdoelen Bram.md",
+    "Studieplan.md",
     "Projectafbakening en Probleemstelling.md",
+    "Gedistribueerd Data-Platform voor Energienetwerken/01. Analyse/Projectafbakening en Probleemstelling.pdf",
     "Gedistribueerd Data-Platform voor Energienetwerken/01. Analyse/Leerdoelen Alfew.pdf",
     "Gedistribueerd Data-Platform voor Energienetwerken/01. Analyse/Unconfirmed 616129.crdownload",
     "Gedistribueerd Data-Platform voor Energienetwerken/01. Analyse/Persoonlijke inbreng Abdou.pdf",
@@ -220,7 +236,6 @@
     "Gedistribueerd Data-Platform voor Energienetwerken/01. Analyse",
     "Notities.md",
     "Gedistribueerd Data-Platform voor Energienetwerken",
-    "Weekkaarten",
     "Templates/TemplateDVC.md",
     "Templates/Leertraject - Weekkaart.md",
     "Welcome.md"
