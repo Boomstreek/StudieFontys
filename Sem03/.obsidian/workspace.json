@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Studieplan.md",
-                "mode": "preview",
+                "file": "Notities.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Studieplan"
+              "title": "Notities"
             }
           }
         ],
@@ -221,9 +221,10 @@
   },
   "active": "0bbf04d0fd6a76c3",
   "lastOpenFiles": [
+    "Studieplan.md",
+    "Weekkaarten",
     "Persoonlijk/Studieplan.pdf",
     "Projectafbakening en Leerdoelen Bram.md",
-    "Studieplan.md",
     "Projectafbakening en Probleemstelling.md",
     "Gedistribueerd Data-Platform voor Energienetwerken/01. Analyse/Projectafbakening en Probleemstelling.pdf",
     "Gedistribueerd Data-Platform voor Energienetwerken/01. Analyse/Leerdoelen Alfew.pdf",
@@ -233,9 +234,7 @@
     "Gedistribueerd Data-Platform voor Energienetwerken/01. Analyse/Leerdoelen in het kort - Timo.pdf",
     "Gedistribueerd Data-Platform voor Energienetwerken/01. Analyse/Unconfirmed 466861.crdownload",
     "Gedistribueerd Data-Platform voor Energienetwerken/01. Analyse/Projectafbakening en Leerdoelen Bram.pdf",
-    "Gedistribueerd Data-Platform voor Energienetwerken/01. Analyse",
     "Notities.md",
-    "Gedistribueerd Data-Platform voor Energienetwerken",
     "Templates/TemplateDVC.md",
     "Templates/Leertraject - Weekkaart.md",
     "Welcome.md"

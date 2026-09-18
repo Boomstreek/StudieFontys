@@ -32,3 +32,12 @@ Voor volgende week dinsdag:
 - Zelf bepalen wat je wilt leren deze semester
 - Hou doe je dat binnen het project?
 - Wat heb je daarvoor nodig?
+
+
+Gesprek constanze
+
+competence profiling
+- als eerste alle compenties aantikken, niveau 2
+- Welke opdracht ga ik doen.
+
+Dinsdagavond om acht uur vast planning, vanaf de 22ste om de weken, structureel inplannen.

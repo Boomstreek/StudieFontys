@@ -1,0 +1,23 @@
+fontasya_representatieve_jaarset_30000_klanten/
+├── electricity_consumption_daily/
+│   ├── year=2026_month=01.csv.gz
+│   └── ... year=2026_month=12.csv.gz
+├── gas_consumption_daily/
+│   ├── year=2026_month=01.csv.gz
+│   └── ... year=2026_month=12.csv.gz
+├── pv_feedin_daily/
+│   ├── year=2026_month=01.csv.gz
+│   └── ... year=2026_month=12.csv.gz
+├── customers.csv.gz
+├── contracts.csv.gz
+├── pv_assets.csv.gz
+├── generation_assets.csv.gz
+├── generation_production_daily.csv.gz
+├── market_price_daily.csv.gz
+├── procurement_trades_daily.csv.gz
+├── energy_balance_daily.csv.gz
+├── portfolio.csv.gz
+├── price_recommendation.csv.gz
+├── data_quality.csv.gz
+├── README.md
+└── entiteits_relatie_schets.md

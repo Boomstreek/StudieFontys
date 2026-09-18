@@ -6,7 +6,7 @@
 | **Aantal studiepunten** | 30 |
 | **Startdatum ELO** | 31-8-2026 |
 | **Verwachte einddatum ELO** | 7-2-2027 |
-| **Versienummer Studieplan** | 1.0 |
+| **Versienummer Studieplan** | 1.1 |
 | **Datum huidige versie Studieplan** | 17-9-2026 |
 | **Naam Coach** | *Constanze Thomassen* |
 
@@ -14,11 +14,11 @@
 
 Aan het einde van semester 2 heb ik een goede basis opgebouwd binnen Business & Data. Voor Analysis, Advice en Design heb ik het niveau **Proficient** behaald en voor Realization en Manage & Control **Advanced**.
 
-Ik heb inmiddels ervaring met SQL en Power BI en heb daarnaast basiservaring met Python, databases en data-analyse/statistiek. Mijn SQL- en Power BI-vaardigheden liggen momenteel tussen een goed en gevorderd niveau. Ik kan zelfstandig veel werkzaamheden uitvoeren, maar bij complexere problemen zoek ik gericht aanvullende informatie of hulp.
+Inmiddels heb ik ervaring met SQL en Power BI en heb daarnaast basiservaring met Python, databases en data-analyse/statistiek. Mijn SQL- en Power BI-vaardigheden liggen momenteel tussen een goed en gevorderd niveau. Ik kan zelfstandig veel werkzaamheden uitvoeren, maar bij complexere problemen zoek ik gericht aanvullende informatie of hulp.
 
 Een belangrijk onderdeel van mijn ontwikkeling in semester 2 was het zelfstandig oppakken van complexere Power BI-concepten. Ook heb ik statistische kennis toegepast, bijvoorbeeld bij het maken en interpreteren van boxplots en normaalverdelingen. Uit de feedback van het vorige semester blijkt dat ik proactief en leergierig ben en dat ik goed in staat ben om zelfstandig nieuwe kennis op te doen.
 
-Daarnaast ben ik gewend om zelfstandig problemen op te lossen. Wanneer ik een technologie of concept nog niet beheers, zoek ik eerst documentatie en voorbeelden, experimenteer ik zelf en vraag ik pas daarna gericht hulp. Ik werk hierbij graag met code en tekstgebaseerde tooling in plaats van voornamelijk met GUI's.
+Daarnaast ben ik gewend om zelfstandig problemen op te lossen. Wanneer ik een technologie of concept nog niet beheers, zoek ik eerst documentatie en voorbeelden, experimenteer ik zelf en vraag ik pas daarna gericht hulp. Ik werk hierbij graag met code en tekstgebaseerde tooling in plaats van GUI's.
 
 Mijn belangrijkste ontwikkelpunten liggen dit semester niet zozeer bij het leren van de basis, maar bij het verdiepen van mijn technische kennis. Ik wil meer leren over data engineering en analytics engineering, met name over data-ingestie, relationele databases, dbt, datamodellering en open-source BI. Daarnaast wil ik mijn kennis van data-analyse en statistiek verder ontwikkelen, zodat de technische dataketen uiteindelijk leidt tot kwalitatief goede analyses.
 
