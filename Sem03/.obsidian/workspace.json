@@ -41,16 +41,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notities.md",
+                "file": "Studieplan 2.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Notities"
+              "title": "Studieplan 2"
+            }
+          },
+          {
+            "id": "5696d4ebc812f341",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Competenties halen dit semester.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Competenties halen dit semester"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -219,22 +233,25 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "0bbf04d0fd6a76c3",
+  "active": "5696d4ebc812f341",
   "lastOpenFiles": [
+    "Persoonlijk/HBO-i Outcomes Example Generator - Studieplan Data BI Analyst.pdf",
+    "Gedistribueerd Data-Platform voor Energienetwerken/01. Analyse/Leerdoelen als Groep/Leerdoelen Alfew.pdf",
+    "Gedistribueerd Data-Platform voor Energienetwerken/01. Analyse/Leerdoelen als Groep/Projectafbakening en Probleemstelling.pdf",
+    "Gedistribueerd Data-Platform voor Energienetwerken/01. Analyse/Leerdoelen als Groep/Projectafbakening en Leerdoelen Bram.pdf",
+    "Gedistribueerd Data-Platform voor Energienetwerken/01. Analyse/Leerdoelen als Groep/Persoonlijke inbreng Abdou.pdf",
+    "Gedistribueerd Data-Platform voor Energienetwerken/01. Analyse/Leerdoelen als Groep/Leerdoelen in het kort - Timo.pdf",
+    "Gedistribueerd Data-Platform voor Energienetwerken/01. Analyse/Leerdoelen als Groep",
+    "Data&Opdracht/Generate dataset Fontasya Electric/generate_fontasya_jaarset.py",
+    "Data&Opdracht/Generate dataset Fontasya Electric/fontasya_representatieve_jaarset_30.txt",
+    "Data&Opdracht/uitleg data.pdf",
+    "Data&Opdracht/concept_leverovereenkomst_data_consultancy_fontasya_electric.pdf",
+    "Studieplan 2.md",
+    "Competenties halen dit semester.md",
     "Studieplan.md",
-    "Weekkaarten",
-    "Persoonlijk/Studieplan.pdf",
+    "Notities.md",
     "Projectafbakening en Leerdoelen Bram.md",
     "Projectafbakening en Probleemstelling.md",
-    "Gedistribueerd Data-Platform voor Energienetwerken/01. Analyse/Projectafbakening en Probleemstelling.pdf",
-    "Gedistribueerd Data-Platform voor Energienetwerken/01. Analyse/Leerdoelen Alfew.pdf",
-    "Gedistribueerd Data-Platform voor Energienetwerken/01. Analyse/Unconfirmed 616129.crdownload",
-    "Gedistribueerd Data-Platform voor Energienetwerken/01. Analyse/Persoonlijke inbreng Abdou.pdf",
-    "Gedistribueerd Data-Platform voor Energienetwerken/01. Analyse/Unconfirmed 68222.crdownload",
-    "Gedistribueerd Data-Platform voor Energienetwerken/01. Analyse/Leerdoelen in het kort - Timo.pdf",
-    "Gedistribueerd Data-Platform voor Energienetwerken/01. Analyse/Unconfirmed 466861.crdownload",
-    "Gedistribueerd Data-Platform voor Energienetwerken/01. Analyse/Projectafbakening en Leerdoelen Bram.pdf",
-    "Notities.md",
     "Templates/TemplateDVC.md",
     "Templates/Leertraject - Weekkaart.md",
     "Welcome.md"
