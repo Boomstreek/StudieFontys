@@ -41,3 +41,6 @@ competence profiling
 - Welke opdracht ga ik doen.
 
 Dinsdagavond om acht uur vast planning, vanaf de 22ste om de weken, structureel inplannen.
+
+# Vrijdag 18 september Groepsoverleg
+hoofdvraag en deelvragen, probleemstelling af

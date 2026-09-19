@@ -67,16 +67,18 @@
             "id": "5527c591814beff2",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.13.7"
+                "file": "Challenge02/01 - Projectmanagement/Teamrollen.md",
+                "mode": "source",
+                "source": true
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.13.7"
+              "icon": "lucide-file",
+              "title": "Teamrollen"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -242,8 +244,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "5527c591814beff2",
+  "active": "61b81e4249f1d970",
   "lastOpenFiles": [
+    "Challenge02/01 - Projectmanagement/Teamrollen.md",
+    "Challenge02/01 - Projectmanagement/Projectscope.md",
+    "Challenge02/08 - Personal Leadership/Reflectie Sprint 2 Tussentijdse evaluatie.md",
+    "Challenge02/AiBot Reflectie.md",
+    "Weekkaarten/2026-W25.md",
+    "Challenge02/01 - Projectmanagement/Samenwerkingsdocument.md",
     "Challenge01/IndividueelProject_1a/01 Analyse/4. Nulmeting - Benodigde data voor onderbouwing.md",
     "Challenge01/IndividueelProject_1a/01 Analyse/ERD - Conceptueel - OK-Planning.md",
     "Challenge01/IndividueelProject_1a/01 Analyse/BPMN_Datateam.pdf",
@@ -252,13 +260,9 @@
     "Challenge01/IndividueelProject_1b/01 Analyse/OK-Planning Kosten - Analyse.md",
     "Challenge02/02 - Analyse/AiBot Happy Flow - Begeleidende tekst.md",
     "Challenge02/02 - Analyse/AiBot Business & Data ER-Diagram.md",
-    "Challenge02/01 - Projectmanagement/Teamrollen.md",
     "Sem 3 voorbereiding.md",
     "Pasted image 20260625184805.png",
-    "Weekkaarten/2026-W25.md",
     "Rekeningnummer.md",
-    "Challenge02/AiBot Reflectie.md",
-    "Challenge02/01 - Projectmanagement/Projectscope.md",
     "Challenge02/Feedback document Sprint 2.md",
     "Challenge02/08 - Personal Leadership/260616_notulen_eindsprint_presentatie_Padvinder_revCarla.pdf",
     "Challenge02/08 - Personal Leadership/Unconfirmed 393925.crdownload",
@@ -268,7 +272,6 @@
     "Challenge02/08 - Personal Leadership/peer_feedback_AI_Chatbotxlsx.xlsx",
     "Challenge02/07 - Informatie verkregen via stakeholder/eindfoto.jpeg",
     "Challenge02/08 - Personal Leadership/AiBot Reflectie.pdf",
-    "Challenge02/08 - Personal Leadership/Reflectie Sprint 2 Tussentijdse evaluatie.md",
     "Challenge02/AiBot Dashboard Begeleidende tekst.md",
     "Challenge02/08 - Personal Leadership/AiBot Reflectie Verhuizing en Bevalling tijdens Sprint 1.md",
     "Challenge02/04 - Realisation/AiBot Dashboard Begeleidende tekst.pdf",
@@ -288,7 +291,6 @@
     "Weekkaarten/2026-W23.md",
     "Weekkaarten/2026-W22.md",
     "Challenge02/03 - Ontwerp/Design.md",
-    "Challenge02/02 - Analyse/AiBot Projectscope Business & Data.md",
-    "Weekkaarten/2026-W21.md"
+    "Challenge02/02 - Analyse/AiBot Projectscope Business & Data.md"
   ]
 }
