@@ -1,7 +1,7 @@
 |Metadata|||
 |---|---|
 |Naam student|Bram Wieringa|
-|Versienummer |1.0|
+|Versienummer |1.2|
 |Datum huidige versie|19-9-2026|
 |Referenties|Studieplan semester 3 - Data Consultancy Fontasya Electric, 2.0 <br>concept-leverovereenkomst met Fontasya Electric, 1.0|
 
@@ -40,7 +40,7 @@ Waardevolle verdieping als er tijd over is; niet nodig om mijn leeruitkomsten aa
 
 Bewust buiten scope, ook als het interessant is.
 
-- Embedded device / C/C++-simulatie van een slimme meter — mijn subdoel; alleen als er, na het Must- en Should-werk, nog tijd over is
-- Volledige juridische/formele afhandeling van de overeenkomst zelf: verwerkersovereenkomst-ondertekening, aansprakelijkheidslimieten, audit­rechten, subverwerkersbeheer (§6, §11–13) — dit is opdrachtgeverskader, geen technisch leerdoel van mij
-- Productie-grade beveiliging (bijv. formele pentest, SIEM-integratie) — de beveiligingsprincipes (§7) neem ik wel mee in Design, maar niet als volwaardige implementatie
-- Geautomatiseerde publicatie van prijsadviezen zonder menselijke controle — expliciet uitgesloten in de overeenkomst (§9.5)
+- Embedded device / C/C++-simulatie van een slimme meter - mijn subdoel; alleen als er, na het Must- en Should-werk, nog tijd over is
+- Volledige juridische/formele afhandeling van de overeenkomst zelf: verwerkersovereenkomst-ondertekening, aansprakelijkheidslimieten, audit­rechten, subverwerkersbeheer (§6, §11–13) - dit is opdrachtgeverskader, geen technisch leerdoel van mij
+- Productie-grade beveiliging (bijv. formele pentest, SIEM-integratie) - de beveiligingsprincipes (§7) neem ik wel mee in Design, maar niet als volwaardige implementatie
+- Geautomatiseerde publicatie van prijsadviezen zonder menselijke controle - expliciet uitgesloten in de overeenkomst (§9.5)

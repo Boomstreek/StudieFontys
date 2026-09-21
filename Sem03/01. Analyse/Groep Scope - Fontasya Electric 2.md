@@ -1,9 +1,9 @@
 |Metadata|||
 |---|---|
 |Naam student|Bram Wieringa|
-|Versienummer |1.0|
-|Datum huidige versie|19-9-2026|
-|Referenties|Studieplan semester 3 - Data Consultancy Fontasya Electric, 2.0 <br>concept-leverovereenkomst met Fontasya Electric, 1.0|
+|Versienummer |1.3|
+|Datum huidige versie|21-9-2026|
+|Referenties|concept-leverovereenkomst met Fontasya Electric, 1.0|
 
 ## Must have
 
@@ -17,14 +17,14 @@ Expliciet vereist als kernresultaat of acceptatiecriterium in het werkplan (Bijl
 - **Privacyrolverdeling en verwerkersovereenkomst** (§6.1, Bijlage 1): Opdrachtgever als verwerkingsverantwoordelijke, Consultant als verwerker; verwerking uitsluitend op gedocumenteerde instructie en beperkt tot het noodzakelijke
 - **Minimale beveiligingsmaatregelen** (§7.2): versleuteling, MFA, rolgebaseerde toegang, gescheiden dev/test/acceptatie/productie-omgevingen, gemaskeerde/synthetische testdata, centrale logging, kwetsbaarheidsbeheer, back-ups, beveiligde ontwikkeling, incidentresponsproces
 - **Geen geautomatiseerde publicatie van prijsadviezen** zonder menselijke beoordeling, tenzij hierover aanvullende schriftelijke afspraken zijn gemaakt (§9.5)
-- **Acceptatieproces per fase** (Bijlage 3): Initiatie → Datafundament → Prijsmodel → Dashboards → Pilot → Overdracht, elk met een eigen acceptatiecriterium
+- **Acceptatieproces per fase** (Bijlage 3): Initiatie -> Datafundament -> Prijsmodel -> Dashboards -> Pilot -> Overdracht, elk met een eigen acceptatiecriterium
 
 ## Should have
 
 Wel onderdeel van de overeenkomst, maar voorwaardelijk, nader in te vullen, of niet kritiek voor de eerste oplevering.
 
 - Aanvullende prijscomponenten "voor zover gegevens beschikbaar" (garanties, risico, onbalans, reserveringen) en energiebelasting/netkosten "voor zover Opdrachtgever dit wenst" (§4.2)
-- Concrete invulling van de service level agreement: hersteldoelstellingen, back-upbewaartermijn, herstelfrequentie testen, rapportagefrequentie (Bijlage 2 — status "in te vullen")
+- Concrete invulling van de service level agreement: hersteldoelstellingen, back-upbewaartermijn, herstelfrequentie testen, rapportagefrequentie (Bijlage 2: status "in te vullen")
 - Netwerk- en toegangsplan met alle gekoppelde systemen, protocollen en serviceaccounts (§7.3)
 - Ondersteuning bij rechten van betrokkenen (inzage, correctie, verwijdering) (Bijlage 1, onderdeel D)
 - Jaarlijkse audit-ondersteuning: certificeringen, assurance-rapportages, penetratietestsamenvattingen (§13)
@@ -34,7 +34,7 @@ Wel onderdeel van de overeenkomst, maar voorwaardelijk, nader in te vullen, of n
 Alleen relevant als de opdrachtgever dit expliciet wenst of als de situatie erom vraagt; niet standaard onderdeel van de eerste oplevering.
 
 - Uitbreiding van het dashboard-backlog buiten de vijf genoemde dashboards (§4.3: "definitieve set wordt vastgelegd in een afzonderlijk backlog of werkplan")
-- Gebruik van machine learning of AI in het prijsmodel, mét bijbehorende documentatie van doel, data, prestaties en beperkingen (§9.4 — alleen van toepassing "indien" dit gebeurt)
+- Gebruik van machine learning of AI in het prijsmodel, mét bijbehorende documentatie van doel, data, prestaties en beperkingen (§9.4: alleen van toepassing "indien" dit gebeurt)
 - Doorgifte van persoonsgegevens buiten de EER, met aanvullende waarborgen en schriftelijke toestemming (§6.4)
 - Inzet van subverwerkers, na toestemming en met gelijkwaardige verplichtingen (§6.4)
 - Aanvullende databronnen, licenties, cloudvoorzieningen of externe voorspeldiensten buiten de overeengekomen scope, na schriftelijke goedkeuring (§14.2)
@@ -43,7 +43,7 @@ Alleen relevant als de opdrachtgever dit expliciet wenst of als de situatie erom
 
 Expliciet buiten scope of uitgesloten door de overeenkomst zelf.
 
-- Zelfstandig een commercieel prijsbesluit nemen namens de opdrachtgever — dat blijft altijd bij Fontasya Electric (§2, §9.6)
+- Zelfstandig een commercieel prijsbesluit nemen namens de opdrachtgever, dat blijft altijd bij Fontasya Electric (§2, §9.6)
 - Klantdata gebruiken voor eigen doeleinden, profilering, marketing, training van algemene AI-modellen of doeleinden van derden (§5.2)
 - Data, modellen of uitkomsten van de opdrachtgever gebruiken als referentie, publicatie of commerciële casus zonder voorafgaande schriftelijke toestemming (§11.4)
 - Persoonsgegevens langer bewaren dan noodzakelijk, of niet verwijderen/retourneren na afloop van de overeenkomst (behoudens wettelijke bewaarplicht) (§6.5)

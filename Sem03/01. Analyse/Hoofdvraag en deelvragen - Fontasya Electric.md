@@ -3,8 +3,8 @@
 |Metadata|||
 |---|---|
 |Naam student|Bram Wieringa|
-|Versienummer |1.0|
-|Datum huidige versie|19-9-2026|
+|Versienummer |1.1|
+|Datum huidige versie|20-9-2026|
 |Referenties|Studieplan semester 3 - Data Consultancy Fontasya Electric, 2.0 <br>concept-leverovereenkomst met Fontasya Electric, 1.0|
 
 ## Hoofdvraag
@@ -21,12 +21,12 @@
 
 ### Advies
 
-4. Welke samenhangende oplossing — op het gebied van organisatiestructuur, processtructuur én informatievoorziening — adresseert de gevonden knelpunten het beste?
+4. Welke samenhangende oplossing, op het gebied van organisatiestructuur, processtructuur én informatievoorziening, adresseert de gevonden knelpunten het beste?
 5. Welke open-source ICT-opties (database, transformatielaag, dashboard) zijn geschikt om de dataketen te realiseren, en op basis van welke criteria maak ik daartussen een onderbouwde keuze?
 
 ### Design
 
-6. Hoe ontwerp ik een coherent proces- en informatiemodel voor het prijsadvies — inclusief organisatiestructuur, procesmanagement en informatievoorziening — met inachtneming van security- en privacywetgeving?
+6. Hoe ontwerp ik een coherent proces- en informatiemodel voor het prijsadvies — inclusief organisatiestructuur, procesmanagement en informatievoorziening, met inachtneming van security- en privacywetgeving?
 7. Hoe kunnen de synthetische Fontasya-datasets via mappings en transformaties worden omgezet naar een bruikbaar analytisch datamodel, passend in het bredere applicatielandschap?
 
 ### Realisatie

@@ -3,9 +3,9 @@
 |Metadata|||
 |---|---|
 |Naam student|Bram Wieringa|
-|Versienummer |1.0|
-|Datum huidige versie|19-9-2026|
-|Referenties|Studieplan semester 3 - Data Consultancy Fontasya Electric, 2.0 <br>concept-leverovereenkomst met Fontasya Electric, 1.0|
+|Versienummer |1.1|
+|Datum huidige versie|20-9-2026|
+|Referenties|concept-leverovereenkomst met Fontasya Electric, 1.0|
 
 ## Hoofdvraag
 
