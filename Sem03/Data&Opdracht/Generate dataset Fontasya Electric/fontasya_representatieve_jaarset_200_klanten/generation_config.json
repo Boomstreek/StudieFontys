@@ -1,0 +1,10 @@
+{
+  "seed": 20260917,
+  "year": 2026,
+  "n_customers": 200,
+  "pv_share": 0.45,
+  "own_electricity_share": 0.6,
+  "wind_share_of_own": 0.65,
+  "output_dir": "fontasya_representatieve_jaarset_200_klanten",
+  "csv_compresslevel": 1
+}
