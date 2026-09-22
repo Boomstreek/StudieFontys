@@ -9,7 +9,7 @@
 ## 1. Inleiding
 Om snel te kunnen experimenteren met een deel van de aangeleverde dataset voor de projectopdracht, is een geschikte lokale database-omgeving nodig. Het doel is om deze dataset lokaal in te laden en klaar te zetten voor latere datatransformaties.
 
-In dit document wordt op gestructureerde wijze onderzocht welke database-oplossing het beste aansluit bij de gestelde kaders, hoe de inrichting via scripting kan plaatsvinden en hoe deze integreert met dbt (data build tool).
+In dit document wordt op gestructureerde wijze onderzocht welke database-oplossing het beste aansluit bij de gestelde kaders, hoe de inrichting via scripting kan plaatsvinden en hoe deze integreert met dbt (data build tool). 
 
 ## 2. Kaders & Randvoorwaarden
 De database-oplossing en de bijbehorende pijplijn dienen te voldoen aan de volgende eisen:

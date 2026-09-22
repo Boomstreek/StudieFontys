@@ -27,21 +27,21 @@ Voor mijn hoofdprofiel gebruik ik het consultancyproject voor Fontasya Electric 
 
 Must have: dit moet ik dit semester aantonen.
 
-|Fase|Leeruitkomst (kort)|Mijn aanpak binnen het Fontasya-project|
-|---|---|---|
-|Analyse|Meerdere processen, data & ICT analyseren|Prijsadviesproces in kaart brengen: operationeel/tactisch proces, databronnen, datakwaliteit, huidig en gewenst ICT-landschap|
-|Analyse|Bottlenecks en oorzaak-gevolg|Knelpunten in het huidige (ontbrekende) prijsadviesproces herleiden tot onderliggende oorzaken|
-|Analyse|ICT-requirements bepalen|Requirements afleiden uit stakeholderbehoeften (opdrachtgever, klant, teamleider) en de leverovereenkomst|
-|Advies|Samenhangende oplossingen adviseren|Advies dat organisatie, proces én informatievoorziening samen adresseert, niet alleen een tool|
-|Advies|ICT-opties adviseren|Onderbouwde vergelijking van open-source opties (database, transformatie, dashboard) op criteria als beheer, functionaliteit, security, schaalbaarheid|
-|Design|Coherente organisatieprocessen ontwerpen|Ontwerp van organisatie → proces → informatie → ICT → security/privacy voor het prijsadviesproces|
-|Design|Interfaces/mappings ontwerpen|Bron-naar-doel mappings en transformatielogica voor de synthetische Fontasya-datasets|
-|Realisatie|Procedures introduceren en accepteren|Documenteren hoe een nieuwe/gewijzigde informatievoorziening en werkwijze wordt ingevoerd|
-|Realisatie|PoC genereren en valideren|Werkende proof of concept van de data-/prijsadviesketen bouwen én valideren tegen requirements|
-|Realisatie|Standard application opzetten|Inrichten, configureren en documenteren van de gekozen open-source oplossing(en)|
-|Management & Control|Managementprocessen inrichten|Beheerafspraken voor data en oplossing: verantwoordelijkheden, foutafhandeling, wijzigingsbeheer|
-|Management & Control|Processen meten/monitoren met data|Proces-KPI's afleiden en monitoren via het dashboard|
-|Management & Control|Veranderbehoefte identificeren|Op basis van metingen een vervolgadvies formuleren|
+| Fase                 | Leeruitkomst (kort)                       | Mijn aanpak binnen het Fontasya-project                                                                                                                |
+| -------------------- | ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Analyse              | Meerdere processen, data & ICT analyseren | Prijsadviesproces in kaart brengen: operationeel/tactisch proces, databronnen, datakwaliteit, huidig en gewenst ICT-landschap                          |
+| Analyse              | Bottlenecks en oorzaak-gevolg             | Knelpunten in het huidige (ontbrekende) prijsadviesproces herleiden tot onderliggende oorzaken                                                         |
+| Analyse              | ICT-requirements bepalen                  | Requirements afleiden uit stakeholderbehoeften (opdrachtgever, klant, teamleider) en de leverovereenkomst                                              |
+| Advies               | Samenhangende oplossingen adviseren       | Advies dat organisatie, proces én informatievoorziening samen adresseert, niet alleen een tool                                                         |
+| Advies               | ICT-opties adviseren                      | Onderbouwde vergelijking van open-source opties (database, transformatie, dashboard) op criteria als beheer, functionaliteit, security, schaalbaarheid |
+| Design               | Coherente organisatieprocessen ontwerpen  | Ontwerp van organisatie → proces → informatie → ICT → security/privacy voor het prijsadviesproces                                                      |
+| Design               | Interfaces/mappings ontwerpen             | Bron-naar-doel mappings en transformatielogica voor de synthetische Fontasya-datasets                                                                  |
+| Realisatie           | Procedures introduceren en accepteren     | Documenteren hoe een nieuwe/gewijzigde informatievoorziening en werkwijze wordt ingevoerd                                                              |
+| Realisatie           | PoC genereren en valideren                | Werkende proof of concept van de data-/prijsadviesketen bouwen én valideren tegen requirements                                                         |
+| Realisatie           | Standard application opzetten             | Inrichten, configureren en documenteren van de gekozen open-source oplossing(en)                                                                       |
+| Management & Control | Managementprocessen inrichten             | Beheerafspraken voor data en oplossing: verantwoordelijkheden, foutafhandeling, wijzigingsbeheer                                                       |
+| Management & Control | Processen meten/monitoren met data        | Proces-KPI's afleiden en monitoren via het dashboard                                                                                                   |
+| Management & Control | Veranderbehoefte identificeren            | Op basis van metingen een vervolgadvies formuleren                                                                                                     |
 
 ### Subdoel - Embedded Devices (alleen als er tijd over is)
 
@@ -132,4 +132,4 @@ Anthropic. (2026). Claude [Large language model]. https://claude.ai/
 
 ## Bijlage: Gebruik van generatieve AI
 
-Voor het opstellen van de eerste versie van dit studieplan is ChatGPT van OpenAI gebruikt als ondersteunend hulpmiddel. Voor het herzien en compacter maken van versie 2.0 — op basis van een nadere analyse van de concept-leverovereenkomst en het competentieprofiel — is Claude van Anthropic gebruikt. De inhoud, leerdoelen en uiteindelijke keuzes zijn in beide gevallen gebaseerd op mijn eigen situatie en professionele ontwikkeling; de gegenereerde tekst is door mij beoordeeld, aangepast en waar nodig gecorrigeerd.
+Voor het opstellen van de eerste versie van dit studieplan is ChatGPT van OpenAI gebruikt als ondersteunend hulpmiddel. Voor het herzien en compacter maken van versie 2.0 op basis van een nadere analyse van de concept-leverovereenkomst en het competentieprofiel is Claude van Anthropic gebruikt. De inhoud, leerdoelen en uiteindelijke keuzes zijn in beide gevallen gebaseerd op mijn eigen situatie en professionele ontwikkeling; de gegenereerde tekst is door mij beoordeeld, aangepast en waar nodig gecorrigeerd.
