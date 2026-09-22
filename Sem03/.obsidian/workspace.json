@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data&Opdracht/Generate dataset Fontasya Electric/fontasya_representatieve_jaarset_200_klanten/entiteits_relatie_schets.md",
+                "file": "Weekkaarten/2026-W40.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "entiteits_relatie_schets"
+              "title": "2026-W40"
             }
           },
           {
@@ -221,24 +221,23 @@
   },
   "active": "d6178746dddfec54",
   "lastOpenFiles": [
+    "01. Analyse/Scope - Fontasya Electric.md",
+    "01. Analyse/Scope - Fontasya Electric.pdf",
+    "01. Analyse/Hoofdvraag en deelvragen - Fontasya Electric.md",
+    "01. Analyse/Hoofdvraag en deelvragen - Fontasya Electric.pdf",
+    "Weekkaarten/2026-W40.md",
+    "Data&Opdracht/Generate dataset Fontasya Electric/fontasya_representatieve_jaarset_200_klanten/entiteits_relatie_schets.md",
+    "01. Analyse/BPMN/PrijsBesluitProces.pdf",
+    "01. Analyse/BPMN/PrijsBesluitProces.bpmn",
+    "01. Analyse/BPMN/bpmn2pdf.sh",
     "01. Analyse/BPMN/PrijsadviesEnPrijsbesluitvormingsproces.bpmn",
     "01. Analyse/BPMN",
     "Data&Opdracht/Generate dataset Fontasya Electric/fontasya_representatieve_jaarset_200_klanten/README.md",
-    "Weekkaarten/2026-W40.md",
-    "Data&Opdracht/Generate dataset Fontasya Electric/fontasya_representatieve_jaarset_200_klanten/entiteits_relatie_schets.md",
     "Data&Opdracht/Generate dataset Fontasya Electric/fontasya_representatieve_jaarset_200_klanten/data_quality_sample.json",
     "Data&Opdracht/Generate dataset Fontasya Electric/fontasya_representatieve_jaarset_200_klanten/data_quality.csv.gz",
     "Data&Opdracht/Generate dataset Fontasya Electric/fontasya_representatieve_jaarset_200_klanten/price_recommendation_sample.json",
-    "Data&Opdracht/Generate dataset Fontasya Electric/fontasya_representatieve_jaarset_200_klanten/price_recommendation.csv.gz",
-    "Data&Opdracht/Generate dataset Fontasya Electric/fontasya_representatieve_jaarset_200_klanten/portfolio_sample.json",
-    "Data&Opdracht/Generate dataset Fontasya Electric/fontasya_representatieve_jaarset_200_klanten/portfolio.csv.gz",
-    "Data&Opdracht/Generate dataset Fontasya Electric/fontasya_representatieve_jaarset_200_klanten/procurement_trades_daily.csv.gz",
-    "Data&Opdracht/Generate dataset Fontasya Electric/fontasya_representatieve_jaarset_200_klanten/energy_balance_daily_sample.json",
-    "Data&Opdracht/Generate dataset Fontasya Electric/fontasya_representatieve_jaarset_200_klanten/energy_balance_daily.csv.gz",
     "venv/lib/python3.14/site-packages/pip-26.2.1.dist-info/licenses/src/pip/_vendor/idna/LICENSE.md",
     "venv/lib/python3.14/site-packages/pip/_vendor/idna/LICENSE.md",
-    "01. Analyse/Scope - Fontasya Electric.md",
-    "01. Analyse/Hoofdvraag en deelvragen - Fontasya Electric.md",
     "Weekkaarten/2026-W39.md",
     "Feedback.md",
     "01. Analyse/Groep Hoofdvraag en deelvragen - Fontasya Electric.md",
