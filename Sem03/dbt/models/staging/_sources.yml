@@ -1,0 +1,33 @@
+version: 2
+
+sources:
+  - name: fontasya_raw
+    description: "Gecomprimeerde CSV-bestanden uit de Fontasya Electric jaarset"
+    meta:
+      base_path: "/home/bram/Documents/Generate dataset Fontasya Electric/fontasya_representatieve_jaarset_200_klanten"
+    tables:
+      # Losse bestanden
+      - name: customers
+        meta:
+          file_path: "customers.csv.gz"
+      - name: contracts
+        meta:
+          file_path: "contracts.csv.gz"
+      - name: energy_balance_daily
+        meta:
+          file_path: "energy_balance_daily.csv.gz"
+      - name: network_system_daily
+        meta:
+          file_path: "network_system_daily.csv.gz"
+
+      # Mappen met meerdere bestanden (wildcard ingestie)
+      - name: electricity_consumption_daily
+        meta:
+          file_path: "electricity_consumption_daily/*.csv.gz"
+      - name: gas_consumption_daily
+        meta:
+          file_path: "gas_consumption_daily/*.csv.gz"
+      - name: pv_feedin_daily
+        meta:
+          file_path: "pv_feedin_daily/*.csv.gz"
+

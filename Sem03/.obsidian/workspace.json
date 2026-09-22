@@ -36,6 +36,20 @@
             }
           },
           {
+            "id": "5b2114c958d5559f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01. Analyse/Keuze - Deel 2 Realisatie- & Validatieverslag.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Keuze - Deel 2 Realisatie- & Validatieverslag"
+            }
+          },
+          {
             "id": "3dcc1d865c460a5e",
             "type": "leaf",
             "state": {
@@ -64,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -233,10 +247,11 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "d6178746dddfec54",
+  "active": "3dcc1d865c460a5e",
   "lastOpenFiles": [
-    "Weekkaarten/2026-W40.md",
+    "01. Analyse/Keuze - Deel 2 Realisatie- & Validatieverslag.md",
     "01. Analyse/Keuze - welke prototype database.md",
+    "Weekkaarten/2026-W40.md",
     "01. Analyse/Keuze - welke prototype database.pdf",
     "01. Analyse/Hoofdvraag en deelvragen - Fontasya Electric.md",
     "01. Analyse/Scope - Fontasya Electric.md",
