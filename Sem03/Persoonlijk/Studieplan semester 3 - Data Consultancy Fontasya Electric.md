@@ -7,8 +7,8 @@
 |Aantal studiepunten|30|
 |Startdatum ELO|31-8-2026|
 |Verwachte einddatum ELO|7-2-2027|
-|Versienummer studieplan|2.0|
-|Datum huidige versie|18-9-2026|
+|Versienummer studieplan|2.1|
+|Datum huidige versie|26-9-2026|
 |Naam coach|Constanze Thomassen|
 
 ## A. Where am I now in relation to the learning outcomes?
@@ -27,21 +27,21 @@ Voor mijn hoofdprofiel gebruik ik het consultancyproject voor Fontasya Electric 
 
 Must have: dit moet ik dit semester aantonen.
 
-| Fase                 | Leeruitkomst (kort)                       | Mijn aanpak binnen het Fontasya-project                                                                                                                |
-| -------------------- | ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Analyse              | Meerdere processen, data & ICT analyseren | Prijsadviesproces in kaart brengen: operationeel/tactisch proces, databronnen, datakwaliteit, huidig en gewenst ICT-landschap                          |
-| Analyse              | Bottlenecks en oorzaak-gevolg             | Knelpunten in het huidige (ontbrekende) prijsadviesproces herleiden tot onderliggende oorzaken                                                         |
-| Analyse              | ICT-requirements bepalen                  | Requirements afleiden uit stakeholderbehoeften (opdrachtgever, klant, teamleider) en de leverovereenkomst                                              |
-| Advies               | Samenhangende oplossingen adviseren       | Advies dat organisatie, proces én informatievoorziening samen adresseert, niet alleen een tool                                                         |
-| Advies               | ICT-opties adviseren                      | Onderbouwde vergelijking van open-source opties (database, transformatie, dashboard) op criteria als beheer, functionaliteit, security, schaalbaarheid |
-| Design               | Coherente organisatieprocessen ontwerpen  | Ontwerp van organisatie → proces → informatie → ICT → security/privacy voor het prijsadviesproces                                                      |
-| Design               | Interfaces/mappings ontwerpen             | Bron-naar-doel mappings en transformatielogica voor de synthetische Fontasya-datasets                                                                  |
-| Realisatie           | Procedures introduceren en accepteren     | Documenteren hoe een nieuwe/gewijzigde informatievoorziening en werkwijze wordt ingevoerd                                                              |
-| Realisatie           | PoC genereren en valideren                | Werkende proof of concept van de data-/prijsadviesketen bouwen én valideren tegen requirements                                                         |
-| Realisatie           | Standard application opzetten             | Inrichten, configureren en documenteren van de gekozen open-source oplossing(en)                                                                       |
-| Management & Control | Managementprocessen inrichten             | Beheerafspraken voor data en oplossing: verantwoordelijkheden, foutafhandeling, wijzigingsbeheer                                                       |
-| Management & Control | Processen meten/monitoren met data        | Proces-KPI's afleiden en monitoren via het dashboard                                                                                                   |
-| Management & Control | Veranderbehoefte identificeren            | Op basis van metingen een vervolgadvies formuleren                                                                                                     |
+| Fase                 | Leeruitkomst (kort)                       | Mijn aanpak binnen het Fontasya-project                                                                                       |
+| -------------------- | ----------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| Analyse              | Meerdere processen, data & ICT analyseren | Prijsadviesproces in kaart brengen: operationeel/tactisch proces, databronnen, datakwaliteit, huidig en gewenst ICT-landschap |
+| Analyse              | Bottlenecks en oorzaak-gevolg             | Knelpunten in het huidige (ontbrekende) prijsadviesproces herleiden tot onderliggende oorzaken                                |
+| Analyse              | ICT-requirements bepalen                  | Requirements afleiden uit stakeholderbehoeften (opdrachtgever, klant, teamleider) en de leverovereenkomst                     |
+| Advies               | Samenhangende oplossingen adviseren       | Advies dat organisatie, proces én informatievoorziening samen adresseert, niet alleen een tool                                |
+| Advies               | ICT-opties adviseren                      | Onderbouwde vergelijking van open-source opties (database, transformatie, dashboard) op relevante criteria.                   |
+| Design               | Coherente organisatieprocessen ontwerpen  | Ontwerp van organisatie → proces → informatie → ICT → security/privacy voor het prijsadviesproces                             |
+| Design               | Interfaces/mappings ontwerpen             | Bron-naar-doel mappings en transformatielogica voor de synthetische Fontasya-datasets                                         |
+| Realisatie           | Procedures introduceren en accepteren     | Documenteren hoe een nieuwe/gewijzigde informatievoorziening en werkwijze wordt ingevoerd                                     |
+| Realisatie           | PoC genereren en valideren                | Werkende proof of concept van de data-/prijsadviesketen bouwen én valideren tegen requirements                                |
+| Realisatie           | Standard application opzetten             | Inrichten, configureren en documenteren van de gekozen open-source oplossing(en)                                              |
+| Management & Control | Managementprocessen inrichten             | Beheerafspraken voor data en oplossing: verantwoordelijkheden, foutafhandeling, wijzigingsbeheer                              |
+| Management & Control | Processen meten/monitoren met data        | Proces-KPI's afleiden en monitoren via het dashboard                                                                          |
+| Management & Control | Veranderbehoefte identificeren            | Op basis van metingen een vervolgadvies formuleren                                                                            |
 
 ### Subdoel - Embedded Devices (alleen als er tijd over is)
 

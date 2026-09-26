@@ -8,76 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d640cfbe64abb6df",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01. Analyse/Scope - Fontasya Electric.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Scope - Fontasya Electric"
-            }
-          },
-          {
-            "id": "feaf2186848d2421",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01. Analyse/Scope - Fontasya Electric.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Scope - Fontasya Electric"
-            }
-          },
-          {
-            "id": "35504e6e153c3955",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Lessen/Procesvisualisatie BPMN RPA.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Procesvisualisatie BPMN RPA"
-            }
-          },
-          {
-            "id": "5b2114c958d5559f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01. Analyse/Keuze - Deel 2 Realisatie- & Validatieverslag.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Keuze - Deel 2 Realisatie- & Validatieverslag"
-            }
-          },
-          {
-            "id": "3dcc1d865c460a5e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01. Analyse/Keuze - welke prototype database.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Keuze - welke prototype database"
-            }
-          },
-          {
             "id": "3f0ad0b159d813d8",
             "type": "leaf",
             "state": {
@@ -90,9 +20,37 @@
               "icon": "lucide-file",
               "title": "Studieplan semester 3 - Data Consultancy Fontasya Electric"
             }
+          },
+          {
+            "id": "65208a3dbed00eb9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "07. Personal Leadership/Feedback Sem03.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Feedback Sem03"
+            }
+          },
+          {
+            "id": "2ec2249c92b917a9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "07. Personal Leadership/Feedback Sem03.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Feedback Sem03"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -261,42 +219,43 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "feaf2186848d2421",
+  "active": "2ec2249c92b917a9",
   "lastOpenFiles": [
-    "01. Analyse/Scope - Fontasya Electric - oud.md",
-    "01. Analyse/Scope - Fontasya Electric.md",
-    "Lessen/Procesvisualisatie BPMN RPA.md",
-    "Persoonlijk/Studieplan semester 3 - Data Consultancy Fontasya Electric.md",
+    "07. Personal Leadership/Feedback Sem03.pdf",
+    "Weekkaarten/2026-W39.md",
     "Weekkaarten/2026-W40.md",
+    "07. Personal Leadership/Feedback Sem03.md",
+    "Persoonlijk/Studieplan semester 3 - Data Consultancy Fontasya Electric.md",
+    "01. Analyse/Fontasya Electric - Projectplan - v1.0.docx",
+    "01. Analyse/Unconfirmed 794162.crdownload",
+    "07. Personal Leadership",
+    "06. Profesional Standard",
+    "05. Managa&Control",
+    "04. Realise",
+    "03. Design",
+    "02. Advise",
+    "Persoonlijk/Studieplan semester 3 - Data Consultancy Fontasya Electric.pdf",
+    "01. Analyse/Keuze - welke prototype database.md",
+    "01. Analyse/Keuze - Deel 2 Realisatie- & Validatieverslag.md",
+    "Lessen/Procesvisualisatie BPMN RPA.md",
+    "01. Analyse/Scope - Fontasya Electric.md",
+    "01. Analyse/Scope - Fontasya Electric - oud.md",
     "Lessen",
-    "Persoonlijk/Competenties halen dit semester.pdf",
     "Persoonlijk/Competenties halen dit semester.md",
     "Persoonlijk/Studieplan.md",
     "01. Analyse/Groep Scope - Fontasya Electric 2.md",
     "01. Analyse/Hoofdvraag en deelvragen - Fontasya Electric.md",
-    "01. Analyse/Keuze - welke prototype database.md",
     "Notities.md",
-    "01. Analyse/Keuze - Deel 2 Realisatie- & Validatieverslag.md",
     "Feedback.md",
-    "01. Analyse/Keuze - welke prototype database.pdf",
-    "01. Analyse/Scope - Fontasya Electric.pdf",
-    "01. Analyse/Hoofdvraag en deelvragen - Fontasya Electric.pdf",
     "Data&Opdracht/Generate dataset Fontasya Electric/fontasya_representatieve_jaarset_200_klanten/entiteits_relatie_schets.md",
-    "01. Analyse/BPMN/PrijsBesluitProces.pdf",
-    "01. Analyse/BPMN/PrijsBesluitProces.bpmn",
-    "01. Analyse/BPMN/bpmn2pdf.sh",
-    "01. Analyse/BPMN/PrijsadviesEnPrijsbesluitvormingsproces.bpmn",
-    "01. Analyse/BPMN",
     "Data&Opdracht/Generate dataset Fontasya Electric/fontasya_representatieve_jaarset_200_klanten/README.md",
     "venv/lib/python3.14/site-packages/pip-26.2.1.dist-info/licenses/src/pip/_vendor/idna/LICENSE.md",
     "venv/lib/python3.14/site-packages/pip/_vendor/idna/LICENSE.md",
-    "Weekkaarten/2026-W39.md",
     "01. Analyse/Groep Hoofdvraag en deelvragen - Fontasya Electric.md",
     "Hoofd/Deelvragen - Fontasya Electric.md",
     "01. Analyse/Leerdoelen als Groep/Projectafbakening en Probleemstelling.md",
     "01. Analyse/Leerdoelen als Groep/Projectafbakening en Leerdoelen Bram.md",
     "Templates/TemplateDVC.md",
-    "Templates/Leertraject - Weekkaart.md",
-    "Welcome.md"
+    "Templates/Leertraject - Weekkaart.md"
   ]
 }
