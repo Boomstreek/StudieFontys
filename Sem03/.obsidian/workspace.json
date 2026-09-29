@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Weekkaarten/2026-W40.md",
+                "file": "01. Analyse/Definitieve Hoofd- & Deelvragen.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2026-W40"
+              "title": "Definitieve Hoofd- & Deelvragen"
             }
           },
           {
@@ -235,9 +235,9 @@
   },
   "active": "d6b90e05c17cb8c0",
   "lastOpenFiles": [
+    "Weekkaarten/2026-W40.md",
     "01. Analyse/Scope - Fontasya Electric.md",
     "01. Analyse/Dataanalyse - Welke gegevens zijn nodig voor een prijsadvies per contractvorm, en waar, in welk formaat en in welke kwaliteit zijn die nu beschikbaar?.md",
-    "Weekkaarten/2026-W40.md",
     "dbt/dev.duckdb.wal",
     "logs/dbt.log",
     "logs",

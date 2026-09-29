@@ -2,9 +2,19 @@
 
 Hoe kan Fontasya Electric haar verspreide energiedata veilig en reproduceerbaar samenbrengen in een platform met een uitlegbaar model en interactief dashboard, zodat tariefbesluiten voor de vier contractvormen onderbouwd genomen kunnen worden binnen de afgesproken kaders voor privacy, security en beheer?
 
+Hoe kan Fontasya Electric op basis van energiedata tariefbelsuiten onderbouwd genomen kunnen worden voor de contractvormen die ze aanbieden aan hun klanten?
+
 ### Deelvragen
 
-DV-1: Welke gegevens zijn nodig voor een prijsadvies per contractvorm, en waar, in welk formaat en in welke kwaliteit zijn die nu beschikbaar?
+Wat zijn de adviestarieven die Fontasia Electric
+
+Hoe kan het adviestarief reproduceerbaar worden berekend
+
+Welke gegevens zijn nodig om adviestarieven te geven?
+
+Op welke manier kunnen wij energiedata samenbrengen op een gecentraliseerde plek?
+
+Welke adviestarieven wilt de opdrachtgever geven?
 
 DV-2: Aan welke eisen moet de oplossing voldoen op het gebied van functionaliteit, privacy, beveiliging en beschikbaarheid?
 
