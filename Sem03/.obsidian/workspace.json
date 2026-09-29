@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Weekkaarten/2026-W40.md",
+                "file": "Weekkaarten/2026-W39.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2026-W40"
+              "title": "2026-W39"
             }
           }
         ]
@@ -192,24 +192,25 @@
   },
   "active": "3f0ad0b159d813d8",
   "lastOpenFiles": [
+    "dbt/models/intermediate/int_klanten.sql",
+    "dbt/models/dashboards",
+    "dbt/models/marts",
+    "dbt/models/intermediate",
+    "dbt/models/staging/Intermediate",
+    "01. Analyse/BPMN/PrijsBesluitProces_Huidig.bpmn",
+    "Weekkaarten/2026-W39.pdf",
+    "Weekkaarten/2026-W40.md",
     "Persoonlijk/Studieplan semester 3 - Data Consultancy Fontasya Electric.md",
     "07. Personal Leadership/Feedback Sem03.md",
     "Weekkaarten/2026-W39.md",
     "07. Personal Leadership/Feedback Sem03.pdf",
     "07. Personal Leadership/Feedback.md",
-    "Weekkaarten/2026-W40.md",
     "Weekkaarten/2026-W38.md",
     "Weekkaarten/2026-W38.pdf",
     "Templates/Leertraject - Weekkaart.md",
     "Untitled",
     "Weekkaarten/Untitled.md",
-    "Weekkaarten/2026-W39.pdf",
     "01. Analyse/Fontasya Electric - Projectplan - v1.0.docx",
-    "01. Analyse/Unconfirmed 794162.crdownload",
-    "07. Personal Leadership",
-    "06. Profesional Standard",
-    "05. Managa&Control",
-    "04. Realise",
     "01. Analyse/Keuze - welke prototype database.md",
     "01. Analyse/Keuze - Deel 2 Realisatie- & Validatieverslag.md",
     "Lessen/Procesvisualisatie BPMN RPA.md",
