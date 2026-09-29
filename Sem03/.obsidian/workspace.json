@@ -4,24 +4,67 @@
     "type": "split",
     "children": [
       {
-        "id": "c4145d74bdb3da8d",
+        "id": "3874486e121ee6b7",
         "type": "tabs",
         "children": [
           {
-            "id": "3f0ad0b159d813d8",
+            "id": "c1e91a13ddff2c49",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Weekkaarten/2026-W39.md",
+                "file": "01. Analyse/Dataanalyse - Welke gegevens zijn nodig voor een prijsadvies per contractvorm, en waar, in welk formaat en in welke kwaliteit zijn die nu beschikbaar?.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2026-W39"
+              "title": "Dataanalyse - Welke gegevens zijn nodig voor een prijsadvies per contractvorm, en waar, in welk formaat en in welke kwaliteit zijn die nu beschikbaar?"
+            }
+          },
+          {
+            "id": "acb3785a0ddbc556",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01. Analyse/Scope - Fontasya Electric.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Scope - Fontasya Electric"
+            }
+          },
+          {
+            "id": "d6b90e05c17cb8c0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Weekkaarten/2026-W40.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "2026-W40"
+            }
+          },
+          {
+            "id": "73b1e468f4156d7d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01. Analyse/Scope - Fontasya Electric.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Scope - Fontasya Electric"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -190,43 +233,42 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "3f0ad0b159d813d8",
+  "active": "d6b90e05c17cb8c0",
   "lastOpenFiles": [
-    "dbt/models/intermediate/int_klanten.sql",
-    "dbt/models/dashboards",
-    "dbt/models/marts",
-    "dbt/models/intermediate",
-    "dbt/models/staging/Intermediate",
-    "01. Analyse/BPMN/PrijsBesluitProces_Huidig.bpmn",
-    "Weekkaarten/2026-W39.pdf",
+    "01. Analyse/Scope - Fontasya Electric.md",
+    "01. Analyse/Dataanalyse - Welke gegevens zijn nodig voor een prijsadvies per contractvorm, en waar, in welk formaat en in welke kwaliteit zijn die nu beschikbaar?.md",
     "Weekkaarten/2026-W40.md",
+    "dbt/dev.duckdb.wal",
+    "logs/dbt.log",
+    "logs",
+    "Data&Opdracht/Generate dataset Fontasya Electric/fontasya_representatieve_jaarset_500_klanten.zip",
+    "Data&Opdracht/Generate dataset Fontasya Electric/fontasya_representatieve_jaarset_500_klanten/entiteits_relatie_schets.md",
+    "Data&Opdracht/Generate dataset Fontasya Electric/fontasya_representatieve_jaarset_500_klanten/README.md",
+    "Data&Opdracht/Generate dataset Fontasya Electric/fontasya_representatieve_jaarset_500_klanten/data_quality_sample.json",
+    "Data&Opdracht/Generate dataset Fontasya Electric/fontasya_representatieve_jaarset_500_klanten/data_quality.csv.gz",
+    "Data&Opdracht/Generate dataset Fontasya Electric/fontasya_representatieve_jaarset_500_klanten/price_recommendation_sample.json",
+    "Data&Opdracht/Generate dataset Fontasya Electric/fontasya_representatieve_jaarset_500_klanten/price_recommendation.csv.gz",
+    "Data&Opdracht/Generate dataset Fontasya Electric/fontasya_representatieve_jaarset_500_klanten/portfolio_sample.json",
+    "Data&Opdracht/Generate dataset Fontasya Electric/fontasya_representatieve_jaarset_500_klanten/portfolio.csv.gz",
+    "Excalidraw/Drawing 2026-09-29 18.40.13.excalidraw.md",
+    "Commands.md",
+    "01. Analyse/Definitieve Hoofd- & Deelvragen.md",
+    "01. Analyse/Hoofdvraag en deelvragen - Fontasya Electric.md",
+    "01. Analyse/Groep Hoofdvraag en deelvragen - Fontasya Electric.md",
+    "Notities.md",
+    "Weekkaarten/2026-W39.md",
     "Persoonlijk/Studieplan semester 3 - Data Consultancy Fontasya Electric.md",
     "07. Personal Leadership/Feedback Sem03.md",
-    "Weekkaarten/2026-W39.md",
-    "07. Personal Leadership/Feedback Sem03.pdf",
     "07. Personal Leadership/Feedback.md",
     "Weekkaarten/2026-W38.md",
-    "Weekkaarten/2026-W38.pdf",
     "Templates/Leertraject - Weekkaart.md",
-    "Untitled",
     "Weekkaarten/Untitled.md",
-    "01. Analyse/Fontasya Electric - Projectplan - v1.0.docx",
     "01. Analyse/Keuze - welke prototype database.md",
     "01. Analyse/Keuze - Deel 2 Realisatie- & Validatieverslag.md",
     "Lessen/Procesvisualisatie BPMN RPA.md",
-    "01. Analyse/Scope - Fontasya Electric.md",
     "01. Analyse/Scope - Fontasya Electric - oud.md",
     "Persoonlijk/Competenties halen dit semester.md",
     "Persoonlijk/Studieplan.md",
-    "01. Analyse/Groep Scope - Fontasya Electric 2.md",
-    "01. Analyse/Hoofdvraag en deelvragen - Fontasya Electric.md",
-    "Notities.md",
-    "Data&Opdracht/Generate dataset Fontasya Electric/fontasya_representatieve_jaarset_200_klanten/entiteits_relatie_schets.md",
-    "Data&Opdracht/Generate dataset Fontasya Electric/fontasya_representatieve_jaarset_200_klanten/README.md",
-    "venv/lib/python3.14/site-packages/pip-26.2.1.dist-info/licenses/src/pip/_vendor/idna/LICENSE.md",
-    "venv/lib/python3.14/site-packages/pip/_vendor/idna/LICENSE.md",
-    "01. Analyse/Groep Hoofdvraag en deelvragen - Fontasya Electric.md",
-    "Hoofd/Deelvragen - Fontasya Electric.md",
-    "01. Analyse/Leerdoelen als Groep/Projectafbakening en Probleemstelling.md"
+    "01. Analyse/Groep Scope - Fontasya Electric 2.md"
   ]
 }

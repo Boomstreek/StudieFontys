@@ -1,0 +1,32 @@
+[0m19:06:12.589285 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9cab95f530>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9ca9c9bef0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9ca8c57020>]}
+
+
+============================== 19:06:12.593219 | 03048f63-3f94-4368-a74e-0850db04faa2 ==============================
+[0m19:06:12.593219 [info ] [MainThread]: Running with dbt=1.12.5
+[0m19:06:12.593915 [debug] [MainThread]: running dbt with arguments {'log_format': 'default', 'warn_error': 'None', 'profiles_dir': '/home/bram/.dbt', 'hints_enabled': 'True', 'invocation_command': 'dbt run', 'indirect_selection': 'eager', 'no_print': 'None', 'quiet': 'False', 'target_path': 'None', 'send_anonymous_usage_stats': 'True', 'partial_parse': 'True', 'use_experimental_parser': 'False', 'version_check': 'True', 'debug': 'False', 'static_parser': 'True', 'log_path': 'logs', 'maximum_seed_size_mib': '1', 'cache_selected_only': 'False', 'introspect': 'True', 'use_colors': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'fail_fast': 'False', 'printer_width': '80', 'write_json': 'True', 'empty': 'False', 'log_cache_events': 'False'}
+[0m19:06:12.595007 [error] [MainThread]: [[31mERROR[0m]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /home/bram/Documents/Studie/Sem03/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m19:06:12.596297 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 0.06532989, "process_in_blocks": "33888", "process_kernel_time": 0.26388, "process_mem_max_rss": "108340", "process_out_blocks": "72", "process_user_time": 1.142482}
+[0m19:06:12.597424 [debug] [MainThread]: Command `dbt run` failed at 19:06:12.597247 after 0.07 seconds
+[0m19:06:12.598079 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9caa5661e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9ca8b2f9e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9cab95f530>]}
+[0m19:06:12.599032 [debug] [MainThread]: Flushing usage events
+[0m19:06:13.925103 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m19:06:44.686949 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73552d9ae4b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73552deef680>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73552e731bb0>]}
+
+
+============================== 19:06:44.689942 | e64efc29-ea4f-4bec-a527-23535c41be98 ==============================
+[0m19:06:44.689942 [info ] [MainThread]: Running with dbt=1.12.5
+[0m19:06:44.690749 [debug] [MainThread]: running dbt with arguments {'send_anonymous_usage_stats': 'True', 'cache_selected_only': 'False', 'use_experimental_parser': 'False', 'printer_width': '80', 'warn_error': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'log_cache_events': 'False', 'indirect_selection': 'eager', 'version_check': 'True', 'invocation_command': 'dbt run', 'partial_parse': 'True', 'write_json': 'True', 'quiet': 'False', 'static_parser': 'True', 'log_path': 'logs', 'log_format': 'default', 'target_path': 'None', 'no_print': 'None', 'hints_enabled': 'True', 'empty': 'False', 'introspect': 'True', 'debug': 'False', 'fail_fast': 'False', 'maximum_seed_size_mib': '1', 'profiles_dir': '/home/bram/.dbt', 'use_colors': 'True'}
+[0m19:06:44.692029 [error] [MainThread]: [[31mERROR[0m]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /home/bram/Documents/Studie/Sem03/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m19:06:44.693347 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 0.066749014, "process_in_blocks": "0", "process_kernel_time": 0.171027, "process_mem_max_rss": "108232", "process_out_blocks": "8", "process_user_time": 1.101178}
+[0m19:06:44.694459 [debug] [MainThread]: Command `dbt run` failed at 19:06:44.694274 after 0.07 seconds
+[0m19:06:44.695089 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73552d402ba0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73552e10cef0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73552dbc03e0>]}
+[0m19:06:44.695753 [debug] [MainThread]: Flushing usage events
+[0m19:06:45.296688 [debug] [MainThread]: An error was encountered while trying to flush usage events
