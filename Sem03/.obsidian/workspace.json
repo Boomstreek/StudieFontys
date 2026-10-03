@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01. Analyse/Dataanalyse - Welke gegevens zijn nodig voor een prijsadvies per contractvorm, en waar, in welk formaat en in welke kwaliteit zijn die nu beschikbaar?.md",
+                "file": "01. Analyse/Welke energiedata is nodig om adviestarieven te berekenen?.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Dataanalyse - Welke gegevens zijn nodig voor een prijsadvies per contractvorm, en waar, in welk formaat en in welke kwaliteit zijn die nu beschikbaar?"
+              "title": "Welke energiedata is nodig om adviestarieven te berekenen?"
             }
           },
           {
@@ -36,7 +36,7 @@
             }
           },
           {
-            "id": "d6b90e05c17cb8c0",
+            "id": "3b1578ae1061d303",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -50,21 +50,21 @@
             }
           },
           {
-            "id": "73b1e468f4156d7d",
+            "id": "d6b90e05c17cb8c0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01. Analyse/Scope - Fontasya Electric.md",
+                "file": "Weekkaarten/2026-W40.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Scope - Fontasya Electric"
+              "title": "2026-W40"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -235,9 +235,14 @@
   },
   "active": "d6b90e05c17cb8c0",
   "lastOpenFiles": [
-    "Weekkaarten/2026-W40.md",
+    "01. Analyse/Welke energiedata is nodig om adviestarieven te berekenen?.md",
+    "01. Analyse/Definitieve Hoofd- & Deelvragen.md",
     "01. Analyse/Scope - Fontasya Electric.md",
-    "01. Analyse/Dataanalyse - Welke gegevens zijn nodig voor een prijsadvies per contractvorm, en waar, in welk formaat en in welke kwaliteit zijn die nu beschikbaar?.md",
+    "Weekkaarten/2026-W40.md",
+    "Persoonlijk/Competenties halen dit semester.md",
+    "Persoonlijk/Competenties halen dit semester.pdf",
+    "Persoonlijk/HBO-i Outcomes Example Generator - Studieplan Data BI Analyst.pdf",
+    "01. Analyse/Definitieve Hoofd- & Deelvragen.pdf",
     "dbt/dev.duckdb.wal",
     "logs/dbt.log",
     "logs",
@@ -247,12 +252,8 @@
     "Data&Opdracht/Generate dataset Fontasya Electric/fontasya_representatieve_jaarset_500_klanten/data_quality_sample.json",
     "Data&Opdracht/Generate dataset Fontasya Electric/fontasya_representatieve_jaarset_500_klanten/data_quality.csv.gz",
     "Data&Opdracht/Generate dataset Fontasya Electric/fontasya_representatieve_jaarset_500_klanten/price_recommendation_sample.json",
-    "Data&Opdracht/Generate dataset Fontasya Electric/fontasya_representatieve_jaarset_500_klanten/price_recommendation.csv.gz",
-    "Data&Opdracht/Generate dataset Fontasya Electric/fontasya_representatieve_jaarset_500_klanten/portfolio_sample.json",
-    "Data&Opdracht/Generate dataset Fontasya Electric/fontasya_representatieve_jaarset_500_klanten/portfolio.csv.gz",
     "Excalidraw/Drawing 2026-09-29 18.40.13.excalidraw.md",
     "Commands.md",
-    "01. Analyse/Definitieve Hoofd- & Deelvragen.md",
     "01. Analyse/Hoofdvraag en deelvragen - Fontasya Electric.md",
     "01. Analyse/Groep Hoofdvraag en deelvragen - Fontasya Electric.md",
     "Notities.md",
@@ -267,7 +268,6 @@
     "01. Analyse/Keuze - Deel 2 Realisatie- & Validatieverslag.md",
     "Lessen/Procesvisualisatie BPMN RPA.md",
     "01. Analyse/Scope - Fontasya Electric - oud.md",
-    "Persoonlijk/Competenties halen dit semester.md",
     "Persoonlijk/Studieplan.md",
     "01. Analyse/Groep Scope - Fontasya Electric 2.md"
   ]

@@ -32,6 +32,12 @@ Measuring and monitoring organizational processes using data
 
 Identifying the change need of multiple operational and tactical organizational processes
 
+### Personal Leaderschip
+You are aware of your own strengths and weaknesses, both in the field of ICT and in your personal development. You choose actions in line with your core values to promote your personal growth and develop your learning attitude.
+
+### Professional Development
+Both individually and in teams, you apply a relevant methodological approach used in the professional field to formulate project goals, involve stakeholders, conduct applied research, provide advice, make decisions, and deliver reports. In doing so, you keep in view relevant ethical, intercultural, and sustainable aspects.
+
 ## Embedded Devices
 Dit is mijn subdoel/ leuke als het lukt, als ik nog tijd over heb wil ik hieraan werken. 
 ### Analyse 
