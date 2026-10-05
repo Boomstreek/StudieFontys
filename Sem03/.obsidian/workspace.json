@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Weekkaarten/2026-W40.md",
+                "file": "Persoonlijk/Competenties halen dit semester.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2026-W40"
+              "title": "Competenties halen dit semester"
             }
           }
         ],
@@ -235,10 +235,17 @@
   },
   "active": "d6b90e05c17cb8c0",
   "lastOpenFiles": [
-    "01. Analyse/Welke energiedata is nodig om adviestarieven te berekenen?.md",
-    "01. Analyse/Definitieve Hoofd- & Deelvragen.md",
-    "01. Analyse/Scope - Fontasya Electric.md",
+    "01. Analyse/Bram Deelvraag 1 Welke energiedata is nodig om adviestarieven te berekenen.pdf",
+    "01. Analyse/Welke energiedata is nodig om adviestarieven te berekenen? (Copy).pdf",
+    "Weekkaarten/2026-W41.md",
     "Weekkaarten/2026-W40.md",
+    "Weekkaarten/2026-W40.pdf",
+    "Templates/Leertraject - Weekkaart Deze week.md",
+    "Templates/Leertraject - Weekkaart.md",
+    "01. Analyse/Welke energiedata is nodig om adviestarieven te berekenen?.md",
+    "01. Analyse/Welke energiedata is nodig om adviestarieven te berekenen?.pdf",
+    "01. Analyse/Scope - Fontasya Electric.md",
+    "01. Analyse/Definitieve Hoofd- & Deelvragen.md",
     "Persoonlijk/Competenties halen dit semester.md",
     "Persoonlijk/Competenties halen dit semester.pdf",
     "Persoonlijk/HBO-i Outcomes Example Generator - Studieplan Data BI Analyst.pdf",
@@ -249,9 +256,6 @@
     "Data&Opdracht/Generate dataset Fontasya Electric/fontasya_representatieve_jaarset_500_klanten.zip",
     "Data&Opdracht/Generate dataset Fontasya Electric/fontasya_representatieve_jaarset_500_klanten/entiteits_relatie_schets.md",
     "Data&Opdracht/Generate dataset Fontasya Electric/fontasya_representatieve_jaarset_500_klanten/README.md",
-    "Data&Opdracht/Generate dataset Fontasya Electric/fontasya_representatieve_jaarset_500_klanten/data_quality_sample.json",
-    "Data&Opdracht/Generate dataset Fontasya Electric/fontasya_representatieve_jaarset_500_klanten/data_quality.csv.gz",
-    "Data&Opdracht/Generate dataset Fontasya Electric/fontasya_representatieve_jaarset_500_klanten/price_recommendation_sample.json",
     "Excalidraw/Drawing 2026-09-29 18.40.13.excalidraw.md",
     "Commands.md",
     "01. Analyse/Hoofdvraag en deelvragen - Fontasya Electric.md",
@@ -262,13 +266,10 @@
     "07. Personal Leadership/Feedback Sem03.md",
     "07. Personal Leadership/Feedback.md",
     "Weekkaarten/2026-W38.md",
-    "Templates/Leertraject - Weekkaart.md",
-    "Weekkaarten/Untitled.md",
     "01. Analyse/Keuze - welke prototype database.md",
     "01. Analyse/Keuze - Deel 2 Realisatie- & Validatieverslag.md",
     "Lessen/Procesvisualisatie BPMN RPA.md",
     "01. Analyse/Scope - Fontasya Electric - oud.md",
-    "Persoonlijk/Studieplan.md",
-    "01. Analyse/Groep Scope - Fontasya Electric 2.md"
+    "Persoonlijk/Studieplan.md"
   ]
 }
