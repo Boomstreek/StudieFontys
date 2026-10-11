@@ -3,4 +3,7 @@
 -- depends_on: {{ source('fontasya_raw', 'market_price_daily') }}
 
 SELECT *
-FROM read_csv_auto('{{ var("raw_path") }}/market_price_daily.csv.gz')
+FROM read_csv_auto(
+    '{{ var("raw_path") }}/market_price_daily.csv.gz',
+    types = {'ean_code': 'VARCHAR'}
+)
