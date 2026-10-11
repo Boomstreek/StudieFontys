@@ -1,33 +1,82 @@
 version: 2
 
+# Ruwe bestanden uit de Fontasya Electric jaarset (output van generate_fontasya_jaarset.py).
+# De locatie van de map staat NIET hier, maar in dbt_project.yml onder vars: raw_path.
+# Zo werkt het project op elke machine en hoeft er geen persoonlijk pad in de code.
+
 sources:
   - name: fontasya_raw
-    description: "Gecomprimeerde CSV-bestanden uit de Fontasya Electric jaarset"
-    meta:
-      base_path: "/home/bram/Documents/Generate dataset Fontasya Electric/fontasya_representatieve_jaarset_200_klanten"
+    description: "Gecomprimeerde CSV-bestanden uit de synthetische Fontasya Electric jaarset (testrun 200 klanten, jaar 2026)"
     tables:
       # Losse bestanden
       - name: customers
+        description: "Klanten (synthetisch): segment, regio, PV ja/nee, jaarverbruik-target"
         meta:
           file_path: "customers.csv.gz"
       - name: contracts
+        description: "Eén actief contract per klant: contractvorm, looptijd, tarieven stroom en gas, vaste maandvergoeding"
         meta:
           file_path: "contracts.csv.gz"
+      - name: pv_assets
+        description: "PV-installaties per klant (alleen klanten met PV)"
+        meta:
+          file_path: "pv_assets.csv.gz"
       - name: energy_balance_daily
+        description: "Dagelijkse energiebalans: verbruik, PV, eigen productie, marktprijzen en inkoop"
         meta:
           file_path: "energy_balance_daily.csv.gz"
       - name: network_system_daily
+        description: "Dagelijkse netwerkgegevens: distributie, transport, verlies, balancering, congestie"
         meta:
           file_path: "network_system_daily.csv.gz"
 
-      # Mappen met meerdere bestanden (wildcard ingestie)
+      # Overige tabellen van de generator (losse bestanden)
+      - name: market_price_daily
+        description: "Dagelijkse marktprijzen (day-ahead stroom, gas spot)"
+        meta:
+          file_path: "market_price_daily.csv.gz"
+      - name: weather_forecast_daily
+        description: "Dagelijkse weersverwachting (beinvloedt PV- en windproductie). Staat niet in de mapstructuur uit de mail van de docent, maar wel in het ER-schema en data_quality; controleer of het bestand bestaat."
+        meta:
+          file_path: "weather_forecast_daily.csv.gz"
+      - name: generation_assets
+        description: "Eigen productie-installaties (wind en zon): capaciteit, capex, opex, afschrijving"
+        meta:
+          file_path: "generation_assets.csv.gz"
+      - name: generation_production_daily
+        description: "Dagelijkse productie per installatie"
+        meta:
+          file_path: "generation_production_daily.csv.gz"
+      - name: procurement_trades_daily
+        description: "Dagelijkse inkooptrades (eigen wind/zon, PV-teruglevering, marktbalancering, gas). Sleutel is (trade_id, source_type): trade_id is per dag, niet per regel uniek."
+        meta:
+          file_path: "procurement_trades_daily.csv.gz"
+      - name: portfolio
+        description: "Contractportfolio per contractvorm: aantal klanten, jaarverbruik, gemiddelde tarieven, geschat churnrisico"
+        meta:
+          file_path: "portfolio.csv.gz"
+      - name: price_recommendation
+        description: "Maandelijkse pricing runs per contractvorm: adviesprijs, risico-opslag, doelmarge, modelversie, status"
+        meta:
+          file_path: "price_recommendation.csv.gz"
+      - name: data_quality
+        description: "Door de generator gerapporteerde datakwaliteitsscores per dataset (niet berekend uit de data zelf)"
+        meta:
+          file_path: "data_quality.csv.gz"
+
+      # Mappen met maandpartities (wildcard-inlezing)
       - name: electricity_consumption_daily
+        description: "Dagverbruik stroom per klant, gepartitioneerd per maand"
         meta:
           file_path: "electricity_consumption_daily/*.csv.gz"
+          partitioned: true
       - name: gas_consumption_daily
+        description: "Dagverbruik gas per klant, gepartitioneerd per maand"
         meta:
           file_path: "gas_consumption_daily/*.csv.gz"
+          partitioned: true
       - name: pv_feedin_daily
+        description: "Dagelijkse PV-productie, zelfverbruik en teruglevering (alleen PV-klanten), gepartitioneerd per maand"
         meta:
           file_path: "pv_feedin_daily/*.csv.gz"
-
+          partitioned: true

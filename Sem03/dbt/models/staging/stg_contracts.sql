@@ -1,4 +1,9 @@
 {{ config(materialized='table') }}
 
+-- depends_on: {{ source('fontasya_raw', 'contracts') }}
+
 SELECT *
-FROM read_csv_auto('/home/bram/Documents/Studie/Sem03/Data&Opdracht/Generate dataset Fontasya Electric/fontasya_representatieve_jaarset_200_klanten/contracts.csv.gz')
+FROM read_csv_auto(
+    '{{ var("raw_path") }}/contracts.csv.gz',
+    types = {'ean_code': 'VARCHAR'}
+)

@@ -1,0 +1,113 @@
+version: 2
+
+models:
+  - name: stg_customers
+    columns:
+      - name: customer_id
+        tests: [unique, not_null]
+      - name: household_segment
+        tests:
+          - accepted_values:
+              values: ['Single', 'Couple', 'Family', 'Senior']
+
+  - name: stg_contracts
+    columns:
+      - name: contract_id
+        tests: [unique, not_null]
+      - name: customer_id
+        tests:
+          - not_null
+          - relationships:
+              to: ref('stg_customers')
+              field: customer_id
+      - name: contract_type
+        tests:
+          - accepted_values:
+              values: ['FLEX', 'FIXED_1Y', 'FIXED_3Y', 'FIXED_5Y']
+      - name: electricity_rate_eur_kwh
+        tests: [not_null]
+      - name: gas_rate_eur_m3
+        tests: [not_null]
+
+  - name: stg_pv_assets
+    columns:
+      - name: pv_id
+        tests: [unique, not_null]
+      - name: customer_id
+        tests:
+          - relationships:
+              to: ref('stg_customers')
+              field: customer_id
+
+  - name: stg_electricity_consumption
+    columns:
+      - name: customer_id
+        tests:
+          - not_null
+          - relationships:
+              to: ref('stg_customers')
+              field: customer_id
+      - name: electricity_consumption_kwh
+        tests: [not_null]
+
+  - name: stg_gas_consumption
+    columns:
+      - name: customer_id
+        tests:
+          - not_null
+          - relationships:
+              to: ref('stg_customers')
+              field: customer_id
+      - name: gas_consumption_m3
+        tests: [not_null]
+
+  - name: stg_pv_feedin
+    columns:
+      - name: customer_id
+        tests:
+          - not_null
+          - relationships:
+              to: ref('stg_customers')
+              field: customer_id
+
+  - name: stg_energy_balance
+    columns:
+      - name: date
+        tests: [unique, not_null]
+
+  - name: stg_network_system
+    columns:
+      - name: date
+        tests: [unique, not_null]
+
+  - name: stg_generation_assets
+    columns:
+      - name: installation_id
+        tests: [unique, not_null]
+      - name: technology
+        tests:
+          - accepted_values:
+              values: ['wind', 'zon']
+
+  - name: stg_portfolio
+    columns:
+      - name: portfolio_id
+        tests: [unique, not_null]
+      - name: contract_type
+        tests:
+          - accepted_values:
+              values: ['FLEX', 'FIXED_1Y', 'FIXED_3Y', 'FIXED_5Y']
+
+  - name: stg_price_recommendation
+    columns:
+      - name: price_recommendation_id
+        tests: [unique, not_null]
+      - name: contract_type
+        tests:
+          - accepted_values:
+              values: ['FLEX', 'FIXED_1Y', 'FIXED_3Y', 'FIXED_5Y']
+
+  - name: stg_data_quality
+    columns:
+      - name: quality_id
+        tests: [unique, not_null]

@@ -1,7 +1,13 @@
 {{ config(materialized='table') }}
 
-SELECT *
+-- depends_on: {{ source('fontasya_raw', 'electricity_consumption_daily') }}
+
+-- source_file bevat alleen de bestandsnaam (bijv. year=2026_month=03.csv.gz), geen lokaal pad
+SELECT
+    * EXCLUDE (filename),
+    regexp_extract(filename, '[^/\\]+$') AS source_file
 FROM read_csv_auto(
-    '/home/bram/Documents/Studie/Sem03/Data&Opdracht/Generate dataset Fontasya Electric/fontasya_representatieve_jaarset_200_klanten/electricity_consumption_daily/*.csv.gz',
-    filename = true
+    '{{ var("raw_path") }}/electricity_consumption_daily/*.csv.gz',
+    filename = true,
+    types = {'ean_code': 'VARCHAR'}
 )
