@@ -24,6 +24,9 @@ clean-targets:         # directories to be removed by `dbt clean`
 
 # Configuring models
 # Full documentation: https://docs.getdbt.com/docs/configuring-models
+# Variabelen
+vars:
+  raw_path: "../Data&Opdracht/Generate dataset Fontasya Electric/fontasya_representatieve_jaarset_200_klanten"
 
 models:
   grid_congestion_pipeline:
