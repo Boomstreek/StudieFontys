@@ -35,7 +35,7 @@ Identifying the change need of multiple operational and tactical organizational 
 ### Personal Leaderschip
 You are aware of your own strengths and weaknesses, both in the field of ICT and in your personal development. You choose actions in line with your core values to promote your personal growth and develop your learning attitude.
 
-### Professional Development
+### Professional Standard
 Both individually and in teams, you apply a relevant methodological approach used in the professional field to formulate project goals, involve stakeholders, conduct applied research, provide advice, make decisions, and deliver reports. In doing so, you keep in view relevant ethical, intercultural, and sustainable aspects.
 
 ## Embedded Devices
