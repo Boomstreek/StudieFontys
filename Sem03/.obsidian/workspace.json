@@ -78,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -247,7 +247,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "7a49626dc9a16d49",
+  "active": "acb3785a0ddbc556",
   "lastOpenFiles": [
     "01. Analyse/Welke energiedata is nodig om adviestarieven te berekenen?.md",
     "01. Analyse/Gap-analyse.md",
