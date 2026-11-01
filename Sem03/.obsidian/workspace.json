@@ -13,12 +13,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Weekkaarten/2026-W44.md",
-                "mode": "source",
+                "file": "03. Design/ERD Mockdata voor Methode 1.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2026-W44"
+              "title": "ERD Mockdata voor Methode 1"
+            }
+          },
+          {
+            "id": "df83c93db5518cf7",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "03. Design/SchetsRpijsbbeslisdashboard.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "SchetsRpijsbbeslisdashboard"
             }
           },
           {
@@ -28,7 +40,7 @@
               "type": "markdown",
               "state": {
                 "file": "01. Analyse/Welke energiedata is nodig om adviestarieven te berekenen?.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
@@ -262,9 +274,12 @@
   },
   "active": "0d8d750b3b10408e",
   "lastOpenFiles": [
+    "03. Design/SchetsRpijsbbeslisdashboard.md",
+    "03. Design/ERD Mockdata voor Methode 1.md",
+    "01. Analyse/Korte werkbare conclusie welke data hebben we nodig voor Methode 1.md",
     "01. Analyse/Welke energiedata is nodig om adviestarieven te berekenen?.md",
-    "01. Analyse/Gap-analyse.md",
     "Weekkaarten/2026-W44.md",
+    "01. Analyse/Gap-analyse.md",
     "01. Analyse/Scope - Fontasya Electric.md",
     "01. Analyse/Definitieve Hoofd- & Deelvragen.md",
     "Persoonlijk/Competenties halen dit semester.md",
@@ -294,9 +309,6 @@
     "Weekkaarten/2026-W39.md",
     "Persoonlijk/Studieplan semester 3 - Data Consultancy Fontasya Electric.md",
     "07. Personal Leadership/Feedback Sem03.md",
-    "07. Personal Leadership/Feedback.md",
-    "Weekkaarten/2026-W38.md",
-    "01. Analyse/Keuze - welke prototype database.md",
-    "01. Analyse/Keuze - Deel 2 Realisatie- & Validatieverslag.md"
+    "07. Personal Leadership/Feedback.md"
   ]
 }
