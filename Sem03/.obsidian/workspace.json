@@ -274,6 +274,17 @@
   },
   "active": "0d8d750b3b10408e",
   "lastOpenFiles": [
+    "04. Realise/Mockdata_script/data_output/Feit_Inkoopprijs.csv",
+    "04. Realise/Mockdata_script/data_output/Feit_Klantverbruik.csv",
+    "04. Realise/Mockdata_script/data_output/Dim_Klantgroep.csv",
+    "04. Realise/Mockdata_script/data_output/Dim_Contractvorm.csv",
+    "04. Realise/Mockdata_script/data_output/Dim_Commodity.csv",
+    "04. Realise/Mockdata_script/data_output",
+    "04. Realise/Mockdata_script/__pycache__/models.cpython-314.pyc",
+    "04. Realise/Mockdata_script/config.json",
+    "04. Realise/Mockdata_script/__pycache__/logic.cpython-314.pyc",
+    "04. Realise/Mockdata_script/__pycache__",
+    "04. Realise/Mockdata_script/main.py",
     "03. Design/SchetsRpijsbbeslisdashboard.md",
     "03. Design/ERD Mockdata voor Methode 1.md",
     "01. Analyse/Korte werkbare conclusie welke data hebben we nodig voor Methode 1.md",
@@ -284,16 +295,6 @@
     "01. Analyse/Definitieve Hoofd- & Deelvragen.md",
     "Persoonlijk/Competenties halen dit semester.md",
     "Weekkaarten/2026-W41.md",
-    "01. Analyse/Gap-analyse.pdf",
-    "dbt/dev.duckdb.wal",
-    "dbt/harlequin_cmd.txt",
-    "dbt/target/run/grid_congestion_pipeline/models/staging/_staging.yml/relationships_stg_pv_feedin_671a3123e224e4562a430bfea9ff2155.sql",
-    "dbt/target/compiled/grid_congestion_pipeline/models/staging/_staging.yml/relationships_stg_pv_feedin_671a3123e224e4562a430bfea9ff2155.sql",
-    "dbt/target/run/grid_congestion_pipeline/models/staging/_staging.yml/not_null_stg_pv_feedin_customer_id.sql",
-    "dbt/target/compiled/grid_congestion_pipeline/models/staging/_staging.yml/not_null_stg_pv_feedin_customer_id.sql",
-    "dbt/target/run/grid_congestion_pipeline/models/staging/_staging.yml/unique_stg_pv_assets_pv_id.sql",
-    "dbt/target/compiled/grid_congestion_pipeline/models/staging/_staging.yml/unique_stg_pv_assets_pv_id.sql",
-    "dbt/target/run/grid_congestion_pipeline/models/staging/_staging.yml/relationships_stg_pv_assets_c9896d1173e2cec669d6d0b43ffcbd07.sql",
     "Data&Opdracht/Generate dataset Fontasya Electric/fontasya_representatieve_jaarset_200_klanten/entiteits_relatie_schets.md",
     "Data&Opdracht/Generate dataset Fontasya Electric/fontasya_representatieve_jaarset_200_klanten/README.md",
     "Weekkaarten/2026-W40.md",
@@ -308,7 +309,6 @@
     "Notities.md",
     "Weekkaarten/2026-W39.md",
     "Persoonlijk/Studieplan semester 3 - Data Consultancy Fontasya Electric.md",
-    "07. Personal Leadership/Feedback Sem03.md",
-    "07. Personal Leadership/Feedback.md"
+    "07. Personal Leadership/Feedback Sem03.md"
   ]
 }

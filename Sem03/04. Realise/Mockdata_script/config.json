@@ -1,0 +1,7 @@
+{
+    "output_dir": "data_output",
+    "format": "csv",
+    "start_jaar": 2023,
+    "eind_jaar": 2026,
+    "n_verbruik_records": 1500
+}
