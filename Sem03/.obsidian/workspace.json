@@ -103,7 +103,8 @@
               "title": "Competenties halen dit semester"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -272,8 +273,9 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "0d8d750b3b10408e",
+  "active": "df83c93db5518cf7",
   "lastOpenFiles": [
+    "03. Design/ERD Mockdata voor Methode 1.md",
     "04. Realise/Mockdata_script/data_output/Feit_Inkoopprijs.csv",
     "04. Realise/Mockdata_script/data_output/Feit_Klantverbruik.csv",
     "04. Realise/Mockdata_script/data_output/Dim_Klantgroep.csv",
@@ -284,9 +286,7 @@
     "04. Realise/Mockdata_script/config.json",
     "04. Realise/Mockdata_script/__pycache__/logic.cpython-314.pyc",
     "04. Realise/Mockdata_script/__pycache__",
-    "04. Realise/Mockdata_script/main.py",
     "03. Design/SchetsRpijsbbeslisdashboard.md",
-    "03. Design/ERD Mockdata voor Methode 1.md",
     "01. Analyse/Korte werkbare conclusie welke data hebben we nodig voor Methode 1.md",
     "01. Analyse/Welke energiedata is nodig om adviestarieven te berekenen?.md",
     "Weekkaarten/2026-W44.md",
