@@ -77,7 +77,8 @@
               "title": "2026-W45"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -246,14 +247,14 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "0d8d750b3b10408e",
+  "active": "e07a48babdf36f34",
   "lastOpenFiles": [
+    "03. Design/ERD Mockdata voor Methode 1.md",
     "04. Realise/Mockdata_script/data_output/Dim_Klant.csv",
     "04. Realise/Mockdata_script/__pycache__/models.cpython-312.pyc",
     "04. Realise/Mockdata_script/__pycache__/logic.cpython-312.pyc",
     "04. Realise/Mockdata_script/Unconfirmed 616080.crdownload",
     "01. Analyse/Korte werkbare conclusie welke data hebben we nodig voor Methode 1.md",
-    "03. Design/ERD Mockdata voor Methode 1.md",
     "Weekkaarten/2026-W44.md",
     "Weekkaarten/2026-W45.md",
     "07. Personal Leadership/Feedback Sem03.md",
@@ -273,7 +274,6 @@
     "03. Design/SchetsRpijsbbeslisdashboard.png",
     "03. Design/SchetsRpijsbbeslisdashboard.md",
     "04. Realise/Mockdata_script/data_output/Feit_Inkoopprijs.csv",
-    "04. Realise/Mockdata_script/data_output/Feit_Klantverbruik.csv",
     "Weekkaarten/2026-W41.md",
     "Data&Opdracht/Generate dataset Fontasya Electric/fontasya_representatieve_jaarset_200_klanten/entiteits_relatie_schets.md",
     "Data&Opdracht/Generate dataset Fontasya Electric/fontasya_representatieve_jaarset_200_klanten/README.md",

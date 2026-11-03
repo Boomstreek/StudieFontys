@@ -6,8 +6,8 @@
     },
     "output_dir": "data_output",
     "format": "csv",
-    "start_jaar": 2024,
-    "eind_jaar": 2026,
+    "start_jaar": 2023,
+    "eind_jaar": 2025,
     "klantprofielen": [
         1,
         2,

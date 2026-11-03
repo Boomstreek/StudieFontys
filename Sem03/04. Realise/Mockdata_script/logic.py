@@ -38,21 +38,24 @@ def create_dataset(config):
     verbruiken = []
     for kid, pid in klant_profiel.items():
         contract_per_commodity = {cid: random.choice(contractvorm_ids) for cid in commodity_ids}
+        klantfactor = random.uniform(0.8, 1.2)  # deze klant verbruikt structureel iets meer/minder
         for jaar, maand in maanden:
             for cid in commodity_ids:
                 verbruiken.append(
-                    Feit_Klantverbruik.generate(kid, pid, cid, contract_per_commodity[cid], jaar, maand)
+                    Feit_Klantverbruik.generate(kid, pid, cid, contract_per_commodity[cid], jaar, maand, klantfactor)
                 )
     df_klantverbruik = pd.DataFrame(verbruiken)
 
-    # INKOOPPRIJS: per commodity per contractvorm per maand
+    # INKOOPPRIJS: per commodity per contractvorm per maand.
+    # Vaste contracten houden hun prijs gedurende de looptijd, dynamisch volgt de markt.
+    contractvormen = list(df_contractvorm[['contractvorm_id', 'looptijd_maanden']].itertuples(index=False, name=None))
     inkoopprijzen = []
-    prijs_id = 1
-    for jaar, maand in maanden:
-        for cid in commodity_ids:
-            for cvid in contractvorm_ids:
-                inkoopprijzen.append(Feit_Inkoopprijs.generate(prijs_id, cid, cvid, jaar, maand))
-                prijs_id += 1
+    for cid in commodity_ids:
+        inkoopprijzen.extend(Feit_Inkoopprijs.generate_reeks(1, cid, contractvormen, maanden))
+    # Sorteren op jaar/maand/commodity/contract en doorlopend id geven
+    inkoopprijzen.sort(key=lambda r: (r['jaar'], r['maand'], r['commodity_id'], r['contractvorm_id']))
+    for i, rij in enumerate(inkoopprijzen, start=1):
+        rij['inkoopprijs_id'] = i
     df_inkoopprijs = pd.DataFrame(inkoopprijzen)
 
     return {
