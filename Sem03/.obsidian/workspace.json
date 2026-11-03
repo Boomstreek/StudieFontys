@@ -22,87 +22,59 @@
             }
           },
           {
-            "id": "df83c93db5518cf7",
+            "id": "7450b4a186afc83d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03. Design/ERD Mockdata voor Methode 1.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "ERD Mockdata voor Methode 1"
-            }
-          },
-          {
-            "id": "c1e91a13ddff2c49",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01. Analyse/Welke energiedata is nodig om adviestarieven te berekenen?.md",
+                "file": "01. Analyse/Korte werkbare conclusie welke data hebben we nodig voor Methode 1.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Welke energiedata is nodig om adviestarieven te berekenen?"
+              "title": "Korte werkbare conclusie welke data hebben we nodig voor Methode 1"
             }
           },
           {
-            "id": "7a49626dc9a16d49",
+            "id": "aa317b0c183e3a48",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01. Analyse/Gap-analyse.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Gap-analyse"
-            }
-          },
-          {
-            "id": "acb3785a0ddbc556",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01. Analyse/Scope - Fontasya Electric.md",
+                "file": "Weekkaarten/2026-W44.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Scope - Fontasya Electric"
+              "title": "2026-W44"
             }
           },
           {
-            "id": "3b1578ae1061d303",
+            "id": "07da8d7ad2763008",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01. Analyse/Definitieve Hoofd- & Deelvragen.md",
+                "file": "07. Personal Leadership/Feedback Sem03.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Definitieve Hoofd- & Deelvragen"
+              "title": "Feedback Sem03"
             }
           },
           {
-            "id": "d6b90e05c17cb8c0",
+            "id": "e07a48babdf36f34",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Persoonlijk/Competenties halen dit semester.md",
+                "file": "Weekkaarten/2026-W45.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Competenties halen dit semester"
+              "title": "2026-W45"
             }
           }
         ]
@@ -276,12 +248,23 @@
   },
   "active": "0d8d750b3b10408e",
   "lastOpenFiles": [
+    "04. Realise/Mockdata_script/data_output/Dim_Klant.csv",
+    "04. Realise/Mockdata_script/__pycache__/models.cpython-312.pyc",
+    "04. Realise/Mockdata_script/__pycache__/logic.cpython-312.pyc",
+    "04. Realise/Mockdata_script/Unconfirmed 616080.crdownload",
+    "01. Analyse/Korte werkbare conclusie welke data hebben we nodig voor Methode 1.md",
+    "03. Design/ERD Mockdata voor Methode 1.md",
+    "Weekkaarten/2026-W44.md",
+    "Weekkaarten/2026-W45.md",
+    "07. Personal Leadership/Feedback Sem03.md",
+    "UX theorie.md",
+    "Persoonlijk/Competenties halen dit semester.md",
+    "01. Analyse/Definitieve Hoofd- & Deelvragen.md",
+    "01. Analyse/Scope - Fontasya Electric.md",
     "01. Analyse/Welke energiedata is nodig om adviestarieven te berekenen?.md",
     "01. Analyse/Gap-analyse.md",
-    "03. Design/ERD Mockdata voor Methode 1.md",
     "03. Design/ERD Mockdata voor Methode 1.pdf",
     "01. Analyse/Keuze - welke prototype database.md",
-    "01. Analyse/Korte werkbare conclusie welke data hebben we nodig voor Methode 1.md",
     "01. Analyse/Korte werkbare conclusie welke data hebben we nodig voor Methode 1.pdf",
     "01. Analyse/Keuze - welke prototype database.pdf",
     "01. Analyse/Scope - Fontasya Electric.pdf",
@@ -291,13 +274,6 @@
     "03. Design/SchetsRpijsbbeslisdashboard.md",
     "04. Realise/Mockdata_script/data_output/Feit_Inkoopprijs.csv",
     "04. Realise/Mockdata_script/data_output/Feit_Klantverbruik.csv",
-    "04. Realise/Mockdata_script/data_output/Dim_Klantgroep.csv",
-    "04. Realise/Mockdata_script/data_output/Dim_Contractvorm.csv",
-    "04. Realise/Mockdata_script/data_output/Dim_Commodity.csv",
-    "Weekkaarten/2026-W44.md",
-    "01. Analyse/Scope - Fontasya Electric.md",
-    "01. Analyse/Definitieve Hoofd- & Deelvragen.md",
-    "Persoonlijk/Competenties halen dit semester.md",
     "Weekkaarten/2026-W41.md",
     "Data&Opdracht/Generate dataset Fontasya Electric/fontasya_representatieve_jaarset_200_klanten/entiteits_relatie_schets.md",
     "Data&Opdracht/Generate dataset Fontasya Electric/fontasya_representatieve_jaarset_200_klanten/README.md",
@@ -308,9 +284,6 @@
     "Data&Opdracht/Generate dataset Fontasya Electric/fontasya_representatieve_jaarset_500_klanten/README.md",
     "Excalidraw/Drawing 2026-09-29 18.40.13.excalidraw.md",
     "Commands.md",
-    "01. Analyse/Hoofdvraag en deelvragen - Fontasya Electric.md",
-    "01. Analyse/Groep Hoofdvraag en deelvragen - Fontasya Electric.md",
-    "Notities.md",
-    "Weekkaarten/2026-W39.md"
+    "01. Analyse/Hoofdvraag en deelvragen - Fontasya Electric.md"
   ]
 }

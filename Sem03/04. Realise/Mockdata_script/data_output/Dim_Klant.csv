@@ -1,0 +1,751 @@
+klant_id,naam,wachtwoord,netbeheerkosten,vermindering_energiebelasting,btw_percentage
+1,Sanne Jansen,LPf65pR4XjFC,23,560,21
+2,Emma Vos,hHvTpNBnNYNP,23,560,21
+3,Jan Peters,HvnJeZIhJULV,23,560,21
+4,Bram van Dijk,WZ13ucBYI9VI,23,560,21
+5,Sem Dekker,RMOLOq8Yaf1j,23,560,21
+6,Ruben van Dijk,0y1VKeX2RPZC,23,560,21
+7,Sanne Bos,S8I8lsxjUkeW,23,560,21
+8,Anouk van Dijk,oZLztNkVXepy,23,560,21
+9,Bram Jansen,JJMsS0GyeAyf,23,560,21
+10,Bram Bakker,EPTIRu3j44Uj,23,560,21
+11,Ruben van den Berg,hPfg1U2gtv0C,23,560,21
+12,Jesse Mulder,FQjcc0uT1YKT,23,560,21
+13,Emma Jansen,DyMDxJmPlUD2,23,560,21
+14,Bram de Boer,RuZUC9uz8vzB,23,560,21
+15,Milan Dekker,0jjXUvRRBjzO,23,560,21
+16,Anouk Meijer,TyOv8DGpyolL,23,560,21
+17,Lars van den Berg,9iaP1iJkwqFL,23,560,21
+18,Anouk Peters,ZWQSFnd35YTx,23,560,21
+19,Sem de Groot,f0osFeAynkna,23,560,21
+20,Iris Hendriks,0YNCLfBMEkZ0,23,560,21
+21,Thijs de Boer,raK3X0xUhlzp,23,560,21
+22,Sanne Peters,ehAVRbbq9qNW,23,560,21
+23,Lars Peters,rHZAo66FGzGZ,23,560,21
+24,Lars Bakker,YPfLnektZvWQ,23,560,21
+25,Sem van Dijk,Y6yP0oqLjr3T,23,560,21
+26,Iris Dekker,RmkfDfnhw8hp,23,560,21
+27,Iris de Groot,IwNUDtQQuQwW,23,560,21
+28,Iris de Groot,wz4JTnQOlcmO,23,560,21
+29,Eva de Vries,Vyx9awgeYnmK,23,560,21
+30,Anouk Jansen,MUICNHV5i3SW,23,560,21
+31,Sem Bakker,H1HReTc4wzj2,23,560,21
+32,Milan de Groot,u6AQWppRM0zR,23,560,21
+33,Fleur Visser,5eMRs5W892oZ,23,560,21
+34,Lotte Dekker,VzfP9jfO4uRE,23,560,21
+35,Lars van den Berg,6GKXbvtGqeAR,23,560,21
+36,Sanne Peters,Z3fEls0k7WQ0,23,560,21
+37,Sem Vos,FxyxuN1D8Xdo,23,560,21
+38,Milan van den Berg,BHU793LqWw1H,23,560,21
+39,Fleur de Groot,K4n6Dlp2eyFg,23,560,21
+40,Julia Bakker,k7HT1viipaOW,23,560,21
+41,Anouk Vos,IxlAk6vRWxxv,23,560,21
+42,Emma Bos,XqJMarxkuvID,23,560,21
+43,Sophie van den Berg,FH7kTy6jWlEs,23,560,21
+44,Milan Mulder,MyNlT2IP37p5,23,560,21
+45,Jan de Vries,MZgdbxX4LITj,23,560,21
+46,Eva Mulder,DB4T7yhSAIgO,23,560,21
+47,Anouk Jansen,VRjuqGc1pAv9,23,560,21
+48,Fleur de Groot,feg7BpLAf9tF,23,560,21
+49,Iris Vos,HX3691lPLHYI,23,560,21
+50,Pieter Bakker,AlFeLNGnbSLu,23,560,21
+51,Sem Mulder,sXVNsgsxRLpa,23,560,21
+52,Jan Smit,G01e95kAyN0A,23,560,21
+53,Noor Bos,E7jlHaMHMR4x,23,560,21
+54,Pieter Mulder,PLffV6i57y9U,23,560,21
+55,Eva de Vries,8A7kuw3u9xOf,23,560,21
+56,Jan Hendriks,UDIbVczL8d8M,23,560,21
+57,Milan Mulder,CdL8oaB11qVB,23,560,21
+58,Bram Bos,XsILnlwHem9k,23,560,21
+59,Lars de Vries,SY7bYV6sD11g,23,560,21
+60,Ruben de Groot,7m2Hrnw1NPNB,23,560,21
+61,Ruben Bakker,zelFLvDRNics,23,560,21
+62,Lars Vos,zr2ZZUtLqdxa,23,560,21
+63,Ruben de Groot,F3lx2lZN3941,23,560,21
+64,Anouk Bakker,t4tshDoy0fLQ,23,560,21
+65,Eva de Boer,eItTgq8CWnOD,23,560,21
+66,Pieter de Vries,02IhCYZGr6FZ,23,560,21
+67,Lars Dekker,Hf1cC0VSK69Z,23,560,21
+68,Noor Jansen,HGPOyRHwSoPb,23,560,21
+69,Anouk de Vries,CbLBTJH7JeEY,23,560,21
+70,Lotte Peters,upUg1tlR9VCF,23,560,21
+71,Thijs Dekker,8UOPV3khQ9aa,23,560,21
+72,Milan Hendriks,WF68LYsNNzrE,23,560,21
+73,Thijs Visser,2wD1mW3rlsO7,23,560,21
+74,Iris Smit,okga952GG1Cc,23,560,21
+75,Ruben Hendriks,3fSQiYA9lChO,23,560,21
+76,Julia de Boer,QO7bWZ8Z3ij7,23,560,21
+77,Sem Visser,TTtJ9ST0APc6,23,560,21
+78,Jan van den Berg,DEsQJDhAA1IY,23,560,21
+79,Jesse van den Berg,vj8xB1qx48IS,23,560,21
+80,Anouk Peters,WNpNWhI8Dc13,23,560,21
+81,Noor van Dijk,iitGR3wjc7mN,23,560,21
+82,Sanne Bakker,MORESMLwcNdI,23,560,21
+83,Pieter Peters,ahk4t32M3PbO,23,560,21
+84,Eva Visser,XAbhVf0nZOJS,23,560,21
+85,Thijs Bakker,ESEG2kZQ718E,23,560,21
+86,Lotte de Boer,ym0lXLkyvxP8,23,560,21
+87,Sanne Dekker,8KI2tCrN5RTW,23,560,21
+88,Jan van Dijk,6Twxchjn6qkW,23,560,21
+89,Daan Vos,F1Gph7FzhPuS,23,560,21
+90,Iris de Vries,VzwqQdzQNEn8,23,560,21
+91,Fleur de Boer,gbOMmiDR9ZlI,23,560,21
+92,Fleur Bakker,d9XMvIhBYOIP,23,560,21
+93,Fleur de Vries,hfOl08UtZXKd,23,560,21
+94,Bram Dekker,E1MU6PKuwjBS,23,560,21
+95,Emma Jansen,N9afiSMgCDLw,23,560,21
+96,Daan de Vries,8xoKaJoT7MKq,23,560,21
+97,Emma de Boer,4IZNIEuoQw6G,23,560,21
+98,Pieter Hendriks,ucookX7jymKl,23,560,21
+99,Jesse Dekker,Fwt8rJTceFg8,23,560,21
+100,Jesse Dekker,QJa2RjZDYyyd,23,560,21
+101,Fleur de Vries,S7P77NkuhDDf,23,560,21
+102,Jesse de Vries,Osuv49vHt3oM,23,560,21
+103,Pieter van Dijk,KvQ60pOKxFN9,23,560,21
+104,Iris Dekker,yScCQx2VwnIh,23,560,21
+105,Iris van den Berg,JtgjT8iy0abj,23,560,21
+106,Fleur de Boer,HU1yRAAvSOXF,23,560,21
+107,Pieter Mulder,r16vPVLWoSw3,23,560,21
+108,Jan Mulder,wRgdznkGmkGo,23,560,21
+109,Pieter Meijer,3C3AIU9zUMN3,23,560,21
+110,Pieter Bakker,GhacE9yYY2YH,23,560,21
+111,Daan Meijer,tcXHwPgXrdsV,23,560,21
+112,Julia de Vries,0ZIYVnquyJtB,23,560,21
+113,Sem de Groot,zuZDE7wXh07D,23,560,21
+114,Lotte Jansen,ODfLaPZxGLkM,23,560,21
+115,Jan Mulder,FfHfy0rvqdu9,23,560,21
+116,Lars Bakker,szogtCIR6cuW,23,560,21
+117,Lotte Jansen,8mzhlK1Wb10r,23,560,21
+118,Pieter Dekker,IQHlS1yU4m7J,23,560,21
+119,Ruben Dekker,TuMqV1P32xlP,23,560,21
+120,Sophie de Groot,Z9Aavz7i46YQ,23,560,21
+121,Jesse Jansen,YdrfGNoquYDI,23,560,21
+122,Anouk Bos,9ePKGi6zCDVP,23,560,21
+123,Lars Bos,U2dd4WYQUb17,23,560,21
+124,Iris Meijer,pfysA088r6AE,23,560,21
+125,Jan Bos,L3VaswDGYWJ2,23,560,21
+126,Eva Peters,9GRznQdynHTI,23,560,21
+127,Noor Visser,qrwFaMPNoPcc,23,560,21
+128,Milan Bos,N7arpj3E7n7R,23,560,21
+129,Thijs Vos,bjRk5RMiABci,23,560,21
+130,Sem van Dijk,GhTFD7Dnec2z,23,560,21
+131,Lotte Hendriks,seKgdU9Zap7X,23,560,21
+132,Milan Visser,0BZ2fhsAOeHy,23,560,21
+133,Jan van den Berg,Yz2F8Wvonwsx,23,560,21
+134,Emma Smit,19BRVq0M1w2M,23,560,21
+135,Jan de Groot,28SODl4f6j9L,23,560,21
+136,Sophie Bakker,BWoxntIRJDHz,23,560,21
+137,Anouk Smit,Hae4D5q0PkAW,23,560,21
+138,Lotte Bos,tLi41ShLJsyE,23,560,21
+139,Lotte Vos,yJ7ZHLCRH1Pp,23,560,21
+140,Julia Peters,UeHIwKHjUw6r,23,560,21
+141,Pieter Vos,DY851svzJij7,23,560,21
+142,Anouk van Dijk,wlScMt8jo9f3,23,560,21
+143,Ruben de Vries,yN1xW9PsyU4D,23,560,21
+144,Emma Vos,ovpPCBkhiIZ9,23,560,21
+145,Emma de Groot,XiuWpAjmhZ2R,23,560,21
+146,Lars Bos,5YNRP91mZMiK,23,560,21
+147,Pieter de Vries,9NfQiwjNYs0q,23,560,21
+148,Sophie Smit,mSomxLDHx0El,23,560,21
+149,Lars van Dijk,TjKktfurnl1P,23,560,21
+150,Ruben Peters,1yk0KsaoLOb1,23,560,21
+151,Julia Bakker,H19epdxoyFdK,23,560,21
+152,Sem de Vries,ggD3fHTyfDY0,23,560,21
+153,Fleur van den Berg,mhxKfM4ehNOx,23,560,21
+154,Lars de Vries,9igWgfI7oNhI,23,560,21
+155,Anouk de Boer,XAOjlVocejgj,23,560,21
+156,Fleur de Groot,vehByxsCq6dW,23,560,21
+157,Iris Dekker,NgsLgoMrJ2VJ,23,560,21
+158,Bram van Dijk,TY6bSOsc916f,23,560,21
+159,Eva Bakker,1lCHeWYzPMhY,23,560,21
+160,Anouk Bos,ZcOkep5Lz03Q,23,560,21
+161,Emma Bos,o1twdiEimpni,23,560,21
+162,Ruben van den Berg,KEQbabs5TsDp,23,560,21
+163,Julia de Groot,LE5zSrgVcdyq,23,560,21
+164,Jesse de Vries,apo4xJwV8ayI,23,560,21
+165,Jan de Vries,uCHgZVGTPXXH,23,560,21
+166,Emma Dekker,nRbUZqQ3ofK5,23,560,21
+167,Lotte Bakker,VJ6PmaW5Ca6i,23,560,21
+168,Milan de Vries,GIgfyJZssppZ,23,560,21
+169,Sophie Peters,jG7sldSNt2p8,23,560,21
+170,Lars Smit,WW93OZYTXe6Q,23,560,21
+171,Lotte Peters,d6NV44Cly0bs,23,560,21
+172,Jesse Mulder,oaExK3v4zYmS,23,560,21
+173,Pieter de Vries,g8V1h0H3zmFM,23,560,21
+174,Anouk Peters,e6zcvZq0vYlk,23,560,21
+175,Anouk de Vries,bmBkeZCiPVC7,23,560,21
+176,Sanne Bakker,m1oGT7E9FLly,23,560,21
+177,Lars de Boer,oW1cbggrRX8R,23,560,21
+178,Thijs Smit,YQiiE15zeST9,23,560,21
+179,Ruben Peters,tDJ0C5DaVFwK,23,560,21
+180,Pieter de Boer,nmoC0jYgOyzf,23,560,21
+181,Jan Dekker,nD29UEWeXQbY,23,560,21
+182,Julia Hendriks,DfSNBJ05Xsvy,23,560,21
+183,Pieter Peters,1WlE4rA9o2AV,23,560,21
+184,Ruben Bakker,d4bz4ycNwI86,23,560,21
+185,Fleur de Boer,VaiuMVXkbnnS,23,560,21
+186,Pieter Visser,OICGP7TSxB4O,23,560,21
+187,Milan Bos,oiixxndbAL1B,23,560,21
+188,Fleur de Boer,WjTaqTB7o8b3,23,560,21
+189,Pieter Mulder,v8lWd1JhMBan,23,560,21
+190,Daan van den Berg,GxuAM7XNcZpH,23,560,21
+191,Noor Smit,NYnlJBk9XMGq,23,560,21
+192,Lars Jansen,CWL8P9nNcaIU,23,560,21
+193,Jan Jansen,cjw7SpNCoQ0D,23,560,21
+194,Milan Visser,yvqk9i20tiIE,23,560,21
+195,Bram Dekker,idU5Bi8zUjYW,23,560,21
+196,Fleur Vos,EtUWPsA8YN81,23,560,21
+197,Sem van den Berg,HwYciNlPiDXB,23,560,21
+198,Thijs Smit,uH5lqPhZoWtC,23,560,21
+199,Iris Dekker,Rr86biGpnco9,23,560,21
+200,Sanne Bos,FZ8JcMlr3iLl,23,560,21
+201,Sanne Bos,fY3qRlLw6SuB,23,560,21
+202,Milan Jansen,5rHBpT2J5kPs,23,560,21
+203,Emma Hendriks,IIEpY2Swz0Ke,23,560,21
+204,Emma Meijer,t1PZPoV0QaXs,23,560,21
+205,Eva Meijer,O0g0lxQGpgd1,23,560,21
+206,Thijs de Vries,n6Iq8IasRjqZ,23,560,21
+207,Bram Dekker,Q16ScbfKO7L7,23,560,21
+208,Eva Peters,omftPKs1hzOA,23,560,21
+209,Sanne Hendriks,LzHZNRgcHr6g,23,560,21
+210,Sophie Bakker,bPUh4rwbPG3U,23,560,21
+211,Julia Mulder,Kms1pT3YrkjU,23,560,21
+212,Jesse de Boer,JQ10PCiMM8FA,23,560,21
+213,Emma van den Berg,Ig9iPmq2MtJe,23,560,21
+214,Noor de Groot,0jjFRvmj7suA,23,560,21
+215,Thijs Smit,nfeBChk5UQOF,23,560,21
+216,Anouk Peters,TQVS9lAaAjsQ,23,560,21
+217,Bram Meijer,XGnBc1yiTyrR,23,560,21
+218,Jan Vos,b5nELVO0Mneq,23,560,21
+219,Noor Hendriks,Earpt6Z8jIno,23,560,21
+220,Sophie Dekker,5RRIKmIdIfIq,23,560,21
+221,Emma Mulder,UK1sH9YkzSth,23,560,21
+222,Jan Meijer,eudm8MNIRauq,23,560,21
+223,Fleur Dekker,WGzB2VJ3QApV,23,560,21
+224,Emma van Dijk,qheR8C6tPGS2,23,560,21
+225,Eva Smit,lmbAAX8hUBRD,23,560,21
+226,Sem Visser,BXq2nRNqZCHh,23,560,21
+227,Sem Bakker,QkgLnjS9pA4C,23,560,21
+228,Fleur Bakker,o0FrkuK6VbSI,23,560,21
+229,Iris Hendriks,TnKWS1eUTzqB,23,560,21
+230,Fleur Mulder,U3lXb73GrukT,23,560,21
+231,Jan Smit,hbe7BwbaYgpd,23,560,21
+232,Anouk Hendriks,pam5Nz3fEVUj,23,560,21
+233,Jan Mulder,EDP7sOzSvHto,23,560,21
+234,Lars Hendriks,NBa5K9RbaJrA,23,560,21
+235,Daan de Groot,WT5ijYQORg6l,23,560,21
+236,Milan Hendriks,m7ohUpkNRiOi,23,560,21
+237,Milan de Boer,gqG2hwsa1sgN,23,560,21
+238,Anouk Mulder,dzxeP6V8w90K,23,560,21
+239,Daan Visser,ztkshvQODQXS,23,560,21
+240,Jan Smit,XG9adalQLE4L,23,560,21
+241,Eva Bos,eVtxV85Hr9kN,23,560,21
+242,Jan Hendriks,jAf1iEwDZFj4,23,560,21
+243,Sophie de Boer,PRVeGBjfHtCB,23,560,21
+244,Sophie Mulder,50WoBpXt6j8l,23,560,21
+245,Jesse de Groot,hyrFGTu5nGg4,23,560,21
+246,Julia Mulder,7hlsN1DJnDdo,23,560,21
+247,Ruben Smit,MdwR6gYMvLdQ,23,560,21
+248,Lotte Jansen,ZxI8ys5xeJNL,23,560,21
+249,Bram Dekker,iDpoOrtExfmf,23,560,21
+250,Emma de Vries,mbyGBfzGQhMS,23,560,21
+251,Milan Hendriks,nu7iStviG8Qo,21,560,21
+252,Pieter Dekker,s6TryqtKoKBb,21,560,21
+253,Noor Bakker,pM4JaZAVBHTj,21,560,21
+254,Anouk van Dijk,o6hI2Bz7hIGD,21,560,21
+255,Julia Meijer,0IWZff8anVzi,21,560,21
+256,Ruben Vos,YRZp6xaB8Ccy,21,560,21
+257,Milan van den Berg,ihTtXAPBJvz7,21,560,21
+258,Julia Bos,epKd0EcdEXsh,21,560,21
+259,Iris de Boer,LBVgcF9Zzxjj,21,560,21
+260,Lotte de Vries,w8dgi9dsKNYO,21,560,21
+261,Ruben de Vries,w2KIVJUB8LdD,21,560,21
+262,Lars de Vries,FozZ0OCTDJA2,21,560,21
+263,Jan Bos,5z1Xfgixiq4Y,21,560,21
+264,Julia Meijer,La4wPiOPuykc,21,560,21
+265,Sophie Bakker,LOFaK0PlqyPj,21,560,21
+266,Daan Jansen,zT8mU4kNCKiE,21,560,21
+267,Lars Dekker,eEpH2Ksqy9B5,21,560,21
+268,Anouk Smit,CKNopJrC9YBe,21,560,21
+269,Daan Meijer,qtR20LEkyOOA,21,560,21
+270,Sanne Jansen,44sevcK5mc5N,21,560,21
+271,Julia de Groot,OJKeRpdLbmIg,21,560,21
+272,Thijs de Groot,lMMCl4vgc9tN,21,560,21
+273,Sem Mulder,L4gTxNReErUi,21,560,21
+274,Eva Bos,vJHaICRgDnqw,21,560,21
+275,Emma van Dijk,MgZ0AsOXdYV1,21,560,21
+276,Emma Mulder,SjxnwOgrBkfF,21,560,21
+277,Ruben van Dijk,nIlyZQpi8wl1,21,560,21
+278,Julia Visser,QP3mQMPBesLP,21,560,21
+279,Iris van den Berg,0NcmeCl2GfgW,21,560,21
+280,Jan de Groot,VZS7YJksX4nv,21,560,21
+281,Sanne Jansen,Ysad6WQUFicO,21,560,21
+282,Noor Bos,JYKbGpcXXOdn,21,560,21
+283,Noor Hendriks,XlWftQG8InU3,21,560,21
+284,Emma de Boer,gJmg4f2rCd6Y,21,560,21
+285,Emma de Boer,9uEOKySir2Fd,21,560,21
+286,Anouk van den Berg,irIZJQVVhx26,21,560,21
+287,Sanne Visser,IIO0iYnCESkW,21,560,21
+288,Noor Mulder,UIlSSeBIyVtg,21,560,21
+289,Bram Visser,JTBq9RSwuybQ,21,560,21
+290,Sanne Bakker,s4a4p2e2zDMB,21,560,21
+291,Jan Vos,NB5WxoozAGXp,21,560,21
+292,Lars Mulder,1js3No3lBpFO,21,560,21
+293,Lars Jansen,DHrLBE1OTJEr,21,560,21
+294,Daan Vos,PsiilJLVZ2PQ,21,560,21
+295,Ruben Bakker,oAalLyfRRj6r,21,560,21
+296,Sanne de Groot,C0wJyggPQOyM,21,560,21
+297,Lars de Groot,dSWZVvvQMXjm,21,560,21
+298,Lars Vos,1fH35926cDSp,21,560,21
+299,Jesse van Dijk,m6G4dhDbNew1,21,560,21
+300,Daan Peters,CzeA5fcZw1TB,21,560,21
+301,Lars Mulder,bOIUnmvtBGBE,21,560,21
+302,Julia Peters,bMuBUCwjbVGS,21,560,21
+303,Milan Bakker,BhbmkFZroEj0,21,560,21
+304,Jesse Meijer,pMDrRIlFFRjU,21,560,21
+305,Ruben de Groot,Y6YBJV1vJcpY,21,560,21
+306,Jan van den Berg,BWyt72lDVvUh,21,560,21
+307,Anouk de Groot,Fzmi4IS2wCqL,21,560,21
+308,Ruben de Boer,tgbuOvbVm3gC,21,560,21
+309,Bram de Groot,xjX5CUf5fXA4,21,560,21
+310,Jesse Bakker,XPiWEpiy2QP9,21,560,21
+311,Jan Bos,JtqkVa8ujLGz,21,560,21
+312,Noor Meijer,bKJmiMkLYhRj,21,560,21
+313,Lars Hendriks,pEVYKB8De1Ql,21,560,21
+314,Noor Smit,dyMp4YKVYYdC,21,560,21
+315,Noor de Vries,eVsjH8BLTTRn,21,560,21
+316,Bram Bakker,L78O7GNUnmxA,21,560,21
+317,Anouk de Vries,kSZFT0Q03ieM,21,560,21
+318,Anouk Peters,DmwGx2M5kBri,21,560,21
+319,Sem Bakker,pAxErPOk4otR,21,560,21
+320,Jesse Bos,mi94rIoO9P6J,21,560,21
+321,Ruben Smit,SCtnBFhupFg7,21,560,21
+322,Jan Peters,DhcR56FH3Zwg,21,560,21
+323,Sophie Hendriks,lg62cVA9KgPD,21,560,21
+324,Emma Vos,llGdm6F8yWu4,21,560,21
+325,Pieter Mulder,5G8kSsTYyT5m,21,560,21
+326,Emma Meijer,nKoqxWrhABeS,21,560,21
+327,Bram Meijer,SF4bBTVSS1li,21,560,21
+328,Lotte de Boer,FWaQLcwlyygP,21,560,21
+329,Jan Hendriks,AySzPvA7EtcG,21,560,21
+330,Lars Hendriks,Wkzm4lIxenfR,21,560,21
+331,Daan Dekker,wIzJuYMV4tUx,21,560,21
+332,Eva van Dijk,kpZ0lD6DzULe,21,560,21
+333,Thijs Jansen,KV9dG2wE2EW2,21,560,21
+334,Milan Visser,ZJMRYy4gScQS,21,560,21
+335,Eva de Groot,ooaq3WbuE0iN,21,560,21
+336,Sem de Vries,hWNExZOeDgBO,21,560,21
+337,Sophie de Vries,m3GdczNdn6dq,21,560,21
+338,Daan Dekker,JIobSHkRi3oJ,21,560,21
+339,Milan de Groot,AUBheVrJ0fga,21,560,21
+340,Pieter van den Berg,iJWDP2J4uj07,21,560,21
+341,Fleur de Groot,yOcYoxdhfP0w,21,560,21
+342,Noor Visser,sZ8ordsfogt4,21,560,21
+343,Daan de Boer,MD8fwaFSbIAL,21,560,21
+344,Pieter van Dijk,mie1g6ko5nQr,21,560,21
+345,Jesse Jansen,fOr9cpsAaPDe,21,560,21
+346,Emma van Dijk,C27j9ODNYAOR,21,560,21
+347,Lotte Visser,kws77ji6AjXR,21,560,21
+348,Thijs de Boer,1a2ndMVqnMuM,21,560,21
+349,Anouk van den Berg,5pWv1cCMPIRP,21,560,21
+350,Lars de Vries,5tD1tHn3TBNa,21,560,21
+351,Sophie Vos,M1yXWIIVLQA1,21,560,21
+352,Anouk Vos,5JcDmgSSeewR,21,560,21
+353,Noor Visser,6aLe1Udp1JAm,21,560,21
+354,Jesse de Boer,Ff26NmYozDUc,21,560,21
+355,Eva Dekker,wArcwvcrhKAO,21,560,21
+356,Thijs Bakker,onPjFAdBFbn6,21,560,21
+357,Pieter Dekker,sNuCnUCV75Tj,21,560,21
+358,Eva van den Berg,7untXWtT3MsL,21,560,21
+359,Jesse Dekker,HiEdVqh8pIrv,21,560,21
+360,Lars Bakker,GoeVz1HLCHIt,21,560,21
+361,Lars de Boer,tBUlmU6wOrOC,21,560,21
+362,Fleur Hendriks,4OBSO4AcQmUQ,21,560,21
+363,Thijs van Dijk,pFCcO31Jf9N8,21,560,21
+364,Julia Bos,1JsO4A9LhHKf,21,560,21
+365,Fleur de Boer,phX0PY5aGvls,21,560,21
+366,Anouk Hendriks,NNHRpPk1sI54,21,560,21
+367,Jan de Vries,tlr0UzB1P122,21,560,21
+368,Iris de Boer,N8pHNMHjWJCS,21,560,21
+369,Daan Visser,ozDS4YJrCfEa,21,560,21
+370,Noor Bakker,wOYeXoxgj9wL,21,560,21
+371,Sophie Jansen,XSAlD0DQZtNr,21,560,21
+372,Iris de Vries,cohnKRpOiQrW,21,560,21
+373,Noor de Groot,kKWqi0PPx9ql,21,560,21
+374,Milan Vos,5O8VInIgIcTo,21,560,21
+375,Julia Bakker,MyxhlUJyl30N,21,560,21
+376,Emma Hendriks,HuHhotlCzuiV,21,560,21
+377,Fleur de Boer,2p0wMPYz3lND,21,560,21
+378,Julia van Dijk,BNivtRx4EgSf,21,560,21
+379,Jesse Peters,e8yvfyrBSjRX,21,560,21
+380,Sem de Vries,ihhQfvCnfd39,21,560,21
+381,Sanne Visser,S9Zxa6igirrj,21,560,21
+382,Anouk Hendriks,sKGjdGIynlwF,21,560,21
+383,Jan de Vries,fEM1exRGhpNv,21,560,21
+384,Fleur Bakker,7HvqIMBE8FIW,21,560,21
+385,Daan Bos,h3PwF4n08GL5,21,560,21
+386,Lotte Meijer,SIHO9XybKWhA,21,560,21
+387,Iris Vos,fjbPeT9TSUda,21,560,21
+388,Pieter Visser,a5lFTFbJLsr6,21,560,21
+389,Jesse Meijer,UTAYZKCbYWIw,21,560,21
+390,Emma Bos,dW08EttwiFt6,21,560,21
+391,Lars de Vries,LOg2HZv8Y9yv,21,560,21
+392,Sophie de Boer,vBAC3k1MFWt0,21,560,21
+393,Sanne de Groot,ReHwxDNsl1Vp,21,560,21
+394,Pieter Mulder,EC3wIhWZVVVq,21,560,21
+395,Eva Bakker,oh1r2BKXcBYv,21,560,21
+396,Sophie de Boer,chI3ZjJ9bqMm,21,560,21
+397,Iris de Groot,WPy6agG893Gp,21,560,21
+398,Lotte van Dijk,Y5SRPMZJLb4e,21,560,21
+399,Jesse van den Berg,uVEw6bycihuB,21,560,21
+400,Jesse de Boer,DWt0IOHA2zcH,21,560,21
+401,Bram Mulder,ULAZrJoTzM8U,21,560,21
+402,Sanne de Groot,UBh7rH3zcWVE,21,560,21
+403,Noor de Groot,xTuEH1k6eFuj,21,560,21
+404,Fleur Smit,UkvNWnlBO1Jk,21,560,21
+405,Pieter Vos,1vZYeDetzvdO,21,560,21
+406,Sanne Vos,0QUzkkQVcEoy,21,560,21
+407,Julia Bakker,Bu0PUHpKaKof,21,560,21
+408,Pieter de Vries,sdcdJqSTY3JW,21,560,21
+409,Daan Bos,jTodEXsmk3bJ,21,560,21
+410,Jan Mulder,LAyAFOAckDlq,21,560,21
+411,Iris van Dijk,mL16ftgH4p7f,21,560,21
+412,Jesse Dekker,gle70NS0AQIf,21,560,21
+413,Sanne Vos,PloMyIR2YlwI,21,560,21
+414,Julia Vos,EpyBWLdRCUpH,21,560,21
+415,Sophie Mulder,qkfGGlxdP8Pu,21,560,21
+416,Jan de Groot,hYhNOxPOGp42,21,560,21
+417,Eva Smit,WBqonoZAy2ec,21,560,21
+418,Jan Bakker,RExbar2C6rFF,21,560,21
+419,Sem van den Berg,Ts7RIGh5jxVI,21,560,21
+420,Sanne Hendriks,L9eioyYZSWyP,21,560,21
+421,Julia Jansen,R7CMKM0BXNAR,21,560,21
+422,Sanne Bakker,Czk58pREKHCM,21,560,21
+423,Pieter Jansen,HCrDWsfJhtSy,21,560,21
+424,Julia Peters,i0NbAGWJd6bN,21,560,21
+425,Bram Jansen,BY7gc6wQsZ5w,21,560,21
+426,Daan Visser,BYOI9Dq2t0lL,21,560,21
+427,Pieter van den Berg,bt6zxG3az1P1,21,560,21
+428,Lotte de Groot,jtO95Z24LoPM,21,560,21
+429,Sem Dekker,VDhv9UtzE9QH,21,560,21
+430,Bram van den Berg,z2eH7p5p39kb,21,560,21
+431,Milan Peters,65QXjHkDArI7,21,560,21
+432,Bram Mulder,sfOUkDp55pLj,21,560,21
+433,Iris Bos,eFZtDtbgfOP6,21,560,21
+434,Iris van Dijk,L3nWA0I6qY4I,21,560,21
+435,Noor Bakker,xVFapIy1wb1k,21,560,21
+436,Pieter Bakker,dmHgLj2nF2pc,21,560,21
+437,Iris de Boer,RC9tOhsbdzbu,21,560,21
+438,Daan van Dijk,tgylLqPBZPf3,21,560,21
+439,Bram Vos,QpeJO0MxPKWM,21,560,21
+440,Milan Peters,z432Ac1kmrk8,21,560,21
+441,Sanne Bos,YGILIH5hGWyw,21,560,21
+442,Julia Bos,qeny2kr7LkYl,21,560,21
+443,Sem van Dijk,9HXcjSISGIc2,21,560,21
+444,Sem de Boer,89SYZHqjXypQ,21,560,21
+445,Fleur de Groot,Q3Tld8IiNSFZ,21,560,21
+446,Jan Meijer,0MiIqsTyBoSo,21,560,21
+447,Julia Bakker,eoTQM01RcxMa,21,560,21
+448,Lars Mulder,TxM6yWF7rivy,21,560,21
+449,Jan Bos,c8Pikwf7DbXj,21,560,21
+450,Lars de Groot,2dGCSVSmcHj5,21,560,21
+451,Anouk van den Berg,wbmmeXd1XnS9,21,560,21
+452,Jan van Dijk,FIvHt6HVvBzH,21,560,21
+453,Thijs van den Berg,KWUgSUQTtuZp,21,560,21
+454,Lars van den Berg,JhU0RFZtLbhb,21,560,21
+455,Emma de Vries,k0mFVgnFD9Rs,21,560,21
+456,Milan Dekker,Uwx7m7j50PdP,21,560,21
+457,Ruben Smit,oASX4ScjnQaD,21,560,21
+458,Daan de Vries,WW0sgmNRUkdC,21,560,21
+459,Jan van den Berg,Xo3ovRqvEhpV,21,560,21
+460,Jesse Hendriks,81XAjMdQKYyS,21,560,21
+461,Anouk de Groot,7iZMzyMECgLm,21,560,21
+462,Sem Bos,eWJMD7D6lnhK,21,560,21
+463,Eva Jansen,wC0EkaYVMiKJ,21,560,21
+464,Sem van den Berg,48iVRRFGsQX7,21,560,21
+465,Julia van den Berg,8sng3FrcChiI,21,560,21
+466,Thijs de Vries,JhAIvRP1RosV,21,560,21
+467,Eva Jansen,UQ7DNqZYCKaO,21,560,21
+468,Daan Bos,y7Z6i9RWSQ2T,21,560,21
+469,Emma Mulder,6JJA6pwJKn2C,21,560,21
+470,Lotte Meijer,v9ColsWE6g40,21,560,21
+471,Lotte Peters,bmqOWppu4bYS,21,560,21
+472,Thijs Meijer,FxsnQ7K7xUxg,21,560,21
+473,Bram van Dijk,7YnHfeZuqU1I,21,560,21
+474,Noor Dekker,tBuT5BMoJDP5,21,560,21
+475,Bram Bos,STzYA5E1lMHS,21,560,21
+476,Bram Peters,vxqThPA5cppY,21,560,21
+477,Bram van den Berg,HPwdha6mzrf0,21,560,21
+478,Sanne Jansen,8m5kBubPdQfB,21,560,21
+479,Daan van den Berg,FxMR5HO1aBDA,21,560,21
+480,Bram Bakker,2A4Dd9NSAilz,21,560,21
+481,Julia de Groot,GMMZMljhYr2T,21,560,21
+482,Emma Mulder,ByPlpdrGNfRp,21,560,21
+483,Lotte de Boer,0nfBQaVyLGvB,21,560,21
+484,Anouk Bakker,Lp9Ew3NHloiK,21,560,21
+485,Jesse de Boer,4W1J7JOizGM2,21,560,21
+486,Julia Mulder,3hhKiquLehkQ,21,560,21
+487,Lars Visser,KS5FqvhKxWDY,21,560,21
+488,Iris Meijer,EDdau9Mue3Iu,21,560,21
+489,Ruben de Groot,GomOz7Btt0BV,21,560,21
+490,Jesse Jansen,TWGmpeOcg2nO,21,560,21
+491,Thijs Bakker,ykzBX0qt6SNb,21,560,21
+492,Jesse de Boer,lJe7hIa90ZgV,21,560,21
+493,Jan Visser,7j7TuCVy2hej,21,560,21
+494,Iris Dekker,XfplAy96nyhP,21,560,21
+495,Anouk Jansen,MnD5UFrqFRa6,21,560,21
+496,Thijs Hendriks,M5QJTVr3Fifh,21,560,21
+497,Sem van den Berg,NnIv4AQ6jOCL,21,560,21
+498,Jan Meijer,nsSIfVcUIv14,21,560,21
+499,Lotte Visser,LNglR7WXl3Ah,21,560,21
+500,Noor Peters,Y0j7rKHrvmdR,21,560,21
+501,Kapsalon Vos,1zPNn8s2c83V,45,0,21
+502,Café de Boer,Yggme7MbfHzb,45,0,21
+503,Drukkerij de Boer,3O4R3QYKO6Gr,45,0,21
+504,Installatiebedrijf Meijer,uwgVGcaR9Cs5,45,0,21
+505,Drukkerij van den Berg,pIOl187FrkcV,45,0,21
+506,Café Meijer,IZhPy7KYA8ol,45,0,21
+507,Bloemist Bos,5kYyBfhMK6kQ,45,0,21
+508,Kapsalon Meijer,Ob4c18AwrobW,45,0,21
+509,Fysiotherapie van Dijk,HWRMYdib6nWB,45,0,21
+510,Installatiebedrijf de Groot,Aox9kxaLSBAj,45,0,21
+511,Drukkerij Bos,d1f37jQC94Ao,45,0,21
+512,Garage Vos,0RMJMPuWwIdm,45,0,21
+513,Garage Bos,QjPrgSPOghc8,45,0,21
+514,Installatiebedrijf van den Berg,UtRuxUwFjUtL,45,0,21
+515,Bakkerij van Dijk,XEBco98VeFej,45,0,21
+516,Bakkerij Mulder,SC7sTP7nEQ58,45,0,21
+517,Kapsalon Hendriks,39h307MDw2Yc,45,0,21
+518,Garage Visser,71BYEhrtj5xl,45,0,21
+519,Bakkerij Bakker,lzHxEmD9pUoK,45,0,21
+520,Installatiebedrijf Meijer,LyK3wbGldFAq,45,0,21
+521,Garage de Vries,FdJVIriZQCTf,45,0,21
+522,Installatiebedrijf Hendriks,faHcFCFmTXEv,45,0,21
+523,Installatiebedrijf Visser,3wznZzb7VXQg,45,0,21
+524,Fysiotherapie Bakker,b0o0SHImLsSF,45,0,21
+525,Garage Bos,JuIXpPsTzDJJ,45,0,21
+526,Kapsalon van Dijk,fzGgserBwLbD,45,0,21
+527,Garage Meijer,gti5mNSMZDxQ,45,0,21
+528,Café Mulder,Y2GDVmrvA1IZ,45,0,21
+529,Fysiotherapie van Dijk,8ciLMuXDnWtg,45,0,21
+530,Installatiebedrijf Vos,2jx9Bcza86AL,45,0,21
+531,Fysiotherapie Smit,DlNDIKBHbQWU,45,0,21
+532,Installatiebedrijf Hendriks,AxRkdcJEkSYk,45,0,21
+533,Drukkerij Dekker,qnTafxkAAwnP,45,0,21
+534,Drukkerij Smit,kazwnwwIlUmA,45,0,21
+535,Café van Dijk,8sVFbEmZJpKz,45,0,21
+536,Bloemist Meijer,ZXn8B9Ryf6TT,45,0,21
+537,Café van den Berg,c8V6xW0RbOw9,45,0,21
+538,Bakkerij Jansen,Lk8CdjwM6djZ,45,0,21
+539,Bakkerij de Groot,PXgA9EfvrFYp,45,0,21
+540,Fysiotherapie Peters,0IXkoyef9Mk0,45,0,21
+541,Kapsalon van Dijk,AN2o1iYTyGHu,45,0,21
+542,Bloemist Meijer,hefRHwNA9FHS,45,0,21
+543,Garage Bos,4RMtVaLM3ozO,45,0,21
+544,Bloemist Visser,7nWR66BnI6Ne,45,0,21
+545,Installatiebedrijf Bakker,oeiDAszGN0Ee,45,0,21
+546,Café van den Berg,sv5P7toLWcT4,45,0,21
+547,Café Peters,Mq0Xow38AaNU,45,0,21
+548,Garage Meijer,rrJqT6V60bxj,45,0,21
+549,Fysiotherapie de Vries,cEoCXAXRFkzn,45,0,21
+550,Bloemist de Boer,vl6yLYOKOmF1,45,0,21
+551,Bakkerij Dekker,SAtxoTwhPIl5,45,0,21
+552,Garage Smit,nzWJ5tGQAP4e,45,0,21
+553,Garage de Boer,uaXSlMksBKhY,45,0,21
+554,Drukkerij Hendriks,lda20u90V4ue,45,0,21
+555,Installatiebedrijf de Boer,He2cygAW29dW,45,0,21
+556,Installatiebedrijf de Groot,BFnZxdkhUtr3,45,0,21
+557,Garage de Groot,99v8kLwz3lU2,45,0,21
+558,Fysiotherapie Peters,vhZ790rsGkBr,45,0,21
+559,Drukkerij Vos,Ho1O0c8T8hfy,45,0,21
+560,Installatiebedrijf van den Berg,VRGOTUPYvf1x,45,0,21
+561,Fysiotherapie de Groot,OlHPTDjgbIFX,45,0,21
+562,Kapsalon Smit,VyX6cHZ1P0i2,45,0,21
+563,Bakkerij van den Berg,dUaJEgwzzi7j,45,0,21
+564,Kapsalon Meijer,kKnXt0Z6OkUK,45,0,21
+565,Bloemist Mulder,SPIGhI8TuQXz,45,0,21
+566,Garage Smit,iieoAudqUiiP,45,0,21
+567,Kapsalon Peters,JvmorVbuhRUg,45,0,21
+568,Kapsalon Bakker,kiV5hH3hQFkp,45,0,21
+569,Café Visser,ayj0BlntTSwX,45,0,21
+570,Installatiebedrijf van Dijk,r4cHBEPKrpH3,45,0,21
+571,Kapsalon Bakker,JSIQ1wjic2ub,45,0,21
+572,Garage Smit,dgpxIMpHhrPb,45,0,21
+573,Café Jansen,Q3JiJUePhN0y,45,0,21
+574,Drukkerij van den Berg,rDnLRNT7E9Rp,45,0,21
+575,Café Visser,x0ApoXFBksQz,45,0,21
+576,Café van Dijk,uX1ZGHCwQSof,45,0,21
+577,Drukkerij van den Berg,vR4BbsLKgQxK,45,0,21
+578,Café Dekker,opWGFIEBs2lo,45,0,21
+579,Fysiotherapie Meijer,fkhUIccheJ14,45,0,21
+580,Drukkerij de Groot,XbNqopOPvcjz,45,0,21
+581,Installatiebedrijf Vos,uWgy6jdVnzq1,45,0,21
+582,Café Bakker,1Wt9uCuPKMjU,45,0,21
+583,Bakkerij Bakker,K6s3A4WN0JV2,45,0,21
+584,Fysiotherapie Meijer,TKRe6OSHdOr9,45,0,21
+585,Installatiebedrijf Vos,kHxSDI96xOyS,45,0,21
+586,Bakkerij de Vries,BwL46853iCv7,45,0,21
+587,Garage Jansen,DRlGboMwIO6t,45,0,21
+588,Garage Smit,db8yi2YftA9o,45,0,21
+589,Café Dekker,7BbVgR1WlQaZ,45,0,21
+590,Bakkerij Bakker,gc2vZu5Y9ipM,45,0,21
+591,Drukkerij van Dijk,r5Id97T0HhoG,45,0,21
+592,Drukkerij de Boer,OG7jr5sYpUIt,45,0,21
+593,Bloemist Jansen,IInIHxzpOe3f,45,0,21
+594,Café Visser,kg3QrgDW4NTz,45,0,21
+595,Fysiotherapie Jansen,9CHD97UCjXYY,45,0,21
+596,Garage Bakker,RijSjkzaqfqR,45,0,21
+597,Fysiotherapie de Vries,hyRd1CZykqr3,45,0,21
+598,Fysiotherapie de Boer,bCMPlNFI0Sw1,45,0,21
+599,Installatiebedrijf van Dijk,3sJhwhOc6i8b,45,0,21
+600,Fysiotherapie Dekker,g1OgUhbiUnqD,45,0,21
+601,Kapsalon Bakker,Ac8WtrCHdgW0,45,0,21
+602,Kapsalon van den Berg,Op6Hv4CScIof,45,0,21
+603,Café Bakker,sWXFlPhiAIfZ,45,0,21
+604,Bloemist Bos,UHfWA3eBUon5,45,0,21
+605,Installatiebedrijf Bakker,V3WjhAWyZ0g6,45,0,21
+606,Bakkerij Bakker,aeqDhrLzk7dU,45,0,21
+607,Drukkerij Peters,pHTFOMJbmxWQ,45,0,21
+608,Drukkerij Vos,pXXFGNV33ROU,45,0,21
+609,Bloemist de Boer,0Wv7ElVEHvQD,45,0,21
+610,Bloemist Mulder,PZsRH0dePypj,45,0,21
+611,Garage Vos,OTgNnK1P02Fe,45,0,21
+612,Bloemist Dekker,bpyNEuXoiuGO,45,0,21
+613,Installatiebedrijf Dekker,O0Ab45kf7W1i,45,0,21
+614,Bakkerij Meijer,KwHV7Ocbjtoo,45,0,21
+615,Café Meijer,BCOBbB8SOHhA,45,0,21
+616,Garage de Groot,lfDsjYE5ecnP,45,0,21
+617,Drukkerij Smit,8NNXRrz3vLPp,45,0,21
+618,Bakkerij Hendriks,qM3ytWJyf5Bb,45,0,21
+619,Garage Mulder,C6fyLdh26Qpc,45,0,21
+620,Fysiotherapie van Dijk,NVW0TYT1jsLa,45,0,21
+621,Installatiebedrijf van Dijk,Uun9wsqwuVMO,45,0,21
+622,Drukkerij de Vries,QFg8duIrG0nZ,45,0,21
+623,Fysiotherapie de Groot,RsFHBVi6fGj3,45,0,21
+624,Installatiebedrijf de Boer,moNc9wPCwSkM,45,0,21
+625,Drukkerij de Boer,bopsjoAILiJJ,45,0,21
+626,Fysiotherapie van Dijk,t5RKZNdQlIjW,45,0,21
+627,Café van Dijk,xS6Z9YSXwGts,45,0,21
+628,Installatiebedrijf de Groot,HlVME7ZfrirG,45,0,21
+629,Kapsalon de Vries,fJVtvL5g5pG7,45,0,21
+630,Installatiebedrijf Visser,35FzcPN08eaX,45,0,21
+631,Fysiotherapie Hendriks,PKX2yQl70jFw,45,0,21
+632,Garage Vos,Bo8pHTIM06tE,45,0,21
+633,Fysiotherapie Meijer,suFFT9c8NeQd,45,0,21
+634,Café Vos,ehLRdy53EdKE,45,0,21
+635,Bloemist Visser,qb3Rfh3yapI0,45,0,21
+636,Café Smit,LjChmYujlRdQ,45,0,21
+637,Garage Visser,9ZyJirxY1ZFO,45,0,21
+638,Garage Visser,GFptinkXgdjg,45,0,21
+639,Bloemist Peters,p1tuOamOWkuz,45,0,21
+640,Bakkerij Bos,PHPYAuhf8ht1,45,0,21
+641,Installatiebedrijf van den Berg,GulgCHvC916X,45,0,21
+642,Fysiotherapie Mulder,MqlhJDu5ZWgg,45,0,21
+643,Café Bos,u4j61kVAfI4p,45,0,21
+644,Fysiotherapie Mulder,flz4o9xZ1B43,45,0,21
+645,Installatiebedrijf Vos,kU4NXfa4QPfe,45,0,21
+646,Fysiotherapie Meijer,j6B4TFCECauT,45,0,21
+647,Bloemist Meijer,kgrhZTezVx62,45,0,21
+648,Fysiotherapie Mulder,JYW48n4q3XwY,45,0,21
+649,Fysiotherapie de Boer,BDniqKdNLllp,45,0,21
+650,Kapsalon Bakker,HVdtzxG9zTdX,45,0,21
+651,Fysiotherapie de Vries,pPQF863x43XY,45,0,21
+652,Drukkerij van den Berg,KoFUg1myXHI4,45,0,21
+653,Drukkerij Mulder,GBcKYERlZp8U,45,0,21
+654,Fysiotherapie Peters,3sstbP49XNBb,45,0,21
+655,Drukkerij de Boer,scgFC2ao2sPg,45,0,21
+656,Bakkerij van Dijk,pYqxEWAp2yUW,45,0,21
+657,Installatiebedrijf Dekker,2ovSAmVMNlwE,45,0,21
+658,Café Bos,pIdCzfuNRERz,45,0,21
+659,Kapsalon Peters,dGguSs1zR4w1,45,0,21
+660,Drukkerij Mulder,iwM9HqZA5njN,45,0,21
+661,Drukkerij Meijer,bSnBqbMNQEHZ,45,0,21
+662,Bakkerij Bos,19APTmpBbbkZ,45,0,21
+663,Fysiotherapie van den Berg,VYhaNlKyeQoy,45,0,21
+664,Bakkerij Mulder,TUC7IDmR3Gve,45,0,21
+665,Fysiotherapie Bakker,XqsvHlo7NzHe,45,0,21
+666,Café van den Berg,J4md6wT09w91,45,0,21
+667,Bloemist de Boer,CVEiaVTmHxxs,45,0,21
+668,Drukkerij de Vries,0KVIyyNvGo5A,45,0,21
+669,Bakkerij de Groot,lAPPDPTPfUVO,45,0,21
+670,Garage Dekker,80dsJ2xBSSH2,45,0,21
+671,Bakkerij Jansen,nt2s8OPUUL8X,45,0,21
+672,Bakkerij Bos,dB6cY3atZLof,45,0,21
+673,Bloemist Bakker,Pb4z6UuIcNlg,45,0,21
+674,Kapsalon Meijer,U5VPhwryRJa3,45,0,21
+675,Kapsalon Peters,98Zc9ZwxG93z,45,0,21
+676,Café Hendriks,YkMJ5Ji7C6km,45,0,21
+677,Bakkerij Smit,fWSJlbh2Sb2E,45,0,21
+678,Garage Visser,s3zK9i2bWyoN,45,0,21
+679,Fysiotherapie de Boer,DNM9jbgNI1Ny,45,0,21
+680,Kapsalon Mulder,Uw7CscDwPqxJ,45,0,21
+681,Bakkerij Bakker,weRFgDVZE0hl,45,0,21
+682,Bloemist Peters,u2rll2yXl2E6,45,0,21
+683,Bloemist Mulder,FOOmAYpsyUfh,45,0,21
+684,Bakkerij van Dijk,a8enTqcorR4n,45,0,21
+685,Drukkerij Smit,wjh69BITHTLB,45,0,21
+686,Kapsalon de Vries,i7UcILnskF4l,45,0,21
+687,Garage de Vries,a5AkiBM8ucEH,45,0,21
+688,Fysiotherapie de Boer,stuxB3rZNp7n,45,0,21
+689,Garage Dekker,MHOVH6kuCdpx,45,0,21
+690,Drukkerij Hendriks,WTORPUGyi3mX,45,0,21
+691,Kapsalon Meijer,rtUo6UyrUpqq,45,0,21
+692,Bakkerij Hendriks,vwg8oKLGjJpZ,45,0,21
+693,Bakkerij Bos,85HhFdVKGZru,45,0,21
+694,Installatiebedrijf de Boer,BZW9961dUgiZ,45,0,21
+695,Drukkerij Bos,hDfX3bLyMy1r,45,0,21
+696,Drukkerij Bakker,aQWMS19LuMFx,45,0,21
+697,Café Visser,TOkKkHCmbMmh,45,0,21
+698,Bakkerij Meijer,RsSmPOLO4OjY,45,0,21
+699,Bloemist Hendriks,qXYqgX2DOg7E,45,0,21
+700,Bloemist van den Berg,7fmmKT0guWMo,45,0,21
+701,Bakkerij Smit,7CuMDi7Thngr,45,0,21
+702,Bloemist Smit,r5iAFCBO9Flj,45,0,21
+703,Fysiotherapie Smit,9lkWVPfZUyaC,45,0,21
+704,Kapsalon de Groot,FMIlUlTDqXlA,45,0,21
+705,Bloemist Bos,hvVOd19OrnWm,45,0,21
+706,Café de Vries,4XQkrDF4KWEq,45,0,21
+707,Kapsalon Mulder,OUYSZ7whEtNd,45,0,21
+708,Café Mulder,P190yOB3xauE,45,0,21
+709,Drukkerij Vos,SB33w44otB1i,45,0,21
+710,Bakkerij de Vries,AHBATVI7ftBz,45,0,21
+711,Bloemist de Boer,eB9eWdvB5hUa,45,0,21
+712,Kapsalon Bakker,qSzgw6Bx9pXR,45,0,21
+713,Garage Peters,S8Yl1qvWD9ow,45,0,21
+714,Drukkerij de Vries,Y7fdymO2AStF,45,0,21
+715,Garage de Boer,J1jQQlAn0Hwy,45,0,21
+716,Bloemist Peters,VJwvfTW30Lmq,45,0,21
+717,Fysiotherapie Smit,EV3t3Ijbqu9s,45,0,21
+718,Bloemist Bakker,qUtVDTesfHc1,45,0,21
+719,Bloemist Bos,gz3UE904LT9e,45,0,21
+720,Kapsalon Bakker,9byHwSl6Vwnx,45,0,21
+721,Drukkerij Hendriks,4glv2ADv73cK,45,0,21
+722,Drukkerij Dekker,v6ldc9bboQqZ,45,0,21
+723,Café Smit,F3tC7mpakkdx,45,0,21
+724,Drukkerij Smit,rF2EfeksBV2r,45,0,21
+725,Fysiotherapie de Vries,pwLQy3XOVArs,45,0,21
+726,Café Hendriks,zEeRttaUsw9t,45,0,21
+727,Fysiotherapie de Vries,KNbocSvSzAKM,45,0,21
+728,Fysiotherapie Meijer,mTtDzgYweL4a,45,0,21
+729,Bakkerij de Vries,0B4DpMQ54jdx,45,0,21
+730,Café Bakker,zAvRWLzbKr5c,45,0,21
+731,Kapsalon de Vries,5cpjQEHGO6UX,45,0,21
+732,Kapsalon Mulder,h2NhtomXUIIH,45,0,21
+733,Kapsalon van den Berg,WlH9psK3s998,45,0,21
+734,Café Mulder,XE1KZMgrhOkX,45,0,21
+735,Café van Dijk,0YdMHtaydJFh,45,0,21
+736,Bakkerij Vos,grDY3AjCuvRX,45,0,21
+737,Kapsalon de Boer,QeKWSNNb9c8i,45,0,21
+738,Kapsalon de Boer,GlqKJlGXhK0E,45,0,21
+739,Drukkerij de Groot,DwTDNsLGvLsm,45,0,21
+740,Fysiotherapie Jansen,axJSlqIDCwlS,45,0,21
+741,Installatiebedrijf Meijer,sx9ISVyUaeec,45,0,21
+742,Drukkerij Meijer,MTGJDWSExhVd,45,0,21
+743,Bloemist Bos,x3wEk4qgDLr5,45,0,21
+744,Installatiebedrijf Smit,7Hwoy67EZlmH,45,0,21
+745,Bloemist Peters,OPoC3NVZZKEP,45,0,21
+746,Drukkerij Smit,PqrxTDNygFLh,45,0,21
+747,Bakkerij de Boer,YjQOp3d12pPB,45,0,21
+748,Bakkerij de Boer,5YHgu0RCPX74,45,0,21
+749,Kapsalon Visser,owqiGdIbApxx,45,0,21
+750,Fysiotherapie Visser,93ZrFeviNgWS,45,0,21

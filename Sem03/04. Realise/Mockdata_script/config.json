@@ -1,15 +1,17 @@
 {
-    "_uitleg_klantgroepen": {
-        "1": "Kleinverbruik Stad: Huishoudens in stedelijk gebied met gemiddeld hoger verbruik en hogere netbeheerkosten.",
-        "2": "Kleinverbruik Dorp: Huishoudens in dorps/landelijk gebied met net afwijkende netbeheerkosten.",
-        "3": "MKB / Zakelijk: Kleinzakelijke verbruikers met hogere netbeheerkosten en geen vermindering energiebelasting."
+    "_uitleg_klantprofielen": {
+        "1": "Kleinverbruik Stad: Huishoudens in stedelijk gebied met hogere netbeheerkosten.",
+        "2": "Kleinverbruik Dorp: Huishoudens in dorps/landelijk gebied met net afwijkende netbeheerkosten en iets hoger verbruik.",
+        "3": "MKB / Zakelijk: Kleinzakelijke verbruikers met hoog verbruik, hogere netbeheerkosten en geen vermindering energiebelasting."
     },
     "output_dir": "data_output",
     "format": "csv",
-    "start_jaar": 2023,
-    "eind_jaar": 2025,
-    "klantgroepen": [
-        1
+    "start_jaar": 2024,
+    "eind_jaar": 2026,
+    "klantprofielen": [
+        1,
+        2,
+        3
     ],
-    "n_klanten": 200
+    "n_klanten": 250
 }

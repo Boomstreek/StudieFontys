@@ -38,3 +38,15 @@ Het gaat het om hoofdstuk 5 paragraaf 2.
 **Antwoord:**
 
 _Wat heb ik ermee gedaan?_
+
+---
+**03-11-2026**
+**Van:** Constanze & Wilrik
+UX dashboard, onderbouw je keuze. Hoeft niet lang te zijn
+---
+**03-11-2026**
+**Van:** Constanze & Wilrik
+We zijn geen groep, we moeten 1 ding opleveren. Hoe maken wij daar 1 verhaal van.
+
+We lopen veels te ver achter, we moeten echt aan de bak.
+---

@@ -3,7 +3,7 @@
 title: ERD Mockdata voor Methode 1
 ---
 erDiagram
-
+	
 	COMMODITY {
 	int commodity_id PK
 	string naam
@@ -16,16 +16,17 @@ erDiagram
         int looptijd_maanden
     }
     
-    KLANTGROEP {
-        int klantgroep_id PK
+    KLANT {
+        int klant_id PK
         string naam
+        string wachtwoord
         int netbeheerkosten
         int vermindering_energiebelasting
         int btw_percentage
     }
     
     KLANTVERBRUIK {
-        int klantgroep_id FK
+        int klant_id FK
         int commodity_id FK
         int contractvorm_id FK
         int jaar
@@ -44,7 +45,7 @@ erDiagram
     }
     
 	%% Verbindingen voor KLANTVERBRUIK 
-	KLANTGROEP ||--|{ KLANTVERBRUIK : "heeft" 
+	KLANT ||--|{ KLANTVERBRUIK : "heeft" 
 	COMMODITY ||--|{ KLANTVERBRUIK : "wordt verbruikt in" 
 	CONTRACTVORM ||--|{ KLANTVERBRUIK : "is vastgelegd in" 
 	
@@ -52,3 +53,9 @@ erDiagram
 	COMMODITY ||--|{ INKOOPPRIJS : "heeft" 
 	CONTRACTVORM ||--|{ INKOOPPRIJS : "bepaalt"
 ```
+
+METADATA
+	Auteur: Bram Wieringa
+	Versie 0.12
+	Datum 03-11-2026
+	DEPENDENCIES: Korte werkbare conclusie welke data hebben we nodig voor Methode 1.pdf"
