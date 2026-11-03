@@ -2,7 +2,6 @@
 ---
 title: ERD Mockdata voor Methode 1
 ---
-%%{init: {'theme':'neutral'}}%%
 erDiagram
 
 	COMMODITY {
